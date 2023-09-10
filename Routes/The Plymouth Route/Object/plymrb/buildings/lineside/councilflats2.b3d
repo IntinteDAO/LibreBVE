@@ -1,0 +1,99 @@
+;author=Chris Lees
+;description=Council Flats, Double Length, Alternative Textures
+;copyright=From the BVE Cornwall Plymouth route. © Chris Lees 2013
+;see www.bvecornwall.co.uk
+
+[MeshBuilder]
+Vertex  0 ,  19 ,  50
+Vertex  12 ,  19 ,  50
+Vertex  12 ,  0 ,  50
+Vertex  0 ,  0 ,  50
+Face  0,1,2,3
+Face  3, 2, 1, 0
+
+[Texture]
+Load  councilflats5.png
+Coordinates  0, 0, 0
+Coordinates  1, 1, 0
+Coordinates  2, 1, 1
+Coordinates  3, 0, 1
+Transparent   0, 0, 255
+
+[MeshBuilder]
+Vertex  0 ,  19 ,  0
+Vertex  12 ,  19 ,  0
+Vertex  12 ,  0 ,  0
+Vertex  0 ,  0 ,  0
+Face  0, 1, 2, 3
+Face  3, 2, 1, 0
+
+[Texture]
+Load  councilflats5.png
+Coordinates  0, 0, 0
+Coordinates  1, 1, 0
+Coordinates  2, 1, 1
+Coordinates  3, 0, 1
+Transparent   0, 0, 255
+
+[MeshBuilder]
+Vertex  12 ,  15 ,  50
+Vertex  12 ,  15 ,  0
+Vertex  12 ,  0 ,  0
+Vertex  12 ,  0 ,  50
+Face  0, 1, 2, 3
+Face  3, 2, 1, 0
+
+[Texture]
+Load  councilflats4.png
+Coordinates  0, 0, 0
+Coordinates  1, 2, 0
+Coordinates  2, 2, 1
+Coordinates  3, 0, 1
+
+[MeshBuilder]
+Vertex  0 ,  15 ,  50
+Vertex  0 ,  15 ,  0
+Vertex  0 ,  0 ,  0
+Vertex  0 ,  0 ,  50
+Face  0, 1, 2, 3
+Face  3, 2, 1, 0
+
+[Texture]
+Load  councilflats1.png
+Coordinates  0, 0, 0
+Coordinates  1, 2, 0
+Coordinates  2, 2, 1
+Coordinates  3, 0, 1
+
+[MeshBuilder]
+Vertex  6 ,  19 ,  0 
+Vertex  6 ,  19 ,  50
+Vertex  0 ,  15 ,  50 
+Vertex  0 ,  15 ,  0 
+Face  0, 1, 2, 3
+Face  3, 2, 1, 0
+
+
+[Texture]
+Load  ..\..\common\tiles2.png
+Coordinates  0, 0, 0
+Coordinates  1, 2, 0
+Coordinates  2, 2, 2
+Coordinates  3, 0, 2
+
+
+[MeshBuilder]
+Vertex  6 ,  19 ,  0 
+Vertex  6 ,  19 ,  50
+Vertex  12 ,  15 ,  50
+Vertex  12 ,  15 ,  0 
+Face  0, 1, 2, 3
+Face  3, 2, 1, 0
+
+
+[Texture]
+Load  ..\..\common\tiles2.png
+Coordinates  0, 0, 0
+Coordinates  1, 2, 0
+Coordinates  2, 2, 2
+Coordinates  3, 0, 2

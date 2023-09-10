@@ -1,0 +1,44 @@
+;author=Chris Lees
+;description=Steel Bridge
+;copyright=From the BVE Cornwall Plymouth Route. © 2014
+
+[MeshBuilder]
+Vertex -2.6, -0.3, 0
+Vertex -2.6, -0.3, 25
+Vertex -2.6, 1.5, 25
+Vertex -2.6, 1.5, 0
+Vertex -2.5, -0.3, 0
+Vertex -2.5, -0.3, 25
+Vertex -2.5, 1.5, 25
+Vertex -2.5, 1.5, 0
+Face 0,1,2,3
+Face 6,7,3,2
+Face 7,6,5,4
+Face 0,3,7,4
+Face 5,6,2,1
+Face 4,5,1,0
+
+[Texture]
+Load ..\common\bridge_steel3.png
+Coordinates 0, 0, 1
+Coordinates 1, 10, 1
+Coordinates 2, 10, 0
+Coordinates 3, 0, 0
+Coordinates 4, 0, 1
+Coordinates 5, 10, 1
+Coordinates 6, 10, 0
+Coordinates 7, 0, 0
+
+[MeshBuilder]
+Vertex -2.5, -0.3, -1
+Vertex -2.5, -0.3, 26
+Vertex 0, -0.3, 26
+Vertex 0, -0.3, -1
+Face2 0,1,2,3
+
+[Texture]
+Load grey_steel.png
+Coordinates 0, 0, 1
+Coordinates 1, 10, 1
+Coordinates 2, 10, 0
+Coordinates 3, 0, 0

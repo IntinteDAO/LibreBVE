@@ -1,0 +1,158 @@
+8128, .freeobj 0;99;62
+8150, .railstart 7;8;0;2000, .rail 8;-25;7, .railtype 5;2001, .rail 10;26;6, .railstart 11;-39;6;2000, .freeobj 5;1339, .wall 10;1;37, .wall 11;1;48
+8155, .freeobj 7;18;-0.3;0;180
+8175, .curve -1850;0, .railtype 0;2015, .railtype 5;2015, .railtype 7;2001, .rail 8;-22;5, .rail 10;23;4.5, .rail 11;-36;4, .freeobj 5;5;2;0;8
+8200, .rail 8;-18;3, .rail 7;9.5, .freeobj 7;1339, .railstart 6;9.5;0;2001, .rail 10;20;3, .rail 11;-32;2, .freeobj 7;1113;2.5;-0.5, .freeobj 7;1112;-2.5;-0.5;180, .freeobj 7;1034;4;-0.4
+8210, .freeobj 7;122;4;0;180, .freeobj 7;1110;4;6.45;180
+8225, .rail 8;-14;1, .rail 7;13;0;2008, .rail 6;15.1;0;2004, .rail 10;23.5;2.5, .rail 11;-28;0
+8250, .rail 8;-11;0, .rail 7;16, .rail 6;20;0;2008, .rail 10;27;2, .rail 11;-25, .freeobj 0;606;-8;-1;0;5
+
+
+8275, .freeobj 5;122;4;0;180, .freeobj 5;125;4;6.45;180
+8275.1, .freeobj 5;1030;4;-0.5;-90
+8275, .rail 7;18;0;2010, .rail 6;22;0;2010, .rail 10;29.5;2.5
+8275, .curve 0;0, .railtype 0;2000, .railtype 5;2000, .freeobj 0;303, .freeobj 5;294, .freeobj 7;322
+8285, .freeobj 0;260;-4;1;180, .freeobj 0;260;8;1;180
+8290, .freeobj 0;34;10;1.1;180, .freeobj 0;34;10.5;1.1, .freeobj 0;34;-5.5;1.1, .freeobj 0;601;-10;-10
+8300, .rail 7;19, .rail 6;23;0;2010, .rail 10;35;2.5, .rail 11;-27.5, .form 0;L;0;18, .form 5;R;0;3, .form 7;L;0;14, .wallend 10, .freeobj 0;145;-6;1;180, .freeobj 0;145;10;1
+8305, .freeobj 0;725;1.5, .freeobj 0;264;-4.5;0, .freeobj 0;264;9;0
+8320, .freeobj 0;1647;-8;1;-90
+8325, .railtype 6;2000, .railtype 7;2000, .rail 10;40, .form 0;L;0;18, .form 5;R;0;3, .form 7;L;0;14, .wall 10;1;37, .freeobj 0;350;12;1.1;90
+8342, .freeobj 0;350;-8;1.1;-90
+8350, .rail 7;18.6;0;2012, .rail 6;22.4, .form 0;L;0;7, .form 5;R;0;3, .form 7;L;0;14
+8350, .rail 8;-11;0.5, .freeobj 0;145;-6;1;180, .freeobj 0;145;10;1
+8360, .freeobj 0;34;10;1.1;180, .freeobj 0;34;10.5;1.1, .freeobj 0;34;-5.5;1.1
+8375, .rail 7;18;0;2000, .rail 6;22;0;2012, .rail 8;-11;1, .wall 8;0;50, .rail 11;-26, .freeobj 0;304, .freeobj 5;292, .freeobj 7;323
+8385, .freeobj 0;260;-4;1, .freeobj 0;260;8;1
+8390, .SigF 12; 1; -2.5; 0, .Section 0; 2; 4
+8400.1, .freeobj 0;1030;-4;-0.5;90
+8400, .rail 6;21;0;2004, .rail 7;17;0;2000, .rail 8;-12;1.5, .rail 11;-27;0.5
+8410, .freeobj 0;1646;-4.8;-0.4;-90
+8415, .freeobj 5;1031;4;-0.8
+8417, .freeobj 5;1030;4;-0.8;90
+8425, .curve 1850;0, .railtype 0;2013, .railtype 5;2013, .freeobj 7;5, .rail 6;18;0;2001, .rail 7;16;0;2001, .rail 8;-13;2, .rail 11;-28;1, .railstart 12;22;-1;2001, .dike 12;-1;21
+
+8450, .rail 7;15;0;2000, .rail 6;15, .rail 8;-14;2.5, .rail 11;-29;1.5, .rail 12;22;1, .freeobj 7;1113;-2.5;-0.5;180
+8470, .freeobj 7;122;4;0, .freeobj 7;1110;4;6.45
+8475, .rail 7;14;0;2001, .rail 6;14, .rail 8;-15;3, .freeobj 7;1339, .rail 11;-30;2, .rail 12;22;2, .railstart 13;30;2;2001, .dike 12;-1;20, .dike 13;-1;21, .freeobj 7;1112;2.5;-0.5
+8500, .rail 7;13;0;2011, .rail 6;14.96;0;2006, .rail 8;-16;3.5, .rail 11;-31;2.5, .rail 13;30;2.45
+8525, .rail 7;12;0;2006, .rail 6;16;0;2008, .rail 8;-17;4, .rail 11;-32;3, .rail 10;40;2.5
+8545, .freeobj 6;18;0.35, .freeobj 0;602;-8;-1;10;-5
+8460, .freeobj 7;1034;4;-0.4
+8550, .rail 7;9.5;0;2000, .railend 6;15;0;2001, .rail 8;-18;4.5, .rail 10;40;5, .wallend 11, .railend 11;-33;3.5, .rail 13;30;4.0
+8575, .curve 0;0, .railtype 0;2000, .railstart 6;-47;4;2001, .railend 7;6, .railstart 7;-30;0;1020, .railend 8, .wallend 8, .dikeend 8, .railtype 5;2001, .rail 10;45;7, .rail 12;15;2, .dike 13;-1;28, .rail 13;35;6.8
+8575, .wall 6;0;55
+8570, .freeobj 0;726
+8600, .rail 6;-42;3, .rail 7;-22.5, .railend 12;11.7;2, .freeobj 5;1338;0;0;180, .freeobj 5;1338, .dikeend 12, .dike 10;1;18, .wall 10;-1;109, .railend 13, .dikeend 13
+
+8625, .railtype 0;2001, .railtype 5;2000, .rail 6;-38;2, .rail 7;-15, .rail 10;50, .wall 10;-1;100, .freeobj 7;122;-4, .freeobj 7;1110;-4;6.45, .freeobj 0;1031;-4;-0.8
+8625, .freeobj 10;358;0;-0.2;-40, .freeobj 5;1111;0;0;180
+8627, .freeobj 0;1030;-4;-0.8;-90
+8630, .freeobj 5;1651;5;-0.8
+8640, .freeobj 10;358;25;-0.2;-40
+8650, .railtype 0;2000, .rail 6;-31;1, .rail 7;-7.5;0;1021, .rail 10;60, .freeobj 0;1338;0;0;180
+8675, .railtype 0;2001, .rail 6;-25;0, .rail 7;-2.05;0;2001, .rail 10;70;5
+8700, .railtype 0;2000, .rail 6;-20, .railend 7;0, .rail 10;80;3, .freeobj 0;1339;0;0;180, .dikeend 5
+8725, .rail 6;-17, .rail 10;90;0
+8750, .railend 10;100;-5, .wallend 10, .freeobj 0;99;75;-7, .freeobj 0;99;120;-7
+8775, .pitch 0, .wall 0;-1;108, .wall 5;1;108, .freeobj 0;99;75;-10, .freeobj 5;176;0;0;180
+8775, .limit 64.374, .freeobj 0;1230;-3, .freeobj 5;1224;3;0;180
+8800, .railend 6, .wallend 6, .wallend 0, .wallend 5, .freeobj 0;99;75;-13
+8800, .freeobj 0;727
+8825, .freeobj 0;727
+8850, .freeobj 0;727
+
+
+
+8900, .freeobj 0;728
+8950, .freeobj 0;729
+9000, .freeobj 0;729, .Beacon 44000;0;1;0
+9050, .freeobj 0;730
+9075, .freeobj 0;727
+9100, .freeobj 0;727
+9125, .freeobj 0;727
+
+;;GROUND UNDERNEATH WESTON MILL VIADUCT
+8700, .railstart 4;4;0;2001, .dike 4;0;18
+8725, .rail 4;4;-2
+8750, .rail 4;4;-4
+8775, .rail 4;4;-6
+8800, .rail 4;4;-8
+8825, .rail 4;4;-10
+8850, .rail 4;4;-12
+8875, .rail 4;4;-14, .dike 4;-1;22
+8900, .dike 4;-1;23
+
+;;GROUND AFTER WESTON MILL VIADUCT
+9100, .railstart 7;32;-13.5, .dike 7;-1;25
+9125, .rail 7;28, .dike 7;-1;26, .freeobj 7;13;0;-0.5, .freeobj 7;13;10;-0.5, .freeobj 7;13;20;-0.5, .freeobj 7;13;30;-0.5
+9135, .freeobj 7;13;0;-0.5, .freeobj 7;13;10;-0.5, .freeobj 7;13;20;-0.5, .freeobj 7;13;30;-0.5
+9150, .rail 7;25;-12
+9153, .freeobj 7;$Rnd(359;360);10;-0.5;90
+9175, .rail 7;22;-9, .freeobj 7;606;0;-1
+9200, .rail 7;20;-6
+9225, .rail 7;20;-4
+9224, .freeobj 7;$Rnd(359;360);10;-0.5;90
+9250, .freeobj 7;610;3;-0.5
+9275, .freeobj 7;610;9;-0.5
+9300, .dike 7;1;31, .freeobj 7;605;0;-0.5, .freeobj 7;605;10;-0.5, .freeobj 7;605;5;-0.5, .freeobj 7;610;3;-0.5
+9325, .freeobj 7;605;0;-0.5, .freeobj 7;605;10;-0.5, .freeobj 7;605;5;-0.5, .freeobj 7;610;9;-0.5
+9350, .rail 7;24;-2, .freeobj 7;606;-8;-5, .freeobj 7;605;0;-0.5, .freeobj 7;605;10;-0.5, .freeobj 7;605;5;-0.5
+9375, .rail 7;30;0, .dike 7;1;32
+9400, .rail 7;32;2, .dike 7;1;31
+9425, .rail 7;34;4
+9435, .freeobj 7;601;3;-0.5
+9460, .freeobj 7;605;3;-0.5
+9475, .rail 7;36
+9485, .freeobj 7;606;3;-0.5
+9500, .rail 7;38
+9510, .freeobj 7;605;3;-0.5
+9525, .rail 7;40
+9535, .freeobj 7;602;3;-0.5
+9550, .rail 7;42
+9560, .freeobj 7;605;3;-0.5
+9575, .rail 7;44
+9585, .freeobj 7;606;3;-0.5
+9600, .rail 7;46
+9610, .freeobj 7;605;3;-0.5
+9625, .rail 7;48
+9635, .freeobj 7;601;3;-0.5
+9650, .rail 7;50
+9675, .rail 7;52
+9700, .rail 7;54
+9775, .rail 7;55, .dike 7;-1;31
+9800, .rail 7;58, .dike 7;1;31
+9850, .rail 7;56
+9875, .rail 7;52
+9900, .rail 7;49;3
+9925, .rail 7;46;2
+9950, .rail 7;43;1
+9975, .rail 7;40;0
+10000, .rail 7;36
+10025, .rail 7;31
+10050, .rail 7;22
+10075, .rail 7;12, .dike 7;-1;31
+10100, .rail 7;2
+10125, .rail 7;-7
+10150, .rail 7;-14;-2
+10175, .rail 7;-19;-4
+10200, .rail 7;-23;-6
+10225, .dikeend 7, .railend 7;-24.5;-8.7
+
+
+
+9100, .dike 4;-1;24, .railstart 9;-115;-6;1011, .wall 9;1;111, .dike 9;-1;29, .freeobj 9;99
+9125, .railstart 6;10;-14;2001, .dike 4;-1;23, .dike 6;1;26, .railstart 8;60;-12.5;2001, .freeobj 8;362;0;-1.3;90, .rail 9;-82;-4.5;1010, .freeobj 9;99
+9150, .railend 4, .dikeend 4, .rail 6;10;-12, .wall 0;-1;110, .wall 5;1;110, .railtype 8;21, .wall 8;-1;46, .rail 9;-55;-3;1009, .freeobj 9;99
+9175, .pitch 12.048, .rail 6;9;-9, .rail 8;60;-9.4, .wall 0;-1;100, .wall 5;1;100, .wall 8;0;46, .rail 9;-34;-1.5;1008, .dike 9;-1;18, .freeobj 9;99
+9170, .SigF 13;1;0;0, .section 0;2;4
+9175.1, .freeobj 0;1030;-4;-0.5;90
+9200, .rail 6;8;-6, .rail 8;60;-6.2, .wall 8;-1;46, .rail 9;-18.2;-0.5;1007, .wall 9;1;100, .freeobj 9;1035
+9210, .freeobj 0;1242;-2
+9225, .rail 6;8;-2, .rail 8;60;-4, .wallend 8, .rail 9;-8;0
+9240, .freeobj 0;602;30;-5
+9250, .railtype 0;2001, .railend 6;6;-0.01, .wallend 6, .railstart 6;-10;0;2001, .dike 6;0;30, .rail 8;50;-4, .wall 8;1;46, .rail 9;-2.15;0;2001, .railstart 11;0;0;2001, .freeobj 0;601;20;-8;0;10;-10
+9260, .freeobj 0;606;30;-5
+9275, .curve -1400;-5, .rail 8;43;-4, .railtype 5;2012, .rail 6;-14;1, .freeobj 0;1339, .railend 9;0, .wallend 9, .dikeend 9, .freeobj 0;1339;0;0;180.5, .freeobj 0;602;20;-8;0;10;-10
+9300, .curve -700;-10, .rail 6;-18;2, .rail 8;37;-4, .railtype 0;2010, .railtype 5;2001, .railend 11;2
+9325, .pitch 16.949, .railtype 5;2010, .rail 6;-22;3, .rail 8;37;-4, .freeobj 5;1320;0;0;180;0.25

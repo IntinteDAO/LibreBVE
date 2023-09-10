@@ -1,0 +1,4 @@
+[Object]
+States = distlq_arm.b3d
+RotateZFunction = (section != 0) * 0.355398163
+RotateZDamping = 10, 0.5

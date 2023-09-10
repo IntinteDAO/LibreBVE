@@ -1,0 +1,355 @@
+;Description=Composite object for A38 overbridge on LSK approach
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route © 2016
+
+;Abutment L
+[MeshBuilder]
+Vertex -12,-0.5,0
+Vertex -12,3.9,0
+Vertex -3.2,3.9,6.5
+Vertex -3.2,-0.5,6.5
+Vertex -3.2,-0.5,31.5
+Vertex -3.2,3.9,31.5
+Vertex -12,3.9,25
+Vertex -12,0,25
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+
+[Texture]
+Load ..\common\concrete3.png
+Coordinates 0,0,2
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,2
+Coordinates 4,0,2
+Coordinates 5,0,0
+Coordinates 6,1,0
+Coordinates 7,1,2
+
+;Abutment R
+[MeshBuilder]
+Vertex 16,-0.5,20.5
+Vertex 16,3.9,20.5
+Vertex 7.2,3.9,14
+Vertex 7.2,-0.5,14
+Vertex 7.2,-0.5,39
+Vertex 7.2,3.9,39
+Vertex 16,3.9,45.5
+Vertex 16,0,45.5
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[Texture]
+Load ..\common\concrete3.png
+Coordinates 0,0,2
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,2
+Coordinates 4,0,2
+Coordinates 5,0,0
+Coordinates 6,1,0
+Coordinates 7,1,2
+
+;Top Deck Edge L
+[MeshBuilder]
+Vertex -12,3.8,0.5
+Vertex 16,3.8,21
+Vertex 16,3.8,20
+Vertex -12,3.8,-0.5
+Vertex -12,4.5,-0.5
+Vertex 16,4.5,20
+Vertex 16,4.5,21
+Vertex -12,4.5,0.5
+Vertex -12,3.8,0.5
+Vertex 16,3.8,21
+Face 8,7,4,3
+Face 1,2,5,6
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,8,9
+Color 150,150,150
+
+[Texture]
+Load ..\common\concrete3.png
+Coordinates 0,0,7
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,7
+Coordinates 4,0,7
+Coordinates 5,0,0
+Coordinates 6,1,0
+Coordinates 7,1,7
+Coordinates 8,0,7
+Coordinates 9,0,0
+
+;Center of Deck
+[MeshBuilder]
+Vertex -12,3.8,0.5
+Vertex 16,3.8,21
+Vertex 16,3.8,20
+Vertex -12,3.8,-0.5
+Vertex -12,4.5,-0.5
+Vertex 16,4.5,20
+Vertex 16,4.5,21
+Vertex -12,4.5,0.5
+Vertex -12,3.8,0.5
+Vertex 16,3.8,21
+Translate 0,0,12.5
+Face 8,7,4,3
+Face 1,2,5,6
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,8,9
+Color 150,150,150
+
+[Texture]
+Load ..\common\concrete3.png
+Coordinates 0,0,7
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,7
+Coordinates 4,0,7
+Coordinates 5,0,0
+Coordinates 6,1,0
+Coordinates 7,1,7
+Coordinates 8,0,7
+Coordinates 9,0,0
+
+;Top Deck Edge R
+[MeshBuilder]
+Vertex -12,3.8,0.5
+Vertex 16,3.8,21
+Vertex 16,3.8,20
+Vertex -12,3.8,-0.5
+Vertex -12,4.5,-0.5
+Vertex 16,4.5,20
+Vertex 16,4.5,21
+Vertex -12,4.5,0.5
+Vertex -12,3.8,0.5
+Vertex 16,3.8,21
+Translate 0,0,25
+Face 8,7,4,3
+Face 1,2,5,6
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,8,9
+Color 150,150,150
+
+[Texture]
+Load ..\common\concrete3.png
+Coordinates 0,0,7
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,7
+Coordinates 4,0,7
+Coordinates 5,0,0
+Coordinates 6,1,0
+Coordinates 7,1,7
+Coordinates 8,0,7
+Coordinates 9,0,0
+
+;Crash Barrier
+[MeshBuilder]
+;;P1
+Vertex -120,4.0,-75
+Vertex -120,5.1,-75
+Vertex -12,5.1,12.5
+Vertex -12,4.0,12.5
+Vertex 16,4.0,33
+Vertex 16,5.1,33
+Vertex 120,5.1,108
+Vertex 120,4.0,108
+;;P2
+Vertex -120,4.0,-90.3
+Vertex -120,5.1,-90.3
+Vertex -12,5.1,-0.3
+Vertex -12,4.0,-0.3
+Vertex 16,4.0,20.3
+Vertex 16,5.1,20.3
+Vertex 120,5.1,90.3
+Vertex 120,4.0,90.3
+;;P3
+Vertex -120,4.0,-59.8
+Vertex -120,5.1,-59.8
+Vertex -12,5.1,25.2
+Vertex -12,4.0,25.2
+Vertex 16,4.0,45.7
+Vertex 16,5.1,45.7
+Vertex 120,5.1,125.7
+Vertex 120,4.0,125.7
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 4,5,6,7
+
+Face2 8,9,10,11
+Face2 13,12,11,10
+Face2 12,13,14,15
+
+Face2 16,17,18,19
+Face2 21,20,19,18
+Face2 20,21,22,23
+
+[Texture]
+Load armco.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,7,0
+Coordinates 3,7,1
+Coordinates 4,9,1
+Coordinates 5,9,0
+Coordinates 6,2,0
+Coordinates 7,2,1
+
+Coordinates 8,0,1
+Coordinates 9,0,0
+Coordinates 10,7,0
+Coordinates 11,7,1
+Coordinates 12,9,1
+Coordinates 13,9,0
+Coordinates 14,2,0
+Coordinates 15,2,1
+
+Coordinates 16,0,1
+Coordinates 17,0,0
+Coordinates 18,7,0
+Coordinates 19,7,1
+Coordinates 20,9,1
+Coordinates 21,9,0
+Coordinates 22,2,0
+Coordinates 23,2,1
+Transparent 0,0,255
+
+;Grass Bits
+[MeshBuilder]
+;;L
+Vertex -12,4,0.2
+Vertex -120,4,-89.8
+Vertex -120,3.0,-99.8
+Vertex -12,3.0,-9.8
+Vertex -12,4.0,24.5
+Vertex -120,4.0,-60.5
+Vertex -120,3.0,-50.5
+Vertex -12,3.0,34.5
+;;R
+Vertex 16,4.0,20.7
+Vertex 120,4.0,90.7
+Vertex 120,3.0,80.7
+Vertex 16,3.0,10.7
+Vertex 16,4.0,45
+Vertex 120,4.0,125
+Vertex 120,3.0,135
+Vertex 16,3.0,55
+
+;;ENDS
+Vertex -11.5,3,1
+Vertex -11,3,25
+Vertex 15.5,3,21 ,-1,1,0
+Vertex 15.5,3,45 ,-1,1,0
+Face 16,3,0
+Face 4,7,17
+Face 8,11,18
+Face 19,15,12
+
+Face 3,2,1,0
+Face 4,5,6,7
+Face 8,9,10,11
+Face 15,14,13,12
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0,0,5
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,5
+Coordinates 4,0,5
+Coordinates 5,0,0
+Coordinates 6,1,0
+Coordinates 7,1,5
+Coordinates 8,0,5
+Coordinates 9,0,0
+Coordinates 10,1,0
+Coordinates 11,1,5
+Coordinates 12,0,5
+Coordinates 13,0,0
+Coordinates 14,1,0
+Coordinates 15,1,5
+
+Coordinates 16,0.1,4.5
+Coordinates 17,0.1,4.5
+Coordinates 18,0.1,4.5
+Coordinates 19,0.1,4.5
+
+;Bridge Deck
+[MeshBuilder]
+Vertex -12,4.0,0.2
+Vertex 16,4.0,20.7
+Vertex 16,4.0,33
+Vertex -12,4.0,12.5
+
+Vertex -12,4.0,12.5
+Vertex 16,4.0,33
+Vertex 16,4.0,45
+Vertex -12,4.0,24.5
+
+;;Road LR
+Vertex -120,4.0,-77.5
+Vertex -120,4.0,-89.8
+;;Road LF
+Vertex -120,4.0,-60.5
+Vertex -120,4.0,-72.5
+;;Road RR
+Vertex 120,4.0,103
+Vertex 120,4.0,90.7
+;;Road RF
+Vertex 120,4.0,125
+Vertex 120,4.0,113
+
+Face 3,2,1,0
+Face 7,6,5,4
+Face 9,8,3,0
+Face 7,4,11,10
+Face 1,2,12,13
+Face 5,6,14,15
+[Texture]
+Load ..\common\road15.png
+
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+Coordinates 4,1,0
+Coordinates 5,1,1
+Coordinates 6,0,1
+Coordinates 7,0,0
+
+Coordinates 8,0,6
+Coordinates 9,1,6
+Coordinates 10,0,6
+Coordinates 11,1,6
+
+Coordinates 12,0,5
+Coordinates 13,1,5
+Coordinates 14,0,5
+Coordinates 15,1,5
+
+;Bridge Deck Bottom
+[MeshBuilder]
+Vertex -12,3.9,-0.5
+Vertex 16,3.9,20
+Vertex 16,3.9,45
+Vertex -12,3.9,24.5
+Face 0,1,2,3
+Color 100,100,100
+
+[Texture]
+Load ..\common\concrete3.png
+Coordinates 0,0,2
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,2

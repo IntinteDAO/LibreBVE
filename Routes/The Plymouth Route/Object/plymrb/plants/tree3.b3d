@@ -1,0 +1,40 @@
+;Converted from CSV by BVE FILE CONVERTER
+
+;Scaled with BVE File Converter
+;Converted from B3D by BVE FILE CONVERTER
+ 
+;author=Uwe Post
+;description=simple tree 2
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+
+[MeshBuilder]
+Vertex  3 ,  6 , -0.05 
+Vertex  3 , -0.05 , -0.05 
+Vertex -3 , -0.05 , -0.05 
+Vertex -3 ,  6 , -0.05 
+Face2   0,1,2,3
+
+
+[Texture]
+Load  tree2.png
+Coordinates  0,0,0
+Coordinates  1,0,1
+Coordinates  2,1,1
+Coordinates  3,1,0
+Transparent   0, 0, 255
+
+[MeshBuilder]
+Vertex  0.45 ,  6 ,  2.4 
+Vertex  0.45 , -0.05 ,  2.4 
+Vertex  0.45 , -0.05 , -3.6 
+Vertex  0.45 ,  6 , -3.6 
+Face2   0,1,2,3
+
+
+[Texture]
+Load  tree2.png
+Coordinates  0,0,0
+Coordinates  1,0,1
+Coordinates  2,1,1
+Coordinates  3,1,0
+Transparent   0, 0, 255

@@ -1,0 +1,4 @@
+[Object]
+states = w0m_-2m_25m.csv
+RotateYFunction = 3.14159265
+Position = 0,0,25

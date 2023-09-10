@@ -1,0 +1,76 @@
+;author=Chris Lees
+;description=Detached Garage Block red brick #2
+;copyright=From the BVE Cornwall Plymouth route © 2013
+
+[Meshbuilder]
+Vertex 0,0,0
+Vertex 0,3,0
+Vertex 5,3,0
+Vertex 5,0,0
+Face 0,1,2,3
+
+[Texture]
+load gblock_01.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder]
+Vertex 5,0,0
+Vertex 5,3,0
+Vertex 5,2.5,5
+Vertex 5,0,5
+Face 0,1,2,3
+
+[Texture]
+Load ..\..\common\redbrick1.png
+Coordinates 0,0,4
+Coordinates 1,0,0
+Coordinates 2,2,0
+Coordinates 3,2,4
+
+[Meshbuilder]
+Vertex 0,0,0
+Vertex 0,3,0
+Vertex 0,2.5,5
+Vertex 0,0,5
+Face 3,2,1,0
+
+[Texture]
+Load ..\..\common\redbrick1.png
+Coordinates 0,0,4
+Coordinates 1,0,0
+Coordinates 2,2,0
+Coordinates 3,2,4
+
+[Meshbuilder]
+Vertex 0,0,5
+Vertex 0,2.5,5
+Vertex 5,2.5,5
+Vertex 5,0,5
+Face 3,2,1,0
+
+[Texture]
+Load ..\..\common\redbrick1.png
+Coordinates 0,0,4
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,4
+
+[MeshBuilder]
+Cube  2.6,0.1,2.6
+Translate  2.5 ,  2.9 ,  2.2
+Rotate 1,0,0,5.5
+
+[Texture]
+Load  ..\..\common\tarmac.png
+Coordinates  0,4,2
+Coordinates  1,4,0
+Coordinates  2,4,2
+Coordinates  3,0,2
+Coordinates  4,0,0
+Coordinates  5,4,0
+Coordinates  6,4,2
+Coordinates  7,2,0
+

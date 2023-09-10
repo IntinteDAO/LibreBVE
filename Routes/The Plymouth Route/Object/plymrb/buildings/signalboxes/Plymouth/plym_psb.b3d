@@ -1,0 +1,275 @@
+;description=Plymoputh Power Signal Box
+;author=Chris Lees
+;copyright=From the Plymouth- St Austell demo route. © Chris Lees 2011
+
+;Stone Frontage
+[MeshBuilder]
+Vertex -12.5,0,-4.099
+Vertex -12.5,2,-4.099
+Vertex 14.5,2,-4.099
+Vertex 14.5,0,-4.099
+Face 0,1,2,3
+
+[Texture]
+Load ..\..\..\common\greystone1.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,1
+
+;Stone End
+[MeshBuilder]
+Vertex 14.5,0,5.1
+Vertex 14.5,2,5.1
+Vertex 14.5,2,-4.099
+Vertex 14.5,0,-4.099
+Face 3,2,1,0
+
+[Texture]
+Load ..\..\..\common\greystone1.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,2,0
+Coordinates 3,2,1
+
+;Top platform
+[MeshBuilder]
+Vertex 14.5,2,5.1
+Vertex 14.5,2,-4.099
+Vertex 12.8,2,-4.099
+Vertex 12.8,2,5.1
+Face 0,1,2,3
+
+[Texture]
+Load ..\..\..\common\concrete1.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;Ladder
+[MeshBuilder]
+Vertex 13.5,0,-4.15
+Vertex 13.5,2,-4.15
+Vertex 14.0,2,-4.15
+Vertex 14.0,0,-4.15
+Face 0,1,2,3
+
+[Texture]
+Load ladder.png
+Coordinates 0,0,4
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,4
+Transparent 105,105,105
+
+;Platform fencing
+[MeshBuilder]
+Cube 0.05,0.5,0.05
+Translate 14.4,2.5,-4.0
+Color 70,70,70
+
+[MeshBuilder]
+Cube 0.05,0.5,0.05
+Translate 14.4,2.5,-2.0
+Color 70,70,70
+
+[MeshBuilder]
+Cube 0.05,0.5,0.05
+Translate 14.4,2.5,0
+Color 70,70,70
+
+[MeshBuilder]
+Cube 0.05,0.5,0.05
+Translate 14.4,2.5,1.5
+Color 70,70,70
+
+[MeshBuilder]
+Cube 0.05,0.5,0.05
+Translate 14.4,2.5,3.5
+Color 70,70,70
+
+[MeshBuilder]
+Cube 0.05,0.5,0.05
+Translate 14.4,2.5,5
+Color 70,70,70
+
+[MeshBuilder]
+Vertex 14.4,2,-4.05
+Vertex 14.4,2.95,-4.05
+Vertex 14.4,2.95,5.05
+Vertex 14.4,2,5.05
+Vertex 12,2,5.05
+Vertex 12,2.95,5.05
+
+Vertex 13.2,2,-4.0
+Vertex 13.2,2.95,-4.0
+Vertex 12,2.95,-4.0
+Vertex 12,2,-4.0
+Face2 3,2,1,0
+Face2 2,3,4,5
+Face2 6,7,8,9
+[Texture]
+Load ..\..\..\trains\wagons\seacow7.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,2,0
+Coordinates 3,2,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+
+Coordinates 6,0,1
+Coordinates 7,0,0
+Coordinates 8,1,0
+Coordinates 9,1,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Cube 0.05,0.5,0.05
+Translate 13.2,2.5,-4.0
+Color 70,70,70
+
+;Slope up to Window
+[MeshBuilder]
+Vertex -8.8,2,-4.099
+Vertex -8.5,2.3,-4.4
+Vertex 12.5,2.3,-4.4
+Vertex 12.8,2,-4.099
+Face 0,1,2,3
+
+[Texture]
+Load ..\..\..\common\concrete1.png
+Coordinates 0,0,0.1
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,0.1
+
+;Window top slope
+[MeshBuilder]
+Vertex -8.5,7.2,-4.4
+Vertex -8.8,7.5,-4.099
+Vertex 12.8,7.5,-4.099
+Vertex 12.5,7.2,-4.4
+Face 0,1,2,3
+
+[Texture]
+Load ..\..\..\common\concrete1.png
+Coordinates 0,0,0.1
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,0.1
+
+;Window end slope 1
+[MeshBuilder]
+Vertex -8.5,2.3,-4.4
+Vertex -8.5,7.2,-4.4
+Vertex -8.8,7.5,-4.099
+Vertex -8.8,2,-4.099
+Face 3,2,1,0
+
+[Texture]
+Load ..\..\..\common\concrete1.png
+Coordinates 0,0,2
+Coordinates 1,0,0
+Coordinates 2,0.1,0
+Coordinates 3,0.1,2
+
+;Window end slope 2
+[MeshBuilder]
+Vertex 12.5,2.3,-4.4
+Vertex 12.5,7.2,-4.4
+Vertex 12.8,7.5,-4.099
+Vertex 12.8,2,-4.099
+Face 0,1,2,3
+
+[Texture]
+Load ..\..\..\common\concrete1.png
+Coordinates 0,0,2
+Coordinates 1,0,0
+Coordinates 2,0.1,0
+Coordinates 3,0.1,2
+
+;Windows
+[MeshBuilder]
+Vertex -8.5,2.3,-4.4
+Vertex -8.5,7.2,-4.4
+Vertex 12.5,7.2,-4.4
+Vertex 12.5,2.3,-4.4
+Face 0,1,2,3
+
+[Texture]
+Load sb_s_1.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;End 1
+[MeshBuilder]
+Vertex -8.8,2,5.1
+Vertex -8.8,7.5,5.1
+Vertex -8.8,7.5,-4.099
+Vertex -8.8,2,-4.099
+Face 0,1,2,3
+
+[Texture]
+Load sb_s_4.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;End 2
+[MeshBuilder]
+Vertex 12.8,2,5.1
+Vertex 12.8,7.5,5.1
+Vertex 12.8,7.5,-4.099
+Vertex 12.8,2,-4.099
+Face 3,2,1,0
+
+[Texture]
+Load sb_s_4.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;extension 1
+[Meshbuilder]
+Vertex -12.5,1,-4.1
+Vertex -12.5,5.5,-4.1
+Vertex -6.0,5.5,-4.1
+Vertex -6.0,1,-4.1
+Face 0,1,2,3
+
+[Texture]
+Load sb_s_2.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;extension 2
+[MeshBuilder]
+Vertex -12.5,1,5.1
+Vertex -12.5,5.5,5.1
+Vertex -12.5,5.5,-4.1
+Vertex -12.5,1,-4.1
+Face 0,1,2,3
+
+[Texture]
+Load sb_s_3.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+
+;extension roof
+[MeshBuilder]
+Vertex -8.5,5.5,-4.1
+Vertex  -12.5,5.5,-4.1
+Vertex  -12.5,5.5,5.1
+Vertex -8.5,5.5,5.1
+Face 0,1,2,3
+Color 0,0,0

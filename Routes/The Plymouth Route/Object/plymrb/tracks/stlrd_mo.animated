@@ -1,0 +1,54 @@
+[Object]
+states = road_mu2.b3d
+RotateYFunction = 1.57079633
+Position = 77.1,-0.2,0
+
+[Object]
+states = road_mu2.b3d
+RotateYFunction = 1.57079633
+Position = 51.4,-0.2,0
+
+[Object]
+states = road_mu2.b3d
+RotateYFunction = 1.57079633
+Position = 25.7,-0.2,0
+
+[Object]
+states = road_mu2.b3d
+RotateYFunction = 1.57079633
+Position = 0,-0.2,0
+
+[Object]
+states = ..\walls\stw_irt_l.b3d
+RotateYFunction = 1.57079633
+Position = -13,-0.2,0
+
+[Object]
+states = road_mu2.b3d
+RotateYFunction = 1.57079633
+Position = -25.7,-0.2,0
+
+[Object]
+states = ..\walls\stw_irt_l.b3d
+RotateYFunction = 1.57079633
+Position = -27.4,-0.2,0
+
+[Object]
+states = road_mu2.b3d
+RotateYFunction = 1.57079633
+Position = -51.4,-0.2,0
+
+[Object]
+states = ..\walls\stw_irt_l.b3d
+RotateYFunction = 1.57079633
+Position = -52.4,-0.2,0
+
+[Object]
+states = road_mu2.b3d
+RotateYFunction = 1.57079633
+Position = -77.1,-0.2,0
+
+[Object]
+states = ..\walls\stw_irt_l.b3d
+RotateYFunction = 1.57079633
+Position = -77.1,-0.2,0

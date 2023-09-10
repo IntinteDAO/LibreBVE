@@ -1,0 +1,102 @@
+;Main Loco Body
+[Object]
+States = DinmoreManor.b3d
+Position = 0,0,0
+
+;Driving Wheels 1
+[Object]
+States = driving_1.b3d
+Position = 0,0.875,1.5
+RotateXFunction= -1.57079633
+
+;Driving Wheels 2
+[Object]
+States = driving_1.b3d
+Position = 0,0.875,3.84
+RotateXFunction= -1.57079633
+
+;Driving Wheels 3
+[Object]
+States = driving_1.b3d
+Position = 0,0.875,5.98
+RotateXFunction= -1.57079633
+
+[Object]
+States=bogie_f.b3d
+Position=0,0,8.7
+RotateYFunction=3.14159265
+
+[Object]
+States=pony_fw.b3d
+Position=0,0.429,9.7
+
+[Object]
+States=pony_fw.b3d
+Position=0,0.429,7.7
+
+
+;MOVE TO OBJECT #2
+
+;Tender
+[Object]
+States = ChurchwardTender.b3d
+Position = 0,0,-3.7
+
+[Object]
+States = tendercoal.b3d
+Position = 0,0,-3.7
+
+;Wheelset 1
+[Object]
+States=tender_ws.b3d
+Position = 0,0.629,-6.1
+
+;Wheelset 2
+[Object]
+States=tender_ws.b3d
+Position = 0,0.629,-4
+
+;Wheelset 2
+[Object]
+States=tender_ws.b3d
+Position = 0,0.629,-1.9
+
+;Rod L
+[Object]
+States = rod_l.b3d
+TranslateYFunction=0.35
+TranslateZFunction=0
+Position = 0,0.875,0
+
+;Slider L
+[Object]
+states=sliderbar_l.b3d
+Position = 0,0.875,5.77
+TranslateZFunction=1.23
+
+;Crank L
+[Object]
+states=crank_l.b3d
+position=0,0.875,5.42
+TranslateZFunction=1.23
+RotateXFunction=0
+
+;Sliderbar R
+[Object]
+states=sliderbar_r.b3d
+Position = 0,0.875,5.77
+TranslateZFunction=1.54
+
+;Crank R
+[Object]
+states=crank_r.b3d
+position=0,0.875,5.42
+TranslateZFunction=1.54
+RotateXFunction=0.1165
+
+;Conrod R
+[Object]
+States = rod_r.b3d
+TranslateYFunction=0
+TranslateZFunction=-0.35
+Position = 0,0.875,0

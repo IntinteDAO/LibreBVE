@@ -1,0 +1,125 @@
+;author=eezypeazy
+;description=Stone terraced flats (1)
+;copyright=eezypeazy 2005. You may use in BVE routes, please credit eezypeazy@aol.com
+;Full 3d conversion by Chris Lees
+
+;front
+
+[Meshbuilder]
+vertex 0,0,0
+vertex 0,6,0
+vertex 25,6,0
+vertex 25,0,0
+face 0,1,2,3
+
+[Texture]
+load house3_f.png
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,4,1
+
+;roof
+
+[meshbuilder]
+vertex 0,6,0
+vertex 0,8.2,2.5
+vertex 0,9,2.5
+vertex 25,9,2.5
+vertex 25,8.2,2.5
+vertex 25,6,0
+face 0,1,4,5
+face 1,2,3,4
+
+[texture]
+load stoneterraceroof.png
+coordinates 0,0,1
+coordinates 1,0,0.3
+coordinates 2,0,0
+coordinates 3,1,0
+coordinates 4,1,0.3
+coordinates 5,1,1
+transparent 0,0,255
+
+
+;back
+
+[Meshbuilder]
+vertex 0,0,6
+vertex 0,6,6
+vertex 25,6,6
+vertex 25,0,6
+face 3,2,1,0
+
+[Texture]
+load house3_f.png
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,4,1
+
+;roof
+[meshbuilder]
+vertex 0,6,6
+vertex 0,8.2,3.5
+vertex 0,9,3.5
+vertex 25,9,3.5
+vertex 25,8.2,3.5
+vertex 25,6,6
+face2 0,1,4,5
+face2 1,2,3,4
+
+[texture]
+load stoneterraceroof.png
+coordinates 0,0,1
+coordinates 1,0,0.3
+coordinates 2,0,0
+coordinates 3,1,0
+coordinates 4,1,0.3
+coordinates 5,1,1
+transparent 0,0,255
+        
+;end walls
+[meshbuilder]
+vertex 25,0,0
+vertex 25,6,0
+vertex 25,8.2,2.5
+vertex 25,8.8,2.5
+vertex 25,8.8,3.5
+vertex 25,8.2,3.5
+vertex 25,6,6
+vertex 25,0,6
+
+vertex 0,0,0
+vertex 0,6,0
+vertex 0,8.2,2.5
+vertex 0,8.8,2.5
+vertex 0,8.8,3.5
+vertex 0,8.2,3.5
+vertex 0,6,6
+vertex 0,0,6
+face2 0,1,6,7
+face2 1,2,5,6
+face2 2,3,4,5
+face2 15,14,9,8
+face2 14,13,10,9
+face2 13,12,11,10
+
+[texture]
+Load ..\..\common\redbrick1.png
+coordinates 0,0,5
+coordinates 1,0,2
+coordinates 2,0,0.38
+coordinates 3,0,0
+coordinates 4,1,0
+coordinates 5,1,0.38
+coordinates 6,3.4,2
+coordinates 7,3.4,5
+coordinates 8,0,5
+coordinates 9,0,2
+coordinates 10,0,0.38
+coordinates 11,0,0
+coordinates 12,1,0
+coordinates 13,1,0.38
+coordinates 14,3.4,2
+coordinates 15,3.4,5

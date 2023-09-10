@@ -1,0 +1,133 @@
+;author=Chris Lees
+;description=Saltash Station detached garage block
+;copyright= From the BVE Cornwall Plymouth route. © 2014
+
+;Front Face
+[MeshBuilder]
+Vertex 0,0,0
+Vertex 0,3,0
+Vertex -3,5,0
+Vertex -3,0,0
+Vertex -6,0,0
+Vertex -6,3,0
+Vertex -12,2,-1
+Vertex -12,0,-1
+Vertex -12,-1,-1
+Vertex -6,-1,0
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 9,8,7,4
+[Texture]
+Load salsg_01.png
+Coordinates  0, 1, 0.9
+Coordinates  1, 1, 0.35
+Coordinates  2, 0.7, 0
+Coordinates  3, 0.7, 0.9
+Coordinates  4, 0.40, 0.9
+Coordinates  5, 0.40, 0.35
+Coordinates  6, 0.0, 0.5
+Coordinates  7, 0.0, 0.9
+Coordinates  8, 0.0, 1
+Coordinates  9, 0.40, 1
+
+;Sides
+[MeshBuilder]
+Vertex 0,0,0
+Vertex 0,3,0
+Vertex 0,3,15
+Vertex 0,0,15
+Vertex -3,0,15
+Vertex -3,5,15
+Vertex -6,3,15
+Vertex -6,0,15
+Vertex -12,0,15
+Vertex -12,2,15
+Vertex -12,2,-1
+Vertex -12,0,-1
+Vertex -12,-1,-1
+Vertex -12,-1,15
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+Face 8,9,10,11
+Face 8,11,12,13
+Face 3,8,13
+
+[Texture]
+Load ..\..\bridges\underbridge3.png
+Coordinates  0, 0, 2
+Coordinates  1, 0, 0
+Coordinates  2, 5, 0
+Coordinates  3, 5, 2
+Coordinates  4, 3, 2
+Coordinates  5, 3, -1.5
+Coordinates  6, 5, 0
+Coordinates  7, 5, 2
+Coordinates  8, 1, 2
+Coordinates  9, 1, 0.5
+Coordinates  10, 6, 0.5
+Coordinates  11, 6, 2
+Coordinates  12, 6, 1
+Coordinates  13, 1, 1
+
+;Roof P1
+[MeshBuilder]
+Vertex 0,3,0
+Vertex 0,3,15
+Vertex -3,5,15
+Vertex -3,5,0
+Vertex -6,3,0
+Vertex -6,3,15
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates  0, 0, 0
+Coordinates  1, 5, 0
+Coordinates  2, 5, 2
+Coordinates  3, 0, 2
+Coordinates  4, 0, 0
+Coordinates  5, 5, 0
+
+;Roof P2
+[MeshBuilder]
+Vertex -6,3,0
+Vertex -6,3,15
+Vertex -12,2,15
+Vertex -12,2,-1
+Face 3,2,1,0
+
+[Texture]
+Load ..\..\common\corrugated_grey2.png
+Coordinates  0, 0, 0
+Coordinates  1, 10, 0
+Coordinates  2, 10, 1
+Coordinates  3, 0, 1
+
+;Roof Ridge
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,14.99
+Rotate 1,0,0,90
+Translate -3,4.9,7.5
+
+[Texture]
+Load ..\..\common\rooftiles1.png,,,
+Coordinates 0,0,0
+Coordinates 1,0,25
+Coordinates 2,0.1,0
+Coordinates 3,0.1,25
+Coordinates 4,0.2,0
+Coordinates 5,0.2,25
+Coordinates 6,0.3,0
+Coordinates 7,0.3,25
+Coordinates 8,0.4,0
+Coordinates 9,0.4,25
+Coordinates 10,0.5,0
+Coordinates 11,0.5,25
+Coordinates 12,0.5,0
+Coordinates 13,0.5,25
+Coordinates 14,0.6,0
+Coordinates 15,0.6,25

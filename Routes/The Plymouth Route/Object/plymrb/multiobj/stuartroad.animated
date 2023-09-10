@@ -1,0 +1,6 @@
+[Include]
+stuartwall_r.b3d
+[Object]
+States=..\buildings\lineside\semi.b3d
+Position=15,1,0
+RotateYFunction = 1.6

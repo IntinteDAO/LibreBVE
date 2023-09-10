@@ -1,0 +1,23 @@
+;description=Different Sloped Grass.....
+;author=Chris Lees
+;From the BVE Cornwall Plymouth- St Austell route. © Chris Lees 2013
+
+[MeshBuilder]
+Vertex  120, -0.401, -1
+Vertex -120, -0.401, -1
+Vertex -120, -2.40, 26
+
+Vertex  120, -2.40, 26
+Vertex 120, 5.40, 40
+Vertex 0, -2.40, 26
+Face 0, 1, 2, 3
+Face 5,4,3
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 0, 0
+Coordinates 1, 10, 0
+Coordinates 2, 10, 2
+Coordinates 3, 0, 2
+Coordinates 4, 0.5, 2
+Coordinates 5, 0, 0

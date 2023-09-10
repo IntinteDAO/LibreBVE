@@ -1,0 +1,36 @@
+;Wheelset
+
+;Wheelset 1.1
+[MeshBuilder]
+Cylinder 15,0.47,0.52,0.1
+Rotate 0,0,1,90
+Translate -0.75,0,0
+Color 60,60,60
+
+;Wheelset 1.2
+[MeshBuilder]
+Cylinder 15,0.57,0.57,0.1
+Rotate 0,0,1,90
+Translate -0.65,0,0
+Color 50,50,50
+
+;Wheelset 1.3
+[MeshBuilder]
+Cylinder 15,0.15,0.15,1.65
+Rotate 0,0,1,90
+Translate 0,0,0
+Color 50,50,50
+
+;Wheelset 2.1
+[MeshBuilder]
+Cylinder 15,0.52,0.47,0.1
+Rotate 0,0,1,90
+Translate 0.75,0,0
+Color 60,60,60
+
+;Wheelset 2.2
+[MeshBuilder]
+Cylinder 15,0.57,0.57,0.1
+Rotate 0,0,1,90
+Translate 0.65,0,0
+Color 50,50,50

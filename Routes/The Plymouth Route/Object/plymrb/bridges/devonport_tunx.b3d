@@ -1,0 +1,98 @@
+;Description=Devonport Tunnel Exit Wall Object
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route. © 2013
+
+;Primary Wall
+[MeshBuilder]
+Vertex -5,7,0
+Vertex -4,-0.5,0
+Vertex -4,-0.5,25
+Vertex -5,7,25
+Vertex -11,7,28
+Vertex -10,-0.5,28
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load underbridge3.png
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,3
+Coordinates 3,0,3
+Coordinates 4,0,2
+Coordinates 5,2,2
+
+;Top
+[MeshBuilder]
+Vertex -4.9,7,0
+Vertex -4.9,7,25
+Vertex -5.1,7,25
+Vertex -5.1,7,0
+Vertex -5.1,7.2,0
+Vertex -5.1,7.2,25
+Vertex -4.9,7.2,25
+Vertex -4.9,7.2,0
+Vertex -4.9,7,0
+Vertex -4.9,7,25
+Vertex -10.9,7,28
+Vertex -4.9,7,25
+Vertex -5.1,7,25
+Vertex -11.1,7,28
+Vertex -11.1,7.2,28
+Vertex -5.1,7.2,25
+Vertex -4.9,7.2,25
+Vertex -10.9,7.2,28
+Vertex -10.9,7,28
+Vertex -4.9,7,25
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+Face 13,12,11,10
+Face 12,13,14,15
+Face 17,16,15,14
+Face 16,17,18,19
+Color 200,200,200
+
+[Texture]
+Load underbridge3.png
+Coordinates 0,0,0
+Coordinates 1,4,0
+Coordinates 2,4,0.2
+Coordinates 3,0,0.2
+Coordinates 4,0,0
+Coordinates 5,4,0
+Coordinates 6,4,0.2
+Coordinates 7,0,0.2
+Coordinates 8,0,0
+Coordinates 9,4,0
+Coordinates 10,0,0
+Coordinates 11,2,0
+Coordinates 12,2,0.2
+Coordinates 13,0,0.2
+Coordinates 14,0,0
+Coordinates 15,2,0
+Coordinates 16,2,0.2
+Coordinates 17,0,0.2
+Coordinates 18,0,0
+Coordinates 19,2,0
+
+;Grass
+[MeshBuilder]
+Vertex -4.9,7,0
+Vertex -4.9,7,25
+Vertex -10.9,7,28
+Vertex -10.9,9,-5
+Vertex -12.5,8.9,-5
+Vertex -12.5,8.9,28
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0,0,0
+Coordinates 1,4,0
+Coordinates 2,4,2
+Coordinates 3,0,2
+Coordinates 4,0,1
+Coordinates 5,4,1

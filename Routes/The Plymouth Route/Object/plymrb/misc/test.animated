@@ -1,0 +1,4 @@
+[Object]
+states = xsara.b3d, null.b3d
+position = 0,0,0
+StateFunction = if[trackDistance > 200, if[section==0 | trackDistance < 0, 0,1] ,1]

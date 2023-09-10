@@ -1,0 +1,4 @@
+[object]
+States = clag.csv
+StateFunction = cameraDistance > 200
+TextureShiftYFunction = 0.5 * time

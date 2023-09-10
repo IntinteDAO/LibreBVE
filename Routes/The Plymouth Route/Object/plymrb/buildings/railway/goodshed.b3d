@@ -1,0 +1,291 @@
+;description=Goods Shed
+
+[MeshBuilder]
+Vertex -4, 0.5, -3.4
+Vertex 15, 0.5, -3.4
+Vertex 15, 0.5, -2
+Vertex -4, 0.5, -2
+Vertex -4, 0, -2
+Vertex 15, 0, -2
+Vertex 15, 0, 3.4
+Vertex -4, 0, 3.4
+Face 3, 2, 1, 0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[Texture]
+Load ..\..\common\tarmac.png
+Coordinates 0, 0, 1
+Coordinates 1, 3, 1
+Coordinates 2, 3, 0
+Coordinates 3, 0, 0
+
+
+[MeshBuilder]
+Vertex -4,0,-3.4
+Vertex -4,4.8,-3.4
+Vertex 15,4.8,-3.4
+Vertex 15,0,-3.4
+Face2 0,1,2,3
+
+[Texture]
+Load goodsfront.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+
+
+[MeshBuilder]
+Vertex 15,0,3.4
+Vertex 15,4.8,3.4
+Vertex 15,4.8,-3.4
+Vertex 15,0,-3.4
+Face2 3,2,1,0
+[Texture]
+Load goodsend.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+
+[MeshBuilder]
+Vertex 15,4.8,3.4
+Vertex 15,7.9,0
+Vertex 15,4.8,-3.4
+Face2 2,1,0
+
+[Texture]
+Load ..\stations\brick\salb_4.png
+Coordinates 0,1,0
+Coordinates 1,0.5,1
+Coordinates 2,0,0
+
+[MeshBuilder]
+Vertex -4,4.8,3.4
+Vertex -4,7.9,0
+Vertex -4,4.8,-3.4
+Face2 0,1,2
+
+[Texture]
+Load ..\stations\brick\salb_4.png
+Coordinates 0,1,0
+Coordinates 1,0.5,1
+Coordinates 2,0,0
+
+[MeshBuilder]
+Vertex -4,0,3.4
+Vertex -4,4.8,3.4
+Vertex 15,4.8,3.4
+Vertex 15,0,3.4
+Face2 3,2,1,0
+
+[Texture]
+Load goodsback.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+
+[MeshBuilder]
+Vertex -4,0,3.4
+Vertex -4,4.8,3.4
+Vertex -4,4.8,-3.4
+Vertex -4,0,-3.4
+Face2 0,1,2,3
+[Texture]
+Load goodsend.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+
+;roof side 1
+[MeshBuilder]
+Vertex -4.3,4.38,-3.9
+Vertex  15.3,4.38,-3.9
+Vertex  15.3,7.9,0
+Vertex -4.3,7.9,0
+Face2 3,2,1,0
+[Texture]
+Load ..\Stations\brick\slate4.png
+Coordinates 0,0,2
+Coordinates 1,0,0
+Coordinates 2,2,0
+Coordinates 3,2,2
+
+
+
+
+;roof side 2
+[MeshBuilder]
+Vertex -4.3,4.38,3.9
+Vertex  15.3,4.38,3.9
+Vertex  15.3,7.9,0
+Vertex -4.3,7.9,0
+Face2 0,1,2,3
+[Texture]
+Load ..\Stations\brick\slate4.png
+Coordinates 0,0,2
+Coordinates 1,0,0
+Coordinates 2,2,0
+Coordinates 3,2,2
+
+
+;lamp
+[MeshBuilder]
+Vertex 5,4.5, -5
+Vertex 5,3.5, -5
+Vertex 5,3.5,-3.5
+Vertex 5,4.5,-3.5
+Face2 0,1,2,3
+[Texture]
+Load ..\Stations\brick\lamp.png
+Coordinates 0,0,-1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,-1
+transparent 90,0,255
+
+[MeshBuilder]
+Vertex -1.1,4,-5.95
+Vertex -1.1,4.5,-5.95
+Vertex 12.1,4.5,-5.95
+Vertex 12.1,4,-5.95
+Face2 0,1,2,3
+
+[Texture]
+Load ..\Stations\brick\canopy_1.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,50,0
+Coordinates 3,50,1
+transparent 0,0,0
+
+[MeshBuilder]
+Vertex 12.1,3.5,-3.4
+Vertex 12.1,4,-3.4
+Vertex 12.1,4.5,-5.95
+Vertex 12.1,4,-5.95
+Face2 3,2,1,0
+[Texture]
+Load ..\Stations\brick\canopy_1.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,15,0
+Coordinates 3,15,1
+transparent 0,0,0
+
+[MeshBuilder]
+Vertex -1.1,3.5,-3.4
+Vertex -1.1,4,-3.4
+Vertex -1.1,4.5,-5.95
+Vertex -1.1,4,-5.95
+Face2 0,1,2,3
+[Texture]
+Load ..\Stations\brick\canopy_1.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,15,0
+Coordinates 3,15,1
+transparent 0,0,0
+
+[MeshBuilder]
+Vertex -1.1,4,-3.4
+Vertex  12.1,4,-3.4
+Vertex  12.1,4.5,-5.95
+Vertex -1.1,4.5,-5.95
+Face2 0,1,2,3
+[Texture]
+Load ..\Stations\brick\slate4.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[meshbuilder]
+vertex -3.05,-0.4,4.8
+vertex -3.05, 0.5,4.8
+vertex -0.65, 0.5,4.8
+vertex -0.65,-0.4,4.8
+vertex -0.65, 0.5,6.2
+vertex -0.65,-0.4,6.2
+vertex -3.05, 0.5,6.2
+vertex -3.05,-0.4,6.2
+vertex -3.05, 0.5,4.8
+vertex -3.05,-0.4,4.8
+vertex -3.05,-0.4,6.2
+vertex -0.65,-0.4,6.2
+vertex -3.05, 0.5,6.2
+vertex -0.65, 0.5,6.2
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+face 10,0,3,11
+face 1,12,13,2
+Translate  1,0.4,-6
+Rotate 0,1,0,20
+
+[texture]
+load crate.png
+coordinates 0,2,2
+coordinates 1,1,2
+coordinates 2,1,1
+coordinates 3,2,1
+coordinates 4,1,2
+coordinates 5,2,2
+coordinates 6,1,1
+coordinates 7,2,1
+coordinates 8,1,0
+coordinates 9,2,0
+coordinates 10,2,2
+coordinates 11,2,1
+coordinates 12,0,2
+coordinates 13,0,1
+
+[meshbuilder]
+vertex -3.05,-0.4,4.8
+vertex -3.05, 0.5,4.8
+vertex -0.65, 0.5,4.8
+vertex -0.65,-0.4,4.8
+vertex -0.65, 0.5,6.2
+vertex -0.65,-0.4,6.2
+vertex -3.05, 0.5,6.2
+vertex -3.05,-0.4,6.2
+vertex -3.05, 0.5,4.8
+vertex -3.05,-0.4,4.8
+vertex -3.05,-0.4,6.2
+vertex -0.65,-0.4,6.2
+vertex -3.05, 0.5,6.2
+vertex -0.65, 0.5,6.2
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+face 10,0,3,11
+face 1,12,13,2
+Translate  13,0.4,-9
+Rotate 0,1,0,-20
+
+[texture]
+load crate.png
+coordinates 0,2,2
+coordinates 1,1,2
+coordinates 2,1,1
+coordinates 3,2,1
+coordinates 4,1,2
+coordinates 5,2,2
+coordinates 6,1,1
+coordinates 7,2,1
+coordinates 8,1,0
+coordinates 9,2,0
+coordinates 10,2,2
+coordinates 11,2,1
+coordinates 12,0,2
+coordinates 13,0,1

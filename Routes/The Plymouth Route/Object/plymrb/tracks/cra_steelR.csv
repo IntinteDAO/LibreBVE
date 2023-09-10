@@ -1,0 +1,18 @@
+;description=Steel Crack
+;author=Chris Lees
+;copyright=From the BVE Cornwall Plymouth- St Austell route, 2004.
+
+CreateMeshBuilder,
+AddVertex,6.8, -0.29, 0,
+AddVertex,6.8, -0.29, 25.3,
+AddVertex,0, -0.29, 25.3,
+AddVertex,0, -0.29, 0,
+AddFace,3,2,1,0,
+
+GenerateNormals,
+
+LoadTexture,..\walls\grey_steel.png,
+SetTextureCoordinates,0, 1, 2,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 2,

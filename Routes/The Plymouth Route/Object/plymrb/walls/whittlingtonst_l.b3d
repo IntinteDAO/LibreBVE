@@ -1,0 +1,90 @@
+;author=Chris Lees
+;description=Whittlington St. terraforming
+;copyright=From the BVE Cornwall Plymouth Route. © Chris Lees 2011
+
+[MeshBuilder]
+Vertex -35, -3, -1
+Vertex -16, 0 , 0
+Vertex -16, 0 , 25
+Vertex -35, -3, 26
+Vertex -16, -3, -20  ;4
+Vertex -16, -3, 45
+Vertex  -8, 0 , 25
+Vertex  -8, 0 , 0
+Vertex  -8, -3, -20
+Vertex  -8, -3, 45
+Face 3,2,1,0
+Face 0,1,4
+Face 2,3,5
+Face 1,2,6,7
+Face 4,1,7,8
+Face 9,6,2,5
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,3,0
+Coordinates 3,3,1
+Coordinates 4,1,1  
+Coordinates 5,0,0
+Coordinates 6,1,2
+Coordinates 7,0,1
+Coordinates 8,1,2
+Coordinates 9,1,0
+
+[MeshBuilder]
+Vertex -25, -1.5, 11
+Vertex -25, 0.5, 11
+Vertex -16,  2, 11
+Vertex -16,  0, 11
+Face 0,1,2,3
+
+[Texture]
+Load ..\buildings\lineside\wooden_fence1.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,2,0
+Coordinates   3,2,1
+
+[MeshBuilder]
+Vertex -25, -1.5, 11
+Vertex -25, 0.5, 11
+Vertex -16,  2, 11
+Vertex -16,  0, 11
+Face 3,2,1,0
+
+[Texture]
+Load ..\buildings\lineside\wooden_fence.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,2,0
+Coordinates   3,2,1
+
+[MeshBuilder]
+Vertex -25, -1.5, 25.5
+Vertex -25,  0.5, 25.5
+Vertex -25,  0.5, -0.5
+Vertex -25, -1.5, -0.5
+Face 0,1,2,3
+
+[Texture]
+Load ..\buildings\lineside\wooden_fence1.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,4,0
+Coordinates   3,4,1
+
+[MeshBuilder]
+Vertex -25, -1.5, 25.5
+Vertex -25,  0.5, 25.5
+Vertex -25,  0.5, -0.5
+Vertex -25, -1.5, -0.5
+Face 3,2,1,0
+
+[Texture]
+Load ..\buildings\lineside\wooden_fence.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,4,0
+Coordinates   3,4,1

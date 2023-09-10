@@ -1,0 +1,257 @@
+;Description=Devonport Station Overbridge
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route. © 2012
+
+;Front Face
+[MeshBuilder]
+Vertex -15.8 ,  2.15 ,  2 
+Vertex -15.8 ,  8.95 ,  2 
+Vertex  22.6 ,  8.95 ,  2 
+Vertex  22.6 ,  2.15 ,  2 
+Vertex -15.8 ,  2.15 ,  10
+Vertex -15.8 ,  8.95 ,  10
+Vertex  22.6 ,  8.95 ,  10
+Vertex  22.6 ,  2.15 ,  10
+Face2 0,1,2,3
+Face2 4,5,6,7
+
+[Texture]
+Load dvpt_01.png
+Coordinates 0, -0.2, 1
+Coordinates 1, -0.2, 0
+Coordinates 2, 1.15, 0
+Coordinates 3, 1.15, 1
+Coordinates 4, -0.2, 1
+Coordinates 5, -0.2, 0
+Coordinates 6, 1.15, 0
+Coordinates 7, 1.15, 1
+Transparent 0, 0, 255
+
+;Inside Walls
+[MeshBuilder]
+Vertex  5.06 ,  6.6 ,  2 
+Vertex  0.119 ,  6.4 ,  2 
+Vertex -4.741 ,  5.47 ,  2 
+Vertex -9.223 ,  3.52 ,  2 
+Vertex -9.52 ,  2.27 ,  2 
+Vertex -9.52 ,  0.67 ,  2 
+Vertex  5.06 ,  6.6 ,  10 
+Vertex  0.119 ,  6.4 ,  10 
+Vertex -4.201 ,  5.47 ,  10 
+Vertex -8.98 ,  3.52 ,  10 
+Vertex -9.52 ,  2.27 ,  10 
+Vertex -9.52 ,  0.67 ,  10 
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+Color 40,40,40
+
+;More Inside Walls
+[MeshBuilder]
+Vertex  2.9 ,  6.6 ,  2 
+Vertex  8.03 ,  6.4 ,  2 
+Vertex  13.16 ,  5.47 ,  2 
+Vertex  17.21 ,  3.52 ,  2 
+Vertex  17.75 ,  2.27 ,  2 
+Vertex  17.75 ,  0.67 ,  2 
+Vertex  2.9 ,  6.6 ,  10 
+Vertex  8.03 ,  6.4 ,  10 
+Vertex  13.16 ,  5.47 ,  10 
+Vertex  17.21 ,  3.52 ,  10 
+Vertex  17.75 ,  2.27 ,  10 
+Vertex  17.75 ,  0.67 ,  10 
+Face 7, 6, 0, 1
+Face 8, 7, 1, 2
+Face 9, 8, 2, 3
+Face 10, 9, 3, 4
+Face 11, 10, 4, 5
+Color 40,40,40
+
+;Shadow
+[MeshBuilder]
+Vertex -9 ,  3.845 ,  10
+Vertex -9 ,  3.845 ,  2
+Vertex -3.80 ,  -0.145 ,  2 
+Vertex -3.80 ,  -0.145 ,  10 
+Vertex  7.8 ,  -0.145 ,  10 
+Vertex  7.8 ,  -0.145 ,  2 
+Vertex  14.4 ,  4.945 ,  2 
+Vertex  14.4 ,  4.945 ,  10 
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Color  0,0,0,170
+
+;Pavement
+[MeshBuilder]
+Vertex -31.7 ,  7.85 ,  2 
+Vertex  22.6 ,  7.95 ,  2
+Vertex  22.6 ,  7.95 ,  3
+Vertex -32.7 ,  7.9 ,  3
+Face 3,2,1,0
+
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0, 0, 25
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 25
+
+;Pavement
+[MeshBuilder]
+Vertex -33.3 ,  7.9 ,  9 
+Vertex  22.6 ,  7.95 ,  9
+Vertex  22.6 ,  7.95 ,  10
+Vertex -32.8 ,  7.85 ,  10
+Face 3,2,1,0
+
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0, 0, 25
+Coordinates 1, 0, 0
+Coordinates 2, -1, 0
+Coordinates 3, -1, 25
+
+;Roadway
+[MeshBuilder]
+Vertex -31.0 ,  7.9 ,  3 
+Vertex  22.6 ,  7.95 ,  3
+Vertex  22.6 ,  7.95 ,  9
+Vertex -31.0 ,  7.9 ,  9
+Face 3,2,1,0
+
+[Texture]
+Load ..\tracks\road6.png
+Coordinates 0, 0, 10
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 10
+
+;Junction
+[MeshBuilder]
+Vertex -31.0 ,  7.9 ,  3 
+Vertex -31.0 ,  7.9 ,  9
+Vertex -34.0 ,  7.85 ,  9
+Vertex -33.2 ,  7.85 ,  3
+Face 3,2,1,0
+
+[Texture]
+Load ..\tracks\road7.png
+Coordinates 3, 0, 1
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+
+;Grass L1
+[MeshBuilder]
+Vertex -1, -2.4, 26,
+Vertex -1, -2.4, -16.5,
+Vertex -14.5, 7.85, 0,
+Vertex -14.5, 7.85, 26,
+Vertex -29.5, 7.85, 26,
+Vertex -29.5, 7.85, 0,
+Face 0,1,2,3,
+Face 5,4,3,2
+
+[Texture]
+Load ..\common\grass6.png,
+Coordinates 0, 6, 0,
+Coordinates 1, 6, 6,
+Coordinates 2, 0, 6,
+Coordinates 3, 0, 0,
+Coordinates 4, 6, 0,
+Coordinates 5, 6, 6,
+
+
+;Path Down 1
+[MeshBuilder]
+Vertex -15.8 ,  8.95 ,  10
+Vertex -15.8 ,  7.95 ,  10
+Vertex -12.8 ,  7.95 ,  16
+Vertex -12.8 ,  8.95 ,  16
+Vertex -7.8 ,  4.95 ,  35
+Vertex -7.8 ,  3.95 ,  35
+Vertex -7.8 ,  3.95 ,  40
+Vertex -7.8 ,  4.95 ,  40
+Vertex -4.8 ,  1.95 ,  44
+Vertex -4.8 ,  0.95 ,  44
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 4,5,6,7
+Face2 9,8,7,6
+
+[Texture]
+Load underbridge3.png
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 2, 1
+Coordinates 3, 2, 0
+Coordinates 4, 8, 0
+Coordinates 5, 8, 1
+Coordinates 6, 10, 1
+Coordinates 7, 10, 0
+Coordinates 8, 12, 0
+Coordinates 9, 12, 1
+
+;Path Down 2
+[MeshBuilder]
+Vertex -17.8 ,  7.95 ,  10
+Vertex -15.8 ,  7.95 ,  10
+Vertex -12.8 ,  7.95 ,  16
+Vertex -14.8 ,  7.95 ,  16
+Vertex -9.8 ,  3.95 ,  35
+Vertex -7.8 ,  3.95 ,  35
+Vertex -7.8 ,  3.95 ,  40
+Vertex -9.8 ,  3.95 ,  40
+Vertex -6.8 ,  0.95 ,  44
+Vertex -4.8 ,  0.95 ,  44
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,8,9
+
+[Texture]
+Load ..\common\tarmac.png
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 2, 1
+Coordinates 3, 2, 0
+Coordinates 4, 8, 0
+Coordinates 5, 8, 1
+Coordinates 6, 10, 1
+Coordinates 7, 10, 0
+Coordinates 8, 12, 0
+Coordinates 9, 12, 1
+
+;Path Down 3
+;Rock
+[MeshBuilder]
+Vertex -14.8 ,  4.95 ,  10
+Vertex -15.8 ,  7.95 ,  10
+Vertex -12.8 ,  7.95 ,  16
+Vertex -11.8 ,  4.95 ,  16
+Vertex -6.8 ,  0.95 ,  35
+Vertex -7.8 ,  3.95 ,  35
+Vertex -7.8 ,  3.95 ,  40
+Vertex -6.8 ,  0.95 ,  40
+Vertex -4.8 ,  -1.95 ,  44
+Vertex -4.8 ,  0.95 ,  44
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+
+[Texture]
+Load ..\common\rock1.png
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 2, 1
+Coordinates 3, 2, 0
+Coordinates 4, 8, 0
+Coordinates 5, 8, 1
+Coordinates 6, 10, 1
+Coordinates 7, 10, 0
+Coordinates 8, 12, 0
+Coordinates 9, 12, 1

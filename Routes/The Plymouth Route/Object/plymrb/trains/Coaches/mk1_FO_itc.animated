@@ -1,0 +1,23 @@
+;Wagon
+[Object]
+States = mk1_fo_itc_n.b3d
+Position = 0,0,0
+
+;Wheelset1
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,-8.3
+
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,-5.9
+
+;Wheelset1
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,8.3
+
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,5.9
+

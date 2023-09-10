@@ -1,0 +1,17 @@
+[Object]
+states = stbudeaux_ml_starter.b3d
+Position = 0,0,0
+
+[Object]
+states = ..\..\LQSigs\homelq_arm.b3d
+Position = 0,6.39,0.05
+RotateZFunction = (section != 0) * 0.355398163
+
+[Object]
+states = ..\..\LQSigs\distlq_arm.b3d
+Position = 0,5.59,0.05
+
+[Object]
+states = ..\..\LQSigs\homelq_arm_backing.b3d
+Position = 1,5.59,-0.05
+RotateYFunction = 3.14159265

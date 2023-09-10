@@ -1,0 +1,721 @@
+;Description=The Elms road bridge & associated
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth route ©2012
+
+;Road Surface
+[MeshBuilder]
+Vertex 12.5,5.05,-5.1
+Vertex 12.5,5.05,1.1
+Vertex -8.5,5.05,9.1
+Vertex -8.5,5.05,3.1
+Face 3,2,1,0
+
+[Texture]
+Load ..\tracks\road6.png
+Coordinates   0,1,3
+Coordinates   1,0,3
+Coordinates   2,0,0
+Coordinates   3,1,0
+
+;Pavement 1
+[MeshBuilder]
+Vertex 12.5,5.05,1.1
+Vertex 12.5,5.05,2.1
+Vertex -8.5,5.05,10.1
+Vertex -8.5,5.05,9.1
+Face 3,2,1,0
+
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates   0,1,8
+Coordinates   1,0,8
+Coordinates   2,0,0
+Coordinates   3,1,0
+
+;Pavement 2
+[MeshBuilder]
+Vertex 12.5,5.05,-5.1
+Vertex 12.5,5.05,-6.1
+Vertex -8.5,5.05,2.1
+Vertex -8.5,5.05,3.1
+Face 0,1,2,3
+
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates   0,1,8
+Coordinates   1,0,8
+Coordinates   2,0,0
+Coordinates   3,1,0
+
+;Front
+[MeshBuilder]
+Vertex  12.5 ,  -0.5 , -6.1,
+Vertex  12.5 ,  5.15 , -6.1,
+Vertex -8.5 ,  5.15 ,  2.1,
+Vertex -8.5,   -0.5 ,  2.1,
+Face2 3,2,1,0,
+
+[Texture]
+Load molesworthrd1.png,
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0.13,
+Coordinates 2, 1, 0.13,
+Coordinates 3, 1, 1,
+Transparent 0,0,255
+
+;Back
+[MeshBuilder]
+Vertex  12.5 ,  -0.5 , 2.1,
+Vertex  12.5 ,  6.05 , 2.1,
+Vertex -8.5 ,  6.05 ,  10.1,
+Vertex -8.5,   -0.5 ,  10.1,
+Face2 3,2,1,0,
+
+[Texture]
+Load molesworthrd1.png,
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 1,
+Transparent 0,0,255
+
+;Garfield Terrace Bridge Wall #1
+[MeshBuilder]
+Vertex -8.5,   4.55 ,  44.1,
+Vertex -8.5 ,  6.05 ,  44.1,
+Vertex -8.5 ,  6.05 ,  10.1,
+Vertex -8.5,   4.55 ,  10.1,
+Face2 0,1,2,3
+
+[Texture]
+Load ..\common\bridge_steel2.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, 8, 0,
+Coordinates 3, 8, 1,
+Transparent 0,0,255
+
+;Garfield Terrace Pavement
+[MeshBuilder]
+Vertex -9.5,5.05,44.1,
+Vertex -8.5,5.05,44.1,
+Vertex -8.5,5.05,10.1
+Vertex -9.5,5.05,10.1
+Vertex -8.5,5.05,9.1
+Face 0,1,2,3
+Face 4,3,2
+
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates   0,1,8
+Coordinates   1,0,8
+Coordinates   2,0,0
+Coordinates   3,1,0
+Coordinates   4,1,1
+
+;Garfield Terrace NP1
+[MeshBuilder]
+Vertex -14.5,5.05,64.1,
+Vertex -13.5,5.05,64.1,
+Vertex -8.5,5.05,44.1
+Vertex -9.5,5.05,44.1
+Face 0,1,2,3
+
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates   0,1,4
+Coordinates   1,0,4
+Coordinates   2,0,0
+Coordinates   3,1,0
+
+;Garfield Terrace NR1
+[MeshBuilder]
+Vertex -19.7,5.045,62.1,
+Vertex -14.5,5.045,64.1,
+Vertex -10.9,5.045,51.1
+Vertex -22.8,5.045,51.1
+Face 0,1,2,3
+
+[Texture]
+Load ..\tracks\road5.png
+Coordinates   0,1,4
+Coordinates   1,0,4
+Coordinates   2,0,0
+Coordinates   3,1,0
+
+;Garfield Terrace NP2
+[MeshBuilder]
+Vertex -22.8,5.045,51.1
+Vertex -23.3,5.045,51.1
+Vertex -20.7,5.045,62.1,
+Vertex -19.7,5.045,62.1,
+Face 0,1,2,3
+
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates   0,1,4
+Coordinates   1,0,4
+Coordinates   2,0,0
+Coordinates   3,1,0
+
+;Grass GTE
+[MeshBuilder]
+Vertex -32.8,5.045,51.1
+Vertex -23.3,5.045,51.1
+Vertex -20.7,5.045,62.1,
+Vertex -29.7,5.045,72.1,
+Face 3,2,1,0
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates   0,4,4
+Coordinates   1,0,4
+Coordinates   2,0,0
+Coordinates   3,4,0
+
+;Crosshatches 2
+[MeshBuilder]
+Vertex -9.5,5.05,44.1,
+Vertex -11.5,5.05,52.1,
+Vertex -22.5,5.05,52.1,
+Vertex -18.5,5.05,44.1,
+Face 3,2,1,0
+
+[Texture]
+Load ..\tracks\crosshatches2.png
+Coordinates   0,1,1
+Coordinates   1,0,1
+Coordinates   2,0,0
+Coordinates   3,1,0
+
+;Grass
+[MeshBuilder]
+Vertex -8.5 ,4.55, 44.1
+Vertex -8.5,5.05,44.1
+Vertex -10.1,5.05,52.1,
+Vertex -9.4 ,4.5 ,48
+Vertex -7.55,2,55.1,
+Vertex -12.5,5.05,64.1,
+Vertex -9.55,2,64.1
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates   0,1,1
+Coordinates   1,0,1
+Coordinates   2,0,0
+Coordinates   3,2,0
+Coordinates   4,2,2
+Coordinates   5,0,2
+Coordinates   6,0,0
+
+[MeshBuilder]
+Vertex -8.5,5.05,44.1
+Vertex -12.5,5.05,64.1,
+Vertex -14.5,5.01,64.1,
+Vertex -10.5,5.01,44.1
+Face 3,2,1,0
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates   0,1,1
+Coordinates   1,0,1
+Coordinates   2,0,0
+Coordinates   3,1,0
+
+[MeshBuilder]
+Vertex -8.5,5.05,44.1
+Vertex -12.5,5.05,64.1,
+Vertex -12.5,6.9,64.1,
+Vertex -8.5,6.9,44.1
+Face2 0,1,2,3
+
+[Texture]
+Load ..\common\Fence_10.png
+Coordinates   0,8,1
+Coordinates   1,0,1
+Coordinates   2,0,0
+Coordinates   3,8,0
+Transparent 0,0,255
+
+;Garfield Terrace Roadbed
+[MeshBuilder]
+Vertex -9.5,5.05,10.1
+Vertex -18.5,5.05,6.2
+Vertex -18.5,5.05,44.1,
+Vertex -9.5,5.05,44.1,
+Face 0,1,2,3
+
+[Texture]
+Load ..\tracks\road8.png
+Coordinates   0,1,3
+Coordinates   1,0,3
+Coordinates   2,0,0
+Coordinates   3,1,0
+
+;Crosshatches
+[MeshBuilder]
+Vertex -18.5,5.05,6.2
+Vertex -18.5,5.05,44.1,
+Vertex -39  ,5.05,17.4,
+Face 2,1,0
+
+[Texture]
+Load ..\tracks\crosshatches.png
+Coordinates   0,2,2
+Coordinates   1,0,2
+Coordinates   2,0,0
+
+;More Roadbed
+[MeshBuilder]
+Vertex -22.5,5.05,52.1,
+Vertex -18.5,5.05,44.1,
+Vertex -39  ,5.05,17.4,
+Vertex -42  ,5.05,25.4,
+Face 0,1,2,3
+
+[Texture]
+Load ..\tracks\road8.png
+Coordinates   0,1,3
+Coordinates   1,0,3
+Coordinates   2,0,0
+Coordinates   3,1,0
+
+;Pavement Again
+[MeshBuilder]
+Vertex -22.5,5.05,52.1,
+Vertex -22.5,5.05,54.1,
+Vertex -42  ,5.05,27.4,
+Vertex -42  ,5.05,25.4,
+Face 3,2,1,0
+
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates   0,1,12
+Coordinates   1,0,12
+Coordinates   2,0,0
+Coordinates   3,1,0
+
+;Grass
+[MeshBuilder]
+Vertex -22.5,5.05,54.1,
+Vertex -24.5,5.05,74.1,
+Vertex -62  ,5.05,77.4,
+Vertex -42  ,5.05,27.4,
+Face 3,2,1,0
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates   0,5,5
+Coordinates   1,0,5
+Coordinates   2,0,0
+Coordinates   3,5,0
+
+;Another Bridge Wall
+[MeshBuilder]
+Vertex -39  ,4.55,17.4,
+Vertex -39  ,6.05,17.4,
+Vertex -18.5,6.05,6.2,
+Vertex -18.5,4.55,6.2,
+Face2 3,2,1,0,
+
+[Texture]
+Load ..\common\bridge_steel2.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, 6, 0,
+Coordinates 3, 6, 1,
+Transparent 0,0,255
+
+;Undertray
+[MeshBuilder]
+Vertex -8.5 ,4.55,10.1,
+Vertex -8.5 ,4.55,44.1,
+Vertex -39  ,4.55,17.4,
+Vertex -18.5,4.55,6.2,
+Face 0,1,2,3
+
+[Texture]
+Load ..\walls\grey_steel.png
+Coordinates 0, 0, 6,
+Coordinates 1, 0, 0,
+Coordinates 2, 4, 0,
+Coordinates 3, 4, 6,
+
+;Another Stone Wall
+[MeshBuilder]
+Vertex -8.5 ,-0.5,10.1,
+Vertex -8.5 ,4.55,10.1,
+Vertex -18.5,4.55,6.2,
+Vertex -18.5,-0.5,6.2,
+Vertex -8.5 ,4.55,44.1,
+Vertex -39  ,4.55,17.4,
+Vertex -39  ,-0.5,17.4,
+Vertex -8.5 ,-0.5,44.1,
+Face 0,1,2,3
+Face 7,6,5,4
+
+[Texture]
+Load underbridge3.png
+Coordinates 0, 0, 1.5,
+Coordinates 1, 0, 0,
+Coordinates 2, 2, 0,
+Coordinates 3, 2, 1.5,
+Coordinates 4, 0, 3,
+Coordinates 5, 0, 0,
+Coordinates 6, 2, 0,
+Coordinates 7, 2, 3,
+
+;Abutment 1
+[MeshBuilder]
+Vertex -6 ,-0.5,64.1,
+Vertex -13 ,4.55,64.1,
+Vertex -8.5 ,4.55,44.1,
+Vertex -8.5 ,-0.5,44.1,
+Face 3,2,1,0
+
+[Texture]
+Load underbridge2.png
+Coordinates 0, 0, 0.65,
+Coordinates 1, 0, 0,
+Coordinates 2, 0.7, 0,
+Coordinates 3, 0.7, 0.65,
+Transparent 0,0,255
+
+;Underwalls
+[MeshBuilder]
+Vertex -2.6,-0.5,-0.15
+Vertex -2.6,-0.5,7.84
+Vertex -2.85,3,7.95
+Vertex -2.85,3,-0.10
+Vertex -2.35,3.7,-0.30
+Vertex -2.35,3.7,7.75
+Vertex -1.11,4,7.25
+Vertex -1.11,4,-0.80
+Vertex 1.10,4.27,-1.65
+Vertex 1.10,4.27,6.45
+Vertex 3.70,4.27,5.45
+Vertex 3.70,4.27,-2.65
+Vertex 5.71,4.03,-3.45
+Vertex 5.71,4.03,4.7
+Vertex 7.15,3.67,4.13
+Vertex 7.15,3.67,-3.95
+Vertex 7.7,2.97,-4.22
+Vertex 7.7,2.97,3.93
+Vertex 7.3,-0.5,4.07
+Vertex 7.3,-0.5,-4.07
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,8,9
+Face 11,10,9,8
+Face 10,11,12,13
+Face 15,14,13,12
+Face 14,15,16,17
+Face 19,18,17,16
+Color 40,40,40
+
+;Shadow
+[MeshBuilder]
+Vertex -2.6,-0.145,-0.15
+Vertex -2.6,-0.145,7.84
+Vertex 7.3,-0.145,4.07
+Vertex 7.3,-0.145,-4.07
+Face 0,1,2,3
+Color 0,0,0,170,
+
+;Grass Wall L 1
+[MeshBuilder]
+Vertex -12,6,-10
+Vertex -12,6.02,3
+Vertex -20,6,6
+Vertex -75,-1,-16.5
+Face 3,2,1,0
+Translate 1.4,-1,0
+
+[Texture]
+Load ..\common\grass6.png,
+Coordinates 0, 0, 0,
+Coordinates 1, 3, 0,
+Coordinates 2, 3, 3,
+Coordinates 3, 0, 6,
+
+;Grass Wall L 1
+[MeshBuilder]
+Vertex -12, 6.02, 3,
+Vertex 3.5, -5.3, 3,
+Vertex 3.5, -5.3, -26.5,
+Vertex -80.0, -1, -16.5,
+Vertex -12.0, 6, -10,
+Face 0,1,2,4,
+Face 4,2,3,
+Translate 1.4,-1,0
+
+[Texture]
+Load ..\common\grass6.png,
+Coordinates 0, 0, 0,
+Coordinates 1, 3, 0,
+Coordinates 2, 3, 3,
+Coordinates 3, 0, 12,
+Coordinates 4, 0, 3,
+
+;Rock Exiting 1
+[MeshBuilder]
+Vertex -24,0,6
+Vertex -20,6,6
+Vertex -75,-1,-16.5
+Face 0,1,2
+Translate 1.4,-1,0
+
+[Texture]
+Load ..\common\rock1.png
+Coordinates 0, 0, 0,
+Coordinates 1, 0.5, 0,
+Coordinates 2, 0, 1,
+
+;Wall Exiting to Rock
+[MeshBuilder]
+Vertex -18.5,-0.5,6.2,
+Vertex -22.6,-1,6
+Vertex -18.6,5,6
+Vertex -18.5,4.55,6.2,
+
+Face 3,2,1,0
+
+[Texture]
+Load underbridge3.png,
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 0.2, 2,
+Coordinates 3, 0, 2,
+
+[MeshBuilder]
+Vertex 4, 0.8, 15
+Vertex 4, 0.8, 0
+Vertex 3.8, -0.9, 0
+Vertex 3.8, -0.9, 15
+Vertex 4.1, 0.8, 15
+Vertex 4.1, 0.8, 0
+Vertex 4.3, -0.9, 0
+Vertex 4.3, -0.9, 15
+Face 0,1,2,3
+Face 7,6,5,4
+Face 4,5,1,0
+Face 5,6,2,1
+Face 0,3,7,4
+Translate -14,5.2,-13.5
+
+[Texture]
+Load ..\common\greystone2.png
+Coordinates 0, 0, 0
+Coordinates 1, 6, 0
+Coordinates 2, 6, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0
+Coordinates 5, 6, 0
+Coordinates 6, 6, 1
+Coordinates 7, 0, 1
+
+[MeshBuilder]
+Vertex -9.95, 7, 1.5
+Vertex -9.95, 7, -10
+Vertex -9.95, 5.7, -10
+Vertex -9.95, 5.7, 1.5
+Face2 3,2,1,0
+
+[Texture]
+Load ..\common\Fence_10.png
+Coordinates 0, 0, 0
+Coordinates 1, 8, 0
+Coordinates 2, 8, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex  12.5 ,  5.15 , -6.1,
+Vertex  12.5 ,  7 , -6.1,
+Vertex -8.5 ,  7 ,  2.1,
+Vertex -8.5,   5.15 ,  2.1,
+Vertex -9.95, 5.15, 1.5
+Vertex -9.95, 7, 1.5
+Face2 3,2,1,0,
+Face2 5,4,3,2
+
+[Texture]
+Load ..\common\Fence_10.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, 16, 0,
+Coordinates 3, 16, 1,
+Coordinates 4, 17, 1,
+Coordinates 5, 17, 0,
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -8.5 ,  5.15 ,  2.1,
+Vertex -8.5,   3 ,  2.1,
+Vertex -9.95, 3, 1.5
+Vertex -9.95, 5.15, 1.5
+Face 0,1,2,3
+
+[Texture]
+Load underbridge3.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 1,
+
+[MeshBuilder]
+Vertex -10.8, 5.05, 1.1
+Vertex -8.5,5.05,2.1
+Vertex -8.5,5.05,3.1
+Vertex -11.35, 5.05, 2.1
+Face 3,2,1,0
+
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 1,
+
+[MeshBuilder]
+Vertex -11.35, 5.05, 2.1
+Vertex -18.5,5.04,6.2
+Vertex -8.5,5.04,11.1,
+Vertex -8.5,5.04,3.1
+Face 0,1,2,3
+
+[Texture]
+Load ..\tracks\crosshatches.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, -0.02,
+Coordinates 2, 1, -0.08,
+Coordinates 3, 1, 1,
+
+;More Grass Walls
+[MeshBuilder]
+Vertex 12, 6.02, 26,
+Vertex -3.5, -5.3, 26,
+Vertex -3.5, -5.3, -16.5,
+Vertex 80.0, -1, -16.5,
+Vertex 12.0, 6, 0,
+Face 4,2,1,0
+Face 3,2,4
+Translate 2.9,-1,-10
+
+[Texture]
+Load ..\common\grass6.png,
+Coordinates 0, 0, 0,
+Coordinates 1, 6, 0,
+Coordinates 2, 6, 6,
+Coordinates 3, 0, 12,
+Coordinates 4, 0, 6,
+
+[MeshBuilder]
+Vertex 12,6,0
+Vertex 12,6.02,26
+Vertex 25,5,26
+Vertex 80,-1,-16.5
+Face 0,1,2,3
+Translate 2.9,-1,-10
+
+[Texture]
+Load ..\common\grass6.png,
+Coordinates 0, 0, 0,
+Coordinates 1, 6, 0,
+Coordinates 2, 6, 6,
+Coordinates 3, 0, 6,
+
+;Stone Edging
+[MeshBuilder]
+Vertex  12.5 ,  -0.5 , -6.1,
+Vertex  12.5 ,  5.15 , -6.1,
+Vertex  15.5 ,  5.15 , -7.1,
+Vertex  15.5 ,  -0.5 , -7.1,
+Face2 0,1,2,3
+
+[Texture]
+Load molesworthrd1.png,
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0.13,
+Coordinates 2, 0.2, 0.13,
+Coordinates 3, 0.2, 1,
+
+
+;More Stone Edging
+;Back
+[MeshBuilder]
+Vertex  12.5 ,  -0.5 , 2.1,
+Vertex  12.5 ,  6.05 , 2.1,
+Vertex  15.5 ,  6.05 , 1.1,
+Vertex  15.5 ,  -0.5 , 1.1,
+Face2 0,1,2,3
+
+[Texture]
+Load molesworthrd1.png,
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, 0.2, 0,
+Coordinates 3, 0.2, 1,
+
+;Pavement 1
+[MeshBuilder]
+Vertex 12.5,5.05,1.1
+Vertex 12.5,5.05,2.1
+Vertex 15.5,5.05,1.1
+Vertex 15.5,5.05,0.1
+Vertex 39.5,5.05,-7.9
+Vertex 39.5,5.05,-6.9
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates   0,1,0
+Coordinates   1,0,0
+Coordinates   2,0,1
+Coordinates   3,1,1
+Coordinates   4,1,10
+Coordinates   5,0,10
+
+;Pavement 2
+[MeshBuilder]
+Vertex 12.5,5.05,-5.1
+Vertex 12.5,5.05,-6.1
+Vertex 15.5,5.05,-7.1
+Vertex 15.5,5.05,-6.1
+Vertex 39.5,5.05,-14.9
+Vertex 39.5,5.05,-15.9
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates   0,1,0
+Coordinates   1,0,0
+Coordinates   2,0,1
+Coordinates   3,1,1
+Coordinates   4,1,10
+Coordinates   5,0,10
+
+;Road
+[MeshBuilder]
+Vertex 12.5,5.05,-5.1
+Vertex 12.5,5.05,1.1
+Vertex 15.5,5.05,0.1
+Vertex 15.5,5.05,-6.1
+Vertex 39.5,5.05,-14.9
+Vertex 39.5,5.05,-7.9
+Face 0,1,2,3
+Face 5,4,3,2
+[Texture]
+Load ..\tracks\road1.png
+Coordinates   0,1,0
+Coordinates   1,0,0
+Coordinates   2,0,0.5
+Coordinates   3,1,0.5
+Coordinates   4,1,6
+Coordinates   5,0,6

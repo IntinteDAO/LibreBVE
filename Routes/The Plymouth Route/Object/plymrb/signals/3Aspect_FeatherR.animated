@@ -1,0 +1,9 @@
+
+[Object]
+Position = 0, -0.25, 0
+States = ..\..\BRSigs_Open\signal3_R.csv, ..\..\BRSigs_Open\signal3_y.csv, ..\..\BRSigs_Open\signal3_g.csv
+statefunction = section / 2
+
+[Object]
+Position = 0, -0.35, 0
+States = ..\..\BRSigs_Open\featherr_unlit.csv

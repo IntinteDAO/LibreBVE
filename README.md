@@ -1,0 +1,1 @@
+This repository contains assets for the OpenBVE game, which **should** be Libre.

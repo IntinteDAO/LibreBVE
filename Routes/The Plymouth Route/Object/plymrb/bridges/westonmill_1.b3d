@@ -1,0 +1,198 @@
+[Meshbuilder]
+Vertex -3.8,0,-0.1
+Vertex -3.8,-22,-0.1
+Vertex -3.8,0,25.1
+Vertex -3.8,-22,25.1
+Vertex -3.8,-35,-0.1
+Vertex -3.8,-35,25.1
+Face 1,3,2,0
+Face 4,5,3,1
+[Texture]
+Load molesworthrd1.png
+Coordinates 0,0.10,0.13
+Coordinates 1,0.14,1
+Coordinates 2,0.86,0.13
+Coordinates 3,0.82,1
+Coordinates 4,0.12,0.5
+Coordinates 5,0.84,0.5
+Transparent 0,0,255
+
+[Meshbuilder]
+Vertex 7.6,0,-0.1
+Vertex 7.6,-22,-0.1
+Vertex 7.6,0,25.1
+Vertex 7.6,-22,25.1
+Vertex 7.6,-35,-0.1
+Vertex 7.6,-35,25.1
+Face 0,2,3,1
+Face 1,3,5,4
+[Texture]
+Load molesworthrd1.png
+Coordinates 0,0.10,0.13
+Coordinates 1,0.14,1
+Coordinates 2,0.86,0.13
+Coordinates 3,0.82,1
+Coordinates 4,0.12,0.5
+Coordinates 5,0.84,0.5
+Transparent 0,0,255
+
+[Meshbuilder]
+Vertex -3.8,-0.3,0
+Vertex 7.6,-0.3,0
+Vertex 7.6,-35,0
+Vertex -3.8,-35,0
+Face2 3,2,1,0
+[Texture]
+Load underbridge3.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,3
+Coordinates 3,0,3
+
+[Meshbuilder]
+Vertex -3.8,-0.3,25.1
+Vertex 7.6,-0.3,25.1
+Vertex 7.6,-35,25.1
+Vertex -3.8,-35,25.1
+Face2 3,2,1,0
+[Texture]
+Load underbridge3.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,3
+Coordinates 3,0,3
+
+[Meshbuilder]
+Vertex 7.6,-0.5,0
+Vertex 7.6,0,0
+Vertex 5.6,0,0
+Vertex 5.6,-0.5,0
+Face2 3,2,1,0
+[Texture]
+Load underbridge3.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder]
+Vertex -3.8,-0.5,0
+Vertex -3.8,0,0
+Vertex -1.8,0,0
+Vertex -1.8,-0.5,0
+Face2 3,2,1,0
+[Texture]
+Load underbridge3.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder]
+Vertex -3.8,-35,21.8
+Vertex 7.6,-35,21.8
+Vertex -3.8,-10.5,21.8
+Vertex 7.6,-10.5,21.8
+Vertex -3.8,-8.7,21.8
+Vertex 7.6,-8.7,21.8
+Vertex -3.8,-5.7,20
+Vertex 7.6,-5.7,20
+Vertex -3.8,-4.1,17.4
+Vertex 7.6,-4.1,17.4
+Vertex -3.8,-3.3,15.8
+Vertex 7.6,-3.3,15.8
+Vertex -3.8,-2.7,12.5
+Vertex 7.6,-2.7,12.5
+Vertex -3.8,-3.3,9.2
+Vertex 7.6,-3.3,9.2
+Vertex -3.8,-4.1,7.6
+Vertex 7.6,-4.1,7.6
+Vertex -3.8,-5.7,5
+Vertex 7.6,-5.7,5
+Vertex -3.8,-8.7,3.5
+Vertex 7.6,-8.7,3.5
+Vertex -3.8,-10.5,3.2
+Vertex 7.6,-10.5,3.2
+Vertex -3.8,-35,3.2
+Vertex 7.6,-35,3.2
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+Face2 6,8,9,7
+Face2 8,10,11,9
+Face2 10,12,13,11
+Face2 12,14,15,13
+Face2 14,16,17,15
+Face2 16,18,19,17
+Face2 18,20,21,19
+Face2 20,22,23,21
+Face2 22,24,25,23
+Color 200,220,220
+[Texture]
+Load  ..\common\concrete1.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Coordinates 4,0,0
+Coordinates 5,1,0
+Coordinates 6,1,1
+Coordinates 7,0,1
+Coordinates 8,0,0
+Coordinates 9,1,0
+Coordinates 10,1,1
+Coordinates 11,0,1
+Coordinates 12,0,0
+Coordinates 13,1,0
+Coordinates 14,1,1
+Coordinates 15,0,1
+Coordinates 16,0,0
+Coordinates 17,1,0
+Coordinates 18,1,1
+Coordinates 19,0,1
+Coordinates 20,0,0
+Coordinates 21,1,0
+Coordinates 22,1,1
+Coordinates 23,0,1
+Coordinates 24,0,0
+Coordinates 25,1,0
+
+[Meshbuilder]
+Vertex -3.8,0,25.1
+Vertex -3.8,0,-0.1
+Vertex -1.8,0,-0.1
+Vertex -1.8,0,25.1
+Vertex -1.8,-0.5,25.1
+Vertex -1.8,-0.5,-0.1
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load underbridge3.png
+Coordinates 0,0,0
+Coordinates 1,3,0
+Coordinates 2,3,0.5
+Coordinates 3,0,0.5
+Coordinates 4,0,0.45
+Coordinates 5,3,0.45
+
+[Meshbuilder]
+Vertex 7.6,0,25.1
+Vertex 7.6,0,-0.1
+Vertex 5.6,0,-0.1
+Vertex 5.6,0,25.1
+Vertex 5.6,-0.5,25.1
+Vertex 5.6,-0.5,-0.1
+Face 0,1,2,3
+Face 5,4,3,2
+
+
+[Texture]
+Load underbridge3.png
+Coordinates 0,0,0
+Coordinates 1,3,0
+Coordinates 2,3,0.5
+Coordinates 3,0,0.5
+Coordinates 4,0,0.45
+Coordinates 5,3,0.45
+

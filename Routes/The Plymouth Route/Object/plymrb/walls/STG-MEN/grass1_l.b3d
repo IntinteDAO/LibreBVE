@@ -1,0 +1,37 @@
+;description=Grass Sloped DL
+;author=Chris Lees
+;From the BVE Cornwall Plymouth- St Austell route. © Chris Lees 2013
+
+[MeshBuilder]
+Vertex 0, -0.401, -1
+Vertex -140, -0.401, -1
+Vertex -140, -0.40, 26
+Vertex 0, -0.40, 26
+Vertex 0, -1.40, 36
+Vertex -140, -1.40, 36
+
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\..\common\grass6.png
+Coordinates 0, 0, 0
+Coordinates 1, 5.5, 0
+Coordinates 2, 5.5, 2
+Coordinates 3, 0, 2
+Coordinates 4, 0, 1
+Coordinates 5, 5, 1
+
+[MeshBuilder]
+Vertex -140, -0.40, -1
+Vertex 0, -0.40, -1
+Vertex 0, -5.401, -3
+Vertex -140, -5.401, -3
+Face 0,1,2,3
+
+[Texture]
+Load ..\..\common\grass6.png
+Coordinates 0, 0, 0
+Coordinates 1, 5.5, 0
+Coordinates 2, 5.5, 0.5
+Coordinates 3, 0, 0.5

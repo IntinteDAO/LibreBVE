@@ -1,0 +1,58 @@
+;Description=St Budeaux Left Station Wall Object
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route © 2013
+
+;Grass 1
+[MeshBuilder]
+Vertex 8,1,30
+Vertex 5.9,1,-0.5
+Vertex 14.5,3,-0.5
+Vertex 14.5,3,30
+Vertex 15.7,3,30
+Vertex 15.7,3,-0.5
+Vertex 20,-5,-0.5
+Vertex 20,-5,30
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0.8
+Coordinates 5, 2, 0.8
+Coordinates 6, 2, -0.2
+Coordinates 7, 0, -0.2
+
+;Path End
+[MeshBuilder]
+Vertex 8,1,30
+Vertex 5.9,1,-0.5
+Vertex 5.9,1,30
+Face 0,1,2
+
+[Texture]
+Load ..\common\tarmac.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 0, 1
+
+;Fence
+[MeshBuilder]
+Vertex 6.3,2,-0.5
+Vertex 8,2,27.7
+Vertex 8,1,27.7
+Vertex 6.3,1,-0.5
+Face2 3,2,1,0
+
+[Texture]
+Load ..\common\Fence_18.png
+Coordinates 0, 0, 0
+Coordinates 1, 10, 0
+Coordinates 2, 10, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255

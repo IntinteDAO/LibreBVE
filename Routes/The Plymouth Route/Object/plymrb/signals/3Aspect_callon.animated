@@ -1,0 +1,10 @@
+
+[Object]
+Position = 0, -0.07, 0
+States = ..\..\BRSigs_Open\signal3_R.csv, ..\..\BRSigs_Open\signal3_y.csv, ..\..\BRSigs_Open\signal3_g.csv
+statefunction = section / 2
+
+[Object]
+Position = 0.7, 0.2, 0
+States = ..\..\BRSigs_Open\callon0_R.csv, ..\..\BRSigs_Open\callon0_G.csv
+statefunction = if[section != 0, 1, 0]

@@ -1,0 +1,684 @@
+;Moved with BVE File Converter
+;Moved with BVE File Converter
+;author=Uwe Post
+;description=deep forest
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+
+CreateMeshBuilder,
+AddVertex, 44 ,  24 ,  0 ,
+AddVertex, 44 , -0.1 ,  0 ,
+AddVertex, 32 , -0.1 ,  0 ,
+AddVertex, 32 ,  24 ,  0 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+CreateMeshBuilder,
+AddVertex, 54 ,  24 ,  1 ,
+AddVertex, 54 , -0.1 ,  1 ,
+AddVertex, 42 , -0.1 ,  1 ,
+AddVertex, 42 ,  24 ,  1 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+CreateMeshBuilder,
+AddVertex, 34 ,  28 ,  5.5 ,
+AddVertex, 34 , -0.1 ,  5.5 ,
+AddVertex, 22 , -0.1 ,  5.5 ,
+AddVertex, 22 ,  28 ,  5.5 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+CreateMeshBuilder,
+AddVertex, 47 ,  24 ,  7.8 ,
+AddVertex, 47 , -0.1 ,  7.8 ,
+AddVertex, 35 , -0.1 ,  7.8 ,
+AddVertex, 35 ,  24 ,  7.8 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree2.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+CreateMeshBuilder,
+AddVertex, 32 ,  20 ,  11 ,
+AddVertex, 32 , -0.1 ,  11 ,
+AddVertex, 20 , -0.1 ,  11 ,
+AddVertex, 20 ,  20 ,  11 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 46 ,  24 ,  14 ,
+AddVertex, 46 , -0.1 ,  14 ,
+AddVertex, 34 , -0.1 ,  14 ,
+AddVertex, 34 ,  24 ,  14 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree2.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 42 ,  24 ,  18 ,
+AddVertex, 42 , -0.1 ,  18 ,
+AddVertex, 30 , -0.1 ,  18 ,
+AddVertex, 30 ,  24 ,  18 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 47 ,  24 ,  25 ,
+AddVertex, 47 , -0.1 ,  25 ,
+AddVertex, 35 , -0.1 ,  25 ,
+AddVertex, 35 ,  24 ,  25 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree2.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 42 ,  24 , -10 ,
+AddVertex, 42 , -0.1 , -10 ,
+AddVertex, 30 , -0.1 , -10 ,
+AddVertex, 30 ,  24 , -10 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 46 ,  24 , -4 ,
+AddVertex, 46 , -0.1 , -4 ,
+AddVertex, 34 , -0.1 , -4 ,
+AddVertex, 34 ,  24 , -4 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree2.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 35 ,  6 , -8 ,
+AddVertex, 35 , -0.1 , -8 ,
+AddVertex, 29 , -0.1 , -8 ,
+AddVertex, 29 ,  6 , -8 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, bush1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 51 ,  9 , -4 ,
+AddVertex, 51 , -0.1 , -4 ,
+AddVertex, 45 , -0.1 , -4 ,
+AddVertex, 45 ,  9 , -4 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, bush1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+CreateMeshBuilder,
+AddVertex, 25 ,  8 , -4 ,
+AddVertex, 25 , -0.1 , -4 ,
+AddVertex, 31 , -0.1 , -4 ,
+AddVertex, 31 ,  8 , -4 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, bush1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+CreateMeshBuilder,
+AddVertex, 25 ,  8 ,  14 ,
+AddVertex, 25 , -0.1 ,  14 ,
+AddVertex, 31 , -0.1 ,  14 ,
+AddVertex, 31 ,  8 ,  14 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, bush1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+CreateMeshBuilder,
+AddVertex, 51 ,  8 ,  15 ,
+AddVertex, 51 , -0.1 ,  15 ,
+AddVertex, 45 , -0.1 ,  15 ,
+AddVertex, 45 ,  8 ,  15 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, bush1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 25 ,  12 ,  19 ,
+AddVertex, 25 , -0.1 ,  19 ,
+AddVertex, 31 , -0.1 ,  19 ,
+AddVertex, 31 ,  12 ,  19 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 52 ,  14 ,  21 ,
+AddVertex, 52 , -0.1 ,  21 ,
+AddVertex, 45 , -0.1 ,  21 ,
+AddVertex, 45 ,  14 ,  21 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+CreateMeshBuilder,
+AddVertex, 24 ,  17 ,  25 ,
+AddVertex, 24 , -0.1 ,  25 ,
+AddVertex, 32 , -0.1 ,  25 ,
+AddVertex, 32 ,  17 ,  25 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+CreateMeshBuilder,
+AddVertex, 28 ,  24 ,  0 ,
+AddVertex, 28 , -0.1 ,  0 ,
+AddVertex, 16 , -0.1 ,  0 ,
+AddVertex, 16 ,  24 ,  0 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+CreateMeshBuilder,
+AddVertex, 38 ,  24 ,  1 ,
+AddVertex, 38 , -0.1 ,  1 ,
+AddVertex, 26 , -0.1 ,  1 ,
+AddVertex, 26 ,  24 ,  1 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+CreateMeshBuilder,
+AddVertex, 18 ,  28 ,  5.5 ,
+AddVertex, 18 , -0.1 ,  5.5 ,
+AddVertex, 6 , -0.1 ,  5.5 ,
+AddVertex, 6 ,  28 ,  5.5 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+CreateMeshBuilder,
+AddVertex, 31 ,  24 ,  7.8 ,
+AddVertex, 31 , -0.1 ,  7.8 ,
+AddVertex, 19 , -0.1 ,  7.8 ,
+AddVertex, 19 ,  24 ,  7.8 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree2.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+CreateMeshBuilder,
+AddVertex, 16 ,  20 ,  11 ,
+AddVertex, 16 , -0.1 ,  11 ,
+AddVertex, 4 , -0.1 ,  11 ,
+AddVertex, 4 ,  20 ,  11 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 30 ,  24 ,  14 ,
+AddVertex, 30 , -0.1 ,  14 ,
+AddVertex, 18 , -0.1 ,  14 ,
+AddVertex, 18 ,  24 ,  14 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree2.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 26 ,  24 ,  18 ,
+AddVertex, 26 , -0.1 ,  18 ,
+AddVertex, 14 , -0.1 ,  18 ,
+AddVertex, 14 ,  24 ,  18 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 31 ,  24 ,  25 ,
+AddVertex, 31 , -0.1 ,  25 ,
+AddVertex, 19 , -0.1 ,  25 ,
+AddVertex, 19 ,  24 ,  25 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree2.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 26 ,  24 , -10 ,
+AddVertex, 26 , -0.1 , -10 ,
+AddVertex, 14 , -0.1 , -10 ,
+AddVertex, 14 ,  24 , -10 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 30 ,  24 , -4 ,
+AddVertex, 30 , -0.1 , -4 ,
+AddVertex, 18 , -0.1 , -4 ,
+AddVertex, 18 ,  24 , -4 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree2.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 19 ,  6 , -8 ,
+AddVertex, 19 , -0.1 , -8 ,
+AddVertex, 13 , -0.1 , -8 ,
+AddVertex, 13 ,  6 , -8 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, bush1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 35 ,  9 , -4 ,
+AddVertex, 35 , -0.1 , -4 ,
+AddVertex, 29 , -0.1 , -4 ,
+AddVertex, 29 ,  9 , -4 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, bush1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+CreateMeshBuilder,
+AddVertex, 9 ,  8 , -4 ,
+AddVertex, 9 , -0.1 , -4 ,
+AddVertex, 15 , -0.1 , -4 ,
+AddVertex, 15 ,  8 , -4 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, bush1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+CreateMeshBuilder,
+AddVertex, 9 ,  8 ,  14 ,
+AddVertex, 9 , -0.1 ,  14 ,
+AddVertex, 15 , -0.1 ,  14 ,
+AddVertex, 15 ,  8 ,  14 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, bush1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+CreateMeshBuilder,
+AddVertex, 35 ,  8 ,  15 ,
+AddVertex, 35 , -0.1 ,  15 ,
+AddVertex, 29 , -0.1 ,  15 ,
+AddVertex, 29 ,  8 ,  15 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, bush1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 9 ,  12 ,  19 ,
+AddVertex, 9 , -0.1 ,  19 ,
+AddVertex, 15 , -0.1 ,  19 ,
+AddVertex, 15 ,  12 ,  19 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 36 ,  14 ,  21 ,
+AddVertex, 36 , -0.1 ,  21 ,
+AddVertex, 29 , -0.1 ,  21 ,
+AddVertex, 29 ,  14 ,  21 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,
+
+
+CreateMeshBuilder,
+AddVertex, 8 ,  17 ,  25 ,
+AddVertex, 8 , -0.1 ,  25 ,
+AddVertex, 16 , -0.1 ,  25 ,
+AddVertex, 16 ,  17 ,  25 ,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, tree1.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,1,0,
+SetDecalTransparentColor,  0, 0, 255,

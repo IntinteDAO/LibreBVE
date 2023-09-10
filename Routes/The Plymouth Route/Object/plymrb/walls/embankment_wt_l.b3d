@@ -1,0 +1,59 @@
+[MeshBuilder]
+
+Vertex 3.5, -5.3, 26,
+Vertex 3.5, -5.3, -16.5,
+Vertex -12.0, 6, 0,
+Vertex -12, 6.02, 26,
+
+Vertex -25,3,26
+
+Vertex -80.0, -5, -16.5,
+
+Face 0,1,2,3
+Face 5,4,3,2
+Face 5,2,1
+
+
+[Texture]
+Load ..\common\grass6.png,
+Coordinates 0, 0, 0,
+Coordinates 1, 1.5, 0,
+Coordinates 2, 1.5, 1,
+Coordinates 3, 0, 1,
+Coordinates 4, 0, 0.2,
+Coordinates 5, 2.5, -0.5,
+
+
+
+[MeshBuilder]
+Vertex -12.1, 7, 25
+Vertex -12.1, 7, 0
+Vertex -12, 5.7, 0
+Vertex -12, 5.7, 25
+Vertex -12.2, 7, 25
+Vertex -12.2, 7, 0
+Vertex -12.3, 5.7, 0
+Vertex -12.3, 5.7, 25
+Face 3,2,1,0
+Face 4,5,6,7
+Face 0,1,5,4
+Face 1,2,6,5
+Face 4,7,3,0
+
+[Texture]
+Load ..\common\greystone2.png
+Coordinates 0, 0, 0
+Coordinates 1, 8, 0
+Coordinates 2, 8, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0
+Coordinates 5, 8, 0
+Coordinates 6, 8, 1
+Coordinates 7, 0, 1
+
+
+
+
+
+
+

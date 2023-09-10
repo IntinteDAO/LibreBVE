@@ -1,0 +1,703 @@
+;Author=Chris Lees
+;Description=Wingfield Villas
+;Copyright=From the BVE Cornwall Plymouth Route. © 2012
+
+;Front 1
+[MeshBuilder]
+Vertex -10 ,  0 ,  0
+Vertex -10 ,  9 ,  0 
+Vertex -10 ,  9 ,  12 
+Vertex -10 ,  0 ,  12
+Face  0, 1, 2, 3, 
+
+[Texture]
+Load   wingbh_01.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+Transparent 0,0,255
+
+;Near Side 1
+[MeshBuilder]
+Vertex -10 ,  0 ,  0
+Vertex -10 ,  9 ,  0 
+Vertex -35 ,  9 ,  0
+Vertex -35 ,  0 ,  0
+Face 3,2,1,0
+
+[Texture]
+Load   wingbh_02.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,-1,0
+Coordinates   3,-1,1
+Transparent 0,0,255
+
+;Roof 1
+[MeshBuilder]
+Vertex -10 ,  9 ,  0
+Vertex -13 ,  12 ,  6 
+Vertex -32 ,  12 ,  6
+Vertex -35 ,  9 ,  0
+Face 3,2,1,0
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates   0,0,3
+Coordinates   1,0.5,0
+Coordinates   2,4.5,0
+Coordinates   3,5,3
+Transparent 0,0,255
+
+;Roof 2
+[MeshBuilder]
+Vertex -10 ,  9 ,  12
+Vertex -13 ,  12 ,  6 
+Vertex -32 ,  12 ,  6
+Vertex -35 ,  9 ,  12
+Face 0,1,2,3
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates   0,0,3
+Coordinates   1,0.5,0
+Coordinates   2,4.5,0
+Coordinates   3,5,3
+Transparent 0,0,255
+
+;Roof 3
+[MeshBuilder]
+Vertex -10 ,  9 ,  0
+Vertex -13 ,  12 ,  6
+Vertex -10 ,  9 ,  12
+Face 0,1,2
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates   0,0,0
+Coordinates   1,2,3
+Coordinates   2,4,0
+
+;Roof 4
+[MeshBuilder]
+Vertex -35 ,  9 ,  0
+Vertex -32 ,  12 ,  6
+Vertex -35 ,  9 ,  12
+Face 2,1,0
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates   0,0,0
+Coordinates   1,2,3
+Coordinates   2,4,0
+
+;Far Side 1
+[MeshBuilder]
+Vertex -10 ,  0 ,  12
+Vertex -10 ,  9 ,  12 
+Vertex -17 ,  9 ,  12
+Vertex -17 ,  0 ,  12
+Face 0,1,2,3
+
+[Texture]
+Load   wingbh_01.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,0.5,0
+Coordinates   3,0.5,1
+Transparent 0,0,255
+
+;Far Side 2
+[MeshBuilder]
+Vertex -28 ,  0 ,  12
+Vertex -28 ,  9 ,  12 
+Vertex -35 ,  9 ,  12
+Vertex -35 ,  0 ,  12
+Face 0,1,2,3
+
+[Texture]
+Load   wingbh_01.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,0.5,0
+Coordinates   3,0.5,1
+Transparent 0,0,255
+
+;Rear 1
+[MeshBuilder]
+Vertex -35 ,  0 ,  0
+Vertex -35 ,  9 ,  0 
+Vertex -35 ,  9 ,  12 
+Vertex -35 ,  0 ,  12
+Face 3,2,1,0 
+
+[Texture]
+Load   wingbh_01.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+Transparent 0,0,255
+
+;Front 2
+[MeshBuilder]
+Vertex -17 ,  0 ,  12
+Vertex -17 ,  9 ,  12
+Vertex -17 ,  9 ,  31
+Vertex -17 ,  0 ,  31
+Face  0, 1, 2, 3, 
+
+[Texture]
+Load   wingbh_02.png
+Coordinates   0,0.25,1
+Coordinates   1,0.25,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+Transparent 0,0,255
+
+;Rear 2
+[MeshBuilder]
+Vertex -28 ,  0 ,  12
+Vertex -28 ,  9 ,  12
+Vertex -28 ,  9 ,  31
+Vertex -28 ,  0 ,  31
+Face 3,2,1,0 
+
+[Texture]
+Load   wingbh_02.png
+Coordinates   0,0.25,1
+Coordinates   1,0.25,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+Transparent 0,0,255
+
+;Far Side 3
+[MeshBuilder]
+Vertex -10 ,  0 ,  31
+Vertex -10 ,  9 ,  31 
+Vertex -17 ,  9 ,  31
+Vertex -17 ,  0 ,  31
+Face 3,2,1,0
+
+[Texture]
+Load   wingbh_01.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,0.5,0
+Coordinates   3,0.5,1
+Transparent 0,0,255
+
+;Far Side 4
+[MeshBuilder]
+Vertex -28 ,  0 ,  31
+Vertex -28 ,  9 ,  31 
+Vertex -35 ,  9 ,  31
+Vertex -35 ,  0 ,  31
+Face 3,2,1,0
+
+[Texture]
+Load   wingbh_01.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,0.5,0
+Coordinates   3,0.5,1
+Transparent 0,0,255
+
+;Front 3
+[MeshBuilder]
+Vertex -10 ,  0 ,  31
+Vertex -10 ,  9 ,  31 
+Vertex -10 ,  9 ,  43
+Vertex -10 ,  0 ,  43
+Face  0, 1, 2, 3, 
+
+[Texture]
+Load   wingbh_01.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+Transparent 0,0,255
+
+;Rear 3
+[MeshBuilder]
+Vertex -35 ,  0 ,  31
+Vertex -35 ,  9 ,  31
+Vertex -35 ,  9 ,  43 
+Vertex -35 ,  0 ,  43
+Face 3,2,1,0 
+
+[Texture]
+Load   wingbh_01.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+Transparent 0,0,255
+
+;Near Side 1
+[MeshBuilder]
+Vertex -10 ,  0 ,  43
+Vertex -10 ,  9 ,  43 
+Vertex -35 ,  9 ,  43
+Vertex -35 ,  0 ,  43
+Face 0,1,2,3
+
+[Texture]
+Load   wingbh_02.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,-1,0
+Coordinates   3,-1,1
+Transparent 0,0,255
+
+;Roof 5
+[MeshBuilder]
+Vertex -10 ,  9 ,  31
+Vertex -13 ,  12 ,  37 
+Vertex -32 ,  12 ,  37
+Vertex -35 ,  9 ,  31
+Face 3,2,1,0
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates   0,0,3
+Coordinates   1,0.5,0
+Coordinates   2,4.5,0
+Coordinates   3,5,3
+Transparent 0,0,255
+
+;Roof 6
+[MeshBuilder]
+Vertex -10 ,  9 ,  43
+Vertex -13 ,  12 , 37 
+Vertex -32 ,  12 , 37
+Vertex -35 ,  9 ,  43
+Face 0,1,2,3
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates   0,0,3
+Coordinates   1,0.5,0
+Coordinates   2,4.5,0
+Coordinates   3,5,3
+Transparent 0,0,255
+
+;Roof 7
+[MeshBuilder]
+Vertex -10 ,  9 ,  31
+Vertex -13 ,  12 , 37
+Vertex -10 ,  9 ,  43
+Face 0,1,2
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates   0,0,0
+Coordinates   1,2,3
+Coordinates   2,4,0
+
+;Roof 8
+[MeshBuilder]
+Vertex -35 ,  9 ,  31
+Vertex -32 ,  12 , 37
+Vertex -35 ,  9 ,  43
+Face 2,1,0
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates   0,0,0
+Coordinates   1,2,3
+Coordinates   2,4,0
+
+;Roof 9
+[MeshBuilder]
+Vertex -17 ,  9 , 37
+Vertex -17 ,  9 , 6
+Vertex -22.5,11 , 6
+Vertex -22.5,11 , 37
+Vertex -28  ,9  , 37
+Vertex -28  ,9  , 6
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates   0,0,0
+Coordinates   1,5,0
+Coordinates   2,5,3
+Coordinates   3,0,3
+Coordinates   4,0,0
+Coordinates   5,5,0
+
+;Chimney 1
+[MeshBuilder]
+Cube 0.5,1,0.2
+Translate -12.6,10.5,2
+
+[Texture]
+Load ..\..\common\redbrick1.png
+Coordinates 3,0,0
+Coordinates 2,0,2
+Coordinates 0,1,0
+Coordinates 1,1,2
+Coordinates 4,2,0
+Coordinates 5,2,2
+Coordinates 7,1,0
+Coordinates 6,1,2
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,0.3
+Translate -12.85,11.6,2
+
+[Texture]
+Load ..\signalboxes\Plymouth\chimneypot.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,0.3
+Translate -12.35,11.6,2
+
+[Texture]
+Load ..\signalboxes\Plymouth\chimneypot.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+;Chimney 2
+[MeshBuilder]
+Cube 0.5,1,0.2
+Translate -32.6,10.5,2
+
+[Texture]
+Load ..\..\common\redbrick1.png
+Coordinates 3,0,0
+Coordinates 2,0,2
+Coordinates 0,1,0
+Coordinates 1,1,2
+Coordinates 4,2,0
+Coordinates 5,2,2
+Coordinates 7,1,0
+Coordinates 6,1,2
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,0.3
+Translate -32.85,11.6,2
+
+[Texture]
+Load ..\signalboxes\Plymouth\chimneypot.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,0.3
+Translate -32.35,11.6,2
+
+[Texture]
+Load ..\signalboxes\Plymouth\chimneypot.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+;Chimney 3
+[MeshBuilder]
+Cube 0.5,1,0.2
+Translate -22.2,11.5,10
+
+[Texture]
+Load ..\..\common\redbrick1.png
+Coordinates 3,0,0
+Coordinates 2,0,2
+Coordinates 0,1,0
+Coordinates 1,1,2
+Coordinates 4,2,0
+Coordinates 5,2,2
+Coordinates 7,1,0
+Coordinates 6,1,2
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,0.3
+Translate -22.45,12.6,10
+
+[Texture]
+Load ..\signalboxes\Plymouth\chimneypot.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,0.3
+Translate -21.95,12.6,10
+
+[Texture]
+Load ..\signalboxes\Plymouth\chimneypot.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+;Chimney 4
+[MeshBuilder]
+Cube 0.5,1,0.2
+Translate -22.2,11.5,33
+
+[Texture]
+Load ..\..\common\redbrick1.png
+Coordinates 3,0,0
+Coordinates 2,0,2
+Coordinates 0,1,0
+Coordinates 1,1,2
+Coordinates 4,2,0
+Coordinates 5,2,2
+Coordinates 7,1,0
+Coordinates 6,1,2
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,0.3
+Translate -22.45,12.6,33
+
+[Texture]
+Load ..\signalboxes\Plymouth\chimneypot.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,0.3
+Translate -21.95,12.6,33
+
+[Texture]
+Load ..\signalboxes\Plymouth\chimneypot.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+;Chimney 5
+[MeshBuilder]
+Cube 0.5,1,0.2
+Translate -12.6,10.5,41
+
+[Texture]
+Load ..\..\common\redbrick1.png
+Coordinates 3,0,0
+Coordinates 2,0,2
+Coordinates 0,1,0
+Coordinates 1,1,2
+Coordinates 4,2,0
+Coordinates 5,2,2
+Coordinates 7,1,0
+Coordinates 6,1,2
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,0.3
+Translate -12.85,11.6,41
+
+[Texture]
+Load ..\signalboxes\Plymouth\chimneypot.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,0.3
+Translate -12.35,11.6,41
+
+[Texture]
+Load ..\signalboxes\Plymouth\chimneypot.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+;Chimney 6
+[MeshBuilder]
+Cube 0.5,1,0.2
+Translate -32.6,10.5,41
+
+[Texture]
+Load ..\..\common\redbrick1.png
+Coordinates 3,0,0
+Coordinates 2,0,2
+Coordinates 0,1,0
+Coordinates 1,1,2
+Coordinates 4,2,0
+Coordinates 5,2,2
+Coordinates 7,1,0
+Coordinates 6,1,2
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,0.3
+Translate -32.85,11.6,41
+
+[Texture]
+Load ..\signalboxes\Plymouth\chimneypot.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,0.3
+Translate -32.35,11.6,41
+
+[Texture]
+Load ..\signalboxes\Plymouth\chimneypot.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1

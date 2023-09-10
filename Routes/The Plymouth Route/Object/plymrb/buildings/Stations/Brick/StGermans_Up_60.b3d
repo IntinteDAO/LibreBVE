@@ -1,0 +1,302 @@
+;Description=St Germans Up station building 1960s- No bricked up front windows
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route © 2015
+
+;Far End
+[MeshBuilder]
+Vertex 4.5,0,-11
+Vertex 4.5,3.8,-11
+Vertex 0,6.8,-11
+Vertex 0,0,-11
+Vertex -4.5,0,-11
+Vertex -4.5,3.8,-11
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load   stgub_05.png
+Coordinates   0,0,1
+Coordinates   1,0,0.45
+Coordinates   2,0.5,0
+Coordinates   3,0.5,1
+Coordinates   4,1,1
+Coordinates   5,1,0.45
+
+;Front P1
+[MeshBuilder]
+Vertex 4.5,0,-11
+Vertex 4.5,3.8,-11
+Vertex 4.5,3.8,-5
+Vertex 4.5,0,-5
+Vertex 2,0,-5
+Vertex 2,3.8,-5
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load stgub_01.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,0.75,0
+Coordinates 3,0.75,1
+Coordinates 4,1,1
+Coordinates 5,1,0
+
+;Front 2
+[MeshBuilder]
+Vertex 2,0,-5
+Vertex 2,3.8,-5
+Vertex 2,3.8,5
+Vertex 2,0,5
+Face 0,1,2,3
+
+[Texture]
+Load stgub_03.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;Front P3
+[MeshBuilder]
+Vertex 2,3.8,5
+Vertex 2,0,5
+Vertex 4.5,0,5
+Vertex 4.5,3.8,5
+Vertex 4.5,3.8,11
+Vertex 4.5,0,11
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load stgub_04.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.25,1
+Coordinates 3,0.25,0
+Coordinates 4,1,0
+Coordinates 5,1,1
+
+;Front Canopy Edge
+[MeshBuilder]
+Vertex 4.5,3.8,-11
+Vertex 4.5,3.5,-11
+Vertex 6.5,3.5,-11
+Vertex 6.5,3.8,-11
+Vertex 6.5,3.8,11
+Vertex 6.5,3.5,11
+Vertex 4.5,3.5,11
+Vertex 4.5,3.8,11
+Face2 3,2,1,0
+Face2 2,3,4,5
+Face2 7,6,5,4
+
+[Texture]
+Load canopy_1.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,10,1
+Coordinates 3,10,0
+Coordinates 4,120,0
+Coordinates 5,120,1
+Coordinates 6,110,1
+Coordinates 7,110,0
+Transparent 0,0,0
+
+;Front Canopy Top
+[MeshBuilder]
+Vertex 2,3.8,-11
+Vertex 6.5,3.8,-11
+Vertex 6.5,3.8,11
+Vertex 2,3.8,11
+Face 3,2,1,0
+
+[Texture]
+Load ..\..\..\common\tarmac.png
+Coordinates 0,3,3
+Coordinates 1,0,3
+Coordinates 2,0,0
+Coordinates 3,3,0
+
+;Front Canopy Underside
+[MeshBuilder]
+Vertex 2,3.8,-11
+Vertex 6.5,3.8,-11
+Vertex 6.5,3.8,11
+Vertex 2,3.8,11
+Face 0,1,2,3
+
+[Texture]
+Load canopy_2.png
+Coordinates 0,0,3
+Coordinates 1,0,0
+Coordinates 2,20,0
+Coordinates 3,20,3
+
+;Main Roof
+[MeshBuilder]
+Vertex 4.5,3.8,-11
+Vertex 4.5,3.8,11
+Vertex 0,6.8,11
+Vertex 0,6.8,-11
+Vertex -4.5,3.8,-11
+Vertex -4.5,3.8,11
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load ..\..\..\common\slates.png
+Coordinates 0,3,2
+Coordinates 1,0,2
+Coordinates 2,0,0
+Coordinates 3,3,0
+Coordinates 4,3,2
+Coordinates 5,0,2
+
+;Near End
+[MeshBuilder]
+Vertex 4.5,0,11
+Vertex 4.5,3.8,11
+Vertex 0,6.8,11
+Vertex 0,0,11
+Vertex -4.5,0,11
+Vertex -4.5,3.8,11
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load   stgub_06.png
+Coordinates   0,0,1
+Coordinates   1,0,0.45
+Coordinates   2,0.5,0
+Coordinates   3,0.5,1
+Coordinates   4,1,1
+Coordinates   5,1,0.45
+
+;Bay Window Near End
+[MeshBuilder]
+[MeshBuilder]
+Vertex -1.5,1,11
+Vertex -1.5,3.5,11
+Vertex -1,3.5,11.5
+Vertex -1,1,11.5
+Vertex 1,1,11.5
+Vertex 1,3.5,11.5
+Vertex 1.5,3.5,11
+Vertex 1.5,1,11
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[Texture]
+Load bwindow.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+Coordinates   4,3,1
+Coordinates   5,3,0
+Coordinates   6,2,0
+Coordinates   7,2,1
+
+;Bay Window Roof
+[MeshBuilder]
+Vertex -1.5,3.5,11
+Vertex -1,4,11
+Vertex -1,3.5,11.5
+Vertex 1,3.5,11.5
+Vertex 1,4,11
+Vertex 1.5,3.5,11
+Face 2,1,0
+Face 1,2,3,4
+Face 5,4,3
+
+[Texture]
+Load ..\..\..\common\slates.png
+Coordinates   0,1,0
+Coordinates   1,0,1
+Coordinates   2,0,0
+Coordinates   3,1,0
+Coordinates   4,1,1
+Coordinates   5,0,0
+
+;Bay Window Bottom
+[MeshBuilder]
+Vertex -1.5,1,11
+Vertex -1,0.5,11
+Vertex -1,1,11.5
+Vertex 1,1,11.5
+Vertex 1,0.5,11
+Vertex 1.5,1,11
+Face 0,1,2
+Face 4,3,2,1
+Face 3,4,5
+
+[Texture]
+Load salb_4.png
+Coordinates   0,1,0
+Coordinates   1,0,1
+Coordinates   2,0,0
+Coordinates   3,1,0
+Coordinates   4,1,1
+Coordinates   5,0,0
+;Roof Ridge
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,21.99
+Rotate 1,0,0,90
+
+Translate 0,6.75,0
+[Texture]
+Load ..\..\..\common\rooftiles1.png,,,
+Coordinates 0,0,0
+Coordinates 1,0,18
+Coordinates 2,0.1,0
+Coordinates 3,0.1,18
+Coordinates 4,0.2,0
+Coordinates 5,0.2,18
+Coordinates 6,0.3,0
+Coordinates 7,0.3,18
+Coordinates 8,0.4,0
+Coordinates 9,0.4,18
+Coordinates 10,0.5,0
+Coordinates 11,0.5,18
+Coordinates 12,0.5,0
+Coordinates 13,0.5,18
+Coordinates 14,0.6,0
+Coordinates 15,0.6,18
+
+;Rear
+[MeshBuilder]
+Vertex -4.5,0,-11
+Vertex -4.5,3.8,-11
+Vertex -4.5,3.8,11
+Vertex -4.5,0,11
+Face 3,2,1,0
+
+[Texture]
+Load stgub_03.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;Ground Slope
+[MeshBuilder]
+Vertex -2.5,-1.5,-14
+Vertex -11.5,-1.5,-11
+Vertex -4.5,0,-11
+Vertex -4.5,0,11
+Vertex -11.5,-1.5,11
+Vertex -0.5,-1.5,14
+Face 0,1,2
+Face 4,3,2,1
+Face 3,4,5
+
+[Texture]
+Load ..\..\..\common\tarmac.png
+Coordinates 0,0.5,0
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,2,0
+Coordinates 4,2,1
+Coordinates 5,2.5,0

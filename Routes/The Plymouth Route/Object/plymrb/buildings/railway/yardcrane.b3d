@@ -1,0 +1,651 @@
+;Description=GWR 2T Yard Crane
+;Author=Chris Lees
+
+;Bottom Cube
+[MeshBuilder]
+Cube 1.5,0.1,1.5 
+Translate 0,0.05,0
+Color 100,100,100
+
+[Texture]
+Load ..\..\common\concrete2.png
+Coordinates  0,0,0
+Coordinates  2,0,1
+Coordinates  5,1,0
+Coordinates  6,1,1
+Coordinates  1,0,0
+Coordinates  3,0,1
+Coordinates  4,1,0
+Coordinates  7,1,1
+
+;Bottom Cube Brace 1
+[MeshBuilder]
+Cube 2,0.05,0.05 
+Translate 0,0.15,0 
+Rotate 0,1,0,45
+Color 140,140,140
+
+[Texture]
+Load ..\..\common\black.png
+Coordinates 0,0,0
+Coordinates 1,0,2
+Coordinates 2,1,0
+Coordinates 3,1,2
+Coordinates 6,2,0
+Coordinates 7,2,2
+Coordinates 5,1,0
+Coordinates 4,1,2
+
+;Bottom Cube Brace 1
+[MeshBuilder]
+Cube 2,0.05,0.05 
+Translate 0,0.15,0 
+Rotate 0,1,0,-45
+Color 140,140,140
+
+[Texture]
+Load ..\..\common\black.png
+Coordinates 0,0,0
+Coordinates 1,0,2
+Coordinates 2,1,0
+Coordinates 3,1,2
+Coordinates 6,2,0
+Coordinates 7,2,2
+Coordinates 5,1,0
+Coordinates 4,1,2
+
+;Bottom Cube Bolt 1a
+[MeshBuilder]
+Cylinder 8,0.02,0.02,0.05 
+Translate 1.35,0.2,1.35 
+Color 90,90,90
+
+;Bottom Cube Bolt 1b
+[MeshBuilder]
+Cylinder 8,0.03,0.03,0.025 
+Translate 1.35,0.2,1.35 
+Color 70,70,70
+
+;Bottom Cube Bolt 2a
+[MeshBuilder]
+Cylinder 8,0.02,0.02,0.05 
+Translate -1.35,0.2,1.35 
+Color 90,90,90
+
+;Bottom Cube Bolt 2b
+[MeshBuilder]
+Cylinder 8,0.03,0.03,0.025 
+Translate -1.35,0.2,1.35 
+Color 70,70,70
+
+;Bottom Cube Bolt 3a
+[MeshBuilder]
+Cylinder 8,0.02,0.02,0.05 
+Translate -1.35,0.2,-1.35 
+Color 90,90,90
+
+;Bottom Cube Bolt 3b
+[MeshBuilder]
+Cylinder 8,0.03,0.03,0.025 
+Translate -1.35,0.2,-1.35 
+Color 70,70,70
+
+;Bottom Cube Bolt 4a
+[MeshBuilder]
+Cylinder 8,0.02,0.02,0.05 
+Translate 1.35,0.2,-1.35 
+Color 90,90,90
+
+;Bottom Cube Bolt 4b
+[MeshBuilder]
+Cylinder 8,0.03,0.03,0.025 
+Translate 1.35,0.2,-1.35 
+Color 70,70,70
+
+;Central Pivot
+[MeshBuilder]
+Cylinder 8,0.25,0.25,0.25 
+Translate 0,0.25,0 
+Color 70,70,70
+
+;Front Beam
+[MeshBuilder]
+Cube 0.75,0.1,0.05 
+Translate 0,0.4,0.5 
+
+[Texture]
+Load ..\..\common\black.png
+Coordinates 0,0,0
+Coordinates 1,0,2
+Coordinates 2,1,0
+Coordinates 3,1,2
+Coordinates 6,2,0
+Coordinates 7,2,2
+Coordinates 5,1,0
+Coordinates 4,1,2
+
+;Beam L
+[MeshBuilder]
+Cube 0.05,0.1,2 
+Translate 0.7,0.4,-1.5
+
+[Texture]
+Load ..\..\common\black.png
+Coordinates 0,0,0
+Coordinates 1,0,2
+Coordinates 2,1,0
+Coordinates 3,1,2
+Coordinates 6,2,0
+Coordinates 7,2,2
+Coordinates 5,1,0
+Coordinates 4,1,2
+
+;Beam R
+[MeshBuilder]
+Cube 0.05,0.1,2
+Translate -0.7,0.4,-1.5
+
+[Texture]
+Load ..\..\common\black.png
+Coordinates 0,0,0
+Coordinates 1,0,2
+Coordinates 2,1,0
+Coordinates 3,1,2
+Coordinates 6,2,0
+Coordinates 7,2,2
+Coordinates 5,1,0
+Coordinates 4,1,2
+
+;Counterweight
+[MeshBuilder]
+Cube 0.7,0.3,0.6
+Translate 0,0.55,-3.05 
+Color 140,140,140
+
+[Texture]
+Load ..\..\common\concrete1.png
+Coordinates 0,0,0
+Coordinates 1,0,2
+Coordinates 2,1,0
+Coordinates 3,1,2
+Coordinates 6,2,0
+Coordinates 7,2,2
+Coordinates 5,1,0
+Coordinates 4,1,2
+
+;Reel Support P1
+[MeshBuilder]
+Cube 0.7,0.05,0.9
+Translate 0,0.4,-0.4
+
+[Texture]
+Load ..\..\common\black.png
+Coordinates 0,0,0
+Coordinates 1,0,2
+Coordinates 2,1,0
+Coordinates 3,1,2
+Coordinates 6,2,0
+Coordinates 7,2,2
+Coordinates 5,1,0
+Coordinates 4,1,2
+
+;Reel Support P2
+[MeshBuilder]
+Cube 0.025,0.8,0.1
+Translate -0.4,1.2,-1
+
+[Texture]
+Load ..\..\common\black.png
+Coordinates 0,0,0
+Coordinates 1,0,2
+Coordinates 2,1,0
+Coordinates 3,1,2
+Coordinates 6,2,0
+Coordinates 7,2,2
+Coordinates 5,1,0
+Coordinates 4,1,2
+
+;Reel Support P3
+[MeshBuilder]
+Cube 0.025,0.8,0.1
+Translate 0.4,1.2,-1
+
+[Texture]
+Load ..\..\common\black.png
+Coordinates 0,0,0
+Coordinates 1,0,2
+Coordinates 2,1,0
+Coordinates 3,1,2
+Coordinates 6,2,0
+Coordinates 7,2,2
+Coordinates 5,1,0
+Coordinates 4,1,2
+
+;Main Lift Chain
+[MeshBuilder]
+Vertex 0.131,2.29,-0.84
+Vertex 0.131,2.17,-0.71
+Vertex 0.131,4.87,4.5
+Vertex 0.131,5.09,4.5
+Vertex 0.071,2.23,-0.84
+Vertex 0.191,2.23,-0.71
+Vertex 0.191,4.98,4.5
+Vertex 0.071,4.98,4.5
+Vertex 0.131,4.48,5
+Vertex 0.131,4.48,5.22
+Vertex 0.131,2.58,5.22
+Vertex 0.131,2.58,5
+Vertex 0.071,4.48,5.11
+Vertex 0.191,4.48,5.11
+Vertex 0.191,2.58,5.11
+Vertex 0.071,2.58,5.11
+Face2 0,1,2,3
+Face2 4,5,6,7
+Face2 8,9,10,11
+Face2 12,13,14,15
+
+[Texture]
+Load chain.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,3,1
+Coordinates 3,3,0
+Coordinates 4,0,0
+Coordinates 5,0,1
+Coordinates 6,3,1
+Coordinates 7,3,0
+Coordinates 8,0,0
+Coordinates 9,0,1
+Coordinates 10,0.7,1
+Coordinates 11,0.7,0
+Coordinates 12,0,0
+Coordinates 13,0,1
+Coordinates 14,0.7,1
+Coordinates 15,0.7,0
+Transparent 0,0,255
+
+;Hook
+[MeshBuilder]
+Vertex 0.131,2.58,4.85
+Vertex 0.131,2.58,5.32
+Vertex 0.131,1.8,5.32
+Vertex 0.131,1.8,4.85
+Face2 0,1,2,3
+
+[Texture]
+Load ..\..\trains\81xx\hook.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -0.62,2.33,-1.00
+Vertex 0.62,2.33,-1.00
+Vertex -0.62,2.29,-0.84
+Vertex 0.62,2.29,-0.84
+Vertex -0.62,2.17,-0.71
+Vertex 0.62,2.17,-0.71
+Vertex -0.62,2.00,-0.67
+Vertex 0.62,2.00,-0.67
+Vertex -0.62,1.84,-0.71
+Vertex 0.62,1.84,-0.71
+Vertex -0.62,1.71,-0.84
+Vertex 0.62,1.71,-0.84
+Vertex -0.62,1.67,-1.00
+Vertex 0.62,1.67,-1.00
+Vertex -0.62,1.71,-1.17
+Vertex 0.62,1.71,-1.17
+Vertex -0.62,1.84,-1.29
+Vertex 0.62,1.84,-1.29
+Vertex -0.62,2.00,-1.33
+Vertex 0.62,2.00,-1.33
+Vertex -0.62,2.17,-1.29
+Vertex 0.62,2.17,-1.29
+Vertex -0.62,2.29,-1.17
+Vertex 0.62,2.29,-1.17
+Vertex -0.62,2.33,-1.00
+Vertex 0.62,2.33,-1.00
+Vertex 0.62,2.00,-1.00;ct
+Vertex -0.62,2.00,-1.00;cb
+Face 26,1,3
+Face 2,0,27
+Face 2,3,1,0
+Face 26,3,5
+Face 4,2,27
+Face 4,5,3,2
+Face 26,5,7
+Face 6,4,27
+Face 6,7,5,4
+Face 26,7,9
+Face 8,6,27
+Face 8,9,7,6
+Face 26,9,11
+Face 10,8,27
+Face 10,11,9,8
+Face 26,11,13
+Face 12,10,27
+Face 12,13,11,10
+Face 26,13,15
+Face 14,12,27
+Face 14,15,13,12
+Face 26,15,17
+Face 16,14,27
+Face 16,17,15,14
+Face 26,17,19
+Face 18,16,27
+Face 18,19,17,16
+Face 26,19,21
+Face 20,18,27
+Face 20,21,19,18
+Face 26,21,23
+Face 22,20,27
+Face 22,23,21,20
+Face 26,23,25
+Face 24,22,27
+Face 24,25,23,22
+
+[Texture]
+Load chainreel.png
+Coordinates 0,0.00,0
+Coordinates 1,0.00,1
+Coordinates 2,0.25,0
+Coordinates 3,0.25,1
+Coordinates 4,0.50,0
+Coordinates 5,0.50,1
+Coordinates 6,0.75,0
+Coordinates 7,0.75,1
+Coordinates 8,1.00,0
+Coordinates 9,1.00,1
+Coordinates 10,1.25,0
+Coordinates 11,1.25,1
+Coordinates 12,1.50,0
+Coordinates 13,1.50,1
+Coordinates 14,1.75,0
+Coordinates 15,1.75,1
+Coordinates 16,2.00,0
+Coordinates 17,2.00,1
+Coordinates 18,2.25,0
+Coordinates 19,2.25,1
+Coordinates 20,2.50,0
+Coordinates 21,2.50,1
+Coordinates 22,2.75,0
+Coordinates 23,2.75,1
+Coordinates 24,3.00,0
+Coordinates 25,3.00,1
+Coordinates 26,3.25,0
+Coordinates 27,3.25,1
+
+;Reel P3
+[MeshBuilder]
+Cylinder 12,0.5,0.5,0.05
+Rotate 0,0,1,90
+Translate 0.651,2,-1
+Color 70,70,70
+
+;Cogwheel 1
+[MeshBuilder]
+Vertex -0.651,3,-2
+Vertex -0.651,3,-0
+Vertex -0.651,1,-0
+Vertex -0.651,1,-2
+Vertex -0.661,3,-2
+Vertex -0.661,3,-0
+Vertex -0.661,1,-0
+Vertex -0.661,1,-2
+Vertex -0.671,3,-2
+Vertex -0.671,3,-0
+Vertex -0.671,1,-0
+Vertex -0.671,1,-2
+Vertex -0.681,3,-2
+Vertex -0.681,3,-0
+Vertex -0.681,1,-0
+Vertex -0.681,1,-2
+Face2 3,2,1,0
+Face2 7,6,5,4
+Face2 11,10,9,8
+Face2 15,14,13,12
+
+[Texture]
+Load  cogwheel.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,1,0
+Coordinates 7,1,1
+Coordinates 8,0,1
+Coordinates 9,0,0
+Coordinates 10,1,0
+Coordinates 11,1,1
+Coordinates 12,0,1
+Coordinates 13,0,0
+Coordinates 14,1,0
+Coordinates 15,1,1
+Transparent 0,0,255
+
+;Cogwheel 2
+[MeshBuilder]
+Vertex -0.651,1.8,-2.6
+Vertex -0.651,1.8,-1.6
+Vertex -0.651,0.8,-1.6
+Vertex -0.651,0.8,-2.6
+Vertex -0.661,1.8,-2.6
+Vertex -0.661,1.8,-1.6
+Vertex -0.661,0.8,-1.6
+Vertex -0.661,0.8,-2.6
+Vertex -0.671,1.8,-2.6
+Vertex -0.671,1.8,-1.6
+Vertex -0.671,0.8,-1.6
+Vertex -0.671,0.8,-2.6
+Vertex -0.681,1.8,-2.6
+Vertex -0.681,1.8,-1.6
+Vertex -0.681,0.8,-1.6
+Vertex -0.681,0.8,-2.6
+Face2 3,2,1,0
+Face2 7,6,5,4
+Face2 11,10,9,8
+Face2 15,14,13,12
+
+[Texture]
+Load  cogwheel1.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,1,0
+Coordinates 7,1,1
+Coordinates 8,0,1
+Coordinates 9,0,0
+Coordinates 10,1,0
+Coordinates 11,1,1
+Coordinates 12,0,1
+Coordinates 13,0,0
+Coordinates 14,1,0
+Coordinates 15,1,1
+Transparent 0,0,255
+
+;Crank Handle 1
+[MeshBuilder]
+Cylinder 8,0.05,0.05,0.4
+Rotate 0,0,1,90
+Translate -0.87,1.65,-2.1
+Color 70,70,70
+
+;Crank Handle 2
+[MeshBuilder]
+Cylinder 8,0.06,0.06,0.3
+Rotate 0,0,1,90
+Translate -0.91,1.65,-2.1
+Color 120,120,120
+
+
+;Crane Arm 1
+[MeshBuilder]
+Cube 0.03,0.07,3
+Rotate 1,0,0,-45
+Rotate 0,1,0,-8
+Translate 0.3,2.5,2.6
+
+[Texture]
+Load ..\..\common\black.png
+Coordinates 0,0,0
+Coordinates 1,0,2
+Coordinates 2,1,0
+Coordinates 3,1,2
+Coordinates 6,2,0
+Coordinates 7,2,2
+Coordinates 5,1,0
+Coordinates 4,1,2
+
+;Crane Arm 2
+[MeshBuilder]
+Cube 0.03,0.07,3
+Rotate 1,0,0,-45
+Rotate 0,1,0,8
+Translate -0.3,2.5,2.6
+
+[Texture]
+Load ..\..\common\black.png
+Coordinates 0,0,0
+Coordinates 1,0,2
+Coordinates 2,1,0
+Coordinates 3,1,2
+Coordinates 6,2,0
+Coordinates 7,2,2
+Coordinates 5,1,0
+Coordinates 4,1,2
+
+;Crane Arm Brace 1
+[MeshBuilder]
+Cylinder 8,0.05,0.05,1
+Rotate 0,0,1,90
+Translate 0,1,1.1
+Color 70,70,70
+
+;Crane Arm Brace 2
+[MeshBuilder]
+Cylinder 8,0.05,0.05,0.9
+Rotate 0,0,1,90
+Translate 0,1.5,1.6
+Color 70,70,70
+
+;Crane Arm Brace 3
+[MeshBuilder]
+Cylinder 8,0.05,0.05,0.75
+Rotate 0,0,1,90
+Translate 0,2,2.1
+Color 70,70,70
+
+;Crane Arm Brace 4
+[MeshBuilder]
+Cylinder 8,0.05,0.05,0.6
+Rotate 0,0,1,90
+Translate 0,2.5,2.6
+Color 70,70,70
+
+;Crane Arm Brace 5
+[MeshBuilder]
+Cylinder 8,0.05,0.05,0.45
+Rotate 0,0,1,90
+Translate 0,3,3.1
+Color 70,70,70
+
+;Crane Arm Brace 6
+[MeshBuilder]
+Cylinder 8,0.05,0.05,0.3
+Rotate 0,0,1,90
+Translate 0,3.5,3.6
+Color 70,70,70
+
+;Counterweight Arm 1
+[MeshBuilder]
+Cube 0.03,0.07,4.5
+Rotate 1,0,0,-25
+Rotate 0,1,0,5
+Translate -0.3,2.65,0.7
+
+[Texture]
+Load ..\..\common\black.png
+Coordinates 0,0,0
+Coordinates 1,0,2
+Coordinates 2,1,0
+Coordinates 3,1,2
+Coordinates 6,2,0
+Coordinates 7,2,2
+Coordinates 5,1,0
+Coordinates 4,1,2
+
+;Counterweight Arm 2
+[MeshBuilder]
+Cube 0.03,0.07,4.5
+Rotate 1,0,0,-25
+Rotate 0,1,0,-5
+Translate 0.3,2.65,0.7
+
+[Texture]
+Load ..\..\common\black.png
+Coordinates 0,0,0
+Coordinates 1,0,2
+Coordinates 2,1,0
+Coordinates 3,1,2
+Coordinates 6,2,0
+Coordinates 7,2,2
+Coordinates 5,1,0
+Coordinates 4,1,2
+
+;Crane Arm Wheel
+[MeshBuilder]
+Cylinder 8,0.2,0.2,0.2
+Rotate 0,0,1,90
+Translate 0,4.6,4.65
+Color 70,70,70
+
+;Pulley Wheel
+[MeshBuilder]
+Vertex 0.101,1.8,-2.6
+Vertex 0.101,1.8,-1.6
+Vertex 0.101,0.8,-1.6
+Vertex 0.101,0.8,-2.6
+Vertex 0.121,1.8,-2.6
+Vertex 0.121,1.8,-1.6
+Vertex 0.121,0.8,-1.6
+Vertex 0.121,0.8,-2.6
+Vertex 0.141,1.8,-2.6
+Vertex 0.141,1.8,-1.6
+Vertex 0.141,0.8,-1.6
+Vertex 0.141,0.8,-2.6
+Vertex 0.161,1.8,-2.6
+Vertex 0.161,1.8,-1.6
+Vertex 0.161,0.8,-1.6
+Vertex 0.161,0.8,-2.6
+Face2 3,2,1,0
+Face2 7,6,5,4
+Face2 11,10,9,8
+Face2 15,14,13,12
+Translate 0,3.3,6.8
+
+[Texture]
+Load  pulleywheel.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,1,0
+Coordinates 7,1,1
+Coordinates 8,0,1
+Coordinates 9,0,0
+Coordinates 10,1,0
+Coordinates 11,1,1
+Coordinates 12,0,1
+Coordinates 13,0,0
+Coordinates 14,1,0
+Coordinates 15,1,1
+Transparent 0,0,255

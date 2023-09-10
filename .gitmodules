@@ -1,0 +1,3 @@
+[submodule "Others/SgATC"]
+	path = Others/SgATC
+	url = https://github.com/joeyfoo/SgATC

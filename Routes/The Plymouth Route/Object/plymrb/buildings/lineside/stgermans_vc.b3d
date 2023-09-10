@@ -1,0 +1,637 @@
+;Description=St Germans Village Church
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route © 2015
+
+;End 1
+[MeshBuilder]
+Vertex -7.5,0,0
+Vertex -7.5,6,0
+Vertex 0.5,10,0
+Vertex 0.5,0,0
+Vertex 8.5,0,0
+Vertex 8.5,6,0
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load stgvc_03.png
+Coordinates 0,0,1
+Coordinates 1,0,0.37
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,2,1
+Coordinates 5,2,0.37
+
+;Tower P1a
+[MeshBuilder]
+Vertex -7,0,15
+Vertex -7,3,15
+Vertex -7,3,17
+Vertex -7,0,17
+Face2 3,2,1,0
+
+[Texture]
+Load stgvc_t01.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;Tower P1b
+[MeshBuilder]
+Vertex -7,0,17
+Vertex -7,3,17
+Vertex -4.8,3,17
+Vertex -4.8,0,17
+Vertex -4.8,0,15
+Vertex -4.8,3,15
+Face2 3,2,1,0
+Face2 2,3,4,5
+
+[Texture]
+Load stgvc_t02.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+
+;Tower P2ac
+[MeshBuilder]
+Vertex -4.79,5,18
+Vertex -4.79,0,18
+Vertex -4.79,0,15
+Vertex -4.79,5,15
+Vertex -1.79,5,18
+Vertex -1.79,0,18
+Vertex -1.79,0,15
+Vertex -1.79,5,15
+Face 3,2,1,0
+Face 4,5,6,7
+
+[Texture]
+Load stgvc_t03.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Coordinates 4,0,0
+Coordinates 5,0,1
+Coordinates 6,1,1
+Coordinates 7,1,0
+
+;Tower P2b
+[MeshBuilder]
+Vertex -4.79,5,18
+Vertex -4.79,0,18
+Vertex -1.79,0,18
+Vertex -1.79,5,18
+Face 0,1,2,3
+
+[Texture]
+Load stgvc_t04.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+
+;Tower P3
+[MeshBuilder]
+Vertex -4.59,5.2,17.8
+Vertex -4.79,5,18
+Vertex -4.79,5,15
+Vertex -4.59,5.2,15
+Vertex -1.99,5.2,15
+Vertex -1.79,5,15
+Vertex -1.79,5,18
+Vertex -1.99,5.2,17.8
+Face 3,2,1,0
+
+Face 7,6,5,4
+Face 6,7,0,1
+
+[Texture]
+Load stgvc_t04.png
+Coordinates 0,0,0
+Coordinates 1,0,0.05
+Coordinates 2,1,0.05
+Coordinates 3,1,0
+Coordinates 4,0,0
+Coordinates 5,0,0.05
+Coordinates 6,1,0.05
+Coordinates 7,1,0
+
+;Tower P4
+[MeshBuilder]
+Vertex -4.59,9.2,17.8
+Vertex -4.59,5.2,17.8
+Vertex -4.59,5.2,15
+Vertex -4.59,9.2,15
+Vertex -1.99,9.2,15
+Vertex -1.99,5.2,15
+Vertex -1.99,5.2,17.8
+Vertex -1.99,9.2,17.8
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,0,1
+
+[Texture]
+Load stgvc_t04.png
+Coordinates 0,0,1
+Coordinates 1,0,0.05
+Coordinates 2,1,0.05
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0.05
+Coordinates 6,1,0.05
+Coordinates 7,1,1
+
+;Tower P5
+[MeshBuilder]
+Vertex -4.39,9.4,17.6
+Vertex -4.59,9.2,17.8
+Vertex -4.59,9.2,15.0
+Vertex -4.39,9.4,15.2
+Vertex -2.19,9.4,15.2
+Vertex -1.99,9.2,15.0
+Vertex -1.99,9.2,17.8
+Vertex -2.19,9.4,17.6
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,0,1
+
+[Texture]
+Load stgvc_t04.png
+Coordinates 0,0,0
+Coordinates 1,0,0.05
+Coordinates 2,1,0.05
+Coordinates 3,1,0
+Coordinates 4,0,0
+Coordinates 5,0,0.05
+Coordinates 6,1,0.05
+Coordinates 7,1,0
+
+;Tower P6
+[MeshBuilder]
+Vertex -4.39,13.2,17.6
+Vertex -4.39,9.4,17.6
+Vertex -4.39,9.4,15.2
+Vertex -4.39,13.2,15.2
+Vertex -2.19,13.2,15.2
+Vertex -2.19,9.4,15.2
+Vertex -2.19,9.4,17.6
+Vertex -2.19,13.2,17.6
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,0,1
+
+[Texture]
+Load stgvc_t05.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Coordinates 4,0,0
+Coordinates 5,0,1
+Coordinates 6,1,1
+Coordinates 7,1,0
+Transparent 0,0,255
+
+;Tower Top
+[MeshBuilder]
+Vertex -7,2.5,17
+Vertex -3.8,2.5,17
+Vertex -3.8,2.5,15
+Vertex -7,2.5,15
+Face 0,1,2,3
+Color 40,40,40
+
+;Tower 2a
+[MeshBuilder]
+Vertex 6.79,0,15
+Vertex 6.79,5,15
+Vertex 6.79,5,18
+Vertex 6.79,0,18
+Vertex 3.79,0,18
+Vertex 3.79,5,18
+Vertex 3.79,5,15
+Vertex 3.79,0,15
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+
+[Texture]
+Load stgvc_t04.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,1,0
+Coordinates 7,1,1
+
+;Tower 2b
+[MeshBuilder]
+Vertex 6.79,5,15
+Vertex 6.59,5.2,15
+Vertex 6.59,5.2,17.8
+Vertex 6.79,5,18
+Vertex 3.79,5,18
+Vertex 3.99,5.2,17.8
+Vertex 3.99,5.2,15
+Vertex 3.79,5,15
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+
+[Texture]
+Load stgvc_t04.png
+Coordinates 0,0,0
+Coordinates 1,0,0.05
+Coordinates 2,1,0.05
+Coordinates 3,1,0
+Coordinates 4,0,0
+Coordinates 5,0,0.05
+Coordinates 6,1,0.05
+Coordinates 7,1,0
+
+;Tower 2c
+[MeshBuilder]
+Vertex 6.59,5.2,15
+Vertex 6.59,9.2,15
+Vertex 6.59,9.2,17.8
+Vertex 6.59,5.2,17.8
+Vertex 3.99,5.2,17.8
+Vertex 3.99,9.2,17.8
+Vertex 3.99,9.2,15
+Vertex 3.99,5.2,15
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 7,6,1,0
+
+[Texture]
+Load stgvc_t04.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,1,0
+Coordinates 7,1,1
+
+;Tower 2d
+[MeshBuilder]
+Vertex 6.59,9.2,15
+Vertex 6.39,9.4,15.2
+Vertex 6.39,9.4,17.6
+Vertex 6.59,9.2,17.8
+Vertex 3.99,9.2,17.8
+Vertex 4.19,9.4,17.6
+Vertex 4.19,9.4,15.2
+Vertex 3.99,9.2,15
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 7,6,1,0
+
+[Texture]
+Load stgvc_t04.png
+Coordinates 0,0,0
+Coordinates 1,0,0.05
+Coordinates 2,1,0.05
+Coordinates 3,1,0
+Coordinates 4,0,0
+Coordinates 5,0,0.05
+Coordinates 6,1,0.05
+Coordinates 7,1,0
+
+;Tower Top
+[MeshBuilder]
+Vertex 6.39,9.4,15.2
+Vertex 6.39,9.4,17.6
+Vertex 4.19,9.4,17.6
+Vertex 4.19,9.4,15.2
+Face 3,2,1,0
+Color 40,40,40
+
+;Tower Turret
+[MeshBuilder]
+Vertex 6.39,9.40,16.40
+Vertex 6.39,13.20,16.40
+Vertex 6.07,9.40,17.18
+Vertex 6.07,13.20,17.18
+Vertex 5.29,9.40,17.50
+Vertex 5.29,13.20,17.50
+Vertex 4.51,9.40,17.18
+Vertex 4.51,13.20,17.18
+Vertex 4.19,9.40,16.40
+Vertex 4.19,13.20,16.40
+Vertex 4.51,9.40,15.62
+Vertex 4.51,13.20,15.62
+Vertex 5.29,9.40,15.30
+Vertex 5.29,13.20,15.30
+Vertex 6.07,9.40,15.62
+Vertex 6.07,13.20,15.62
+Vertex 6.39,9.40,16.40
+Vertex 6.39,13.20,16.40
+Face 0,1,3,2
+Face 2,3,5,4
+Face 4,5,7,6
+Face 6,7,9,8
+Face 8,9,11,10
+Face 10,11,13,12
+Face 12,13,15,14
+Face 14,15,17,16
+
+[Texture]
+Load stgvc_t06.png
+Coordinates 0,0.00,1
+Coordinates 1,0.00,0
+Coordinates 2,1.00,1
+Coordinates 3,1.00,0
+Coordinates 4,2.00,1
+Coordinates 5,2.00,0
+Coordinates 6,3.00,1
+Coordinates 7,3.00,0
+Coordinates 8,4.00,1
+Coordinates 9,4.00,0
+Coordinates 10,5.00,1
+Coordinates 11,5.00,0
+Coordinates 12,6.00,1
+Coordinates 13,6.00,0
+Coordinates 14,7.00,1
+Coordinates 15,7.00,0
+Coordinates 16,8.00,1
+Coordinates 17,8.00,0
+Transparent 0,0,255
+
+
+;Sides
+[MeshBuilder]
+Vertex -7.5,0,0
+Vertex -7.5,6,0
+Vertex -7.5,6,15
+Vertex -7.5,0,15
+Vertex 8.5,0,0
+Vertex 8.5,6,0
+Vertex 8.5,6,15
+Vertex 8.5,0,15
+Face 3,2,1,0
+Face 4,5,6,7
+
+[Texture]
+Load stgvc_01.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,1,0
+Coordinates 7,1,1
+
+;Sides 2
+[MeshBuilder]
+Vertex -5.5,0,-15
+Vertex -5.5,6,-15
+Vertex -5.5,6,0
+Vertex -5.5,0,0
+Vertex 6.5,0,-15
+Vertex 6.5,6,-15
+Vertex 6.5,6,0
+Vertex 6.5,0,0
+Face 3,2,1,0
+Face 4,5,6,7
+
+[Texture]
+Load stgvc_02.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,2,0
+Coordinates 3,2,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,2,0
+Coordinates 7,2,1
+
+;End 2
+[MeshBuilder]
+Vertex -7.5,0,15
+Vertex -7.5,6,15
+Vertex 0.5,10,15
+Vertex 0.5,0,15
+Vertex 8.5,0,15
+Vertex 8.5,6,15
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load stgvc_03.png
+Coordinates 0,0,1
+Coordinates 1,0,0.37
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,2,1
+Coordinates 5,2,0.37
+
+;End 3
+[MeshBuilder]
+Vertex -5.5,0,-15
+Vertex -5.5,6,-15
+Vertex -2.5,8.5,-15
+Vertex -2.5,0,-15
+Vertex 0.5,0,-15
+Vertex 0.5,6,-15
+Vertex 3.5,8.5,-15
+Vertex 3.5,0,-15
+Vertex 6.5,0,-15
+Vertex 6.5,6,-15
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+
+[Texture]
+Load stgvc_03.png
+Coordinates 0,0,1
+Coordinates 1,0,0.37
+Coordinates 2,0.5,0.1
+Coordinates 3,0.5,1
+Coordinates 4,1,1
+Coordinates 5,1,0.37
+Coordinates 6,0.5,0.1
+Coordinates 7,0.5,1
+Coordinates 8,0,1
+Coordinates 9,0,0.37
+
+;Roof
+[MeshBuilder]
+Vertex -7.5,6,0
+Vertex -7.5,6,15
+Vertex 0.5,10,15
+Vertex 0.5,10,0
+Vertex 8.5,6,0
+Vertex 8.5,6,15
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates 0,0,0
+Coordinates 1,3,0
+Coordinates 2,3,2
+Coordinates 3,0,2
+Coordinates 4,0,0
+Coordinates 5,3,0
+
+;Roof 2
+[MeshBuilder]
+Vertex -5.5,6,-15
+Vertex -5.5,6,0
+Vertex -2.5,8.5,0
+Vertex -2.5,8.5,-15
+Vertex 0.5,6,-15
+Vertex 0.5,6,0
+Vertex 3.5,8.5,0
+Vertex 3.5,8.5,-15
+Vertex 6.5,6,-15
+Vertex 6.5,6,0
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates 0,0,0
+Coordinates 1,3,0
+Coordinates 2,3,2
+Coordinates 3,0,2
+Coordinates 4,0,0
+Coordinates 5,3,0
+Coordinates 6,3,2
+Coordinates 7,0,2
+Coordinates 8,0,0
+Coordinates 9,3,0
+
+;Roof P3
+[MeshBuilder]
+Vertex 4.25,8.125,15
+Vertex 4.25,8.125,17
+Vertex 0.5,10,17
+Vertex 0.5,10,15
+Vertex -3.25,8.125,15
+Vertex -3.25,8.125,17
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates 0,0,0
+Coordinates 1,0.3,0
+Coordinates 2,0.3,1.2
+Coordinates 3,0,1.2
+Coordinates 4,0,0
+Coordinates 5,0.3,0
+
+;Front Door
+[MeshBuilder]
+Vertex -3.25,8.255,17
+Vertex -3.25,0,17
+Vertex 0.5,0,17
+Vertex 0.5,10,17
+Vertex 3.99,8.255,17
+Vertex 3.99,0,17
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load stgvc_df.png
+Coordinates 0,-0.3,0.18
+Coordinates 1,-0.3,1
+Coordinates 2,0.5,1
+Coordinates 3,0.5,0 
+Coordinates 4,1,0.17
+Coordinates 5,1,1
+
+;Roof Ridge 1
+[MeshBuilder]
+Cylinder 8,0.2,0.2,16.95
+Rotate 1,0,0,90
+Translate 0.5,9.90,8.5
+
+[Texture]
+Load ..\..\common\rooftiles1.png,,,
+Coordinates 0,0,0
+Coordinates 1,0,15
+Coordinates 2,0.1,0
+Coordinates 3,0.1,15
+Coordinates 4,0.2,0
+Coordinates 5,0.2,15
+Coordinates 6,0.3,0
+Coordinates 7,0.3,15
+Coordinates 8,0.4,0
+Coordinates 9,0.4,15
+Coordinates 10,0.5,0
+Coordinates 11,0.5,15
+Coordinates 12,0.5,0
+Coordinates 13,0.5,15
+Coordinates 14,0.6,0
+Coordinates 15,0.6,15
+
+;Roof Ridge 2
+[MeshBuilder]
+Cylinder 8,0.2,0.2,14.95
+Rotate 1,0,0,90
+Translate -2.5,8.40,-7.5
+
+[Texture]
+Load ..\..\common\rooftiles1.png,,,
+Coordinates 0,0,0
+Coordinates 1,0,15
+Coordinates 2,0.1,0
+Coordinates 3,0.1,15
+Coordinates 4,0.2,0
+Coordinates 5,0.2,15
+Coordinates 6,0.3,0
+Coordinates 7,0.3,15
+Coordinates 8,0.4,0
+Coordinates 9,0.4,15
+Coordinates 10,0.5,0
+Coordinates 11,0.5,15
+Coordinates 12,0.5,0
+Coordinates 13,0.5,15
+Coordinates 14,0.6,0
+Coordinates 15,0.6,15
+
+;Roof Ridge 3
+[MeshBuilder]
+Cylinder 8,0.2,0.2,14.95
+Rotate 1,0,0,90
+Translate 3.5,8.40,-7.5
+
+[Texture]
+Load ..\..\common\rooftiles1.png,,,
+Coordinates 0,0,0
+Coordinates 1,0,15
+Coordinates 2,0.1,0
+Coordinates 3,0.1,15
+Coordinates 4,0.2,0
+Coordinates 5,0.2,15
+Coordinates 6,0.3,0
+Coordinates 7,0.3,15
+Coordinates 8,0.4,0
+Coordinates 9,0.4,15
+Coordinates 10,0.5,0
+Coordinates 11,0.5,15
+Coordinates 12,0.5,0
+Coordinates 13,0.5,15
+Coordinates 14,0.6,0
+Coordinates 15,0.6,15

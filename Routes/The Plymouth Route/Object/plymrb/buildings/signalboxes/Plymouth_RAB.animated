@@ -1,0 +1,6 @@
+[Object]
+states = Plymouth_RAB.b3d
+
+[Object]
+states = nameboards\RoyalAlbert.b3d
+RotateYFunction = 3.14159

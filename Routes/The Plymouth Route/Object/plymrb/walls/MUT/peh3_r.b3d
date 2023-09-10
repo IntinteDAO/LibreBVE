@@ -1,0 +1,30 @@
+[Meshbuilder]
+Vertex  3.81 , 1 , 28
+Vertex  3.81 , -0.17 , 28
+Vertex  3.81 , -0.17 , -0.12
+Vertex  3.81 , 1 , -0.12
+Face2 0,1,2,3
+
+[Texture]
+Load ..\..\buildings\lineside\terrace1_3.png
+Coordinates   0,0,-1
+Coordinates   1,0,0
+Coordinates   2,10,0
+Coordinates   3,10,-1
+
+[Meshbuilder]
+Vertex  14 ,   -0.18 , 30
+Vertex  3.81 , -0.18 , 28
+Vertex  3.81 , -0.17 , -0.12
+Vertex  14 ,   -0.17 , -0.12
+Face 3,2,1,0
+
+[Texture]
+Load ..\..\grounds\parking2.png
+Coordinates   0,0,-1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,-1
+
+
+

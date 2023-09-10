@@ -1,0 +1,149 @@
+;shelter front
+[MeshBuilder]
+Vertex -0.1,0,-0.95
+Vertex -0.1,3.5,-0.95
+Vertex 8.1,3.5,-0.95
+Vertex 8.1,0,-0.95
+Face2 0,1,2,3
+
+[Texture]
+Load shelterfrnt.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+;shelter end
+[MeshBuilder]
+Vertex 8,0,2.5
+Vertex 8,3,2.5
+Vertex 8,3.5,-1
+Vertex 8,0,-1
+Face 3,2,1,0
+[Texture]
+Load shelterend.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+transparent 0,0,255
+
+;awning end
+[MeshBuilder]
+Vertex 8.1,0,2.5
+Vertex 8.1,3,2.5
+Vertex 8.1,3.5,-0.95
+Vertex 8.1,0,-0.95
+Face 3,2,1,0
+[Texture]
+Load shelterfrnt.png
+Coordinates 0,0.5,1
+Coordinates 1,0.5,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+transparent 0,0,255
+
+;awning endinside
+[MeshBuilder]
+Vertex 8.1,0,2.5
+Vertex 8.1,3,2.5
+Vertex 8.1,3.5,-0.95
+Vertex 8.1,0,-0.95
+Face 0,1,2,3
+[Texture]
+Load shelterfrnt.png
+Coordinates 0,0.5,1
+Coordinates 1,0.5,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+transparent 0,0,255
+
+;awning end2
+[MeshBuilder]
+Vertex -0.1,0,2.5
+Vertex -0.1,3,2.5
+Vertex -0.1,3.5,-0.95
+Vertex -0.1,0,-0.95
+Face 3,2,1,0
+[Texture]
+Load shelterfrnt.png
+Coordinates 0,0.5,1
+Coordinates 1,0.5,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+transparent 0,0,255
+
+;awning other end
+[MeshBuilder]
+Vertex -0.1,0,2.5
+Vertex -0.1,3,2.5
+Vertex -0.1,3.5,-0.95
+Vertex -0.1,0,-0.95
+Face 0,1,2,3
+[Texture]
+Load shelterfrnt.png
+Coordinates 0,0.5,1
+Coordinates 1,0.5,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+transparent 0,0,255
+
+;shelter back in
+[MeshBuilder]
+Vertex 0,0,2.5
+Vertex 0,3,2.5
+Vertex 8,3,2.5
+Vertex 8,0,2.5
+Face2 0,1,2,3
+
+[Texture]
+Load shelter.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+;shelter end inside
+[MeshBuilder]
+Vertex 8,0,2.5
+Vertex 8,3,2.5
+Vertex 8,3.5,-1
+Vertex 8,0,-1
+Face2 0,1,2,3
+[Texture]
+Load shelterend.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+transparent 0,0,255
+;shelter end out 2
+[MeshBuilder]
+Vertex 0,0,2.5
+Vertex 0,3,2.5
+Vertex 0,3.5,-1
+Vertex 0,0,-1
+Face2 0,1,2,3
+[Texture]
+Load shelterend.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+transparent 0,0,255
+
+;shelteroof 
+[MeshBuilder]
+Vertex -0.1,3,2.5
+Vertex  8.1,3,2.5
+Vertex  8.1,3.5,-1
+Vertex -0.1,3.5,-1
+Face2 0,1,2,3
+[Texture]
+Load ..\brick\slate4.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1

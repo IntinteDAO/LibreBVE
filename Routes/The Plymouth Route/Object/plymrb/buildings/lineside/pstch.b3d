@@ -1,0 +1,421 @@
+;Description=Pair of Church Halls, approach to Plymouth Station
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route © 2016
+
+;Front Face
+[MeshBuilder]
+Vertex -6,0,15
+Vertex -6,3,15
+Vertex -6,3,-10
+Vertex -6,0,-10
+
+Vertex 6,0,15
+Vertex 6,3,15
+Vertex 6,3,-10
+Vertex 6,0,-10
+
+Vertex -8,0,15
+Vertex -8,3,15
+Vertex -8,3,-10
+Vertex -8,0,-10
+
+Vertex -16,0,15
+Vertex -16,3,15
+Vertex -16,3,-10
+Vertex -16,0,-10
+Face 0,1,2,3
+Face 7,6,5,4
+
+Face 11,10,9,8
+Face 12,13,14,15
+
+[texture]
+load pstch_02.png
+coordinates 0, 0, 0
+coordinates 1, 0, -1
+coordinates 2, 1, -1
+coordinates 3, 1, 0
+coordinates 4, 0, 0
+coordinates 5, 0, -1
+coordinates 6, 1, -1
+coordinates 7, 1, 0
+coordinates 8, 0, 0
+coordinates 9, 0, -1
+coordinates 10, 1, -1
+coordinates 11, 1, 0
+coordinates 12, 0, 0
+coordinates 13, 0, -1
+coordinates 14, 1, -1
+coordinates 15, 1, 0
+
+;Grass
+[MeshBuilder]
+[MeshBuilder]
+Vertex 6,0,-10
+Vertex 6,0,-12
+Vertex 1.5,0,-12
+Vertex 1.5,0,-10
+Vertex -1.5,0,-10
+Vertex -1.5,0,-12
+Vertex -10,0,-12
+Vertex -10,0,-10
+Vertex -12.3,0,-10
+Vertex -12.3,0,-12
+Vertex -16,0,-12
+Vertex -16,0,-10
+
+;;12==>P2 down
+Vertex 9,0,-8
+Vertex 9,-1,-13
+Vertex 20,-1,-13
+Vertex 16,0,-8
+Vertex 16,0,15
+Vertex 20,-1,15
+
+Vertex -16,0,25
+Vertex -37,-1,25
+Vertex -37,-1,-12
+Face 20,19,18,11
+Face 20,11,10
+Face 0,1,2,3
+Face 4,5,6,7
+Face 8,9,10,11
+Face 15,14,13,12
+Face 14,15,16,17
+
+[texture]
+load ..\..\common\grass6.png
+coordinates 0, 0, 0
+coordinates 1, 0, 1
+coordinates 2, 1, 1
+coordinates 3, 1, 0
+coordinates 4, 0, 0
+coordinates 5, 0, 1
+coordinates 6, 1, 1
+coordinates 7, 1, 0
+coordinates 8, 0, 0
+coordinates 9, 0, 1
+coordinates 10, 1, 1
+coordinates 11, 1, 0
+
+coordinates 12, 0, 0
+coordinates 13, 0, 1
+coordinates 14, 1, 1
+coordinates 15, 1, 0
+coordinates 16, -1, 0
+coordinates 17, -1, 1
+coordinates 18, 1, 4
+coordinates 19, -1, 4
+coordinates 20, -1, 0
+
+;Path
+[MeshBuilder]
+Vertex 1.5,0,-12
+Vertex 1.5,0,-10
+Vertex -1.5,0,-10
+Vertex -1.5,0,-12
+Vertex -10,0,-12
+Vertex -10,0,-10
+Vertex -12.3,0,-10
+Vertex -12.3,0,-12
+Face 3,2,1,0
+Face 7,6,5,4
+
+[texture]
+load ..\..\common\road13.png
+coordinates 0, 0, 0
+coordinates 1, 0, 1
+coordinates 2, 1, 1
+coordinates 3, 1, 0
+coordinates 4, 0, 0
+coordinates 5, 0, 1
+coordinates 6, 1, 1
+coordinates 7, 1, 0
+
+;Steps
+[MeshBuilder]
+Vertex 1.5,-1,-13
+Vertex 1.5,0,-12
+Vertex -1.5,0,-12
+Vertex -1.5,-1,-13
+Vertex -10,-1,-13
+Vertex -10,0,-12
+Vertex -12.3,0,-12
+Vertex -12.3,-1,-13
+Face 3,2,1,0
+Face 7,6,5,4
+
+[texture]
+load ..\..\bridges\steps.png
+coordinates 0, 0, 0
+coordinates 1, 0, -0.7
+coordinates 2, 1, -0.7
+coordinates 3, 1, 0
+coordinates 4, 0, 0
+coordinates 5, 0, -0.7
+coordinates 6, 1, -0.7
+coordinates 7, 1, 0
+
+;CWall
+[MeshBuilder]
+Vertex 6,0,-12
+Vertex 1.5,0,-12
+Vertex 1.5,0.5,-12.2
+Vertex 6,0.5,-12.2
+Vertex 6,0.5,-12.4
+Vertex 1.5,0.5,-12.4
+Vertex 1.5,-1,-13
+Vertex 6,-1,-13
+Vertex -1.5,0,-12
+Vertex -10,0,-12
+Vertex -10,0.5,-12.2
+Vertex -1.5,0.5,-12.2
+Vertex -1.5,0.5,-12.4
+Vertex -10,0.5,-12.4
+Vertex -10,-1,-13
+Vertex -1.5,-1,-13
+Vertex -12.3,0,-12
+Vertex -16,0,-12
+Vertex -16,0.5,-12.2
+Vertex -12.3,0.5,-12.2
+Vertex -12.3,0.5,-12.4
+Vertex -16,0.5,-12.4
+Vertex -16,-1,-13
+Vertex -12.3,-1,-13
+
+;Infill
+Vertex 6,0,-8
+;;V25 IF2
+Vertex -6,0,15
+Vertex -6,0,-10
+Vertex -8,0,-10
+Vertex -8,0,15
+
+;;V29
+Vertex -37,-1,-12
+Vertex -37,-0.5,-12.2
+Vertex -37,-0.5,-12.4
+Vertex -37,-2,-13
+Face 17,18,30,29
+Face 18,21,31,30
+Face 21,22,32,31
+
+Face 25,26,27,28
+Face 24,7,0
+Face 7,4,3,0
+Face 1,2,5,6
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 15,12,11,8
+Face 9,10,13,14
+Face 11,10,9,8
+Face 10,11,12,13
+Face 15,14,13,12
+Face 17,18,21,22
+Face 23,20,19,16
+Face 19,18,17,16
+Face 18,19,20,21
+Face 23,22,21,20
+
+[texture]
+load ..\..\common\concrete1.png
+coordinates 0, 0, 0
+coordinates 1, 0, 1
+coordinates 2, 0.3, 1
+coordinates 3, 0.3, 0
+coordinates 4, 0.4, 0
+coordinates 5, 0.4, 1
+coordinates 6, 1, 1
+coordinates 7, 1, 0
+coordinates 8, 0, 0
+coordinates 9, 0, 2
+coordinates 10, 0.3, 2
+coordinates 11, 0.3, 0
+coordinates 12, 0.4, 0
+coordinates 13, 0.4, 2
+coordinates 14, 1, 2
+coordinates 15, 1, 0
+coordinates 16, 0, 0
+coordinates 17, 0, 1
+coordinates 18, 0.3, 1
+coordinates 19, 0.3, 0
+coordinates 20, 0.4, 0
+coordinates 21, 0.4, 1
+coordinates 22, 1, 1
+coordinates 23, 1, 0
+
+coordinates 25, 0, 0
+coordinates 26, 0, 3
+coordinates 27, 0.1, 3
+coordinates 28, 0.1, 0
+
+coordinates 29, 0, 4
+coordinates 30, 0.3, 4
+coordinates 31, 0.4, 4
+coordinates 32, 1, 4
+;Car Park Entry
+[MeshBuilder]
+Vertex 6,0,15
+Vertex 9,0,15
+Vertex 9,0,-8
+Vertex 6,0,-8
+Vertex 6,-1,-13
+Vertex 9,-1,-13
+Face 0,1,2,3
+Face 5,4,3,2
+
+[texture]
+load ..\..\common\tarmac1.png
+coordinates 0, 0.5, 0
+coordinates 1, 0, 0
+coordinates 2, 0, 4
+coordinates 3, 0.5, 4
+coordinates 4, 0.5, 2
+coordinates 5, 0, 2
+
+;Car Park Wall
+[MeshBuilder]
+Vertex 6,0,15
+Vertex 16,0,15
+Vertex 16,2,15
+Vertex 6,2,15
+Vertex 6,2,15.3
+Vertex 16.3,2,15.3
+Vertex 16.3,0,15.3
+Vertex 6,0,15.3
+Vertex 16,0,-8
+Vertex 16,2,-8
+Vertex 16.3,2,-8
+Vertex 16.3,0,-8
+Face 1,2,9,8
+Face 2,5,10,9
+Face 5,6,11,10
+Face 8,9,10,11
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Color 120,120,120
+
+[texture]
+load ..\..\common\redbrick2.png
+coordinates 0, 3, 0
+coordinates 1, 0, 0
+coordinates 2, 0, 1.5
+coordinates 3, 3, 1.5
+coordinates 4, 3, 1.44
+coordinates 5, 0, 1.44
+coordinates 6, 0, 0
+coordinates 7, 3, 0
+
+coordinates 8, 6, 0
+coordinates 9, 6, 1.5
+coordinates 10, 6, 1.44
+coordinates 11, 6, 0
+
+;Front Barrier
+[MeshBuilder]
+Vertex 16,0,-8
+Vertex 16,0.6,-8
+Vertex 9,0.6,-8
+Vertex 9,0,-8
+Face2 0,1,2,3
+
+[texture]
+load ..\..\bridges\armco.png
+coordinates 0, 0, 1
+coordinates 1, 0, 0
+coordinates 2, 1, 0
+coordinates 3, 1, 1
+Transparent 0,0,255
+
+;Parking Spaces
+[MeshBuilder]
+Vertex 9,0,15
+Vertex 16,0,15
+Vertex 16,0,-8
+Vertex 9,0,-8
+Face 0,1,2,3
+
+[texture]
+load ..\..\common\parking1.png
+coordinates 0, -0.07, 1
+coordinates 1, -0.07, 0
+coordinates 2, 2.96, 0
+coordinates 3, 2.96, 1
+
+;End 1
+[MeshBuilder]
+Vertex -6,0,-10
+Vertex -6,3,-10
+Vertex 0,7,-10
+Vertex 0,0,-10
+Vertex 6,0,-10
+Vertex 6,3,-10
+Face 0,1,2,3
+Face 5,4,3,2
+
+[texture]
+load pstch_01.png
+coordinates 0, 0, 0
+coordinates 1, 0, -0.38
+coordinates 2, 0.5, -1
+coordinates 3, 0.5, 0
+coordinates 4, 1, 0
+coordinates 5, 1, -0.38
+
+;End 1
+[MeshBuilder]
+Vertex -16,0,-10
+Vertex -16,3,-10
+Vertex -12,9.5,-10
+Vertex -12,0,-10
+Vertex -8,0,-10
+Vertex -8,3,-10
+Face 0,1,2,3
+Face 5,4,3,2
+
+[texture]
+load pstch_03.png
+coordinates 0, 0, 0
+coordinates 1, 0, -0.3
+coordinates 2, 0.52, -1
+coordinates 3, 0.52, 0
+coordinates 4, 1, 0
+coordinates 5, 1, -0.3
+
+;Roof
+[MeshBuilder]
+Vertex -6,3,-10
+Vertex -6,3,15
+Vertex 0,7,15
+Vertex 0,7,-10
+Vertex 6,3,-10
+Vertex 6,3,15
+
+Vertex -16,3,-10
+Vertex -16,3,15
+Vertex -12,9.5,15
+Vertex -12,9.5,-10
+Vertex -8,3,-10
+Vertex -8,3,15
+Face 0,1,2,3
+Face 5,4,3,2
+Face 6,7,8,9
+Face 11,10,9,8
+
+[texture]
+load ..\..\common\tiles5.png
+coordinates 0, 0, 0
+coordinates 1, 3, 0
+coordinates 2, 3, 2
+coordinates 3, 0, 2
+coordinates 4, 0, 0
+coordinates 5, 3, 0
+
+coordinates 6, 0, 0
+coordinates 7, 3, 0
+coordinates 8, 3, 2
+coordinates 9, 0, 2
+coordinates 10, 0, 0
+coordinates 11, 3, 0

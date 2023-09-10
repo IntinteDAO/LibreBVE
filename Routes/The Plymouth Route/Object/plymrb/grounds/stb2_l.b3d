@@ -1,0 +1,51 @@
+;Description=St Budeaux Ground Object
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route © 2013
+
+[MeshBuilder]
+Vertex 120, -0.40, 27
+Vertex -4, -0.40, 27
+Vertex -4, -0.401, -1
+Vertex 120, -0.401, -1
+Face 3,2,1,0
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 0, 0
+Coordinates 1, 5, 0
+Coordinates 2, 5, 4
+Coordinates 3, 0, 4
+
+[MeshBuilder]
+Vertex -8, -3.40, 27
+Vertex -4, -0.40, 27
+Vertex -4, -0.401, -1
+Vertex -8, -3.401, -1
+Face 0,1,2,3
+
+[Texture]
+Load ..\common\rock2.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+
+
+[MeshBuilder]
+Vertex -8, -3.40, 27
+Vertex -8, -3.40, -1
+Vertex -12, -8.40, -1
+Vertex -12, -8.40, 27
+Vertex -14, -12.40, 27
+Vertex -14, -12.40, -1
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\common\rock1.png
+Coordinates 0, 0, 2
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 2
+Coordinates 4, 0, 2
+Coordinates 5, 0, 0

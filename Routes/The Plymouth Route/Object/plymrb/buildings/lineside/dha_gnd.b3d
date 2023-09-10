@@ -1,0 +1,130 @@
+;author=Chris Lees
+;description=Ground component for DeLa Haye Avenue councilflats
+;copyright=From the Plymouth- St Austell demo route. © Chris Lees 2004
+;see www.bvecornwall.co.uk
+
+[MeshBuilder]
+Vertex  -11 ,  1 ,  16
+Vertex  -12 ,  0 ,  -2
+Vertex  12 ,  0 ,  0
+Vertex  12 ,  1 ,  22
+
+Face  3, 2, 1, 0
+
+[Texture]
+Load  ..\..\common\tarmac.png
+Coordinates  0, 0, 0
+Coordinates  1, 5, 0
+Coordinates  2, 5, 5
+Coordinates  3, 0, 5
+
+[MeshBuilder]
+Vertex  -31 ,  1 ,  16
+Vertex  -32 ,  0 ,  -2
+Vertex  -12 ,  0 ,  -2
+Vertex  -11 ,  1 ,  16
+Vertex  -11 ,  1 ,  30
+Vertex  -35 ,  1 ,  30
+Face 3,2,1,0
+Face 0,5,4,3
+[Texture]
+Load  ..\..\common\grass6.png
+Coordinates  0, 0, 0
+Coordinates  1, 3, 0
+Coordinates  2, 3, 3
+Coordinates  3, 0, 3
+Coordinates  4, 0, 5
+Coordinates  5, 2, 4
+
+[Meshbuilder]
+Vertex -11,3,16
+Vertex -12,2,-2
+Vertex -12.1,0,-2
+Vertex -11.1,1,16
+Vertex -10.9,3,16
+Vertex -11.9,2,-2
+Vertex -11.8,0,-2
+Vertex -10.8,1,16
+Face 0,1,2,3
+Face 4,5,1,0
+Face 7,6,5,4
+
+[Texture]
+Load ..\..\common\concrete1.png
+Coordinates 0, 0, 0
+Coordinates 1, 8, 0
+Coordinates 2, 8, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0
+Coordinates 5, 8, 0
+Coordinates 6, 8, 1
+Coordinates 7, 0, 1
+
+[Meshbuilder]
+Vertex -5,4,16
+Vertex -5,3,-2
+Vertex -5,1,-2
+Vertex -5,2,16
+Face2 0,1,2,3
+
+[Texture]
+Load wline.png
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+[Meshbuilder]
+Vertex 0,4,16
+Vertex 0,3,-2
+Vertex 0,1,-2
+Vertex 0,2,16
+Face2 0,1,2,3
+
+[Texture]
+Load wline.png
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+[Meshbuilder]
+Vertex 5,4,16
+Vertex 5,3,-2
+Vertex 5,1,-2
+Vertex 5,2,16
+Face2 0,1,2,3
+
+[Texture]
+Load wline.png
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+[Meshbuilder]
+Vertex 11.9,3,20
+Vertex 12,2,-2
+Vertex 11.9,0,-2
+Vertex 11.9,1,20
+Vertex 12.1,3,20
+Vertex 12.1,2,-2
+Vertex 12.2,0,-2
+Vertex 12.2,1,20
+Face 0,1,2,3
+Face 4,5,1,0
+Face 7,6,5,4
+
+[Texture]
+Load ..\..\common\concrete1.png
+Coordinates 0, 0, 0
+Coordinates 1, 8, 0
+Coordinates 2, 8, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0
+Coordinates 5, 8, 0
+Coordinates 6, 8, 1
+Coordinates 7, 0, 1

@@ -1,0 +1,23 @@
+;description=Grass for dike usage
+;author=Chris Lees
+;From the BVE Cornwall Plymouth- St Austell route. © Chris Lees 2010
+
+[MeshBuilder]
+Vertex -2, -0.30, 26
+Vertex 120, -0.40, 26
+Vertex 120, -0.403, -1
+Vertex -2, -0.303, -1
+
+Vertex -2, -2.403, -15
+Vertex 120, -2.403, -15
+Face 0, 1, 2, 3
+Face 5,4,3,2
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 0, 0
+Coordinates 1, 5, 0
+Coordinates 2, 5, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0.5
+Coordinates 5, 5, 0.5

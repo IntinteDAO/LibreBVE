@@ -1,0 +1,98 @@
+
+
+
+[Object]
+States = rod0.b3d
+Position = 0,0.34,0.09
+
+[Object]
+States = rod0.b3d
+Position = 0,0.3,0.18
+
+[Object]
+States = rod0.b3d
+Position = 0,0.25,0.25
+
+[Object]
+States = rod0.b3d
+Position = 0,0.18,0.3
+
+[Object]
+States = rod0.b3d
+Position = 0,0.09,0.34
+
+[Object]
+States = rod0.b3d
+Position = 0,0,0.35
+
+[Object]
+States = rod0.b3d
+Position = 0,-0.09,0.34
+
+[Object]
+States = rod0.b3d
+Position = 0,-0.18,0.3
+
+[Object]
+States = rod0.b3d
+Position = 0,-0.25,0.25
+
+[Object]
+States = rod0.b3d
+Position = 0,-0.3,0.18
+
+[Object]
+States = rod0.b3d
+Position = 0,-0.34,0.09
+
+[Object]
+States = rod0.b3d
+Position = 0,-0.35,0
+
+[Object]
+States = rod0.b3d
+Position = 0,-0.34,-0.09
+
+[Object]
+States = rod0.b3d
+Position = 0,-0.3,-0.18
+
+[Object]
+States = rod0.b3d
+Position = 0,-0.25,-0.25
+
+[Object]
+States = rod0.b3d
+Position = 0,-0.18,-0.3
+
+[Object]
+States = rod0.b3d
+Position = 0,-0.09,-0.34
+
+[Object]
+States = rod0.b3d
+Position = 0,0,-0.35
+
+[Object]
+States = rod0.b3d
+Position = 0,0.09,-0.34
+
+[Object]
+States = rod0.b3d
+Position = 0,0.18,-0.3
+
+[Object]
+States = rod0.b3d
+Position = 0,0.25,-0.25
+
+[Object]
+States = rod0.b3d
+Position = 0,0.3,-0.18
+
+[Object]
+States = rod0.b3d
+Position = 0,0.34,-0.09
+
+[Object]
+States = rod0.b3d
+Position = 0,0.35,0

@@ -1,0 +1,135 @@
+;Description=B3D reimplementation of the GWR 21ft signalpost from BR Sema4Sigs with mods
+
+[MeshBuilder]
+Vertex -0.065,6.635,0
+Vertex 0.065,6.635,0
+Vertex 0.065,1.955,0
+Vertex  -0.065,1.955,0
+Face2 0,1,2,3
+ 
+[Texture]
+Load  ..\..\LQSigs\post.png
+Coordinates  3,0,1
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+
+[MeshBuilder]
+Vertex -0.090,7.100,0
+Vertex  0.100,7.100,0
+Vertex 0.100,6.631,0
+Vertex  -0.090,6.631,0
+Face2 0,1,2,3
+
+[Texture]
+Load  ..\..\LQSigs\redfinal.png
+Coordinates  3,0,1
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Transparent 0,0,0
+
+
+
+[MeshBuilder]
+Vertex -0.065,1.955,0
+Vertex 0.065,1.955,0
+Vertex 0.084,-0.150,0
+Vertex -0.084,-0.150,0
+Vertex -0.148,-0.200,0
+Vertex 0.148,-0.200,0
+Vertex 0.148,-1.,0
+Vertex -0.148,-1.,0
+Vertex -0.084,-0.150,0
+Vertex 0.084,-0.150,0
+Vertex 0.148,-0.200,0
+Vertex -0.148,-0.200,0
+Face2 0,1,2,3
+Face2 4,5,6,7
+Face2 8,9,10,11
+
+[Texture]
+Load ..\..\LQSigs\post4.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Coordinates  3,0,1
+Coordinates  4,0,0
+Coordinates  5,1,0
+Coordinates  6,1,1
+Coordinates  7,0,1
+Coordinates  8,0,0
+Coordinates  9,1,0
+Coordinates  10,1,1
+Coordinates  11,0,1
+
+[MeshBuilder]
+Vertex -0.065,5.050,0.400,
+Vertex 0.065,5.050,0.400,
+Vertex 0.065,-1.150,0.700,
+Vertex -0.065,-1.150,0.700,
+Face2 0,1,2,3
+
+[Texture]
+Load ..\..\LQSigs\rung.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,20
+Coordinates  3,0,20
+Transparent 0,0,0
+
+
+;Platform PT 1
+[MeshBuilder]
+Vertex -0.3,5.2,-0.01
+Vertex  1.2,5.2,-0.01
+Vertex 1.2,4.5,-0.01
+Vertex  -0.3,4.5,-0.01
+Vertex -0.3,5.2,0.39
+Vertex  1.2,5.2,0.39
+Vertex 1.2,4.5,0.39
+Vertex  -0.3,4.5,0.39
+Face2 0,1,2,3
+Face2 4,5,6,7
+
+[Texture]
+Load  gantry_5_1.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Coordinates  3,0,1
+Coordinates  4,0,0
+Coordinates  5,1,0
+Coordinates  6,1,1
+Coordinates  7,0,1
+Transparent 0,0,255
+
+;Platform PT 2
+[MeshBuilder]
+Vertex -0.2,5.14,-0.01
+Vertex  1.2,5.14,-0.01
+Vertex  1.2,5.14,0.39
+Vertex -0.2,5.14,0.39
+Face2 0,1,2,3
+
+[Texture]
+Load  gantry_2_3.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Coordinates  3,0,1
+
+;Post 2
+[MeshBuilder]
+Vertex 0.9,5.8,0
+Vertex 1.1,5.8,0
+Vertex 1.1,5.14,0
+Vertex 0.9,5.14,0
+Face2 0,1,2,3
+ 
+[Texture]
+Load  ..\..\LQSigs\post.png
+Coordinates  3,0,1
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1

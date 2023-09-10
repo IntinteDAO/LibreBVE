@@ -1,0 +1,37 @@
+[MeshBuilder]
+Vertex -4.9,-1.29,-10
+Vertex -3.8,-0.295,26
+Vertex -1.9,-0.295,26
+Vertex -2.8,-0.29,-10
+Face 0,1,2,3
+
+[Texture]
+Load ..\ballastedge1.png,,
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Transparent 0,0,0
+
+[MeshBuilder]
+Vertex -1.9,-0.305,26
+Vertex -2.8,-0.3,-10
+Vertex -7.5,-2.6,-10
+Vertex -6,-0.305,26
+Vertex -22,-10,26
+Vertex -22.5,-10,-16
+
+Face 0,1,2,3
+Face 5,4,3,2
+
+
+
+
+[Texture]
+Load ..\..\common\grass6.png,,
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,0.2,0
+Coordinates 3,0.2,1
+Coordinates 4,2,1
+Coordinates 5,2,0

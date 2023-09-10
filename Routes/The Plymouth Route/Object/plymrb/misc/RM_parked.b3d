@@ -1,0 +1,322 @@
+;Author=Chris Lees
+;Description=RM Trailer End
+;Copyright=From the BVE Cornwall Plymouth Route. © 2015
+
+;Side Left
+[MeshBuilder]
+Vertex -1.36,4.4,12
+Vertex -1.36,4.4,-1.9
+Vertex -1.36,1.4,-1.9
+Vertex -1.36,1.4,12
+Face 0,1,2,3
+
+[Texture]
+Load RM_trailer1.png
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+
+;Side Right
+[MeshBuilder]
+Vertex 1.36,4.4,12
+Vertex 1.36,4.4,-1.9
+Vertex 1.36,1.4,-1.9
+Vertex 1.36,1.4,12
+Face 3,2,1,0
+
+[Texture]
+Load RM_trailer2.png
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+
+;Roof
+[MeshBuilder]
+Vertex 1.36,4.4,-1.9
+Vertex 1.36,4.4,12
+Vertex 0,4.4,12
+Vertex 0,4.4,-1.9
+Vertex -1.36,4.4,-1.9
+Vertex -1.36,4.4,12
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load RM_trailer2.png
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, -0.23
+Coordinates 3, 1, -0.23
+Coordinates 4, 1, 0
+Coordinates 5, 0, 0
+
+
+;Trailer Base 1
+[MeshBuilder]
+Vertex 1.36,1.4,-1.9
+Vertex 1.36,1.4,12
+Vertex -1.36,1.4,12
+Vertex -1.36,1.4,-1.9
+Vertex 1.2,0.95,11.9
+Vertex -1.2,0.95,11.9
+Vertex -1.2,0.85,10.5
+Vertex 1.2,0.85,10.5
+
+Vertex 1.2,0.35,10.49
+Vertex -1.2,0.35,10.49
+Vertex -1.2,0.35,0
+Vertex 1.2,0.35,0
+
+Vertex 1.2,1.15,0
+Vertex -1.2,1.15,0
+Vertex -1.2,1.3,-1.9
+Vertex 1.2,1.3,-1.9
+Vertex 1.2,1.4,-1.9
+Vertex -1.2,1.4,-1.9
+Face 0,1,2,3
+Face 4,5,6,7
+Face 8,9,10,11
+Face 12,13,14,15
+Face 17,16,15,14
+Color 40,40,40
+
+;Trailer Base 2
+[MeshBuilder]
+Vertex -1.2,0.85,10.5
+Vertex 1.2,0.85,10.5
+Vertex 1.2,0.35,10.49
+Vertex -1.2,0.35,10.49
+Vertex -1.2,0.35,0
+Vertex 1.2,0.35,0
+Vertex 1.2,1.15,0
+Vertex -1.2,1.15,0
+Face 7,6,5,4
+Face 3,2,1,0
+Color 70,70,70
+
+;Back
+[MeshBuilder]
+Vertex -1.36,4.4,12
+Vertex 1.36,4.4,12
+Vertex 1.36,1.4,12
+Vertex -1.36,1.4,12
+Vertex -1.36,1.4,11.9
+Vertex 1.36,1.4,11.9
+Vertex -1.20,1.4,11.9
+Vertex 1.20,1.4,11.9
+Vertex 1.20,0.65,11.9
+Vertex -1.20,0.65,11.9
+Vertex -1.20,0.65,12
+Vertex 1.20,0.65,12
+Vertex 1.20,0.6,12
+Vertex -1.20,0.6,12
+Vertex -1.20,0.6,11.9
+Vertex 1.20,0.6,11.9
+Face 3,2,1,0
+Face 2,3,4,5
+Face2 9,8,7,6
+Face 8,9,10,11
+Face 13,12,11,10
+Face 12,13,14,15
+Face 15,14,9,8
+Face 8,11,12,15
+Face 14,13,10,9
+
+[Texture]
+Load RM_trailer3.png
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 0.811
+Coordinates 3, 1, 0.811
+Coordinates 4, 1, 0.805
+Coordinates 5, 0, 0.805
+Coordinates 6, 0.95, 0.812
+Coordinates 7, 0.05, 0.812
+Coordinates 8, 0.05, 0.965
+Coordinates 9, 0.95, 0.965
+Coordinates 10, 0.95, 1
+Coordinates 11, 0.05, 1
+Coordinates 12, 0.05, 0.965
+Coordinates 13, 0.95, 0.965
+Coordinates 14, 0.95, 1
+Coordinates 15, 0.05, 1
+
+;Front
+[MeshBuilder]
+Vertex -1.36,4.4,-1.9
+Vertex 1.36,4.4,-1.9
+Vertex 1.36,1.4,-1.9
+Vertex -1.36,1.4,-1.9
+Face 0,1,2,3
+
+[Texture]
+Load RM_trailer4.png
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+
+;Chassis L
+[MeshBuilder]
+Vertex -1.2,0.95,11.9
+Vertex -1.2,1.4,11.9
+Vertex -1.2,1.4,10.5
+Vertex -1.2,0.85,10.5
+Vertex -1.2,0.35,10.49
+Vertex -1.2,1.4,10.49
+Vertex -1.2,1.4,-1.9
+Vertex -1.2,0.35,-1.9
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+
+[Texture]
+Load scania_tlc.png
+Coordinates 0, 1, 0.47
+Coordinates 1, 1, 0
+Coordinates 2, 0.945, 0
+Coordinates 3, 0.945, 0.55
+Coordinates 4, 0.944, 1
+Coordinates 5, 0.944, 0
+Coordinates 6, 0, 0
+Coordinates 7, 0, 1
+Transparent 0,0,255
+
+;Chassis R
+[MeshBuilder]
+Vertex 1.2,0.95,11.9
+Vertex 1.2,1.4,11.9
+Vertex 1.2,1.4,10.5
+Vertex 1.2,0.85,10.5
+Vertex 1.2,0.35,10.49
+Vertex 1.2,1.4,10.49
+Vertex 1.2,1.4,-1.9
+Vertex 1.2,0.35,-1.9
+
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[Texture]
+Load scania_tlc.png
+Coordinates 0, 1, 0.47
+Coordinates 1, 1, 0
+Coordinates 2, 0.945, 0
+Coordinates 3, 0.945, 0.55
+Coordinates 4, 0.944, 1
+Coordinates 5, 0.944, 0
+Coordinates 6, 0, 0
+Coordinates 7, 0, 1
+Transparent 0,0,255
+
+;Wheel Covers
+[MeshBuilder]
+Vertex 1.21,1.0,10.1
+Vertex 1.21,0.2,10.1
+Vertex 1.21,0.2,9.3
+Vertex 1.21,1.0,9.3
+
+Vertex -1.21,1.0,10.1
+Vertex -1.21,0.2,10.1
+Vertex -1.21,0.2,9.3
+Vertex -1.21,1.0,9.3
+
+Vertex 1.21,1.0,8.7
+Vertex 1.21,0.2,8.7
+Vertex 1.21,0.2,7.9
+Vertex 1.21,1.0,7.9
+
+Vertex -1.21,1.0,8.7
+Vertex -1.21,0.2,8.7
+Vertex -1.21,0.2,7.9
+Vertex -1.21,1.0,7.9
+
+Vertex 1.21,1.0,7.3
+Vertex 1.21,0.2,7.3
+Vertex 1.21,0.2,6.5
+Vertex 1.21,1.0,6.5
+
+Vertex -1.21,1.0,7.3
+Vertex -1.21,0.2,7.3
+Vertex -1.21,0.2,6.5
+Vertex -1.21,1.0,6.5
+Face 0,1,2,3
+Face 7,6,5,4
+Face 8,9,10,11
+Face 15,14,13,12
+Face 16,17,18,19
+Face 23,22,21,20
+
+[Texture]
+Load rearwheel.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Coordinates 4, 1, 1
+Coordinates 5, 1, 0
+Coordinates 6, 0, 0
+Coordinates 7, 0, 1
+
+Coordinates 8, 1, 1
+Coordinates 9, 1, 0
+Coordinates 10, 0, 0
+Coordinates 11, 0, 1
+Coordinates 12, 1, 1
+Coordinates 13, 1, 0
+Coordinates 14, 0, 0
+Coordinates 15, 0, 1
+
+Coordinates 16, 1, 1
+Coordinates 17, 1, 0
+Coordinates 18, 0, 0
+Coordinates 19, 0, 1
+Coordinates 20, 1, 1
+Coordinates 21, 1, 0
+Coordinates 22, 0, 0
+Coordinates 23, 0, 1
+Transparent 0,0,255
+
+;Wheel
+[MeshBuilder]
+Cylinder 10,0.6,0.6,0.4
+Rotate 0,0,1,90
+Translate 1.0,0.6,9.7
+Color 30,40,40
+
+;Wheel
+[MeshBuilder]
+Cylinder 10,0.6,0.6,0.4
+Rotate 0,0,1,90
+Translate 1.0,0.6,8.3
+Color 30,40,40
+
+;Wheel
+[MeshBuilder]
+Cylinder 10,0.6,0.6,0.4
+Rotate 0,0,1,90
+Translate 1.0,0.6,6.9
+Color 30,40,40
+
+;Wheel
+[MeshBuilder]
+Cylinder 10,0.6,0.6,0.4
+Rotate 0,0,1,90
+Translate -1.0,0.6,9.7
+Color 30,40,40
+
+;Wheel
+[MeshBuilder]
+Cylinder 10,0.6,0.6,0.4
+Rotate 0,0,1,90
+Translate -1.0,0.6,8.3
+Color 30,40,40
+
+;Wheel
+[MeshBuilder]
+Cylinder 10,0.6,0.6,0.4
+Rotate 0,0,1,90
+Translate -1.0,0.6,6.9
+Color 30,40,40

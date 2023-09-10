@@ -1,0 +1,37 @@
+;Road, modded from switch code
+;From the BVE Cornwall Plymouth- St Austell route, © Chris Lees 2003
+
+
+[MeshBuilder]
+Vertex -0.61 , -0.17 , -0.1122
+Vertex  2.61 , -0.17 , -0.1078 
+Vertex -0.613 , -0.17 ,  5.4978
+Vertex  2.607 , -0.17 ,  5.5022 
+Vertex -0.6142 , -0.17 ,  10.9978
+Vertex  2.6058 , -0.17 ,  11.0022 
+Vertex -0.6142 , -0.17 ,  16.4978
+Vertex  2.6058 , -0.17 ,  16.5022 
+Vertex -0.613 , -0.17 ,  21.9978
+Vertex  2.607 , -0.17 ,  22.0022 
+Vertex -0.61 , -0.18 ,  27.6078
+Vertex  2.61 , -0.18 ,  27.6122
+Face  2, 3, 1, 0
+Face  4, 5, 3, 2
+Face  6, 7, 5, 4
+Face  8, 9, 7, 6
+Face  10, 11, 9, 8
+
+[Texture]
+Load  road4.png
+Coordinates  0, 1.02, 10
+Coordinates  1, -0.02, 10
+Coordinates  2, 1.02, 8
+Coordinates  3, -0.02, 8
+Coordinates  4, 1.02, 6
+Coordinates  5, -0.02, 6
+Coordinates  6, 1.02, 4
+Coordinates  7, -0.02, 4
+Coordinates  8, 1.02, 2
+Coordinates  9, -0.02, 2
+Coordinates  10, 1.02, -4
+Coordinates  11, -0.02, -4

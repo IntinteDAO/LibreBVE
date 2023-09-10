@@ -1,0 +1,148 @@
+;Author=Chris Lees
+;Description=Massey Ferguson 138 Tractor
+;Copyright=RB Object library license
+ 
+;tractor wheels
+[MeshBuilder]
+Vertex -1 ,  0 , -0.75 
+Vertex -1 ,  1.5 , -0.75 
+Vertex  4 ,  1.5 , -0.75 
+Vertex  4 ,  0 , -0.75 
+Face2   0,1,2,3
+
+
+[Texture]
+Load  twheels.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Transparent   0,0,255
+
+;tractor wheels
+[MeshBuilder]
+Vertex -1 ,  0 ,  0.3 
+Vertex -1 ,  1.5 ,  0.3 
+Vertex  4 ,  1.5 ,  0.3 
+Vertex  4 ,  0 ,  0.3 
+Face2   0,1,2,3
+
+
+[Texture]
+Load  twheels.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Transparent   0,0,255
+
+[MeshBuilder]
+Vertex -1 ,  0.3 ,  0.275 
+Vertex -1 ,  1.2 ,  0.275 
+Vertex -1 ,  1.2 , -0.725 
+Vertex -1 ,  0.3 , -0.725 
+Face2   0,1,2,3
+
+
+[Texture]
+Load  trad.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+
+;tractor side
+[MeshBuilder]
+Vertex -1 ,  0.3 , -0.725 
+Vertex -1 ,  1.2 , -0.725 
+Vertex  2 ,  1.2 , -0.725 
+Vertex  2 ,  0.3 , -0.725 
+Face2   0,1,2,3
+
+[Texture]
+Load  tside.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+Transparent   0,0,255
+
+;tractor side
+[MeshBuilder]
+Vertex -1 ,  0.3 ,  0.275 
+Vertex -1 ,  1.2 ,  0.275 
+Vertex  2 ,  1.2 ,  0.275 
+Vertex  2 ,  0.3 ,  0.275 
+Face2   0,1,2,3
+
+[Texture]
+Load  tside.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+Transparent   0,0,255
+
+;tractor top
+[MeshBuilder]
+Vertex  1.2 ,  1.2 , -0.725 
+Vertex -1 ,  1.2 , -0.725 
+Vertex -1 ,  1.2 ,  0.275 
+Vertex  1.2 ,  1.2 ,  0.275 
+Face2   0,1,2,3
+
+[Texture]
+Load  ttop.png
+Coordinates  0,1,5
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,5
+
+;Exhaust
+[MeshBuilder]
+Cylinder  20 ,  0.05 ,  0.05 ,  2 
+Translate -0.5 ,  1 , -0.2 
+Color  128,128,128
+[MeshBuilder]
+Cylinder  20 ,  0.075 ,  0.075 ,  0.5 
+Translate -0.5 ,  1.6 , -0.2 
+Color  100,100,100
+
+[MeshBuilder]
+Vertex 1.2 ,  0.3 ,  0.275 
+Vertex 1.2 ,  1.2 ,  0.275 
+Vertex 1.2 ,  1.2 , -0.725 
+Vertex 1.2 ,  0.3 , -0.725 
+Face2   0,1,2,3
+Color 128,128,128
+
+[MeshBuilder]
+Vertex 1.8 ,  0.3 ,  0.275 
+Vertex 2.4 ,  1.4 ,  0.275 
+Vertex 2.4 ,  1.4 , -0.725 
+Vertex 1.8 ,  0.3 , -0.725 
+Face2   0,1,2,3
+Color 128,128,128
+
+[MeshBuilder]
+Vertex 3.7 ,  1.2 ,  0.275 
+Vertex 2.4 ,  1.4 ,  0.275 
+Vertex 2.4 ,  1.4 , -0.725 
+Vertex 3.7 ,  1.2 , -0.725 
+Face2   0,1,2,3
+Color 128,128,128
+
+;Back
+[MeshBuilder]
+Vertex 3.7 ,  0.3 ,  0.275 
+Vertex 3.7 ,  1.2 ,  0.275 
+Vertex 3.7 ,  1.2 , -0.725 
+Vertex 3.7 ,  0.3 , -0.725 
+Face2   0,1,2,3
+
+[Texture]
+Load  tback.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1

@@ -1,0 +1,18 @@
+;Tunnel entrance
+[MeshBuilder]
+Vertex -6.8, -5.65, 0.5
+Vertex -6.8, 8.35, 0.5
+Vertex 13.6, 8.35, 0.5
+Vertex 13.6, -5.65, 0.5
+Face2 0, 1, 2, 3
+Color 0,0,0,150
+
+[MeshBuilder]
+Vertex -6.8, -5.65, 20
+Vertex -6.8, 8.35, 20
+Vertex 13.6, 8.35, 20
+Vertex 13.6, -5.65, 20
+Face2 0, 1, 2, 3
+Color 0,0,0
+
+

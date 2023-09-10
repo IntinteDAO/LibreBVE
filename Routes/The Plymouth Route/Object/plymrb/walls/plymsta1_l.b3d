@@ -1,0 +1,405 @@
+[MeshBuilder]
+Cube  0.08, 0.9, 0.1   
+Translate  5.5 ,  0.5 ,  0 
+Color 190,190,190
+[MeshBuilder]
+Cube  0.08, 0.9, 0.1   
+Translate  5.5 ,  0.5 ,  2.5 
+Color 190,190,190
+[MeshBuilder]
+Cube  0.08, 0.9, 0.1   
+Translate  5.5 ,  0.5 ,  5 
+Color 190,190,190
+[MeshBuilder]
+Cube  0.08, 0.9, 0.1   
+Translate  5.5 ,  0.5 ,  7.5 
+Color 190,190,190
+[MeshBuilder]
+Cube  0.08, 0.9, 0.1   
+Translate  5.5 ,  0.5 ,  10 
+Color 190,190,190
+[MeshBuilder]
+Cube  0.08, 0.9, 0.1   
+Translate  5.5 ,  0.5 ,  12.5 
+Color 190,190,190
+[MeshBuilder]
+Cube  0.08, 0.9, 0.1   
+Translate  5.5 ,  0.5 ,  15 
+Color 190,190,190
+[MeshBuilder]
+Cube  0.08, 0.9, 0.1   
+Translate  5.5 ,  0.5 ,  17.5 
+Color 190,190,190
+[MeshBuilder]
+Cube  0.08, 0.9, 0.1   
+Translate  5.5 ,  0.5 ,  20 
+Color 190,190,190
+[MeshBuilder]
+Cube  0.08, 0.9, 0.1   
+Translate  5.5 ,  0.5 ,  22.5 
+Color 190,190,190
+[MeshBuilder]
+Cube  0.08, 0.9, 0.1   
+Translate  5.5 ,  0.5 ,  25 
+Color 190,190,190
+
+; Longitudinal members 
+; ------------------------------------------
+[MeshBuilder]
+Cube  0.05, 0.05, 12.5   
+Translate  5.5 ,  1.2 ,  12.5 
+Color 190,190,190
+[MeshBuilder]
+Cube  0.05, 0.05, 12.5   
+Translate  5.5 ,  0.1 ,  12.5 
+Color 190,190,190
+
+; Sticks between pillars 0-1
+; (Between a pillar and another - 11 elements far 0.2 m)
+; ------------------------------------------
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04   
+Translate  5.5 ,  0.65 ,  0.25 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04   
+Translate  5.5 ,  0.65 ,  0.65 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04   
+Translate  5.5 ,  0.65 ,  1.05 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04   
+Translate  5.5 ,  0.65 ,  1.45 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04   
+Translate  5.5 ,  0.65 ,  1.85 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  2.25 
+Color 190,190,190
+
+; Sticks between pillars 1-2
+; ------------------------------------------
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  2.75 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  3.15 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  3.55 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  3.95 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  4.35 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  4.75 
+Color 190,190,190
+
+; Sticks between pillars 2-3
+; ------------------------------------------
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  5.25 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  5.65 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  6.05 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  6.45 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  6.85 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  7.25 
+Color 190,190,190
+
+; Sticks between pillars 3-4
+; ------------------------------------------
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  7.75 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  8.15 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04   
+Translate  5.5 ,  0.65 ,  8.55 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  8.95 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  9.35 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  9.75 
+Color 190,190,190
+
+; Sticks between pillars 4-5
+; ------------------------------------------
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  10.25 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  10.65 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  11.05 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  11.45 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  11.85 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  12.25 
+Color 190,190,190
+
+; Sticks between pillars 5-6
+; ------------------------------------------
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  12.75 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  13.15 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  13.55 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  13.95 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  14.35 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  14.75 
+Color 190,190,190
+
+; Sticks between pillars 6-7
+; ------------------------------------------
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  15.25 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  15.65 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  16.05 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  16.45 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  16.85 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  17.25 
+Color 190,190,190
+
+; Sticks between pillars 7-8
+; ------------------------------------------
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  17.75 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  18.15 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  18.55 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  18.95 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  19.35 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  19.75 
+Color 190,190,190
+
+; Sticks between pillars 8-9
+; ------------------------------------------
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  20.25 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  20.65 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  21.05 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  21.45 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  21.85 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  22.25 
+Color 190,190,190
+
+; Sticks between pillars 9-10
+; ------------------------------------------
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  22.75 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  23.15 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  23.55 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  23.95 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  24.35 
+Color 190,190,190
+
+[MeshBuilder]
+Cube  0.05, 0.7, 0.04
+Translate  5.5 ,  0.65 ,  24.75 
+Color 190,190,190
+
+[MeshBuilder]
+Vertex -30, -0.40, 26
+Vertex 6, -0.40, 26
+Vertex 6, -0.401, -1
+Vertex -30, -0.401, -1
+Face 0, 1, 2, 3
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 2
+Coordinates 3, 0, 2
+
+[MeshBuilder]
+Vertex 8, -8.40, 26
+Vertex 6, -0.40, 26
+Vertex 6, -0.401, -1
+Vertex 8, -8.401, -1
+Face 3,2,1,0
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+

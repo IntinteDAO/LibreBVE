@@ -1,0 +1,84 @@
+;author=Chris Lees
+;description=Permanant Way Hut
+;copyright=From the Plymouth- St Austell demo route. © Chris Lees 2009
+;see www.bvecornwall.co.uk
+
+[MeshBuilder]
+Vertex 0,3.5,4
+Vertex 3,2.5,4
+Vertex 3,0.4,4
+Vertex 0,0.4,4
+Face 0,1,2,3
+Face 3, 2, 1, 0
+
+[Texture]
+Load ..\..\common\redbrick1.png
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 2
+Coordinates 3, 0, 2
+
+[MeshBuilder]
+Vertex 0,3.5,0
+Vertex 3,2.5,0
+Vertex 3,0.4,0
+Vertex 0,0.4,0
+Face 0, 1, 2, 3
+Face 3, 2, 1, 0
+
+[Texture]
+Load ..\..\common\redbrick1.png
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 2
+Coordinates 3, 0, 2
+
+[MeshBuilder]
+Vertex 3,2.5,4
+Vertex 3,2.5,0
+Vertex 3,0.4,0
+Vertex 3,0.4,4
+Face 0, 1, 2, 3
+Face 3, 2, 1, 0
+
+[Texture]
+Load ..\..\common\redbrick1.png
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 2
+Coordinates 3, 0, 2
+
+[MeshBuilder]
+Vertex 0,3.5,4
+Vertex 0,3.5,0
+Vertex 0,0.4,0
+Vertex 0,0.4,4
+Face 0, 1, 2, 3
+Face 3, 2, 1, 0
+
+[Texture]
+Load pway.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex 0.0,3.5,4.215
+Vertex 0.0,3.5,-0.05
+Vertex 3.1,2.5,-0.05
+Vertex 3.1,2.5,4.05
+Face 0, 1, 2, 3
+Face 3, 2, 1, 0
+
+[Texture]
+Load ..\..\common\corrugated_grey.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder]
+cylinder 16,0.1,0.2,8
+Translate 2.5,-0.6,0.3
+Color 80,80,80

@@ -1,0 +1,67 @@
+;Moved with BVE File Converter
+CreateMeshBuilder,
+AddVertex,-1 ,  6.6 ,  -1 ,
+AddVertex, 0.13 ,  6.6 ,  -1 ,
+AddVertex, 2.07 ,  5.47 ,  -1 ,
+AddVertex, 3.2 ,  3.52 ,  -1 ,
+AddVertex, 3.2 ,  1.27 ,  -1 ,
+AddVertex, 3.2 , -0.67 ,  -1 ,
+AddVertex,-1 ,  6.6 ,  25.1 ,
+AddVertex, 0.13 ,  6.6 ,  25.1 ,
+AddVertex, 2.07 ,  5.47 ,  25.1 ,
+AddVertex, 3.2 ,  3.52 ,  25.1 ,
+AddVertex, 3.2 ,  1.27 ,  25.1 ,
+AddVertex, 3.2 , -0.67 ,  25.1 ,
+AddFace,7, 6, 0, 1,
+AddFace,8, 7, 1, 2,
+AddFace,9, 8, 2, 3,
+AddFace,10, 9, 3, 4,
+AddFace,11, 10, 4, 5,
+SetColor,48,48,32,
+GenerateNormals,
+
+LoadTexture,..\common\concrete1.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 2,
+SetTextureCoordinates,3, 1, 3,
+SetTextureCoordinates,4, 1, 4,
+SetTextureCoordinates,5, 1, 5,
+SetTextureCoordinates,6, 0, 0,
+SetTextureCoordinates,7, 0, 1,
+SetTextureCoordinates,8, 0, 2,
+SetTextureCoordinates,9, 0, 3,
+SetTextureCoordinates,10, 0, 4,
+SetTextureCoordinates,11, 0, 5,
+
+CreateMeshBuilder,
+AddVertex,3.8,-0.388,0
+AddVertex,3.8,-0.388,26
+AddVertex,1.45,-0.388,26
+AddVertex,1.45,-0.388,0
+AddFace,3,2,1,0
+SetColor,110,110,110
+
+LoadTexture,ballastedge1.png,,
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,0,0
+
+
+CreateMeshBuilder,
+AddVertex,3.8,-0.39,0
+AddVertex,3.8,-0.39,26
+AddVertex,1.85,-0.39,26
+AddVertex,1.85,-0.39,0
+AddFace,3,2,1,0
+SetColor,48,48,32,
+
+LoadTexture,..\common\concrete1.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 2,
+SetTextureCoordinates,3, 1, 3,
+
+TranslateAll,0.3,0,0

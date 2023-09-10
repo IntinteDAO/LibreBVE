@@ -1,0 +1,509 @@
+;author=Chris Lees
+;description=End of terrace construction
+;copyright=From the BVE Cornwall Plymouth Route. © Chris Lees 2013
+
+;Front Face
+[MeshBuilder]
+Vertex -10 ,  0 ,  0 
+Vertex -10 ,  6 ,  0 
+Vertex -10 ,  6 , -25 
+Vertex -10 ,  0 , -25 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load    terrace2_1a.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,2,0
+Coordinates    3,2,1
+
+;End Twiddle
+[MeshBuilder]
+Vertex -10 ,  0 , -25 
+Vertex -10 ,  6 , -25 
+Vertex -12 ,  6 , -27 
+Vertex -12 ,  0 , -27 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load    terrace2_3.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+
+[MeshBuilder]
+Vertex -12 ,  0 , -27 
+Vertex -12 ,  6 , -27 
+Vertex -16 ,  6 , -27 
+Vertex -16 ,  0 , -27 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load    terrace2_4.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+Transparent   0,0,255
+
+;End Twiddle Roof A
+[MeshBuilder]
+Vertex -13.5 ,  8.2 , -25 
+Vertex -12 ,  6 , -27 
+Vertex -10 ,  6 , -25 
+Vertex -12.5 ,  8.2 , -25 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load  ..\..\common\slates.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1.5,0
+Coordinates    3,1.5,1
+
+;End Twiddle Roof B
+[MeshBuilder]
+Vertex -13.5 ,  8.201 , -25 
+Vertex -16 ,  6 , -27 
+Vertex -12 ,  6 , -27 
+Vertex -12.5 ,  8.201 , -25 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load  ..\..\common\slates.png
+Coordinates    0,0.7,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+
+
+;Back
+[MeshBuilder]
+Vertex -16 ,  0 ,  0 
+Vertex -16 ,  6 ,  0 
+Vertex -16 ,  6 , -27 
+Vertex -16 ,  0 , -27 
+Face  0, 1, 2, 3, 
+
+
+[Texture]
+Load    house4_f.png
+Coordinates    0,0.5,1
+Coordinates    1,0.5,0
+Coordinates    2,2.7,0
+Coordinates    3,2.7,1
+Transparent   0,0,255
+
+;Bay Window 1a
+[MeshBuilder]
+Vertex -9 ,  0 , -2 
+Vertex -9 ,  6 , -2 
+Vertex -9 ,  6 , -3.5 
+Vertex -9 ,  0 , -3.5 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load    terrace2_2.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+Transparent   0,0,255
+
+;Bay Window 1b
+[MeshBuilder]
+Vertex -10 ,  0 , -1 
+Vertex -10 ,  6 , -1 
+Vertex -9 ,  6 , -2 
+Vertex -9 ,  0 , -2 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load    terrace2_2.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+Transparent   0,0,255
+
+;Bay Window 1c
+[MeshBuilder]
+Vertex -9 ,  0 , -3.5 
+Vertex -9 ,  6 , -3.5 
+Vertex -10 ,  6 , -4.5 
+Vertex -10 ,  0 , -4.5 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load    terrace2_2.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+Transparent   0,0,255
+
+;Bay Window 1d
+[MeshBuilder]
+Vertex -9 ,  6 , -2 
+Vertex -12 ,  7.2 , -2.5 
+Vertex -12 ,  7.2 , -3 
+Vertex -9 ,  6 , -3.5 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load  ..\..\common\slates.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,0.7,-0.01
+Coordinates    3,1,1
+Transparent   0,0,255
+
+;Bay Window 1e
+[MeshBuilder]
+Vertex -10 ,  6 , -4.5 
+Vertex -12 ,  7.2 , -3.1 
+Vertex -12 ,  7.2 , -3 
+Vertex -9 ,  6 , -3.5 
+Face  0, 1, 2, 3, 
+
+
+[Texture]
+Load  ..\..\common\slates.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,0.7,-0.01
+Coordinates    3,1,1
+Transparent   0,0,255
+
+;Bay Window 1f
+[MeshBuilder]
+Vertex -10 ,  6 , -1 
+Vertex -12 ,  7.2 , -2.4 
+Vertex -12 ,  7.2 , -2.5 
+Vertex -9 ,  6 , -2 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load  ..\..\common\slates.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,0.7,-0.01
+Coordinates    3,1,1
+Transparent   0,0,255
+
+
+;Bay Window 2a
+[MeshBuilder]
+Vertex -9 ,  0 , -9 
+Vertex -9 ,  6 , -9 
+Vertex -9 ,  6 , -10.5 
+Vertex -9 ,  0 , -10.5 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load    terrace2_2.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+Transparent   0,0,255
+
+;Bay Window 2b
+[MeshBuilder]
+Vertex -10 ,  0 , -8 
+Vertex -10 ,  6 , -8 
+Vertex -9 ,  6 , -9 
+Vertex -9 ,  0 , -9 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load    terrace2_2.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+Transparent   0,0,255
+
+;Bay Window 2c
+[MeshBuilder]
+Vertex -9 ,  0 , -10.5 
+Vertex -9 ,  6 , -10.5 
+Vertex -10 ,  6 , -11.5 
+Vertex -10 ,  0 , -11.5 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load    terrace2_2.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+Transparent   0,0,255
+
+;Bay Window 2d
+[MeshBuilder]
+Vertex -9 ,  6 , -9 
+Vertex -12 ,  7.2 , -9.5 
+Vertex -12 ,  7.2 , -10 
+Vertex -9 ,  6 , -10.5 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load  ..\..\common\slates.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,0.7,-0.01
+Coordinates    3,1,1
+Transparent   0,0,255
+
+;Bay Window 2e
+[MeshBuilder]
+Vertex -10 ,  6 , -11.5 
+Vertex -12 ,  7.2 , -10.1 
+Vertex -12 ,  7.2 , -10 
+Vertex -9 ,  6 , -10.5 
+Face  0, 1, 2, 3, 
+
+
+[Texture]
+Load  ..\..\common\slates.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,0.7,-0.01
+Coordinates    3,1,1
+Transparent   0,0,255
+
+;Bay Window 2f
+[MeshBuilder]
+Vertex -10 ,  6 , -8 
+Vertex -12 ,  7.2 , -9.4 
+Vertex -12 ,  7.2 , -9.5 
+Vertex -9 ,  6 , -9 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load  ..\..\common\slates.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,0.7,-0.01
+Coordinates    3,1,1
+Transparent   0,0,255
+
+;Bay Window 3a
+[MeshBuilder]
+Vertex -9 ,  0 , -14.5 
+Vertex -9 ,  6 , -14.5 
+Vertex -9 ,  6 , -16 
+Vertex -9 ,  0 , -16 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load    terrace2_2.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+Transparent   0,0,255
+
+;Bay Window 3b
+[MeshBuilder]
+Vertex -10 ,  0 , -13.5 
+Vertex -10 ,  6 , -13.5 
+Vertex -9 ,  6 , -14.5 
+Vertex -9 ,  0 , -14.5 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load    terrace2_2.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+Transparent   0,0,255
+
+;Bay Window 3c
+[MeshBuilder]
+Vertex -9 ,  0 , -16 
+Vertex -9 ,  6 , -16 
+Vertex -10 ,  6 , -17 
+Vertex -10 ,  0 , -17 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load    terrace2_2.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+Transparent   0,0,255
+
+;Bay Window 3d
+[MeshBuilder]
+Vertex -9 ,  6 , -14.5 
+Vertex -12 ,  7.2 , -15 
+Vertex -12 ,  7.2 , -15.5 
+Vertex -9 ,  6 , -16 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load  ..\..\common\slates.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,0.7,-0.01
+Coordinates    3,1,1
+Transparent   0,0,255
+
+;Bay Window 3e
+[MeshBuilder]
+Vertex -10 ,  6 , -17 
+Vertex -12 ,  7.2 , -15.6 
+Vertex -12 ,  7.2 , -15 
+Vertex -9 ,  6 , -16 
+Face  0, 1, 2, 3, 
+
+
+[Texture]
+Load  ..\..\common\slates.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,0.7,-0.01
+Coordinates    3,1,1
+Transparent   0,0,255
+
+;Bay Window 3f
+[MeshBuilder]
+Vertex -10 ,  6 , -13.5 
+Vertex -12 ,  7.2 , -14.9 
+Vertex -12 ,  7.2 , -15 
+Vertex -9 ,  6 , -14.5 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load  ..\..\common\slates.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,0.7,-0.01
+Coordinates    3,1,1
+Transparent   0,0,255
+
+
+
+;roof
+[MeshBuilder]
+Vertex -10 ,  6 ,  0 
+Vertex -12.5 ,  8.2 ,  0 
+Vertex -12.5 ,  9 ,  0 
+Vertex -12.5 ,  9 , -25 
+Vertex -12.5 ,  8.2 , -25 
+Vertex -10 ,  6 , -25 
+Face  5, 4, 1, 0, 
+Face  4, 3, 2, 1, 
+
+
+
+
+[Texture]
+Load    stoneterraceroof.png
+Coordinates    0,0,1
+Coordinates    1,0,0.3
+Coordinates    2,0,0
+Coordinates    3,1,0
+Coordinates    4,1,0.3
+Coordinates    5,1,1
+Transparent       0,0,255
+
+;roof
+[MeshBuilder]
+Vertex -16 ,  6 ,  0 
+Vertex -13.5 ,  8.2 ,  0 
+Vertex -13.5 ,  9 ,  0 
+Vertex -13.5 ,  9 , -25 
+Vertex -13.5 ,  8.2 , -25 
+Vertex -16 ,  6 , -27 
+Face  4, 3, 2, 1, 
+Face  0, 1, 4, 5, 
+
+
+
+
+[Texture]
+Load    stoneterraceroof.png
+Coordinates    0,0,1
+Coordinates    1,0,0.3
+Coordinates    2,0,0
+Coordinates    3,1,0
+Coordinates    4,1,0.3
+Coordinates    5,1.05,1
+Transparent       0,0,255
+
+;end walls
+[MeshBuilder]
+Vertex -10 ,  0 , -25 
+Vertex -10 ,  6 , -25 
+Vertex -12.5 ,  8.2 , -25 
+Vertex -12.5 ,  8.8 , -25 
+Vertex -13.5 ,  8.8 , -25 
+Vertex -13.5 ,  8.2 , -25 
+Vertex -16 ,  6 , -25 
+Vertex -16 ,  0 , -25 
+
+Vertex -10 ,  0 ,  0 
+Vertex -10 ,  6 ,  0 
+Vertex -12.5 ,  8.2 ,  0 
+Vertex -12.5 ,  8.8 ,  0 
+Vertex -13.5 ,  8.8 ,  0 
+Vertex -13.5 ,  8.2 ,  0 
+Vertex -16 ,  6 ,  0 
+Vertex -16 ,  0 ,  0 
+Face2  7, 6, 1, 0, 
+Face2  6, 5, 2, 1, 
+Face2  5, 4, 3, 2, 
+Face2  8, 9, 14, 15, 
+Face2  9, 10, 13, 14, 
+Face2  10, 11, 12, 13, 
+
+
+
+
+[Texture]
+Load    terrace1_4.png
+Coordinates    0,0,5
+Coordinates    1,0,2
+Coordinates    2,0,0.38
+Coordinates    3,0,0
+Coordinates    4,1,0
+Coordinates    5,1,0.38
+Coordinates    6,3.4,2
+Coordinates    7,3.4,5
+Coordinates    8,0,5
+Coordinates    9,0,2
+Coordinates    10,0,0.38
+Coordinates    11,0,0
+Coordinates    12,1,0
+Coordinates    13,1,0.38
+Coordinates    14,3.4,2
+Coordinates    15,3.4,5
+
+
+TranslateAll 5,-0.6,0

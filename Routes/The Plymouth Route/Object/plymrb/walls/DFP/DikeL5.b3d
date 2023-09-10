@@ -1,0 +1,42 @@
+[MeshBuilder]
+Vertex -1.9,-0.3,0
+Vertex -6,-0.3,0
+Vertex -26,-14,0
+Vertex -1.9,-0.301,34
+Vertex -6,-0.301,34
+Vertex -26,-14,38
+Vertex 0.3,-0.401,34
+Vertex 0.3,-0.4,0
+Face 0,3,6,7
+Face 0,1,4,3
+Face 1,2,5,4
+
+
+
+[Texture]
+Load ..\..\common\grass6.png,,
+Coordinates 0,0,1
+Coordinates 1,0,2
+Coordinates 2,0,0
+Coordinates 3,1,1
+Coordinates 4,1,2
+Coordinates 5,1,0
+Coordinates 6,1,0.2
+Coordinates 7,0,0.2
+
+
+[MeshBuilder]
+Vertex -4, 1, 31
+Vertex -4, 1, 0
+Vertex -4, 0, 0
+Vertex -4, 0, 31
+Face 0,1,2,3
+Face 1,0,3,2
+
+[Texture]
+Load ..\barbedwirefence1.png
+Coordinates 0, 0, 0
+Coordinates 1, 8, 0
+Coordinates 2, 8, 1
+Coordinates 3, 0, 1
+transparent 0,0,255

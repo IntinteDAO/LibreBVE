@@ -1,0 +1,453 @@
+;Author=Chris Lees
+;Description=St Germans Footbridge
+;Copyright=From the BVE Cornwall Plymouth Route © 2015
+
+;Front
+[MeshBuilder]
+Vertex -9,4.4,0
+Vertex -9,5.7,0
+Vertex -7,5.7,0
+Vertex -7,4.4,0
+Vertex -5,5.9,0
+Vertex -5,7.2,0
+Vertex 8,7.2,0
+Vertex 8,5.9,0
+Vertex 10,4.4,0
+Vertex 10,5.7,0
+Vertex 12,5.7,0
+Vertex 12,4.4,0
+Vertex -9,4.4,0.2
+Vertex -9,5.7,0.2
+Vertex -7,5.7,0.2
+Vertex -7,4.4,0.2
+Vertex -5,5.9,0.2
+Vertex -5,7.2,0.2
+Vertex 8,7.2,0.2
+Vertex 8,5.9,0.2
+Vertex 10,4.4,0.2
+Vertex 10,5.7,0.2
+Vertex 12,5.7,0.2
+Vertex 12,4.4,0.2
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+Face 8,9,10,11
+Face 15,14,13,12
+Face 14,15,16,17
+Face 19,18,17,16
+Face 18,19,20,21
+Face 23,22,21,20
+Face 12,13,1,0
+Face 2,1,13,14
+Face 5,2,14,17
+Face 6,5,17,18
+Face 9,6,18,21
+Face 21,22,10,9
+Face 22,23,11,10
+Face 0,3,15,12
+Face 3,4,16,15
+Face 4,7,19,16
+Face 7,8,20,19
+Face 8,11,23,20
+
+[Texture]
+Load so_2.png
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Coordinates 4,1,0
+Coordinates 5,1,1
+Coordinates 6,7,1
+Coordinates 7,7,0
+Coordinates 8,6,0
+Coordinates 9,6,1
+Coordinates 10,5,1
+Coordinates 11,5,0
+Coordinates 12,1,0
+Coordinates 13,1,1
+Coordinates 14,0,1
+Coordinates 15,0,0
+Coordinates 16,1,0
+Coordinates 17,1,1
+Coordinates 18,7,1
+Coordinates 19,7,0
+Coordinates 20,6,0
+Coordinates 21,6,1
+Coordinates 22,5,1
+Coordinates 23,5,0
+
+;Rear
+[MeshBuilder]
+Vertex -7,5.7,2
+Vertex -7,4.4,2
+Vertex -5,5.9,2
+Vertex -5,7.2,2
+Vertex 8,7.2,2
+Vertex 8,5.9,2
+Vertex 10,4.4,2
+Vertex 10,5.7,2
+Vertex -7,5.7,2.2
+Vertex -7,4.4,2.2
+Vertex -5,5.9,2.2
+Vertex -5,7.2,2.2
+Vertex 8,7.2,2.2
+Vertex 8,5.9,2.2
+Vertex 10,4.4,2.2
+Vertex 10,5.7,2.2
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 8,9,10,11
+Face 13,12,11,10
+Face 12,13,14,15
+Face 3,0,8,11
+Face 4,3,11,12
+Face 7,4,12,15
+Face 0,1,9,8
+Face 6,7,15,14
+
+Face 1,2,10,9
+Face 2,5,13,10
+Face 5,6,14,13
+
+[Texture]
+Load so_2.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,7,1
+Coordinates 5,7,0
+Coordinates 6,6,0
+Coordinates 7,6,1
+Coordinates 8,0,1
+Coordinates 9,0,0
+Coordinates 10,1,0
+Coordinates 11,1,1
+Coordinates 12,7,1
+Coordinates 13,7,0
+Coordinates 14,6,0
+Coordinates 15,6,1
+
+;Down LL
+[MeshBuilder]
+Vertex -9.2,4.4,0
+Vertex -9.2,5.7,0
+Vertex -9.2,5.7,2.2
+Vertex -9.2,4.4,2.2
+Vertex -9.2,1.1,7.2
+Vertex -9.2,2.4,7.2
+Vertex -9,4.4,0
+Vertex -9,5.7,0
+Vertex -9,5.7,2.2
+Vertex -9,4.4,2.2
+Vertex -9,1.1,7.2
+Vertex -9,2.4,7.2
+Face 3,2,1,0
+Face 2,3,4,5
+Face 6,7,8,9
+Face 11,10,9,8
+Face 0,1,7,6
+Face 1,2,8,7
+Face 2,5,11,8
+Face 10,11,5,4
+Face 6,9,3,0
+Face 4,3,9,10
+
+[Texture]
+Load so_2.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,5,1
+Coordinates 5,5,0
+Coordinates 6,0,1
+Coordinates 7,0,0
+Coordinates 8,1,0
+Coordinates 9,1,1
+Coordinates 10,5,1
+Coordinates 11,5,0
+
+;Down LR
+[MeshBuilder]
+Vertex -7.2,4.4,2
+Vertex -7.2,5.7,2
+Vertex -7.2,5.7,2.2
+Vertex -7.2,4.4,2.2
+Vertex -7.2,1.1,7.2
+Vertex -7.2,2.4,7.2
+Vertex -7,4.4,2
+Vertex -7,5.7,2
+Vertex -7,5.7,2.2
+Vertex -7,4.4,2.2
+Vertex -7,1.1,7.2
+Vertex -7,2.4,7.2
+Face 3,2,1,0
+Face 2,3,4,5
+Face 6,7,8,9
+Face 11,10,9,8
+Face 0,1,7,6
+Face 1,2,8,7
+Face 2,5,11,8
+Face 10,11,5,4
+Face 6,9,3,0
+Face 4,3,9,10
+
+[Texture]
+Load so_2.png
+Coordinates 0,0.95,1
+Coordinates 1,0.95,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,5,1
+Coordinates 5,5,0
+Coordinates 6,0.95,1
+Coordinates 7,0.95,0
+Coordinates 8,1,0
+Coordinates 9,1,1
+Coordinates 10,5,1
+Coordinates 11,5,0
+
+;Down RR
+[MeshBuilder]
+Vertex 10,4.4,2
+Vertex 10,5.7,2
+Vertex 10,5.7,2.2
+Vertex 10,4.4,2.2
+Vertex 10,1.1,7.2
+Vertex 10,2.4,7.2
+Vertex 10.2,4.4,2
+Vertex 10.2,5.7,2
+Vertex 10.2,5.7,2.2
+Vertex 10.2,4.4,2.2
+Vertex 10.2,1.1,7.2
+Vertex 10.2,2.4,7.2
+Face 3,2,1,0
+Face 2,3,4,5
+Face 6,7,8,9
+Face 11,10,9,8
+Face 0,1,7,6
+Face 1,2,8,7
+Face 2,5,11,8
+Face 10,11,5,4
+Face 6,9,3,0
+Face 4,3,9,10
+
+[Texture]
+Load so_2.png
+Coordinates 0,0.95,1
+Coordinates 1,0.95,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,5,1
+Coordinates 5,5,0
+Coordinates 6,0.95,1
+Coordinates 7,0.95,0
+Coordinates 8,1,0
+Coordinates 9,1,1
+Coordinates 10,5,1
+Coordinates 11,5,0
+
+;Down RL
+[MeshBuilder]
+Vertex 12,4.4,0
+Vertex 12,5.7,0
+Vertex 12,5.7,2.2
+Vertex 12,4.4,2.2
+Vertex 12,1.1,7.2
+Vertex 12,2.4,7.2
+Vertex 12.2,4.4,0
+Vertex 12.2,5.7,0
+Vertex 12.2,5.7,2.2
+Vertex 12.2,4.4,2.2
+Vertex 12.2,1.1,7.2
+Vertex 12.2,2.4,7.2
+Face 3,2,1,0
+Face 2,3,4,5
+Face 6,7,8,9
+Face 11,10,9,8
+Face 0,1,7,6
+Face 1,2,8,7
+Face 2,5,11,8
+Face 10,11,5,4
+Face 6,9,3,0
+Face 4,3,9,10
+
+[Texture]
+Load so_2.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,5,1
+Coordinates 5,5,0
+Coordinates 6,0,1
+Coordinates 7,0,0
+Coordinates 8,1,0
+Coordinates 9,1,1
+Coordinates 10,5,1
+Coordinates 11,5,0
+
+;Steps
+[MeshBuilder]
+Vertex 12,1.1,7.2
+Vertex 10.2,1.1,7.2
+Vertex 10.2,4.4,2.2
+Vertex 12,4.4,2.2
+Vertex 12,4.4,0.2
+Vertex 10.2,4.4,0.2
+Vertex 10,4.4,0.2
+Vertex 10,4.4,2.0
+Vertex 8,5.9,2.0
+Vertex 8,5.9,0.2
+Vertex -5,5.9,0.2
+Vertex -5,5.9,2.0
+Vertex -7,4.4,2.0
+Vertex -7,4.4,0.2
+Vertex -7.2,1.1,7.2
+Vertex -9.0,1.1,7.2
+Vertex -9.0,4.4,2.2
+Vertex -7.2,4.4,2.2
+Vertex -7.2,4.4,0.2
+Vertex -9.0,4.4,0.2
+;Infill
+
+Vertex -7.2,4.4,2
+Vertex -7.2,4.4,0.2
+Vertex -7,4.4,0.2
+Vertex -7,4.4,2
+Vertex 10.2,4.4,2
+Vertex 10.2,4.4,0.2
+Vertex 10,4.4,0.2
+Vertex 10,4.4,2
+Face2 3,2,1,0
+Face2 2,3,4,5
+Face2 9,8,7,6
+Face2 8,9,10,11
+Face2 13,12,11,10
+Face2 17,16,15,14
+Face2 16,17,18,19
+Face2 23,22,21,20
+Face2 24,25,26,27
+
+[Texture]
+Load ..\buildings\signalboxes\keyh_st2.png
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,5
+Coordinates 3,1,5
+Coordinates 4,1,5.1
+Coordinates 5,0,5.1
+Coordinates 6,1,0
+Coordinates 7,0,0
+Coordinates 8,0,2
+Coordinates 9,1,2
+Coordinates 10,1,2.1
+Coordinates 11,0,2.1
+Coordinates 12,0,4.1
+Coordinates 13,1,4.1
+Coordinates 14,1,0
+Coordinates 15,0,0
+Coordinates 16,0,5
+Coordinates 17,1,5
+Coordinates 18,1,5.1
+Coordinates 19,0,5.1
+Coordinates 20,1,0
+Coordinates 21,0,0
+Coordinates 22,0,0.1
+Coordinates 23,1,0.1
+Coordinates 24,1,0
+Coordinates 25,0,0
+Coordinates 26,0,0.1
+Coordinates 27,1,0.1
+
+;Legs L1
+[MeshBuilder]
+Cylinder 8,0.2,0.2,3.29
+Translate -7.4,2.75,0.4
+Color 65,77,96
+
+[MeshBuilder]
+Cylinder 8,0.3,0.2,0.19
+Translate -7.4,4.3,0.4
+Color 249,236,227
+
+;Legs L2
+[MeshBuilder]
+Cylinder 8,0.2,0.2,3.29
+Translate -7.4,2.75,1.9
+Color 65,77,96
+
+[MeshBuilder]
+Cylinder 8,0.3,0.2,0.19
+Translate -7.4,4.3,1.9
+Color 249,236,227
+
+;Legs L3
+[MeshBuilder]
+Cylinder 8,0.2,0.2,3.29
+Translate -8.8,2.75,1.9
+Color 65,77,96
+
+[MeshBuilder]
+Cylinder 8,0.3,0.2,0.19
+Translate -8.8,4.3,1.9
+Color 249,236,227
+
+;Legs L4
+[MeshBuilder]
+Cylinder 8,0.2,0.2,3.29
+Translate -8.8,2.75,0.4
+Color 65,77,96
+
+[MeshBuilder]
+Cylinder 8,0.3,0.2,0.19
+Translate -8.8,4.3,0.4
+Color 249,236,227
+
+;Legs R1
+[MeshBuilder]
+Cylinder 8,0.2,0.2,3.29
+Translate 10.4,2.75,0.4
+Color 65,77,96
+
+[MeshBuilder]
+Cylinder 8,0.3,0.2,0.19
+Translate 10.4,4.3,0.4
+Color 249,236,227
+
+;Legs L2
+[MeshBuilder]
+Cylinder 8,0.2,0.2,3.29
+Translate 10.4,2.75,1.9
+Color 65,77,96
+
+[MeshBuilder]
+Cylinder 8,0.3,0.2,0.19
+Translate 10.4,4.3,1.9
+Color 249,236,227
+
+;Legs L3
+[MeshBuilder]
+Cylinder 8,0.2,0.2,3.29
+Translate 11.8,2.75,1.9
+Color 65,77,96
+
+[MeshBuilder]
+Cylinder 8,0.3,0.2,0.19
+Translate 11.8,4.3,1.9
+Color 249,236,227
+
+;Legs L4
+[MeshBuilder]
+Cylinder 8,0.2,0.2,3.29
+Translate 11.8,2.75,0.4
+Color 65,77,96
+
+[MeshBuilder]
+Cylinder 8,0.3,0.2,0.19
+Translate 11.8,4.3,0.4
+Color 249,236,227

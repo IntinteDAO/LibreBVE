@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openBVE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Package>
+    <Name>The Plymouth Route</Name>
+    <Author>Chris Lees</Author>
+    <Website>http://www.bvecornwall.co.uk</Website>
+    <GUID>fc4c7ecb-75ed-4191-9de0-03b667d486db</GUID>
+    <PackageType>Route</PackageType>
+    <PackageFile>C:\test\plymdem1700\test.zip</PackageFile>
+    <Description>The Plymouth Route runs for 33km, from Plymouth to Liskeard.\r\n\r\nThis route has been designed for full 3D viewing throughout.</Description>
+    <Dependancies>
+      <Package>
+        <Name>British Signals for openBVE</Name>
+        <Author>TSC Team</Author>
+        <GUID>d4fbe99a-2cff-462f-a6b8-07f386ab7e9d</GUID>
+        <PackageType>Route</PackageType>
+        <Description>This package contains the BRSigs, BRSema4Sigs and BRSigs_Open signal libraries, which are necessary for running most UK routes.\r\n\r\nThe files and documentation included in this package are © Anthony Bowden, Steve Green, Tony Haylor and Simon Gathercole, and have been released as public domain material.</Description>
+        <Dependancies />
+        <Reccomendations />
+        <PackageVersion />
+        <MinimumVersion>1.0.0.0</MinimumVersion>
+        <MaximumVersion>1.0.0.0</MaximumVersion>
+      </Package>
+    </Dependancies>
+    <Reccomendations>
+      <Package>
+        <Name>BR Class 52 'Western' - D1015 Western Champion</Name>
+        <Author>Christopher Lees</Author>
+        <Website>http://www.bvecornwall.co.uk</Website>
+        <GUID>ec40c19c-a844-47a7-bd24-4c409a581e96</GUID>
+        <PackageType>Train</PackageType>
+        <Description>This locomotive runs on the latest version of the BVEC_ATS\r\ntrain systems plugin, and represents what I feel to be a\r\nvery reasonable portrayal of the prototype!\r\n\r\nFeature Include:\r\n* Single and twin engine operation.\r\n* Prototypical startup sequence.\r\n* Working turbocharger.\r\n* Working AWS.\r\n* Full external view.\r\n* Fully functional bogies.\r\n\r\nAs with all of my recent products, this locomotive has been designed to work on any platform that OpenBVE supports.\r\n\r\nThis release has been configured with a full set of 8 MK1  coaches on the drawhook (280 tons!)\r\n\r\nThe driver's guide may be found here:\r\nhttp://www.bvecornwall.co.uk/wordpress/br-class-52-western-drivers-guide/</Description>
+        <Dependancies />
+        <Reccomendations />
+        <PackageVersion />
+        <MinimumVersion>1.0.0.0</MinimumVersion>
+        <MaximumVersion>1.0.0.0</MaximumVersion>
+      </Package>
+    </Reccomendations>
+    <PackageVersion>1.7.0.1</PackageVersion>
+    <MinimumVersion />
+    <MaximumVersion />
+  </Package>
+</openBVE>

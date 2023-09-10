@@ -1,0 +1,52 @@
+;author=Chris Lees
+;description=Welcome to Cornwall sign
+;copyright=From the BVE Cornwall Plymouth route © 2009
+
+[MeshBuilder]
+Vertex 0.1,2.9,-2
+Vertex 2.1,2.9,2
+Vertex 2.1,0.4,2
+Vertex 0.1,0.4,-2
+Face 0,1,2,3
+
+[Texture]
+Load saltash_w.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 255,0,0
+
+
+[MeshBuilder]
+Vertex 2.0,2.9,2
+Vertex 0.0,2.9,-2
+Vertex 0.0,0.4,-2
+Vertex 2.0,0.4,2
+Face 0,1,2,3
+
+[Texture]
+Load saltash_w.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 255,0,0
+
+[MeshBuilder]
+Vertex 0.2,2.8,-1.7
+Vertex 0.15,2.8,-1.8
+Vertex 0.15,-0.1,-1.8
+Vertex 0.2,-0.1,-1.7
+Face 0,1,2,3
+Face 3,2,1,0
+Color 128,128,128
+
+[MeshBuilder]  
+Vertex 1.9,2.8,1.7
+Vertex 2,2.8,1.8
+Vertex 2,-0.1,1.8
+Vertex 1.9,-0.1,1.7
+Face 0,1,2,3
+Face 3,2,1,0
+Color 128,128,128

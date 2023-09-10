@@ -1,0 +1,33 @@
+;author=Uwe Post
+;description=simple tree 2
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+
+[MeshBuilder]
+Vertex 6, 12, -0.1
+Vertex 6, -0.1, -0.1
+Vertex -6, -0.1, -0.1
+Vertex -6, 12, -0.1
+Face2 0,1,2,3
+
+[Texture]
+Load tree6.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 0
+
+[MeshBuilder]
+Vertex 0.9, 12, 4.8
+Vertex 0.9, -0.1, 4.8
+Vertex 0.9, -0.1, -7.2
+Vertex 0.9, 12, -7.2
+Face2 0,1,2,3
+
+[Texture]
+Load tree6.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 0

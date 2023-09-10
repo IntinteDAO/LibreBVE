@@ -1,0 +1,80 @@
+;author=eezypeazy
+;description=TSR 20 mph
+;copyright=OpenSource, you may freely modify and use in BVE routes, but please credit eezypeazy@aol.com
+
+[MeshBuilder]
+Vertex  0.1 ,  0.6 ,  0 
+Vertex  0.1 ,  1.1 ,  0 
+Vertex  0.7 ,  1.1 ,  0 
+Vertex  0.7 ,  0.6 ,  0 
+Face  0, 1, 2, 3
+
+
+[Texture]
+Load  20mph2.png
+Coordinates  0, 0, 1
+Coordinates  1, 0, 0
+Coordinates  2, 1, 0
+Coordinates  3, 1, 1
+Transparent   0, 0, 255
+
+[MeshBuilder]
+Vertex  0.1 ,  0.2 ,  -0.02
+Vertex  0.1 ,  0.4 ,  -0.02
+Vertex  0.7 ,  0.4 ,  -0.02
+Vertex  0.7 ,  0.2 ,  -0.02
+Face  0, 1, 2, 3
+
+
+[Texture]
+Load  arrow_y.png
+Coordinates  0, 0, 1
+Coordinates  1, 0, 0
+Coordinates  2, 1, 0
+Coordinates  3, 1, 1
+Transparent   0, 0, 255
+
+[MeshBuilder]
+Vertex  0.1 ,  0.2 ,  -0.01
+Vertex  0.1 ,  0.4 ,  -0.01 
+Vertex  0.7 ,  0.4 ,  -0.01
+Vertex  0.7 ,  0.2 ,  -0.01
+Face  3,2,1,0
+Color  133,133,133
+
+[Texture]
+Load  arrow_y.png
+Coordinates  0, 0, 1
+Coordinates  1, 0, 0
+Coordinates  2, 1, 0
+Coordinates  3, 1, 1
+Transparent   0, 0, 255
+
+[MeshBuilder]
+Vertex  0.1 ,  0.6 ,  0 
+Vertex  0.1 ,  1.1 ,  0 
+Vertex  0.7 ,  1.1 ,  0 
+Vertex  0.7 ,  0.6 ,  0 
+Face  3,2,1,0
+Color  133,133,133
+
+
+[Texture]
+Load  20mph2.png
+Coordinates  0, 0, 1
+Coordinates  1, 0, 0
+Coordinates  2, 1, 0
+Coordinates  3, 1, 1
+Transparent   0, 0, 255
+
+[MeshBuilder]
+Vertex  0.15 ,  0.6 ,  0 
+Vertex  0.65 ,  0.6 ,  0 
+Vertex  0.4 ,  0.45 ,  0 
+Face2   0,1,2
+Color  166,166,185
+
+[MeshBuilder]
+Cylinder  6,0.02,0.02,1
+Translate  0.4 ,  -0.02 ,  0 
+Color  166,166,185

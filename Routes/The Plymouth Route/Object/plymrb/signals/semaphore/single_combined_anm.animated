@@ -1,0 +1,13 @@
+[Object]
+states = ..\..\LQSigs\GWR_21.b3d
+Position = 0,0,0
+
+[Object]
+states = ..\..\LQSigs\homelq_arm.b3d
+RotateZFunction = (section != 0) * 0.355398163
+Position = 0,6.39,0
+
+[Object]
+states = ..\..\LQSigs\distlq_arm.b3d
+RotateZFunction = (section > 2) * 0.355398163
+Position = 0,5.59,0

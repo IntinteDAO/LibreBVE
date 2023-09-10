@@ -1,0 +1,11 @@
+[Object]
+States=DikeL_28.b3d
+Position=0,0,0
+
+[Object]
+States=..\bridge_steel2_l.b3d
+Position=0,0.01,0
+
+[Object]
+States=..\bridge_steel2_r.b3d
+Position=0,0.01,0

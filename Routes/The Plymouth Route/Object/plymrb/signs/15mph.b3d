@@ -1,0 +1,40 @@
+;author=eezypeazy
+;description=PSR 20 mph
+;copyright=OpenSource, you may freely modify and use in BVE routes, but please credit eezypeazy@aol.com
+
+[MeshBuilder]
+Vertex  0 ,  0.4 ,  0 
+Vertex  0 ,  1.1 ,  0 
+Vertex  0.6 ,  1.1 ,  0 
+Vertex  0.6 ,  0.4 ,  0 
+Face  0, 1, 2, 3
+
+
+[Texture]
+Load  15mph.png
+Coordinates  0, 0, 1
+Coordinates  1, 0, 0
+Coordinates  2, 1, 0
+Coordinates  3, 1, 1
+Transparent   0, 0, 255
+
+[MeshBuilder]
+Vertex  0 ,  0.4 ,  0 
+Vertex  0 ,  1.1 ,  0 
+Vertex  0.6 ,  1.1 ,  0 
+Vertex  0.6 ,  0.4 ,  0 
+Face  3,2,1,0
+
+
+[Texture]
+Load  roundsignback.png
+Coordinates  0, 0, 1
+Coordinates  1, 0, 0
+Coordinates  2, 1, 0
+Coordinates  3, 1, 1
+Transparent   0, 0, 255
+
+[MeshBuilder]
+Cylinder  6,0.04,0.04,1.2
+Translate  0.3 ,  0.1 ,  0.06 
+Color  111,111,111

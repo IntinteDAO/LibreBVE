@@ -1,0 +1,17 @@
+;Special Cobbles
+;From the BVE Cornwall Plymouth- St Austell route, © Chris Lees 2010
+
+[MeshBuilder]
+Vertex -10 , -0.17 , -0.1
+Vertex  10 , -0.17 , -0.1
+Vertex -10 , -0.175 ,  25.6
+Vertex  10 , -0.175 ,  25.6
+Face  2, 3, 1, 0
+
+
+[Texture]
+Load  ..\common\cobbles.png
+Coordinates  0, 10, 10
+Coordinates  1, 0, 10
+Coordinates  2, 10, 0
+Coordinates  3, 0, 0

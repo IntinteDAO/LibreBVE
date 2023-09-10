@@ -1,0 +1,28 @@
+﻿[MeshBuilder]
+Vertex -125.4709,-23.15,0.0542,
+Vertex 125.4709,-23.15,-0.0542,
+Vertex 125.8405,-23.15,300.5000,
+Vertex -125.3195,-23.15,300.5000,
+Face 3,2,1,0
+Color 100,100,155,200
+
+[Texture]
+Load ..\common\water.png,
+Coordinates 0,10,10
+Coordinates 1,0,10
+Coordinates 2,0,0
+Coordinates 3,10,0
+
+[MeshBuilder]
+Vertex -125.4709,-26.15,0.0542,
+Vertex 125.4709,-26.15,-0.0542,
+Vertex 125.8405,-26.15,300.5000,
+Vertex -125.3195,-26.15,300.5000,
+Face 3,2,1,0
+
+[Texture]
+Load ..\common\mud1.png,
+Coordinates 0,10,10
+Coordinates 1,0,10
+Coordinates 2,0,0
+Coordinates 3,10,0

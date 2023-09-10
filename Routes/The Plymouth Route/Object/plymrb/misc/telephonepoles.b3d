@@ -1,0 +1,117 @@
+[Meshbuilder] ;pole
+Vertex -7,11.6,0
+Vertex -6.5,11.6,0
+Vertex -6.5,-3,0
+Vertex -7,-3,0
+
+Vertex -6.75,8,-0.15
+Vertex -6.75,8,0.15
+Vertex -6.75,-3,0.15
+Vertex -6.75,-3,-0.15
+
+Vertex 14,11.6,0
+Vertex 13.5,11.6,0
+Vertex 13.5,-3,0
+Vertex 14,-3,0
+
+Vertex 13.75,8,-0.15
+Vertex 13.75,8,0.15
+Vertex 13.75,-3,0.15
+Vertex 13.75,-3,-0.15
+Face2 0,1,2,3
+Face2 4,5,6,7
+Face2 11,10,9,8
+Face2 15,13,13,12
+
+[Texture]
+Load telegraphpole.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Coordinates 4,0,0
+Coordinates 5,1,0
+Coordinates 6,1,1
+Coordinates 7,0,1
+Coordinates 8,0,0
+Coordinates 9,1,0
+Coordinates 10,1,1
+Coordinates 11,0,1
+Coordinates 12,0,0
+Coordinates 13,1,0
+Coordinates 14,1,1
+Coordinates 15,0,1
+
+
+[Meshbuilder] ;head
+Vertex -6.75,12,0.9
+Vertex -6.75,12,-0.9
+Vertex -6.75,8,-0.9
+Vertex -6.75,8,0.9
+
+Vertex 13.75,12,0.9
+Vertex 13.75,12,-0.9
+Vertex 13.75,8,-0.9
+Vertex 13.75,8,0.9
+Face2 3,2,1,0
+Face2 7,6,5,4
+
+[Texture]
+Load telegraphhead.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Coordinates 4,0,0
+Coordinates 5,1,0
+Coordinates 6,1,1
+Coordinates 7,0,1
+transparent 0,0,0
+
+;Wires
+[Meshbuilder]
+Vertex -120,15.6,-0.6
+Vertex -120,13.3,-0.6
+Vertex -6.75,9.3,-0.6
+Vertex -6.75,11.6,-0.6
+Vertex 13.75,11.6,-0.6
+Vertex 13.75,9.3,-0.6
+Vertex 120,5.3,-0.6
+Vertex 120,7.6,-0.6
+;2
+Vertex -120,15.6,0.6
+Vertex -120,13.3,0.6
+Vertex -6.75,9.3,0.6
+Vertex -6.75,11.6,0.6
+Vertex 13.75,11.6,0.6
+Vertex 13.75,9.3,0.6
+Vertex 120,5.3,0.6
+Vertex 120,7.6,0.6
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 4,5,6,7
+
+Face2 8,9,10,11
+Face2 13,12,11,10
+Face2 15,14,13,12
+
+[Texture]
+Load Transmission_Wires2.png
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Coordinates 4,1,0
+Coordinates 5,1,1
+Coordinates 6,0,1
+Coordinates 7,0,0
+
+Coordinates 8,1,0
+Coordinates 9,1,1
+Coordinates 10,0,1
+Coordinates 11,0,0
+Coordinates 12,1,0
+Coordinates 13,1,1
+Coordinates 14,0,1
+Coordinates 15,0,0
+Transparent 0,0,0

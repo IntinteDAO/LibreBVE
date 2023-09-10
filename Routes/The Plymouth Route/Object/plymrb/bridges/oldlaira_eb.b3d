@@ -1,0 +1,145 @@
+;Author=Chris Lees
+;Description=Embankmenty Bit
+;Copyright=From the BVE Cornwall Plymouth Route. © Chris Lees 2010
+
+;Grass Top L
+[MeshBuilder]
+Vertex -3.3,-0.295,50
+Vertex -1.35,-0.295,50
+Vertex -1.85,-0.295,26
+Vertex -3.8,-0.295,26
+Vertex -3.8,-0.295,0
+Vertex -1.85,-0.295,0
+Vertex -1.05,-0.295,-26
+Vertex -3.3,-0.295,-26
+Vertex -3.3,-0.295,-37
+Vertex -1.05,-0.295,-37
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0,0,0.1
+Coordinates 1,0,0
+Coordinates 2,2,0
+Coordinates 3,2,0.1
+Coordinates 4,4,0.1
+Coordinates 5,4,0
+Coordinates 6,6,0
+Coordinates 7,6,0.1
+Coordinates 8,7,0.1
+Coordinates 9,7,0
+
+;Ballast Border L
+[MeshBuilder]
+Vertex -3.3,-0.29,50
+Vertex -1.35,-0.29,50
+Vertex -1.85,-0.29,26
+Vertex -3.8,-0.29,26
+Vertex -3.8,-0.29,0
+Vertex -1.85,-0.29,0
+Vertex -1.05,-0.29,-26
+Vertex -3.3,-0.29,-26
+Vertex -3.3,-0.29,-37
+Vertex -1.05,-0.29,-37
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+
+[Texture]
+Load ..\walls\ballastedge1.png
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,2
+Coordinates 3,1,2
+Coordinates 4,1,4
+Coordinates 5,0,4
+Coordinates 6,0,6
+Coordinates 7,1,6
+Coordinates 8,1,7
+Coordinates 9,0,7
+Transparent 0,0,0
+
+;Grass Segment 2
+[Meshbuilder]
+Vertex -6.5,-0.7,50
+Vertex -3.3,-0.295,50
+Vertex -3.8,-0.295,25
+Vertex -7,-0.7,25
+Vertex -12.5,-1.1,0
+Vertex -3.8,-0.295,0
+Vertex -3.3,-0.295,-26
+Vertex -12.5,-1.1,-26
+Vertex -12.5,-1.1,-28.4
+Vertex -3.3,-0.295,-37
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+
+[Texture]
+Load   ..\common\grass6.png
+Coordinates   0, 0, 2
+Coordinates   1, 0.2, 2
+Coordinates   2, 0.2, 0
+Coordinates   3, 0, 0
+Coordinates   4, 0, 2
+Coordinates   5, 1, 2
+Coordinates   6, 1, 0
+Coordinates   7, 0, 0
+Coordinates   8, 0, 1
+Coordinates   9, 0.1, 0.1
+
+
+[MeshBuilder]
+Vertex 9.8,-0.291,-42
+Vertex 9.5,-0.291,-25
+Vertex 7.55,-0.291,-25
+Vertex 7.85,-0.291,-42
+Face 3,2,1,0
+
+[Texture]
+Load ..\walls\ballastedge1.png,,
+Coordinates 0,1,2
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,2
+Transparent 0,0,0
+
+[MeshBuilder]
+Vertex 9,-0.3,-42
+Vertex 12,-0.3,-42
+Vertex 28,-10,-42
+Vertex 8,-0.31,-24
+Vertex 11.2,-0.31,-24
+Vertex 28,-10,-24
+Face 3,4,1,0
+Face 4,5,2,1
+
+
+[Texture]
+Load ..\common\grass6.png,,
+Coordinates 0,0,1
+Coordinates 1,0,2
+Coordinates 2,0,0
+Coordinates 3,1,1
+Coordinates 4,1,2
+Coordinates 5,1,0
+
+[MeshBuilder]
+Vertex 8,-0.3,-42
+Vertex 12,-0.3,-42
+Vertex 28,-10,-42
+Vertex 8,-10,-44.5
+Face2 0,1,2,3
+
+[Texture]
+Load ..\common\grass6.png,,
+Coordinates 0,0,1
+Coordinates 1,0,2
+Coordinates 2,0,0
+Coordinates 3,1,1
+

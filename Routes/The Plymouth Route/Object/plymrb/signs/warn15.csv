@@ -1,0 +1,50 @@
+;-------------------------
+;NWM BVE Route Object File
+;-------------------------
+;
+;Object by TSC team.
+;Not for commercial use.
+;This object and its textures may be freely reused. 
+;Please acknowledge the original authors and leave this header in place.
+
+CreateMeshBuilder,
+AddVertex,-2.4, 1.81, 0,
+AddVertex,-1.6, 1.81, 0,
+AddVertex,-1.6, 1, 0,
+AddVertex,-2.4, 1, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,w15.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+SetEmissiveColor,60,60,60
+
+CreateMeshBuilder,
+AddVertex,-2.4, 1.81, 0.02,
+AddVertex,-1.6, 1.81, 0.02,
+AddVertex,-1.6, 1, 0.02,
+AddVertex,-2.4, 1, 0.02,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,wback.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-2.025, 1.7, 0.04,
+AddVertex,-1.955, 1.7, 0.04,
+AddVertex,-1.955, -0.3, 0.04,
+AddVertex,-2.025, -0.3, 0.04,
+AddFace2,0,1,2,3,
+GenerateNormals,
+LoadTexture,..\signals\post.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,

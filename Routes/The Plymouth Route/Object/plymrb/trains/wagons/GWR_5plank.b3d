@@ -1,0 +1,417 @@
+;Author= Chris Lees- www.bvecornwall.co.uk
+;Description= BR 16T Steel Mineral Wagon
+;Copyright= RB Object license
+
+
+[Meshbuilder]; Underframe
+Vertex -1.0, 0.2, 5.95,
+Vertex -1.0, 1.20, 5.95,
+Vertex -1.0, 1.20, 1.20,
+Vertex -1.0, 0.2, 1.20,
+Face2 0, 1, 2, 3
+
+[Texture]
+Load underframe3.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 1,
+Transparent 0, 0, 255,
+
+[Meshbuilder];Underframe
+Vertex 1.0, 0.2, 5.95,
+Vertex 1.0, 1.20, 5.95,
+Vertex 1.0, 1.20, 1.20,
+Vertex 1.0, 0.2, 1.20,
+Face2 0, 1, 2, 3
+
+[Texture]
+Load underframe3.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 1,
+Transparent 0, 0, 255,
+
+[Meshbuilder]; Side 1
+Vertex -1.0, 1.20, 5.95,
+Vertex -1.0, 2.45, 5.95,
+Vertex -1.0, 2.45, 1.20,
+Vertex -1.0, 1.20, 1.20,
+Face 0, 1, 2, 3
+
+[Texture]
+Load GWR_5plank1.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 1,
+Transparent 0, 0, 0,
+
+
+[Meshbuilder]; Side 2
+Vertex 1.0, 1.20, 5.95,
+Vertex 1.0, 2.45, 5.95,
+Vertex 1.0, 2.45, 1.20,
+Vertex 1.0, 1.20, 1.20,
+Face 3, 2, 1, 0
+
+[Texture]
+Load GWR_5plank1.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 1,
+Transparent 0, 0, 0,
+
+
+[Meshbuilder]; End 1
+Vertex -1.0, 2.45, 1.20,
+Vertex 1.0, 2.45, 1.20,
+Vertex 1.0, 0.93, 1.20,
+Vertex -1.0, 0.93, 1.20,
+Face 0,1,2,3
+
+[Texture]
+Load GWR_5plank2.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Transparent 0, 0, 0,
+
+[Meshbuilder]; End 2
+Vertex -1.0, 2.45, 5.95,
+Vertex 1.0, 2.45, 5.95,
+Vertex 1.0, 0.93, 5.95,
+Vertex -1.0, 0.93, 5.95,
+Face 3,2,1,0
+
+[Texture]
+Load GWR_5plank2.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Transparent 0, 0, 0,
+
+[MeshBuilder];Buffer 1
+Cube 0.10,0.10,0.01
+Translate -0.80,1.05,5.95
+Color 40,45,40
+
+[MeshBuilder];Buffer 2
+Cylinder 12,0.09,0.09,0.05
+Rotate 1,0,0,90
+Translate -0.80,1.05,5.95
+Color 50,55,50
+
+[MeshBuilder];Buffer 2
+Cylinder 12,0.08,0.08,0.15
+Rotate 1,0,0,90
+Translate -0.80,1.05,6.05
+Color 60,65,60
+
+[MeshBuilder];Buffer 3
+Cylinder 12,0.09,0.09,0.01
+Rotate 1,0,0,90
+Translate -0.80,1.05,6.13
+Color 50,55,50
+
+
+[MeshBuilder];Buffer 4
+Cylinder 12,0.075,0.075,0.2
+Rotate 1,0,0,90
+Translate -0.80,1.05,6.13
+Color 90,95,90
+
+
+;Rear Buffer 1
+[MeshBuilder]
+Cylinder 25,0.155,0.155,0.008
+Rotate 1,0,0,90
+Translate -0.8,1.05,6.23 
+Color 99,95,83
+
+;Rear Buffer 2
+[MeshBuilder]
+Vertex -0.65,1.2,6.235 
+Vertex -0.95,1.2,6.235 
+Vertex -0.95,0.9,6.235 
+Vertex -0.65,0.9,6.235 
+Face 0,1,2,3
+
+
+[Texture]
+Load ..\81xx\..\Cl08\cl08_buffer.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+;Rear Buffer 3
+[MeshBuilder]
+Vertex -0.65,1.2,6.225 
+Vertex -0.95,1.2,6.225 
+Vertex -0.95,0.9,6.225 
+Vertex -0.65,0.9,6.225 
+Face 3,2,1,0
+
+
+[Texture]
+Load ..\81xx\..\Cl08\cl08_buffer.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[MeshBuilder];Buffer 1
+Cube 0.10,0.10,0.01
+Translate 0.80,1.05,5.95
+Color 40,45,40
+
+[MeshBuilder];Buffer 2
+Cylinder 12,0.09,0.09,0.05
+Rotate 1,0,0,90
+Translate 0.80,1.05,5.95
+Color 50,55,50
+
+[MeshBuilder];Buffer 2
+Cylinder 12,0.08,0.08,0.15
+Rotate 1,0,0,90
+Translate 0.80,1.05,6.05
+Color 60,65,60
+
+[MeshBuilder];Buffer 3
+Cylinder 12,0.09,0.09,0.01
+Rotate 1,0,0,90
+Translate 0.80,1.05,6.13
+Color 50,55,50
+
+
+[MeshBuilder];Buffer 4
+Cylinder 12,0.075,0.075,0.2
+Rotate 1,0,0,90
+Translate 0.80,1.05,6.13
+Color 90,95,90
+
+
+;Rear Buffer 1
+[MeshBuilder]
+Cylinder 25,0.155,0.155,0.008
+Rotate 1,0,0,90
+Translate 0.8,1.05,6.23 
+Color 99,95,83
+
+;Rear Buffer 2
+[MeshBuilder]
+Vertex 0.65,1.2,6.235 
+Vertex 0.95,1.2,6.235 
+Vertex 0.95,0.9,6.235 
+Vertex 0.65,0.9,6.235 
+Face 3,2,1,0
+
+
+[Texture]
+Load ..\81xx\..\Cl08\cl08_buffer.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+;Rear Buffer 3
+[MeshBuilder]
+Vertex 0.65,1.2,6.225 
+Vertex 0.95,1.2,6.225 
+Vertex 0.95,0.9,6.225 
+Vertex 0.65,0.9,6.225 
+Face 0,1,2,3
+
+
+[Texture]
+Load ..\81xx\..\Cl08\cl08_buffer.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+
+
+
+[MeshBuilder];Buffer 1
+Cube 0.10,0.10,0.01
+Translate -0.80,1.05,1.2
+Color 40,45,40
+
+[MeshBuilder];Buffer 2
+Cylinder 12,0.09,0.09,0.05
+Rotate 1,0,0,90
+Translate -0.80,1.05,1.2
+Color 50,55,50
+
+[MeshBuilder];Buffer 2
+Cylinder 12,0.08,0.08,0.15
+Rotate 1,0,0,90
+Translate -0.80,1.05,1.1
+Color 60,65,60
+
+[MeshBuilder];Buffer 3
+Cylinder 12,0.09,0.09,0.01
+Rotate 1,0,0,90
+Translate -0.80,1.05,1.02
+Color 50,55,50
+
+
+[MeshBuilder];Buffer 4
+Cylinder 12,0.075,0.075,0.2
+Rotate 1,0,0,90
+Translate -0.80,1.05,1.02
+Color 90,95,90
+
+
+;Rear Buffer 1
+[MeshBuilder]
+Cylinder 25,0.155,0.155,0.008
+Rotate 1,0,0,90
+Translate -0.8,1.05,0.92
+Color 99,95,83
+
+;Rear Buffer 2
+[MeshBuilder]
+Vertex -0.65,1.2,0.915 
+Vertex -0.95,1.2,0.915
+Vertex -0.95,0.9,0.915 
+Vertex -0.65,0.9,0.915 
+Face 3,2,1,0
+
+
+[Texture]
+Load ..\81xx\..\Cl08\cl08_buffer.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+;Rear Buffer 3
+[MeshBuilder]
+Vertex -0.65,1.2,0.925 
+Vertex -0.95,1.2,0.925
+Vertex -0.95,0.9,0.925 
+Vertex -0.65,0.9,0.925 
+Face 0,1,2,3
+
+
+[Texture]
+Load ..\81xx\..\Cl08\cl08_buffer.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[MeshBuilder];Buffer 1
+Cube 0.10,0.10,0.01
+Translate 0.80,1.05,1.2
+Color 40,45,40
+
+[MeshBuilder];Buffer 2
+Cylinder 12,0.09,0.09,0.05
+Rotate 1,0,0,90
+Translate 0.80,1.05,1.2
+Color 50,55,50
+
+[MeshBuilder];Buffer 2
+Cylinder 12,0.08,0.08,0.15
+Rotate 1,0,0,90
+Translate 0.80,1.05,1.1
+Color 60,65,60
+
+[MeshBuilder];Buffer 3
+Cylinder 12,0.09,0.09,0.01
+Rotate 1,0,0,90
+Translate 0.80,1.05,1.02
+Color 50,55,50
+
+
+[MeshBuilder];Buffer 4
+Cylinder 12,0.075,0.075,0.2
+Rotate 1,0,0,90
+Translate 0.80,1.05,1.02
+Color 90,95,90
+
+
+;Rear Buffer 1
+[MeshBuilder]
+Cylinder 25,0.155,0.155,0.008
+Rotate 1,0,0,90
+Translate 0.8,1.05,0.92
+Color 99,95,83
+
+;Rear Buffer 2
+[MeshBuilder]
+Vertex 0.65,1.2,0.915 
+Vertex 0.95,1.2,0.915
+Vertex 0.95,0.9,0.915 
+Vertex 0.65,0.9,0.915 
+Face 0,1,2,3
+
+
+[Texture]
+Load ..\81xx\..\Cl08\cl08_buffer.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+;Rear Buffer 3
+[MeshBuilder]
+Vertex 0.65,1.2,0.925 
+Vertex 0.95,1.2,0.925
+Vertex 0.95,0.9,0.925 
+Vertex 0.65,0.9,0.925 
+Face 3,2,1,0
+
+
+[Texture]
+Load ..\81xx\..\Cl08\cl08_buffer.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+
+
+
+
+
+
+
+;Tarpaulin
+[Meshbuilder]
+Cube 1.05,0.15,2.4
+Translate 0,2.5,3.57
+
+[Texture]
+Load tarp.png
+coordinates 0,4,4
+coordinates 1,2,4
+coordinates 2,2,3
+coordinates 3,4,3
+coordinates 4,2,2
+coordinates 5,4,2
+coordinates 6,2,1
+coordinates 7,4,1
+
+
+;Shadow
+[Meshbuilder]
+Cube 0.70,0.55,2.3
+Translate 0,0.5,3.55
+Color 90,90,90,150

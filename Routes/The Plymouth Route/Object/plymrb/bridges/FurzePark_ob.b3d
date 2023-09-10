@@ -1,0 +1,433 @@
+;Description=Furze Park OB
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route. © 2015
+
+
+;Front Face
+[MeshBuilder]
+Vertex -9 ,  -0.25 ,  2
+Vertex 13 ,  -0.25 ,  2
+Vertex 13 ,  6.15 ,  2
+Vertex -9 ,  6.15 ,  2
+Vertex -9 ,  6.15 ,  2.1
+Vertex 13 ,  6.15 ,  2.1
+Vertex 13 ,  4.9 ,  2.1
+Vertex -9 ,  4.9 ,  2.1
+
+Vertex -9 ,  -0.25 ,  7
+Vertex 13 ,  -0.25 ,  7
+Vertex 13 ,  6.15 ,  7
+Vertex -9 ,  6.15 ,  7
+Vertex -9 ,  6.15 ,  6.9
+Vertex 13 ,  6.15 ,  6.9
+Vertex 13 ,  4.9 ,  6.9
+Vertex -9 ,  4.9 ,  6.9
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 7,4,3,0
+Face 1,2,5,6
+Face 8,9,10,11
+Face 13,12,11,10
+Face 12,13,14,15
+Face 8,11,12,15
+Face 14,13,10,9
+
+
+[Texture]
+Load underbridge1b.png
+Coordinates 0, 1, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0
+Coordinates 3, 1, 0
+Coordinates 4, 1, 0
+Coordinates 5, 0, 0
+Coordinates 6, 0, 0.17
+Coordinates 7, 1, 0.2
+Coordinates 8, 1, 1
+Coordinates 9, 0, 1
+Coordinates 10, 0, 0
+Coordinates 11, 1, 0
+Coordinates 12, 1, 0
+Coordinates 13, 0, 0
+Coordinates 14, 0, 0.17
+Coordinates 15, 1, 0.2
+Transparent 0, 0, 255
+
+;Inner Walls
+[MeshBuilder]
+Vertex -2.8,-0.25,2
+Vertex -2.8,-0.25,7
+Vertex -3.1,3.15,7
+Vertex -3.1,3.15,2
+Vertex -2.7,3.7,2
+Vertex -2.7,3.7,7
+Vertex -1.5,4.1,7
+Vertex -1.5,4.1,2
+Vertex 0,4.4,2
+Vertex 0,4.4,7
+Vertex 4.5,4.4,7
+Vertex 4.5,4.4,2
+Vertex 6.0,4.1,2
+Vertex 6.0,4.1,7
+Vertex 7.2,3.7,7
+Vertex 7.2,3.7,2
+Vertex 7.5,3.35,2
+Vertex 7.5,3.35,7
+Vertex 7.2,-0.25,7
+Vertex 7.2,-0.25,2
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,8,9
+Face 11,10,9,8
+Face 10,11,12,13
+Face 15,14,13,12
+Face 14,15,16,17
+Face 19,18,17,16
+Color 40,40,40
+
+;Side Supports
+[MeshBuilder]
+;L
+Vertex -3,-0.25,2
+Vertex -6,-0.25,-5
+Vertex -9.5,5.1,-5
+Vertex -6.5,5.1,2
+Vertex -3,-0.25,7
+Vertex -6,-0.25,14
+Vertex -9.5,5.1,14
+Vertex -6.5,5.1,7
+;R
+Vertex 7.2,-0.25,2
+Vertex 10.2,-0.25,-5
+Vertex 13.7,5.1,-5
+Vertex 10.7,5.1,2
+Vertex 7.2,-0.25,7
+Vertex 10.2,-0.25,14
+Vertex 13.7,5.1,14
+Vertex 10.7,5.1,7
+
+Face 0,1,2,3
+Face 7,6,5,4
+Face 11,10,9,8
+Face 12,13,14,15
+
+[Texture]
+Load underbridge2.png
+Coordinates 0, 1, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0
+Coordinates 3, 1, 0
+Coordinates 7, 1, 0
+Coordinates 6, 0, 0
+Coordinates 5, 0, 1
+Coordinates 4, 1, 1
+
+Coordinates 8, 1, 1
+Coordinates 9, 0, 1
+Coordinates 10, 0, 0
+Coordinates 11, 1, 0
+Coordinates 15, 1, 0
+Coordinates 14, 0, 0
+Coordinates 13, 0, 1
+Coordinates 12, 1, 1
+Transparent 0,0,255
+
+;Grass LL
+[MeshBuilder]
+Vertex -75,5.49,2
+Vertex -6.5,5.1,2
+Vertex -7.85,5.1,-1.1
+Vertex -75,5.49,-1.1
+Vertex -75,3.9,-3.1
+Vertex -7.65,3.5,-3.1
+Vertex -8.45,3.5,-5
+Vertex -75,3.9,-5
+Vertex -75,0.15,-25
+Vertex -6,-0.25,-5
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 8, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0
+Coordinates 3, 8, 0
+Coordinates 4, 8, 1
+Coordinates 5, 0, 1
+Coordinates 6, 0, 0
+Coordinates 7, 8, 0
+Coordinates 8, 8, 4
+Coordinates 9, 0, 1
+
+;Grass RL
+[MeshBuilder]
+Vertex 100,4.9,2
+Vertex 10.7,4.9,2
+Vertex 12.05,4.9,-1.1
+Vertex 100,3,-1.1
+Vertex 100,2,-3.1
+Vertex 11.85,3.5,-3.1
+Vertex 12.65,3.5,-5
+Vertex 100,0,-5
+Vertex 100,-4.85,-25
+Vertex 10.2,-0.25,-5
+Vertex 10.2,-4.25,-10
+Vertex 100,-4.85,-35
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,8,9
+Face 11,10,9,8
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 8, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0
+Coordinates 3, 8, 0
+Coordinates 4, 8, 1
+Coordinates 5, 0, 1
+Coordinates 6, 0, 0
+Coordinates 7, 8, 0
+Coordinates 8, 8, 4
+Coordinates 9, 0, 1
+Coordinates 10, 0, 0
+Coordinates 11, 8, 0
+
+;Grass LR
+[MeshBuilder]
+Vertex -75,5.49,7
+Vertex -6.5,5.1,7
+Vertex -7.85,5.1,10.1
+Vertex -75,5.49,10.1
+Vertex -75,3.9,12.1
+Vertex -7.65,3.5,12.1
+Vertex -8.45,3.5,14
+Vertex -75,0.6,34
+Vertex -75,-8.15,94
+Vertex -6,-0.25,44
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,8,9
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 8, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0
+Coordinates 3, 8, 0
+Coordinates 4, 8, 1
+Coordinates 5, 0, 1
+Coordinates 6, 0, 0
+Coordinates 7, 8, 0
+Coordinates 8, 8, 4
+Coordinates 9, 0, 1
+
+;Grass RR
+[MeshBuilder]
+Vertex 100,4.9,7
+Vertex 10.7,4.9,7
+Vertex 12.05,4.9,10.1
+Vertex 100,4.9,10.1
+Vertex 100,4.29,12.1
+Vertex 11.85,3.5,12.1
+Vertex 12.65,3.5,14
+Vertex 100,3.99,14
+Vertex 100,-0.54,34
+Vertex 10.2,-0.25,14
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 8, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0
+Coordinates 3, 8, 0
+Coordinates 4, 8, 1
+Coordinates 5, 0, 1
+Coordinates 6, 0, 0
+Coordinates 7, 8, 0
+Coordinates 8, 8, 4
+Coordinates 9, 0, 1
+
+;Road
+[MeshBuilder]
+Vertex -100,9.5,2
+Vertex -100,9.5,7
+Vertex -54.8,5.5,7
+Vertex -54.8,5.5,2
+Vertex -9,5.1,2
+Vertex -9,5.1,7
+Vertex 13,4.9,7
+Vertex 13,4.9,2
+Vertex 100,4.9,2
+Vertex 100,4.9,7
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+
+[Texture]
+Load ..\common\road14.png
+Coordinates 0, 1, 12
+Coordinates 1, 0, 12
+Coordinates 2, 0, 6
+Coordinates 3, 1, 6
+Coordinates 4, 1, 0
+Coordinates 5, 0, 0
+Coordinates 6, 0, 2
+Coordinates 7, 1, 2
+Coordinates 8, 1, 8
+Coordinates 9, 0, 8
+
+;Hedge L
+[MeshBuilder]
+Vertex -54.8,5.5,2
+Vertex -9,5.1,2
+Vertex -9,6.1,1.7
+Vertex -54.8,6.5,1.7
+Vertex -54.8,6.5,1.5
+Vertex -9,6.1,1.5
+Vertex -9,5.1,1.2
+Vertex -54.8,5.5,1.2
+;;2
+Vertex -100,9.5,2
+Vertex -100,10.5,1.7
+Vertex -100,10.5,1.5
+Vertex -100,9.5,1.2
+
+Face 3,9,8,0
+Face 4,10,9,3
+Face 7,11,10,4
+
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 6,5,2,1
+
+
+[Texture]
+Load ..\plants\hedge.png
+Coordinates 0, 0, 1
+Coordinates 1, 7, 1
+Coordinates 2, 7, 0
+Coordinates 3, 0, 0
+Coordinates 4, 0, 0.05
+Coordinates 5, 7, 0.05
+Coordinates 6, 7, 1
+Coordinates 7, 0, 1
+
+Coordinates 8, 7, 1
+Coordinates 9, 7, 0
+Coordinates 10, 7, 0.05
+Coordinates 11, 7, 1
+
+;Hedge R
+[MeshBuilder]
+Vertex -54.8,5.5,7
+Vertex -9,5.1,7
+Vertex -9,6.1,7.3
+Vertex -54.8,6.5,7.3
+Vertex -54.8,6.5,7.5
+Vertex -9,6.1,7.5
+Vertex -9,5.1,7.8
+Vertex -54.8,5.5,7.8
+;;2
+Vertex -100,9.5,7
+Vertex -100,10.5,7.3
+Vertex -100,10.5,7.5
+Vertex -100,9.5,7.8
+Face 0,8,9,3
+Face 3,9,10,4
+Face 4,10,11,7
+
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 1,2,5,6
+
+
+[Texture]
+Load ..\plants\hedge.png
+Coordinates 0, 0, 1
+Coordinates 1, 7, 1
+Coordinates 2, 7, 0
+Coordinates 3, 0, 0
+Coordinates 4, 0, 0.05
+Coordinates 5, 7, 0.05
+Coordinates 6, 7, 1
+Coordinates 7, 0, 1
+Coordinates 8, 7, 1
+Coordinates 9, 7, 0
+Coordinates 10, 7, 0.05
+Coordinates 11, 7, 1
+
+;Hedge RR
+[MeshBuilder]
+Vertex 100,4.9,7
+Vertex 13,4.9,7
+Vertex 13,5.9,7.3
+Vertex 100,5.9,7.3
+Vertex 100,5.9,7.5
+Vertex 13,5.9,7.5
+Vertex 13,4.9,7.8
+Vertex 100,4.9,7.8
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 6,5,2,1
+
+[Texture]
+Load ..\plants\hedge.png
+Coordinates 0, 0, 1
+Coordinates 1, 7, 1
+Coordinates 2, 7, 0
+Coordinates 3, 0, 0
+Coordinates 4, 0, 0.05
+Coordinates 5, 7, 0.05
+Coordinates 6, 7, 1
+Coordinates 7, 0, 1
+
+;Hedge RL
+[MeshBuilder]
+Vertex 100,4.9,2
+Vertex 13,4.9,2
+Vertex 13,5.9,1.7
+Vertex 100,5.9,1.7
+Vertex 100,5.9,1.5
+Vertex 13,5.9,1.5
+Vertex 13,4.9,1.3
+Vertex 100,4.9,1.3
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 1,2,5,6
+
+[Texture]
+Load ..\plants\hedge.png
+Coordinates 0, 0, 1
+Coordinates 1, 7, 1
+Coordinates 2, 7, 0
+Coordinates 3, 0, 0
+Coordinates 4, 0, 0.05
+Coordinates 5, 7, 0.05
+Coordinates 6, 7, 1
+Coordinates 7, 0, 1
+
+;Shadow
+[MeshBuilder]
+Vertex -3,-0.05,2
+Vertex -3,-0.05,7
+Vertex 7.3,-0.05,7
+Vertex 7.3,-0.05,2
+Face 0,1,2,3
+Color 0,0,0,170

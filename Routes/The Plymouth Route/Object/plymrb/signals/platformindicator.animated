@@ -1,0 +1,6 @@
+[Object]
+States = platformindicator_b.b3d , platformindicator_3.b3d  , platformindicator_3a.b3d
+StateFunction = section / 2
+
+[Include]
+platformindicator_post.b3d

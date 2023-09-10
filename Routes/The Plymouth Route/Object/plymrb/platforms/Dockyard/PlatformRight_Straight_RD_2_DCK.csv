@@ -1,0 +1,76 @@
+CreateMeshBuilder
+Addvertex, 3.05, -0.2, 25.3
+Addvertex, 6.55, 1.1, 15
+Addvertex, 6.55, 1.1, -0.3
+Addvertex, 1.55, -0.2, 25.3
+Addvertex, 1.55, 1.1, 15
+Addvertex, 1.55, 1.1, -0.3
+Addvertex, 1.55, -0.304, 25.3
+Addvertex, 1.55, 0.996, 15
+Addvertex, 1.55, 0.996, -0.3
+Addvertex, 1.8, -0.3, 25.3
+Addvertex, 1.8, 1, 15
+Addvertex, 1.8, 1, -0.3
+Addvertex, 1.8, -0.2, 15
+Addvertex, 1.8, -0.2, -0.3
+Addface, 0,1,4,3
+Addface, 1,2,5,4
+Addface, 3,4,7,6
+Addface, 4,5,8,7
+Addface, 6,7,10,9
+Addface, 7,8,11,10
+Addface, 9,10,12
+Addface, 10,11,13,12
+
+LoadTexture, ..\Surface_3.png
+SetTextureCoordinates, 0,0,0.6
+SetTextureCoordinates, 1,4,0.133
+SetTextureCoordinates, 2,10,0.133
+SetTextureCoordinates, 3,0,0.8
+SetTextureCoordinates, 4,4,0.8
+SetTextureCoordinates, 5,10,0.8
+SetTextureCoordinates, 6,0,0.812
+SetTextureCoordinates, 7,4,0.812
+SetTextureCoordinates, 8,10,0.812
+SetTextureCoordinates, 9,0,0.812
+SetTextureCoordinates, 10,4,0.812
+SetTextureCoordinates, 11,10,0.812
+SetTextureCoordinates, 12,4,1
+SetTextureCoordinates, 13,10,1
+
+
+CreateMeshBuilder
+Addvertex, 2.75, 0.8, 25.3
+Addvertex, 6.25, 2.1, 15
+Addvertex, 6.25, 2.1, -0.3
+Addvertex, 2.75, -0.25, 25.3
+Addvertex, 6.25,1.05, 15
+Addvertex, 6.25,1.05, -0.3
+Addface2, 0,1,4,3
+Addface2, 1,2,5,4
+LoadTexture, ..\..\common\..\common\Fence_16.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,4,0
+SetTextureCoordinates, 2,10,0
+SetTextureCoordinates, 3,0,1
+SetTextureCoordinates, 4,4,1
+SetTextureCoordinates, 5,10,1
+
+;Add New Grass Backing
+CreateMeshBuilder
+Addvertex, 6.95, -3, 25.3
+Addvertex, 3.05, -0.2, 25.3
+Addvertex, 6.55, 1.1, 15
+Addvertex, 7.95, -4, 15
+Addvertex, 7.95, -4, -0.3
+Addvertex, 6.55, 1.1, -0.3
+AddFace,3,2,1,0
+AddFace,2,3,4,5
+
+LoadTexture,..\..\common\grass6.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,0,2
+SetTextureCoordinates, 3,1,2
+SetTextureCoordinates, 4,0,5
+SetTextureCoordinates, 5,1,5

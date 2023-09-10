@@ -1,0 +1,29 @@
+[Object]
+states = laira_ml_gantry1.b3d
+Position = 0,0,0
+
+[Object]
+states = ..\..\lqsigs\homelq_arm_backing.b3d
+Position = -6.3,6.2,-0.3
+
+
+
+[Object]
+states = ..\..\lqsigs\homelq_arm_goods.b3d
+Position = -4.5,6.2,-0.3
+
+[Object]
+states = ..\..\lqsigs\distlq_arm.b3d
+Position = -4.5,5.6,-0.3
+
+[Object]
+states = ..\..\lqsigs\homelq_arm.b3d
+Position = -1.4,7,-0.3
+RotateZFunction = (section != 0) * 0.355398163
+RotateZDamping = 10, 0.5
+
+[Object]
+states = ..\..\lqsigs\distlq_arm.b3d
+Position = -1.4,6.4,-0.3
+RotateZFunction = (section != 0 & section !=2) * 0.355398163
+RotateZDamping = 10, 0.5

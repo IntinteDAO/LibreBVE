@@ -1,0 +1,49 @@
+[MeshBuilder]
+Vertex -1.9,-0.3,0
+Vertex -6,-0.3,0    ;TOP RE
+Vertex -11,-15,-1   ;BOTTOM RE
+Vertex 16,-0.3,26 
+Vertex 15,-0.3,26   ;Top FE
+Vertex 18,-15,28 ;Bottom FE
+Face 0,1,4,3
+Face 1,2,5,4
+
+[Texture]
+Load ..\..\common\rock1.png
+Coordinates 0,0,1
+Coordinates 1,0,2
+Coordinates 2,0,0
+Coordinates 3,1,1
+Coordinates 4,1,2
+Coordinates 5,1,0
+
+[MeshBuilder]
+Vertex 15,-0.3,26
+Vertex 18,-15,28
+Vertex 85,-15,78
+Vertex 85,-7,58
+Face 0,1,2,3
+
+[Texture]
+Load ..\..\common\rock1.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,2.5,0
+Coordinates 3,2,1
+
+[MeshBuilder]
+Vertex 15,-0.3,26
+Vertex -6,-0.31,0
+Vertex 125,-0.31,-5
+Vertex 125,-0.3,26
+Vertex 85,-7,58
+Face 3,2,1,0
+Face 4,3,0
+
+[Texture]
+Load ..\..\common\grass6.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,3,0
+Coordinates 3,3,1
+Coordinates 4,2,0

@@ -1,0 +1,16 @@
+;Wagon
+[Object]
+States = 45T_BitumenTanker.b3d
+Position = 0,0,0
+
+;Wheelset1
+[Object]
+States = wheelset_solid.b3d
+RotateXFunction = value + delta * speedometer / 0.5
+Position = 0,0.425,1.75
+
+;Wheelset2
+[Object]
+States = wheelset_solid.b3d
+RotateXFunction = value + delta * speedometer / 0.5
+Position = 0,0.425,6.35

@@ -1,0 +1,65 @@
+;author=Chris Lees
+;description=Platformy bit (Plymouth)
+;copyright=From the BVE Cornwall Plymouth route. © Chris Lees 2009
+;Note: Use null ground
+[MeshBuilder]
+Vertex -20.2, 1.1, 0
+Vertex -20.2, 1.1, 25.3
+Vertex -2.7, 1.1, 25.3
+Vertex -2.7, 1.1, 0
+Face 0, 1, 2, 3
+
+
+[Texture]
+Load ..\Surface_3.png
+Coordinates 0, 6.5, 0.65
+Coordinates 1, 6.5, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 0.65
+
+[MeshBuilder]
+Vertex -2.7, 1.1, 0
+Vertex -2.7, -0.3, 0
+Vertex -20.2, -0.3, 0
+Vertex -20.2, 1.1, 0
+Face 0, 1, 2, 3
+
+
+[Texture]
+Load ..\Surface_3.png
+Coordinates 0, 6.5, -0.2
+Coordinates 1, 6.5, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, -0.2
+
+[MeshBuilder]
+Vertex -6.8,  1.9, 0.5
+Vertex -6.8,  1.1, 0.5
+Vertex -14.2, 1.1, 0.5
+Vertex -14.2, 1.9, 0.5
+Face2 0, 1, 2, 3
+
+
+[Texture]
+Load ..\..\signals\Relay_Plat1.png
+Coordinates 0, 8, -1
+Coordinates 1, 8, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, -1
+Transparent 156,156,156
+
+[MeshBuilder]
+Vertex -6.8,  1.9, 24.8
+Vertex -6.8,  1.1, 24.8
+Vertex -14.2, 1.1, 24.8
+Vertex -14.2, 1.9, 24.8
+Face2 0, 1, 2, 3
+
+
+[Texture]
+Load ..\..\signals\Relay_Plat1.png
+Coordinates 0, 8, -1
+Coordinates 1, 8, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, -1
+Transparent 156,156,156

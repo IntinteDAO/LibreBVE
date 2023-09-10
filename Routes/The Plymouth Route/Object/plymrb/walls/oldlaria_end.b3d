@@ -1,0 +1,55 @@
+;Description=Stone retaining wall for upper level road==> Endy bit
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth route. © Chris Lees 2010
+
+[MeshBuilder]
+Vertex -0.8, -0.07, -0.1122
+Vertex -0.8, -0.07, 15.6122
+Vertex -0.5, -0.07, 15.6122
+Vertex -0.5, -0.07, -0.1122
+Vertex -0.1, -0.17, -0.1122
+Vertex -0.1, -0.17, 15.6122
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 0, 2
+Coordinates 1, 0, 0
+Coordinates 2, 0.1, 0
+Coordinates 3, 0.1, 2
+Coordinates 4, 0, 2
+Coordinates 5, 0, 0
+
+
+[MeshBuilder]
+Vertex -0.75, 1.07, 15.6122
+Vertex -0.75, 1.07, -0.1122
+Vertex -0.75, -0.07, -0.1122
+Vertex -0.75, -0.07, 15.6122
+Face2 0,1,2,3
+
+[Texture]
+Load ..\common\Fence_10.png
+Coordinates 0, 0, 0
+Coordinates 1, 15, 0
+Coordinates 2, 15, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+
+[MeshBuilder]
+Vertex -0.8, -0.07, 15.6122
+Vertex -0.8, -0.07, -0.1122
+Vertex -1.8, -2.57, -0.1122
+Vertex -1.8, -2.57, 15.6122
+Face 0,1,2,3
+
+[Texture]
+Load ..\bridges\underbridge3.png
+Coordinates 0, 0, 0
+Coordinates 1, 5, 0
+Coordinates 2, 5, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+
+

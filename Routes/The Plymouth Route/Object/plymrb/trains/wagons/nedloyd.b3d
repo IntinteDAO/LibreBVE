@@ -1,0 +1,59 @@
+;Ballyfeckin and Waterville Railway © graymac,
+;You may publish this BWR railway object without alteration in your BVE routes providing that you acknowledge this copyright.
+;Object and photographs by Graymac/BWR, email info@graymacimage.com ,
+
+[meshbuilder]
+vertex -1.22,0,3.045
+vertex -1.22,0,-3.045
+vertex -1.22,2.6,3.045
+vertex -1.22,2.6,-3.045
+vertex 1.22,2.6,3.045
+vertex 1.22,2.6,-3.045
+vertex 1.22,0,3.045
+vertex 1.22,0,-3.045
+face 0,2,3,1
+face 2,4,5,3
+face 4,6,7,5
+[texture]
+load nedloyd.png
+coordinates 0,1,0
+coordinates 1,0,0
+coordinates 2,1,0.414
+coordinates 3,0,0.414
+coordinates 4,1,0.586
+coordinates 5,0,0.586
+coordinates 6,1,1
+coordinates 7,0,1
+
+[meshbuilder]
+vertex -1.22,2.6,-3.045
+vertex 1.22,2.6,-3.045
+vertex 1.22,0,-3.045
+vertex -1.22,0,-3.045
+face 0,1,2,3
+[texture]
+load nedloydA.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+[meshbuilder]
+vertex -1.22,2.6,3.045
+vertex 1.22,2.6,3.045
+vertex 1.22,0,3.045
+vertex -1.22,0,3.045
+face 3,2,1,0
+[texture]
+load nedloydA.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+
+
+
+
+
+

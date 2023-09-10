@@ -1,0 +1,230 @@
+route.Comment The Plymouth Route V1.7.0.0$chr(13)$chr(10)Tavistock Junction- Liskeard (34km)$chr(13)$chr(10)Created by Chris Lees.$chr(13)$chr(10)The homepage of this route can be found at www.bvecornwall.co.uk
+Options.ObjectVisibility 1
+
+route.Timetable -,
+route.RunInterval $Rnd(700;1000),
+route.Change 0,
+route.Gauge 1435,
+route.DeveloperId 0,
+route.LoadingScreen(..\includes\images\loadscreen60.png)
+route.DisplaySpeed(mph,0.621371)
+
+Route.Signal(1) 200,
+Route.Signal(2) 200,
+Route.Signal(3) 200,
+Route.Signal(4) 200,
+
+Route.LightDirection 10;290
+Route.DirectionalLight 50;40;40
+Route.AmbientLight 130;130;130
+
+with Train
+.Folder D1015
+.Run(0) 0
+.Run(1) 2
+.Run(2) 0
+.Run(3) 0
+.Run(4) 0
+.Run(5) 0
+.Run(6) 0
+.Run(7) 0
+.Run(8) 0
+.Run(9) 6
+.Run(10) 0
+.Run(11) 2
+.Run(12) 0
+.Run(13) 0
+.Run(14) 0
+.Run(15) 0
+.Run(16) 0
+.Run(17) 0
+.Run(18) 0
+.Run(19) 0
+
+$Include(..\includes\mainobjects.csv),
+$Include(..\includes\60_obj.csv),
+,
+with Track,
+;;Primary Includes
+$Include(..\includes\60_LJM_PLY.csv),
+$Include(..\includes\60_PLY.csv),
+$Include(..\includes\60_PLY_DEV.csv),
+$Include(..\includes\60_DEV_DCK.csv),
+$Include(..\includes\60_DCK_KEY.csv),
+$Include(..\includes\60_KEY_STB.csv),
+$Include(..\includes\60_STB_SAL.csv),
+$Include(..\includes\60_SAL_DFP.csv),
+$Include(..\includes\60_SHLT_STG.csv),
+$Include(..\includes\60_STG_MEN.csv),
+$Include(..\includes\60_MEN_LSK.csv), 
+
+;;Stations
+;Signal Halt at Laira Junction
+175, .sta Start;12.3130;12.3150;;N;1;;;20;100, .stop 0
+;Plymouth
+4740, .Marker plymrb\marker\stationmarker_stop.png;500, .sta Plymouth;12.3800;12.3900;;-1;1;;;20;100, .stop 0, .freeobj 0;0;1.9
+;Devonport
+6645, .sta Devonport;P;;;-1;1;;;20;100, .stop 0, .Marker plymrb\marker\stationmarker_stop.png;500, .freeobj 0;0;1.9
+;Dockyard
+7265, .Marker plymrb\marker\stationmarker_stop.png;500, .sta Dockyard;P;;;-1;1;;;20;100, .stop 0, .freeobj 0;0;1.9
+;Keyham
+8365, .Marker plymrb\marker\stationmarker_stop.png;500, .Sta Keyham;P;;;-1;1;;;20;100, .stop 0, .freeobj 0;0;1.9
+;St Budeaux Ferry Road
+9775, .Marker plymrb\marker\stationmarker_stop.png;500, .sta St Budeaux Ferry Rd.;12.4300;12.4400;;-1;1;;;20;100, .stop 0, .freeobj 0;0;1.9
+;Saltash
+11475, .Marker plymrb\marker\stationmarker_stop.png;500, .sta Saltash;12.4700;12.4800;;-1;1;;;20;100, .stop 0, .freeobj 0;0;1.9
+;St Germans
+19500, .Marker plymrb\marker\stationmarker_stop.png;500, .sta St Germans;12.5400;12.5500;0;0;1;;;20;100;, .stop 0, .freeobj 0;0;1.9
+;Menheniot
+27975, .Marker plymrb\marker\stationmarker_stop.png;500, .sta Menheniot;P;;0;0;1;;;20;100;, .stop 0, .freeobj 0;0;1.9
+;Liskeard
+33500, .Marker plymrb\marker\stationmarker_stop.png;500, .sta Liskeard;13.0600;13.0700;;-1;1;;;20;100,, .stop 0, .freeobj 0;0;1.9
+;End Dummy
+33700, .Marker plymrb\marker\stationmarker_stop.png;500, .sta End;13.1400;13.1500;1;0;1;;;20;100;, .stop 0, .freeobj 0;0;1.9
+
+;Vans in Ocean Siding
+830, .freeobj 3;416
+840.5, .freeobj 3;403
+859.5, .freeobj 3;415
+868.9, .freeobj 3;415
+
+;Either mainline passenger or freight in loop
+$Sub(102) = $Rnd(0;1)
+$If($Sub(102)), 
+;Mainline Passenger
+1630, .freeobj 1;398
+1650, .freeobj 1;404
+1670, .freeobj 1;404
+1690, .freeobj 1;404
+1710, .freeobj 1;404
+1730, .freeobj 1;405;0;0;180
+$Else()
+$If($Rnd(0;1)), 
+;;CL14
+1705.5, .freeobj 2;$Rnd(394;395)
+1719.7, .freeobj 2;415
+1719.3, .freeobj 2;407
+1724.7, .freeobj 2;417
+1730.5, .freeobj 2;418
+1741.5, .freeobj 2;401
+1746.5, .freeobj 2;406
+1754.5, .freeobj 2;416
+$EndIf()
+$If($Rnd(0;1)),
+;16xx
+1706, .freeobj 2;391
+1719.7, .freeobj 2;415
+1719.3, .freeobj 2;407
+1724.7, .freeobj 2;417
+1730.5, .freeobj 2;418
+1741.5, .freeobj 2;401
+1746.5, .freeobj 2;406
+1754.5, .freeobj 2;416
+$EndIf()
+$EndIf()
+
+
+
+;Laira Depot Standing Locos
+1750, .freeobj 9;397
+1800, .freeobj 8;398
+1840, .freeobj 9;400
+1830, .freeobj 5;395
+1825, .freeobj 10;393
+1880, .freeobj 5;396
+
+$Sub(101) = $Rnd(19;22)
+
+;Passenger
+$If($Rnd(0;1))
+$Sub(101)400, .freeobj 1;397
+$Else()
+$Sub(101)407, .freeobj 1;392
+$EndIf()
+$Sub(101)425, .freeobj 1;404
+$Sub(101)445, .freeobj 1;404
+$Sub(101)465, .freeobj 1;404
+$Sub(101)485, .freeobj 1;404
+$Sub(101)505, .freeobj 1;405;0;0;180
+
+;81xx & freight Plymouth Goods Loop
+4520, .freeobj 5;156;0;0.5;180
+4527, .freeobj 5;396, .announce \plymrb\steamer.wav
+4532.3, .freeobj 5;407
+4537.65, .freeobj 5;407
+4548.6, .freeobj 5;401
+4553.7, .freeobj 5;401
+4558.8, .freeobj 5;406
+4558.3, .freeobj 5;408
+4563.6, .freeobj 5;408
+4576.4, .freeobj 5;410
+
+;Manor and coaches in Plymouth outer platform
+4534, .freeobj 4;422
+4554.5, .freeobj 4;421
+4575.0, .freeobj 4;420
+4595.5, .freeobj 4;420
+4616, .freeobj 4;419
+4636.5, .freeobj 4;404
+4657, .freeobj 4;405;0;0;180
+4675, .freeobj 4;393
+
+;Did we miss the freight
+$If($Sub(102)), 
+$Else()
+$If($Rnd(0;1)), 
+;;CL14
+31705.5, .freeobj 1;$Rnd(394;395)
+31719.7, .freeobj 1;415
+31719.3, .freeobj 1;407
+31724.7, .freeobj 1;417
+31730.5, .freeobj 1;418
+31741.5, .freeobj 1;401
+31746.5, .freeobj 1;406
+31754.5, .freeobj 1;416
+$EndIf()
+$If($Rnd(0;1)),
+;16xx
+31706, .freeobj 1;391
+31719.7, .freeobj 1;415
+31719.3, .freeobj 1;407
+31724.7, .freeobj 1;417
+31730.5, .freeobj 1;418
+31741.5, .freeobj 1;401
+31746.5, .freeobj 1;406
+31754.5, .freeobj 1;416
+$EndIf()
+$EndIf()
+
+;;Signalling subroutines for passing trains,
+$Sub(100) = 1      ;;Plymouth outer platform,
+
+
+;;Weather Effects
+0, .railstart 99;0;-0.1;1, .wall 99;-1;2000
+0, .Beacon 21;1;0;40, .fog 0;900;110;110;110
+3675, .Beacon 21;1;0;10, .wallend 99
+4000, .Beacon 21;1;0;60, .wall 99;-1;2000
+6800, .Beacon 21;1;0;10, .wallend 99
+6850, .brightness 80, .fog 0;0
+6900, .brightness 255, .Beacon 21;1;0;60, .wall 99;-1;2000
+
+15725, .Fog 5;50;10;10;10,
+15750, .brightness 255, .Beacon 21;1;0;10, .wallend 99
+15925, .Fog 0;100;50;50;50, .brightness 80,
+16025, .Fog 0;200;90;90;90,
+16050, .fog 0;0,
+16175, .brightness 255, .Beacon 21;1;0;60, .wall 99;-1;2000
+
+;;Backgrounds
+0, .back 2
+
+;;Subroutines
+;Random Field Animals
+$Sub(0) = $Rnd(220;225)
+$Sub(1) = $Rnd(220;225)
+$Sub(2) = $Rnd(220;225)
+$Sub(3) = $Rnd(220;225)
+$Sub(4) = $Rnd(220;225)
+$Sub(5) = $Rnd(220;225)
+$Sub(6) = $Rnd(220;225)

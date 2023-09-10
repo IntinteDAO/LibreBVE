@@ -1,0 +1,215 @@
+;Description=SR Pattern Concrete Provender Store
+;Author=Chris Lees
+;Description=From the BVE Cornwall Plymouth route. © 2014
+
+;Front Face
+[MeshBuilder]
+Vertex 0,0,-3.4
+Vertex 0,3.8,-3.4
+Vertex 10,3.8,-3.4
+Vertex 10,0,-3.4
+Face 0,1,2,3
+
+[Texture]
+Load cpvs_01.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;Rear Face
+[MeshBuilder]
+Vertex 0,0,3.4
+Vertex 0,3.8,3.4
+Vertex 10,3.8,3.4
+Vertex 10,0,3.4
+Face 3,2,1,0
+
+[Texture]
+Load cpvs_01.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;End 1
+[MeshBuilder]
+Vertex 10,0,3.4
+Vertex 10,3.8,3.4
+Vertex 10,6.9,0
+Vertex 10,0,0
+Vertex 10,0,-3.4
+Vertex 10,3.8,-3.4
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load cpvs_02.png
+Coordinates 0,1,1
+Coordinates 1,1,0.43
+Coordinates 2,0.5,0
+Coordinates 3,0.5,1
+Coordinates 4,0,1
+Coordinates 5,0,0.43
+
+;End 2
+[MeshBuilder]
+Vertex 0,0,3.4
+Vertex 0,3.8,3.4
+Vertex 0,6.9,0
+Vertex 0,0,0
+Vertex 0,0,-3.4
+Vertex 0,3.8,-3.4
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load cpvs_02.png
+Coordinates 0,1,1
+Coordinates 1,1,0.43
+Coordinates 2,0.5,0
+Coordinates 3,0.5,1
+Coordinates 4,0,1
+Coordinates 5,0,0.43
+
+;roof side 1
+[MeshBuilder]
+Vertex  10.3,3.38,-4
+Vertex  10.3,6.9,0
+Vertex -0.3,6.9,0
+Vertex -0.3,3.38,-4
+Face2 3,2,1,0
+
+[Texture]
+Load corrugated.png
+Coordinates 0,0,0.98
+Coordinates 1,0,0.06
+Coordinates 2,4,0.06
+Coordinates 3,4,0.98
+
+;roof side 2
+[MeshBuilder]
+Vertex -0.3,6.9,0
+Vertex -0.3,3.38,4
+Vertex  10.3,3.38,4
+Vertex  10.3,6.9,0
+Face2 0,1,2,3
+
+[Texture]
+Load corrugated.png
+Coordinates 0,0,0.98
+Coordinates 1,0,0.06
+Coordinates 2,4,0.06
+Coordinates 3,4,0.98
+
+;Bottom
+[MeshBuilder]
+Vertex 0,0,3.4
+Vertex 10,0,3.4
+Vertex 10,0,-3.4
+Vertex 0,0,-3.4
+Face 3,2,1,0
+Color 80,80,80
+
+
+
+;Leg
+[MeshBuilder]
+Cylinder 8,0.6,0.6,0.6
+Rotate 0,1,0,90
+Translate 1,-0.3,-2.7
+
+[Texture]
+Load ..\..\common\concrete1.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+;Leg
+[MeshBuilder]
+Cylinder 8,0.6,0.6,0.6
+Rotate 0,1,0,90
+Translate 9,-0.3,-2.7
+
+[Texture]
+Load ..\..\common\concrete1.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+
+;Leg
+[MeshBuilder]
+Cylinder 8,0.6,0.6,0.6
+Rotate 0,1,0,90
+Translate 1,-0.3,2.7
+
+[Texture]
+Load ..\..\common\concrete1.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+;Leg
+[MeshBuilder]
+Cylinder 8,0.6,0.6,0.6
+Rotate 0,1,0,90
+Translate 9,-0.3,2.7
+
+[Texture]
+Load ..\..\common\concrete1.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1

@@ -1,0 +1,333 @@
+;Author=Chris Lees
+;Description=Devonport Station- Building L
+;Copyright=From the BVE Cornwall Plymouth Route © 2012
+
+;Front Face
+[MeshBuilder]
+Vertex -10,0,0
+Vertex -10,6,0
+Vertex   0,6,0
+Vertex   0,0,0
+Face 0,1,2,3
+
+[Texture]
+Load   devst_01.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+
+;Side Face 1
+[MeshBuilder]
+Vertex 0,0,10
+Vertex 0,6,10
+Vertex 0,6,0
+Vertex 0,0,0
+Face 3,2,1,0
+
+[Texture]
+Load   devst_02.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+
+;Roof 1
+[MeshBuilder]
+Vertex 0,6,10
+Vertex -5,8,7
+Vertex -5,8,3
+Vertex 0,6,0
+Vertex -10,6,10
+Vertex -10,6,0
+Face 3,2,1,0
+Face 4,1,2,5
+
+[Texture]
+Load  ..\..\common\slates.png
+Coordinates   0,0,3
+Coordinates   1,0.4,0
+Coordinates   2,1.6,0
+Coordinates   3,2,3
+Coordinates   4,0,3
+Coordinates   5,2,3
+
+[MeshBuilder]
+Vertex 0,6,10
+Vertex -5,8,7
+Vertex -10,6,10
+Vertex -10,6,0
+Vertex -5,8,3
+Vertex 0,6,0
+Face 0,1,2
+Face 3,4,5
+
+[Texture]
+Load  ..\..\common\slates.png
+Coordinates   0,0,0
+Coordinates   1,2,2
+Coordinates   2,0,4
+Coordinates   3,0,0
+Coordinates   4,2,2
+Coordinates   5,0,4
+
+;Side Face 2
+[MeshBuilder]
+Vertex -10,0,10
+Vertex -10,6,10
+Vertex -10,6,0
+Vertex -10,0,0
+Face 0,1,2,3
+
+[Texture]
+Load   devst_02.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+
+;More Roof
+[MeshBuilder]
+Vertex -8,6,8
+Vertex -8,6,15
+Vertex -6,7,14
+Vertex -6,7,6
+Vertex -4,6,8
+Vertex -4,6,15
+Vertex -4,6,15
+Face 0,1,2,3
+Face 5,4,3,2
+Face 6,2,1
+
+[Texture]
+Load   ..\..\common\slates.png
+Coordinates   0,2,1
+Coordinates   1,0,1
+Coordinates   2,0,0
+Coordinates   3,2,0
+Coordinates   4,2,1
+Coordinates   5,0,1
+Coordinates   6,2,1
+
+;Rear Face 1
+[MeshBuilder]
+Vertex -4,0,10
+Vertex -4,6,10
+Vertex   0,6,10
+Vertex   0,0,10
+Face 3,2,1,0
+
+[Texture]
+Load terrace2_4.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+
+;Rear Face 2
+[MeshBuilder]
+Vertex -8,0,10
+Vertex -8,6,10
+Vertex -10,6,10
+Vertex -10,0,10
+Face 0,1,2,3
+
+[Texture]
+Load terrace2_4.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,0.5,0
+Coordinates   3,0.5,1
+
+;Side Face 3
+[MeshBuilder]
+Vertex -8,0,15
+Vertex -8,6,15
+Vertex -8,6,10
+Vertex -8,0,10
+Face 0,1,2,3
+
+[Texture]
+Load   devst_03.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+
+;Rear Face 3
+[MeshBuilder]
+Vertex -4,0,15
+Vertex -4,6,15
+Vertex -8,6,15
+Vertex -8,0,15
+Face 0,1,2,3
+
+[Texture]
+Load terrace2_4.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,0.5,0
+Coordinates   3,0.5,1
+
+;Side Face 4
+[MeshBuilder]
+Vertex -4,0,15
+Vertex -4,6,15
+Vertex -4,6,10
+Vertex -4,0,10
+Face 3,2,1,0
+
+[Texture]
+Load   devst_02.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+
+;Bay Window 1
+[MeshBuilder]
+Vertex -9.5,0,0
+Vertex -9.5,6,0
+Vertex -8.5,6,-0.5
+Vertex -8.5,0,-0.5
+Vertex -7  ,0,-0.5
+Vertex -7  ,6,-0.5
+Vertex -6  ,6,0
+Vertex -6  ,0,0
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+
+[Texture]
+Load   terrace2_2.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+Coordinates   4,0,1
+Coordinates   5,0,0
+Coordinates   6,1,0
+Coordinates   7,1,1
+
+;Bay Window 2
+[MeshBuilder]
+Vertex -4  ,0,0
+Vertex -4  ,6,0
+Vertex -3  ,6,-0.5
+Vertex -3  ,0,-0.5
+Vertex -1.5,0,-0.5
+Vertex -1.5,6,-0.5
+Vertex -0.5,6,0
+Vertex -0.5,0,0
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+
+[Texture]
+Load   terrace2_2.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+Coordinates   4,0,1
+Coordinates   5,0,0
+Coordinates   6,1,0
+Coordinates   7,1,1
+
+;Wall
+[MeshBuilder]
+Vertex -9.8,0,55
+Vertex -9.8,2.5,55
+Vertex -9.8,2.5,10
+Vertex -9.8,0,10
+Vertex -9.9,0,55
+Vertex -9.9,2.5,55
+Vertex -9.9,2.5,10
+Vertex -9.9,0,10
+Face 3,2,1,0
+Face 4,5,6,7
+Face 1,2,6,5
+
+[Texture]
+Load ..\..\common\greystone1.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,15,0
+Coordinates   3,15,1
+Coordinates   4,0,1
+Coordinates   5,0,0
+Coordinates   6,15,0
+Coordinates   7,15,1
+
+;End Wall
+[MeshBuilder]
+Vertex -9.8,0,35
+Vertex -9.8,2.5,35
+Vertex 2.8,2.5,35
+Vertex 2.8,0,35
+Vertex -9.8,0,34.9
+Vertex -9.8,2.5,34.9
+Vertex 2.8,2.5,34.9
+Vertex 2.8,0,34.9
+Face 3,2,1,0
+Face 4,5,6,7
+Face 1,2,6,5
+
+[Texture]
+Load ..\..\common\greystone1.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,5,0
+Coordinates   3,5,1
+Coordinates   4,0,1
+Coordinates   5,0,0
+Coordinates   6,5,0
+Coordinates   7,5,1
+
+;Shutter Door 1
+[MeshBuilder]
+Vertex -9.79,0,25
+Vertex -9.79,2,25
+Vertex -9.79,2,20
+Vertex -9.79,0,20
+Vertex -9.91,0,25
+Vertex -9.91,2,25
+Vertex -9.91,2,20
+Vertex -9.91,0,20
+Face 3,2,1,0
+Face 4,5,6,7
+
+[Texture]
+Load ..\..\common\shutter1.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+Coordinates   4,0,1
+Coordinates   5,0,0
+Coordinates   6,1,0
+Coordinates   7,1,1
+
+;Shutter Door 2
+[MeshBuilder]
+Vertex -9.79,0,33
+Vertex -9.79,2,33
+Vertex -9.79,2,27
+Vertex -9.79,0,27
+Vertex -9.91,0,33
+Vertex -9.91,2,33
+Vertex -9.91,2,27
+Vertex -9.91,0,27
+Face 3,2,1,0
+Face 4,5,6,7
+
+[Texture]
+Load ..\..\common\shutter1.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+Coordinates   4,0,1
+Coordinates   5,0,0
+Coordinates   6,1,0
+Coordinates   7,1,1

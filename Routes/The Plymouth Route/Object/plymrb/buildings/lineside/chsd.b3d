@@ -1,0 +1,163 @@
+;author=Chris Lees
+;description=Concrete Lineside Light Industrial Shed
+;copyright=From the BVE Cornwall Plymouth route. © Chris Lees 2010
+
+[MeshBuilder]
+Vertex  0 ,  0 ,  0 
+Vertex -15 ,  0 ,  0 
+Vertex -15 ,  5 ,  0 
+Vertex  0 ,  5 ,  0 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load   chsd_01.png
+Coordinates   0, 0, 1
+Coordinates   1, 1, 1
+Coordinates   2, 1, 0
+Coordinates   3, 0, 0
+Transparent     0,0,255
+
+[MeshBuilder]
+Vertex -15 ,  0 ,  0 
+Vertex -15 ,  0 , -5 
+Vertex -15 ,  2.83 , -5 
+Vertex -15 ,  2.83 ,  0 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load   chsd_02.png
+Coordinates   0, 0, 1
+Coordinates   1, 1, 1
+Coordinates   2, 1, 0
+Coordinates   3, 0, 0
+Transparent     0,0,255
+
+[MeshBuilder]
+Vertex -10 ,  2.83 ,  0 
+Vertex -10 ,  2.83 , -5 
+Vertex -15 ,  2.83 , -5 
+Vertex -15 ,  2.83 ,  0 
+Face  0, 1, 2, 3, 
+
+
+[Texture]
+Load  ..\..\common\tarmac.png
+Coordinates   0, 0, 3
+Coordinates   1, 3, 3
+Coordinates   2, 3, 0
+Coordinates   3, 0, 0
+Transparent     0,0,255
+
+[MeshBuilder]
+Vertex  0 ,  0 , -5 
+Vertex -15 ,  0 , -5 
+Vertex -15 ,  5 , -5 
+Vertex  0 ,  5 , -5 
+Face  0, 1, 2, 3, 
+
+
+[Texture]
+Load   chsd_01.png
+Coordinates   0, 0, 1
+Coordinates   1, 1, 1
+Coordinates   2, 1, 0
+Coordinates   3, 0, 0
+Transparent     0,0,255
+
+[MeshBuilder]
+Vertex -10.28 ,  0 , -5 
+Vertex -10.28 ,  0 , -15 
+Vertex -10.28 ,  3.05 , -15 
+Vertex -10.28 ,  3.05 , -5 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load   chsd_02a.png
+Coordinates   0, 0, 1
+Coordinates   1, 2, 1
+Coordinates   2, 2, 0
+Coordinates   3, 0, 0
+Transparent     0,0,255
+
+[MeshBuilder]
+Vertex  0 ,  0 , -15 
+Vertex -10.28 ,  0 , -15 
+Vertex -10.28 ,  5 , -15 
+Vertex  0 ,  5 , -15 
+Face  0, 1, 2, 3, 
+
+
+[Texture]
+Load   chsd_01.png
+Coordinates   0, 0, 1
+Coordinates   1, 0.68, 1
+Coordinates   2, 0.68, 0
+Coordinates   3, 0, 0
+Transparent     0,0,255
+
+[MeshBuilder]
+Vertex -10.28 ,  3 ,  0 
+Vertex -10.28 ,  3 , -15 
+Vertex -5.14 ,  5 , -15 
+Vertex -5.14 ,  5 ,  0 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load   ..\railway\corrugated.png
+Coordinates   0, 0, 1
+Coordinates   1, 3, 1
+Coordinates   2, 3, 0
+Coordinates   3, 0, 0
+Transparent     0,0,255
+
+[MeshBuilder]
+Vertex -5.14 ,  5 ,  0 
+Vertex -5.14 ,  5 , -15 
+Vertex  0 ,  3 , -15 
+Vertex  0 ,  3 ,  0 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load   ..\railway\corrugated.png
+Coordinates   0, 0, 1
+Coordinates   1, 3, 1
+Coordinates   2, 3, 0
+Coordinates   3, 0, 0
+Transparent     0,0,255
+
+[MeshBuilder]
+Vertex  0 ,  3 ,  0 
+Vertex  0 ,  3 , -15 
+Vertex  0 ,  0 , -15 
+Vertex  0 ,  0 ,  0 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load   ..\railway\corrugated.png
+Coordinates   0, 0, 1
+Coordinates   1, 3, 1
+Coordinates   2, 3, 0
+Coordinates   3, 0, 0
+Transparent     0,0,255
+
+[MeshBuilder]
+Vertex -10.28 ,  2.83 ,  0 
+Vertex -10.28 ,  2.83 , -5 
+Vertex -10.28 ,  3.05 , -5 
+Vertex -10.28 ,  3.05 ,  0 
+Face  3, 2, 1, 0, 
+
+
+[Texture]
+Load   chsd_02a.png
+Coordinates   0, 0, 0.1
+Coordinates   1, 1, 0.1
+Coordinates   2, 1, 0
+Coordinates   3, 0, 0
+Transparent     0,0,255

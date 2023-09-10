@@ -1,0 +1,4 @@
+[object]
+States = rain.b3d
+StateFunction = cameraDistance > 200
+TextureShiftYFunction = 0.90 * time

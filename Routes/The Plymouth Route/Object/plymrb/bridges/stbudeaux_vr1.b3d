@@ -1,0 +1,19 @@
+;Tavistock Line Grass Wall 1
+[MeshBuilder]
+Vertex 25,-6.5,0
+Vertex 25,-9.5,-150
+Vertex 20,-3,-150
+Vertex 20,3,0
+Vertex 11.6,1,-2
+Vertex 11.6,-3,-150
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 0, 0
+Coordinates 1, 0, 5
+Coordinates 2, 1, 5
+Coordinates 3, 1, 0
+Coordinates 4, 0, 0
+Coordinates 5, 0, 5

@@ -1,0 +1,222 @@
+[Object]
+States = ..\cl47_BR_blue\47402_LEA.csv
+Position = 0,0,5
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+
+;Coach 1
+[Object]
+States = ..\coaches\GUV_blue_n.b3d
+Position = 0,0,24.8
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+
+;Wheelset1
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,16.5
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,18.9
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,30.7
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,33.1
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+
+;Coach 2
+[Object]
+States = ..\coaches\mk1_bk_itc_n.b3d
+Position = 0,0,44.8
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+
+;Wheelset2
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,36.5
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,38.9
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,50.7
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,53.1
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+
+;Coach 3
+[Object]
+States = ..\coaches\mk1_FO_itc_n.b3d
+Position = 0,0,64.8
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+
+;Wheelset3
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,56.5
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,58.9
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,70.7
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,73.1
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+
+;Coach 4
+[Object]
+States = ..\coaches\mk1_FO_itc_n.b3d
+Position = 0,0,84.8
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+
+;Wheelset4
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,76.5
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,78.9
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,90.7
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,93.1
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+
+;Coach 5
+[Object]
+States = ..\coaches\mk1_TSO_blue_n.b3d
+Position = 0,0,104.8
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+
+;Wheelset5
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,96.5
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,98.9
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,110.7
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,113.1
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+
+;Coach 6
+[Object]
+States = ..\coaches\mk1_TSO_blue_n.b3d
+Position = 0,0,124.8
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+
+;Wheelset6
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,116.5
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,118.9
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,130.7
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,133.1
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+
+;Coach 7
+[Object]
+States = ..\coaches\mk1_FO_itc_n.b3d
+Position = 0,0,144.8
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+
+;Wheelset7
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,136.5
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,138.9
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,150.7
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,153.1
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+
+;Coach 8
+[Object]
+States = ..\coaches\mk1_BCK_blue_n.b3d
+Position = 0,0,164.8
+RotateYFunction = 3.14159265
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+
+;Wheelset8
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,156.5
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,158.9
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,170.7
+[Object]
+States = ..\wagons\wheelset_solid.b3d
+Position = 0,0.425,173.1
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance

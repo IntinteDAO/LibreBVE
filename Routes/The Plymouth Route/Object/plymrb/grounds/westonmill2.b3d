@@ -1,0 +1,32 @@
+;Description=Weston Mill Ground Object Base #2
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route © 2013
+
+[MeshBuilder]
+Vertex -120, -8.40, 25
+Vertex 120, -8.40, 25
+Vertex 120, -8.401, -0.01
+Vertex -120, -8.401, -0.01
+Face 0, 1, 2, 3
+
+[Texture]
+Load ..\common\mud1.png
+Coordinates 0, 0, 0
+Coordinates 1, 10, 0
+Coordinates 2, 10, 2
+Coordinates 3, 0, 2
+
+[MeshBuilder]
+Vertex -120, -2.40, 25
+Vertex 120, -2.40, 25
+Vertex 120, -2.401, -0.01
+Vertex -120, -2.401, -0.01
+Face 0, 1, 2, 3
+Color 100,100,155,200
+
+[Texture]
+Load ..\common\water.png
+Coordinates 0, 0, 0
+Coordinates 1, 10, 0
+Coordinates 2, 10, 2
+Coordinates 3, 0, 2

@@ -1,0 +1,220 @@
+;Description=Liskeard Station Pub
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route © 2016
+
+;Front Face
+[MeshBuilder]
+Vertex 0,0,0
+Vertex 0,5,0
+Vertex 15,5,0
+Vertex 15,0,0
+Face 0,1,2,3
+
+[Texture]
+Load lspb_01.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;Main Roof
+[MeshBuilder]
+Vertex 0,5,0
+Vertex 15,5,0
+Vertex 13,7,2.5
+Vertex 2,7,2.5
+Vertex 0,5,5
+Vertex 15,5,5
+;;P2
+Vertex 12,5,2.5
+Vertex 12,5,15
+Vertex 8.5,7,13
+Vertex 8.5,7,2.5
+Vertex 5,5,2.5
+Vertex 5,5,15
+Face 11,7,8
+Face 9,8,7,6
+Face 8,9,10,11
+Face 3,2,1,0
+Face 2,3,4,5
+Face 1,2,5
+Face 4,3,0
+
+Color 100,100,100
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates 0,4,0
+Coordinates 1,-1,0
+Coordinates 2,0,2
+Coordinates 3,3,2
+Coordinates 4,4,4
+Coordinates 5,-1,4
+Coordinates 6,4,0
+Coordinates 7,-1,0
+Coordinates 8,0,2
+Coordinates 9,3,2
+Coordinates 10,4,4
+Coordinates 11,-1,4
+
+;Far End
+[MeshBuilder]
+Vertex 15,0,0
+Vertex 15,5,0
+Vertex 15,5,5
+Vertex 15,0,5
+Vertex 12,0,5
+Vertex 12,5,5
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load lspb_06.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,0.5,0
+Coordinates 3,0.5,1
+Coordinates 4,1,1
+Coordinates 5,1,0
+
+;Final
+[MeshBuilder]
+Vertex 12,0,5
+Vertex 12,5,5
+Vertex 12,5,15
+Vertex 12,0,15
+Vertex 5,0,15
+Vertex 5,5,15
+Vertex 5,5,5
+Vertex 5,0,5
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+
+[Texture]
+Load lspb_07.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0.27,1
+Coordinates 5,0.27,0
+Coordinates 6,-0.75,0
+Coordinates 7,-0.75,1
+
+;End
+[MeshBuilder]
+Vertex 0,0,0
+Vertex 0,5,0
+Vertex 0,5,5
+Vertex 0,0,5
+Vertex 5,0,5
+Vertex 5,5,5
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load lspb_02.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Coordinates 4,1,1
+Coordinates 5,1,0
+
+;Inner End
+[MeshBuilder]
+Vertex 0.5,0,5
+Vertex 0.5,3.0,5
+Vertex 0.5,3.5,6
+Vertex 0.5,0,6
+Vertex 0.5,0,8
+Vertex 0.5,2.8,8
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load lspb_04.png
+Coordinates 0,1,1
+Coordinates 1,1,0.12
+Coordinates 2,0.65,0
+Coordinates 3,0.65,1
+Coordinates 4,0,1
+Coordinates 5,0,0.16
+
+;Inner End Roof
+[MeshBuilder]
+Vertex 5,3.0,5
+Vertex 0.5,3.0,5
+Vertex 0.5,3.5,6
+Vertex 5,3.5,6
+Vertex 5,2.8,8
+Vertex 0.5,2.8,8
+Face 0,1,2,3
+Face 5,4,3,2
+Color 100,100,100
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,0.5
+Coordinates 3,1,0.5
+Coordinates 4,1,2
+Coordinates 5,0,2
+
+;Extension
+[MeshBuilder]
+Vertex 0.5,0,8
+Vertex 0.5,2.8,8
+Vertex -7,2.8,8
+Vertex -7,0,8
+Face 3,2,1,0
+
+[Texture]
+Load lspb_03.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+;Extension P2
+[MeshBuilder]
+Vertex -7,2.8,8
+Vertex -7,0,8
+Vertex -7,0,10
+Vertex -7,4,10
+Vertex -7,1.5,15
+Vertex -7,0,15
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load lspb_05.png
+Coordinates 0,1,0.335
+Coordinates 1,1,1
+Coordinates 2,0.695,1
+Coordinates 3,0.695,0.005
+Coordinates 4,0,0.655
+Coordinates 5,0,1
+
+;Extension Roof
+[MeshBuilder]
+Vertex -7,2.8,8
+Vertex 5,2.8,8
+Vertex 5,4,10
+Vertex -7,4,10
+Vertex -7,1.5,15
+Vertex 5,1.5,15
+Face 3,2,1,0
+Face 2,3,4,5
+Color 100,100,100
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates 0,3,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,3,1
+Coordinates 4,3,4
+Coordinates 5,0,4

@@ -1,0 +1,32 @@
+[Object]
+states = 60semi_l.csv
+Position = 0,0,0
+RotateYFunction = 0.8
+
+[Object]
+states = ..\..\tracks\road2.b3d
+Position = 0,0,-13
+RotateYFunction = 0.8
+
+[Object]
+states = ..\..\misc\60lamp.b3d
+Position = 18,0,0
+
+[Object]
+states = 60semi_l.csv
+Position = 20,0,13
+RotateYFunction = 1.6
+
+[Object]
+states = ..\..\tracks\road2.b3d
+Position = 17.5,0.01,3.5
+RotateYFunction = 1.6
+
+[Object]
+states = 60semi_l.csv
+Position = 31.7,0,12.8
+RotateYFunction = 1.6
+
+[Object]
+states = ..\..\plants\tree3.b3d
+Position = 43.5,0,1.5

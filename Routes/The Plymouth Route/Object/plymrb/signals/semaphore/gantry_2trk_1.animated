@@ -1,0 +1,16 @@
+[Object]
+states = gantry_2trk_1.csv
+Position = 0,0,0
+
+[Object]
+states = ..\..\lqsigs\homelq_arm.b3d
+Position = 8.0,6.1,0
+
+
+[Object]
+states = ..\..\lqsigs\homelq_arm.b3d
+Position = 4.05,6.5,0
+
+[Object]
+states = ..\..\lqsigs\homesm_arm.b3d
+Position = 4.05,5.9,0

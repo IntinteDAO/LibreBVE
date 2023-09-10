@@ -1,0 +1,262 @@
+;Description=Cutmere Lane Overbridge
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route. © 2015
+
+;Roadway
+[MeshBuilder]
+Vertex -120 ,  4.2 ,  7
+Vertex -120 ,  4.2 ,  2
+Vertex -45.8 ,  4.2 ,  2
+Vertex -45.8 ,  4.2 ,  7
+Vertex -15.8 ,  4.95 ,  7
+Vertex -15.8 ,  4.95 ,  2
+Vertex  22.6 ,  4.95 ,  2
+Vertex  22.6 ,  4.95 ,  7
+Vertex  120 ,  4.95 ,  0
+Vertex  120 ,  4.95 ,  -5
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,8,9
+
+[Texture]
+Load ..\common\road13.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 10
+Coordinates 3, 0, 10
+Coordinates 4, 0, 6
+Coordinates 5, 1, 6
+Coordinates 6, 1, 0
+Coordinates 7, 0, 0
+Coordinates 8, 0, 10
+Coordinates 9, 1, 10
+
+;Roadway Grass Down
+[MeshBuilder]
+Vertex -45.8 ,  4.2 ,  12
+Vertex -45.8 ,  4.2 ,  7
+Vertex -15.8 ,  4.95 ,  7
+Vertex -15.8 ,  4.2 ,  12
+Vertex -15.5 ,  4.0 ,  7
+
+Vertex -45.8 ,  4.0 ,  -3
+Vertex -45.8 ,  4.2 ,  2
+Vertex -15.8 ,  4.95 ,  2
+Vertex -15.8 ,  4.0 ,  -3
+Vertex -15.5 ,  4.0 ,  2
+Face 3,2,1,0
+Face 2,3,4
+Face 5,6,7,8
+Face 9,8,7
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+Coordinates 5, 0, 0
+Coordinates 6, 1, 0
+Coordinates 7, 1, 2
+Coordinates 8, 0, 2
+
+;Roadway Fence
+[MeshBuilder]
+Vertex -15.8 ,  4.95 ,  7
+Vertex -15.8 ,  5.95 ,  7
+Vertex -45.8 ,  5.2 ,  7
+Vertex -45.8 ,  4.2 ,  7
+Vertex -120 ,  4.2 ,  7
+Vertex -120 ,  5.2 ,  7
+
+Vertex -15.8 ,  4.95 ,  2
+Vertex -15.8 ,  5.95 ,  2
+Vertex -45.8 ,  5.2 ,  2
+Vertex -45.8 ,  4.2 ,  2
+Vertex -120 ,  4.2 ,  2
+Vertex -120 ,  5.2 ,  2
+
+Vertex  22.6 ,  4.95 ,  2
+Vertex  120 ,  4.95 ,  -5
+Vertex  120 ,  5.95 ,  -5
+Vertex  22.6 ,  5.95 ,  2
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 6,7,8,9
+Face2 11,10,9,8
+Face2 12,13,14,15
+
+[Texture]
+Load ..\walls\barbedwirefence1.png
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 5, 1
+Coordinates 3, 5, 0
+Coordinates 4, 15, 0
+Coordinates 5, 15, 1
+Coordinates 6, 0, 0
+Coordinates 7, 0, 1
+Coordinates 8, 5, 1
+Coordinates 9, 5, 0
+Coordinates 10, 15, 0
+Coordinates 11, 15, 1
+
+
+Coordinates 12, 0, 1
+Coordinates 13, 15, 1
+Coordinates 14, 15, 0
+Coordinates 15, 0, 0
+Transparent 0,0,255
+
+;Hedge RR
+[MeshBuilder]
+Vertex  27.6 ,  4.95 ,  6.5
+Vertex  120 ,  4.95 ,  0
+Vertex  120 ,  5.95 ,  0.3
+Vertex  27.6 ,  5.95 ,  6.8
+Vertex  27.6 ,  5.95 ,  7
+Vertex  120 ,  5.95 ,  0.5
+Vertex  120 ,  4.45 ,  0.8
+Vertex  27.6 ,  4.45 ,  7.3
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 7,4,3,0
+[Texture]
+Load ..\plants\hedge.png
+Coordinates 0, 0, 1
+Coordinates 1, 16, 1
+Coordinates 2, 16, 0
+Coordinates 3, 0, 0
+Coordinates 4, 0, 0.05
+Coordinates 5, 16, 0.05
+Coordinates 6, 16, 1
+Coordinates 7, 0, 1
+
+;Field Gate
+[MeshBuilder]
+Vertex  27.6 ,  4.95 ,  6.8
+Vertex  22.6 ,  4.95 ,  7
+Vertex  22.6 ,  5.95 ,  7
+Vertex  27.6 ,  5.95 ,  6.8
+Face2 0,1,2,3
+
+[Texture]
+Load ..\common\gate3.png
+Coordinates 3, 1, 0
+Coordinates 0, 1, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0
+Transparent 0,0,255
+
+;Front Face
+[MeshBuilder]
+Vertex -15.8 ,  6.95 ,  2 
+Vertex -15.8 ,  -0.2 ,  2 
+Vertex -10.0 ,  -0.2 ,  2 
+Vertex -10.0 ,  6.95 ,  2 
+Vertex  17.6 ,  6.95 ,  2 
+Vertex  17.6 ,  -0.2 ,  2 
+Vertex  22.6 ,  -0.2 ,  2 
+Vertex  22.6 ,  6.95 ,  2 
+Face2 3,2,1,0
+Face2 2,3,4,5
+Face2 7,6,5,4
+
+[Texture]
+Load keyh_03.png
+Coordinates 0, -0.15, 0
+Coordinates 1, -0.15, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Coordinates 4, 1, 0
+Coordinates 5, 1, 1
+Coordinates 6, 1.15, 1
+Coordinates 7, 1.15, 0
+Transparent 0, 0, 255
+
+;Front Face
+[MeshBuilder]
+Vertex -15.8 ,  6.95 ,  7 
+Vertex -15.8 ,  -0.2 ,  7 
+Vertex -10.0 ,  -0.2 ,  7 
+Vertex -10.0 ,  6.95 ,  7 
+Vertex  17.6 ,  6.95 ,  7 
+Vertex  17.6 ,  -0.2 ,  7 
+Vertex  22.6 ,  -0.2 ,  7 
+Vertex  22.6 ,  6.95 ,  7 
+Face2 3,2,1,0
+Face2 2,3,4,5
+Face2 7,6,5,4
+
+[Texture]
+Load keyh_03.png
+Coordinates 0, -0.15, 0
+Coordinates 1, -0.15, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Coordinates 4, 1, 0
+Coordinates 5, 1, 1
+Coordinates 6, 1.15, 1
+Coordinates 7, 1.15, 0
+Transparent 0, 0, 255
+
+;Inside Walls
+[MeshBuilder]
+Vertex  5.06 ,  7.6 ,  2 
+Vertex  0.119 ,  7.4 ,  2 
+Vertex -4.901 ,  6.47 ,  2 
+Vertex -8.28 ,  4.52 ,  2 
+Vertex -9.52 ,  3.27 ,  2 
+Vertex -9.52 ,  0.67 ,  2 
+Vertex  5.06 ,  7.6 ,  7
+Vertex  0.119 ,  7.4 , 7
+Vertex -4.901 ,  6.47 ,  7 
+Vertex -8.28 ,  4.52 ,  7
+Vertex -9.52 ,  3.27 , 7
+Vertex -9.52 ,  0.67 ,  7
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+Color 40,40,40
+Translate 0,-3,0
+
+;More Inside Walls
+[MeshBuilder]
+Vertex  5.06 ,  7.6 ,  2 
+Vertex  8.03 ,  7.4 ,  2 
+Vertex  12.16 ,  6.47 ,  2 
+Vertex  15.81 ,  4.52 ,  2 
+Vertex  17.05 ,  3.27 ,  2 
+Vertex  17.05 ,  0.67 ,  2 
+Vertex  5.06 ,  7.6 ,  7
+Vertex  8.03 ,  7.4 ,  7
+Vertex  12.16 ,  6.47 , 7 
+Vertex  15.81 ,  4.52 , 7 
+Vertex  17.05 ,  3.27 , 7 
+Vertex  17.05 ,  0.67 , 7 
+Face 7, 6, 0, 1
+Face 8, 7, 1, 2
+Face 9, 8, 2, 3
+Face 10, 9, 3, 4
+Face 11, 10, 4, 5
+Color 40,40,40
+Translate 0,-3,0
+
+;Shadow
+[MeshBuilder]
+Vertex -8.4 ,  2.7 ,  7
+Vertex -8.4 ,  2.7 ,  2 
+Vertex -3.7 ,  -0.145 ,  2 
+Vertex -3.8 ,  -0.145 ,  7
+Vertex  8.5 ,  -0.145 ,  7 
+Vertex  8.5 ,  -0.145 ,  2 
+Vertex  14.5,  3.5 ,  2 
+Vertex  14.5,  3.5 ,  7 
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Color  0,0,0,170

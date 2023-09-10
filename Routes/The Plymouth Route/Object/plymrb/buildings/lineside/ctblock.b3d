@@ -1,0 +1,181 @@
+;Description=Council Tower Block
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route. ©2013
+
+;Front
+[MeshBuilder]
+Vertex  12 ,  20 ,  10
+Vertex  12 ,  20 ,  0
+Vertex  12 ,  0 ,  0
+Vertex  12 ,  0 ,  10
+Vertex  12 ,  20 ,  25
+Vertex  12 ,  20 ,  15
+Vertex  12 ,  0 ,  15
+Vertex  12 ,  0 ,  25
+Face 0,1,2,3
+Face 4,5,6,7
+
+[Texture]
+Load  ctblock1.png
+Coordinates  0, 0, 0
+Coordinates  1, 1, 0
+Coordinates  2, 1, 4
+Coordinates  3, 0, 4
+Coordinates  4, 0, 0
+Coordinates  5, 1, 0
+Coordinates  6, 1, 4
+Coordinates  7, 0, 4
+
+[MeshBuilder]
+Vertex  21 ,  20 ,  25
+Vertex  21 ,  20 ,  0
+Vertex  21 ,  -4.6 ,  0
+Vertex  21 ,  -4.6 ,  25
+Face 3,2,1,0
+
+[Texture]
+Load  ctblock4.png
+Coordinates  0, 0, 0
+Coordinates  1, 1, 0
+Coordinates  2, 1, 1
+Coordinates  3, 0, 1
+
+;Roof
+[MeshBuilder]
+Vertex  21 ,  20 ,  25
+Vertex  21 ,  20 ,  0
+Vertex  12 ,  20 ,  0
+Vertex  12 ,  20 ,  25
+
+Vertex  12 ,  20 ,  15
+Vertex  12 ,  20 ,  10
+Vertex  9  ,  20 ,  10
+Vertex  9  ,  20 ,  15
+Face 0,1,2,3
+Face 4,5,6,7
+
+[Texture]
+Load ..\..\common\tarmac.png
+Coordinates  0, 0, 0
+Coordinates  1, 4, 0
+Coordinates  2, 4, 2
+Coordinates  3, 0, 2
+Coordinates  4, 0, 0
+Coordinates  5, 1, 0
+Coordinates  6, 1, 1
+Coordinates  7, 0, 1
+
+;Stairwell Sides
+[MeshBuilder]
+Vertex  12 ,  20 ,  15
+Vertex  9 ,  20 ,  15
+Vertex  9 ,  -4.6 ,  15
+Vertex  12 ,  -4.6 ,  15
+Vertex  12 ,  20 ,  10
+Vertex  9 ,  20 ,  10
+Vertex  9 ,  -4.6 ,  10
+Vertex  12 ,  -4.6 ,  10
+Vertex 9,0,10
+Vertex 9,0,15
+Vertex 9,-4.6,15
+Vertex 9,-4.6,10
+Face 0,1,2,3
+Face 7,6,5,4
+Face 11,10,9,8
+
+[Texture]
+Load  ..\..\common\grey.png
+Coordinates  0, 0, 0
+Coordinates  1, 4, 0
+Coordinates  2, 4, 16
+Coordinates  3, 0, 16
+Coordinates  4, 0, 0
+Coordinates  5, 4, 0
+Coordinates  6, 4, 16
+Coordinates  7, 0, 16
+Coordinates  8, 0, 0
+Coordinates  9, 4, 0
+Coordinates  10, 4, 4
+Coordinates  11, 0, 4
+
+;Retaining Wall
+[MeshBuilder]
+Vertex 12,-0.5,24.5
+Vertex 9.5,-0.5,15
+Vertex 9.5,-4.6,15
+Vertex 12,-4.6,24.5
+Face2 0,1,2,3
+
+[Texture]
+Load  ..\..\common\greystone1.png
+Coordinates  0, 0, 0
+Coordinates  1, 4, 0
+Coordinates  2, 4, 2
+Coordinates  3, 0, 2
+
+;Grass Top
+[MeshBuilder]
+Vertex 12,-0.5,24.5
+Vertex 9.5,-0.5,15
+Vertex 12,-0.5,15
+Face 2,1,0
+
+[Texture]
+Load  ..\..\common\grass6.png
+Coordinates  0, 0, 0
+Coordinates  1, 1, 0
+Coordinates  2, 1, 1
+
+;Stairwell Front
+[MeshBuilder]
+Vertex  9 ,  20 ,  15
+Vertex  9 ,  20 ,  10
+Vertex  9 ,  0 ,  10
+Vertex  9 ,  0 ,  15
+Face  0,1,2,3
+
+[Texture]
+Load  ctblock2.png
+Coordinates  0, 0, 0
+Coordinates  1, 1, 0
+Coordinates  2, 1, 4
+Coordinates  3, 0, 4
+
+;Ends
+[MeshBuilder]
+Vertex  21 ,  20 ,  0
+Vertex  12 ,  20 ,  0
+Vertex  12 ,  -4.6 ,  0
+Vertex  21 ,  -4.6 ,  0
+Vertex  21 ,  20 ,  25
+Vertex  12 ,  20 ,  25
+Vertex  12 ,  -4.6 ,  25
+Vertex  21 ,  -4.6 ,  25
+Face 3,2,1,0
+Face 4,5,6,7
+
+[Texture]
+Load  ctblock3.png
+Coordinates  0, 0, 0
+Coordinates  1, 1, 0
+Coordinates  2, 1, 1
+Coordinates  3, 0, 1
+Coordinates  4, 0, 0
+Coordinates  5, 1, 0
+Coordinates  6, 1, 1
+Coordinates  7, 0, 1
+
+;Front Brick Retaining
+[MeshBuilder]
+Vertex  12 ,  0 ,  0
+Vertex  12 ,  0 ,  25
+Vertex  12 ,  -4.6 ,  25
+Vertex  12 ,  -4.6 ,  0
+Face 3,2,1,0
+
+[Texture]
+Load  ..\..\common\redbrick3.png
+Coordinates  0, 0, 0
+Coordinates  1, 7, 0
+Coordinates  2, 7, 1.5
+Coordinates  3, 0, 1.5

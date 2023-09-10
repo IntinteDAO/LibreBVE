@@ -1,0 +1,368 @@
+;Description=Dockyard Station House Row R #1
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route. © 2013
+
+;Twiddly End
+[MeshBuilder]
+Vertex 0,2,8
+Vertex 0,9,8
+Vertex 0,9,0
+Vertex 0,2,0
+Face2 0,1,2,3
+
+[Texture]
+Load dsh_01.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Transparent 0,0,255
+
+;Twiddly End
+[MeshBuilder]
+Vertex 8,2,8
+Vertex 8,9,8
+Vertex 8,9,0
+Vertex 8,2,0
+Face2 0,1,2,3
+
+[Texture]
+Load dsh_01.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Transparent 0,0,255
+
+;Twiddly End 2
+[MeshBuilder]
+Vertex 0,2,-15
+Vertex 0,9,-15
+Vertex 0,9,-23
+Vertex 0,2,-23
+
+Vertex 8,2,-15
+Vertex 8,9,-15
+Vertex 8,9,-23
+Vertex 8,2,-23
+Face2 0,1,2,3
+Face2 4,5,6,7
+
+[Texture]
+Load dsh_02.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Coordinates  4,0,1
+Coordinates  5,0,0
+Coordinates  6,1,0
+Coordinates  7,1,1
+Transparent 0,0,255
+
+
+;Slate Roof Segment 1
+[MeshBuilder]
+Vertex 0,8.95,4.1
+Vertex 8,8.95,4.1
+Vertex 8,6.15,0
+Vertex 0,6.15,0
+Face 0,1,2,3
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates  3,0,2
+Coordinates  0,0,0
+Coordinates  1,4,0
+Coordinates  2,4,2
+
+;Slate Roof Segment 2
+[MeshBuilder]
+Vertex 8,6.15,-23
+Vertex 0,6.15,-23
+Vertex 0,8.90,-18.8
+Vertex 8,8.90,-18.8
+Vertex 8,6.15,-15
+Vertex 0,6.15,-15
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates  0,0,0
+Coordinates  1,4,0
+Coordinates  2,4,2
+Coordinates  3,0,2
+Coordinates  4,0,0
+Coordinates  5,4,0
+
+;Flat Roof Segment
+[MeshBuilder]
+Vertex 0,6.35,8
+Vertex 8,6.35,8
+Vertex 8,6.35,4
+Vertex 0,6.35,4
+Face 0,1,2,3
+
+[Texture]
+Load ..\..\common\tarmac.png
+Coordinates  3,0,2
+Coordinates  0,0,0
+Coordinates  1,4,0
+Coordinates  2,4,2
+
+;Vertical Wall Segment
+[MeshBuilder]
+Vertex 0,6.35,4.1
+Vertex 0,8.95,4.1
+Vertex 8,8.95,4.1
+Vertex 8,6.35,4.1
+Face 3,2,1,0
+
+[Texture]
+Load dsh_03.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,2,0
+Coordinates  3,2,1
+Transparent 0,0,255
+
+;Front
+[MeshBuilder]
+Vertex 0,6.15,0
+Vertex 8,6.15,0
+Vertex 8,2,0
+Vertex 0,2,0
+Face 0,1,2,3
+
+[Texture]
+Load dsh_04.png
+Coordinates  3,0,1
+Coordinates  0,0,0
+Coordinates  1,2,0
+Coordinates  2,2,1
+
+;Front 2
+[MeshBuilder]
+Vertex 0,6.25,-15
+Vertex 8,6.25,-15
+Vertex 8,2,-15
+Vertex 0,2,-15
+Face 3,2,1,0
+
+[Texture]
+Load dsh_04.png
+Coordinates  3,0,1
+Coordinates  0,0,0
+Coordinates  1,2,0
+Coordinates  2,2,1
+
+;Back
+[MeshBuilder]
+Vertex 0,6.35,8
+Vertex 8,6.35,8
+Vertex 8,2,8
+Vertex 0,2,8
+Face 3,2,1,0
+
+[Texture]
+Load dsh_04.png
+Coordinates  3,0,1
+Coordinates  0,0,0
+Coordinates  1,2,0
+Coordinates  2,2,1
+
+;Back 2
+[MeshBuilder]
+Vertex 0,6.35,-23
+Vertex 8,6.35,-23
+Vertex 8,2,-23
+Vertex 0,2,-23
+Face 0,1,2,3
+
+[Texture]
+Load dsh_04.png
+Coordinates  3,0,1
+Coordinates  0,0,0
+Coordinates  1,2,0
+Coordinates  2,2,1
+
+;Houses Grass Base
+[MeshBuilder]
+Vertex 40,2,-21
+Vertex 0,2,-21
+Vertex 0,2,15
+Vertex 40,2,15
+Vertex 40,1.5,18
+Vertex 0,1.5,19
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\..\common\grass6.png
+Coordinates  0,4,0
+Coordinates  1,4,8
+Coordinates  2,0,8
+Coordinates  3,0,0
+Coordinates  4,1,0
+Coordinates  5,1,8
+
+;Garden Wall
+[MeshBuilder]
+Vertex 0,3,0
+Vertex 0,2,0
+Vertex 0,2,-5.7
+Vertex 0,3,-5.7
+Vertex 4,3,0
+Vertex 4,2,0
+Vertex 4,2,-5.7
+Vertex 4,3,-5.7
+Vertex 1.5,3,-5.7
+Vertex 1.5,2,-5.7
+Vertex 5.5,2,-5.7
+Vertex 5.5,3,-5.7
+Vertex 7.7,3,-5.7
+Vertex 7.7,2,-5.7
+Face2 0,1,2,3
+Face2 4,5,6,7
+Face2 9,8,7,6
+Face2 10,11,12,13
+
+[Texture]
+Load terrace1_3.png
+Coordinates  0,0,-1
+Coordinates  1,0,0
+Coordinates  2,4,0
+Coordinates  3,4,-1
+Coordinates  4,0,-1
+Coordinates  5,0,0
+Coordinates  6,4,0
+Coordinates  7,4,-1
+Coordinates  8,2,-1
+Coordinates  9,2,0
+Coordinates  10,0,1
+Coordinates  11,0,0
+Coordinates  12,2,0
+Coordinates  13,2,1
+
+
+;Garden Wall 2
+[MeshBuilder]
+Vertex 0,3,-15
+Vertex 0,2,-15
+Vertex 0,2,-9.4
+Vertex 0,3,-9.4
+Vertex 4,3,-15
+Vertex 4,2,-15
+Vertex 4,2,-9.4
+Vertex 4,3,-9.4
+Vertex 1.5,3,-9.4
+Vertex 1.5,2,-9.4
+Vertex 5.5,2,-9.4
+Vertex 5.5,3,-9.4
+Vertex 7.7,3,-9.4
+Vertex 7.7,2,-9.4
+Face2 0,1,2,3
+Face2 4,5,6,7
+Face2 9,8,7,6
+Face2 10,11,12,13
+
+[Texture]
+Load terrace1_3.png
+Coordinates  0,0,-1
+Coordinates  1,0,0
+Coordinates  2,4,0
+Coordinates  3,4,-1
+Coordinates  4,0,-1
+Coordinates  5,0,0
+Coordinates  6,4,0
+Coordinates  7,4,-1
+Coordinates  8,2,-1
+Coordinates  9,2,0
+Coordinates  10,0,1
+Coordinates  11,0,0
+Coordinates  12,2,0
+Coordinates  13,2,1
+
+
+;Gates
+[MeshBuilder]
+Vertex 0,2,-5.7
+Vertex 0,3,-5.7
+Vertex 1.5,3,-5.7
+Vertex 1.5,2,-5.7
+Vertex 4,2,-5.7
+Vertex 4,3,-5.7
+Vertex 5.5,3,-5.7
+Vertex 5.5,2,-5.7
+Face2 0,1,2,3
+Face2 4,5,6,7
+
+[Texture]
+Load gate_w.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Coordinates  4,0,1
+Coordinates  5,0,0
+Coordinates  6,1,0
+Coordinates  7,1,1
+Transparent 0,0,255
+
+;Gates
+[MeshBuilder]
+Vertex 0,2,-9.4
+Vertex 0,3,-9.4
+Vertex 1.5,3,-9.4
+Vertex 1.5,2,-9.4
+Vertex 4,2,-9.4
+Vertex 4,3,-9.4
+Vertex 5.5,3,-9.4
+Vertex 5.5,2,-9.4
+Face2 0,1,2,3
+Face2 4,5,6,7
+
+[Texture]
+Load gate_w.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Coordinates  4,0,1
+Coordinates  5,0,0
+Coordinates  6,1,0
+Coordinates  7,1,1
+Transparent 0,0,255
+
+;Concrete to join with railway
+[MeshBuilder]
+Vertex -5,-1,-21
+Vertex 0,2,-21
+Vertex 0,2,-12
+Vertex -5,-1,-12
+Vertex -4,-1,0
+Vertex  0,2,0
+Vertex  0,2,15
+Vertex -4,-1,15
+Vertex  0,-1,19
+Vertex  0,1.5,19
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,8,9
+
+[Texture]
+Load ..\..\common\concrete1.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Coordinates  4,0,1
+Coordinates  5,0,0
+Coordinates  6,1,0
+Coordinates  7,1,1
+Coordinates  8,0,1
+Coordinates  9,0,0
+
+

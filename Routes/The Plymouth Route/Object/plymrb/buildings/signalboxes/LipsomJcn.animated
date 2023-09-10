@@ -1,0 +1,8 @@
+[Object]
+states = LairaJunction.b3d
+Position = -5,0,0
+RotateYFunction = 3.14159
+
+[Object]
+states = nameboards\lipsom.b3d
+Position = -5,0,0

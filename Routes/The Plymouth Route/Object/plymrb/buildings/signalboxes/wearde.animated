@@ -1,0 +1,6 @@
+[Object]
+states = Keyham.b3d
+
+[Object]
+states = nameboards\wearde.b3d
+RotateYFunction = 3.14159

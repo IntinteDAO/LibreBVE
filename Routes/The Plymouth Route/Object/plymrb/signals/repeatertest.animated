@@ -1,0 +1,3 @@
+[Object]
+States = platformindicator_b.b3d , platformindicator_3.b3d
+StateFunction = if[trackdistance > 0, if[section >=2,1,0], if[trackdistance <100,if[section >=2,1,0],0]]

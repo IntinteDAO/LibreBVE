@@ -1,0 +1,131 @@
+;description=GWR Wrought Iron Pagoda
+;author=Christopher Lees
+;copyright= © Christopher Lees, 2009. Found in the BVE Cornwall Plymouth route.
+
+
+;Pagoda front
+[MeshBuilder]
+Vertex -2 ,  0 , -1.7 
+Vertex -2 ,  1.9 , -1.7 
+Vertex  4 ,  1.9 , -1.7 
+Vertex  4 ,  0 , -1.7 
+Face2   0,1,2,3
+
+
+[Texture]
+Load  pagoda1.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Transparent   0,0,255
+
+;Pagoda side 1
+[MeshBuilder]
+Vertex  3.925 ,  0 ,  1.7 
+Vertex  3.925 ,  1.85 ,  1.7 
+Vertex  3.925 ,  1.9 , -1.7 
+Vertex  3.925 ,  0 , -1.7 
+Face2   3,2,1,0
+
+[Texture]
+Load  pagoda2.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+
+;Pagoda back
+[MeshBuilder]
+Vertex -1.925 ,  0 ,  1.7 
+Vertex -1.925 ,  1.9 ,  1.7 
+Vertex  3.925 ,  1.9 ,  1.7 
+Vertex  3.925 ,  0 ,  1.7 
+Face2   3,2,1,0
+
+[Texture]
+Load  pagoda2.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,-2,0
+Coordinates  3,-2,1
+
+;Pagoda side 2
+[MeshBuilder]
+Vertex -1.925 ,  0 ,  1.7 
+Vertex -1.925 ,  1.9 ,  1.7 
+Vertex -1.925 ,  1.9 , -1.7 
+Vertex -1.925 ,  0 , -1.7 
+Face2   0,1,2,3
+
+[Texture]
+Load  pagoda2.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Transparent   0,0,0
+
+;Pagoda roof side 1
+[MeshBuilder]
+Vertex -1.025 ,  3.45 ,  0 
+Vertex -2.025 ,  1.8 , -1.85 
+Vertex  4.025 ,  1.8 , -1.85 
+Vertex  3.025 ,  3.45 ,  0 
+Face2   3,2,1,0
+
+
+[Texture]
+Load  pagoda3.png
+Coordinates  0,0,1.15
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1.15
+
+;Pagoda roof side 2
+[MeshBuilder]
+Vertex -1.025 ,  3.45 ,  0 
+Vertex -2.025 ,  1.8 ,  1.85 
+Vertex  4.025 ,  1.8 ,  1.85 
+Vertex  3.025 ,  3.45 ,  0 
+Face2   0,1,2,3
+
+
+[Texture]
+Load  pagoda3.png
+Coordinates  0,0,1.15
+Coordinates  1,0,0
+Coordinates  2,-1,0
+Coordinates  3,-1,1.15
+
+;Pagoda roof side 3
+[MeshBuilder]
+Vertex -2.025 ,  1.8 ,  1.85 
+Vertex -1.025 ,  3.45 ,  0 
+Vertex -1.025 ,  3.45 ,  0 
+Vertex -2.025 ,  1.8 , -1.85 
+Face2   0,1,2,3
+
+
+[Texture]
+Load  pagoda3.png
+Coordinates  0,0,1.15
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1.15
+
+;Pagoda roof side 4
+[MeshBuilder]
+Vertex  4.025 ,  1.8 ,  1.85 
+Vertex  3.025 ,  3.45 ,  0 
+Vertex  3.025 ,  3.45 ,  0 
+Vertex  4.025 ,  1.8 , -1.85 
+Face2   3,2,1,0
+
+
+[Texture]
+Load  pagoda3.png
+Coordinates  0,0,1.15
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1.15

@@ -1,0 +1,165 @@
+;Description=B3D reimplementation of the GWR 21ft signalpost from BR Sema4Sigs with mods
+
+[MeshBuilder]
+Vertex -0.065,6.635,0.0,
+Vertex 0.065,6.635,0.0,
+Vertex 0.065,1.955,0.0,
+Vertex  -0.065,1.955,0.0,
+Face2 0,1,2,3
+ 
+[Texture]
+Load  post.png
+Coordinates  3,0,1
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+
+[MeshBuilder]
+Vertex 0,6.635,-0.065,
+Vertex 0,6.635,0.065,
+Vertex 0,1.955,0.065,
+Vertex 0,1.955,-0.065,
+Face2 0,1,2,3
+ 
+[Texture]
+Load  post.png
+Coordinates  3,0,1
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+
+[MeshBuilder]
+Vertex -0.09,7.1,0.0,
+Vertex  0.1,7.1,0.0,
+Vertex 0.1,6.631,0.0,
+Vertex  -0.09,6.631,0.0,
+Face2 0,1,2,3
+
+[Texture]
+Load  redfinal.png
+Coordinates  3,0,1
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Transparent 0,0,0
+
+[MeshBuilder]
+Vertex 0,7.1,-0.09,
+Vertex 0,7.1,0.1,
+Vertex 0,6.631,0.1,
+Vertex 0,6.631,-0.09,
+Face2 0,1,2,3
+
+[Texture]
+Load  redfinal.png
+Coordinates  3,0,1
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Transparent 0,0,0
+
+[MeshBuilder]
+Vertex -0.2,6.0,0.4,
+Vertex 0.2,6.0,0.4,
+Vertex 0.2,6.0,0.00001,
+Vertex -0.2,6.0,0.00001,
+Vertex -0.2,5.95,0.4,
+Vertex 0.2,5.95,0.4,
+Vertex 0.2,5.95,0.00001,
+Vertex -0.2,5.95,0.00001,
+Face 0,1,2,3
+Face 7,6,5,4
+Face 4,5,1,0
+Face 6,7,3,2
+Face 2,1,5,6
+Face 0,3,7,4
+
+[Texture]
+Load  ..\common\wood1.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Coordinates  3,0,1
+Coordinates  4,0,0
+Coordinates  5,1,0
+Coordinates  6,1,1
+Coordinates  7,0,1
+
+[MeshBuilder]
+Vertex -0.065,1.955,0.0,
+Vertex 0.065,1.955,0.0,
+Vertex 0.084,-0.15,0.0,
+Vertex -0.084,-0.15,0.0,
+Vertex -0.148,-0.2,0.0,
+Vertex 0.148,-0.2,0.0,
+Vertex 0.148,-1.0,0.0,
+Vertex -0.148,-1.0,0.0,
+Vertex -0.084,-0.15,0.0,
+Vertex 0.084,-0.15,0.0,
+Vertex 0.148,-0.2,0.0,
+Vertex -0.148,-0.2,0.0,
+Face2 0,1,2,3
+Face2 4,5,6,7
+Face2 8,9,10,11
+
+[Texture]
+Load post4.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Coordinates  3,0,1
+Coordinates  4,0,0
+Coordinates  5,1,0
+Coordinates  6,1,1
+Coordinates  7,0,1
+Coordinates  8,0,0
+Coordinates  9,1,0
+Coordinates  10,1,1
+Coordinates  11,0,1
+
+[MeshBuilder]
+Vertex 0,1.955,-0.065,
+Vertex 0,1.955,0.065,
+Vertex 0,-0.15,0.084,
+Vertex 0,-0.15,-0.0,84
+Vertex 0,-0.2,-0.148,
+Vertex 0,-0.2,0.148,
+Vertex 0,-1.0,0.148,
+Vertex 0,-1.0,-0.148,
+Vertex 0,-0.15,-0.084,
+Vertex 0,-0.15,0.084,
+Vertex 0,-0.2,0.148,
+Vertex 0,-0.2,-0.148,
+Face2 0,1,2,3
+Face2 4,5,6,7
+Face2 8,9,10,11
+
+[Texture]
+Load post4.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Coordinates  3,0,1
+Coordinates  4,0,0
+Coordinates  5,1,0
+Coordinates  6,1,1
+Coordinates  7,0,1
+Coordinates  8,0,0
+Coordinates  9,1,0
+Coordinates  10,1,1
+Coordinates  11,0,1
+
+[MeshBuilder]
+Vertex -0.065,5.95,0.4,
+Vertex 0.065,5.95,0.4,
+Vertex 0.065,-1.15,0.7,
+Vertex -0.065,-1.15,0.7,
+Face2 0,1,2,3
+
+[Texture]
+Load rung.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,20
+Coordinates  3,0,20
+Transparent 0,0,0

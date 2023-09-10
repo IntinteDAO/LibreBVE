@@ -1,0 +1,316 @@
+;Description=Leyland Leopard Coach Plymouth CityCoach 1980s livery
+;From the BVE Cornwall Plymouth Route
+;Model by Graham Mace (graymac)
+;Textures by Christopher Lees
+
+[meshbuilder]
+vertex  1.14,  3.1, 0.2,1,0.5,0
+vertex  1.14,  3.1, 10.8,1,0.5,0
+vertex  1.21,  2.45, 0.2,1,0,0
+vertex  1.21,  2.45, 10.8,1,0,0
+vertex  1.25,  1.8, 0.2,1,0,0
+vertex  1.25,  1.8, 10.8,1,0,0
+vertex  1.25,  0.33, 0.2,1,-0.5,0
+vertex  1.25,  0.33, 10.8,1,-0.5,0
+face 0,1,3,2
+face 2,3,5,4
+face 4,5,7,6
+[texture]
+load cc_side-left.png
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 0, 0.254
+coordinates 3, 1, 0.254
+coordinates 4, 0, 0.470
+coordinates 5, 1, 0.470
+coordinates 6, 0, 1
+coordinates 7, 1, 1
+transparent  0,0,0,
+
+[meshbuilder]
+vertex  -1.14,  3.1, 0.2,-1,0.5,0
+vertex  -1.14,  3.1, 10.8,-1,0.5,0
+vertex  -1.21,  2.45, 0.2,-1,0,0
+vertex  -1.21,  2.45, 10.8,-1,0,0
+vertex  -1.25,  1.8, 0.2,-1,0,0
+vertex  -1.25,  1.8, 10.8,-1,0,0
+vertex  -1.25,  0.33, 0.2,-1,-0.5,0
+vertex  -1.25,  0.33, 10.8,-1,-0.5,0
+face 2,3,1,0
+face 4,5,3,2
+face 6,7,5,4
+[texture]
+load cc_side-right.png
+coordinates 0, 1, 0
+coordinates 1, 0, 0
+coordinates 2, 1, 0.254
+coordinates 3, 0, 0.254
+coordinates 4, 1, 0.470
+coordinates 5, 0, 0.470
+coordinates 6, 1, 1
+coordinates 7, 0, 1
+transparent  0,0,0,
+
+[meshbuilder]
+vertex  -1.14,  3.1, 0.2,-1,0.5,0
+vertex  -1.21,  2.45, 0.2-1,0,0
+vertex  -1.25,  1.8, 0.2-1,0,0
+vertex  -1.25,  0.45, 0.2-1,-0.5,0
+vertex  -1.06,  3.1, 0.18,-0.5,0,0.5
+vertex  -1.08,  2.45, 0.06,-0.5,0,0.5
+vertex  -1.10,  1.8, 0,-0.5,0,0.5
+vertex  -1.10,  0.45, 0,-0.5,0,0.5
+vertex  0,  3.1, 0.18
+vertex  0,  2.45, 0.06
+vertex  0,  1.8, 0
+vertex  0,  0.45, 0
+vertex  1.06,  3.1, 0.18,0.5,0,0.5
+vertex  1.08,  2.45, 0.06,0.5,0,0.5
+vertex  1.10,  1.8, 0,0.5,0,0.5
+vertex  1.10,  0.45, 0,0.5,0,0.5
+vertex  1.14,  3.1, 0.2,1,0.5,0
+vertex  1.21,  2.45, 0.2,1,0,0
+vertex  1.25,  1.8, 0.2,1,0,0
+vertex  1.25,  0.45, 0.2,1,-0.5,0
+face 0,4,5,1
+face 4,8,9,5
+face 8,12,13,9
+face 12,16,17,13
+face 1,5,6,2
+face 5,9,10,6
+face 9,13,14,10
+face 13,17,18,14
+face 2,6,7,3
+face 6,10,11,7
+face 10,14,15,11
+face 14,18,19,15
+[texture]
+load cc_front.png
+coordinates 0,0.1,0
+coordinates 1,0.02,0.27
+coordinates 2,0,0.45
+coordinates 3,0,1
+coordinates 4,0.13,0
+coordinates 5,0.11,0.27
+coordinates 6,0.05,0.45
+coordinates 7,0.05,1
+coordinates 8,0.5,0
+coordinates 9,0.5,0.27
+coordinates 10,0.5,0.45
+coordinates 11,0.5,1
+coordinates 12,0.87,0
+coordinates 13,0.89,0.27
+coordinates 14,0.95,0.45
+coordinates 15,0.95,1
+coordinates 16,0.91,0
+coordinates 17,0.99,0.27
+coordinates 18,1,0.45
+coordinates 19,1,1
+
+[meshbuilder]
+vertex  1.14,  3.1, 10.8,1,0.5,0
+vertex  1.21,  2.45, 10.8,1,0,0
+vertex  1.25,  1.8, 10.8,1,0,0
+vertex  1.25,  0.58, 10.8,1,-0.5,0
+vertex  1.06,  3.1, 10.82,-0.5,0,-0.5
+vertex  1.08,  2.45, 10.94,-0.5,0,-0.5
+vertex  1.10,  1.8,11,-0.5,0,-0.5
+vertex  1.10,  0.58, 11,-0.5,0,-0.5
+vertex  0,  3.1, 10.82
+vertex  0,  2.45, 10.94
+vertex  0,  1.8,11
+vertex  0,  0.58, 11
+vertex  -1.06,  3.1, 10.82,0.5,0,-0.5
+vertex  -1.08,  2.45, 10.94,0.5,0,-0.5
+vertex  -1.10,  1.8, 11,0.5,0,-0.5
+vertex  -1.10,  0.58, 11,0.5,0,-0.5
+vertex  -1.14,  3.1, 10.8,-1,0.5,0
+vertex  -1.21,  2.45, 10.8,-1,0,0
+vertex  -1.25,  1.8, 10.8,-1,0,0
+vertex  -1.25,  0.58, 10.8,-1,-0.5,0
+face 0,4,5,1
+face 4,8,9,5
+face 8,12,13,9
+face 12,16,17,13
+face 1,5,6,2
+face 5,9,10,6
+face 9,13,14,10
+face 13,17,18,14
+face 2,6,7,3
+face 6,10,11,7
+face 10,14,15,11
+face 14,18,19,15
+[texture]
+load cc_back.png
+coordinates 0,0.05,0
+coordinates 1,0.0,0.27
+coordinates 2,0,0.45
+coordinates 3,0,1
+coordinates 4,0.13,0
+coordinates 5,0.13,0.27
+coordinates 6,0.07,0.45
+coordinates 7,0.07,1
+coordinates 8,0.5,0
+coordinates 9,0.5,0.27
+coordinates 10,0.5,0.45
+coordinates 11,0.5,1
+coordinates 12,0.87,0
+coordinates 13,0.87,0.27
+coordinates 14,0.93,0.45
+coordinates 15,0.93,1
+coordinates 16,0.93,0
+coordinates 17,1,0.27
+coordinates 18,1,0.45
+coordinates 19,1,1
+
+[meshbuilder]
+vertex  1.14,  3.1, 0.2,1,0.5,0
+vertex  1.14,  3.1, 10.8,1,0.5,0
+vertex  1.06,  3.2, 0.16
+vertex  1.06,  3.2, 10.74
+vertex  0,  3.28, 0.14
+vertex  0,  3.28, 10.76
+vertex  -1.06,  3.2, 0.16
+vertex  -1.06,  3.2, 10.74
+vertex  -1.14,  3.1, 0.2,1,0.5,0
+vertex  -1.14,  3.1, 10.8,1,0.5,0
+vertex  1.06,  3.1, 0.18
+vertex   0, 3.1, 0.18
+vertex  -1.06,  3.1, 0.18
+vertex  1.06,  3.1, 10.82
+vertex  0, 3.1, 10.82
+vertex  -1.06,  3.1, 10.82
+face 2,3,1,0
+face 4,5,3,2
+face 6,7,5,4
+face 8,9,7,6
+face 0,10,2
+face 10,11,4,2
+face 11,12,6,4
+face 12,8,6
+face 1,3,13
+face 3,5,14,13
+face 5,7,15,14
+face 7,9,15
+color 173,174,160
+
+[meshBuilder]
+vertex -0.78,1.8,0
+vertex -0.78,1.8,8.4
+vertex -0.78,0.48,0
+vertex -0.78,0.48,8.4
+vertex 0.78,0.48,0
+vertex 0.78,0.48,8.4
+vertex 0.78,1.8,0
+vertex 0.78,1.8,8.4
+face 2,3,1,0
+face 4,5,3,2
+face 6,7,5,4
+color 70,64,50
+
+[meshBuilder]
+vertex  -1.25, 1.8,8.4
+vertex  1.25, 1.8,8.4
+vertex  -1.25, 0.38,8.4
+vertex  1.25, 0.38,8.4
+vertex  -1.25,  0.58, 10.8
+vertex  1.25,  0.58, 10.8
+vertex  -1.25,  0.8, 10.8
+vertex  1.25,  0.8, 10.8
+face 0,1,3,2
+face 2,3,5,4
+face 4,5,7,6
+color 70,64,50
+
+[meshbuilder]
+vertex -1.24, 0.002, 9.6
+vertex 1.24, 0.002, 9.6
+vertex -1.24, 0.002, 0.5
+vertex 1.24, 0.002, 0.5
+face 0,1,3,2
+color 0,0,0,50
+
+;;;back wheels,
+
+[meshBuilder]
+cylinder 20,0.5,0.5,0.44
+color 34,36,38,
+rotate 0,0,90,90
+translate 0.99,0.5,7.72
+
+
+
+[meshBuilder]
+cylinder 20,0.5,0.5,0.44
+color 34,36,38,
+rotate 0,0,90,90
+translate -0.99,0.5,7.72
+
+
+
+;;;;front wheels,
+
+[meshBuilder]
+cylinder 20,0.5,0.5,0.22
+color 34,36,38,
+rotate 0,0,90,90
+translate -1.10,0.5,2.13
+
+[meshbuilder]
+vertex -1.22, 1, 1.57
+vertex -1.22, 1, 2.57
+vertex -1.22, 0, 1.57
+vertex -1.22, 0, 2.57
+
+vertex 1.22, 1, 1.57
+vertex 1.22, 1, 2.57
+vertex 1.22, 0, 1.57
+vertex 1.22, 0, 2.57
+Face 0,2,3,1
+Face 5,7,6,4
+
+[texture]
+load cc_wheel1.png
+coordinates 0, 1, 0
+coordinates 1, 0, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+
+coordinates 4, 1, 0
+coordinates 5, 0, 0
+coordinates 6, 1, 1
+coordinates 7, 0, 1
+transparent 0, 0, 0
+
+[meshbuilder]
+vertex -1.22, 1, 7.17
+vertex -1.22, 1, 8.17
+vertex -1.22, 0, 7.17
+vertex -1.22, 0, 8.17
+
+vertex 1.22, 1, 7.17
+vertex 1.22, 1, 8.17
+vertex 1.22, 0, 7.17
+vertex 1.22, 0, 8.17
+Face 0,2,3,1
+Face 5,7,6,4
+
+[texture]
+load cc_wheel2.png
+coordinates 0, 1, 0
+coordinates 1, 0, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+
+coordinates 4, 1, 0
+coordinates 5, 0, 0
+coordinates 6, 1, 1
+coordinates 7, 0, 1
+transparent 0, 0, 0
+
+
+[meshBuilder]
+cylinder 20,0.5,0.5,0.22
+color 34,36,38,
+rotate 0,0,90,90
+translate 1.10,0.5,2.13

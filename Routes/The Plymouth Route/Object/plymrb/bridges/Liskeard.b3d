@@ -1,0 +1,1653 @@
+;Description=Liskeard Station Overbridge
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route. © 2016
+
+;Front Face
+[MeshBuilder]
+Vertex -15.8 ,  2.15 ,  2 
+Vertex -15.8 ,  8.95 ,  2 
+Vertex  22.6 ,  8.95 ,  2 
+Vertex  22.6 ,  2.15 ,  2 
+Vertex -15.8 ,  2.15 ,  10
+Vertex -15.8 ,  8.95 ,  10
+Vertex  22.6 ,  8.95 ,  10
+Vertex  22.6 ,  2.15 ,  10
+Face2 0,1,2,3
+Face2 4,5,6,7
+
+[Texture]
+Load dvpt_01.png
+Coordinates 0, -0.2, 1
+Coordinates 1, -0.2, 0
+Coordinates 2, 1.15, 0
+Coordinates 3, 1.15, 1
+Coordinates 4, -0.2, 1
+Coordinates 5, -0.2, 0
+Coordinates 6, 1.15, 0
+Coordinates 7, 1.15, 1
+Transparent 0, 0, 255
+
+;Inside Walls
+[MeshBuilder]
+Vertex  5.06 ,  6.6 ,  2 
+Vertex  0.119 ,  6.4 ,  2 
+Vertex -4.741 ,  5.47 ,  2 
+Vertex -9.223 ,  3.52 ,  2 
+Vertex -9.52 ,  2.27 ,  2 
+Vertex -9.52 ,  0.67 ,  2 
+Vertex  5.06 ,  6.6 ,  10 
+Vertex  0.119 ,  6.4 ,  10 
+Vertex -4.201 ,  5.47 ,  10 
+Vertex -8.98 ,  3.52 ,  10 
+Vertex -9.52 ,  2.27 ,  10 
+Vertex -9.52 ,  0.67 ,  10 
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+Color 40,40,40
+
+;More Inside Walls
+[MeshBuilder]
+Vertex  2.9 ,  6.6 ,  2 
+Vertex  8.03 ,  6.4 ,  2 
+Vertex  13.16 ,  5.47 ,  2 
+Vertex  17.21 ,  3.52 ,  2 
+Vertex  17.75 ,  2.27 ,  2 
+Vertex  17.75 ,  0.67 ,  2 
+Vertex  2.9 ,  6.6 ,  10 
+Vertex  8.03 ,  6.4 ,  10 
+Vertex  13.16 ,  5.47 ,  10 
+Vertex  17.21 ,  3.52 ,  10 
+Vertex  17.75 ,  2.27 ,  10 
+Vertex  17.75 ,  0.67 ,  10 
+Face 7, 6, 0, 1
+Face 8, 7, 1, 2
+Face 9, 8, 2, 3
+Face 10, 9, 3, 4
+Face 11, 10, 4, 5
+Color 40,40,40
+
+;Shadow
+[MeshBuilder]
+Vertex -10.6 ,  3.845 ,  10
+Vertex -10.6 ,  3.845 ,  2
+Vertex -7 ,  -0.145 ,  2 
+Vertex -7 ,  -0.145 ,  10 
+Vertex  7.8 ,  -0.145 ,  10 
+Vertex  7.8 ,  -0.145 ,  2 
+Vertex  14.4 ,  4.945 ,  2 
+Vertex  14.4 ,  4.945 ,  10 
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Color  0,0,0,170
+
+;Pavement
+[MeshBuilder]
+Vertex -120.7 ,  7.95 ,  3
+Vertex -120.7 ,  7.95 ,  2 
+Vertex  27 ,  7.95 ,  2
+Vertex  30 ,  7.95 ,  3
+Vertex  30 ,  7.85 ,  -23
+Vertex  27 ,  7.85 ,  -23
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0, 1, 50
+Coordinates 1, 0, 50
+Coordinates 2, 0, 1
+Coordinates 3, 1, 0
+Coordinates 4, 1, 10
+Coordinates 5, 0, 10
+
+;Another Wall
+[MeshBuilder]
+Vertex -120.7 ,  7.8 ,  2 
+Vertex -15.8 ,  7.8 ,  2
+Vertex -15.8 ,  8.95 ,  2
+Vertex -120.7 ,  8.95 ,  2 
+Vertex -120.7 ,  8.95 ,  1.8
+Vertex -15.8 ,  8.95 ,  1.8
+Vertex -15.8 ,  7.8 ,  1.8
+Vertex -120.7 ,  7.8 ,  1.8
+Face 6,5,2,1
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+
+[Texture]
+Load ..\common\fence_16.png
+Coordinates 0, 15, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0.05
+Coordinates 3, 15, 0.05
+Coordinates 4, 15, 0
+Coordinates 5, 0, 0
+Coordinates 6, 0, 1
+Coordinates 7, 15, 1
+
+;Railway Boundary Fence
+[MeshBuilder]
+Vertex -15.8 ,  7.8 ,  2
+Vertex -15.8 ,  9.95 ,  2
+Vertex -13.8 ,  8.75 ,  -27
+Vertex -13.8 ,  6.6 ,  -27
+Face2 0,1,2,3
+
+[Texture]
+Load ..\common\fence_14.png
+Coordinates 3, 5, 1
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 5, 0
+Transparent 0,0,255
+
+;Pavement
+[MeshBuilder]
+Vertex -120.6 ,  7.95 ,  9 
+Vertex  22.6 ,  7.95 ,  9
+Vertex  22.6 ,  7.95 ,  10
+Vertex -120.6 ,  7.85 ,  10
+Face 3,2,1,0
+
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0, 0, 50
+Coordinates 1, 0, 0
+Coordinates 2, -1, 0
+Coordinates 3, -1, 50
+
+;Station Canopy Roadside
+[MeshBuilder]
+Vertex  27 ,  10.8 ,  2
+Vertex  27 ,  10.4 ,  2
+Vertex  29 ,  10.4 ,  2
+Vertex  29 ,  10.8 ,  2
+Vertex  29 ,  10.8 ,  -23
+Vertex  29 ,  10.4 ,  -23
+Vertex  27 ,  10.4 ,  -23
+Vertex  27 ,  10.8 ,  -23
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 4,5,6,7
+
+[Texture]
+Load ..\buildings\stations\brick\canopy_1.png
+Coordinates 0, 10, 0
+Coordinates 1, 10, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Coordinates 4, 100, 0
+Coordinates 5, 100, 1
+Coordinates 6, 90, 1
+Coordinates 7, 90, 0
+Transparent 0,0,0
+
+;Canopy Roof IS
+[MeshBuilder]
+Vertex  27 ,  10.8 ,  2
+Vertex  29 ,  10.8 ,  2
+Vertex  29 ,  10.8 ,  -23
+Vertex  27 ,  10.8 ,  -23
+Face 3,2,1,0
+
+[Texture]
+Load ..\buildings\stations\brick\canopy_2.png
+Coordinates 0, 20, 0
+Coordinates 1, 20, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+;Canopy Roof OS
+[MeshBuilder]
+Vertex  27 ,  10.8 ,  2
+Vertex  29 ,  10.8 ,  2
+Vertex  29 ,  10.8 ,  -23
+Vertex  27 ,  10.8 ,  -23
+Face 0,1,2,3
+
+[Texture]
+Load ..\common\tarmac.png
+Coordinates 0, 4, 0
+Coordinates 1, 4, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+;Station Building Front & Rear
+[MeshBuilder]
+Vertex  27 ,  7.85 ,  2
+Vertex  27 ,  11 ,  2
+Vertex  27 ,  11 ,  -23
+Vertex  27 ,  7.85 ,  -23
+
+Vertex  23 ,  7.85 ,  1.595
+Vertex  23 ,  11 ,  1.595
+Vertex  23 ,  11 ,  -23
+Vertex  23 ,  7.85 ,  -23
+Face 3,2,1,0
+Face 4,5,6,7
+
+[Texture]
+Load ..\buildings\stations\brick\lsk_02.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, -1, 0
+Coordinates 3, -1, 1
+Coordinates 4, 0, 1
+Coordinates 5, 0, 0
+Coordinates 6, -1, 0
+Coordinates 7, -1, 1
+
+;Station Building Ends
+[MeshBuilder]
+Vertex  27 ,  7.85 ,  2
+Vertex  27 ,  11 ,  2
+Vertex  25 ,  12 ,  1.995
+Vertex  25 ,  7.85 , 1.995
+Vertex  23 ,  7.85 , 1.995
+Vertex  23 ,  11 ,  1.995
+Vertex  20 ,  11 ,  1.995
+Vertex  20 ,  7.85 , 1.995
+
+Vertex  20 ,  7.85 , 1.595
+Vertex  20 ,  11 ,  1.595
+Vertex  20 ,  7.85 , 1.595
+Vertex  20 ,  11 ,  1.595
+Vertex  23 ,  11 ,  1.595
+Vertex  23 ,  7.85 , 1.595
+;;End 2
+Vertex  27 ,  7.85 ,  -23
+Vertex  27 ,  11 ,  -23
+Vertex  25 ,  12 ,  -23
+Vertex  25 ,  7.85 , -23
+Vertex  23 ,  7.85 , -23
+Vertex  23 ,  11 ,  -23
+Vertex  20 ,  11 ,  -23
+
+Face 17,16,15,14
+Face 16,17,18,19
+
+Face 12,11,6,5
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+Face 10,11,12,13
+
+
+[Texture]
+Load ..\buildings\stations\brick\lsk_01.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.3
+Coordinates 2, 0.26, 0.05
+Coordinates 3, 0.26, 1
+Coordinates 4, 0.535, 1
+Coordinates 5, 0.535, 0.27
+Coordinates 6, 1, 0.27
+Coordinates 7, 1, 1
+Coordinates 8, 1, 1
+Coordinates 9, 1, 0.27
+Coordinates 10, 0.535, 1
+Coordinates 11, 0.535, 0.27
+Coordinates 12, 1, 0.27
+Coordinates 13, 1, 1
+
+Coordinates 14, 0, 1
+Coordinates 15, 0, 0.3
+Coordinates 16, 0.26, 0.05
+Coordinates 17, 0.26, 1
+Coordinates 18, 0.535, 1
+Coordinates 19, 0.535, 0.27
+
+;Station Building Roof
+[MeshBuilder]
+Vertex  27 ,  11 ,  -23
+Vertex  27 ,  11 ,  2
+Vertex  25 ,  12 ,  1.995
+Vertex  25 ,  12 ,  -23
+Vertex  23 ,  11 ,  -23
+Vertex  23 ,  11 ,  1.995
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load ..\common\slates.png
+Coordinates 0, 7, 2
+Coordinates 1, 0, 2
+Coordinates 2, 0, 0
+Coordinates 3, 7, 0
+Coordinates 4, 7, 2
+Coordinates 5, 0, 2
+
+[MeshBuilder]
+Cylinder 8,0.1,0.1,24.98
+Rotate 1,0,0,90
+
+Translate 25,11.95,-10.5 
+[Texture]
+Load ..\common\rooftiles1.png,,
+Coordinates 0,0,0
+Coordinates 1,0,25
+Coordinates 2,0.1,0
+Coordinates 3,0.1,25
+Coordinates 4,0.2,0
+Coordinates 5,0.2,25
+Coordinates 6,0.3,0
+Coordinates 7,0.3,25
+Coordinates 8,0.4,0
+Coordinates 9,0.4,25
+Coordinates 10,0.5,0
+Coordinates 11,0.5,25
+Coordinates 12,0.5,0
+Coordinates 13,0.5,25
+Coordinates 14,0.6,0
+Coordinates 15,0.6,25
+
+[MeshBuilder]
+Vertex  23 ,  7.855 ,  1.595
+Vertex  23 ,  7.855 ,  -23
+Vertex  20 ,  7.855 ,  -23
+Vertex  20 ,  7.855 ,  1.595
+;P2
+Vertex  20 ,  7.855 ,  -17
+Vertex  20 ,  7.855 ,  -20
+Vertex  17 ,  6.655 ,  -20
+Vertex  17 ,  6.655 ,  -17
+Vertex  -14 ,  6.655 ,  -27
+Vertex  -14 ,  6.655 ,  -30
+;;P3
+Vertex  -17 ,  6.655 ,  -30
+Vertex  -14 ,  6.655 ,  -30
+Vertex  -6.5 ,  1.1 ,  -60
+Vertex  -9.5 ,  1.1 ,  -60
+Vertex  -9.5 ,  1.1 ,  -63
+Vertex  -6.5 ,  1.1 ,  -63
+;;P4
+Vertex  -13.8 ,  6.655 ,  -27
+Vertex  -10.8 ,  6.655 ,  -26
+Vertex  -4.8 ,  1.1 ,  -5
+Vertex  -8.1 ,  1.1 ,  -5
+;;
+Vertex  -17 ,  6.655 ,  -30
+Vertex  -17 ,  6.655 ,  -27
+;;P5
+Vertex  17 ,  6.655 ,  -20
+Vertex  14 ,  6.655 ,  -20.95
+Vertex  8 ,  1.1 ,  -50
+Vertex  11 ,  1.1 ,  -50
+Face 0,1,2,3
+Face 4,5,6,7
+Face 9,8,7,6
+Face 10,11,12,13
+Face 15,14,13,12
+
+Face 19,18,17,16
+Face 8,9,20,21
+Face 25,24,23,22
+[Texture]
+Load ..\common\tarmac.png
+Coordinates 0, 3, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0
+Coordinates 3, 3, 0
+Coordinates 4, 1, 1
+Coordinates 5, 0, 1
+Coordinates 6, 0, 0
+Coordinates 7, 1, 0
+Coordinates 8, 1, 5
+Coordinates 9, 0, 5
+Coordinates 10, 0, 0
+Coordinates 11, 1, 0
+Coordinates 12, 1, 6
+Coordinates 13, 0, 6
+Coordinates 14, 0, 5
+Coordinates 15, 1, 5
+Coordinates 16, 1, 4
+Coordinates 17, 0, 4
+Coordinates 18, 0, 0
+Coordinates 19, 1, 0
+Coordinates 20, 0, 6
+Coordinates 21, 1, 6
+
+Coordinates 22, 1, 6
+Coordinates 23, 0, 6
+Coordinates 24, 0, 0
+Coordinates 25, 1, 0
+
+[MeshBuilder]
+Vertex  17 ,  6.655 ,  -20.2
+Vertex  17 ,  6.655 ,  -16.8
+Vertex  -14 ,  6.655 ,  -26.8
+Vertex  -14 ,  6.655 ,  -30.2
+Face 0,1,2,3
+
+[Texture]
+Load ..\walls\grey_steel.png
+Coordinates 0, 1, 10
+Coordinates 1, 0, 10
+Coordinates 2, 0, 0
+Coordinates 3, 1, 0
+
+;Side Walls
+[MeshBuilder]
+Vertex  17 ,  6.655 ,  -17
+Vertex  -10.6 ,  6.655 ,  -26
+Vertex  -10.6 ,  7.655 ,  -26
+Vertex  17 ,  7.655 ,  -17
+Vertex  17 ,  7.655 ,  -16.8
+Vertex  -10.6 ,  7.655 ,  -25.8
+Vertex  -10.6 ,  6.655 ,  -25.8
+Vertex  17 ,  6.655 ,  -16.8
+;;2
+Vertex  13.8 ,  6.655 ,  -21
+Vertex  -14 ,  6.655 ,  -30
+Vertex  -14 ,  7.655 ,  -30
+Vertex  13.8 ,  7.655 ,  -21
+Vertex  13.8 ,  7.655 ,  -21.2
+Vertex  -14 ,  7.655 ,  -30.2
+Vertex  -14 ,  6.655 ,  -30.2
+Vertex  13.8 ,  6.655 ,  -21.2
+Face 15,12,11,8
+Face 6,5,2,1
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+
+Face 11,10,9,8
+Face 10,11,12,13
+Face 15,14,13,12
+
+[Texture]
+Load ..\common\bridge_steel3.png
+Coordinates 0, 8, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0.05
+Coordinates 3, 8, 0.05
+Coordinates 4, 8, 0
+Coordinates 5, 0, 0
+Coordinates 6, 0, 1
+Coordinates 7, 8, 1
+Coordinates 8, 8, 1
+Coordinates 9, 0, 1
+Coordinates 10, 0, 0.05
+Coordinates 11, 8, 0.05
+Coordinates 12, 8, 0
+Coordinates 13, 0, 0
+Coordinates 14, 0, 1
+Coordinates 15, 8, 1
+;Wall
+[MeshBuilder]
+Vertex  14 ,  6.655 ,  -20.95
+Vertex  8 ,  1.1 ,  -50
+Vertex  8 ,  2.1 ,  -50
+Vertex  14 ,  7.655 ,  -20.95
+Vertex  13.8 ,  7.655 ,  -20.95
+Vertex  7.8 ,  2.1 ,  -50
+Vertex  7.8 ,  1.1 ,  -50
+Vertex  13.8 ,  6.655 ,  -20.95
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 0,3,4,7
+Face 6,5,2,1
+
+[Texture]
+Load ..\common\fence_16.png
+Coordinates 0, 8, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0.05
+Coordinates 3, 8, 0.05
+Coordinates 4, 8, 0
+Coordinates 5, 0, 0
+Coordinates 6, 0, 1
+Coordinates 7, 8, 1
+
+;Infill
+[MeshBuilder]
+Vertex  7.8 ,  1.1 ,  -50 ,-1,1,0
+Vertex  13.8 ,  6.655 ,  -20.95 ,-1,1,0
+Vertex  11 ,  1.1 ,  -20.95 ,-1,1,0
+Vertex  16 ,  1.1 ,  -15.95 ,-1,1,0
+Vertex  18 ,  6.655 ,  -15.95 ,-1,1,0
+Face 2,1,0
+Face 1,2,3,4
+
+[Texture]
+Load ..\common\rock2.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0.5
+Coordinates 4, 1, 0.5
+;Wall Again
+[MeshBuilder]
+Vertex  -10.8 ,  6.655 ,  -26
+Vertex  -4.8 ,  1.1 ,  -5
+Vertex  -4.8 ,  2.1 ,  -5
+Vertex  -10.8 ,  7.655 ,  -26
+Vertex  -10.6 ,  7.655 ,  -26
+Vertex  -4.6 ,  2.1 ,  -5
+Vertex  -4.6 ,  1.1 ,  -5
+Vertex  -10.6 ,  6.655 ,  -26
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 0,3,4,7
+Face 6,5,2,1
+[Texture]
+Load ..\common\fence_16.png
+Coordinates 0, 8, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0.05
+Coordinates 3, 8, 0.05
+Coordinates 4, 8, 0
+Coordinates 5, 0, 0
+Coordinates 6, 0, 1
+Coordinates 7, 8, 1
+
+;Rock
+[MeshBuilder]
+Vertex  -4.6 ,  1.1 ,  -5
+Vertex  -10.6 ,  6.655 ,  -26
+Vertex  -5.6 ,  1.1 ,  -26
+Vertex  -10 ,  1.1 ,  -35
+Vertex  -14 ,  6.655 ,  -30
+Face 2,1,0
+Face 1,2,3,4
+
+[Texture]
+Load ..\common\rock2.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Coordinates 4, 1, 0
+;Wall
+[MeshBuilder]
+Vertex  -14 ,  6.655 ,  -30
+Vertex  -6.5 ,  1.1 ,  -60
+Vertex  -6.5 ,  2.1 ,  -60
+Vertex  -14 ,  7.655 ,  -30
+Vertex  -13.8 ,  7.655 ,  -30
+Vertex  -6.3 ,  2.1 ,  -60
+Vertex  -6.3 ,  0.9 ,  -60
+Vertex  -13.8 ,  6.455 ,  -30
+Face 7,4,3,0
+Face 1,2,5,6
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[Texture]
+Load ..\common\fence_16.png
+Coordinates 0, 8, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0.05
+Coordinates 3, 8, 0.05
+Coordinates 4, 8, 0
+Coordinates 5, 0, 0
+Coordinates 6, 0, 1
+Coordinates 7, 8, 1
+
+;Wall
+[MeshBuilder]
+Vertex  -6.5 ,  1.1 ,  -63
+Vertex  -9.5 ,  1.1 ,  -63
+Vertex  -9.5 ,  2.1 ,  -63
+Vertex  -6.5 ,  2.1 ,  -63
+Vertex  -6.5 ,  2.1 ,  -63.2
+Vertex  -9.7 ,  2.1 ,  -63.2
+Vertex  -9.7 ,  1.1 ,  -63.2
+Vertex  -6.5 ,  1.1 ,  -63.2
+;P2
+Vertex  -9.5 ,  1.1 ,  -60
+Vertex  -9.5 ,  2.1 ,  -60
+Vertex  -9.7 ,  2.1 ,  -60
+Vertex  -9.7 ,  1.1 ,  -60
+;P3
+Vertex  -17 ,  6.55 ,  -30
+Vertex  -17 ,  7.55 ,  -30
+Vertex  -17.2 ,  7.55 ,  -30
+Vertex  -17.2 ,  6.55 ,  -30
+;P4
+Vertex  -17 ,  6.55 ,  -27.2
+Vertex  -17 ,  7.55 ,  -27.2
+Vertex  -17.2 ,  7.55 ,  -27
+Vertex  -17.2 ,  6.55 ,  -27
+;P5
+Vertex  -13.8 ,  6.55 ,  -27.2
+Vertex  -13.8 ,  7.55 ,  -27.2
+Vertex  -13.8 ,  7.55 ,  -27
+Vertex  -13.8 ,  6.55 ,  -27
+Face 7,4,3,0
+Face 20,21,22,23
+Face 16,17,21,20
+Face 17,18,22,21
+Face 18,19,23,22
+
+Face 12,13,17,16
+Face 13,14,18,17
+Face 14,15,19,18
+
+Face 8,9,13,12
+Face 9,10,14,13
+Face 10,11,15,14
+
+Face 1,2,9,8
+Face 2,5,10,9
+Face 5,6,11,10
+
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[Texture]
+Load ..\common\fence_16.png
+Coordinates 0, 1, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0.05
+Coordinates 3, 1, 0.05
+Coordinates 4, 1, 0
+Coordinates 5, 0, 0
+Coordinates 6, 0, 1
+Coordinates 7, 1, 1
+
+Coordinates 8, 1, 1
+Coordinates 9, 1, 0.05
+Coordinates 10, 1, 0
+Coordinates 11, 1, 1
+
+Coordinates 12, 9, 1
+Coordinates 13, 9, 0.05
+Coordinates 14, 9, 0
+Coordinates 15, 9, 1
+
+Coordinates 16, 8, 1
+Coordinates 17, 8, 0.05
+Coordinates 18, 8, 0
+Coordinates 19, 8, 1
+
+Coordinates 20, 7, 1
+Coordinates 21, 7, 0.05
+Coordinates 22, 7, 0
+Coordinates 23, 7, 1
+
+;Left Cutting Side
+[MeshBuilder]
+Vertex -5, -2.4, 26,
+Vertex -5, -2.4, -0.5,
+Vertex -14.5, 7.85, -0.5,
+Vertex -14.5, 7.85, 26,
+Vertex -19.5, 7.85, 26,
+Vertex -19.5, 7.85, -6.5,
+;P2
+Vertex -4, -2.4, -27,
+Vertex -14, 6.65, -27,
+Vertex -19.5, 6.65, -27,
+;P3
+Vertex -1, -2.4, -30,
+Vertex -14, 6.65, -30,
+Vertex -19.5, 6.65, -30,
+;P4
+Vertex -1, -2.4, -60,
+Vertex -6.5, 1.095, -60,
+Vertex -19.5, 1.095, -60,
+;P5
+Vertex -1, -2.4, -66,
+Vertex -6.5, 1.095, -66,
+Vertex -19.5, 1.095, -66,
+;P6
+Vertex -1, -2.4, -76,
+Vertex -6.5, -0.5, -76,
+Vertex -19.5, -0.5, -76,
+Face 18,19,16,15
+Face 19,20,17,16
+Face 15,16,13,12
+Face 16,17,14,13
+Face 12,13,10,9
+Face 13,14,11,10
+Face 9,10,7,6
+Face 10,11,8,7
+Face 7,8,5,2
+Face 6,7,2,1
+Face 0,1,2,3,
+Face 5,4,3,2
+
+[Texture]
+Load ..\common\rock4.png,
+Coordinates 0, 3, 1,
+Coordinates 1, 0, 1,
+Coordinates 2, 0, 0,
+Coordinates 3, 3, 0,
+Coordinates 4, 3, 0.15,
+Coordinates 5, 0, 0.15,
+Coordinates 6, 1, 1,
+Coordinates 7, 1, 0,
+Coordinates 8, 1, 0.15,
+Coordinates 9, 0.7, 1,
+Coordinates 10, 0.7, 0,
+Coordinates 11, 0.7, 0.15,
+Coordinates 12, 4, 1,
+Coordinates 13, 4, 0,
+Coordinates 14, 4, 0.15,
+Coordinates 15, 3, 1,
+Coordinates 16, 3, 0,
+Coordinates 17, 3, 0.15,
+Coordinates 18, 2, 1,
+Coordinates 19, 2, 0,
+Coordinates 20, 2, 0.15,
+
+;Grass
+[MeshBuilder]
+Vertex -19.5, -0.5, -76,
+Vertex -120, -0.5, -76,
+Vertex -120, 1.095, -66,
+Vertex -19.5, 1.095, -66,
+Vertex -19.5, 1.095, -60,
+Vertex -120, 1.095, -60,
+Vertex -120, 6.65, -30,
+Vertex -19.5, 6.65, -30,
+Vertex -19.5, 6.65, -27,
+Vertex -120, 6.65, -27,
+Vertex -120, 7.85, -6.5,
+Vertex -19.5, 7.85, -6.5,
+Vertex -19.5, 7.85, 26,
+Vertex -120, 7.85, 26,
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+Face 8,9,10,11
+Face 13,12,11,10
+
+[Texture]
+Load ..\common\grass6.png,
+Coordinates 0, 3, 0,
+Coordinates 1, 0, 0,
+Coordinates 2, 0, 1,
+Coordinates 3, 3, 1,
+Coordinates 4, 3, 0.5,
+Coordinates 5, 0, 0.5,
+Coordinates 6, 0, 2.5,
+Coordinates 7, 3, 2.5,
+Coordinates 8, 3, 2,
+Coordinates 9, 0, 2,
+Coordinates 10, 0, 0.5,
+Coordinates 11, 3, 0.5,
+Coordinates 12, 3, 3,
+Coordinates 13, 0, 3,
+
+;Garden Fence
+[MeshBuilder]
+Vertex -12, 1.3, -110,
+Vertex -12, -0.3, -110,
+Vertex -35, -0.3, -110,
+Vertex -35, 1.3, -110,
+Vertex -35, 1.3, -90,
+Vertex -35, -0.3, -90,
+Vertex -9.7, 2.395, -62,
+Vertex -9.7, 1.095, -62,
+Vertex -30, 1.095, -66,
+Vertex -30, 2.395, -66,
+Vertex -30, 3, -57,
+Vertex -30, 1.095, -57,
+Vertex -120, 1.095, -57,
+Vertex -120, 3, -57,
+Face 0,1,2,3
+Face 5,4,3,2
+Face 6,7,8,9
+Face 11,10,9,8
+Face 10,11,12,13
+
+[Texture]
+Load ..\buildings\lineside\wooden_fence1.png
+Coordinates 0, 0, 0,
+Coordinates 1, 0, 1,
+Coordinates 2, 4, 1,
+Coordinates 3, 4, 0,
+Coordinates 4, 0, 0,
+Coordinates 5, 0, 1,
+Coordinates 6, 0, 0,
+Coordinates 7, 0, 1,
+Coordinates 8, 4, 1,
+Coordinates 9, 4, 0,
+Coordinates 10, 2, 0,
+Coordinates 11, 2, 1,
+Coordinates 12, 15, 1,
+Coordinates 13, 15, 0,
+
+;Garden Fence
+[MeshBuilder]
+Vertex -12, 1.3, -110,
+Vertex -12, -0.3, -110,
+Vertex -35, -0.3, -110,
+Vertex -35, 1.3, -110,
+Vertex -35, 1.3, -90,
+Vertex -35, -0.3, -90,
+Vertex -9.7, 2.395, -62,
+Vertex -9.7, 1.095, -62,
+Vertex -30, 1.095, -66,
+Vertex -30, 2.395, -66,
+Vertex -30, 3, -57,
+Vertex -30, 1.095, -57,
+Vertex -120, 1.095, -57,
+Vertex -120, 3, -57,
+Face 3,2,1,0
+Face 2,3,4,5
+Face 9,8,7,6
+Face 8,9,10,11
+Face 13,12,11,10
+
+[Texture]
+Load ..\buildings\lineside\wooden_fence.png
+Coordinates 0, 0, 0,
+Coordinates 1, 0, 1,
+Coordinates 2, 4, 1,
+Coordinates 3, 4, 0,
+Coordinates 4, 0, 0,
+Coordinates 5, 0, 1,
+Coordinates 6, 0, 0,
+Coordinates 7, 0, 1,
+Coordinates 8, 4, 1,
+Coordinates 9, 4, 0,
+Coordinates 10, 2, 0,
+Coordinates 11, 2, 1,
+Coordinates 12, 15, 1,
+Coordinates 13, 15, 0,
+
+;Bungalow Road
+[MeshBuilder]
+Vertex -43, -0.39, -110,
+Vertex -39, -0.39, -110,
+Vertex -39, -0.39, -76,
+Vertex -43, -0.39, -76,
+Vertex -43, 1.1, -66,
+Vertex -39, 1.1, -66,
+Vertex -39, 1.1, -60,
+Vertex -43, 1.1, -64,
+Vertex -120, 1.1, -64,
+Vertex -120, 1.1, -60,
+Vertex -30, 3, -57,
+Vertex -30, 1.095, -57,
+Vertex -120, 1.095, -57,
+Vertex -120, 3, -57,
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,8,9
+
+[Texture]
+Load ..\common\road13.png
+Coordinates 0, 0, 3,
+Coordinates 1, 1, 3,
+Coordinates 2, 1, 0,
+Coordinates 3, 0, 0,
+Coordinates 4, 0, 1,
+Coordinates 5, 1, 1,
+Coordinates 6, 1, -1,
+Coordinates 7, 0, 0,
+Coordinates 8, 0, 9,
+Coordinates 9, 1, 10,
+
+;Hedge
+[MeshBuilder]
+Vertex -35.05, -0.3, -109.5,
+Vertex -120, -0.3, -109.5,
+Vertex -120, 1.3, -110,
+Vertex -35.05, 1.3, -110,
+Vertex -35.05, 1.3, -110.2,
+Vertex -120, 1.3, -110.2,
+Vertex -120, -0.3, -110.7,
+Vertex -35.05, -0.3, -110.7,
+Face 7,4,3,0
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[Texture]
+Load ..\plants\hedge.png
+Coordinates 0, 0, 1
+Coordinates 1, 10, 1
+Coordinates 2, 10, 0
+Coordinates 3, 0, 0
+Coordinates 4, 0, 0.05
+Coordinates 5, 10, 0.05
+Coordinates 6, 10, 1
+Coordinates 7, 0, 1
+
+;Twiddle
+[MeshBuilder]
+Vertex -39, -0.39, -76,
+Vertex -39, 1.1, -66,
+Vertex -32.5, 1.25, -65,
+Vertex -33, -0.34, -75,
+Face 0,1,2,3
+
+[Texture]
+Load ..\common\concrete1.png
+Coordinates 0, 0, 0,
+Coordinates 1, 0, 1,
+Coordinates 2, 1, 1,
+Coordinates 3, 1, 0,
+
+;Security Fence
+[MeshBuilder]
+Vertex -12, -0.3, -110,
+Vertex -12, 2.3, -110,
+Vertex -9.7, 2.3, -76,
+Vertex -9.7, -0.3, -76,
+Vertex -9.695, 1.095, -66,
+Vertex -9.695, 3.695, -66,
+Vertex -9.695, 3.695, -62,
+Vertex -9.695, 1.095, -62,
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 4,5,6,7
+
+
+[Texture]
+Load ..\common\fence_14.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, 8, 0,
+Coordinates 3, 8, 1,
+Coordinates 4, 6, 1,
+Coordinates 5, 6, 0,
+Coordinates 6, 5, 0,
+Coordinates 7, 5, 1,
+Transparent 0,0,255
+
+;Wall
+[MeshBuilder]
+Vertex  20 ,  7.855 ,  -17
+Vertex  20 ,  7.855 ,  1.995
+Vertex  20 ,  8.855 ,  1.995
+Vertex  20 ,  8.855 ,  -17
+Vertex  19.8 ,  8.855 ,  -16.8
+Vertex  19.8 ,  8.855 ,  1.995
+Vertex  19.8 ,  7.355 ,  1.995
+Vertex  19.8 ,  7.355 ,  -16.8
+;Segment 2
+Vertex  17 ,  8.055 ,  -16.8
+Vertex  17 ,  6.555 ,  -16.8
+Vertex  17 ,  8.055 ,  -17
+Vertex  17 ,  6.655 ,  -17
+
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 8,9,7,4
+Face 11,10,3,0
+Face 10,8,4,3
+Face 10,11,9,8
+
+
+[Texture]
+Load ..\common\fence_16.png
+Coordinates 0, 4, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0.05
+Coordinates 3, 4, 0.05
+Coordinates 4, 4, 0
+Coordinates 5, 0, 0
+Coordinates 6, 0, 1
+Coordinates 7, 4, 1
+Coordinates 8, 3, 0
+Coordinates 9, 3, 1
+Coordinates 10, 3, 0
+Coordinates 11, 3, 1
+
+
+[MeshBuilder]
+Vertex  20 ,  7.855 ,  -19.8
+Vertex  20 ,  7.855 ,  -23
+Vertex  20 ,  8.855 ,  -23
+Vertex  20 ,  8.855 ,  -19.8
+Vertex  19.8 ,  8.855 ,  -20
+Vertex  19.8 ,  8.855 ,  -23.2
+Vertex  19.8 ,  6.9 , -23.2
+Vertex  19.8 ,  6.9 ,  -20
+;Segment 2
+Vertex  17 ,  8.055 ,  -20
+Vertex  17 ,  6.355 ,  -20
+Vertex  17 ,  8.055 ,  -19.8
+Vertex  17 ,  6.605 ,  -19.8
+;Segment 3
+Vertex  23 ,  7.855 ,  -23
+Vertex  23 ,  8.855 ,  -23
+Vertex  23 ,  8.855 ,  -23.2
+Vertex  23 ,  6.9 , -23.2
+Face 15,14,13,12
+Face 14,15,6,5
+Face 12,13,2,1
+Face 13,14,5,2
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 4,7,9,8
+Face 0,3,10,11
+Face 3,4,8,10
+Face 8,9,11,10
+
+
+[Texture]
+Load ..\common\fence_16.png
+Coordinates 0, 1, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0.05
+Coordinates 3, 1, 0.05
+Coordinates 4, 1, 0
+Coordinates 5, 0, 0
+Coordinates 6, 0, 1
+Coordinates 7, 1, 1
+Coordinates 8, 0, 0
+Coordinates 9, 0, 1
+Coordinates 10, 0, 0
+Coordinates 11, 0, 1
+
+Coordinates 12, 1, 1
+Coordinates 13, 1, 0.05
+Coordinates 14, 1, 0
+Coordinates 15, 1, 1
+
+;Roadway
+[MeshBuilder]
+Vertex  -120.6 ,  7.95 ,  3
+Vertex  -120.6 ,  7.95 ,  9
+Vertex  120.6 ,  7.95 ,  9
+Vertex  120.6 ,  7.95 ,  3
+Face 0,1,2,3
+
+[Texture]
+Load ..\tracks\road6.png
+Coordinates 0, 1, 30
+Coordinates 1, 0, 30
+Coordinates 2, 0, 0
+Coordinates 3, 1, 0
+
+;Joint to RD
+[MeshBuilder]
+Vertex 22,7.85,9
+Vertex 25,7.95,9
+Vertex 25,7.85,25.5
+Vertex 22,7.85,25.5
+Face 3,2,1,0
+
+[Texture]
+Load ..\common\road13.png
+Coordinates 0, 1, 3
+Coordinates 1, 0, 3
+Coordinates 2, 0, 0
+Coordinates 3, 1, 0
+
+;Fence
+[MeshBuilder]
+Vertex 25.5,7.85,25.5
+Vertex 25.5,8.85,25.5
+Vertex 25.5,8.95,9.5
+Vertex 25.5,7.95,9.5
+Vertex 35.5,7.95,9.5
+Vertex 35.5,8.95,9.5
+Vertex 35.5,8.95,10.5
+Vertex 35.5,7.95,10.5
+Face2 3,2,1,0
+Face2 5,4,3,2
+Face2 7,6,5,4
+[Texture]
+Load ..\common\fence_18.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 10, 0
+Coordinates 3, 10, 1
+Coordinates 4, 0, 1
+Coordinates 5, 0, 0
+Coordinates 6, 1, 0
+Coordinates 7, 1, 1
+Transparent 0,0,255
+
+;Grass Final
+[MeshBuilder]
+Vertex 25,7.95,9
+Vertex 120,7.95,9
+Vertex 120,7.85,25.5
+Vertex 25,7.85,25.5
+Face 3,2,1,0
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 5, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0
+Coordinates 3, 5, 0
+
+;Right Cutting Sides
+[MeshBuilder]
+Vertex 5, -2.4, 26,
+Vertex 5, -2.4, -6.5,
+Vertex 18.5, 7.85, -6.5,
+Vertex 18.5, 7.85, 26,
+Vertex 22, 7.85, 26,
+Vertex 22, 7.85, -23,
+
+Vertex 5, -11, -70,
+Vertex 10.5, 1, -70,
+Vertex 20, 3, -68,
+
+Vertex 20, 1.1, -100,
+Vertex 17.5, 1.095, -100,
+Vertex 20, 1.095, -110,
+Face 2,5,8,7
+Face 1,2,7,6
+Face 3,2,1,0
+Face 2,3,4,5
+
+Face 7,8,9,10
+Face 11,10,9
+
+[Texture]
+Load ..\common\rock4.png,
+
+Coordinates 0, 2, 1,
+Coordinates 1, 0, 1,
+Coordinates 2, 0, 0,
+Coordinates 3, 2, 0,
+Coordinates 4, 2, 0.15,
+Coordinates 5, 0, 0.15,
+
+Coordinates 6, 2, 1,
+Coordinates 7, 2, 0.5,
+Coordinates 8, 2, 0,
+Coordinates 9, 0, 0,
+Coordinates 10, 0, 0.2,
+Coordinates 11, 1, 0,
+
+;Infill
+[MeshBuilder]
+Vertex 22, 7.85, -23,
+Vertex 30, 7.85, -23,
+Vertex 20, 3, -68,
+Face 0,1,2
+
+[Texture]
+Load ..\common\concrete2.png,
+Coordinates 0, 1, 1.5,
+Coordinates 1, 0, 1.5,
+Coordinates 2, 0.5, 0,
+
+;Fence
+[MeshBuilder]
+Vertex 22, 7.85, -23,
+Vertex 22, 8.85, -23,
+Vertex 20, 4, -68,
+Vertex 20, 3, -68,
+Vertex 20, 1.1, -100,
+Vertex 20, 2.1, -100,
+Vertex 20, 2.1, -110,
+Vertex 20, 1.1, -110,
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 4,5,6,7
+
+[Texture]
+Load ..\common\fence_18.png,
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, 20, 0,
+Coordinates 3, 20, 1,
+Coordinates 4, 5, 1,
+Coordinates 5, 5, 0,
+Coordinates 6, 0, 0,
+Coordinates 7, 0, 1,
+Transparent 0,0,255
+
+;Road
+[MeshBuilder]
+Vertex 20, 3, -68,
+Vertex 30, 3, -68,
+Vertex 35, 7.85, -23,
+Vertex 30, 7.85, -23,
+Vertex 30, 7.85, -6.5,
+Vertex 35, 7.85, -6.5,
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load ..\tracks\road2.png
+Coordinates 0, 1, 3,
+Coordinates 1, 0, 3,
+Coordinates 2, 0, 0,
+Coordinates 3, 1, 0,
+Coordinates 4, 1, 1,
+Coordinates 5, 0, 1,
+;Junction
+[MeshBuilder]
+Vertex 35, 7.85, -6.5,
+Vertex 30, 7.85, -6.5,
+Vertex 30, 7.97, 3.2,
+Vertex 35, 7.97, 3.2,
+Vertex 35, 7.97, 3.7,
+Vertex 30, 7.97, 3.7,
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\tracks\road7.png
+Coordinates 0, 1, 0,
+Coordinates 1, 0, 0,
+Coordinates 2, 0, 0.91,
+Coordinates 3, 1, 0.91,
+Coordinates 4, 1, 1,
+Coordinates 5, 0, 1,
+
+[MeshBuilder]
+Vertex 31, 7.95, 3.2,
+Vertex 120, 7.95, 3.2,
+Vertex 120, 7.85, -6.5,
+Vertex 35, 7.85, -6.5,
+Vertex 35, 7.85, -23,
+Vertex 120, 7.85, -23,
+Vertex 120, 3, -68,
+Vertex 30, 3, -68,
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 0.5, 0,
+Coordinates 1, 0.5, 3,
+Coordinates 2, 0, 3,
+Coordinates 3, 0, 0,
+Coordinates 4, 1, 0,
+Coordinates 5, 1, 3,
+Coordinates 6, 3, 3,
+Coordinates 7, 3, 0,
+
+;Pavement
+[MeshBuilder]
+Vertex 120, 3.005, -68,
+Vertex 30, 3.005, -68,
+Vertex 30.3, 3.3, -65.5,
+Vertex 120, 3.3, -65.5,
+Face 0,1,2,3
+
+[Texture]
+Load ..\tracks\pavement.png
+coordinates 3, 0, 18
+coordinates 0, 1, 18
+coordinates 1, 1, 0
+coordinates 2, 0, 0
+
+[MeshBuilder]
+Vertex 31.3, 4.3, -55.5,
+Vertex 36, 4.3, -55.5,
+Vertex 36, 6, -55.5,
+Vertex 31.3, 6, -55.5,
+Vertex 31.7, 6, -55.1,
+Vertex 36, 6, -55.1,
+Vertex 36, 4.5, -55.1,
+Vertex 31.7, 4.5, -55.1,
+
+Vertex 35, 7.85, -23,
+Vertex 35, 9.55, -23,
+Vertex 35.4, 9.55, -23,
+Vertex 35.4, 7.85, -23,
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 8,9,3,0
+Face 9,10,4,3
+Face 10,11,7,4
+
+[Texture]
+Load ..\common\fence_16.png
+coordinates 0, 0, 1
+coordinates 1, 1, 1
+coordinates 2, 1, 0.05
+coordinates 3, 0, 0.05
+coordinates 4, 0, 0
+coordinates 5, 1, 0
+coordinates 6, 1, 1
+coordinates 7, 0, 1
+
+coordinates 8, 6, 1
+coordinates 9, 6, 0.05
+coordinates 10, 6, 0
+coordinates 11, 6, 1
+
+
+;House Extension
+[MeshBuilder]
+Vertex 35, 7.85, -23,
+Vertex 35, 10.5, -23,
+Vertex 35, 10.5, -15,
+Vertex 35, 7.85, -15,
+Vertex 43, 7.85, -15,
+Vertex 43, 10.5, -15,
+Vertex 43, 10.5, -23,
+Vertex 43, 7.85, -23,
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 0,1,6,7
+
+[Texture]
+Load ..\buildings\lineside\terrace4_2.png
+coordinates 0, 0.7, 0.5
+coordinates 1, 0.7, 0
+coordinates 2, -0.1, 0
+coordinates 3, -0.1, 0.5
+coordinates 4, 0.7, 0.5
+coordinates 5, 0.7, 0
+coordinates 6, 0, 0
+coordinates 7, 0, 0.5
+
+;Extension Roof
+[MeshBuilder]
+Vertex 35, 10.5, -23,
+Vertex 35, 10.5, -15,
+Vertex 43, 10.5, -15,
+Vertex 43, 10.5, -23,
+Face 0,1,2,3
+
+[Texture]
+Load ..\common\tarmac.png
+coordinates 3, 0, 1
+coordinates 0, 1, 1
+coordinates 1, 1, 0
+coordinates 2, 0, 0
+
+;Pavement
+[MeshBuilder]
+Vertex 37, 7.855, -15,
+Vertex 35, 7.855, -15,
+Vertex 35, 7.855, -6.5
+Vertex 37, 7.855, -6.5
+Vertex 37, 7.955, 1.1
+Vertex 35, 7.955, 3.1
+Vertex 120, 7.955, 3.1
+Vertex 120, 7.955, 1.1
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+[Texture]
+Load ..\tracks\pavement.png
+coordinates 0, 0, 3
+coordinates 1, 1, 3
+coordinates 2, 1, 0
+coordinates 3, 0, 0
+coordinates 4, 0, 8
+coordinates 5, 1, 8
+coordinates 6, 1, 30
+coordinates 7, 0, 30
+
+;House Front
+[MeshBuilder]
+Vertex 37, 13, -15,
+Vertex 37, 7.855, -15,
+Vertex 37, 7.855, -4,
+Vertex 37, 13, -4,
+Vertex 120, 13, -4,
+Vertex 120, 7.855, -4,
+
+;;Rear
+Vertex 37, 7.855, -15,
+Vertex 37, 13, -15,
+Vertex 50, 13, -15,
+Vertex 50, 7.855, -15,
+Vertex 50, 7.855, -11,
+Vertex 50, 13, -11,
+Vertex 120, 13, -11,
+Vertex 120, 7.855, -11,
+Face 0,1,2,3
+Face 5,4,3,2
+;Face 6,7,8,9
+Face 11,10,9,8
+Face 10,11,12,13
+[Texture]
+Load ..\buildings\lineside\terrace3_1.png
+coordinates 0, 1, 0
+coordinates 1, 1, 1
+coordinates 2, 0, 1
+coordinates 3, 0, 0
+coordinates 4, 6, 0
+coordinates 5, 6, 1
+coordinates 6, 0, 1
+coordinates 7, 0, 0
+coordinates 8, 1, 0
+coordinates 9, 1, 1
+coordinates 10, 1, 1
+coordinates 11, 1, 0
+coordinates 12, 6, 0
+coordinates 13, 6, 1
+
+[MeshBuilder]
+Vertex 37, 7.855, -15,
+Vertex 37, 13, -15,
+Vertex 43.5, 15, -15,
+Vertex 43.5, 7.855, -15,
+Vertex 50, 7.855, -15,
+Vertex 50, 13, -15,
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\buildings\lineside\terrace3_3.png
+coordinates 0, 1, 0.92
+coordinates 1, 1, 0.27
+coordinates 2, 0.5, 0
+coordinates 3, 0.5, 0.92
+coordinates 4, 0, 0.92
+coordinates 5, 0, 0.27
+
+;Roof
+[MeshBuilder]
+Vertex 120, 13, -4,
+Vertex 120, 15, -7.5,
+Vertex 43.5, 15, -7.5,
+Vertex 37, 13, -4,
+Vertex 37, 13, -15,
+Vertex 43.5, 15, -15,
+;;2
+Vertex 50, 13, -15,
+Vertex 50, 13, -11,
+Vertex 120, 13, -11,
+Face 0,1,2,3
+Face 5,4,3,2
+Face 7,6,5,2
+Face 8,7,2,1
+
+[Texture]
+Load ..\common\slates.png
+coordinates 0, 10, 0
+coordinates 1, 10, 1
+coordinates 2, 1, 1
+coordinates 3, 0, 0
+coordinates 4, 3, 0
+coordinates 5, 3, 1
+coordinates 6, 3.5, 0
+coordinates 7, 2, 0
+coordinates 8, 10, 0
+
+;Garden Walling
+[MeshBuilder]
+Vertex 37,7.855,-4
+Vertex 37,8.855,-4
+Vertex 37,8.855,1.1
+Vertex 37,7.855,1.1
+Vertex 44.5,7.855,1.1
+Vertex 44.5,8.855,1.1
+
+Vertex 46,7.855,-4
+Vertex 46,8.855,-4
+Vertex 46,8.855,1.1
+Vertex 46,7.855,1.1
+Vertex 58.5,7.855,1.1
+Vertex 58.5,8.855,1.1
+
+Vertex 60,7.855,-4
+Vertex 60,8.855,-4
+Vertex 60,8.855,1.1
+Vertex 60,7.855,1.1
+Vertex 72,7.855,1.1
+Vertex 72,8.855,1.1
+
+Vertex 73.5,7.855,-4
+Vertex 73.5,8.855,-4
+Vertex 73.5,8.855,1.1
+Vertex 73.5,7.855,1.1
+Vertex 86,7.855,1.1
+Vertex 86,8.855,1.1
+
+Vertex 87.5,7.855,-4
+Vertex 87.5,8.855,-4
+Vertex 87.5,8.855,1.1
+Vertex 87.5,7.855,1.1
+Vertex 100,7.855,1.1
+Vertex 100,8.855,1.1
+
+
+Vertex 101.5,7.855,-4
+Vertex 101.5,8.855,-4
+Vertex 101.5,8.855,1.1
+Vertex 101.5,7.855,1.1
+Vertex 113,7.855,1.1
+Vertex 113,8.855,1.1
+
+Vertex 114.5,7.855,-4
+Vertex 114.5,8.855,-4
+Vertex 114.5,8.855,1.1
+Vertex 114.5,7.855,1.1
+Vertex 120,7.855,1.1
+Vertex 120,8.855,1.1
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 6,7,8,9
+Face2 11,10,9,8
+Face2 12,13,14,15
+Face2 17,16,15,14
+
+Face2 18,19,20,21
+Face2 23,22,21,20
+
+Face2 24,25,26,27
+Face2 29,28,27,26
+
+Face2 30,31,32,33
+Face2 35,34,33,32
+
+Face2 36,37,38,39
+Face2 41,40,39,38
+[Texture]
+Load ..\buildings\lineside\terrace1_3.png
+coordinates 0, 5, 1
+coordinates 1, 5, 0
+coordinates 2, 0, 0
+coordinates 3, 0, 1
+coordinates 4, 5, 1
+coordinates 5, 5, 0
+coordinates 6, 5, 1
+coordinates 7, 5, 0
+coordinates 8, 0, 0
+coordinates 9, 0, 1
+coordinates 10, 5, 1
+coordinates 11, 5, 0
+coordinates 12, 5, 1
+coordinates 13, 5, 0
+coordinates 14, 0, 0
+coordinates 15, 0, 1
+coordinates 16, 5, 1
+coordinates 17, 5, 0
+coordinates 18, 5, 1
+coordinates 19, 5, 0
+coordinates 20, 0, 0
+coordinates 21, 0, 1
+coordinates 22, 5, 1
+coordinates 23, 5, 0
+coordinates 24, 5, 1
+coordinates 25, 5, 0
+coordinates 26, 0, 0
+coordinates 27, 0, 1
+coordinates 28, 5, 1
+coordinates 29, 5, 0
+coordinates 30, 5, 1
+coordinates 31, 5, 0
+coordinates 32, 0, 0
+coordinates 33, 0, 1
+coordinates 34, 5, 1
+coordinates 35, 5, 0
+coordinates 36, 5, 1
+coordinates 37, 5, 0
+coordinates 38, 0, 0
+coordinates 39, 0, 1
+coordinates 40, 5, 1
+coordinates 41, 5, 0
+
+;Garden Gates
+[MeshBuilder]
+Vertex 44.5,7.855,1.1
+Vertex 44.5,8.855,1.1
+Vertex 46,8.855,1.1
+Vertex 46,7.855,1.1
+
+Vertex 58.5,7.855,1.1
+Vertex 58.5,8.855,1.1
+Vertex 60,8.855,1.1
+Vertex 60,7.855,1.1
+
+Vertex 72,7.855,1.1
+Vertex 72,8.855,1.1
+Vertex 73.5,8.855,1.1
+Vertex 73.5,7.855,1.1
+
+Vertex 86,7.855,1.1
+Vertex 86,8.855,1.1
+Vertex 87.5,8.855,1.1
+Vertex 87.5,7.855,1.1
+
+Vertex 100,7.855,1.1
+Vertex 100,8.855,1.1
+Vertex 101.5,8.855,1.1
+Vertex 101.5,7.855,1.1
+
+Vertex 113,7.855,1.1
+Vertex 113,8.855,1.1
+Vertex 114.5,8.855,1.1
+Vertex 114.5,7.855,1.1
+Face2 0,1,2,3
+Face2 4,5,6,7
+Face2 8,9,10,11
+Face2 12,13,14,15
+Face2 16,17,18,19
+Face2 20,21,22,23
+[Texture]
+Load ..\buildings\lineside\gate_w.png
+coordinates 0, 1, 1
+coordinates 1, 1, 0
+coordinates 2, 0, 0
+coordinates 3, 0, 1
+coordinates 4, 1, 1
+coordinates 5, 1, 0
+coordinates 6, 0, 0
+coordinates 7, 0, 1
+coordinates 8, 1, 1
+coordinates 9, 1, 0
+coordinates 10, 0, 0
+coordinates 11, 0, 1
+coordinates 12, 1, 1
+coordinates 13, 1, 0
+coordinates 14, 0, 0
+coordinates 15, 0, 1
+coordinates 16, 1, 1
+coordinates 17, 1, 0
+coordinates 18, 0, 0
+coordinates 19, 0, 1
+coordinates 20, 1, 1
+coordinates 21, 1, 0
+coordinates 22, 0, 0
+coordinates 23, 0, 1
+Transparent 0,0,255

@@ -1,0 +1,27 @@
+[MeshBuilder]
+Vertex -1.9,-0.3,-3
+Vertex -1.9,-0.3,26
+Vertex -21,-0.3,26
+Vertex -21,-0.3,-3
+Vertex -42,-13,-9
+Vertex -41.9,-18,38
+
+Vertex -42,-13,-9
+Vertex 2,-15,-15
+Vertex 2,-0.3,-3
+Face 3,2,1,0
+Face 2,3,4,5
+
+Face 8,7,6,3
+
+[Texture]
+Load ..\common\grass6.png,,
+Coordinates 0,0,0
+Coordinates 1,0,2
+Coordinates 2,1,2
+Coordinates 3,1,0
+Coordinates 4,0,0
+Coordinates 5,0,2
+Coordinates 6,0,2
+Coordinates 7,1,1
+

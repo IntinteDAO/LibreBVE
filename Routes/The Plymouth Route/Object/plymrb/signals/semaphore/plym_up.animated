@@ -1,0 +1,15 @@
+[Object]
+states = ..\..\lqsigs\GWR_21.b3d
+Position = 0,0,0
+
+[Object]
+states = ..\..\lqsigs\homelq_arm.b3d
+Position = 0,6.39,0
+
+[Object]
+states = ..\..\lqsigs\distlq_arm.b3d
+Position = 0,5.6,0
+
+[Object]
+states = plym_upind.b3d
+Position = 0,4.9,0

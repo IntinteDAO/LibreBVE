@@ -1,0 +1,14 @@
+;Wagon
+[Object]
+States = Conflat_A_Baux.b3d
+Position = 0,0,0
+
+;Wheelset1
+[Object]
+States = wheelset_spk.b3d
+Position = 0,0.425,5.4
+
+;Wheelset2
+[Object]
+States = wheelset_spk.b3d
+Position = 0,0.425,2.35

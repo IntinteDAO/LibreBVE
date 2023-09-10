@@ -1,0 +1,25 @@
+[Object]
+states = gantry_4a.b3d
+Position = 0,0,0
+
+[Object]
+states = ..\..\lqsigs\homelq_arm.b3d
+Position = -5.2,6.6,-0.3
+
+[Object]
+states = ..\..\lqsigs\distlq_arm.b3d
+Position = -5.2,6.0,-0.3
+
+[Object]
+states = ..\..\lqsigs\homelq_arm.b3d
+Position = -3.2,6.2,-0.3
+
+[Object]
+states = ..\..\lqsigs\distlq_arm.b3d
+Position = -3.2,5.6,-0.3
+
+[Object]
+states = ..\..\lqsigs\homesm_arm.b3d
+Position = -1.4,5.6,-0.3
+
+

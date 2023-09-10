@@ -1,0 +1,27 @@
+[Object]
+States=DikeL_13.b3d
+Position=0,0,0
+
+[Object]
+States=..\..\buildings\lineside\detached_w1.b3d
+RotateYFunction = 1.57079633
+Position=-16,-1.8,12
+
+
+[Object]
+States=..\..\buildings\lineside\bungalowfence_l.b3d
+RotateZFunction=0.085
+Position=-3,-0.05,0.5
+
+[Object]
+States=..\..\buildings\lineside\dbgl.b3d
+RotateXFunction=0.09
+RotateYFunction = -1.70079633
+Position=-47,-4.6,20
+
+
+[Object]
+States=..\..\buildings\lineside\bungalowfence_l.b3d
+RotateXFunction=0.02
+RotateZFunction=0.10
+Position=-45,-3.3,0.5

@@ -1,0 +1,536 @@
+;Author=Richard Scott
+;Description=Lorry
+;Copyright=Used with permission.
+
+;lorry side
+[MeshBuilder]
+Vertex -2.8 ,  0 , -1.05 
+Vertex -2.8 ,  2.45 , -1.05 
+Vertex  2.8 ,  2.45 , -1.05 
+Vertex  2.8 ,  0 , -1.05 
+Face  0,1,2,3
+
+
+[Texture]
+Load  lorryside.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Transparent   0,0,0
+
+;lorry side inside
+[MeshBuilder]
+Vertex -2.8 ,  0 , -1.05 
+Vertex -2.8 ,  2.45 , -1.05 
+Vertex  2.8 ,  2.45 , -1.05 
+Vertex  2.8 ,  0 , -1.05 
+Face  3,2,1,0
+
+
+[Texture]
+Load  lorryside.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Transparent   0,0,0
+
+;lorry side 2
+[MeshBuilder]
+Vertex -2.8 ,  0 ,  1.05 
+Vertex -2.8 ,  2.45 ,  1.05 
+Vertex  2.8 ,  2.45 ,  1.05 
+Vertex  2.8 ,  0 ,  1.05 
+Face  3,2,1,0
+
+
+[Texture]
+Load  lorryside.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Transparent   0,0,0
+
+;lorry side 2 inside
+[MeshBuilder]
+Vertex -2.8 ,  0 ,  1.05 
+Vertex -2.8 ,  2.45 ,  1.05 
+Vertex  2.8 ,  2.45 ,  1.05 
+Vertex  2.8 ,  0 ,  1.05 
+Face  0,1,2,3
+
+
+[Texture]
+Load  lorryside.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Transparent   0,0,0
+
+
+;lorry cab roof
+[MeshBuilder]
+Vertex  0.98 ,  2.436 , -1.05 
+Vertex  2.38 ,  2.436 , -1.05 
+Vertex  2.38 ,  2.436 ,  1.05 
+Vertex  0.98 ,  2.436 ,  1.05 
+Face  3,2,1,0
+Color  132,0,0
+
+
+;Lorry window front
+[MeshBuilder]
+Vertex  2.8 ,  1.652 ,  1.05 
+Vertex  2.38 ,  2.436 ,  1.05 
+Vertex  2.38 ,  2.436 , -1.05 
+Vertex  2.8 ,  1.652 , -1.05 
+Face  3,2,1,0
+
+[Texture]
+Load  lwindow.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+
+
+;cab Front 
+[MeshBuilder]
+Vertex  2.793 ,  0.609 ,  1.05 
+Vertex  2.793 ,  1.652 ,  1.05 
+Vertex  2.793 ,  1.652 , -1.05 
+Vertex  2.793 ,  0.609 , -1.05 
+Face  3,2,1,0
+Color  132,0,0
+
+;cab radiator
+[MeshBuilder]
+Vertex  2.905 ,  0.49 ,  1.05 
+Vertex  2.905 ,  1.75 ,  1.05 
+Vertex  2.905 ,  1.75 , -1.05 
+Vertex  2.905 ,  0.49 , -1.05 
+Face  3,2,1,0
+
+[Texture]
+Load  cabrad.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+Transparent   0,0,0
+
+
+
+;steering wheel
+[MeshBuilder]
+Vertex  2.205 ,  0.525 ,  1.4 
+Vertex  2.205 ,  1.925 ,  1.4 
+Vertex  2.205 ,  1.925 , -1.4 
+Vertex  2.205 ,  0.525 , -1.4 
+Face  3,2,1,0
+
+[Texture]
+Load  whlmirror.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+Transparent   0,0,0
+
+;steering wheel inside
+[MeshBuilder]
+Vertex  2.205 ,  0.525 ,  1.4 
+Vertex  2.205 ,  1.925 ,  1.4 
+Vertex  2.205 ,  1.925 , -1.4 
+Vertex  2.205 ,  0.525 , -1.4 
+Face  0,1,2,3
+
+[Texture]
+Load  whlmirror.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+Transparent   0,0,0
+
+;cab back
+[MeshBuilder]
+Vertex  0.98 ,  0.7 ,  1.05 
+Vertex  0.98 ,  2.45 ,  1.05 
+Vertex  0.98 ,  2.45 , -1.05 
+Vertex  0.98 ,  0.7 , -1.05 
+Face  0,1,2,3
+Color  132,0,0
+
+
+;floor
+[MeshBuilder]
+Vertex -2.8 ,  1.12 , -1.05 
+Vertex  1.4 ,  1.12 , -1.05 
+Vertex  1.4 ,  1.12 ,  1.05 
+Vertex -2.8 ,  1.12 ,  1.05 
+Face  3,2,1,0
+
+[Texture]
+Load  floorbd.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+
+
+;lorry back inside
+[MeshBuilder]
+Vertex -2.8 ,  0 ,  1.05 
+Vertex -2.8 ,  2.45 ,  1.05 
+Vertex -2.8 ,  2.45 , -1.05 
+Vertex -2.8 ,  0 , -1.05 
+Face  3,2,1,0
+
+[Texture]
+Load  lback.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+Transparent   0,0,0
+
+;lorry back
+[MeshBuilder]
+Vertex -2.8 ,  0 ,  1.05 
+Vertex -2.8 ,  2.45 ,  1.05 
+Vertex -2.8 ,  2.45 , -1.05 
+Vertex -2.8 ,  0 , -1.05 
+Face  0,1,2,3
+
+[Texture]
+Load  lback.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+Transparent   0,0,0
+
+
+;lorry headboard
+[MeshBuilder]
+Vertex  0.84 ,  0.7 ,  1.05 
+Vertex  0.84 ,  2.59 ,  1.05 
+Vertex  0.84 ,  2.59 , -1.05 
+Vertex  0.84 ,  0.7 , -1.05 
+Face  0,1,2,3
+
+[Texture]
+Load  headbd.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+
+;lorry headboard inside
+[MeshBuilder]
+Vertex  0.84 ,  0.7 ,  1.05 
+Vertex  0.84 ,  2.59 ,  1.05 
+Vertex  0.84 ,  2.59 , -1.05 
+Vertex  0.84 ,  0.7 , -1.05 
+Face  3,2,1,0
+
+[Texture]
+Load  headbd.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+
+;---------------wheels and chassis--------------
+
+;chassis side
+[MeshBuilder]
+Vertex -2.8 ,  0.56 , -0.56 
+Vertex -2.8 ,  1.05 , -0.56 
+Vertex  2.8 ,  1.05 , -0.56 
+Vertex  2.8 ,  0.56 , -0.56 
+Face  0,1,2,3
+
+
+[Texture]
+Load  grey.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+
+;chassis side 2 inside
+[MeshBuilder]
+Vertex -2.8 ,  0.56 ,  0.56 
+Vertex -2.8 ,  1.05 ,  0.56 
+Vertex  2.8 ,  1.05 ,  0.56 
+Vertex  2.8 ,  0.56 ,  0.56 
+Face  0,1,2,3
+
+
+[Texture]
+Load  grey.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+
+;chassis side inside
+[MeshBuilder]
+Vertex -2.8 ,  0.56 , -0.56 
+Vertex -2.8 ,  1.05 , -0.56 
+Vertex  2.8 ,  1.05 , -0.56 
+Vertex  2.8 ,  0.56 , -0.56 
+Face  3,2,1,0
+
+
+[Texture]
+Load  grey.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+
+;chassis side 2
+[MeshBuilder]
+Vertex -2.8 ,  0.56 ,  0.56 
+Vertex -2.8 ,  1.05 ,  0.56 
+Vertex  2.8 ,  1.05 ,  0.56 
+Vertex  2.8 ,  0.56 ,  0.56 
+Face  3,2,1,0
+
+
+[Texture]
+Load  grey.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+
+;wheels
+[MeshBuilder]
+Vertex -2.8 ,  0 , -0.98 
+Vertex -2.8 ,  2.66 , -0.98 
+Vertex  2.8 ,  2.66 , -0.98 
+Vertex  2.8 ,  0 , -0.98 
+Face  0,1,2,3
+
+
+[Texture]
+Load  wheels.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Transparent   0,0,0
+
+;wheels2
+[MeshBuilder]
+Vertex -2.8 ,  0 ,  0.98 
+Vertex -2.8 ,  2.66 ,  0.98 
+Vertex  2.8 ,  2.66 ,  0.98 
+Vertex  2.8 ,  0 ,  0.98 
+Face  3,2,1,0
+
+
+[Texture]
+Load  wheels.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Transparent   0,0,0
+
+
+
+;----------------
+
+;wheels
+[MeshBuilder]
+Vertex -2.8 ,  0 , -0.63 
+Vertex -2.8 ,  2.66 , -0.63 
+Vertex  2.8 ,  2.66 , -0.63 
+Vertex  2.8 ,  0 , -0.63 
+Face  3,2,1,0
+
+
+[Texture]
+Load  wheels.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Transparent   0,0,0
+
+;wheels2
+[MeshBuilder]
+Vertex -2.8 ,  0 ,  0.63 
+Vertex -2.8 ,  2.66 ,  0.63 
+Vertex  2.8 ,  2.66 ,  0.63 
+Vertex  2.8 ,  0 ,  0.63 
+Face  0,1,2,3
+
+
+[Texture]
+Load  wheels.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Transparent   0,0,0
+
+
+
+;tyres width
+[MeshBuilder]
+Vertex  2.17 ,  0 ,  0.98 
+Vertex  2.52 ,  0.42 ,  0.98 
+Vertex  2.52 ,  0.42 , -0.98 
+Vertex  2.17 ,  0 , -0.98 
+Face  3,2,1,0
+
+[Texture]
+Load  tyres.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+Transparent   0,0,0
+
+;tyres width 2
+[MeshBuilder]
+Vertex  2.52 ,  0.42 ,  0.98 
+Vertex  2.52 ,  0.7 ,  0.98 
+Vertex  2.52 ,  0.7 , -0.98 
+Vertex  2.52 ,  0.42 , -0.98 
+Face  3,2,1,0
+
+[Texture]
+Load  tyres.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+Transparent   0,0,0
+
+;rear tyres width
+[MeshBuilder]
+Vertex -1.68 ,  0 ,  0.98 
+Vertex -1.33 ,  0.42 ,  0.98 
+Vertex -1.33 ,  0.42 , -0.98 
+Vertex -1.68 ,  0 , -0.98 
+Face  3,2,1,0
+
+[Texture]
+Load  tyres.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+Transparent   0,0,0
+
+;rear tyres width 2
+[MeshBuilder]
+Vertex -1.33 ,  0.42 ,  0.98 
+Vertex -1.33 ,  0.56 ,  0.98 
+Vertex -1.33 ,  0.56 , -0.98 
+Vertex -1.33 ,  0.42 , -0.98 
+Face  3,2,1,0
+
+[Texture]
+Load  tyres.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+Transparent   0,0,0
+
+;rear tyres width 3
+[MeshBuilder]
+Vertex -1.33 ,  0.56 ,  0.98 
+Vertex -1.68 ,  1.05 ,  0.98 
+Vertex -1.68 ,  1.05 , -0.98 
+Vertex -1.33 ,  0.56 , -0.98 
+Face  3,2,1,0
+
+[Texture]
+Load  tyres.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+Transparent   0,0,0
+
+
+
+;----------------
+
+;tyres width
+[MeshBuilder]
+Vertex  1.96 ,  0 ,  0.98 
+Vertex  1.61 ,  0.42 ,  0.98 
+Vertex  1.61 ,  0.42 , -0.98 
+Vertex  1.96 ,  0 , -0.98 
+Face  0,1,2,3
+
+[Texture]
+Load  tyres.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+Transparent   0,0,0
+
+;tyres width 2
+[MeshBuilder]
+Vertex  1.61 ,  0.42 ,  0.98 
+Vertex  1.61 ,  0.7 ,  0.98 
+Vertex  1.61 ,  0.7 , -0.98 
+Vertex  1.61 ,  0.42 , -0.98 
+Face  0,1,2,3
+
+[Texture]
+Load  tyres.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+Transparent   0,0,0
+
+;rear tyres width
+[MeshBuilder]
+Vertex -1.96 ,  0 ,  0.98 
+Vertex -2.31 ,  0.42 ,  0.98 
+Vertex -2.31 ,  0.42 , -0.98 
+Vertex -1.96 ,  0 , -0.98 
+Face  0,1,2,3
+
+[Texture]
+Load  tyres.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+Transparent   0,0,0
+
+;rear tyres width 2
+[MeshBuilder]
+Vertex -2.31 ,  0.42 ,  0.98 
+Vertex -2.31 ,  0.56 ,  0.98 
+Vertex -2.31 ,  0.56 , -0.98 
+Vertex -2.31 ,  0.42 , -0.98 
+Face  0,1,2,3
+
+[Texture]
+Load  tyres.png
+Coordinates  0,1,1
+Coordinates  1,1,0
+Coordinates  2,0,0
+Coordinates  3,0,1
+Transparent   0,0,0
+
+RotateAll 0,1,0,180

@@ -1,0 +1,8 @@
+[Object]
+States = class25.b3d
+Position = 0,0,0
+
+;Wagon
+[Object]
+States = ..\wagons\16t_baux.b3d
+Position = 0,0,14.1

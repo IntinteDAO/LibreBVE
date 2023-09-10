@@ -1,0 +1,473 @@
+;Moved with BVE File Converter
+;author=Chris Lees
+;description=Two arch bridge for Defiance Platform
+;copyright=From the BVE Cornwall Plymouth route. © Chris Lees 2014
+
+;Steps up to road bridge
+CreateMeshBuilder,,,,
+AddVertex,-2,10.5,2,
+AddVertex,-2,1,2,
+AddVertex,-2,1,-11,
+AddVertex,-2,10.5,-11,
+AddFace2,0,1,2,3
+
+LoadTexture,defianceplat_1.png,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,-0.99,1,
+SetTextureCoordinates,3,-0.99,0,
+SetDecalTransparentColor,0, 0, 255,
+
+CreateMeshBuilder,,,,
+AddVertex,-4,10.5,2,
+AddVertex,-4,1,2,
+AddVertex,-4,1,-11,
+AddVertex,-4,10.5,-11,
+AddFace2,0,1,2,3
+
+LoadTexture,defianceplat_1.png,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,-0.99,1,
+SetTextureCoordinates,3,-0.99,0,
+SetDecalTransparentColor,0, 0, 255,
+
+;Steps
+CreateMeshBuilder,,,,
+AddVertex,-2,1,-10.8,
+AddVertex,-4,1,-10.8,
+AddVertex,-4,5.3,-6.8,
+AddVertex,-2,5.3,-6.8,
+AddFace2,0,1,2,3
+
+LoadTexture,step.png,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,8,1,
+SetTextureCoordinates,3,8,0,
+SetDecalTransparentColor,0, 0, 255,
+
+CreateMeshBuilder,,,,
+AddVertex,-2,5.3,-6.8,
+AddVertex,-4,5.3,-6.8,
+AddVertex,-4,5.3,-5,
+AddVertex,-2,5.3,-5,
+AddFace2,0,1,2,3
+SetColor,52,54,52,
+
+CreateMeshBuilder,,,,
+AddVertex,-2,5.3,-5.4,
+AddVertex,-4,5.3,-5.4,
+AddVertex,-4,10,-0.4,
+AddVertex,-2,10,-0.4,
+AddFace2,0,1,2,3
+
+LoadTexture,step.png,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,8,1,
+SetTextureCoordinates,3,8,0,
+SetDecalTransparentColor,0, 0, 255,
+
+;Behind the steps
+CreateMeshBuilder,,,,
+AddVertex,-2,1,-9.4,
+AddVertex,-4,1,-9.4,
+AddVertex,-4,2.4,-8,
+AddVertex,-2,2.4,-8,
+AddVertex,-4,3.4,-6,
+AddVertex,-2,3.4,-6,
+AddFace2,0,1,2,3
+AddFace2,3,2,4,5
+SetColor,40,40,40
+
+;Steps Pillar
+CreateMeshBuilder,,,,
+AddVertex,-4,3.4,-6.05,
+AddVertex,-2,3.4,-6.05,
+AddVertex,-2,1,-6.05,
+AddVertex,-4,1,-6.05,
+AddFace2,0,1,2,3
+
+LoadTexture,grubbybrick.png,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,3,1,
+SetTextureCoordinates,3,3,0,
+SetDecalTransparentColor,0, 0, 255,
+
+CreateMeshBuilder,,,,
+AddVertex,-4,3.75,-5.13,
+AddVertex,-2,3.75,-5.13,
+AddVertex,-2,1,-5.13,
+AddVertex,-4,1,-5.13,
+AddFace2,0,1,2,3
+
+LoadTexture,grubbybrick.png,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,3,1,
+SetTextureCoordinates,3,3,0,
+SetDecalTransparentColor,0, 0, 255,
+
+;Behind the steps again
+CreateMeshBuilder,,,,
+AddVertex,-4,3.75,-5.13,
+AddVertex,-2,3.75,-5.13,
+AddVertex,-2,6.2,-3.13,
+AddVertex,-4,6.2,-3.13,
+AddVertex,-4,7.7,-1,
+AddVertex,-2,7.7,-1,
+AddFace2,0,1,2,3
+AddFace2,3,2,5,4
+SetColor,40,40,40
+
+CreateMeshBuilder,,,
+AddVertex,-4,7.3,-1.6,
+AddVertex,-2,7.3,-1.6,
+AddVertex,-2,7.95,0.3,
+AddVertex,-4,7.95,0.3,
+AddVertex,-4,7.95,2,
+AddVertex,-2,7.95,2,
+AddFace2,0,1,2,3
+AddFace2,3,2,5,4
+SetColor,40,40,40
+
+;Road Surface
+CreateMeshBuilder,
+AddVertex,-26.3 ,  7.075 ,  10 ,
+AddVertex,-26.3 ,  7.075 ,  2 ,
+AddVertex, 18.6 ,  11.675 ,  2 ,
+AddVertex, 18.6 ,  11.675 ,  10 ,
+AddVertex, 39.6 ,  11.675 ,  10 ,
+AddVertex, 39.6 ,  11.675 ,  2 ,
+AddFace,3,2,1,0
+AddFace,2,3,4,5
+LoadTexture,..\common\road13.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 5,
+SetTextureCoordinates,3, 1, 5,
+SetTextureCoordinates,4, 1, 7,
+SetTextureCoordinates,5, 0, 7,
+SetDecalTransparentColor,0, 0, 0,
+
+;Top parapet
+CreateMeshBuilder,
+AddVertex,-26.3 ,  8.075 ,  1.99 ,
+AddVertex,-26.3 ,  9.095 ,  1.99 ,
+AddVertex, 18.6 ,  13.695 ,  1.99 ,
+AddVertex, 18.6 ,  12.675 ,  1.99 ,
+AddFace2,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,plymconc2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 5, 0,
+SetTextureCoordinates,3, 5, 1,
+SetDecalTransparentColor,0, 0, 0,
+
+CreateMeshBuilder,
+AddVertex,-26.3 , -1.705 ,  2 ,
+AddVertex,-26.3 ,  8.08 ,  2 ,
+AddVertex, 18.6 ,  12.68 ,  2 ,
+AddVertex, 18.6 ,  0.295 ,  2 ,
+AddFace,0, 1, 2, 3,
+AddFace,3,2,1,0,
+
+GenerateNormals,
+
+LoadTexture,cwl3.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0.19,
+SetTextureCoordinates,2, 1, 0.01,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0, 0, 255,
+
+;Top parapet
+CreateMeshBuilder,
+AddVertex,-26.3 ,  8.075 ,  9.99 ,
+AddVertex,-26.3 ,  9.095 ,  9.99 ,
+AddVertex, 18.6 ,  13.695 ,  9.99 ,
+AddVertex, 18.6 ,  12.675 ,  9.99 ,
+AddFace2,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,plymconc2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 5, 0,
+SetTextureCoordinates,3, 5, 1,
+SetDecalTransparentColor,0, 0, 0,
+
+CreateMeshBuilder,
+AddVertex,-26.3 , -1.705 ,  10 ,
+AddVertex,-26.3 ,  8.08 ,  10 ,
+AddVertex, 18.6 ,  12.68 ,  10 ,
+AddVertex, 18.6 ,  0.295 ,  10 ,
+AddFace,0, 1, 2, 3,
+AddFace,3,2,1,0,
+
+GenerateNormals,
+
+LoadTexture,cwl3.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0.19,
+SetTextureCoordinates,2, 1, 0.01,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0, 0, 255,
+
+
+CreateMeshBuilder,
+AddVertex, 18.6 ,  8.705 ,  2 ,
+AddVertex, 18.6 ,  12.695 ,  2 ,
+AddVertex, 25.6 ,  12.695 ,  2 ,
+AddVertex, 25.6 ,  8.705 ,  2 ,
+AddFace,0, 1, 2, 3,
+AddFace,3,2,1,0,
+
+GenerateNormals,
+
+LoadTexture,greystone1.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0, 0, 255,
+
+CreateMeshBuilder,
+AddVertex, 18.6 ,  12.675 ,  1.99 ,
+AddVertex, 18.6 ,  13.695 ,  1.99 ,
+AddVertex, 25.6 ,  13.695 ,  1.99 ,
+AddVertex, 25.6 ,  12.675 ,  1.99 ,
+AddFace2,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,plymconc2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0, 0, 0,
+
+CreateMeshBuilder,
+AddVertex, 18.6 ,  8.705 ,  10 ,
+AddVertex, 18.6 ,  12.695 ,  10 ,
+AddVertex, 25.6 ,  12.695 ,  10 ,
+AddVertex, 25.6 ,  8.705 ,  10 ,
+AddFace,0, 1, 2, 3,
+AddFace,3,2,1,0,
+
+GenerateNormals,
+
+LoadTexture,greystone1.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0, 0, 255,
+
+CreateMeshBuilder,
+AddVertex, 18.6 ,  12.675 ,  9.99 ,
+AddVertex, 18.6 ,  13.695 ,  9.99 ,
+AddVertex, 25.6 ,  13.695 ,  9.99 ,
+AddVertex, 25.6 ,  12.675 ,  9.99 ,
+AddFace2,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,plymconc2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0, 0, 0,
+
+CreateMeshBuilder,
+AddVertex, 18.6 ,  0.295 ,  2 ,
+AddVertex, 18.6 ,  8.705 ,  2 ,
+AddVertex, 25.6 ,  8.705 ,  2 ,
+AddVertex, 25.6 ,  0.295 ,  2 ,
+AddFace,0, 1, 2, 3,
+AddFace,3,2,1,0,
+
+GenerateNormals,
+
+LoadTexture,greystone.png,
+SetTextureCoordinates,0, 0, 1.5,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1.5,
+SetDecalTransparentColor,0, 0, 255,
+
+CreateMeshBuilder,
+AddVertex, 18.6 ,  0.295 ,  10 ,
+AddVertex, 18.6 ,  8.705 ,  10 ,
+AddVertex, 25.6 ,  8.705 ,  10 ,
+AddVertex, 25.6 ,  0.295 ,  10 ,
+AddFace,0, 1, 2, 3,
+AddFace,3,2,1,0,
+
+GenerateNormals,
+
+LoadTexture,greystone.png,
+SetTextureCoordinates,0, 0, 1.5,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1.5,
+SetDecalTransparentColor,0, 0, 255,
+
+;TunnelWalls
+CreateMeshBuilder,
+AddVertex, 3.8 ,  7.345 ,  2 ,
+AddVertex, 1.97 ,  6.845 ,  2 ,
+AddVertex, 0.17 ,  5.715 ,  2 ,
+AddVertex,-1.49 ,  4.145 ,  2 ,
+AddVertex,-1.6 ,  3.915 ,  2 ,
+AddVertex,-1.6 , -1.025 ,  2 ,
+AddVertex, 3.8 ,  7.345 ,  10 ,
+AddVertex, 1.97 ,  6.845 ,  10 ,
+AddVertex, 0.37 ,  5.715 ,  10 ,
+AddVertex,-1.4 ,  4.145 ,  10 ,
+AddVertex,-1.6 ,  3.915 ,  10 ,
+AddVertex,-1.6 , -1.025 ,  10 ,
+AddFace,1,0,6,7
+AddFace,2,1,7,8
+AddFace,3,2,8,9
+AddFace,4,3,9,10
+AddFace,5,4,10,11
+SetColor,40,40,40,
+GenerateNormals,,,,
+
+CreateMeshBuilder,
+
+AddVertex,-1.57 ,  2.335 ,  2 ,
+AddVertex,-1.57 ,  2.335 ,  10 ,
+AddVertex,-1.57 ,  1.145 ,  10 ,
+AddVertex,-1.57 ,  1.145 ,  2 ,
+AddFace,0,1,2,3,
+SetColor,40,40,40,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, 3.8 ,  7.345 ,  2 ,
+AddVertex, 4.9 ,  7.545 ,  2 ,
+AddVertex, 6.8 ,  7.745 ,  2 ,
+AddVertex, 8.6 ,  7.645 ,  2 ,
+AddVertex, 9.4 ,  7.445 ,  2 ,
+AddVertex, 10.8 ,  7.145 ,  2 ,
+AddVertex, 3.8 ,  7.345 ,  10 ,
+AddVertex, 4.9 ,  7.545 ,  10 ,
+AddVertex, 6.8 ,  7.745 ,  10 ,
+AddVertex, 8.6 ,  7.645 ,  10 ,
+AddVertex, 9.4 ,  7.445 ,  10 ,
+AddVertex, 10.8 ,  7.145 ,  10 ,
+AddVertex, 12.8 ,  6.245 ,  2 ,
+AddVertex, 12.8 ,  6.245 ,  10 ,
+AddVertex, 14.8 ,  4.945 ,  2 ,
+AddVertex, 14.8 ,  4.945 ,  10 ,
+AddFace2,7, 6, 0, 1,
+AddFace2,8, 7, 1, 2,
+AddFace2,9, 8, 2, 3,
+AddFace2,10, 9, 3, 4,
+AddFace2,11, 10, 4, 5,
+AddFace2,12, 13, 11, 5,
+AddFace2,14, 15, 13, 12,
+SetColor,40,40,40,
+
+
+
+CreateMeshBuilder,
+AddVertex, 14.5 ,  5.315 ,  2 ,
+AddVertex, 14.5 ,  5.315 ,  10 ,
+AddVertex, 14.5 , -0.355 ,  10 ,
+AddVertex, 14.5 , -0.355 ,  2 ,
+AddFace,3,2,1,0,
+SetColor,40,40,40,
+
+
+;Sidewalls for brige #2
+CreateMeshBuilder,
+AddVertex,-17.2 ,  5.345 ,  2 ,
+AddVertex,-19.03 ,  4.845 ,  2 ,
+AddVertex,-20.83 ,  3.715 ,  2 ,
+AddVertex,-22.49 ,  2.145 ,  2 ,
+AddVertex,-22.6 ,  1.915 ,  2 ,
+AddVertex,-22.6 , -1.025 ,  2 ,
+AddVertex,-17.2 ,  5.345 ,  10 ,
+AddVertex,-19.03 ,  4.845 ,  10 ,
+AddVertex,-20.63 ,  3.715 ,  10 ,
+AddVertex,-22.4 ,  2.145 ,  10 ,
+AddVertex,-22.6 ,  1.915 ,  10 ,
+AddVertex,-22.6 , -1.025 ,  10 ,
+AddFace,1,0,6,7
+AddFace,2,1,7,8
+AddFace,3,2,8,9
+AddFace,4,3,9,10
+AddFace,5,4,10,11
+SetColor,40,40,40,
+GenerateNormals,,,,
+
+CreateMeshBuilder,
+
+AddVertex,-22.57 ,  0.335 ,  2 ,
+AddVertex,-22.57 ,  0.335 ,  10 ,
+AddVertex,-22.57 , -0.855 ,  10 ,
+AddVertex,-22.57 , -0.855 ,  2 ,
+AddFace,0,1,2,3,
+SetColor,40,40,40,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-17.2 ,  5.345 ,  2 ,
+AddVertex,-16.1 ,  5.545 ,  2 ,
+AddVertex,-14.2 ,  5.745 ,  2 ,
+AddVertex,-12.4 ,  5.645 ,  2 ,
+AddVertex,-11.6 ,  5.445 ,  2 ,
+AddVertex,-10.2 ,  5.145 ,  2 ,
+AddVertex,-17.2 ,  5.345 ,  10 ,
+AddVertex,-16.1 ,  5.545 ,  10 ,
+AddVertex,-14.2 ,  5.745 ,  10 ,
+AddVertex,-12.4 ,  5.645 ,  10 ,
+AddVertex,-11.6 ,  5.445 ,  10 ,
+AddVertex,-10.2 ,  5.145 ,  10 ,
+AddVertex,-8.2 ,  4.245 ,  2 ,
+AddVertex,-8.2 ,  4.245 ,  10 ,
+AddVertex,-6.2 ,  2.945 ,  2 ,
+AddVertex,-6.2 ,  2.945 ,  10 ,
+AddFace2,7, 6, 0, 1,
+AddFace2,8, 7, 1, 2,
+AddFace2,9, 8, 2, 3,
+AddFace2,10, 9, 3, 4,
+AddFace2,11, 10, 4, 5,
+AddFace2,12, 13, 11, 5,
+AddFace2,14, 15, 13, 12,
+SetColor,40,40,40,
+
+
+
+CreateMeshBuilder,
+AddVertex,-6.5 ,  3.315 ,  2 ,
+AddVertex,-6.5 ,  3.315 ,  10 ,
+AddVertex,-6.5 , -1.025 ,  10 ,
+AddVertex,-6.5 , -1.025 ,  2 ,
+AddFace2,3,2,1,0,
+SetColor,40,40,40,
+
+CreateMeshBuilder,
+AddVertex,-26.1 ,  0.145 ,  2 ,
+AddVertex,-26.1 ,  0.145 ,  10 ,
+AddVertex, 15.2 ,  0.145 ,  10 ,
+AddVertex, 15.2 ,  0.145 ,  2 ,
+AddFace,0, 1, 2, 3,
+Setcolor, 0,0,0,170,
+GenerateNormals,
+
+
+
+
+
+
+

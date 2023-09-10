@@ -1,0 +1,214 @@
+;Wall Exit
+;Bank Tunnel Side - L
+[Meshbuilder]
+Vertex -60,-7,0
+Vertex -60,-2,0
+Vertex -25,9,10
+Vertex -6.8,15,11.5
+Vertex -6.8,8.5,0
+Vertex -6.8,-5,0
+Face 0,1,4,5
+Face 1,2,3,4
+[Texture]
+Load ..\common\grass5.png
+Coordinates 0,0,0
+Coordinates 1,0,0.5
+Coordinates 2,3,1
+Coordinates 3,5,0
+Coordinates 4,5,0.5
+Coordinates 5,5,1
+
+;Bank Tunnel Side - R
+[Meshbuilder]
+Vertex 120,-20,0
+Vertex 120,5,0
+Vertex 50,12,10
+Vertex 13.6,15,11.5
+Vertex 13.6,8.5,0
+Vertex 13.6,-5,0
+Face 5,4,1,0
+Face 4,3,2,1
+[Texture]
+Load ..\common\grass5.png
+Coordinates 0,0,0
+Coordinates 1,0,0.5
+Coordinates 2,3,1
+Coordinates 3,5,0
+Coordinates 4,5,0.5
+Coordinates 5,5,1
+
+;Bank Tunnel Top
+[Meshbuilder]
+Vertex -6.8,8.1,0
+Vertex -6.8,8.5,0
+Vertex -6.8,15,11.5
+Vertex  13.6,15,11.5
+Vertex  13.6,8.5,0
+Vertex  13.6,8.1,0
+Face 0,1,4,5
+Face 1,2,3,4
+[Texture]
+Load ..\common\grass5.png
+Coordinates 0,0,1
+Coordinates 1,0,0.8
+Coordinates 2,0,0
+Coordinates 3,1,0
+Coordinates 4,1,0.8
+Coordinates 5,1,1
+
+;Tunnel entrance
+[MeshBuilder]
+Vertex 13.6, -0.45, -1.01
+Vertex -6.8, -0.45, -1.01
+Vertex -6.8, 8.5, -1.01
+Vertex 13.6, 8.5, -1.01
+Vertex 13.6, 8.5, -0.01
+Vertex -6.8, 8.5, -0.01
+Vertex -7.2, -0.45, 0.3
+Vertex 14, -0.45, 0.3
+Face 0,1,2,3
+Face 5,4,3,2
+Face 6,5,2,1
+Face 0,3,4,7
+
+[Texture]
+Load tunnel2.png
+Coordinates 0, 1, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0
+Coordinates 3, 1, 0
+Coordinates 4, 1, 0.1
+Coordinates 5, 0, 0.1
+Coordinates 6, 0, 1
+Coordinates 7, 1, 1
+Transparent 0, 0,255
+
+[MeshBuilder]
+Vertex -3.8, 14.5, 11.7
+Vertex -3.8, 17, 11.7
+Vertex 7.6, 17, 11.7
+Vertex 7.6, 14.5, 11.7
+Face 0, 1, 2, 3
+[Texture]
+Load ..\common\Fence_3.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0, 0, 0
+
+[MeshBuilder]
+Vertex -60, -2, 11.7
+Vertex -60, 1, 11.7
+Vertex -3.8, 17, 11.7
+Vertex -3.8, 14.5, 11.7
+Face 0, 1, 2, 3
+[Texture]
+Load ..\common\Fence_3.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 10, 0
+Coordinates 3, 10, 1
+Transparent 0, 0, 0
+
+[MeshBuilder]
+Vertex 7.6, 14.5, 11.7
+Vertex 7.6, 17, 11.7
+Vertex 120, 8, 11.7
+Vertex 120, 5.5, 11.7
+Face 0,1,2,3
+[Texture]
+Load ..\common\Fence_3.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 10, 0
+Coordinates 3, 10, 1
+Transparent 0, 0, 0
+
+
+
+[MeshBuilder]
+Vertex -3.8, 14.5, 12
+Vertex -3.8, 19, 12
+Vertex 7.6, 19, 12
+Vertex 7.6, 14.5, 12
+Face 0, 1, 2, 3
+[Texture]
+Load Hedgerow2.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1.2, 0
+Coordinates 3, 1.2, 1
+Transparent 0, 0, 0
+
+[MeshBuilder]
+Vertex -15, 13.5,30
+Vertex -15, 24,  30
+Vertex 35, 24,   30
+Vertex 35, 13.5, 30
+Face 0, 1, 2, 3
+[Texture]
+Load ..\buildings\lineside\2dhouses.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 2, 0
+Coordinates 3, 2, 1
+Transparent 0, 0, 255
+
+[MeshBuilder]
+Vertex -15, 24, 30
+Vertex -15, 27, 34
+Vertex 35,  27, 34
+Vertex 35,  24, 30
+Face 0,1,2,3
+[Texture]
+Load ..\buildings\lineside\stoneterraceroof.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0.3,
+Coordinates 2, 3, 0.3,
+Coordinates 3, 3, 1,
+
+[MeshBuilder]
+Vertex -15, 27, 34
+Vertex -15, 28, 34
+Vertex 35,  28, 34
+Vertex 35,  27, 34
+Face 0,1,2,3
+[Texture]
+Load ..\buildings\lineside\stoneterraceroof.png
+Coordinates 0, 0, 0.3,
+Coordinates 1, 0, 0,
+Coordinates 2, 3, 0,
+Coordinates 3, 3, 0.3,
+Transparent 0,0,255
+
+
+[MeshBuilder]
+Vertex -60, -2, 12
+Vertex -60, 3, 12
+Vertex -3.8, 19, 12
+Vertex -3.8, 14.5, 12
+Face 0, 1, 2, 3
+[Texture]
+Load Hedgerow2.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 5, 0
+Coordinates 3, 5, 1
+Transparent 0, 0, 0
+
+
+
+[MeshBuilder]
+Vertex 120, 5.5, 12
+Vertex 120, 10, 12
+Vertex 7.6, 19, 12
+Vertex 7.6, 14.5, 12
+Face 3,2,1,0
+[Texture]
+Load Hedgerow2.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 5, 0
+Coordinates 3, 5, 1
+Transparent 0, 0, 0

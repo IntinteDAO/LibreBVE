@@ -1,0 +1,739 @@
+;Author= Chris Lees www.bvecornwall.co.uk
+;Description=BR MK1 RES Coach
+;Copyright= RB Object library license
+
+
+
+[MeshBuilder];Bogie 1
+Vertex -1,0.85,9.0
+Vertex -1,0.85,5.1
+Vertex -1,0.1,5.1
+Vertex -1,0.1,9.0
+Vertex 1,0.85,9.0
+Vertex 1,0.85,5.1
+Vertex 1,0.1,5.1
+Vertex 1,0.1,9.0
+Face2 0,1,2,3
+Face2 7,6,5,4
+
+[Texture]
+Load bogie_cmw.png
+Coordinates 1,0,0
+Coordinates 0,1,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Coordinates 5,0,0
+Coordinates 4,1,0
+Coordinates 6,0,1
+Coordinates 7,1,1
+Transparent 0,0,255
+
+;Bogie 1a
+[MeshBuilder]
+Vertex -1,0.75,9
+Vertex 1,0.75,9
+Vertex 1,0.35,9
+Vertex -1,0.35,9
+Vertex -1,0.75,5.1
+Vertex 1,0.75,5.1
+Vertex 1,0.35,5.1
+Vertex -1,0.35,5.1
+Face2 0,1,2,3
+Face2 7,6,5,4
+
+[Texture]
+Load ..\Cl25\25bogierear.png
+Coordinates 1,0,0
+Coordinates 0,1,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Coordinates 5,0,0
+Coordinates 4,1,0
+Coordinates 6,0,1
+Coordinates 7,1,1
+Transparent 0,0,255
+
+
+[MeshBuilder];Bogie 2
+Vertex -1,0.85,-9.0
+Vertex -1,0.85,-5.1
+Vertex -1,0.1,-5.1
+Vertex -1,0.1,-9.0
+Vertex 1,0.85,-9.0
+Vertex 1,0.85,-5.1
+Vertex 1,0.1,-5.1
+Vertex 1,0.1,-9.0
+Face2 3,2,1,0
+Face2 4,5,6,7
+
+[Texture]
+Load bogie_cmw.png
+Coordinates 1,0,0
+Coordinates 0,1,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Coordinates 5,0,0
+Coordinates 4,1,0
+Coordinates 6,0,1
+Coordinates 7,1,1
+Transparent 0,0,255
+
+;Bogie 2a
+[MeshBuilder]
+Vertex -1,0.75,-9
+Vertex 1,0.75,-9
+Vertex 1,0.35,-9
+Vertex -1,0.35,-9
+Vertex -1,0.75,-5.1
+Vertex 1,0.75,-5.1
+Vertex 1,0.35,-5.1
+Vertex -1,0.35,-5.1
+Face2 3,2,1,0
+Face2 4,5,6,7
+
+[Texture]
+Load ..\Cl25\25bogierear.png
+Coordinates 1,0,0
+Coordinates 0,1,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Coordinates 5,0,0
+Coordinates 4,1,0
+Coordinates 6,0,1
+Coordinates 7,1,1
+Transparent 0,0,255
+
+
+
+[MeshBuilder]
+Cylinder 8,0.08,0.08,1.995
+Rotate 0,0,1,90
+Translate 0,0.45,4.55
+Color 60,60,60
+
+[MeshBuilder];Chassis Box
+Vertex -1.01,0.85,-5.1
+Vertex -1.01,0.85,5.1
+Vertex -1.01,0.1,5.1
+Vertex -1.01,0.1,-5.1
+Vertex 1.01,0.85,-5.1
+Vertex 1.01,0.85,5.1
+Vertex 1.01,0.1,5.1
+Vertex 1.01,0.1,-5.1
+Face2 3,2,1,0
+Face2 4,5,6,7
+
+[Texture]
+Load chassisbox_res.png
+Coordinates 1,0,0
+Coordinates 0,1,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Coordinates 5,0,0
+Coordinates 4,1,0
+Coordinates 6,0,1
+Coordinates 7,1,1
+Transparent 0,0,255
+
+
+
+[MeshBuilder];Bottom
+Vertex -1.0,0.8,9.66
+Vertex -1.0,0.8,-9.66
+Vertex 1.0,0.8,-9.66
+Vertex 1.0,0.8,9.66
+Face 0,1,2,3
+Color 50,50,50
+
+[MeshBuilder]
+Cube 1,0.25,1.1
+Translate 0,0.47,2.65
+Color 40,40,40
+
+[Meshbuilder];outsideleft
+Vertex -0.6,3.5,9.66    ,-1,1,0
+Vertex -0.6,3.5,-9.66 ,-1,1,0
+Vertex -0.9,3.4,9.66    ,-2,1,0
+Vertex -0.9,3.4,-9.66 ,-2,1,0
+Vertex -1.2,3.0,9.66   ,-3,1,0
+Vertex -1.2,3.0,-9.66 ,-3,1,0
+Vertex -1.2,1.2,9.66 ,-3,1,0
+Vertex -1.2,1.2,-9.66 ,-3,1,0
+
+Vertex -1.15,1.0,-9.66 , -2,-1,0
+Vertex -1.15,1.0,9.66 ,-2,-1,0
+Vertex -1.0,0.8,9.66 ,-1,-1,0
+Vertex -1.0,0.8,-9.66 ,-1,-1,0
+
+Vertex -0.2,3.55,9.66    ,-0.5,1,0
+Vertex -0.2,3.55,-9.66 ,-0.5,1,0
+Vertex -0,3.55,-9.66   ,0,1,0
+Vertex -0,3.55,9.66      ,0,1,0
+Face 0,1,3,2
+Face 2,3,5,4
+Face 4,5,7,6
+Face 6,7,8,9
+Face 11,10,9,8
+Face 12,13,1,0
+Face 15,14,13,12
+
+[Texture]
+Load MK1_BK_itc_side.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,0.02
+Coordinates 3,1,0.02
+Coordinates 4,0,0.05
+Coordinates 5,1,0.05
+Coordinates 6,0,0.8
+Coordinates 7,1,0.8
+Coordinates 8,1,0.9
+Coordinates 9,0,0.9
+Coordinates 10,0,1
+Coordinates 11,1,1
+Coordinates 12,0,0.03
+Coordinates 13,1,0.03
+Coordinates 14,1,0.05
+Coordinates 15,0,0.05
+
+[Meshbuilder];outsideleft
+Vertex 0.6,3.5,9.66    ,1,1,0
+Vertex 0.6,3.5,-9.66 ,1,1,0
+Vertex 0.9,3.4,9.66    ,2,1,0
+Vertex 0.9,3.4,-9.66 ,2,1,0
+Vertex 1.2,3.0,9.66   ,3,1,0
+Vertex 1.2,3.0,-9.66 ,3,1,0
+Vertex 1.2,1.2,9.66 ,3,1,0
+Vertex 1.2,1.2,-9.66 ,3,1,0
+
+Vertex 1.15,1.0,-9.66 ,2,-1,0
+Vertex 1.15,1.0,9.66 ,2,-1,0
+Vertex 1.0,0.8,9.66 ,1,-1,0
+Vertex 1.0,0.8,-9.66 ,1,-1,0
+
+Vertex 0.2,3.55,9.66    ,0.5,1,0
+Vertex 0.2,3.55,-9.66 ,0.5,1,0
+Vertex 0,3.55,-9.66   ,0,1,0
+Vertex 0,3.55,9.66      ,0,1,0
+Face 2,3,1,0
+Face 4,5,3,2
+Face 6,7,5,4
+Face 9,8,7,6
+Face 8,9,10,11
+Face 0,1,13,12
+Face 12,13,14,15
+
+[Texture]
+Load MK1_BK_itc_side1.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,0.02
+Coordinates 3,1,0.02
+Coordinates 4,0,0.05
+Coordinates 5,1,0.05
+Coordinates 6,0,0.8
+Coordinates 7,1,0.8
+Coordinates 8,1,0.9
+Coordinates 9,0,0.9
+Coordinates 10,0,1
+Coordinates 11,1,1
+Coordinates 12,0,0.03
+Coordinates 13,1,0.03
+Coordinates 14,1,0.05
+Coordinates 15,0,0.05
+
+
+
+[Meshbuilder];end
+Vertex -1.2,1.2,-9.66
+Vertex -1.2,3.0,-9.66
+Vertex -0.9,3.4,-9.66
+Vertex -1.15,1,-9.66
+Vertex -1,0.8,-9.66
+Vertex -0.6,3.5,-9.66
+Vertex -0.2,3.55,-9.66
+Vertex -0.2,0.8,-9.66
+Vertex 0.2,0.8,-9.66
+Vertex 0.2,3.55,-9.66
+Vertex 0.6,3.5,-9.66
+Vertex 1,0.8,-9.66
+Vertex 1.15,1,-9.66
+Vertex 0.9,3.4,-9.66
+Vertex 1.2,3.0,-9.66
+Vertex 1.2,1.2,-9.66
+Face2 3,2,1,0
+Face2 2,3,4,5
+Face2 7,6,5,4
+Face2 6,7,8,9
+Face2 11,10,9,8
+Face2 10,11,12,13
+Face2 15,14,13,12
+
+[Texture]
+Load mk1end_n.png
+Coordinates  0, 0, 0.8
+Coordinates  1, 0, 0.23
+Coordinates  2, 0.1, 0.08
+Coordinates  3, 0.02, 0.92
+Coordinates  4, 0.08, 0.99
+Coordinates  5, 0.23, 0.04
+Coordinates  6, 0.4, 0.02
+Coordinates  7, 0.4, 1
+Coordinates  8, 0.6, 1
+Coordinates  9, 0.6, 0.02
+Coordinates  10, 0.77, 0.04
+Coordinates  11, 0.92, 0.99
+Coordinates  12, 0.98, 0.92
+Coordinates  13, 0.9, 0.08
+Coordinates  14, 1, 0.23
+Coordinates  15, 1, 0.85
+
+[MeshBuilder];Corridor End
+Vertex -0.5,0.8,-9.9
+Vertex -0.5,3.2,-9.9
+Vertex -0.3,3.35,-9.9
+Vertex -0.3,0.8,-9.9
+Vertex 0.3,0.8,-9.9
+Vertex 0.3,3.35,-9.9
+Vertex 0.5,3.2,-9.9
+Vertex 0.5,0.8,-9.9
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 4,5,6,7
+
+[Texture]
+Load mk1end_n2.png
+Coordinates 0,1,1
+Coordinates 1,1,0.17
+Coordinates 2,0.9,0
+Coordinates 3,0.9,1
+Coordinates 4,0.1,1
+Coordinates 5,0.1,0
+Coordinates 6,0,0.17
+Coordinates 7,0,1
+Transparent 0,0,255
+
+[MeshBuilder];Corridor End 2
+Vertex -0.5,0.8,-9.9 , -1,-1,0
+Vertex -0.5,0.8,-9.66 ,-1,-1,0
+Vertex -0.5,3.2,-9.66 ,-1,1,0
+Vertex -0.5,3.2,-9.9 ,-1,1,0
+Vertex -0.3,3.35,-9.9 ,-1,1,0
+Vertex -0.3,3.35,-9.66 ,-1,1,0
+Vertex 0.3,3.35,-9.66 ,1,1,0
+Vertex 0.3,3.35,-9.9 ,1,1,0
+Vertex 0.5,3.2,-9.9 ,1,1,0
+Vertex 0.5,3.2,-9.66 ,1,1,0
+Vertex 0.5,0.8,-9.66 ,1,-1,0
+Vertex 0.5,0.8,-9.9 ,1,-1,0
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 4,5,6,7
+Face2 9,8,7,6
+Face2 8,9,10,11
+Face2 10,11,0,1
+
+[Texture]
+Load concertina.png
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Coordinates 4,1,0
+Coordinates 5,0,0
+Coordinates 6,0,1
+Coordinates 7,1,1
+Coordinates 8,1,0
+Coordinates 9,0,0
+Coordinates 10,0,1
+Coordinates 11,1,1
+
+
+
+[Meshbuilder];end
+Vertex -1.2,1.2,9.66
+Vertex -1.2,3.0,9.66
+Vertex -0.9,3.4,9.66
+Vertex -1.15,1,9.66
+Vertex -1,0.8,9.66
+Vertex -0.6,3.5,9.66
+Vertex -0.2,3.55,9.66
+Vertex -0.2,0.8,9.66
+Vertex 0.2,0.8,9.66
+Vertex 0.2,3.55,9.66
+Vertex 0.6,3.5,9.66
+Vertex 1,0.8,9.66
+Vertex 1.15,1,9.66
+Vertex 0.9,3.4,9.66
+Vertex 1.2,3.0,9.66
+Vertex 1.2,1.2,9.66
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 4,5,6,7
+Face2 9,8,7,6
+Face2 8,9,10,11
+Face2 13,12,11,10
+Face2 12,13,14,15
+
+[Texture]
+Load mk1end_n.png
+Coordinates  0, 0, 0.85
+Coordinates  1, 0, 0.23
+Coordinates  2, -0.1, 0.08
+Coordinates  3, -0.02, 0.92
+Coordinates  4, -0.08, 0.99
+Coordinates  5, -0.23, 0.04
+Coordinates  6, -0.4, 0.02
+Coordinates  7, -0.4, 1
+Coordinates  8, -0.6, 1
+Coordinates  9, -0.6, 0.02
+Coordinates  10, -0.77, 0.04
+Coordinates  11, -0.92, 0.99
+Coordinates  12, -0.98, 0.92
+Coordinates  13, -0.9, 0.08
+Coordinates  14, -1, 0.23
+Coordinates  15, -1, 0.8
+
+[MeshBuilder];Corridor End
+Vertex -0.5,0.8,9.9
+Vertex -0.5,3.2,9.9
+Vertex -0.3,3.35,9.9
+Vertex -0.3,0.8,9.9
+Vertex 0.3,0.8,9.9
+Vertex 0.3,3.35,9.9
+Vertex 0.5,3.2,9.9
+Vertex 0.5,0.8,9.9
+Face2 3,2,1,0
+Face2 2,3,4,5
+Face2 7,6,5,4
+
+[Texture]
+Load mk1end_n2.png
+Coordinates 0,1,1
+Coordinates 1,1,0.17
+Coordinates 2,0.9,0
+Coordinates 3,0.9,1
+Coordinates 4,0.1,1
+Coordinates 5,0.1,0
+Coordinates 6,0,0.17
+Coordinates 7,0,1
+Transparent 0,0,255
+
+[MeshBuilder];Corridor End 2
+Vertex -0.5,0.8,9.9 , -1,-1,0
+Vertex -0.5,0.8,9.66 ,-1,-1,0
+Vertex -0.5,3.2,9.66 ,-1,1,0
+Vertex -0.5,3.2,9.9 ,-1,1,0
+Vertex -0.3,3.35,9.9 ,-1,1,0
+Vertex -0.3,3.35,9.66 ,-1,1,0
+Vertex 0.3,3.35,9.66 ,1,1,0
+Vertex 0.3,3.35,9.9 ,1,1,0
+Vertex 0.5,3.2,9.9 ,1,1,0
+Vertex 0.5,3.2,9.66 ,1,1,0
+Vertex 0.5,0.8,9.66 ,1,-1,0
+Vertex 0.5,0.8,9.9 ,1,-1,0
+Face2 3,2,1,0
+Face2 2,3,4,5
+Face2 7,6,5,4
+Face2 6,7,8,9
+Face2 11,10,9,8
+Face2 1,0,11,10
+
+[Texture]
+Load concertina.png
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Coordinates 4,1,0
+Coordinates 5,0,0
+Coordinates 6,0,1
+Coordinates 7,1,1
+Coordinates 8,1,0
+Coordinates 9,0,0
+Coordinates 10,0,1
+Coordinates 11,1,1
+
+;Buffers End 1
+[Meshbuilder]
+Cylinder 8, 0.085, 0.095,0.2
+Rotate 0,0,0,90
+Translate -0.75,0.9,9.71
+
+[Texture]
+Load ..\wagons\black.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+[Meshbuilder]
+Cylinder 8, 0.07, 0.07,0.2
+Rotate 0,0,0,90
+Translate -0.75,0.9,9.81
+
+[Texture]
+Load ..\wagons\black.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+[Meshbuilder]
+Cylinder 8, 0.05, 0.05,0.1
+Rotate 0,0,0,90
+Translate -0.75,0.9,9.95
+Color 161,158,151
+
+[MeshBuilder]
+Vertex -0.6 ,  1.05 ,  10.001
+Vertex -0.9 ,  1.05 ,  10.001
+Vertex -0.9 ,  0.75 ,  10.001
+Vertex -0.6 ,  0.75 ,  10.001
+Face2 0,1,2,3
+
+[Texture]
+Load ..\Cl08\cl08_buffer.png
+Coordinates  0, 0, 0
+Coordinates  1, 1, 0
+Coordinates  2, 1, 1
+Coordinates  3, 0, 1
+Transparent   0, 0, 255
+
+[Meshbuilder]
+Cylinder 8, 0.085, 0.095,0.2
+Rotate 0,0,0,90
+Translate 0.75,0.9,9.71
+
+[Texture]
+Load ..\wagons\black.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+[Meshbuilder]
+Cylinder 8, 0.07, 0.07,0.2
+Rotate 0,0,0,90
+Translate 0.75,0.9,9.81
+
+[Texture]
+Load ..\wagons\black.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+[Meshbuilder]
+Cylinder 8, 0.05, 0.05,0.1
+Rotate 0,0,0,90
+Translate 0.75,0.9,9.95
+Color 161,158,151
+
+[MeshBuilder]
+Vertex 0.6 ,  1.05 ,  10.001
+Vertex 0.9 ,  1.05 ,  10.001
+Vertex 0.9 ,  0.75 ,  10.001
+Vertex 0.6 ,  0.75 ,  10.001
+Face2 3,2,1,0
+
+[Texture]
+Load ..\Cl08\cl08_buffer.png
+Coordinates  0, 0, 0
+Coordinates  1, 1, 0
+Coordinates  2, 1, 1
+Coordinates  3, 0, 1
+Transparent   0, 0, 255
+
+;Buffers End 2
+[Meshbuilder]
+Cylinder 8, 0.095, 0.085,0.2
+Rotate 0,0,0,90
+Translate -0.75,0.9,-9.71
+
+[Texture]
+Load ..\wagons\black.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+[Meshbuilder]
+Cylinder 8, 0.07, 0.07,0.2
+Rotate 0,0,0,90
+Translate -0.75,0.9,-9.81
+
+[Texture]
+Load ..\wagons\black.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+[Meshbuilder]
+Cylinder 8, 0.05, 0.05,0.1
+Rotate 0,0,0,90
+Translate -0.75,0.9,-9.95
+Color 161,158,151
+
+[MeshBuilder]
+Vertex -0.6 ,  1.05 ,  -10.001
+Vertex -0.9 ,  1.05 ,  -10.001
+Vertex -0.9 ,  0.75 ,  -10.001
+Vertex -0.6 ,  0.75 ,  -10.001
+Face2 0,1,2,3
+
+[Texture]
+Load ..\Cl08\cl08_buffer.png
+Coordinates  0, 0, 0
+Coordinates  1, 1, 0
+Coordinates  2, 1, 1
+Coordinates  3, 0, 1
+Transparent   0, 0, 255
+
+[Meshbuilder]
+Cylinder 8, 0.095, 0.085,0.2
+Rotate 0,0,0,90
+Translate 0.75,0.9,-9.71
+
+[Texture]
+Load ..\wagons\black.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+[Meshbuilder]
+Cylinder 8, 0.07, 0.07,0.2
+Rotate 0,0,0,90
+Translate 0.75,0.9,-9.81
+
+[Texture]
+Load ..\wagons\black.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+[Meshbuilder]
+Cylinder 8, 0.05, 0.05,0.1
+Rotate 0,0,0,90
+Translate 0.75,0.9,-9.95
+Color 161,158,151
+
+[MeshBuilder]
+Vertex 0.6 ,  1.05 ,  -10.001
+Vertex 0.9 ,  1.05 ,  -10.001
+Vertex 0.9 ,  0.75 ,  -10.001
+Vertex 0.6 ,  0.75 ,  -10.001
+Face2 0,1,2,3
+
+[Texture]
+Load ..\Cl08\cl08_buffer.png
+Coordinates  0, 0, 0
+Coordinates  1, 1, 0
+Coordinates  2, 1, 1
+Coordinates  3, 0, 1
+Transparent   0, 0, 255
+
+;Shadow
+[Meshbuilder]
+Cube 0.70,0.55,9.659
+Translate 0,0.5,0
+Color 90,90,90,150

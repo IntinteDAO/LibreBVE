@@ -1,0 +1,66 @@
+[MeshBuilder]
+Vertex -3.8,-0.29,0
+Vertex -3.8,-0.295,26
+Vertex -1.85,-0.295,26
+Vertex -1.85,-0.29,0
+Face 0,1,2,3
+
+[Texture]
+Load ..\ballastedge1.png,,
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Transparent 0,0,0
+
+[MeshBuilder]
+Vertex -1.9,-0.305,26
+Vertex -1.9,-0.3,0
+Vertex -6,-0.3,0
+Vertex -6,-0.305,26
+Vertex -22,-10,26
+Vertex -22,-10,-6
+;;Twiddle R
+Vertex 2,-10,-8
+Vertex 2,-0.3,0
+;;Twiddle F
+Vertex -15,-10,35
+Vertex -1,-0.35,30
+Vertex -1,-0.305,26
+Face 0,1,2,3
+Face 5,4,3,2
+Face 7,6,5,2
+
+Face 3,4,8,9
+Face 3,9,10
+
+[Texture]
+Load ..\..\common\concrete2.png,,
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,0.2,0
+Coordinates 3,0.2,1
+Coordinates 4,2,1
+Coordinates 5,2,0
+Coordinates 6,0,1.5
+Coordinates 7,-0.2,0.5
+Coordinates 8,1,0
+Coordinates 9,0,0
+Coordinates 10,1,1
+
+
+[MeshBuilder]
+Vertex -4, 3.6, 25
+Vertex -4, 3.6, -0
+Vertex -4, -0.4, -0
+Vertex -4, -0.4, 25
+Face 0,1,2,3
+Face 1,0,3,2
+
+[Texture]
+Load ..\..\common\Fence_14.png
+Coordinates 0, 0, 0
+Coordinates 1, 8, 0
+Coordinates 2, 8, 1
+Coordinates 3, 0, 1
+transparent 0,0,255

@@ -1,0 +1,571 @@
+;Vauxhall Cresta ©2014 by graymac from photos provided © mobile1,
+;All rights reserved,
+
+[meshbuilder]
+vertex 0, 1.02, 0
+vertex 0, 1.02, 4.0
+vertex 0.67, 0.92,  0.122
+vertex 0.67, 0.92, 4.134
+vertex 0.7, 0.95,  0.122,   -0.2,0.1,0
+vertex 0.7, 0.95, 4.134,   -0.2,0.1,0
+vertex 0.751, 0.97,  0.122,   -0.1,0.3,0
+vertex 0.751, 0.97, 4.238,  - 0.1,0.3,0
+vertex 0.80,  0.95,  0.122,   0,0.1,0
+vertex 0.80,  0.95, 4.19,   0,0.1,0
+vertex 0.83,  0.92,  0.122,   0.2,0.1,0
+vertex 0.83,  0.92, 4.15,   0.2,0.1,0
+vertex 0.851,  0.86,  0.122,   0.2,0.01,0
+vertex 0.851, 0.86, 4.134,   0.2,0.01,0
+vertex 0.851,  0.19,  0.122
+vertex 0.851, 0.19, 4.134
+;face 0,1,3,2
+face 2,3,5,4
+face 4,5,7,6
+face 6,7,9,8
+face 8,9,11,10
+face 10,11,13,12
+face 12,13,15,14
+[texture]
+load side_rd.png
+coordinates 0,1,0
+coordinates 1,0,0
+coordinates 2,1,0.01
+coordinates 3,0,0.01
+coordinates 4, 1, 0.02
+coordinates 5, 0, 0.02
+coordinates 6, 1, 0.03
+coordinates 7, 0, 0.03
+coordinates 8, 1, 0.04
+coordinates 9, 0, 0.04
+coordinates 10, 1, 0.05
+coordinates 11, 0, 0.05
+coordinates 12, 1, 0.1
+coordinates 13, 0, 0.1
+coordinates 14, 1, 1
+coordinates 15, 0, 1
+transparent 0,0,0
+
+[meshbuilder]
+vertex  0, 1.02, 0
+vertex  0, 1.02, 4.0
+vertex -0.67, 0.92,  0.122
+vertex -0.67, 0.92, 4.134
+vertex -0.7, 0.95,  0.122,   -0.2,0.1,0
+vertex -0.7, 0.95, 4.134,   -0.2,0.1,0
+vertex -0.751, 0.97,  0.122,   -0.1,0.3,0
+vertex -0.751, 0.97, 4.238,  - 0.1,0.3,0
+vertex -0.80,  0.95,  0.122,   0,0.1,0
+vertex -0.80,  0.95, 4.19,   0,0.1,0
+vertex -0.83,  0.92,  0.122,   0.2,0.1,0
+vertex -0.83,  0.92, 4.15,   0.2,0.1,0
+vertex -0.851,  0.86,  0.122,   0.2,0.01,0
+vertex -0.851, 0.86, 4.134,   0.2,0.01,0
+vertex -0.851,  0.19,  0.122
+vertex -0.851, 0.19, 4.134
+;face 2,3,1,0
+face 4,5,3,2
+face 6,7,5,4
+face 8,9,7,6
+face 10,11,9,8
+face 12,13,11,10
+face 14,15,13,12
+[texture]
+load side_rd.png
+coordinates 0,1,0
+coordinates 1,0,0
+coordinates 2,1,0.01
+coordinates 3,0,0.01
+coordinates 4, 1, 0.02
+coordinates 5, 0, 0.02
+coordinates 6, 1, 0.03
+coordinates 7, 0, 0.03
+coordinates 8, 1, 0.04
+coordinates 9, 0, 0.04
+coordinates 10, 1, 0.05
+coordinates 11, 0, 0.05
+coordinates 12, 1, 0.1
+coordinates 13, 0, 0.1
+coordinates 14, 1, 1
+coordinates 15, 0, 1
+transparent 0,0,0
+
+;;;;front,
+[meshbuilder]
+vertex  -0.851, 1.02, 0.122
+vertex  -0.851, 0.28,  0.122
+vertex  -0.67, 1.02,  0.122
+vertex  -0.67, 0.28,  0.122
+vertex  0, 1.02, 0
+vertex  0, 0.28, 0
+vertex 0.67, 1.02,  0.122
+vertex 0.67, 0.28,  0.122
+vertex 0.851, 1.02,  0.122
+vertex 0.851, 0.28,  0.122
+face 0,2,3,1
+face 2,4,5,3
+face 4,6,7,5
+face 6,8,9,7
+[texture]
+load front_rd.png
+coordinates 0,0,0
+coordinates 1,0,1
+coordinates 2,0.114,0
+coordinates 3,0.114,1
+coordinates 4,0.5,0
+coordinates 5,0.5,1
+coordinates 6,0.886,0
+coordinates 7,0.886,1
+coordinates 8,1,0
+coordinates 9,1,1
+transparent 0,0,0
+
+[meshbuilder]
+vertex -0.851, 0.34, 0.2
+vertex -0.865,  0.34, 0.2,  -0.2, 0.1,-0.3
+vertex -0.865, 0.24, 0.2
+vertex -0.851,  0.34, 0.14
+vertex -0.865,  0.34, 0.08,  0, 0.1,-0.3
+vertex -0.865, 0.24, 0.08
+vertex 0,  0.34, -0.02
+vertex 0,  0.34, -0.08,  0, 0.1,-0.3
+vertex 0, 0.24, -0.08
+vertex 0.851,  0.34, 0.14
+vertex 0.855,  0.34, 0.08,  0, 0.1,-0.3
+vertex 0.855, 0.24, 0.08
+vertex 0.851,  0.34, 0.2
+vertex 0.865,  0.34, 0.2,    0.2, 0.1,-0.3
+vertex 0.865, 0.24, 0.2
+face 0,3,4,1
+face  1,4,5,2
+face  3,6,7,4
+face  4,7,8,5
+face  6,9,10,7
+face  7,10,11,8
+face  9,12,13,10
+face 10,13,14,11
+[texture]
+load bumper1.png
+coordinates 0, 0, 0.31
+coordinates 1, 0, 0.39
+coordinates 2, 0,1
+coordinates 3, 0.08, 0.31
+coordinates 4, 0.08,  0.39
+coordinates 5, 0.08, 1
+coordinates 6, 0.5, 0.31
+coordinates 7, 0.5, 0.39
+coordinates 8, 0.5, 1
+coordinates 9, 0.92, 0.31
+coordinates 10, 0.92,  0.39
+coordinates 11, 0.92, 1
+coordinates 12, 1,0.31
+coordinates 13, 1, 0.39
+coordinates 14, 1, 1
+transparent  0,0,0
+
+[meshbuilder]
+vertex -0.22, 0.24, 0
+vertex  0.22, 0.24, 0
+vertex  0.22, 0.12, 0
+vertex -0.22, 0.12, 0
+face 0,1,2,3
+[texture]
+load plate.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+;;;;back,
+[meshbuilder]
+vertex  0.851, 0.97, 4.134
+vertex  0.851,  0.306,  4.134
+vertex  0.751,  0.97,  4.24
+vertex  0.751,  0.306,  4.24
+vertex  0.70,  0.97,  4.134
+vertex  0.70,  0.306,  4.134
+face 0,2,3,1
+face 2,4,5,3
+[texture]
+load rearlight_rd.png
+coordinates 0, 1, 0
+coordinates 1, 1, 1
+coordinates 2, 0.28, 0
+coordinates 3, 0.28, 1
+coordinates 4, 0,  0
+coordinates 5, 0, 1
+transparent 0,0,0
+
+[meshbuilder]
+vertex  -0.851, 0.97, 4.134
+vertex  -0.851,  0.306,  4.134
+vertex  -0.751,  0.97,  4.24
+vertex  -0.751,  0.306,  4.24
+vertex -0.70,  0.97,  4.134
+vertex  -0.70,  0.306,  4.134
+face 1,3,2,0
+face 3,5,4,2
+[texture]
+load rearlight_rd.png
+coordinates 0, 1, 0
+coordinates 1, 1, 1
+coordinates 2, 0.28, 0
+coordinates 3, 0.28, 1
+coordinates 4, 0,  0
+coordinates 5, 0, 1
+transparent 0,0,0
+
+[meshbuilder]
+vertex 0.751, 0.97, 3.35
+vertex 0.751, 0.97, 4.16,    0,0,1
+vertex 0.751, 0.32, 4.24
+vertex 0.50, 1.08, 3.50
+vertex 0.50, 1.0, 4.24,    0,0,1
+vertex 0.50, 0.325, 4.35
+vertex 0.30, 1.1, 3.50
+vertex 0.30, 1.0, 4.24,    0,0,1
+vertex 0.30, 0.325, 4.36
+vertex -0.30, 1.1, 3.50
+vertex -0.30, 1.0, 4.24,    0,0,1
+vertex -0.30, 0.325, 4.36
+vertex -0.50, 1.08, 3.50
+vertex -0.50, 1.0, 4.24,    0,0,1
+vertex -0.50, 0.325, 4.35
+vertex -0.751, 0.97, 3.35
+vertex -0.751, 0.97, 4.16,    0,0,1
+vertex -0.751, 0.32, 4.24
+face 0,3,4,1
+face 1,4,5,2
+face 3,6,7,4
+face 4,7,8,5
+face 6,9,10,7
+face 7,10,11,8
+face 9,12,13,10
+face 10,13,14,11
+face 12,15,16,13
+face 13,16,17,14
+[texture]
+load boot_rd.png
+coordinates 0, 0, 0
+coordinates 1, 0, 0.20
+coordinates 2, 0, 1
+coordinates 3, 0.14,0
+coordinates 4, 0.14, 0.20
+coordinates 5, 0.14, 1
+coordinates 6, 0.24, 0
+coordinates 7, 0.24, 0.20
+coordinates 8, 0.24, 1
+coordinates 9, 0.76, 0
+coordinates 10, 0.76, 0.20
+coordinates 11, 0.76, 1
+coordinates 12, 0.86, 0
+coordinates 13, 0.86, 0.20
+coordinates 14, 0.86, 1
+coordinates 15, 1, 0
+coordinates 16, 1, 0.22
+coordinates 17, 1,  1
+
+[meshbuilder]
+vertex 0.80, 0.4, 4.14
+vertex 0.85,  0.4, 4.14,   0.2, 0.1,-0.3
+vertex 0.85, 0.28, 4.14
+vertex 0.77,  0.4, 4.26
+vertex 0.83,  0.4, 4.3,  0, 0.1,-0.3
+vertex 0.83, 0.28, 4.3
+vertex 0,  0.4, 4.35
+vertex 0,  0.4, 4.44,  0, 0.1,-0.3
+vertex 0, 0.28, 4.44
+vertex -0.77,  0.4, 4.26
+vertex -0.83,  0.4, 4.3,  0, 0.1,-0.3
+vertex -0.83, 0.28, 4.3
+vertex -0.80,  0.4, 4.14
+vertex -0.85,  0.4, 4.14,    -0.2, 0.1,-0.3
+vertex -0.85, 0.28, 4.14
+face 0,3,4,1
+face  1,4,5,2
+face  3,6,7,4
+face  4,7,8,5
+face  6,9,10,7
+face  7,10,11,8
+face  9,12,13,10
+face 10,13,14,11
+[texture]
+load bumper1.png
+coordinates 0, 0, 0.31
+coordinates 1, 0, 0.39
+coordinates 2, 0,1
+coordinates 3, 0.08, 0.31
+coordinates 4, 0.08,  0.39
+coordinates 5, 0.08, 1
+coordinates 6, 0.5, 0.31
+coordinates 7, 0.5, 0.39
+coordinates 8, 0.5, 1
+coordinates 9, 0.92, 0.31
+coordinates 10, 0.92,  0.39
+coordinates 11, 0.92, 1
+coordinates 12, 1,0.31
+coordinates 13, 1, 0.39
+coordinates 14, 1, 1
+transparent  0,0,0
+
+;;;;bonnet,
+[meshbuilder]
+vertex -0.67, 0.92, 1.3
+vertex -0.67, 0.92, 0.122
+vertex -0.57, 1.0, 1.3
+vertex -0.44, 0.974, 0.08
+vertex -0.30, 1.08, 1.3
+vertex -0.25, 1.01, 0.04
+vertex 0, 1.1, 1.3
+vertex 0, 1.02, 0.0
+vertex 0.30, 1.08, 1.3
+vertex 0.25, 1.01, 0.04
+vertex 0.57, 1.0, 1.3
+vertex 0.44, 0.974, 0.08
+vertex 0.67, 0.92, 1.3
+vertex 0.67, 0.92, 0.122
+face 0,2,3,1
+face 2,4,5,3
+face 4,6,7,5
+face 6,8,9,7
+face 8,10,11,9
+face 10,12,13,11
+[texture]
+load bonnet_rd.png
+coordinates 0, 0, 0
+coordinates 1, 0, 1
+coordinates 2, 0.17, 0
+coordinates 3, 0.2, 1
+coordinates 4, 0.4, 0
+coordinates 5, 0.4, 1
+coordinates 6, 0.5, 0
+coordinates 7, 0.5, 1
+coordinates 8, 0.6,0 
+coordinates 9, 0.6, 1
+coordinates 10, 0.83, 0
+coordinates 11, 0.8, 1
+coordinates 12, 1, 0
+coordinates 13, 1, 1
+
+[meshbuilder]
+vertex 0.66,  1.48, 1.16,   0.2,0.2,0
+vertex 0.66,  1.48, 3.78,   0.2,0.2,0
+vertex 0.751,  0.93, 3.78
+vertex 0.751,  0.93, 1.16
+face 0,1,2,3
+[texture]
+load top_rd.png
+coordinates 0, 1,0
+coordinates 1, 0,0
+coordinates 2, 0,1
+coordinates 3, 1,1
+transparent 0,0,0
+
+[meshbuilder]
+vertex -0.66,  1.48, 1.16,   -0.2,0.2,0
+vertex -0.66,  1.48, 3.78,   -0.2,0.2,0
+vertex -0.751,  0.93, 3.78
+vertex -0.751,  0.93, 1.16
+face 3,2,1,0
+[texture]
+load top_rd.png
+coordinates 0, 1,0
+coordinates 1, 0,0
+coordinates 2, 0,1
+coordinates 3, 1,1
+transparent 0,0,0
+
+;;;;windscreen,
+[meshbuilder]
+vertex -0.66,  1.48, 1.62,   -0.2,0.2,-0.10
+vertex -0.751,  0.93, 1.12,   -0.1,0,0
+vertex  -0.4,  1.52, 1.58,   -0.1,0.2,-0.1
+vertex  -0.4,  0.93, 1.00,   -0.1,0.2,-0.1
+vertex  0.4,  1.52, 1.58,   0.1,0.2,-0.1
+vertex  0.4,  0.93, 1.00,   0.1,0.2,-0.1
+vertex  0.66,  1.48, 1.62,   0.2,0.2,-0.10
+vertex  0.751,  0.93, 1.12,   0.1,0,0
+face 0,2,3,1
+face 2,4,5,3
+face 4,6,7,5
+[texture]
+load windscreen_rd.png
+coordinates 0, 0,0
+coordinates 1, 0,1
+coordinates 2, 0.3,0
+coordinates 3, 0.3,1
+coordinates 4, 0.7,0
+coordinates 5, 0.7,1
+coordinates 6, 1,0
+coordinates 7, 1,1
+
+;;;;rear window,
+[meshbuilder]
+vertex  0.66,  1.48, 3.195,   0.25,0.1,0.1
+vertex  0.751,  0.93, 3.76,   0.25,0,0.5
+vertex  0.4,  1.52, 3.24,   0.25,0.1,0.1
+vertex  0.4,  0.93, 3.83,    0.05,0,0.5
+vertex  -0.4,  1.52, 3.24,   -0.25,0.1,0.1
+vertex  -0.4,  0.93, 3.83,   -0.05,0,0.5
+vertex  -0.66,  1.48, 3.195,   -0.25,0.1,0.1
+vertex  -0.751,  0.93, 3.76,   -0.25,0,0.5
+face 0,2,3,1
+face 2,4,5,3
+face 4,6,7,5
+[texture]
+load backwindow_rd.png
+coordinates 0, 0,0
+coordinates 1, 0,1
+coordinates 2, 0.3,0
+coordinates 3, 0.3,1
+coordinates 4, 0.7,0
+coordinates 5, 0.7,1
+coordinates 6, 1,0
+coordinates 7, 1,1
+
+;;;;roof,
+[meshbuilder]
+vertex -0.66, 1.48, 3.195,   -0.2,0.2,0
+vertex -0.66, 1.48, 2.8,   -0.2,0.2,0.02
+vertex -0.66, 1.48, 2.0,   -0.2,0.2,0
+vertex -0.66, 1.48, 1.62,   -0.2,0.2,-0.10
+vertex -0.40, 1.52, 3.24,   -0.1,0.2,-0.1
+vertex -0.40, 1.58, 2.80,   -0.1,0.2,0.02
+vertex -0.40, 1.58, 2.0,   -0.1,0.2,0
+vertex -0.40, 1.52, 1.58,   -0.1,0.2,-0.1
+vertex   0,   1.52, 3.24,   0,0.2, 0.1
+vertex   0,   1.60, 2.80,   0.1,0.2,0.02
+vertex   0,   1.60, 2.0,   0,0.2,0
+vertex   0,   1.52, 1.58,   0,0.2,-0.1
+vertex 0.40, 1.50, 3.24,   0.1,0.2,-0.1
+vertex 0.40, 1.58, 2.80,   0.1,0.2,0.02
+vertex 0.40, 1.58, 2.0,   0.1,0.2,0
+vertex 0.40, 1.52, 1.58,   0.1,0.2,-0.1
+vertex 0.66, 1.48, 3.195,   0.2,0.2,0
+vertex 0.66, 1.48, 2.80,   0.2,0.2,0.02
+vertex 0.66, 1.48, 2.0,   0.2,0.2,0
+vertex 0.66, 1.48, 1.62,   0.2,0.2,-0.10
+face 0,4,5,1
+face 4,8,9,5
+face 8,12,13,9
+face 12,16,17,13
+face 1,5,6,2
+face 5,9,10,6
+face 9,13,14,10
+face 13,17,18,14
+face 2,6,7,3
+face 6,10,11,7
+face 10,14,15,11
+face 14,18,19,15
+[texture]
+load swatch2_rd.png
+
+;;;;wheels,
+[meshbuilder]
+cylinder 20,0.3,0.3,0.14
+rotate 0,0,1,90
+translate -0.745,0.3,0.58
+color 40,39,37
+
+[meshbuilder]
+vertex 0,0.6, -0.3
+vertex 0,0.6, 0.3
+vertex 0,0, 0.3
+vertex 0,0, -0.3
+face 0,1,2,3
+[texture]
+load wheel.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,0,0
+translate 0.82,0,0.58
+
+[meshbuilder]
+cylinder 20,0.3,0.3,0.14
+rotate 0,0,1,90
+translate -0.745,0.3,3.5
+color 40,39,37
+
+[meshbuilder]
+vertex 0,0.6, -0.3
+vertex 0,0.6, 0.3
+vertex 0,0, 0.3
+vertex 0,0, -0.3
+face 0,1,2,3
+[texture]
+load wheel.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,0,0
+translate 0.82,0,3.5
+
+[meshbuilder]
+cylinder 20,0.3,0.3,0.14
+rotate 0,0,1,90
+translate 0.745,0.3,0.58
+color 40,39,37
+
+[meshbuilder]
+vertex 0,0.6, -0.3
+vertex 0,0.6, 0.3
+vertex 0,0, 0.3
+vertex 0,0, -0.3
+face 3,2,1,0
+[texture]
+load wheel.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,0,0
+translate -0.82,0,0.58
+
+[meshbuilder]
+cylinder 20,0.3,0.3,0.14
+rotate 0,0,1,90
+translate 0.745,0.3,3.5
+color 40,39,37
+
+[meshbuilder]
+vertex 0,0.6, -0.3
+vertex 0,0.6, 0.3
+vertex 0,0, 0.3
+vertex 0,0, -0.3
+face 3,2,1,0
+[texture]
+load wheel.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,0,0
+translate -0.82,0,3.5
+
+
+[meshbuilder]
+vertex 0.751,  0.86,  0.122
+vertex 0.751, 0.86, 4.134
+vertex 0.751,  0.26,  0.122
+vertex 0.751, 0.26, 4.134
+face2 0,1,3,2
+color 40,40,40
+[meshbuilder]
+vertex -0.751,  0.86,  0.122
+vertex -0.751, 0.86, 4.134
+vertex -0.751,  0.26,  0.122
+vertex -0.751, 0.26, 4.134
+face2 0,1,3,2
+color 40,40,40
+[meshbuilder]
+vertex 0.851,  0,  0.122
+vertex 0.851, 0, 4.134
+vertex -0.851,  0,  0.122
+vertex -0.851, 0, 4.134
+face 2,3,1,0
+color 100,100,100,100
+
+
+RotateAll 0,1,0,90

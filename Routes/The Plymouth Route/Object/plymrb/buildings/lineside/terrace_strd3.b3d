@@ -1,0 +1,286 @@
+;author=Chris Lees
+;description=Terrace End #2
+;copyright=From the BVE Cornwall Plymouth Route. © 2013
+
+;Front
+[MeshBuilder]
+Vertex -4 , -0.3 ,  -6
+Vertex -4 ,  5.7 ,  -6 
+Vertex -4 ,  5.7 ,  0 
+Vertex -4 , -0.3 ,  0 
+Face  0,1,2,3
+
+[Texture]
+Load   terrace2_5.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+
+;Front Roof
+[MeshBuilder]
+Vertex -6.5 ,  7.9 ,  0 
+Vertex -4 , 5.7 ,  0 
+Vertex -4 , 5.7 ,  -6
+Vertex -6.5 , 7.9 ,  -3 
+Vertex -29.4 , 7.9 ,  -3
+Vertex -31.9 , 5.7 ,  -6
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates    0,1,0
+Coordinates    1,1,1
+Coordinates    2,0.2,1
+Coordinates    3,0.2,0
+Coordinates    4,9,0
+Coordinates    5,9,1
+
+;Rear Roof
+[MeshBuilder]
+Vertex -31.9 , 5.7 ,  -6
+Vertex -29.4 ,  7.9 ,  -3
+Vertex -29.4 ,  7.9 ,  23
+Vertex -31.9 , 5.7 ,  23
+
+Vertex -26 , 5.7 ,  -6
+Vertex -28.4 ,  7.9 ,  -3
+Vertex -28.4 ,  7.9 ,  23
+Vertex -26 , 5.7 ,  23
+Face 3,2,1,0
+Face 4,5,6,7
+
+Face 1,2,6,5
+[Texture]
+Load  ..\..\common\slates.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,6,0
+Coordinates    3,6,1
+Coordinates    4,0,1
+Coordinates    5,0,0
+Coordinates    6,6,0
+Coordinates    7,6,1
+
+
+;Even More Roof
+[MeshBuilder]
+Vertex -4 , 5.7 , 0
+Vertex -6.5 , 7.9 ,  -3 
+Vertex -29.4 , 7.9 ,  -3
+Vertex -31.9 , 5.7 ,  0
+Face 0,1,2,3
+
+[Texture]
+Load  ..\..\common\slates.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,4,0
+Coordinates    3,4,1
+
+;End 1
+[MeshBuilder]
+Vertex -4 , -0.3 ,  -6
+Vertex -4 ,  5.7 ,  -6
+Vertex -10 ,  5.7 ,  -6
+Vertex -10 , -0.3 ,  -6
+Face 3,2,1,0
+
+[Texture]
+Load   terrace2_3.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+
+;End 2
+[MeshBuilder]
+Vertex -10 , -0.3 ,  -6
+Vertex -10 ,  5.7 ,  -6
+Vertex -32 ,  5.7 ,  -6
+Vertex -32 , -0.3 ,  -6
+Face 3,2,1,0
+
+[Texture]
+Load   terrace2_1a.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,2,0
+Coordinates    3,2,1
+
+;End 3
+[MeshBuilder]
+Vertex -4 , -0.3 ,  0
+Vertex -4 ,  5.7 ,  0
+Vertex -18 ,  5.7 ,  0.001
+Vertex -18 , -0.3 ,  0.001
+Face 0,1,2,3
+
+[Texture]
+Load   terrace2_4.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,0.3,0
+Coordinates    3,0.3,1
+
+;End 4
+[MeshBuilder]
+Vertex -18 , -0.3 ,  0
+Vertex -18 ,  5.7 ,  0
+Vertex -26 ,  5.7 ,  0.001
+Vertex -26 , -0.3 ,  0.001
+Face 0,1,2,3
+
+[Texture]
+Load   terrace2_4.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+
+;Bay 1
+[MeshBuilder]
+Vertex -10.5 , -0.3 ,  -6
+Vertex -10.5 ,  5.7 ,  -6
+Vertex -11.5 ,  5.7 ,  -6.5
+Vertex -11.5 , -0.3 ,  -6.5
+Vertex -13 , -0.3 ,  -6.5
+Vertex -13 ,  5.7 ,  -6.5
+Vertex -14 ,  5.7 ,  -6
+Vertex -14 , -0.3 ,  -6
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[Texture]
+Load   terrace2_2.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+Coordinates    4,0,1
+Coordinates    5,0,0
+Coordinates    6,1,0
+Coordinates    7,1,1
+
+;Bay 2
+[MeshBuilder]
+Vertex -17 , -0.3 ,  -6
+Vertex -17 ,  5.7 ,  -6
+Vertex -18 ,  5.7 ,  -6.5
+Vertex -18 , -0.3 ,  -6.5
+Vertex -19.5 , -0.3 ,  -6.5
+Vertex -19.5 ,  5.7 ,  -6.5
+Vertex -20.5 ,  5.7 ,  -6
+Vertex -20.5 , -0.3 ,  -6
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[Texture]
+Load   terrace2_2.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+Coordinates    4,0,1
+Coordinates    5,0,0
+Coordinates    6,1,0
+Coordinates    7,1,1
+
+;Bay 2
+[MeshBuilder]
+Vertex -21.5 , -0.3 ,  -6
+Vertex -21.5 ,  5.7 ,  -6
+Vertex -22.5 ,  5.7 ,  -6.5
+Vertex -22.5 , -0.3 ,  -6.5
+Vertex -24 , -0.3 ,  -6.5
+Vertex -24 ,  5.7 ,  -6.5
+Vertex -25 ,  5.7 ,  -6
+Vertex -25 , -0.3 ,  -6
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[Texture]
+Load   terrace2_2.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+Coordinates    4,0,1
+Coordinates    5,0,0
+Coordinates    6,1,0
+Coordinates    7,1,1
+
+;Bay 3
+[MeshBuilder]
+Vertex -28 , -0.3 ,  -6
+Vertex -28 ,  5.7 ,  -6
+Vertex -29 ,  5.7 ,  -6.5
+Vertex -29 , -0.3 ,  -6.5
+Vertex -30.5 , -0.3 ,  -6.5
+Vertex -30.5 ,  5.7 ,  -6.5
+Vertex -31.5 ,  5.7 ,  -6
+Vertex -31.5 , -0.3 ,  -6
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[Texture]
+Load   terrace2_2.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+Coordinates    4,0,1
+Coordinates    5,0,0
+Coordinates    6,1,0
+Coordinates    7,1,1
+
+
+;Rear Front 1
+[MeshBuilder]
+Vertex -31.9 , -0.3 ,  -6
+Vertex -31.9 ,  5.7 ,  -6 
+Vertex -31.9 ,  5.7 ,  0 
+Vertex -31.9 , -0.3 ,  0
+Face 3,2,1,0
+
+[Texture]
+Load   terrace2_3.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+
+;Rear Front 2
+[MeshBuilder]
+Vertex -31.9 , -0.3 ,  0
+Vertex -31.9 ,  5.7 ,  0 
+Vertex -31.9 ,  5.7 ,  25
+Vertex -31.9 , -0.3 ,  25
+Face 3,2,1,0
+
+[Texture]
+Load   terrace3_1.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,3,0
+Coordinates    3,3,1
+
+;Rear
+[MeshBuilder]
+Vertex -26 , -0.3 ,  0
+Vertex -26 ,  5.7 ,  0 
+Vertex -26 ,  5.7 ,  23
+Vertex -26 , -0.3 ,  23
+Face 0,1,2,3
+
+[Texture]
+Load   terrace2_4.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,3,0
+Coordinates    3,3,1

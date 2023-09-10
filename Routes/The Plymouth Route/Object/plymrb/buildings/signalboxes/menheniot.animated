@@ -1,0 +1,7 @@
+[Object]
+states = Menheniot.b3d
+
+[Object]
+states = nameboards\Menheniot.b3d
+RotateYFunction = 3.14159
+Position = 0,-1.7,0

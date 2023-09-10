@@ -1,0 +1,1007 @@
+;Author= Chris Lees- www.bvecornwall.co.uk
+;Description= BR Seacow Ballast Wagon
+;Copyright= RB Object license
+
+[Meshbuilder]; Bogie 1a
+Vertex -0.95, -0.05, 2.95,
+Vertex -0.95, 1.20, 2.95,
+Vertex -0.95, 1.20, 0.10,
+Vertex -0.95, -0.05, 0.10,
+Face2 0, 1, 2, 3
+
+[Texture]
+Load seacow3.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 1,
+Transparent 0, 0, 255,
+
+[Meshbuilder]; Bogie 1b
+Vertex 0.95, -0.05, 2.95,
+Vertex 0.95, 1.20, 2.95,
+Vertex 0.95, 1.20, 0.10,
+Vertex 0.95, -0.05, 0.10,
+Face2 0, 1, 2, 3
+
+[Texture]
+Load seacow4.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 1,
+Transparent 0, 0, 255,
+
+[Meshbuilder]; Bogie 1c
+Vertex -0.95, 1.2, 0.10,
+Vertex 0.95, 1.2 , 0.10,
+Vertex 0.95, 0.75  , 0.10,
+Vertex -0.95, 0.75 , 0.10,
+Face2 0,1,2,3
+Color 100,100,100
+
+[Texture]
+Load seacow5.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+[Meshbuilder]; Bogie 1d
+Vertex -0.95, 1.2, 2.65,
+Vertex 0.95, 1.2 , 2.65,
+Vertex 0.95, 0.75  , 2.75,
+Vertex -0.95, 0.75 , 2.75,
+Face2 0,1,2,3
+Color 100,100,100
+
+[Texture]
+Load seacow5.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+[Meshbuilder]; Axle 2a
+Cylinder 8, 0.15, 0.15,1.85
+Rotate 0,0,90,90
+Translate 0,0.6,0.7
+Color 90,90,90
+
+[Texture]
+Load seacow5.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+[Meshbuilder]; Axle 2b
+Cylinder 8, 0.15, 0.15,1.85
+Rotate 0,0,90,90
+Translate 0,0.6,2.4
+Color 90,90,90
+
+[Texture]
+Load seacow5.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+[Meshbuilder]; Bogie 2a
+Vertex -0.95, -0.05, 10.4,
+Vertex -0.95, 1.20, 10.4,
+Vertex -0.95, 1.20, 7.55,
+Vertex -0.95, -0.05, 7.55,
+Face2 0, 1, 2, 3
+
+[Texture]
+Load seacow4.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, -1, 0,
+Coordinates 3, -1, 1,
+Transparent 0, 0, 255,
+
+[Meshbuilder]; Bogie 2b
+Vertex 0.95, -0.05, 10.4,
+Vertex 0.95, 1.20, 10.4,
+Vertex 0.95, 1.20, 7.55,
+Vertex 0.95, -0.05, 7.55,
+Face2 0, 1, 2, 3
+
+[Texture]
+Load seacow3.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, -1, 0,
+Coordinates 3, -1, 1,
+Transparent 0, 0, 255,
+
+[Meshbuilder]; Bogie 2c
+Vertex -0.95, 1.2, 10.4,
+Vertex 0.95, 1.2 , 10.4,
+Vertex 0.95, 0.75  , 10.4,
+Vertex -0.95, 0.75 , 10.4,
+Face2 0,1,2,3
+Color 100,100,100
+
+[Texture]
+Load seacow5.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+[Meshbuilder]; Bogie 2d
+Vertex -0.95, 1.2, 7.85,
+Vertex 0.95, 1.2 , 7.85,
+Vertex 0.95, 0.75  , 7.75,
+Vertex -0.95, 0.75 , 7.75,
+Face2 0,1,2,3
+Color 100,100,100
+
+[Texture]
+Load seacow5.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+[Meshbuilder]; Axle 2a
+Cylinder 8, 0.15, 0.15,1.85
+Rotate 0,0,90,90
+Translate 0,0.6,9.8
+Color 90,90,90
+
+[Texture]
+Load seacow5.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+[Meshbuilder]; Axle 2b
+Cylinder 8, 0.15, 0.15,1.85
+Rotate 0,0,90,90
+Translate 0,0.6,8.1
+Color 90,90,90
+
+[Texture]
+Load seacow5.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+[Meshbuilder]; Side 1
+Vertex -1.0, 1.20, 10.5,
+Vertex -1.0, 3.20, 10.5,
+Vertex -1.0, 3.20, 0.00,
+Vertex -1.0, 1.20, 0.00,
+Face2 0, 1, 2, 3
+
+[Texture]
+Load seacow1.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 1,
+Transparent 0, 0, 255,
+
+
+[Meshbuilder]; Side 2
+Vertex 1.0, 1.20, 10.5,
+Vertex 1.0, 3.20, 10.5,
+Vertex 1.0, 3.20, 0.00,
+Vertex 1.0, 1.20, 0.00,
+Face2 0, 1, 2, 3
+
+[Texture]
+Load seacow1.png
+Coordinates 0, 0, 1,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 1,
+Transparent 0, 0, 255,
+
+
+[Meshbuilder]; End 1
+Vertex -1.0, 2.65, 1.695,
+Vertex 1.0, 2.65 , 1.695,
+Vertex 1.0, 1.2  , 1.695,
+Vertex -1.0, 1.2 , 1.695,
+Vertex -1.0, 3.2 , 1.0
+Vertex 1.0, 3.2  , 1.0
+Face2 0,1,2,3
+Face2 0,4,5,1
+[Texture]
+Load seacow2.png
+Coordinates 0, 0, 0.27,
+Coordinates 1, 1, 0.27,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Coordinates 4, 0, -0,
+Coordinates 5, 1, -0,
+Transparent 0, 0, 0,
+
+[Meshbuilder]; End 2
+Vertex -1.0, 2.65, 8.785,
+Vertex 1.0, 2.65 , 8.785,
+Vertex 1.0, 1.2  , 8.785,
+Vertex -1.0, 1.2 , 8.785,
+Vertex -1.0, 3.2 , 9.48
+Vertex 1.0, 3.2  , 9.48
+Face2 0,1,2,3
+Face2 0,4,5,1
+[Texture]
+Load seacow2.png
+Coordinates 0, 0, 0.27,
+Coordinates 1, 1, 0.27,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Coordinates 4, 0, -0,
+Coordinates 5, 1, -0,
+Transparent 0, 0, 0,
+
+;Bufferbeam 1
+[Meshbuilder]
+Vertex -1.0, 1.47, 0,
+Vertex 1.0, 1.47 , 0,
+Vertex 1.0, 1.2  , 0,
+Vertex -1.0, 1.2 , 0,
+Face2 0,1,2,3
+
+[Texture]
+Load bufferbeam.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+;Bufferbeam 2
+[Meshbuilder]
+Vertex -1.0, 1.47, 10.5,
+Vertex 1.0, 1.47 , 10.5,
+Vertex 1.0, 1.2  , 10.5,
+Vertex -1.0, 1.2 , 10.5,
+Face2 3,2,1,0
+
+[Texture]
+Load bufferbeam.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+[Meshbuilder];Platform Top 1
+Vertex -1.0, 1.47, 0,
+Vertex 1.0, 1.47 , 0,
+Vertex 1.0, 1.47  , 1.695,
+Vertex -1.0, 1.47 , 1.695,
+Face2 0,1,2,3
+
+[Texture]
+Load ..\..\signals\semaphore\gantry_2_3.png
+Coordinates 0, 0, 0,
+Coordinates 1, 3, 0,
+Coordinates 2, 3, 3,
+Coordinates 3, 0, 3,
+
+[Meshbuilder];Platform Top 2
+Vertex -1.0, 1.47, 8.785,
+Vertex 1.0, 1.47 , 8.785,
+Vertex 1.0, 1.47  , 10.5,
+Vertex -1.0, 1.47 , 10.5,
+Face2 0,1,2,3
+
+[Texture]
+Load ..\..\signals\semaphore\gantry_2_3.png
+Coordinates 0, 0, 0,
+Coordinates 1, 3, 0,
+Coordinates 2, 3, 3,
+Coordinates 3, 0, 3,
+
+[Meshbuilder];Hopper Chute 1a
+Cube 0.01,0.6,2.4
+Translate 1.2,0.3,5.25
+Rotate 0,0,1,30
+
+[Texture]
+Load seacow6.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+
+[Meshbuilder];Hopper Chute 1b
+Cube 0.04,0.6,0.02
+Translate 1.19,0.41,5.25
+Rotate 0,0,1,25
+
+[Texture]
+Load seacow6.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];Hopper Chute 1c
+Cube 0.04,0.6,0.02
+Translate 1.19,0.41,2.85
+Rotate 0,0,1,25
+
+[Texture]
+Load seacow6.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];Hopper Chute 1d
+Cube 0.04,0.6,0.02
+Translate 1.19,0.41,7.65
+Rotate 0,0,1,25
+
+[Texture]
+Load seacow6.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];Hopper Chute 2a
+Cube 0.01,0.6,2.4
+Translate -1.2,0.3,5.25
+Rotate 0,0,1,-30
+
+[Texture]
+Load seacow6.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];Hopper Chute 2b
+Cube 0.04,0.6,0.02
+Translate -1.19,0.41,5.25
+Rotate 0,0,1,-25
+
+[Texture]
+Load seacow6.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];Hopper Chute 2c
+Cube 0.04,0.6,0.02
+Translate -1.19,0.41,2.85
+Rotate 0,0,1,-25
+
+[Texture]
+Load seacow6.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];Hopper Chute 2d
+Cube 0.04,0.6,0.02
+Translate -1.19,0.41,7.65
+Rotate 0,0,1,-25
+
+[Texture]
+Load seacow6.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];Hopper Chute 3a
+Vertex -0.75, 1.3, 7.65,
+Vertex 0.75, 1.3 , 7.65,
+Vertex 1.15, 0.32  , 7.65,
+Vertex -1.15, 0.32 , 7.65,
+Face2 0,1,2,3
+
+[Texture]
+Load seacow6.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+[Meshbuilder];Hopper Chute 3b
+Vertex -0.75, 1.3, 2.85,
+Vertex 0.75, 1.3 , 2.85 ,
+Vertex 1.15, 0.32  , 2.85,
+Vertex -1.15, 0.32 , 2.85,
+Face2 0,1,2,3
+
+[Texture]
+Load seacow6.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+[Meshbuilder];End Pillar 1a
+Cube 0.03,0.55,0.03
+Translate -0.95,1.8,0.05
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];End Pillar 1b
+Cube 0.03,0.55,0.03
+Translate -0.3,1.8,0.05
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];End Pillar 1c
+Cube 0.03,0.55,0.03
+Translate 0.3,1.8,0.05
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];End Pillar 1d
+Cube 0.03,0.55,0.03
+Translate 0.95,1.8,0.05
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];End Fence 1
+Vertex -0.94, 2.43, 0.05,
+Vertex 0.94, 2.43 , 0.05,
+Vertex 0.94, 1.47  , 0.05,
+Vertex -0.94, 1.47 , 0.05,
+Face2 0,1,2,3
+
+[Texture]
+Load seacow7.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Transparent 0,0,255
+
+[Meshbuilder];Roof Leg 1a
+Cylinder 6,0.02,0.02,1.5
+Translate -0.3,2.8,0.05
+Color 50,50,50
+
+[Meshbuilder];Roof Leg 1b
+Cylinder 6,0.02,0.02,1.5
+Translate 0.3,2.8,0.05
+Color 50,50,50
+
+[Meshbuilder];Roof Leg 1c
+Cube 0.03,0.03,0.03
+Translate -0.3,3.55,0.05
+Color 50,50,50
+
+[Meshbuilder];Roof Leg 1d
+Cube 0.03,0.03,0.03
+Translate 0.3,3.55,0.05
+Color 50,50,50
+
+[Meshbuilder];Roof Leg 1e
+Cube 0.03,0.03,0.03
+Translate -0.3,3.55,1.05
+Color 50,50,50
+
+[Meshbuilder];Roof Leg 1f
+Cube 0.03,0.03,0.03
+Translate 0.3,3.55,1.05
+Color 50,50,50
+
+[Meshbuilder];Roof Leg 1g
+Cylinder 6,0.02,0.02,1
+Translate -0.3,3.05,1.05
+Color 50,50,50
+
+[Meshbuilder];Roof Leg 1h
+Cylinder 6,0.02,0.02,1
+Translate 0.3,3.05,1.05
+Color 50,50,50
+
+[Meshbuilder];Top Mesh 1
+Vertex -0.3, 3.55, 0.05,
+Vertex 0.3, 3.55 , 0.05,
+Vertex 0.3, 3.55  , 1.05,
+Vertex -0.3, 3.55 , 1.05,
+Face2 0,1,2,3
+
+[Texture]
+Load mesh.png
+Coordinates 0, 0, 0,
+Coordinates 1, 4, 0,
+Coordinates 2, 4, 5,
+Coordinates 3, 0, 5,
+Transparent 0,0,255
+
+[Meshbuilder];Support 1a
+Cube 0.1,0.65,0.05
+Translate 2.5,0,1.05
+Rotate 0,0,1,90
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];Support 1b
+Cube 0.03,0.55,0.03
+Translate -0.62,1.85,1.05
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];Support 1c
+Cube 0.03,0.55,0.03
+Translate 0.62,1.85,1.05
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];Support 1d
+Cube 0.03,0.65,0.03
+Translate -0.61,1.05,2.2
+Rotate 1,0,0,-30
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];Support 1e
+Cube 0.03,0.65,0.03
+Translate 0.61,1.05,2.2
+Rotate 1,0,0,-30
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];Rod 1a
+Cylinder 8,0.04,0.04,1
+Rotate 1,0,0,-60
+Translate -0.5,2.35,1.3
+Color 50,50,50
+
+[Meshbuilder];Rod 1b
+Cylinder 8,0.04,0.04,1
+Rotate 1,0,0,-60
+Translate 0,2.35,1.3
+Color 50,50,50
+
+[Meshbuilder];Rod 1c
+Cylinder 8,0.04,0.04,1
+Rotate 1,0,0,-60
+Translate 0.5,2.35,1.3
+Color 50,50,50
+
+[Meshbuilder];Handwheel 1a
+Vertex -0.7, 2.8, 0.85,
+Vertex -0.3, 2.8 , 0.85,
+Vertex -0.3, 2.4  , 0.85,
+Vertex -0.7, 2.4 , 0.85,
+Face2 0,1,2,3
+
+[Texture]
+Load handwheel.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Transparent 0,0,255
+
+[Meshbuilder];Handwheel 1b
+Vertex -0.2, 2.8, 0.85,
+Vertex 0.2, 2.8 , 0.85,
+Vertex 0.2, 2.4  , 0.85,
+Vertex -0.2, 2.4 , 0.85,
+Face2 0,1,2,3
+
+[Texture]
+Load handwheel.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Transparent 0,0,255
+
+[Meshbuilder];Handwheel 1c
+Vertex 0.7, 2.8, 0.85,
+Vertex 0.3, 2.8 , 0.85,
+Vertex 0.3, 2.4  , 0.85,
+Vertex 0.7, 2.4 , 0.85,
+Face2 0,1,2,3
+
+[Texture]
+Load handwheel.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Transparent 0,0,255
+
+[Meshbuilder];End Pillar 2a
+Cube 0.03,0.55,0.03
+Translate -0.95,1.8,10.45
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];End Pillar 2b
+Cube 0.03,0.55,0.03
+Translate -0.3,1.8,10.45
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];End Pillar 2c
+Cube 0.03,0.55,0.03
+Translate 0.3,1.8,10.45
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];End Pillar 2d
+Cube 0.03,0.55,0.03
+Translate 0.95,1.8,10.45
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];End Fence 2
+Vertex -0.94, 2.43, 10.45,
+Vertex 0.94, 2.43 , 10.45,
+Vertex 0.94, 1.47  , 10.45,
+Vertex -0.94, 1.47 , 10.45,
+Face2 0,1,2,3
+
+[Texture]
+Load seacow7.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Transparent 0,0,255
+
+[Meshbuilder];Roof Leg 2a
+Cylinder 6,0.02,0.02,1.5
+Translate -0.3,2.8,10.45
+Color 50,50,50
+
+[Meshbuilder];Roof Leg 2b
+Cylinder 6,0.02,0.02,1.5
+Translate 0.3,2.8,10.45
+Color 50,50,50
+
+[Meshbuilder];Roof Leg 2c
+Cube 0.03,0.03,0.03
+Translate -0.3,3.55,10.45
+Color 50,50,50
+
+[Meshbuilder];Roof Leg 2d
+Cube 0.03,0.03,0.03
+Translate 0.3,3.55,10.45
+Color 50,50,50
+
+[Meshbuilder];Roof Leg 2e
+Cube 0.03,0.03,0.03
+Translate -0.3,3.55,9.45
+Color 50,50,50
+
+[Meshbuilder];Roof Leg 2f
+Cube 0.03,0.03,0.03
+Translate 0.3,3.55,9.45
+Color 50,50,50
+
+[Meshbuilder];Roof Leg 2g
+Cylinder 6,0.02,0.02,1
+Translate -0.3,3.05,9.45
+Color 50,50,50
+
+[Meshbuilder];Roof Leg 2h
+Cylinder 6,0.02,0.02,1
+Translate 0.3,3.05,9.45
+Color 50,50,50
+
+[Meshbuilder];Top Mesh 2
+Vertex -0.3, 3.55, 10.45,
+Vertex 0.3, 3.55 , 10.45,
+Vertex 0.3, 3.55  , 9.45,
+Vertex -0.3, 3.55 , 9.45,
+Face2 0,1,2,3
+
+[Texture]
+Load mesh.png
+Coordinates 0, 0, 0,
+Coordinates 1, 4, 0,
+Coordinates 2, 4, 5,
+Coordinates 3, 0, 5,
+Transparent 0,0,255
+
+[Meshbuilder];Support 2a
+Cube 0.1,0.65,0.05
+Translate 2.5,0,9.45
+Rotate 0,0,1,90
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];Support 2b
+Cube 0.03,0.55,0.03
+Translate -0.62,1.85,9.45
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];Support 2c
+Cube 0.03,0.55,0.03
+Translate 0.62,1.85,9.45
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];Support 2d
+Cube 0.03,0.65,0.03
+Rotate 1,0,0,30
+Translate -0.61,2.01,9.11
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];Support 1e
+Cube 0.03,0.65,0.03
+Rotate 1,0,0,30
+Translate 0.61,2.01,9.11
+
+[Texture]
+Load seacow5.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[Meshbuilder];Rod 2a
+Cylinder 8,0.04,0.04,1
+Rotate 1,0,0,60
+Translate -0.5,2.35,9.2
+Color 50,50,50
+
+[Meshbuilder];Rod 1b
+Cylinder 8,0.04,0.04,1
+Rotate 1,0,0,60
+Translate 0,2.35,9.2
+Color 50,50,50
+
+[Meshbuilder];Rod 1c
+Cylinder 8,0.04,0.04,1
+Rotate 1,0,0,60
+Translate 0.5,2.35,9.2
+Color 50,50,50
+
+[Meshbuilder];Handwheel 1a
+Vertex -0.7, 2.8, 9.65,
+Vertex -0.3, 2.8 , 9.65,
+Vertex -0.3, 2.4  , 9.65,
+Vertex -0.7, 2.4 , 9.65,
+Face2 0,1,2,3
+
+[Texture]
+Load handwheel.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Transparent 0,0,255
+
+[Meshbuilder];Handwheel 1b
+Vertex -0.2, 2.8, 9.65,
+Vertex 0.2, 2.8 , 9.65,
+Vertex 0.2, 2.4  , 9.65,
+Vertex -0.2, 2.4 , 9.65,
+Face2 0,1,2,3
+
+[Texture]
+Load handwheel.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Transparent 0,0,255
+
+[Meshbuilder];Handwheel 1c
+Vertex 0.7, 2.8, 9.65,
+Vertex 0.3, 2.8 , 9.65,
+Vertex 0.3, 2.4  , 9.65,
+Vertex 0.7, 2.4 , 9.65,
+Face2 0,1,2,3
+
+[Texture]
+Load handwheel.png
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Transparent 0,0,255
+
+[Meshbuilder]; Shadow
+Cube 0.80,0.65,5
+Translate 0,0.6,5.15
+Color 90,90,90,150

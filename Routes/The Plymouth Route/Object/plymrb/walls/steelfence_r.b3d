@@ -1,0 +1,14 @@
+[MeshBuilder]
+Vertex 2, 2, 25
+Vertex 2, 2, 0
+Vertex 2, -0.3, 0
+Vertex 2, -0.3, 25
+Face2 0,1,2,3
+
+[Texture]
+Load ..\common\Fence_14.png
+Coordinates 0, 0, 0
+Coordinates 1, 8, 0
+Coordinates 2, 8, 1
+Coordinates 3, 0, 1
+transparent 0,0,255

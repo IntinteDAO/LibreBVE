@@ -1,0 +1,336 @@
+;Drivers Side
+[MeshBuilder]
+Vertex -2,0,0.2        ,-1,0,0
+Vertex -2,0,10.5     ,-1,0,0
+Vertex -2,2.1,10.5   ,-1,1,0 
+Vertex -2,2.1,0.2      ,-1,1,0
+Vertex -1.9,2.3,0.1    ,-1,2,0
+Vertex -1.9,2.3,10.5 ,-1,2,0
+Vertex -1.7,2.5,10.5 ,0,2,0
+Vertex -1.7,2.50,0     ,0,2,0
+Vertex -1.5,2.55,-0.05     ,0,2,0
+Vertex -1.5,2.55,10.5     ,0,2,0
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 4,5,6,7
+Face2 9,8,7,6
+
+
+[Texture]
+Load wn_ln_rs.png,,
+Coordinates 0,-1,1
+Coordinates 1,0,1
+Coordinates 2,0,0.15
+Coordinates 3,-1,0.15
+Coordinates 4,-1,0.1
+Coordinates 5,0,0.1
+Coordinates 6,0,0
+Coordinates 7,-0.99,0
+Coordinates 8,-0.99,0
+Coordinates 9,0,0
+Transparent 0,0,255
+
+;Passenger Side
+[MeshBuilder]
+Vertex 0,0,0.2        ,1,0,0
+Vertex 0,0,10.5     ,1,0,0
+Vertex 0,2.1,10.5   ,1,1,0 
+Vertex 0,2.1,0.2      ,1,1,0
+Vertex -0.1,2.3,0.1    ,1,2,0
+Vertex -0.1,2.3,10.5 ,1,2,0
+Vertex -0.3,2.5,10.5 ,0,2,0
+Vertex -0.3,2.50,0     ,0,2,0
+Vertex -1.5,2.55,-0.05     ,0,2,0
+Vertex -1.5,2.55,10.5     ,0,2,0
+Face2 3,2,1,0
+Face2 2,3,4,5
+Face2 7,6,5,4
+Face2 6,7,8,9
+
+
+[Texture]
+Load wn_ln_ls.png,,
+Coordinates 0,-1,1
+Coordinates 1,0,1
+Coordinates 2,0,0.15
+Coordinates 3,-1,0.15
+Coordinates 4,-1,0.1
+Coordinates 5,0,0.1
+Coordinates 6,0,0
+Coordinates 7,-0.99,0
+Coordinates 8,-0.99,0
+Coordinates 9,0,0
+Transparent 0,0,255
+
+
+;Destination Blind
+[MeshBuilder]
+Vertex -2,2.1,0.2
+Vertex  0,2.1,0.2
+Vertex  0,2.55,-0.05
+Vertex -2,2.55,-0.05
+Face 3,2,1,0
+
+[Texture]
+Load wn_ln_db.png,
+Coordinates 0,-1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,-1,0
+Transparent 0,0,255
+
+;Front Windscreen
+[MeshBuilder]
+Vertex  0,0,0.2
+Vertex -2,0,0.2
+Vertex -2,2.15,0.2
+Vertex  0,2.15,0.2
+Face 0,1,2,3
+
+[Texture]
+Load wn_ln_fw.png,
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+
+;Mirror L
+[MeshBuilder]
+Vertex  0.2,1.1,0.3
+Vertex 0,1.1,0.3
+Vertex 0,1.8,0.3
+Vertex  0.2,1.8,0.3
+Face 0,1,2,3
+
+[Texture]
+Load Mirror.png
+Coordinates 0,-1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,-1,0
+Transparent 0,0,255
+
+;Mirror L
+[MeshBuilder]
+Vertex  0.2,1.1,0.3
+Vertex 0,1.1,0.3
+Vertex 0,1.8,0.3
+Vertex  0.2,1.8,0.3
+Face 3,2,1,0
+
+[Texture]
+Load Mirror_GL.png
+Coordinates 0,-1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,-1,0
+Transparent 0,0,255
+
+;Mirror R
+[MeshBuilder]
+Vertex -2.2,1.1,0.3
+Vertex -2,1.1,0.3
+Vertex -2,1.8,0.3
+Vertex -2.2,1.8,0.3
+Face 3,2,1,0
+
+[Texture]
+Load Mirror.png
+Coordinates 0,-1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,-1,0
+Transparent 0,0,255
+
+;Mirror R
+[MeshBuilder]
+Vertex -2.2,1.1,0.3
+Vertex -2,1.1,0.3
+Vertex -2,1.8,0.3
+Vertex -2.2,1.8,0.3
+Face 0,1,2,3
+
+[Texture]
+Load Mirror_GL.png
+Coordinates 0,-1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,-1,0
+Transparent 0,0,255
+
+;Rear
+[MeshBuilder]
+Vertex 0,0.1,10.5
+Vertex 0,2.55,10.5
+Vertex -2,2.55,10.5
+Vertex -2,0.1,10.5
+Face2 0,1,2,3
+
+[Texture]
+Load wn_ln_rw.png,,
+Coordinates 0,-1,1
+Coordinates 1,-1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Transparent 0,0,255
+
+
+
+[MeshBuilder]
+Vertex -1.7,2.2,10.2
+Vertex -1.7,2.1,10.35
+Vertex -0.3,2.1,10.35
+Vertex -0.3,2.2,10.2
+Vertex -1.7,2.65,10.42
+Vertex -0.3,2.65,10.42
+Vertex -1.7,2.6,9.1
+Vertex -0.3,2.6,9.1
+Vertex -1.7,2.5,8.9
+Vertex -0.3,2.5,8.9
+Face 0,1,2,3
+Face 0,3,5,4
+Face 4,5,7,6
+Face 9,7,5,3
+Face 0,4,6,8
+Face 9,8,6,7
+Translate 0,0,0.149
+
+[Texture]
+Load wn_ln_green.png,,
+Coordinates 0,-1,1
+Coordinates 1,-1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Coordinates 4,-1,1
+Coordinates 5,-1,0
+Coordinates 6,0,0
+Coordinates 7,0,1
+Coordinates 8,-1,1
+Coordinates 9,-1,0
+
+
+[MeshBuilder]
+Cylinder 20,0.42,0.42,0.4
+Color 30,30,30
+Rotate 0,0,90,90
+Translate -0.21,0.18,2.22
+
+[MeshBuilder]
+Vertex 0.01,0.47,1.95
+Vertex 0.01,0.47,2.53
+Vertex 0.01,-0.13,2.53
+Vertex 0.01,-0.13,1.95
+Face 0,1,2,3
+
+[Texture]
+Load frontwheel.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[MeshBuilder]
+Cylinder 20,0.42,0.42,0.4
+Color 30,30,30
+Rotate 0,0,90,90
+Translate -1.79,0.18,2.22
+
+[MeshBuilder]
+Vertex -2.01,0.47,1.95
+Vertex -2.01,0.47,2.53
+Vertex -2.01,-0.13,2.53
+Vertex -2.01,-0.13,1.95
+Face 3,2,1,0
+
+[Texture]
+Load frontwheel.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[MeshBuilder]
+Cylinder 20,0.42,0.42,0.4
+Color 30,30,30
+Rotate 0,0,90,90
+Translate -0.21,0.18,7.65
+
+[MeshBuilder]
+Vertex 0.01,0.47,7.38
+Vertex 0.01,0.47,7.98
+Vertex 0.01,-0.13,7.98
+Vertex 0.01,-0.13,7.38
+Face 0,1,2,3
+
+[Texture]
+Load rearwheel.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[MeshBuilder]
+Cylinder 20,0.42,0.42,0.4
+Color 30,30,30
+Rotate 0,0,90,90
+Translate -1.79,0.18,7.65
+
+[MeshBuilder]
+Vertex -2.01,0.47,7.38
+Vertex -2.01,0.47,7.98
+Vertex -2.01,-0.13,7.98
+Vertex -2.01,-0.13,7.38
+Face 3,2,1,0
+
+[Texture]
+Load rearwheel.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+;Bottom
+[MeshBuilder]
+Vertex -2,0,0.2
+Vertex  0,0,0.2
+Vertex  0,0,1.75
+Vertex -2,0,1.75
+Vertex -2,0.5,1.8
+Vertex  0,0.5,1.8
+Vertex  0,0.68,2.2
+Vertex -2,0.68,2.2
+Vertex -2,0.5,2.6
+Vertex  0,0.5,2.6
+Vertex  0,0,2.67
+Vertex -2,0,2.67
+Vertex -2,0,7.24
+Vertex  0,0,7.24
+Vertex  0,0.5,7.24
+Vertex -2,0.5,7.24
+Vertex -2,0.68,7.54
+Vertex  0,0.68,7.54
+Vertex  0,0.68,7.74
+Vertex -2,0.68,7.74
+Vertex -2,0.5,8.06
+Vertex  0,0.5,8.06
+Vertex  0,0,8.09
+Vertex -2,0,8.09
+Vertex -2,0.2,10.5
+Vertex  0,0.2,10.5
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+Face 8,9,10,11
+Face 13,12,11,10
+Face 12,13,14,15
+Face 17,16,15,14
+Face 16,17,18,19
+Face 21,20,19,18
+Face 20,21,22,23
+Face 25,24,23,22
+Color 60,60,60

@@ -1,0 +1,348 @@
+;author=Chris Lees
+;description=Keyham Signal Box
+;copyright=From the BVE Cornwall Plymouth Route. © 2013
+
+;Front
+[MeshBuilder]
+Vertex -4 ,  0 , -2 
+Vertex -4 ,  3 , -2 
+Vertex  4 ,  3 , -2 
+Vertex  4 ,  0 , -2 
+Face 0,1,2,3
+
+[Texture]
+Load salt_ff1.png,,
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;Rear
+[MeshBuilder]
+Vertex  4 ,  0 ,  1
+Vertex  4 ,  3 ,  1 
+Vertex -4 ,  3 ,  1 
+Vertex -4 ,  0 ,  1 
+Face 0,1,2,3
+
+[Texture]
+Load salt_rf1.png,,
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;End 1
+[MeshBuilder]
+Vertex  -4 ,  0 , -2 
+Vertex  -4 ,  3 , -2 
+Vertex  -4 ,  3 ,  1 
+Vertex  -4 ,  0 ,  1 
+Face 3,2,1,0
+
+[Texture]
+Load salt_sf1.png,,
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,-1,0
+Coordinates 3,-1,1
+
+;End 2
+[MeshBuilder]
+Vertex  4 ,  0 , -2 
+Vertex  4 ,  3 , -2 
+Vertex  4 ,  3 ,  1 
+Vertex  4 ,  0 ,  1 
+Face 0,1,2,3
+
+[Texture]
+Load salt_sf2.png,,
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,-1,0
+Coordinates 3,-1,1
+
+;Steps 1.1
+[MeshBuilder]
+Vertex -4,1.05,0.1
+Vertex -4,1.05,0.9
+Vertex -4.2,1.05,0.9
+Vertex -4.2,1.05,0.1
+Vertex -5,1.05,0.1
+Vertex -5,1.05,0.9
+Vertex -5,0,-2
+Vertex -4.2,0,-2
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 3,4,6,7
+
+[Texture]
+Load keyh_st2.png,,
+Coordinates 2,0,0.2
+Coordinates 3,0,0
+Coordinates 4,-1,0
+Coordinates 5,-1,0.2
+Coordinates 6,-1,2
+Coordinates 7,0,2
+
+;Steps 1.2
+[MeshBuilder]
+Vertex  -5 ,  0 , -2 
+Vertex  -5 ,  1.65 , -2 
+Vertex  -5 ,  1.65 ,  0.9 
+Vertex  -5 ,  0 ,  0.9 
+Vertex  -4 ,  0 ,  0.9 
+Vertex  -4 ,  1.65 ,  0.9 
+Face2 3,2,1,0
+Face2 2,3,4,5
+
+[Texture]
+Load salt_st1.png,,
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0.66,1
+Coordinates 5,0.66,0
+Transparent 1,1,255
+
+;Steps 1.2
+[MeshBuilder]
+Vertex  -4.2 ,  0 , -2 
+Vertex  -4.2 ,  1.65 , -2 
+Vertex  -4.2 ,  1.65 ,  0.1 
+Vertex  -4.2 ,  0 ,  0.1 
+Vertex  -4 ,  0 ,  0.1 
+Vertex  -4 ,  1.65 ,  0.1 
+Face2 3,2,1,0
+Face2 2,3,4,5
+
+[Texture]
+Load salt_st1.png,,
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,0.66,0
+Coordinates 3,0.66,1
+Coordinates 4,0.76,1
+Coordinates 5,0.76,0
+Transparent 1,1,255
+
+;Steps Support 1
+[MeshBuilder]
+Cube 0.05,0.5024,0.05
+Translate -4.9,0.5024,0.83
+Color 120,120,120
+
+;Steps Support 2
+[MeshBuilder]
+Cube 0.05,0.5024,0.05
+Translate -4.9,0.5024,0.03
+Color 120,120,120
+
+;roof side 1,,,
+[MeshBuilder]
+Vertex -4.1 ,  3 , -2.1
+Vertex  4.1 ,  3 , -2.1 
+Vertex  2.1 ,  4.5 ,  -0.5 
+Vertex -2.1 ,  4.5 ,  -0.5
+Vertex -4.1 ,  3 ,  1.1
+Vertex  4.1 ,  3 ,  1.1
+Vertex -4.1 ,  3 ,  1.1
+Vertex  4.1 ,  3 ,  1.1
+Face 3,2,1,0
+Face 2,3,4,5
+Face 6,3,0
+Face 1,2,7
+Face 0,1,7,6
+Color 140,140,140
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates 0,0,0
+Coordinates 1,3,0
+Coordinates 2,2.5,1.5
+Coordinates 3,0.5,1.5
+Coordinates 4,0,0
+Coordinates 5,3,0
+Coordinates 6,2,0
+Coordinates 7,1,0
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,4.4
+Rotate 0,0,1,90
+
+Translate 0,4.4,-0.5
+[Texture]
+Load ..\..\common\rooftiles1.png,,,
+Coordinates 0,0,0
+Coordinates 1,0,12
+Coordinates 2,0.1,0
+Coordinates 3,0.1,12
+Coordinates 4,0.2,0
+Coordinates 5,0.2,12
+Coordinates 6,0.3,0
+Coordinates 7,0.3,12
+Coordinates 8,0.4,0
+Coordinates 9,0.4,12
+Coordinates 10,0.5,0
+Coordinates 11,0.5,12
+Coordinates 12,0.5,0
+Coordinates 13,0.5,12
+Coordinates 14,0.6,0
+Coordinates 15,0.6,12
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,2.85
+Rotate 0,0,1,-60
+Rotate 0,1,0,38
+
+Translate -3.1,3.7,0.3
+[Texture]
+Load ..\..\common\rooftiles1.png,,,
+Coordinates 0,0,0
+Coordinates 1,0,8
+Coordinates 2,0.1,0
+Coordinates 3,0.1,8
+Coordinates 4,0.2,0
+Coordinates 5,0.2,8
+Coordinates 6,0.3,0
+Coordinates 7,0.3,8
+Coordinates 8,0.4,0
+Coordinates 9,0.4,8
+Coordinates 10,0.5,0
+Coordinates 11,0.5,8
+Coordinates 12,0.5,0
+Coordinates 13,0.5,8
+Coordinates 14,0.6,0
+Coordinates 15,0.6,8
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,2.85
+Rotate 0,0,1,-60
+Rotate 0,1,0,-38
+
+Translate -3.1,3.7,-1.3
+[Texture]
+Load ..\..\common\rooftiles1.png,,,
+Coordinates 0,0,0
+Coordinates 1,0,8
+Coordinates 2,0.1,0
+Coordinates 3,0.1,8
+Coordinates 4,0.2,0
+Coordinates 5,0.2,8
+Coordinates 6,0.3,0
+Coordinates 7,0.3,8
+Coordinates 8,0.4,0
+Coordinates 9,0.4,8
+Coordinates 10,0.5,0
+Coordinates 11,0.5,8
+Coordinates 12,0.5,0
+Coordinates 13,0.5,8
+Coordinates 14,0.6,0
+Coordinates 15,0.6,8
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,2.85
+Rotate 0,0,1,60
+Rotate 0,1,0,-38
+
+Translate 3.1,3.7,0.3
+[Texture]
+Load ..\..\common\rooftiles1.png,,,
+Coordinates 0,0,0
+Coordinates 1,0,8
+Coordinates 2,0.1,0
+Coordinates 3,0.1,8
+Coordinates 4,0.2,0
+Coordinates 5,0.2,8
+Coordinates 6,0.3,0
+Coordinates 7,0.3,8
+Coordinates 8,0.4,0
+Coordinates 9,0.4,8
+Coordinates 10,0.5,0
+Coordinates 11,0.5,8
+Coordinates 12,0.5,0
+Coordinates 13,0.5,8
+Coordinates 14,0.6,0
+Coordinates 15,0.6,8
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,2.85
+Rotate 0,0,1,60
+Rotate 0,1,0,38
+
+Translate 3.1,3.7,-1.3
+[Texture]
+Load ..\..\common\rooftiles1.png,,,
+Coordinates 0,0,0
+Coordinates 1,0,8
+Coordinates 2,0.1,0
+Coordinates 3,0.1,8
+Coordinates 4,0.2,0
+Coordinates 5,0.2,8
+Coordinates 6,0.3,0
+Coordinates 7,0.3,8
+Coordinates 8,0.4,0
+Coordinates 9,0.4,8
+Coordinates 10,0.5,0
+Coordinates 11,0.5,8
+Coordinates 12,0.5,0
+Coordinates 13,0.5,8
+Coordinates 14,0.6,0
+Coordinates 15,0.6,8
+
+;Chimney 1
+[MeshBuilder]
+Cube 0.2,0.6,0.2
+Translate 2.0,4,0
+
+[Texture]
+Load ..\..\common\redbrick3.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,0.5,0
+Coordinates 1,0.5,1
+Coordinates 4,1,0
+Coordinates 5,1,1
+Coordinates 7,0.5,0
+Coordinates 6,0.5,1
+
+;Chimney 1
+[MeshBuilder]
+Cube 0.15,0.6,0.15
+Translate 2.0,4.4,0
+
+[Texture]
+Load ..\..\common\redbrick3.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,0.4,0
+Coordinates 1,0.4,1
+Coordinates 4,0.8,0
+Coordinates 5,0.8,1
+Coordinates 7,0.4,0
+Coordinates 6,0.4,1
+
+;Chimney Pot
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,0.3
+Translate 2,5.1,0
+
+[Texture]
+Load plymouth\chimneypot.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1

@@ -1,0 +1,24 @@
+;Main Loco Body
+[Object]
+States = 16xx.b3d
+Position = 0,0,0
+
+;Driving Wheels 1
+[Object]
+States = driving.b3d
+Position = 0,0.65,2.05
+
+;Driving Wheels 2
+[Object]
+States = driving.b3d
+Position = 0,0.65,-0.25
+
+;Driving Wheels 3
+[Object]
+States = driving.b3d
+Position = 0,0.65,-2.44
+
+[Object]
+States = Rod.b3d
+Position = 0,-0.3,-6.3
+

@@ -1,0 +1,76 @@
+[MeshBuilder]
+Vertex -12, 6.02, 26,
+Vertex 3.5, -5.3, 26,
+Vertex 3.5, -5.3, -16.5,
+Vertex -12.0, 6, 0,
+Vertex -80.0, -1, -16.5,
+Vertex -25,5,26
+Face 0,1,2,3,
+Face 3,2,4,
+Face 4,5,0,3
+
+[Texture]
+Load ..\common\grass6.png,
+Coordinates 0, 0, 0,
+Coordinates 1, 6, 0,
+Coordinates 2, 6, 6,
+Coordinates 3, 0, 6,
+Coordinates 4, 6, 12
+Coordinates 5, 0, 2,
+
+[MeshBuilder]
+Cube 0.05,0.7,0.05
+Translate -12,6.4,6
+Color 200,200,200
+
+[MeshBuilder]
+Cube 0.05,0.7,0.05
+Translate -12,6.4,18
+Color 200,200,200
+
+[MeshBuilder]
+Vertex -12, 7, 25
+Vertex -12, 7, 0
+Vertex -12, 5.7, 0
+Vertex -12, 5.7, 25
+Face2 3,2,1,0
+
+[Texture]
+Load fence2.png
+Coordinates 0, 0, 0
+Coordinates 1, 8, 0
+Coordinates 2, 8, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -10, 14, 10.1
+Vertex -10, 5, 10.1
+Vertex -18, 5, 10.1
+Vertex -18, 14, 10.1
+Vertex -12.9, 14, 12.8
+Vertex -12.9, 5, 12.8
+Vertex -12.9, 5, 6.2
+Vertex -12.9, 14, 6.2
+Face2 0,1,2,3
+Face2 4,5,6,7
+
+[Texture]
+Load ..\plants\tree1.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Coordinates 4,0,0
+Coordinates 5,0,1
+Coordinates 6,1,1
+Coordinates 7,1,0
+Transparent 0, 0, 255
+
+
+
+
+
+
+
+

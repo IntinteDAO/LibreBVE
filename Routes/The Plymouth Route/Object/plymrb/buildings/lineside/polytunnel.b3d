@@ -1,0 +1,63 @@
+;Author=Zaigron
+;Description=Polytunnel
+;Copyright=Freeware from BVE Klub Magyar Objektumtar
+
+
+[Meshbuilder]
+Cylinder 15, 2.5, 2.5, 30
+Rotate 0, 0, 1, -90
+[Texture]
+Load polytunnel1.png
+Coordinates 0, 0, 1
+Coordinates 1, 2, 1
+Coordinates 2, 0, 0.9
+Coordinates 3, 2, 0.9
+Coordinates 4, 0, 0.8
+Coordinates 5, 2, 0.8
+Coordinates 6, 0, 0.7
+Coordinates 7, 2, 0.7
+Coordinates 8, 0, 0.6
+Coordinates 9, 2, 0.6
+Coordinates 10, 0, 0.5
+Coordinates 11, 2, 0.5
+Coordinates 12, 0, 0.4
+Coordinates 13, 2, 0.4
+Coordinates 14, 0, 0.3
+Coordinates 15, 2, 0.3
+Coordinates 16, 0, 0.3
+Coordinates 17, 2, 0.3
+Coordinates 18, 0, 0.4
+Coordinates 19, 2, 0.4
+Coordinates 20, 0, 0.5
+Coordinates 21, 2, 0.5
+Coordinates 22, 0, 0.6
+Coordinates 23, 2, 0.6
+Coordinates 24, 0, 0.7
+Coordinates 25, 2, 0.7
+Coordinates 26, 0, 0.8
+Coordinates 27, 2, 0.8
+Coordinates 28, 0, 0.9
+Coordinates 29, 2, 0.9
+
+[Meshbuilder]
+vertex 15.01, -0.4, 2.5
+vertex 15.01, -0.4, -2.5
+vertex 15.01, 2.5, -2.5
+vertex 15.01, 2.5, 2.5
+vertex -15.01, -0.4, 2.5
+vertex -15.01, -0.4, -2.5
+vertex -15.01, 2.5, -2.5
+vertex -15.01, 2.5, 2.5
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load polytunnel2.png
+Coordinates 0, 1, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0,0
+Coordinates 3, 1,0
+Coordinates 4, 1, 1
+Coordinates 5, 0, 1
+Coordinates 6, 0,0
+Coordinates 7, 1,0
+Transparent 0, 0, 255 

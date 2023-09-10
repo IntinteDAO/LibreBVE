@@ -1,0 +1,74 @@
+;Description=St Budeaux Left Station Wall Object
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route © 2013
+
+;Grass 1
+[MeshBuilder]
+Vertex 5.9,1,25.5
+Vertex 2.5,-0.5,0
+Vertex 11.5,1,0
+Vertex 14.5,3,25.5
+Vertex 15.7,3,25.5
+Vertex 12.7,1,0
+Vertex 17,-5,0
+Vertex 20,-5,25.5
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0.8
+Coordinates 5, 2, 0.8
+Coordinates 6, 2, -0.2
+Coordinates 7, 0, -0.2
+
+;Grass 2
+[MeshBuilder]
+Vertex 2.5,-0.5,0
+Vertex 2.5,-5,-8
+Vertex 7.5,-5,-8
+Vertex 11.5,1,0
+Vertex 12.7,1,0
+Vertex 8.7,-5,-8
+Vertex 13,-5,-8
+Vertex 17,-5,0
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0.8
+Coordinates 5, 1, 0.8
+Coordinates 6, 1, -0.2
+Coordinates 7, 0, -0.2
+
+;Fence
+[MeshBuilder]
+Vertex 6.3,2,25.5
+Vertex 6.3,1,25.5
+Vertex 6.3,1,10.5
+Vertex 6.3,2,10.5
+Vertex 6.3,1,0
+Vertex 6.3,0,0
+Face2 3,2,1,0
+Face2 2,3,4,5
+
+[Texture]
+Load ..\common\Fence_18.png
+Coordinates 0, 0, -1
+Coordinates 1, 0, 0
+Coordinates 2, 7, 0
+Coordinates 3, 7, -1
+Coordinates 4, 12, -1
+Coordinates 5, 12, 0
+Transparent 0,0,255

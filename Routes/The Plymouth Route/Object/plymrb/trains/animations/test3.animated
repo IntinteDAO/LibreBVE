@@ -1,0 +1,10 @@
+[Object]
+States = ..\cl47_BR_blue\47402_LEA.csv
+Position = -4,0,0
+StateFunction = if[trackdistance > 200, 0 , min[value + 0.5 * delta / 120 , 1]]
+TrackFollowerFunction =  if[value == 0, value + 200, if[trackdistance > 200,value,if[value < 0, value, value - 10 * delta]]]
+
+
+[Object]
+States = ..\cl47_BR_blue\47402_LEA.csv
+Position = 0,0,0

@@ -1,0 +1,713 @@
+;;Freeobjects
+.freeobj(0) plymrb\signs\ne5.b3d
+.freeobj(1) plymrb\platforms\common\PlatformLeft_Straight_0.csv
+
+.freeobj(3) plymrb\tracks\brown.b3d
+.freeobj(4) plymrb\tracks\brown2.b3d
+.freeobj(5) plymrb\tracks\switch_brownLR_R.animated
+
+.freeobj(7) plymrb\platforms\common\PlatformRight_Straight_0.csv
+
+
+.freeobj(10) plymrb\plants\field1.b3d
+
+.freeobj(12) plymrb\misc\schotter1.b3d
+
+
+
+
+.freeobj(18) plymrb\misc\bufferstop.csv
+
+
+
+
+
+
+
+
+
+
+
+.freeobj(34) plymrb\misc\furniture\modernbench.b3d
+
+;;36- Cricket match
+;;37- Pair of engineers
+.freeobj(38) plymrb\misc\RM_parked.b3d            ;;Parked Royal Mail trailer
+.freeobj(39) plymrb\misc\furniture\phonebox_k6.b3d
+.freeobj(40) plymrb\walls\oldlaria_end.b3d
+
+.freeobj(42) plymrb\trains\DMU\dmuend.b3d
+
+.freeobj(46) plymrb\buildings\stations\shelters\glasshelter.b3d
+
+
+.freeobj(51) plymrb\grounds\RAB_STE.b3d     ;;;Royal Albert Bridge Ground part
+.freeobj(52) plymrb\tracks\road_ra1.b3d
+
+
+
+
+
+.freeobj(58) plymrb\platforms\canopy_n3.b3d
+.freeobj(59) plymrb\platforms\canopy_n2.b3d
+.freeobj(60) plymrb\plants\flowerbed.b3d
+.freeobj(61) plymrb\platforms\canopy_n.b3d
+.freeobj(62) plymrb\plants\floweringbush01.b3d
+
+
+
+
+
+
+
+.freeobj(73) plymrb\walls\bridge_steel3_l.b3d
+.freeobj(74) plymrb\walls\bridge_steel3_r.b3d
+.freeobj(75) plymrb\plants\trees_r_20.csv
+
+
+
+
+
+.freeobj(83) plymrb\buildings\lineside\terrace1_l.b3d
+
+
+
+.freeobj(106) plymrb\platforms\liftop.b3d
+
+.freeobj(108) plymrb\buildings\lineside\terrace2_l.b3d
+
+.freeobj(110) plymrb\walls\barbedwirefence.b3d
+
+
+
+.freeobj(115) plymrb\misc\tractor.b3d
+
+
+.freeobj(119) plymrb\buildings\stations\shelters\shelter_w.b3d
+.freeobj(120) plymrb\buildings\signalboxes\Liskeard.b3d
+
+.freeobj(122) plymrb\LQSigs\GWR_21.b3d
+
+
+.freeobj(125) plymrb\LQSigs\homelq_arm.b3d
+
+.freeobj(127) plymrb\LQSigs\distlq_arm.b3d
+
+;129- Green DMU
+;130- Green DMU
+.freeobj(131) plymrb\buildings\lineside\portacabin.b3d
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;==> Re-aligning of time periods.
+
+
+
+.freeobj(136) plymrb\misc\skip.b3d
+;137- 60s only
+.freeobj(138) plymrb\buildings\lineside\terrace1.b3d
+
+.freeobj(140) plymrb\signals\shunt1.b3d
+
+.freeobj(142) plymrb\buildings\lineside\billboard80.b3d
+.freeobj(143) plymrb\buildings\lineside\billboard80_1.b3d
+.freeobj(144) plymrb\buildings\lineside\billboard80_2.b3d
+.freeobj(145) plymrb\misc\80lamp.b3d
+
+;147- 60s only
+;148- 60s only
+;149- Semaphore gantry==> 60s only?
+
+.freeobj(151) plymrb\buildings\railway\pway_hut.b3d
+
+.freeobj(153) plymrb\bridges\tunnelblack.animated
+.freeobj(154) plymrb\tracks\roadleft_90_30.b3d
+.freeobj(155) plymrb\buildings\railway\gate.b3d
+;;Animated smoke
+.freeobj(156) plymrb\trains\animations\steam.animated
+.freeobj(157) plymrb\trains\animations\clag.animated
+.freeobj(158) plymrb\trains\animations\taillamp.animated
+.freeobj(159) plymrb\misc\roundabout.b3d
+
+
+;;SHIFT DUMMY SIGNALS & TSR BITS TO 165 ONWARDS
+.freeobj(166) plymrb\signals\3Aspect_Ind0_dummy.animated
+.freeobj(167) plymrb\signs\TSR\tsr_20mph.b3d
+.freeobj(168) plymrb\signs\TSR\tsr_end.b3d
+.freeobj(169) plymrb\signs\TSR\eng_possesion.b3d
+
+.freeobj(176) plymrb\signals\AWSmagnet_1.csv                            ;;Dummy AWS magnet rotate 180� for placement
+.freeobj(177) plymrb\signals\semaphore\distant_dummy.animated
+
+
+
+
+
+;;SHIFT VEICLES TO 180 ONWARDS
+.freeobj(179) plymrb\misc\null.b3d
+.freeobj(180) plymrb\misc\transit.b3d
+.freeobj(181) plymrb\misc\stobart.animated
+.freeobj(182) plymrb\misc\lorry.b3d
+.freeobj(183) plymrb\misc\bedford.animated
+.freeobj(184) plymrb\misc\a7.b3d
+.freeobj(185) plymrb\misc\decker2.animated
+.freeobj(186) plymrb\misc\citybus.b3d
+.freeobj(187) plymrb\misc\leyland_wn.animated
+.freeobj(188) plymrb\misc\landrover.b3d
+.freeobj(189) plymrb\misc\xsara.b3d
+.freeobj(190) plymrb\misc\polo.b3d
+.freeobj(191) plymrb\misc\traffic.animated
+.freeobj(192) plymrb\misc\traffic2.animated
+
+;;SHIFT NEW POINTWORK TO 201 ONWARDS
+.freeobj(201) plymrb\tracks\W-750m_2m_50m.csv
+.freeobj(202) plymrb\tracks\W-700m_2m_50m.csv
+.freeobj(203) plymrb\tracks\crossing.b3d       ;;45� crossing straight track
+.freeobj(204) plymrb\tracks\singleslip.b3d     ;;Single slip 25m long
+.freeobj(205) plymrb\tracks\switch_3way.b3d    ;;3-way switch for outside Plymouth
+.freeobj(206) plymrb\tracks\switch_50RL.b3d    ;;Standard spec 50m long
+;;207- Reserved for 50m long left branching standard
+.freeobj(208) plymrb\tracks\switch_500L.b3d    ;;Curved switches for outside Plymouth
+.freeobj(209) plymrb\tracks\switch_500R.b3d
+;;210- 60s only- Defiance Platform
+;;211- 60s only- Defiance Platform
+;;212- 60s only- Defiance Platform
+.freeobj(213) plymrb\tracks\switchRR_offset.b3d
+.freeobj(214) plymrb\tracks\switch_brownRLL.csv
+
+.freeobj(215) plymrb\tracks\plymxng.animated         ;;60s only remove later
+.freeobj(216) plymrb\tracks\dvp1.b3d
+.freeobj(217) plymrb\tracks\dvp3.b3d
+.freeobj(218) plymrb\tracks\dvp4.b3d
+
+
+
+;;SHIFT ANIMALS TO 220 ONWARDS
+.freeobj(220) plymrb\misc\null.b3d
+.freeobj(221) plymrb\misc\cows.b3d
+.freeobj(222) plymrb\misc\cows.b3d
+.freeobj(223) plymrb\misc\sheeps.b3d
+.freeobj(224) plymrb\misc\pigs.b3d
+.freeobj(225) plymrb\misc\horse.b3d
+.freeobj(226) plymrb\misc\deer.b3d
+
+;;SHIFT TUNNELS TO 230 ONWARDS
+.freeobj(230) plymrb\bridges\tunnel1.b3d
+.freeobj(231) plymrb\bridges\tunnel2.b3d
+.freeobj(232) plymrb\bridges\tunnel3.b3d
+.freeobj(233) plymrb\bridges\devonport_tunx.b3d  ;;Retaining wall at S end of Devonport tunnel
+
+;;SHIFT NEW BRIDGES TO 240 ONWARDS
+.freeobj(240) plymrb\bridges\downsloped.csv
+
+.freeobj(242) plymrb\bridges\defianceplat.csv
+.freeobj(243) plymrb\bridges\underbridge3.b3d
+
+.freeobj(246) plymrb\bridges\underbridge.b3d
+.freeobj(247) plymrb\bridges\oldlaira.b3d
+.freeobj(248) plymrb\bridges\oldlaira_eb.b3d
+.freeobj(249) plymrb\bridges\test1.b3d
+.freeobj(250) plymrb\bridges\underbridge2.b3d
+.freeobj(251) plymrb\bridges\saltashrd.b3d
+.freeobj(252) plymrb\bridges\stuartroad_80.b3d ;;Alternate Era Version
+.freeobj(253) plymrb\bridges\stuartroad1.b3d
+.freeobj(254) plymrb\bridges\stuartroad2.b3d
+.freeobj(255) plymrb\bridges\wingfieldwy.csv
+.freeobj(256) plymrb\bridges\molesworthrd.b3d
+.freeobj(257) plymrb\walls\PLY-DEV\embankment_tt_l.b3d ;;Use for Molesworth Road rotated
+.freeobj(258) plymrb\bridges\theelms.b3d
+.freeobj(259) plymrb\bridges\dvpt.b3d
+
+;;SHIFT SIGNS TO 260 ONWARDS in appearance order
+.freeobj(260) plymrb\signs\platendsign.b3d
+.freeobj(261) plymrb\signs\sta80\plymsign.b3d
+.freeobj(262) plymrb\signs\sta80\devsign.b3d
+.freeobj(263) plymrb\signs\sta80\docksign.b3d
+.freeobj(264) plymrb\signs\sta80\keysign.b3d
+.freeobj(265) plymrb\signs\sta80\stbsign.b3d
+.freeobj(266) plymrb\signs\saltash_w.b3d
+.freeobj(267) plymrb\signs\sta80\saltsign.b3d
+.freeobj(268) plymrb\signs\sta80\mensign.b3d
+.freeobj(269) plymrb\signs\sta80\lisksign.b3d
+.freeobj(270) plymrb\signs\sta80\stgsign.b3d
+
+;;Dockyard ends [Stone wall]
+.freeobj(278) plymrb\platforms\Dockyard\PlatformLeft_Straight_RD_2_DCK.csv
+.freeobj(279) plymrb\platforms\Dockyard\PlatformRight_Straight_RD_2_DCK.csv
+;;Plymouth Ends
+.freeobj(280) plymrb\platforms\Plymouth\PlatformLeft_RU_L350_0.csv
+
+;;Defiance Platform components
+;NEW
+.freeobj(284) plymrb\platforms\Defiance\PlatformLeft_RU_Straight_DLT.csv  ;;Derelict
+.freeobj(285) plymrb\platforms\Defiance\PlatformRight_RU_Straight_DLT.csv
+.freeobj(286) plymrb\platforms\Defiance\PlatformLeft_R500_DLT.csv
+.freeobj(287) plymrb\platforms\Defiance\PlatformRight_R500_DLT.csv
+.freeobj(288) plymrb\platforms\Defiance\PlatformLeft_RD_R500_DLT.csv
+.freeobj(289) plymrb\platforms\Defiance\PlatformRight_RD_R500_DLT.csv
+
+;;Straight ends
+.freeobj(291) plymrb\platforms\common\PlatformLeft_RD_Straight_0.csv
+.freeobj(292) plymrb\platforms\common\PlatformRight_RD_Straight_0.csv
+.freeobj(293) plymrb\platforms\common\PlatformLeft_RU_Straight_0.csv
+.freeobj(294) plymrb\platforms\common\PlatformRight_RU_Straight_0.csv
+;;Dummy top bit for Plymouth
+.freeobj(295) plymrb\platforms\Plymouth\Platform_DT.b3d
+;;Thin straight ends
+.freeobj(296) plymrb\platforms\Plymouth\PlatformLeft_RD_Straight_1.csv
+.freeobj(297) plymrb\platforms\Plymouth\PlatformRight_RD_Straight_1.csv
+
+;;
+.freeobj(300) plymrb\platforms\Plymouth\PlatformLeft_RD_L200_0.csv
+.freeobj(301) plymrb\platforms\Plymouth\PlatformRight_RD_R200_0.csv
+
+;;Keyham ends [Metal fence]
+.freeobj(303) plymrb\platforms\Keyham\PlatformLeft_RU_Straight_4.csv
+.freeobj(304) plymrb\platforms\Keyham\PlatformLeft_RD_Straight_4.csv
+
+
+.freeobj(305) plymrb\platforms\StGermans\PlatformLeft_RU_R750.csv
+.freeobj(306) plymrb\platforms\StGermans\PlatformLeft_RD_L1500.csv
+.freeobj(307) plymrb\platforms\StGermans\PlatformRight_RD_L1500.csv
+
+.freeobj(324) plymrb\platforms\StGermans\PlatformRight_RU_R750.csv
+.freeobj(325) plymrb\platforms\StGermans\PlatformLeft_RU_Straight.csv
+.freeobj(326) plymrb\platforms\StGermans\PlatformLeft_Straight_WF.csv
+
+
+
+
+;;Menheniot Ends
+.freeobj(311) plymrb\platforms\Menheniot\PlatformLeft_RD_R1600.csv
+.freeobj(312) plymrb\platforms\Menheniot\PlatformRight_RD_R1600.csv
+.freeobj(313) plymrb\platforms\Menheniot\PlatformLeft_RU_R1600.csv
+.freeobj(314) plymrb\platforms\Menheniot\PlatformRight_RU_R1600.csv
+
+
+.freeobj(319) plymrb\platforms\common\PlatformLeft_Straight_0.csv
+;;Devonport ends [Curved 600m- Normal width fence L]
+.freeobj(320) plymrb\platforms\Devonport\PlatformLeft_RD_R600.csv
+.freeobj(321) plymrb\platforms\Devonport\PlatformRight_RD_R600.csv
+;New Keyham Ends [Wide ST]
+.freeobj(322) plymrb\platforms\Keyham\PlatformLeft_RU_Straight_6.csv
+.freeobj(323) plymrb\platforms\Keyham\PlatformLeft_RD_Straight_0_KEY.csv
+
+;LEAVE 4
+.freeobj(327) plymrb\platforms\StBudeaux\PlatformLeft_RU_L700_0.csv
+.freeobj(328) plymrb\platforms\StBudeaux\PlatformRight_RU_L700_0.csv
+.freeobj(329) plymrb\platforms\StBudeaux\PlatformLeft_RU_Straight_7.csv  ;;Super wide end to join rock wall at St Budeaux
+
+
+.freeobj(332) plymrb\platforms\Saltash\PlatformLeft_RU_L1000.csv ;;NEW SALTASH PLATFORMS
+.freeobj(333) plymrb\platforms\Saltash\PlatformRight_RU_L150.csv
+.freeobj(334) plymrb\platforms\Saltash\PlatformLeft_RD_L550.csv
+.freeobj(335) plymrb\platforms\Saltash\PlatformRight_RD_L550.csv
+
+
+;;NEW BUILDINGS FROM 350 ONWARDS
+.freeobj(350) plymrb\buildings\stations\shelters\pagoda.b3d
+
+;;352- 1960s signalbox for Plymouth
+.freeobj(353) plymrb\buildings\lineside\peh.b3d
+.freeobj(354) plymrb\buildings\lineside\prm.b3d
+.freeobj(355) plymrb\buildings\railway\psrm.b3d
+.freeobj(356) plymrb\buildings\lineside\mut_cpk.b3d
+.freeobj(357) plymrb\buildings\railway\pstg.b3d
+.freeobj(358) plymrb\buildings\lineside\detached_w1.b3d
+.freeobj(359) plymrb\buildings\lineside\shed1.b3d         ;;Garden shed
+.freeobj(360) plymrb\buildings\lineside\greenhouse.b3d    ;;Greenhouse
+.freeobj(361) plymrb\buildings\lineside\gblock.b3d        ;;5 garages
+.freeobj(362) plymrb\buildings\lineside\mut_idu.b3d
+.freeobj(363) plymrb\buildings\lineside\terrace_end.b3d
+.freeobj(364) plymrb\buildings\lineside\ete.b3d
+.freeobj(365) plymrb\buildings\lineside\fence2h_40m_r.b3d
+.freeobj(366) plymrb\buildings\railway\pway_hut1.b3d
+.freeobj(367) plymrb\buildings\lineside\stonefence.b3d    ;;Fence for houses
+
+.freeobj(369) plymrb\buildings\railway\psrt1.b3d
+.freeobj(370) plymrb\buildings\lineside\semi.b3d
+.freeobj(371) plymrb\buildings\lineside\shops1.b3d        ;;Greengrocers & newsagent
+.freeobj(372) plymrb\buildings\lineside\shops2.b3d        ;;Boarded & newsagent
+.freeobj(373) plymrb\buildings\lineside\dha.b3d
+.freeobj(374) plymrb\buildings\lineside\councilflats1.b3d
+.freeobj(375) plymrb\buildings\lineside\councilflats_dha1.animated  ;;Multiobj for DeLa Haye Avenue
+.freeobj(376) plymrb\buildings\lineside\dbgl.b3d
+.freeobj(377) plymrb\buildings\lineside\mwrtrd.b3d
+.freeobj(378) plymrb\buildings\lineside\60semi_l.csv
+.freeobj(379) plymrb\buildings\lineside\wingbh.b3d
+.freeobj(380) plymrb\buildings\lineside\mwtrd_01.b3d
+.freeobj(381) plymrb\buildings\lineside\devst_01.b3d
+.freeobj(382) plymrb\buildings\railway\plymgs.b3d
+;383- Lipsom Junction Signal Box- 60s
+
+;;Trains from 390 onwards
+;;390 onwards reserved for locos
+.freeobj(391) plymrb\trains\Cl50\Class50.animated
+.freeobj(392) plymrb\trains\Cl35\D7076.b3d
+.freeobj(394) plymrb\trains\Cl25\Class25_Blue.b3d
+.freeobj(395) plymrb\trains\Cl47_Intercity_swallow\47826_LEA.csv
+.freeobj(396) plymrb\trains\Cl47_BR_blue\47402_LEA.csv
+.freeobj(397) plymrb\trains\Cl08\Class08_Blue.b3d
+.freeobj(398) plymrb\trains\Cl37\class37_2.b3d
+
+.freeobj(400) plymrb\trains\Cl08\Class08.b3d
+.freeobj(401) plymrb\trains\wagons\banana.animated
+.freeobj(402) plymrb\trains\Coaches\mk1_res.animated
+.freeobj(403) plymrb\trains\Coaches\guv_blue.animated
+.freeobj(404) plymrb\trains\Coaches\mk1_bk_itc.animated
+.freeobj(405) plymrb\trains\Coaches\mk1_bck_blue.animated
+.freeobj(406) plymrb\trains\Coaches\mk1_tso_blue.animated
+
+.freeobj(407) plymrb\trains\animations\ballastrain.animated  ;;Moving ballast train for use on straight
+.freeobj(408) plymrb\trains\wagons\cw-evgreen.b3d
+.freeobj(409) plymrb\trains\wagons\cw-maersk.b3d
+.freeobj(410) plymrb\trains\wagons\cw-ned.b3d
+.freeobj(411) plymrb\trains\wagons\cw-opdr.b3d
+.freeobj(412) plymrb\trains\wagons\cw-triton.b3d
+.freeobj(413) plymrb\trains\wagons\cw-end.b3d
+$If($Rnd(0;1))
+.freeobj(414) plymrb\trains\animations\CL47_pass.animated
+$Else()
+.freeobj(414) plymrb\trains\animations\CL47_pass2.animated
+$EndIf()
+.freeobj(415) plymrb\trains\wagons\45T_BitumenTanker.animated
+.freeobj(416) plymrb\trains\wagons\20T_Brake_Grey.animated
+.freeobj(417) plymrb\trains\Coaches\mk1_bck_choc.animated
+
+
+;;CUSTOM ROAD & ASSORTED BITS FROM 500 ONWARDS
+.freeobj(500) plymrb\tracks\road_mu2.b3d
+.freeobj(501) plymrb\tracks\road_cobb4.b3d
+.freeobj(502) plymrb\tracks\road_mu4.b3d
+.freeobj(503) plymrb\tracks\stlrd_mo.animated
+.freeobj(504) plymrb\grounds\forder1.b3d   ;;Road segment under Forder Viaduct
+.freeobj(505) plymrb\grounds\liskeard1.b3d ;;Custom terrain form piece for under LSK viaduct
+
+;Shift trees to 600 onwards
+.freeobj(601) plymrb\plants\tree1.b3d  ;;Large decidous brown-green
+.freeobj(602) plymrb\plants\tree2.b3d  ;;Larger decidous green
+.freeobj(603) plymrb\plants\tree3.b3d  ;;Smaller decidous green
+.freeobj(604) plymrb\plants\tree4.b3d
+.freeobj(605) plymrb\plants\tree5.b3d       ;;Small tree in support thing
+.freeobj(606) plymrb\plants\tree6.b3d       ;;Large green deciduous texture mk2
+.freeobj(607) plymrb\plants\tree7.b3d       ;;Palm Tree
+;;reserved for further trees
+.freeobj(610) plymrb\plants\parkbushes.b3d  ;;Load of bushy stuff
+.freeobj(611) plymrb\plants\mediumbush.b3d  ;;Medium bush w/darker green
+.freeobj(612) plymrb\plants\gorse.b3d
+.freeobj(613) plymrb\plants\smalltrees.csv  ;;Smaller less dense trees segment
+.freeobj(614) plymrb\plants\bramble.b3d
+.freeobj(84) plymrb\plants\field1_r15.b3d
+.freeobj(85) plymrb\plants\flowerbed.b3d
+.freeobj(91) plymrb\walls\Hedge1_L.b3d
+.freeobj(95) plymrb\grounds\grass_r.b3d
+.freeobj(99) plymrb\plants\deepforest_l.csv
+.freeobj(13) plymrb\plants\plym.b3d
+.freeobj(112) plymrb\plants\field2.b3d
+
+;;RESHIFT NEW BRIDGES TO 700 PLUS
+;First 19 reserved for original bridges
+.freeobj(717) plymrb\bridges\plymroad.b3d
+.freeobj(718) plymrb\bridges\dvp_1.csv
+.freeobj(719) plymrb\bridges\devonportrd.b3d
+.freeobj(720) plymrb\bridges\haddingtonrd.b3d
+.freeobj(721) plymrb\bridges\dockyard.b3d
+.freeobj(722) plymrb\bridges\dockyard_ub.b3d
+.freeobj(723) plymrb\bridges\stationrd.b3d
+.freeobj(724) plymrb\bridges\keyh.b3d
+.freeobj(725) plymrb\bridges\keyh_1.csv
+.freeobj(726) plymrb\bridges\keyh_2.b3d
+.freeobj(727) plymrb\bridges\westonmill_1.b3d  ;;Stone Arches
+.freeobj(728) plymrb\bridges\westonmill_2.b3d  ;;Plymouth End
+.freeobj(729) plymrb\bridges\westonmill_3.b3d  ;;Central Spans
+.freeobj(730) plymrb\bridges\westonmill_4.b3d  ;;Saltash End
+.freeobj(731) plymrb\bridges\stbudeaux_vr.b3d
+.freeobj(732) plymrb\bridges\tavistockline.b3d ;;Tavistock line overbridge
+.freeobj(733) plymrb\bridges\plymouthroad_laira.b3d
+.freeobj(734) plymrb\bridges\underbridge4.b3d
+.freeobj(735) plymrb\bridges\tamar.b3d         ;;Royal Albert Bridge Span 1 with central pillar
+.freeobj(736) plymrb\bridges\tamar2.b3d        ;;Royal Albert Bridge Span 2
+.freeobj(737) plymrb\bridges\tamar_sp.b3d
+;;;;738 reserved for potential Tamar Road bridge???
+.freeobj(739) plymrb\bridges\downsloped_dfp2.csv
+.freeobj(740) plymrb\bridges\forder_overbridge2.b3d
+
+
+;;RE-SHIFT SIGNALS TO 1000 PLUS
+.freeobj(1000) BRSigs_open\signal2gr_r.csv
+;1001- 2 aspect green
+.freeobj(1002) BRSigs_open\signal3_r.csv
+.freeobj(1003) BRSigs_open\signal3_y.csv
+;1004- 3 aspect green
+.freeobj(1005) BRSigs_open\signal4_r.csv
+;1006- 4 aspect double yellow
+.freeobj(1007) BRSigs_open\signal4_y.csv
+;1008- 4 aspect green
+.freeobj(1009) BRSigs_open\featherL_unlit.csv
+.freeobj(1010) BRSigs_open\featherR_unlit.csv
+.freeobj(1011) BRSigs_open\callon0_R.csv
+;;Reserved for Semaphore bits
+.freeobj(1112) plymrb\signals\shunt3.b3d ;;Yellow Disc LIMITS ONLY
+.freeobj(1020) plymrb\signals\single.csv     ;;Signal post for 4/3 color light
+.freeobj(1021) plymrb\signals\single2.csv    ;;Signal post for 2 color light
+.freeobj(1022) plymrb\signals\sig_gantry.csv ;;Color light gantry #1
+.freeobj(1023) plymrb\signals\gantry1.csv    ;;Color light gantry #2
+;1024- 1029 reserved for additional color light gantries as required
+.freeobj(1030) plymrb\buildings\railway\cabinet.b3d
+.freeobj(1031) plymrb\buildings\railway\cabinet2.b3d
+.freeobj(1032) plymrb\signals\GND_Sig_LR.csv
+.freeobj(1033) plymrb\signals\GND_Sig_RC.csv
+.freeobj(1034) plymrb\signals\groundframe.b3d
+.freeobj(1035) plymrb\signals\gantry_le.b3d
+.freeobj(1036) plymrb\signals\GND_Sig_RC1.csv ;;No label
+.freeobj(1037) plymrb\signals\GND_Sig_RC_2indSDG.csv
+.freeobj(1038) plymrb\signals\GND_Sig_RR.csv
+.freeobj(1039) plymrb\signals\semaphore\Liskeard_P2.animated
+
+;;NEW SIGNS 1200 PLUS
+;;First 20 reserved for stations and associated
+;1221- 10mph
+.freeobj(1222) plymrb\signs\15mph.b3d
+.freeobj(1223) plymrb\signs\20mph.b3d
+;1224- 20mph yellow
+;1225- 25mph red
+;1226- 25mph yellow
+;1227- 30mph red
+;1228- 30mph yellow
+.freeobj(1229) plymrb\signs\40mph.b3d
+;1230- 40mph yellow
+.freeobj(1231) plymrb\signs\55mph_r.b3d
+.freeobj(1232) plymrb\signs\55mph_y.b3d
+.freeobj(1233) plymrb\signs\60mph.b3d
+;1234- 60mph yellow
+;1235- 65mph red
+;1236- 65mph yellow
+.freeobj(1237) plymrb\signs\70mph_r.b3d
+;1238- 75mph yellow
+;1239- 125mph red
+;1240- 125mph yellow
+.freeobj(1241) plymrb\signs\20Rmph.csv
+.freeobj(1242) plymrb\signs\LCWarn.b3d
+.freeobj(1243) plymrb\signs\warn60.csv
+.freeobj(1244) plymrb\signs\15mph_AL.b3d
+
+;;RESHIFT POINTWORK TO 1300 PLUS
+;First 20 reserved
+.freeobj(1320) plymrb\tracks\stbfr1.b3d
+.freeobj(1321) plymrb\tracks\W1050m_-2.297m_50m.csv
+.freeobj(1322) plymrb\tracks\W-700m_2m_25m.csv
+.freeobj(1323) plymrb\tracks\brown_sp1.animated
+;;Pointwork on approach to Laira Depot
+.freeobj(1324) plymrb\tracks\W1500m_2m_50m.csv
+.freeobj(1325) plymrb\tracks\W-1500m_2m_50m.csv
+.freeobj(1326) plymrb\tracks\W0m_-2m_50m.csv
+.freeobj(1327) plymrb\tracks\W2000m_-2m_50m.csv
+.freeobj(1328) plymrb\tracks\W-2000m_-2m_50m.csv
+.freeobj(1329) plymrb\tracks\W500m_-2m_25m.csv
+.freeobj(1330) plymrb\tracks\W2m_2m_50m_SCL1_1.csv
+.freeobj(1331) plymrb\tracks\W0m_2m_25m_SCL1_1.csv
+.freeobj(1332) plymrb\tracks\W300m_-2m_25m_SCL1_1.csv
+.freeobj(1333) plymrb\tracks\W0m_-2m_25m_SCL1_1.csv
+.freeobj(1334) plymrb\tracks\W-500m_-2m_25m.csv
+.freeobj(1335) plymrb\tracks\W1500m_-2m_25m_SCL1_1.csv
+.freeobj(1336) plymrb\tracks\W-150m_-2m_25m_SCL1_1.csv
+.freeobj(1337) plymrb\tracks\W-500m_-2m_25m_SCL1_1.csv
+.freeobj(1338) plymrb\tracks\W0m_-2m_25m.csv
+.freeobj(1339) plymrb\tracks\W0m_2m_25m.csv
+.freeobj(1344) plymrb\tracks\W-550m_2m_25m.csv
+;Saltash Goods Yard 2
+.freeobj(1346) plymrb\tracks\W0m_2m_50m.csv
+;St Germans Goods Yard 1
+.freeobj(1347) plymrb\tracks\W750m_2m_25m.csv  ;St Germans Goods Yard 2
+;St Germans Goods Yard 3
+;St Germans Goods Diamond Crossing
+.freeobj(1350) plymrb\tracks\W-1600m_2m_25m.csv
+.freeobj(1351) plymrb\tracks\W1600m_-2m_25m.csv
+.freeobj(1352) plymrb\tracks\W-1600m_-2m_25m.csv
+.freeobj(1353) plymrb\tracks\W-1000m_-2m_50m.csv
+.freeobj(1354) plymrb\tracks\W1000m_2m_25m.csv
+.freeobj(1355) plymrb\tracks\W-700m_2m_25m_SCL1.1.csv
+.freeobj(1356) plymrb\tracks\W150m_2m_25m.csv
+.freeobj(1357) plymrb\tracks\W1000m_2m_50m.csv
+.freeobj(1358) plymrb\tracks\W950m_-2m_25m.csv
+.freeobj(1359) plymrb\tracks\W-950m_-2m_25m.csv
+.freeobj(1361) plymrb\tracks\LiskeardBranch.animated
+.freeobj(1362) plymrb\tracks\W0m_5m_50m.csv
+
+;;MORE BRIDGES 1400 PLUS
+;;Run roughly in order from PLY onwards
+;;Subject to renumbering at a later date.....
+
+;1400 and 1401 reserved for 60s Millbay Bridge
+.freeobj(1402) plymrb\bridges\saltash_fb.b3d
+.freeobj(1403) plymrb\bridges\saltash_strb.b3d
+.freeobj(1404) plymrb\bridges\underbridge_forder.b3d  ;;Coombe Viaduct underbridge
+.freeobj(1405) plymrb\bridges\coombe_275m.b3d
+;No Footwalk Right (Coombe Entry)
+;1407- Forder 700m
+.freeobj(1408) plymrb\bridges\forder.b3d
+.freeobj(1409) plymrb\bridges\trevollard_01.b3d       ;;Drops from L with turn down at the right
+.freeobj(1410) plymrb\bridges\Nottar_L500.csv
+.freeobj(1411) plymrb\bridges\trevollard_02.b3d       ;;Straight over no scenics attached
+.freeobj(1412) plymrb\bridges\underbridge5.b3d        ;;Plain underbridge
+.freeobj(1413) plymrb\bridges\stgermans_2.b3d
+.freeobj(1414) plymrb\bridges\stgermans_1.b3d
+.freeobj(1415) plymrb\bridges\stgrb.b3d
+.freeobj(1416) plymrb\bridges\stgob.b3d
+.freeobj(1417) plymrb\bridges\stgermans_fb.b3d
+.freeobj(1418) plymrb\bridges\WhitpotHill.b3d
+.freeobj(1419) plymrb\bridges\BarnHill.b3d
+.freeobj(1420) plymrb\bridges\CriftLane.b3d
+.freeobj(1421) plymrb\bridges\trerulefoot_ub1.b3d
+.freeobj(1422) plymrb\bridges\trerulefoot_ob1.b3d
+.freeobj(1423) plymrb\bridges\trerulefoot_ub2.b3d
+.freeobj(1424) plymrb\bridges\trerulefoot_cvt.b3d
+;;RESERVED TRERULEFOOT FRM OB
+.freeobj(1426) plymrb\bridges\CutmereLane.b3d
+.freeobj(1427) plymrb\bridges\clennick_ub.b3d
+.freeobj(1428) plymrb\bridges\clennick_ob1.b3d
+.freeobj(1429) plymrb\bridges\clennick_ob2.b3d
+.freeobj(1430) plymrb\bridges\FurzePark_ub.b3d
+.freeobj(1431) plymrb\bridges\FurzePark_ob.b3d
+.freeobj(1432) plymrb\bridges\FurzePark_ob1.b3d
+.freeobj(1433) plymrb\bridges\Tresulgan_L950.csv
+.freeobj(1434) plymrb\bridges\Coldrennick_R950.csv
+.freeobj(1435) plymrb\bridges\Coldrennick_R600.csv
+.freeobj(1436) plymrb\bridges\Coldrennick_Pillar.b3d
+.freeobj(1437) plymrb\bridges\Trerulefoot_ob2.b3d
+.freeobj(1438) plymrb\bridges\trenithick.b3d
+.freeobj(1439) plymrb\bridges\menheniot.csv
+.freeobj(1440) plymrb\bridges\underbridge6.b3d
+.freeobj(1441) plymrb\bridges\Treviddo_R1000.csv
+.freeobj(1442) plymrb\bridges\A38_LAP.b3d
+.freeobj(1443) plymrb\bridges\Cartuther_R1500.csv
+.freeobj(1444) plymrb\bridges\Bolitho_L1500.csv
+.freeobj(1445) plymrb\bridges\underbridge6_MHE.b3d    ;;Underbridge on unamed road after Menheniot station
+.freeobj(1446) plymrb\bridges\underbridge6_MHE2.b3d   ;;Track underbridge immediately before A38 OB
+.freeobj(1447) plymrb\bridges\downsloped2.b3d         ;;Downsloped farm overbridge
+.freeobj(1448) plymrb\bridges\downsloped_LSK1.b3d
+.freeobj(1449) plymrb\bridges\Liskeard.b3d            ;;Liskeard station overbridge
+.freeobj(1450) plymrb\bridges\Liskeard_FMOB.b3d       ;;Farm overbridge plus terrain
+.freeobj(1451) plymrb\bridges\Liskeard_P2.b3d
+.freeobj(1452) plymrb\bridges\Moorswater_Straight.csv
+.freeobj(1453) plymrb\bridges\Moorswater_R1000.csv
+.freeobj(1454) plymrb\tracks\W150m_-2m_25m.csv
+.freeobj(1455) plymrb\tracks\W-150m_2m_25m.csv
+
+;;FENCING BITS 1500 PLUS
+.freeobj(1500) plymrb\walls\steelfence_l.b3d
+.freeobj(1501) plymrb\buildings\lineside\bungalowfence_l.b3d
+.freeobj(1502) plymrb\walls\STG\BP_80_BLF.b3d
+.freeobj(1503) plymrb\walls\MEN-LSK\FieldHedge1.b3d
+
+;;RESHIFT BUILDINGS TO 1600 PLUS
+.freeobj(1600) plymrb\buildings\signalboxes\plymouth\plym_psb.b3d
+.freeobj(1601) plymrb\buildings\lineside\shed.b3d
+.freeobj(1627) plymrb\buildings\lineside\chsd_60.b3d
+.freeobj(1628) plymrb\buildings\stations\shelters\platbld1.b3d
+.freeobj(1629) plymrb\buildings\stations\shelters\platbld.b3d
+;;First 32 reserved for originals
+.freeobj(1633) plymrb\buildings\lineside\councilflats2.b3d           ;;Double Length alternative textures
+.freeobj(1634) plymrb\buildings\lineside\terrace4_r.b3d              ;;Concrete walled back garden
+.freeobj(1635) plymrb\buildings\lineside\dock_sth.animated           ;;Multiobj for Dockyard Station
+.freeobj(1636) plymrb\buildings\lineside\gblock2.b3d                 ;;2 garages
+.freeobj(1637) plymrb\buildings\lineside\ctblock.b3d                 ;;Tower Block
+.freeobj(1638) plymrb\buildings\lineside\councilflats_dck1.animated  ;;Dockyard Multiobj #2
+.freeobj(1639) plymrb\buildings\lineside\terrace5_l.b3d              ;;Terrace fronting onto pavement
+.freeobj(1640) plymrb\buildings\lineside\stl_cs1.b3d                 ;;St Levan Road corner shop
+.freeobj(1641) plymrb\buildings\lineside\terrace_strd.b3d            ;;Station Road terrace end L
+.freeobj(1642) plymrb\buildings\lineside\terrace_strd2.b3d           ;;Mildly modded version for St Levan Road
+.freeobj(1643) plymrb\buildings\lineside\terrace_strd3.b3d           ;;Station Road terrace end R
+.freeobj(1644) plymrb\buildings\signalboxes\Plymouth_RAB.b3d         ;;Royal Albert Bridge Box
+.freeobj(1645) plymrb\buildings\signalboxes\Liskeard.b3d             ;;Liskeard Box
+.freeobj(1646) plymrb\buildings\signalboxes\Keyham.b3d               ;;Keyham Signal Box
+.freeobj(1647) plymrb\buildings\signalboxes\StBudeaux.b3d
+;1648 reserved for Mutley Tunnel Box
+;1649 reserved for Plymouth station junction exit box
+.freeobj(1650) plymrb\buildings\lineside\terrace_end2.b3d            ;;Terrace End Mirrored
+.freeobj(1651) plymrb\buildings\railway\pway_hut_w.b3d
+.freeobj(1652) plymrb\buildings\lineside\stb_idu.b3d
+.freeobj(1653) plymrb\buildings\railway\laira\lairadepot.b3d         ;;Main shed cluster
+.freeobj(1654) plymrb\buildings\railway\laira\lairashed1.b3d         ;;Smaller concrete shed for loco sidings
+.freeobj(1655) plymrb\misc\pylon.csv								 ;;Large electricity pylon
+;1656- 60s Laira Junction Signal Box
+.freeobj(1657) plymrb\buildings\stations\brick\saltash.b3d
+.freeobj(1658) plymrb\buildings\signalboxes\saltash.b3d
+.freeobj(1659) plymrb\buildings\stations\shelters\concrete.b3d
+.freeobj(1660) plymrb\buildings\lineside\salbc.b3d                   ;;Saltash Baptist Church
+.freeobj(1661) plymrb\buildings\lineside\terrace_salst.b3d           ;;Saltash Station End Houses
+.freeobj(1662) plymrb\buildings\lineside\salbh.b3d                   ;;Large house #1 for Saltash
+.freeobj(1663) plymrb\buildings\lineside\salbh_02.b3d                ;;Large house #2 for Saltash [Dormers and Balconies]
+.freeobj(1664) plymrb\buildings\lineside\terrace7_l.b3d
+.freeobj(1665) plymrb\buildings\lineside\salsg.b3d                   ;;Detached stone garage/ barn block
+.freeobj(1666) plymrb\buildings\lineside\salrf.b3d                   ;;Riverside Alternate Flats Block
+.freeobj(1667) plymrb\buildings\lineside\unioninn.b3d
+.freeobj(1668) plymrb\buildings\lineside\dbgl_1.b3d                  ;;Detached dormer bungalow [Alternate Texture]
+.freeobj(1669) plymrb\buildings\lineside\terrace1_r.b3d
+.freeobj(1670) plymrb\buildings\Railway\goodshed.b3d
+.freeobj(1671) plymrb\buildings\Railway\saltash_bg.b3d
+.freeobj(1672) plymrb\buildings\lineside\stbrn.b3d                   ;;Stone walled barn
+.freeobj(1673) plymrb\buildings\lineside\cottage.b3d
+.freeobj(1674) plymrb\buildings\lineside\polytunnel.b3d
+.freeobj(1675) plymrb\buildings\lineside\detached_w2.b3d             ;;Detached white house alternate texture
+.freeobj(1676) plymrb\buildings\lineside\barn_crn.b3d                ;;Corrugated iron barn over haystack
+.freeobj(1677) plymrb\buildings\lineside\cottage1.b3d                ;;Alternate roof & chimneys
+;1678- 60s St Germans Signal Box
+.freeobj(1679) plymrb\buildings\lineside\StGermans_smh.b3d
+.freeobj(1680) plymrb\buildings\stations\brick\StGermans_Up_60.b3d
+.freeobj(1681) plymrb\buildings\stations\brick\StGermans_Down.b3d
+.freeobj(1682) plymrb\buildings\components\stgermans_station_leftroad.b3d  ;;Left access road and scenery componets for St Germans Station
+.freeobj(1683) plymrb\buildings\lineside\stgvh.b3d                  ;;St Germans Village Hall
+;1684- 60s St Germans Goods Shed
+.freeobj(1685) plymrb\buildings\lineside\stgermans_vc.b3d           ;;St Germans Priory
+.freeobj(1686) plymrb\buildings\lineside\stgermans_quay.b3d         ;;Twin Roof Riverside Building
+.freeobj(1687) plymrb\buildings\lineside\terrace9_l.b3d             ;;Stone Cottage
+;1688- 60s 2T yard crane
+.freeobj(1689) plymrb\buildings\signalboxes\tresulgan.b3d
+.freeobj(1690) plymrb\buildings\lineside\detached_sltc.b3d          ;;Detached stone house slate covering on upper
+.freeobj(1691) plymrb\buildings\lineside\farmyard_bh.b3d
+.freeobj(1692) plymrb\buildings\lineside\wreh.b3d                   ;;Trerulefoot Pub
+.freeobj(1693) plymrb\walls\STG-MEN\FurzeParkUBT.b3d                ;;Large terrain piece for Furze Park underbridge
+.freeobj(1694) plymrb\buildings\signalboxes\menheniot_80.b3d
+
+.freeobj(1696) plymrb\buildings\railway\cpvs.b3d                     ;;SR pattern concrete provender store
+.freeobj(1697) plymrb\buildings\lineside\mhtpb.b3d                   ;;Sportsmans Arms pub Menheniot
+.freeobj(1698) plymrb\misc\pylon1.csv
+.freeobj(1699) plymrb\misc\telephonepoles.b3d                        ;;Cross Line
+.freeobj(1700) plymrb\misc\telephonepoles1.b3d                       ;;Single outbound
+.freeobj(1701) plymrb\misc\telephonepoles2.b3d                       ;;Cross Line 2
+.freeobj(1702) plymrb\walls\LSK\YardFence.b3d                        ;;End yard fence for Menheniot TMDs
+.freeobj(1703) plymrb\buildings\lineside\cwlfm.b3d                   ;;Large Cornwall Farmers store Liskeard
+.freeobj(1704) plymrb\buildings\Stations\Wood\Liskeard_Branch.b3d          ;;Looe branch station building
+.freeobj(1705) plymrb\buildings\Stations\shelters\Liskeard_WS.b3d
+.freeobj(1706) plymrb\buildings\Stations\shelters\Liskeard_BS.b3d
+.freeobj(1707) plymrb\buildings\lineside\lsid.b3d                    ;;Liskeard station industrial units & Flats
+.freeobj(1708) plymrb\buildings\railway\lstpb.b3d
+.freeobj(1709) plymrb\buildings\lineside\pstch.b3d                   ;;Pair of Church halls approach to PLY station
+.freeobj(1710) plymrb\buildings\lineside\lspb.b3d                    ;;Liskeard Station pub
+
+Signal(0).Load plymrb\LQSigs\home_lq.animated
+Signal(1).Load plymrb\LQSigs\dist_lq.animated
+Signal(3).Load brsigs_open\3Aspect.animated
+Signal(4).Load brsigs_open\4aspect.animated
+Signal(5).Load brsigs_open\2aspect_GR.animated
+Signal(6).Load plymrb\signals\3Aspect_FeatherR.animated
+Signal(7).Load brsigs\signal4ygfeatherr; brsigs\glow4ygfeatherr
+Signal(8).Load brsigs_open\3Aspect_Ind1.animated
+Signal(9).Load plymrb\signals\saltash.animated
+Signal(10).Load plymrb\signals\3Aspect_callon.animated
+Signal(21).Load plymrb\signals\semaphore\Liskeard_P1.animated
+
+.Beacon(0) plymrb\signals\AWSmagnet_1.csv
+.Beacon(1) BrSigs\AWS_Null_0.x
+
+with Texture
+texture.background(0) plymrb\back\bluesky.jpg
+texture.background(1) plymrb\back\black.png
+texture.background(2) plymrb\back\cloudysky.jpg
+
+;;Subroutines for random field animals
+$Sub(0) = $Rnd(220;224)
+$Sub(1) = $Rnd(220;224)
+$Sub(2) = $Rnd(220;224)
+$Sub(3) = $Rnd(220;224)
+$Sub(4) = $Rnd(220;224)
+$Sub(5) = $Rnd(220;224), 
+$Sub(6) = $Rnd(220;224), 

@@ -1,0 +1,23 @@
+[Object]
+Position = -110, 0, 0
+States = CityBus.b3d
+TranslateXFunction = mod[-6.6 * time, 150]
+
+
+[Object]
+Position = -80, 0, 0
+States = crestav2.b3d
+TranslateXFunction = mod[-6.6 * time, 150]
+
+
+[Object]
+Position = -60, 0, 0
+States = commer-van.b3d
+RotateYFunction = -1.57079633
+TranslateXFunction = mod[-6.6 * time, 150]
+
+
+[Object]
+Position = -30, 0, 0
+States = transit.b3d
+TranslateXFunction = mod[-6.6 * time, 150]

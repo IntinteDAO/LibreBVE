@@ -1,0 +1,49 @@
+;Main Loco Body
+[Object]
+States = 81xx_blk.b3d
+Position = 0,0,0
+
+;Driving Wheels 1
+[Object]
+States = driving_1.b3d
+Position = 0,0.85,2.16
+
+;Driving Wheels 2
+[Object]
+States = driving_2.b3d
+Position = 0,0.85,-0.24
+
+;Driving Wheels 3
+[Object]
+States = driving_1.b3d
+Position = 0,0.85,-2.29
+
+;Valve Gear, Main Shaft
+[Object]
+States = rod32.b3d
+Position = 0,0,-6.34
+
+;Valve Gear, Pushrod and slider bar
+[Object]
+States = pushrod32.b3d
+Position = 0,0.86,-0.24
+
+;Frony Pony Truck
+[Object]
+States = pony_f.b3d
+Position = 0,0,0
+
+;Rear Pony Truck
+[Object]
+States = pony_r.b3d
+Position = 0,0,0
+
+;Front Pony Wheels
+[Object]
+States = pony_fw.b3d
+Position = 0,0.429,-5.05
+
+;Rear Pony Wheels
+[Object]
+States = pony_rw.b3d
+Position = 0,0.525,4.925

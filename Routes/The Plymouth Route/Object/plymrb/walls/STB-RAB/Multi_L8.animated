@@ -1,0 +1,18 @@
+[Object]
+States=DikeL_8.b3d
+Position=0,0,0
+
+[Object]
+States=..\..\buildings\lineside\dbgl_1.b3d
+RotateYFunction = 1.57079633
+Position=-16,-0.5,10
+
+[Object]
+States=..\..\buildings\lineside\greenhouse.b3d
+RotateYFunction = 1.57079633
+Position=-15,-0.5,25
+
+[Object]
+States=..\..\buildings\lineside\bungalowfence_l.b3d
+RotateZFunction=0.005
+Position=-3,0,0.5

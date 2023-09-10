@@ -1,0 +1,36 @@
+;description=grass ground 3
+;author=Uwe Post, extreme mods by Chris Lees
+;From the BVE Cornwall Plymouth- St Austell route. © Chris Lees 2003
+
+[MeshBuilder]
+Vertex -120 , -2.05 ,  26
+Vertex  120 , -2.05 ,  26
+Vertex  120 , -2.051 , -1
+Vertex -120 , -2.051 , -1
+Face  0, 1, 2, 3
+
+
+[Texture]
+Load  ..\common\grass6.png
+Coordinates  0, 0, 0
+Coordinates  1, 10, 0
+Coordinates  2, 10, 3
+Coordinates  3, 0, 3
+
+[MeshBuilder]
+Vertex -104 , -2.05 , -1
+Vertex -104 , -13 , -18 
+Vertex  104 , -13 , -18
+Vertex  104 , -2.05 , -1
+Face  3,2,1,0
+
+
+[Texture]
+Load  ..\common\grass6.png
+Coordinates  0, 0, 0
+Coordinates  1, 1, 0
+Coordinates  2, 1, 10
+Coordinates  3, 0, 10
+
+
+

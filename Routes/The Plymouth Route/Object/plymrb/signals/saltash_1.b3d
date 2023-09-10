@@ -1,0 +1,50 @@
+;Signal/ Route indicator for Saltash (Proceed, up line)
+;Object by Chris Lees for the Plymouth Route
+;http://www.bvecornwall.co.uk
+
+[MeshBuilder]
+Vertex 0, 1, -0.5
+Vertex  1, 1, -0.5
+Vertex  1, 0, -0.5
+Vertex 0, 0, -0.5
+Face 0, 1, 2, 3
+
+[Texture]
+Load saltash_1.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[MeshBuilder]
+Vertex 0, 1, -0.505
+Vertex  1, 1, -0.505
+Vertex  1, 0, -0.505
+Vertex 0, 0, -0.505
+Face 0, 1, 2, 3
+
+[Texture]
+Load saltash_glow1.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 0
+EmissiveColor 230,230,0,
+BlendMode Additive,25,
+
+[MeshBuilder]
+Vertex 0, 1, -0.5
+Vertex  1, 1, -0.5
+Vertex  1, 0, -0.5
+Vertex 0, 0, -0.5
+Face 3,2,1,0
+
+[Texture]
+Load saltash_b.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255

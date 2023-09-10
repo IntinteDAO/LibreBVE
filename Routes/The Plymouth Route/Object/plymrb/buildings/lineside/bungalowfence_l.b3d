@@ -1,0 +1,49 @@
+[MeshBuilder]
+Vertex -15,1,0
+Vertex -15,-0.4,0
+Vertex -2,-0.4,0
+Vertex -2,1,0
+Vertex -2,1,24.95
+Vertex -2,-0.4,24.95
+Vertex -15,-0.4,24.95
+Vertex -15,1,25
+Face 6,7,0,1
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+
+[texture]
+load wooden_fence.png
+coordinates 0,0,-1
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,4,-1
+coordinates 4,10,-1
+coordinates 5,10,0
+coordinates 6,6,0
+coordinates 7,6,-1
+
+[MeshBuilder]
+Vertex -15,1,0
+Vertex -15,-0.4,0
+Vertex -2,-0.4,0
+Vertex -2,1,0
+Vertex -2,1,24.95
+Vertex -2,-0.4,24.95
+Vertex -15,-0.4,24.95
+Vertex -15,1,24.95
+Face 1,0,7,6
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[texture]
+load wooden_fence1.png
+coordinates 0,0,-1
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,4,-1
+coordinates 4,10,-1
+coordinates 5,10,0
+coordinates 6,6,0
+coordinates 7,6,-1

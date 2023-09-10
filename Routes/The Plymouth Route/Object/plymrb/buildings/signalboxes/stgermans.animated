@@ -1,0 +1,6 @@
+[Object]
+states = StGermans.b3d
+
+[Object]
+states = nameboards\StGermans.b3d
+RotateYFunction = 3.14159

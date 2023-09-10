@@ -1,0 +1,14 @@
+;Liskeard Up Starter
+
+[Object]
+states = lairadepot_01.b3d
+Position = 0,0,0
+
+[Object]
+states = ..\..\lqsigs\homelq_arm.b3d
+Position = 0,6.39,0
+
+
+[Object]
+states = ..\..\lqsigs\homelq_arm_shunt.b3d
+Position = -1.65,5.6,0

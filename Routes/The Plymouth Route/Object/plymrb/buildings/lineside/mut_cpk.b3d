@@ -1,0 +1,201 @@
+[MeshBuilder]
+Vertex -12,6,-8
+Vertex -12,16,-8
+Vertex 16,16,-8
+Vertex 16,6,-8
+Vertex 16,6,40
+Vertex 16,16,40
+Vertex -12,16,40
+Vertex -12,6,40
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 1,0,7,6
+
+[Texture]
+Load carpark2.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,1,0
+Coordinates 7,1,1
+
+
+
+[MeshBuilder]
+Vertex -12,16,-8
+Vertex 16,16,-8
+Vertex 16,16,40
+Vertex -12,16,40
+Vertex -12,6,-8
+Vertex 16,6,-8
+Vertex 16,6,40
+Vertex -12,6,40
+Face 4,5,6,7
+Color 100,100,100
+Face 3,2,1,0
+
+
+
+[Texture]
+Load ..\..\common\concrete1.png
+Coordinates 0,0,3
+Coordinates 1,0,0
+Coordinates 2,6,0
+Coordinates 3,6,3
+Coordinates 4,0,3
+Coordinates 5,0,0
+Coordinates 6,6,0
+Coordinates 7,6,3
+[MeshBuilder]
+Cube  1,5,2
+Translate  -8 ,  3 ,  -1
+
+[Texture]
+Load  ..\..\common\concrete1.png
+Coordinates  3,0,0
+Coordinates  2,0,1
+Coordinates  0,1,0
+Coordinates  1,1,1
+Coordinates  4,2,0
+Coordinates  5,2,1
+Coordinates  7,1,0
+Coordinates  6,1,1
+
+[MeshBuilder]
+Cube  1,5,2
+Translate  12 ,  3 ,  -1
+
+[Texture]
+Load  ..\..\common\concrete1.png
+Coordinates  3,0,0
+Coordinates  2,0,1
+Coordinates  0,1,0
+Coordinates  1,1,1
+Coordinates  4,2,0
+Coordinates  5,2,1
+Coordinates  7,1,0
+Coordinates  6,1,1
+
+[MeshBuilder]
+Cube  1,5,2
+Translate  -8 ,  3 ,  9
+
+[Texture]
+Load  ..\..\common\concrete1.png
+Coordinates  3,0,0
+Coordinates  2,0,1
+Coordinates  0,1,0
+Coordinates  1,1,1
+Coordinates  4,2,0
+Coordinates  5,2,1
+Coordinates  7,1,0
+Coordinates  6,1,1
+
+[MeshBuilder]
+Cube  1,5,2
+Translate  12 ,  3 ,  9
+
+[Texture]
+Load  ..\..\common\concrete1.png
+Coordinates  3,0,0
+Coordinates  2,0,1
+Coordinates  0,1,0
+Coordinates  1,1,1
+Coordinates  4,2,0
+Coordinates  5,2,1
+Coordinates  7,1,0
+Coordinates  6,1,1
+
+[MeshBuilder]
+Cube  1,5,2
+Translate  -8 ,  3 ,  19
+
+[Texture]
+Load  ..\..\common\concrete1.png
+Coordinates  3,0,0
+Coordinates  2,0,1
+Coordinates  0,1,0
+Coordinates  1,1,1
+Coordinates  4,2,0
+Coordinates  5,2,1
+Coordinates  7,1,0
+Coordinates  6,1,1
+
+[MeshBuilder]
+Cube  1,5,2
+Translate  12 ,  3 ,  19
+
+[Texture]
+Load  ..\..\common\concrete1.png
+Coordinates  3,0,0
+Coordinates  2,0,1
+Coordinates  0,1,0
+Coordinates  1,1,1
+Coordinates  4,2,0
+Coordinates  5,2,1
+Coordinates  7,1,0
+Coordinates  6,1,1
+
+[MeshBuilder]
+Cube  1,5,2
+Translate  -8 ,  3 ,  26
+
+[Texture]
+Load  ..\..\common\concrete1.png
+Coordinates  3,0,0
+Coordinates  2,0,1
+Coordinates  0,1,0
+Coordinates  1,1,1
+Coordinates  4,2,0
+Coordinates  5,2,1
+Coordinates  7,1,0
+Coordinates  6,1,1
+
+[MeshBuilder]
+Cube  1,5,2
+Translate  12 ,  3 ,  26
+
+[Texture]
+Load  ..\..\common\concrete1.png
+Coordinates  3,0,0
+Coordinates  2,0,1
+Coordinates  0,1,0
+Coordinates  1,1,1
+Coordinates  4,2,0
+Coordinates  5,2,1
+Coordinates  7,1,0
+Coordinates  6,1,1
+
+[MeshBuilder]
+Cube  1,5,2
+Translate  -8 ,  3 ,  33
+
+[Texture]
+Load  ..\..\common\concrete1.png
+Coordinates  3,0,0
+Coordinates  2,0,1
+Coordinates  0,1,0
+Coordinates  1,1,1
+Coordinates  4,2,0
+Coordinates  5,2,1
+Coordinates  7,1,0
+Coordinates  6,1,1
+
+[MeshBuilder]
+Cube  1,5,2
+Translate  12 ,  3 ,  33
+
+[Texture]
+Load  ..\..\common\concrete1.png
+Coordinates  3,0,0
+Coordinates  2,0,1
+Coordinates  0,1,0
+Coordinates  1,1,1
+Coordinates  4,2,0
+Coordinates  5,2,1
+Coordinates  7,1,0
+Coordinates  6,1,1

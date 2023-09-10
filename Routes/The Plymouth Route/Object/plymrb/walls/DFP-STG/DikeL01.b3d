@@ -1,0 +1,73 @@
+;Start of embankment SH
+
+;Ballast Edge
+[MeshBuilder]
+Vertex -3.8,-0.29,0
+Vertex -3.8,-0.295,26
+Vertex -1.85,-0.295,26
+Vertex -1.85,-0.29,0
+Face 0,1,2,3
+
+[Texture]
+Load ..\ballastedge1.png,,
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Transparent 0,0,0
+
+;Side
+[MeshBuilder]
+Vertex -1.9,-0.3,0
+Vertex -6,-0.3,0
+Vertex -27,-13,-6
+Vertex -1.9,-0.305,26
+Vertex -6,-0.305,26
+Vertex -26.9,-18,38
+Face 0,1,4,3
+Face 1,2,5,4
+
+[Texture]
+Load ..\..\common\grass6.png,,
+Coordinates 0,0,1
+Coordinates 1,0,2
+Coordinates 2,0,0
+Coordinates 3,1,1
+Coordinates 4,1,2
+Coordinates 5,1,0
+
+;Front Twiddle
+[MeshBuilder]
+Vertex 2,-0.3,0
+Vertex -6,-0.3,0
+Vertex -27,-13,-6
+Vertex 2,-15,-12
+Face2 3,2,1,0
+Color 230,230,230
+
+[Texture]
+Load ..\..\common\grass6.png,,
+Coordinates 0,0,1
+Coordinates 1,0,2
+Coordinates 3,0,0
+Coordinates 2,1,1
+
+;And More
+[MeshBuilder]
+Vertex 2,-15,-12
+Vertex 2,-35,-20
+Vertex -47,-35,-14
+Vertex -27,-13,-6
+Vertex -26.9,-18,38
+Vertex -47,-35,38
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\..\common\grass6.png,,
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,1,0
+Coordinates 3,0,0
+Coordinates 4,0,1
+Coordinates 5,1,1

@@ -1,0 +1,63 @@
+;Author=Chris Lees
+;Description=Lineside Weeds
+;Copyright=From the Plymouth Route- http://www.bvecornwall.co.uk
+
+[MeshBuilder]
+Vertex -5, -0.5, 16
+Vertex -5, 2.5, 16
+Vertex -7, 2.5, 8
+Vertex -7, -0.5, 8
+Face2 0,1,2,3,
+
+[Texture]
+Load bush1.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -4.5, -0.5, 20
+Vertex -4.5, 2.5, 20
+Vertex -7, 2.5, 25
+Vertex -7, -0.5, 25
+Face2 0,1,2,3,
+
+[Texture]
+Load grass1.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,0.2,0
+Coordinates 3,0.2,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -4.5, -0.5, 4
+Vertex -4.5, 2.5, 4
+Vertex -8, 2.5, 7
+Vertex -8, -0.5, 7
+Face2 0,1,2,3,
+
+[Texture]
+Load tree1.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -4.5, -0.5, 3
+Vertex -4.5, 2.5, 3
+Vertex -8, 2.5, 0
+Vertex -8, -0.5, 0
+Face2 0,1,2,3,
+
+[Texture]
+Load bush1.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255

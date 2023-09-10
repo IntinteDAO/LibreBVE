@@ -1,0 +1,25 @@
+;Author=Chris Lees
+;Description=Hill Ground L, STG Exit
+;Copyright=From the BVE Cornwall Plymouth Route. © 2015
+
+[MeshBuilder]
+;Track Edge
+Vertex 0,-0.31,-1.5
+Vertex 0,-0.3,26.5
+Vertex -4,-0.3,26.5
+Vertex -4,-0.31,-1.5
+;Hill
+Vertex -120,20.01,-1.5
+Vertex -120,20,26.5
+
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load ..\..\common\grass6.png,
+Coordinates 0,0,0
+Coordinates 1,0,4
+Coordinates 2,0.2,4
+Coordinates 3,0.2,0
+Coordinates 4,5,0
+Coordinates 5,5,4

@@ -1,0 +1,6 @@
+[Object]
+states = StBudeaux.b3d
+
+[Object]
+states = nameboards\StBudeaux.b3d
+RotateYFunction = 3.14159

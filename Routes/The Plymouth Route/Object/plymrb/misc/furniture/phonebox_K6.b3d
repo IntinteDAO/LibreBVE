@@ -1,0 +1,159 @@
+;Description=Red K6 Phone Box (British Telecom)
+;Author=Chris Lees
+
+;Side 1
+[MeshBuilder]
+Vertex -1,0,0
+Vertex -1,2.2,0
+Vertex -0.75,2.35,0
+Vertex -0.75,0,0
+Vertex -0.5,0,0
+Vertex -0.5,2.4,0
+Vertex -0.25,2.35,0
+Vertex -0.25,0,0
+Vertex 0,0,0
+Vertex 0,2.2,0
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+
+[Texture]
+Load Phonebox_DS.png
+Coordinates 0,0,0
+Coordinates 1,0,-0.92
+Coordinates 2,0.25,-0.98
+Coordinates 3,0.25,0
+Coordinates 4,0.5,0
+Coordinates 5,0.5,-1
+Coordinates 6,0.75,-0.98
+Coordinates 7,0.75,0
+Coordinates 8,1,0
+Coordinates 9,1,-0.92
+
+;Side 2
+[MeshBuilder]
+Vertex -1,0,1
+Vertex -1,2.2,1
+Vertex -0.75,2.35,1
+Vertex -0.75,0,1
+Vertex -0.5,0,1
+Vertex -0.5,2.4,1
+Vertex -0.25,2.35,1
+Vertex -0.25,0,1
+Vertex 0,0,1
+Vertex 0,2.2,1
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,8,9
+
+[Texture]
+Load Phonebox_BS.png
+Coordinates 0,0,0
+Coordinates 1,0,-0.92
+Coordinates 2,-0.25,-0.98
+Coordinates 3,-0.25,0
+Coordinates 4,-0.5,0
+Coordinates 5,-0.5,-1
+Coordinates 6,-0.75,-0.98
+Coordinates 7,-0.75,0
+Coordinates 8,-1,0
+Coordinates 9,-1,-0.92
+
+;Side 3
+[MeshBuilder]
+Vertex -1,0,0
+Vertex -1,2.2,0
+Vertex -1,2.35,0.25
+Vertex -1,0,0.25
+Vertex -1,0,0.5
+Vertex -1,2.4,0.5
+Vertex -1,2.35,0.75
+Vertex -1,0,0.75
+Vertex -1,0,1
+Vertex -1,2.2,1
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,8,9
+
+[Texture]
+Load Phonebox_BS.png
+Coordinates 0,0,0
+Coordinates 1,0,-0.92
+Coordinates 2,-0.25,-0.98
+Coordinates 3,-0.25,0
+Coordinates 4,-0.5,0
+Coordinates 5,-0.5,-1
+Coordinates 6,-0.75,-0.98
+Coordinates 7,-0.75,0
+Coordinates 8,-1,0
+Coordinates 9,-1,-0.92
+
+;Side 4
+[MeshBuilder]
+Vertex 0,0,0
+Vertex 0,2.2,0
+Vertex 0,2.35,0.25
+Vertex 0,0,0.25
+Vertex 0,0,0.5
+Vertex 0,2.4,0.5
+Vertex 0,2.35,0.75
+Vertex 0,0,0.75
+Vertex 0,0,1
+Vertex 0,2.2,1
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+
+[Texture]
+Load Phonebox_BS.png
+Coordinates 0,0,0
+Coordinates 1,0,-0.92
+Coordinates 2,0.25,-0.98
+Coordinates 3,0.25,0
+Coordinates 4,0.5,0
+Coordinates 5,0.5,-1
+Coordinates 6,0.75,-0.98
+Coordinates 7,0.75,0
+Coordinates 8,1,0
+Coordinates 9,1,-0.92
+
+;Roof
+[MeshBuilder]
+Vertex -0.5,2.45,0.5 ,0,1,0 ;Center
+Vertex 0,2.2,0 ,1,0,-1 ;Corner
+Vertex 0,2.35,0.25 ,1,1,0
+Vertex 0,2.4,0.5 ,1,1,0
+Vertex 0,2.35,0.75 ,1,1,0
+Vertex 0,2.2,1 ,1,0,1 ;Corner
+Vertex -0.25,2.35,1 ,0,1,1
+Vertex -0.5,2.4,1 ,0,1,1
+Vertex -0.75,2.35,1 ,0,1,1
+Vertex -1,2.2,1 ,-1,0,1
+Vertex -1,2.35,0.75 ,-1,1,0
+Vertex -1,2.4,0.5 ,-1,1,0
+Vertex -1,2.35,0.25 ,-1,1,0
+Vertex -1,2.2,0 ,-1,0,-1 ;Corner
+Vertex -0.75,2.35,0 ,0,1,-1
+Vertex -0.5,2.4,0 ,0,1,-1
+Vertex -0.25,2.35,0 ,0,1,-1
+Face 3,2,0
+Face 4,3,0
+Face 6,5,4
+Face 0,6,4
+Face 7,6,0
+Face 8,7,0
+Face 10,9,8
+Face 0,10,8
+Face 11,10,0
+Face 12,11,0
+Face 14,13,12
+Face 0,14,12
+Face 15,14,0
+Face 16,15,0
+Face 16,2,1
+Face 0,2,16
+Color 115,29,23

@@ -1,0 +1,320 @@
+;author=Chris Lees
+;description=Wingfield Way overbridge
+;copyright=From the BVE Cornwall Plymouth route. © Chris Lees 2015
+
+;Sides
+CreateMeshBuilder,
+AddVertex,-14.3, -1.35, 2,
+AddVertex,-14.3, 9.1, 2
+AddVertex,20.9, 10.8, 2,
+AddVertex,20.9, -4.35, 2,
+AddVertex,-14.3, -1.35, 13,
+AddVertex,-14.3, 9.1, 13,
+AddVertex,20.9, 10.8, 13,
+AddVertex,20.9, -4.35, 13,
+AddFace2,0,1,2,3
+AddFace2,4,5,6,7
+
+LoadTexture,overbridge2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0.39,
+SetTextureCoordinates,2, 1, 0.12,
+SetTextureCoordinates,3, 1, 1,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 0, 0.39,
+SetTextureCoordinates,6, 1, 0.12,
+SetTextureCoordinates,7, 1, 1,
+SetDecalTransparentColor,0, 0, 255,
+
+
+;Side Wall 1
+CreateMeshBuilder,
+AddVertex,-14.3,9.1,2.1
+AddVertex,-14.3,7.6,2.1
+AddVertex,20.9,9.3,2.1
+AddVertex,20.9,10.8,2.1
+AddVertex,20.9,10.8,2.1
+AddVertex,20.9,10.8,2
+AddVertex,-14.3,9.1,2
+AddVertex,-14.3,9.1,2.1
+
+AddVertex,-14.3,9.1,12.9
+AddVertex,-14.3,7.6,12.9
+AddVertex,20.9,9.3,12.9
+AddVertex,20.9,10.8,12.9
+
+AddVertex,20.9,10.8,12.9
+AddVertex,20.9,10.8,13
+AddVertex,-14.3,9.1,13
+AddVertex,-14.3,9.1,12.9
+AddFace,0,1,2,3
+AddFace,4,5,6,7
+AddFace,11,10,9,8
+AddFace,15,14,13,12
+
+LoadTexture,greystone2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 5, 0,
+SetTextureCoordinates,3, 5, 1,
+SetTextureCoordinates,4, 0, -0.2,
+SetTextureCoordinates,5, 0, 0,
+SetTextureCoordinates,6, 5, 0,
+SetTextureCoordinates,7, 5, -0.2,
+SetTextureCoordinates,8, 0, 1,
+SetTextureCoordinates,9, 0, 0,
+SetTextureCoordinates,10, 5, 0,
+SetTextureCoordinates,11, 5, 1,
+SetTextureCoordinates,12, 0, -0.2,
+SetTextureCoordinates,13, 0, 0,
+SetTextureCoordinates,14, 5, 0,
+SetTextureCoordinates,15, 5, -0.2,
+
+;Road Bed
+CreateMeshBuilder,
+AddVertex,-14.3,7.6,4
+AddVertex,20.9,9.3,4
+AddVertex,20.9,9.3,11
+AddVertex,-14.3,7.6,11
+AddFace,3,2,1,0
+
+LoadTexture,..\tracks\road6.png,
+SetTextureCoordinates,0, 0, 3,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 3,
+
+;Road Bed 2
+CreateMeshBuilder,
+AddVertex,-18.75,7.34,4
+AddVertex,-14.3,7.6,4
+AddVertex,-14.3,7.6,11
+AddVertex,-18.75,7.34,11
+AddFace,3,2,1,0
+
+LoadTexture,..\tracks\road7.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+;Pavement
+CreateMeshBuilder,
+AddVertex,-17.25,7.34,2
+AddVertex,-14.3,7.6,2
+AddVertex,-14.3,7.6,4
+AddVertex,-18.75,7.34,4
+AddFace,3,2,1,0
+
+LoadTexture,..\tracks\pavement.png,
+SetTextureCoordinates,0, 0, 2,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 2,
+
+;Pavement
+CreateMeshBuilder,
+AddVertex,-18.75,7.34,11
+AddVertex,-14.3,7.6,11
+AddVertex,-14.3,7.6,13
+AddVertex,-17.25,7.34,13
+AddFace,3,2,1,0
+
+LoadTexture,..\tracks\pavement.png,
+SetTextureCoordinates,0, 0, 2,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, -1, 0,
+SetTextureCoordinates,3, -1, 2,
+
+
+;Pavement 1
+CreateMeshBuilder,
+AddVertex,-14.3,7.6,2
+AddVertex,20.9,9.3,2
+AddVertex,20.9,9.3,4
+AddVertex,-14.3,7.6,4
+AddFace,3,2,1,0
+
+LoadTexture,..\tracks\pavement.png,
+SetTextureCoordinates,0, 0, 12,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 12,
+
+;Pavement 1
+CreateMeshBuilder,
+AddVertex,-14.3,7.6,11
+AddVertex,20.9,9.3,11
+AddVertex,20.9,9.3,13
+AddVertex,-14.3,7.6,13
+AddFace,3,2,1,0
+
+LoadTexture,..\tracks\pavement.png,
+SetTextureCoordinates,0, 0, 12,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, -1, 0,
+SetTextureCoordinates,3, -1, 12,
+
+;TunnelWalls
+CreateMeshBuilder,
+AddVertex,3, 5.3, 2,;0
+AddVertex,4.9, 5, 2,;1
+AddVertex,6.8, 4.47, 2,;2
+AddVertex,8.3, 3.52, 2,;3
+AddVertex,10.5, 2.27, 2,;4
+AddVertex,13.5, 0.67, 2,;5
+AddVertex,3, 5.3, 13,;6
+AddVertex,4.9, 5, 13,;7
+AddVertex,6.8, 4.47, 13,;8
+AddVertex,8.3, 3.52, 13,;9
+AddVertex,10.5, 2.27, 13,;10
+AddVertex,13.5, 0.67, 13,;11
+AddFace,7, 6, 0, 1,
+AddFace,8, 7, 1, 2,
+AddFace,9, 8, 2, 3,
+AddFace,10, 9, 3, 4,
+AddFace,11, 10, 4, 5,
+SetColor,40,40,40,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,3.5, 5.3, 2,;0
+AddVertex,1.97, 5.3, 2,;1
+AddVertex,0.17, 5.1, 2,;2
+AddVertex,-1.49, 4.8, 2,;3
+AddVertex,-2.6, 4.4, 2,;4
+AddVertex,-4.6, 3.5, 2,;5
+AddVertex,3.5, 5.3, 13,;6
+AddVertex,1.97, 5.3, 13,;7
+AddVertex,0.37, 5.1, 13,;8
+AddVertex,-1.4, 4.8, 13,;9
+AddVertex,-2.6, 4.4, 13,;10
+AddVertex,-4.6, 3.5, 13,;11
+AddFace,1,0,6,7
+AddFace,2,1,7,8
+AddFace,3,2,8,9
+AddFace,4,3,9,10
+AddFace,5,4,10,11
+SetColor,40,40,40,
+
+CreateMeshBuilder,
+AddVertex,-4.6, 3.5, 2,
+AddVertex,-4.6, 3.5, 13,
+AddVertex,-7, 1.9, 13,
+AddVertex,-7, 1.9, 2,
+AddFace,0,1,2,3
+SetColor,40,40,40,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-6.6, 2.2, 13,
+AddVertex,-6.6, 2.2, 2,
+AddVertex,-2.8, -0.145, 2,
+AddVertex,-2.8, -0.145, 13,
+AddVertex,10.05, -0.145, 13,
+AddVertex,10.05, -0.145, 2,
+AddVertex,13.2, 2.4, 2,
+AddVertex,13.2, 2.4, 13,
+
+AddFace,3,2,1,0
+AddFace,2,3,4,5
+AddFace,7,6,5,4
+Setcolor, 0,0,0,170,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, 24 ,  10.02 ,  26 ,
+AddVertex, 8.5 , -1.3 ,  26 ,
+AddVertex, 8.5 , -1.3 , -16.5 ,
+AddVertex, 92 , -1 , -16.5 ,
+AddVertex, 24 ,  10 ,  0 ,
+AddFace, 4, 2, 1, 0, 
+AddFace, 3, 2, 4, 
+GenerateNormals,
+
+LoadTexture,..\common\grass6.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 6, 0,
+SetTextureCoordinates,2, 6, 6,
+SetTextureCoordinates,3, 0, 12,
+SetTextureCoordinates,4, 0, 6,
+
+CreateMeshBuilder,
+AddVertex, 16 ,  6 ,  0 ,
+AddVertex, 16 ,  4.6 ,  0 ,
+AddVertex, 23 ,  5.1 ,  2 ,
+AddVertex, 23 ,  6.5 ,  2 ,
+AddFace, 3, 2, 1, 0, 
+AddFace, 0, 1, 2, 3, 
+
+GenerateNormals,
+LoadTexture, ..\plants\bushes.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1.5,1,
+SetTextureCoordinates, 3,1.5,0,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex, 18 ,  7 ,  12 ,
+AddVertex, 18 ,  5.6 ,  12 ,
+AddVertex, 25 ,  6.1 ,  14 ,
+AddVertex, 25 ,  7.5 ,  14 ,
+AddFace, 3, 2, 1, 0, 
+AddFace, 0, 1, 2, 3, 
+
+GenerateNormals,
+LoadTexture, ..\plants\bushes.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,1.5,1,
+SetTextureCoordinates, 3,1.5,0,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex, 18 ,  7 ,  20 ,
+AddVertex, 18 ,  5.6 ,  20 ,
+AddVertex, 25 ,  7.1 ,  22 ,
+AddVertex, 25 ,  8.5 ,  22 ,
+AddFace, 3, 2, 1, 0, 
+AddFace, 0, 1, 2, 3, 
+
+GenerateNormals,
+LoadTexture, ..\plants\bushes.png,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,-1.5,1,
+SetTextureCoordinates, 3,-1.5,0,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex, 4, 1, 25.5
+AddVertex, 4, 1, 13
+AddVertex, 3.9, -0.3, 13
+AddVertex, 3.9, -0.3, 25.5
+AddVertex, 4.1, 1, 25.5
+AddVertex, 4.1, 1, 13
+AddVertex, 4.2, -0.3, 13
+AddVertex, 4.2, -0.3, 25.5
+AddFace, 0,1,2,3
+AddFace, 7,6,5,4
+AddFace, 4,5,1,0
+AddFace, 5,6,2,1
+AddFace, 0,3,7,4
+Translate,-21.2,7.6
+
+LoadTexture, ..\common\greystone2.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 4, 0
+SetTextureCoordinates, 2, 4, 1
+SetTextureCoordinates, 3, 0, 1
+SetTextureCoordinates, 4, 0, 0
+SetTextureCoordinates, 5, 4, 0
+SetTextureCoordinates, 6, 4, 1
+SetTextureCoordinates, 7, 0, 1
+
+
+
+
+

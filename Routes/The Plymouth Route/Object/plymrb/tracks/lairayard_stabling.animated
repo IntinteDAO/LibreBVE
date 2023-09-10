@@ -1,0 +1,90 @@
+;Running Line
+[Object]
+States = straight_100.csv
+Position = 0,0,0
+
+;Stabling 1A
+[Object]
+States = straight_100.csv
+Position = -4,0,0
+
+;Stabling 1B
+[Object]
+States = straight_100.csv
+Position = -4,0,-100
+
+;Buffers 1
+[Object]
+States = ..\misc\bufferstop.csv
+RotateYFunction = 3.14159265
+Position = -4.3,0,-100
+
+
+;Stabling 2A
+[Object]
+States = straight_100.csv
+Position = -8,0,0
+
+;Stabling 2B
+[Object]
+States = straight_100.csv
+Position = -8,0,-100
+
+;Buffers 2
+[Object]
+States = ..\misc\bufferstop.csv
+RotateYFunction = 3.14159265
+Position = -8.3,0,-100
+
+;Stabling 3A
+[Object]
+States = straight_100.csv
+Position = -12,0,0
+
+;Stabling 3B
+[Object]
+States = straight_100.csv
+Position = -12,0,-100
+
+;Buffers 3
+[Object]
+States = ..\misc\bufferstop.csv
+RotateYFunction = 3.14159265
+Position = -12.3,0,-100
+
+;Stabling 4A
+[Object]
+States = straight_100.csv
+Position = -16,0,0
+
+;Stabling 4B
+[Object]
+States = straight_100.csv
+Position = -16,0,-100
+
+;Buffers 4
+[Object]
+States = ..\misc\bufferstop.csv
+RotateYFunction = 3.14159265
+Position = -16.3,0,-100
+
+;Stabling 5A
+[Object]
+States = straight_100.csv
+Position = -20,0,0
+
+;Stabling 5B
+[Object]
+States = straight_100.csv
+Position = -20,0,-100
+
+;Buffers 5
+[Object]
+States = ..\misc\bufferstop.csv
+RotateYFunction = 3.14159265
+Position = -20.3,0,-100
+
+;Grass??
+[Object]
+States = ..\grounds\lairayard.b3d
+Position = 0,0,0

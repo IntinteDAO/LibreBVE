@@ -1,0 +1,19 @@
+[Object]
+states = gantry_3ns1.csv
+Position = 0,0,0
+
+[Object]
+states = ..\..\lqsigs\homelq_arm.b3d
+Position = -3.2,6.4,-0.3
+
+[Object]
+states = ..\..\lqsigs\distlq_arm.b3d
+Position = -3.2,5.8,-0.3
+
+[Object]
+states = ..\..\lqsigs\homelq_arm.b3d
+Position = 0.2,6.0,-0.3
+
+[Object]
+states = ..\..\lqsigs\distlq_arm.b3d
+Position = 0.2,5.4,-0.3

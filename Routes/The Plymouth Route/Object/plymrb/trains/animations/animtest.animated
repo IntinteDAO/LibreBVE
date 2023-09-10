@@ -1,0 +1,6 @@
+[Object]
+States = ..\Cl08\Class08.b3d
+Position = 0,0,0
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = mod[10 * time, 30]
+

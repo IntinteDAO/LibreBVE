@@ -1,0 +1,16 @@
+;Wagon
+[Object]
+States = banana1.b3d
+Position = 0,0,0
+
+;Wheelset1
+[Object]
+States = wheelset_spk.b3d
+RotateXFunction = value + delta * speedometer / 0.5
+Position = 0,0.425,-0.75
+
+;Wheelset2
+[Object]
+States = wheelset_spk.b3d
+RotateXFunction = value + delta * speedometer / 0.5
+Position = 0,0.425,-3.4

@@ -1,0 +1,814 @@
+;author=Chris Lees
+;description=Forder Viaduct Underbridge
+;copyright=From the BVE Cornwall Plymouth route. © Chris Lees 2014
+
+;Retaining Wall Right [Goods Yard]
+[MeshBuilder]
+Vertex 40,-5.6,-9
+Vertex 13.3,-5.6,-9
+Vertex 13.3,1.0,-10
+Vertex 40,1.0,-10
+Vertex 40,1.0,-10.2
+Vertex 13.3,1.0,-10.2
+Vertex 13.3,-1.1,-10.2
+Vertex 40,-0.3,-10.2
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[Texture]
+Load underbridge3.png
+Coordinates  0, 0, 2
+Coordinates  1, 5, 2
+Coordinates  2, 5, 0
+Coordinates  3, 0, 0
+Coordinates  4, 0, 0.1
+Coordinates  5, 5, 0.1
+Coordinates  6, 5, 0.5
+Coordinates  7, 0, 0.5
+
+;Grass [Goods Yard]
+[MeshBuilder]
+Vertex 9.3,-1.1,-10.2
+Vertex 40,-0.3,-10.2
+Vertex 40,-0.3,-25.2
+Vertex 9.3,-0.3,-25.2
+Face 0,1,2,3
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates  0, 0, 1
+Coordinates  1, 2, 1
+Coordinates  2, 2, 0
+Coordinates  3, 0, 0
+
+;Tarmac
+[MeshBuilder]
+Vertex -25.8,-5.39,-4.4
+Vertex -11.7,-5.39,-4.4
+Vertex -11.7,-5.39,15.4
+Vertex -25.8,-5.39,15.4
+
+Vertex -25.6,-5.4,2.4
+Vertex -25.6,-5.4,-15
+Vertex -30.8,-5.39,-15
+Vertex -30.8,-5.39,2.4
+
+
+Vertex -25.8,-5.39,15.4
+Vertex -25.6,-5.4,2.35
+Vertex -65.6,-5.4,2.35
+Vertex -65.8,-5.39,15.4
+Face 3,2,1,0
+Face 4,5,6,7
+Face 8,9,10,11
+
+[Texture]
+Load ..\common\tarmac1.png
+Coordinates  0, 0, 0
+Coordinates  1, 2, 0
+Coordinates  2, 2, 2
+Coordinates  3, 0, 2
+
+Coordinates  7, 0, 0
+Coordinates  4, 1, 0
+Coordinates  5, 1, 2
+Coordinates  6, 0, 2
+
+Coordinates  8, 8, 0
+Coordinates  9, 8, 1
+Coordinates  10, 0, 1
+Coordinates  11, 0, 0
+
+;Road Underneath Bridge
+[MeshBuilder]
+Vertex -20.7,-5.39,-4.4
+Vertex -20.7,-5.39,-10.05
+Vertex -2.7,-5.39,-10.05
+Vertex -2.7,-5.39,-4.4
+Vertex 10.7,-5.39,0.6
+Vertex 10.7,-5.39,-5.05
+Vertex 40.7,-5.39,15.8
+Vertex 40.7,-5.39,22.61
+Vertex 140.7,-5.39,12.1
+Vertex 140.7,-5.39,06.45
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,8,9
+
+[Texture]
+Load ..\tracks\road2.png
+Coordinates  0, 0, 0
+Coordinates  1, 1, 0
+Coordinates  2, 1, 2
+Coordinates  3, 0, 2
+Coordinates  4, 0, 3
+Coordinates  5, 1, 3
+Coordinates  6, 1, 0
+Coordinates  7, 0, 0
+Coordinates  8, 0, 10
+Coordinates  9, 1, 10
+
+;Even More Pavement
+[MeshBuilder]
+Vertex 10.7,-5.39,0.6
+Vertex 10.7,-5.39,2.6
+Vertex 40.7,-5.39,24.61
+Vertex 40.7,-5.39,22.61
+Vertex 140.7,-5.39,12.1
+Vertex 140.7,-5.39,14.1
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates  0, 1, 0
+Coordinates  1, 0, 0
+Coordinates  2, 0, 12
+Coordinates  3, 1, 12
+Coordinates  4, 1, 50
+Coordinates  5, 0, 50
+
+;Pavement L
+[MeshBuilder]
+Vertex -20.7,-5.39,-10.05
+Vertex -2.7,-5.39,-10.05
+Vertex -2.7,-5.39,-12.05
+Vertex -19.4,-5.39,-12.05
+Vertex -20.4,-5.35,-12.05
+Face 0,1,2,3
+Face 0,3,4
+
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates  0, 1, 0
+Coordinates  1, 1, 8
+Coordinates  2, 0, 8
+Coordinates  3, 0, 0
+Coordinates  4, 1, 2
+
+;Another Bit of Road
+[MeshBuilder]
+Vertex -20.7,-5.39,-4.4
+Vertex -20.7,-5.39,-10.05
+Vertex -25.9,-5.39,-10.05
+Vertex -25.9,-5.39,-4.4
+Face 0,1,2,3
+
+[Texture]
+Load ..\tracks\road11.png
+Coordinates  0, 0, 0
+Coordinates  1, 1, 0
+Coordinates  2, 1, 1
+Coordinates  3, 0, 1
+
+
+;Arch 1
+[MeshBuilder]
+Vertex -2.7,-5.6,-1.805 
+Vertex -2.7,-5.6,-11.85 
+Vertex -2.7,-3.6,-11.85 
+Vertex -2.7,-3.6,-1.805 
+Vertex -2.7,0.7,-1.805 
+Vertex -2.7,0.7,-11.85 
+
+Vertex -2.6,-5.6,-1.805 
+Vertex -2.6,-5.6,-11.85 
+Vertex -2.6,-3.6,-11.85 
+Vertex -2.6,-3.6,-1.805 
+Vertex -2.6,0.7,-1.805 
+Vertex -2.6,0.7,-11.85 
+Face 0,6,10,4
+Face 7,1,5,11
+Face 10,11,5,4
+Face 3,2,1,0
+Face 2,3,4,5
+
+Face 6,7,8,9
+Face 11,10,9,8
+
+[Texture]
+Load forder1.png
+Coordinates  0, 1, 0.6
+Coordinates  1, 0, 0.6
+Coordinates  2, 0, 1
+Coordinates  3, 1, 1
+Coordinates  4, 1, 0
+Coordinates  5, 0, 0
+Coordinates  6, 1, 0.6
+Coordinates  7, 0, 0.6
+Coordinates  8, 0, 1
+Coordinates  9, 1, 1
+Coordinates  10, 1, 0
+Coordinates  11, 0, 0
+Transparent   0,0,255
+
+
+[MeshBuilder]
+Vertex -2.65,0.7,-11.85 
+Vertex -2.65,0.7,-1.805 
+Vertex -2.65,1.5,-1.805 
+Vertex -2.65,1.5,-11.85 
+Face2   3,2,1,0
+
+
+[Texture]
+Load  ..\common\Fence_19.png
+Coordinates  0, 0.15, 1
+Coordinates  1, 0.85, 1
+Coordinates  2, 0.85, 0.5
+Coordinates  3, 0.15, 0.5
+Transparent  0,0,0
+
+;Arch Supporting Wall 1.1
+[MeshBuilder]
+Vertex -6,-5.6,-10.95 
+Vertex -2.7,-5.6,-10.95 
+Vertex -2.7,-3.6,-10.95 
+Vertex -6,-3.6,-10.95 
+Vertex -6,0,-11.45 
+Vertex -2.7,0,-11.45 
+Face 0,1,2,3
+Face 5,4,3,2
+
+
+[Texture]
+Load  underbridge2.png
+Coordinates  0, -1, 0.4
+Coordinates  1, 0, 0.4
+Coordinates  2, 0, 1
+Coordinates  3, -1, 1
+Coordinates  4, -1, 0
+Coordinates  5, 0, 0
+Transparent   0,0,255
+
+;Grass
+[MeshBuilder]
+Vertex -2.7,-0.4,-15.35 
+Vertex -4.17,-0.6,-15.35
+Vertex -4.17,0,-11.45 
+Vertex -2.7,0,-11.45 
+Vertex -6.17,-1,-15.35
+Vertex -5.07,-1.05,-11.31 
+Vertex -6,-1.5,-11.31
+Vertex -6.17,-1,-15.35 
+Face 0,1,2,3
+Face 4,5,2,1
+Face 7,6,5,4
+
+
+[Texture]
+Load  ..\common\grass6.png
+Coordinates  0, 0, 1
+Coordinates  1, 0.2, 1
+Coordinates  2, 0.2, 0
+Coordinates  3, 0, 0
+Coordinates  4, 0.6, 1
+Coordinates  5, 0.6, 0
+Coordinates  4, 0.6, 1
+Coordinates  5, 0.6, 0
+Coordinates  6, 0.8, 1
+Coordinates  7, 0.8, 0
+
+;Arch Supporting Wall 1.1.1
+[MeshBuilder]
+Vertex -6,-5.6,-10.95 
+Vertex -8,-5.6,-15.35 
+Vertex -8,-3.6,-15.35 
+Vertex -6,-3.6,-10.95 
+Vertex -6,-1.05,-11.3 
+Vertex -6.17,-1,-15.35 
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load underbridge3.png
+Coordinates  0, 0, 1
+Coordinates  1, 2, 1
+Coordinates  2, 2, 0
+Coordinates  3, 0, 0
+Coordinates  4, 0, 1
+Coordinates  5, 2, 1
+
+;Arch Supporting Wall 1.2
+[MeshBuilder]
+Vertex -6,-5.6,-3.65 
+Vertex -2.7,-5.6,-3.65 
+Vertex -2.7,-3.6,-3.65 
+Vertex -6,-3.6,-3.65 
+Vertex -6,0,-2.55 
+Vertex -2.7,0,-2.55 
+Face 3,2,1,0
+Face 2,3,4,5
+
+
+[Texture]
+Load  underbridge2.png
+Coordinates  0, -1, 0.4
+Coordinates  1, 0, 0.4
+Coordinates  2, 0, 1
+Coordinates  3, -1, 1
+Coordinates  4, -1, 0
+Coordinates  5, 0, 0
+Transparent   0,0,255
+
+;Grass
+[MeshBuilder]
+Vertex -2.7,-0.4,-0.45 
+Vertex -4.17,-0.4,-0.45 
+Vertex -4.17,0,-2.55 
+Vertex -2.7,0,-2.55 
+Vertex -6.17,-1,-0.45 
+Vertex -5.07,-1.05,-2.87 
+Vertex -6,-1.05,-2.87 
+Vertex -6.17,-1,-1.45 
+Face 3,2,1,0
+Face 1,2,5,4
+Face 4,5,6,7
+
+
+[Texture]
+Load  ..\common\grass6.png
+Coordinates  0, 0, 1
+Coordinates  1, 0.2, 1
+Coordinates  2, 0.2, 0
+Coordinates  3, 0, 0
+Coordinates  4, 0.6, 1
+Coordinates  5, 0.6, 0
+Coordinates  4, 0.6, 1
+Coordinates  5, 0.6, 0
+Coordinates  6, 0.8, 1
+Coordinates  7, 0.8, 0
+
+;Arch Supporting Wall 1.2.1
+[MeshBuilder]
+Vertex -6,-5.6,-3.65 
+Vertex -8,-5.6,-0.45 
+Vertex -8,-3.6,-0.45 
+Vertex -6,-3.6,-3.65 
+Vertex -6,-1.05,-2.87 
+Vertex -6.17,-1,-0.45 
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load underbridge3.png
+Coordinates  0, 0, 1
+Coordinates  1, 2, 1
+Coordinates  2, 2, 0
+Coordinates  3, 0, 0
+Coordinates  4, 0, 1
+Coordinates  5, 2, 1
+
+;Arch
+[MeshBuilder]
+Vertex 10.7,-5.6,3.105 
+Vertex 10.7,-5.6,-7.15 
+Vertex 10.7,-3.6,-7.15 
+Vertex 10.7,-3.6,3.105 
+Vertex 10.7,0.7,3.105 
+Vertex 10.7,0.7,-7.15 
+Vertex 10.6,-5.6,3.105 
+Vertex 10.6,-5.6,-7.15 
+Vertex 10.6,-3.6,-7.15 
+Vertex 10.6,-3.6,3.105 
+Vertex 10.6,0.7,3.105 
+Vertex 10.6,0.7,-7.15 
+Face 4,10,6,0
+Face 11,5,1,7
+Face 4,5,11,10
+Face 0,1,2,3
+Face 5,4,3,2
+Face 9,8,7,6
+Face 8,9,10,11
+
+[Texture]
+Load forder1.png
+Coordinates  0, 1, 0.6
+Coordinates  1, 0, 0.6
+Coordinates  2, 0, 1
+Coordinates  3, 1, 1
+Coordinates  4, 1, 0
+Coordinates  5, 0, 0
+Coordinates  6, 1, 0.6
+Coordinates  7, 0, 0.6
+Coordinates  8, 0, 1
+Coordinates  9, 1, 1
+Coordinates  10, 1, 0
+Coordinates  11, 0, 0
+Transparent   0,0,255
+
+[MeshBuilder]
+Vertex 10.65,0.7,-7.15 
+Vertex 10.65,0.7,3.105 
+Vertex 10.65,1.5,3.105 
+Vertex 10.65,1.5,-7.15 
+Face2   3,2,1,0
+
+
+[Texture]
+Load  ..\common\Fence_19.png
+Coordinates  0, 0.15, 1
+Coordinates  1, 0.85, 1
+Coordinates  2, 0.85, 0.5
+Coordinates  3, 0.15, 0.5
+Transparent  0,0,0
+
+;Arch Supporting Wall 2.1
+[MeshBuilder]
+Vertex 14,-5.6,-5.95 
+Vertex 10.7,-5.6,-5.95 
+Vertex 10.7,-3.6,-5.95 
+Vertex 14,-3.6,-5.95 
+Vertex 14,0,-6.45 
+Vertex 10.7,0,-6.45 
+Face 3,2,1,0
+Face 2,3,4,5
+
+
+[Texture]
+Load  underbridge2.png
+Coordinates  0, -1, 0.4
+Coordinates  1, 0, 0.4
+Coordinates  2, 0, 1
+Coordinates  3, -1, 1
+Coordinates  4, -1, 0
+Coordinates  5, 0, 0
+Transparent   0,0,255
+
+
+
+;Arch Supporting Wall 2.1.1
+[MeshBuilder]
+Vertex 14,-5.6,-5.95 
+Vertex 16,-5.6,-10.35 
+Vertex 16,-3.6,-10.35 
+Vertex 14,-3.6,-5.95 
+Vertex 14,-1.05,-6.3 
+Vertex 14.17,-1,-10.35 
+Face 0,1,2,3
+Face 5,4,3,2
+
+
+[Texture]
+Load underbridge3.png
+Coordinates  0, 0, 1
+Coordinates  1, 2, 1
+Coordinates  2, 2, 0
+Coordinates  3, 0, 0
+Coordinates  4, 0, 1
+Coordinates  5, 2, 1
+
+;Arch Supporting Wall 2.2
+[MeshBuilder]
+Vertex 14,-5.6,1.35
+Vertex 10.7,-5.6,1.35
+Vertex 10.7,-3.6,1.35
+Vertex 14,-3.6,1.35
+Vertex 14,0,2.45
+Vertex 10.7,0,2.45
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load  underbridge2.png
+Coordinates  0, -1, 0.4
+Coordinates  1, 0, 0.4
+Coordinates  2, 0, 1
+Coordinates  3, -1, 1
+Coordinates  4, -1, 0
+Coordinates  5, 0, 0
+Transparent   0,0,255
+
+
+
+;Arch Supporting Wall 2.2.1
+[MeshBuilder]
+Vertex 14,-5.6,1.35
+Vertex 16,-5.6,5.45 
+Vertex 16,-3.6,5.45 
+Vertex 14,-3.6,1.35
+Vertex 14,-1.05,2.13
+Vertex 14.17,-1,5.45 
+Face 3,2,1,0
+Face 2,3,4,5
+
+
+[Texture]
+Load underbridge3.png
+Coordinates  0, 0, 1
+Coordinates  1, 2, 1
+Coordinates  2, 2, 0
+Coordinates  3, 0, 0
+Coordinates  4, 0, 1
+Coordinates  5, 2, 1
+
+;Fences
+[MeshBuilder]
+Cube  0.08,0.9,0.13
+Translate -2.9,0.5,-12 
+Color  190,190,190
+
+[MeshBuilder]
+Cube  0.08,1.2,0.13
+Translate -5,0.2,-12.65 
+Color  190,190,190
+
+[MeshBuilder]
+Cube  0.05,0.05,1.03
+Rotate  0,1,0,75
+Translate -3.95,1.2,-12.325 
+Color  190,190,190
+
+[MeshBuilder]
+Cube  0.05,0.05,1.03
+Rotate  0,1,0,75
+Translate -3.95,0.7,-12.325 
+Color  190,190,190
+
+[MeshBuilder]
+Cube  0.05,0.05,1.03
+Rotate  0,1,0,75
+Translate -3.95,0.2,-12.325 
+Color  190,190,190
+
+;Second fences
+[MeshBuilder]
+Cube  0.08,0.9,0.13 
+Translate -2.9,0.5,-2.45 
+Color  190,190,190
+
+[MeshBuilder]
+Cube  0.08,1.1,0.13
+Translate -5,0.3,-2
+Color  190,190,190
+
+[MeshBuilder]
+Cube  0.05,0.05,1.03
+Rotate  0,1,0,-75
+Translate -3.95,1.2,-2.225 
+Color  190,190,190
+
+[MeshBuilder]
+Cube  0.05,0.05,1.03
+Rotate  0,1,0,-75
+Translate -3.95,0.7,-2.225 
+Color  190,190,190
+
+[MeshBuilder]
+Cube  0.05,0.05,1.03
+Rotate  0,1,0,-75
+Translate -3.95,0.2,-2.225 
+Color  190,190,190
+
+;Fences
+[MeshBuilder]
+Cube  0.08,0.9,0.13
+Translate 10.9,0.5,-7 
+Color  190,190,190
+
+[MeshBuilder]
+Cube  0.08,1.1,0.13
+Translate 13,0.3,-7.65 
+Color  190,190,190
+
+[MeshBuilder]
+Cube  0.05,0.05,1.03
+Rotate  0,1,0,-75
+Translate 11.95,1.2,-7.325 
+Color  190,190,190
+
+[MeshBuilder]
+Cube  0.05,0.05,1.03
+Rotate  0,1,0,-75
+Translate 11.95,0.7,-7.325 
+Color  190,190,190
+
+[MeshBuilder]
+Cube  0.05,0.05,1.03
+Rotate  0,1,0,-75
+Translate 11.95,0.2,-7.325 
+Color  190,190,190
+
+;Second fences
+[MeshBuilder]
+Cube  0.08,0.9,0.13 
+Translate 10.9,0.5,2.55 
+Color  190,190,190
+
+[MeshBuilder]
+Cube  0.08,1.1,0.13
+Translate 13,0.3,3.2 
+Color  190,190,190
+
+[MeshBuilder]
+Cube  0.05,0.05,1.03
+Rotate  0,1,0,75
+Translate 11.95,1.2,2.775
+Color  190,190,190
+
+[MeshBuilder]
+Cube  0.05,0.05,1.03
+Rotate  0,1,0,75
+Translate 11.95,0.7,2.775
+Color  190,190,190
+
+[MeshBuilder]
+Cube  0.05,0.05,1.03
+Rotate  0,1,0,75
+Translate 11.95,0.2,2.775
+Color  190,190,190
+
+;Inside
+[MeshBuilder]
+Vertex -2.7,-2,-10.05 
+Vertex 10.7,-2,-5.05
+Vertex 10.7,-1.6,-4.57
+Vertex -2.7,-1.6,-9.57 
+Vertex 10.7,-1.3,-3.98
+Vertex -2.7,-1.3,-8.98
+Vertex 10.7,-1.2,-3.4
+Vertex -2.7,-1.2,-8.4
+Vertex 10.7,-1.1,-1.62
+Vertex -2.7,-1.1,-6.62
+Vertex 10.7,-1.2,-0.84
+Vertex -2.7,-1.2,-5.84
+Vertex 10.7,-1.3,-0.32 
+Vertex -2.7,-1.3,-5.32 
+Vertex 10.7,-1.6,0.33
+Vertex -2.7,-1.6,-4.67
+Vertex 10.7,-2,0.6
+Vertex -2.7,-2,-4.4 
+Face2   3,2,1,0
+Face2   2,3,5,4
+Face2   7,6,4,5
+Face2   9,8,6,7
+Face2   8,9,11,10
+Face2   10,11,13,12
+Face2   12,13,15,14
+Face2   14,15,17,16
+Color  40,40,40
+
+[MeshBuilder]
+Vertex 10.7,-2,0.6
+Vertex -2.7,-2,-4.4
+Vertex -2.7,-5.6,-4.4
+Vertex 10.7,-5.6,0.6
+Face2   0,1,2,3
+Color  40,40,40
+
+[MeshBuilder]
+Vertex 10.7,-2,-5.05
+Vertex -2.7,-2,-10.05
+Vertex -2.7,-5.6,-10.05
+Vertex 10.7,-5.6,-5.05
+Face2   0,1,2,3
+Color  40,40,40
+
+
+[MeshBuilder]
+Vertex -1.9,-0.3,-25
+Vertex -6,-0.3,-25
+Vertex -22,-10,-25
+Vertex -1.9,-0.301,-14
+Vertex -6.17,-1,-15.35
+Vertex -12,-10,-14
+
+Vertex 10.7,-0.4,-10.35
+Vertex 9.3,-0.3,-25.2
+Vertex 12.17,-0.7,-10.35 
+Vertex 14.17,-1,-10.35
+Face 0,1,4,3
+Face 1,2,5,4
+
+Face 0,3,6,7
+Face 8,7,6
+Face 7,8,9
+[Texture]
+Load ..\common\grass6.png,,
+Coordinates 0,0,1
+Coordinates 1,0,2
+Coordinates 2,0,0
+Coordinates 3,1,1
+Coordinates 4,1,2
+Coordinates 5,1,0
+Coordinates 6,0,2
+Coordinates 7,0,0
+Coordinates 8,0.4,2
+Coordinates 9,0.8,2
+
+;Grass
+[MeshBuilder]
+Vertex 10.7,-0.4,-10.35 
+Vertex 12.17,-0.7,-10.35 
+Vertex 12.17,0,-6.45 
+Vertex 10.7,0,-6.45 
+Vertex 14.17,-1,-10.35
+Vertex 13.07,-1.05,-6.31
+Vertex 14,-1.05,-6.31
+Vertex 14.17,-1,-10.35
+Face 3,2,1,0
+Face 1,2,5,4
+Face 4,5,6,7
+
+
+[Texture]
+Load  ..\common\grass6.png
+Coordinates  0, 0, 1
+Coordinates  1, 0.2, 1
+Coordinates  2, 0.2, 0
+Coordinates  3, 0, 0
+Coordinates  4, 0.6, 1
+Coordinates  5, 0.6, 0
+Coordinates  4, 0.6, 1
+Coordinates  5, 0.6, 0
+Coordinates  6, 0.8, 1
+Coordinates  7, 0.8, 0
+
+;Grass
+[MeshBuilder]
+Vertex 10.7,-0.4,5.45 
+Vertex 12.17,-0.4,5.45 
+Vertex 12.17,0,2.45 
+Vertex 10.7,0,2.45 
+Vertex 14.17,-1,5.45 
+Vertex 13.07,-1.05,2.13
+Vertex 14,-1.05,2.13
+Vertex 14.17,-1,5.45 
+Face 0,1,2,3
+Face 4,5,2,1
+Face 7,6,5,4
+
+
+[Texture]
+Load  ..\common\grass6.png
+Coordinates  0, 0, 1
+Coordinates  1, 0.2, 1
+Coordinates  2, 0.2, 0
+Coordinates  3, 0, 0
+Coordinates  4, 0.6, 1
+Coordinates  5, 0.6, 0
+Coordinates  4, 0.6, 1
+Coordinates  5, 0.6, 0
+Coordinates  6, 0.8, 1
+Coordinates  7, 0.8, 0
+
+[MeshBuilder]
+Vertex 8.9,-0.3,5.5
+Vertex 13,-0.3,5.5
+Vertex 29,-10,10.5
+Vertex 8.9,-0.305,25.5 ,0,1,0
+Vertex 13,-0.305,25.5 ,0,1,0
+Vertex 29,-10,25.5 ,0,1,0
+Vertex 29,-20,35.5 ,0,1,0
+Vertex 8.9,-20,35.5 ,0,1,0
+
+Face2 4,6,7,3
+Face 6,5,4
+Face 3,4,1,0
+Face 4,5,2,1
+Color 230,230,230
+
+
+[Texture]
+Load ..\common\grass6.png,,
+Coordinates 0,0,1
+Coordinates 1,0,2
+Coordinates 2,0,0
+Coordinates 3,1,1
+Coordinates 4,1,2
+Coordinates 5,1,0
+Coordinates 6,0,0
+Coordinates 7,1,0
+
+[MeshBuilder]
+Vertex 10.6,-0.41,25.5
+Vertex 10.6,-0.41,-25
+Vertex 0,-0.305,-25
+Vertex 0,-0.305,25.5
+Face 0,1,2,3
+
+[Texture]
+Load ..\common\grass6.png,,
+Coordinates 0,0,5
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,5
+
+[MeshBuilder]
+Vertex 9,-0.3,5.5 ,0,0,-1
+Vertex 13,-0.3,5.5 ,0,0,-1
+Vertex 29,-10,10.5 ,0,0,-1
+Vertex 9,-10,-4.5 ,0,0-1
+Face2 0,1,2,3
+Color 230,230,230
+
+
+[Texture]
+Load ..\common\grass6.png,,
+Coordinates 0,0,1
+Coordinates 1,0,2
+Coordinates 2,0,0
+Coordinates 3,1,1
+

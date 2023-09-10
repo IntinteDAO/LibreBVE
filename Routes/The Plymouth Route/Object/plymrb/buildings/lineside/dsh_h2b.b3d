@@ -1,0 +1,209 @@
+;Description=Houses 2 Base Object
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route ©2013
+
+;Front Garden Grass
+[MeshBuilder]
+Vertex 0,-0.19,0
+Vertex 0,-0.19,55
+Vertex 12,-0.19,55
+Vertex 12,-0.19,0
+Face 0,1,2,3
+
+[Texture]
+Load  ..\..\common\grass6.png
+Coordinates  0,0,4
+Coordinates  1,0,0
+Coordinates  2,2,0
+Coordinates  3,2,4
+
+;Rear Concrete
+[MeshBuilder]
+Vertex -0.2,-0.19,0
+Vertex -0.2,-0.19,55
+Vertex -20,-3,55
+Vertex -20,-3.19,0
+Face 3,2,1,0
+
+[Texture]
+Load  ..\..\common\concrete1.png
+Coordinates  0,0,4
+Coordinates  1,0,0
+Coordinates  2,2,0
+Coordinates  3,2,4
+
+;More Concrete
+[MeshBuilder]
+Vertex -20,-3.19,0
+Vertex -20,-6.19,-5
+Vertex -0.2,-3.19,-5
+Vertex -0.2,-0.19,0
+Vertex 20,-0.19,0
+Vertex 20,-3.19,-5
+Vertex 21,-3.19,-5
+Vertex 21,-0.59,0
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[Texture]
+Load  ..\..\common\concrete1.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,2,0
+Coordinates  3,2,1
+Coordinates  4,0,1
+Coordinates  5,0,0
+Coordinates  6,0.1,0
+Coordinates  7,0.1,1
+
+;Another Concrete Chunk
+[MeshBuilder]
+Vertex 12,-0.19,0
+Vertex 12,-0.19,55
+Vertex 20,-0.19,55
+Vertex 20,-0.19,0
+Vertex 21,-0.59,0
+Vertex 21,-0.59,55
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load  ..\..\common\concrete1.png
+Coordinates  0,0,4
+Coordinates  1,0,0
+Coordinates  2,2,0
+Coordinates  3,2,4
+Coordinates  4,1.9,4
+Coordinates  5,1.9,0
+
+;Garden Walls
+[MeshBuilder]
+Vertex -16,-0.5,-0.4
+Vertex -16,-2.6,-0.4
+Vertex -1,-0.35,0
+Vertex -1,0.7,0
+Vertex -1,0.7,5
+Vertex -1,-0.35,5
+
+Vertex -16,-0.5,9
+Vertex -16,-2.6,9
+Vertex -1,-0.35,7
+Vertex -1,0.7,7
+Vertex -1,0.7,14
+Vertex -1,-0.35,14
+
+Vertex -16,-0.5,21
+Vertex -16,-2.6,21
+Vertex -1,-0.35,16
+Vertex -1,0.7,16
+Vertex -1,0.7,27
+Vertex -1,-0.35,27
+Face 0,1,2,3
+Face 5,4,3,2
+Face 6,7,8,9
+Face 11,10,9,8
+
+Face 12,13,14,15
+Face 17,16,15,14
+
+[Texture]
+Load  wooden_fence1.png
+Coordinates  0,0,-1
+Coordinates  1,0,0
+Coordinates  2,5,0
+Coordinates  3,5,-1
+Coordinates  4,2,-1
+Coordinates  5,2,0
+Coordinates  6,0,-1
+Coordinates  7,0,0
+Coordinates  8,5,0
+Coordinates  9,5,-1
+Coordinates  10,2,-1
+Coordinates  11,2,0
+
+Coordinates  12,0,-1
+Coordinates  13,0,0
+Coordinates  14,5,0
+Coordinates  15,5,-1
+Coordinates  16,0,-1
+Coordinates  17,0,0
+
+
+[MeshBuilder]
+Vertex -16,-0.5,-0.4
+Vertex -16,-2.6,-0.4
+Vertex -1,-0.35,0
+Vertex -1,0.7,0
+Vertex -1,0.7,5
+Vertex -1,-0.35,5
+
+Vertex -16,-0.5,9
+Vertex -16,-2.6,9
+Vertex -1,-0.35,7
+Vertex -1,0.7,7
+Vertex -1,0.7,14
+Vertex -1,-0.35,14
+
+Vertex -16,-0.5,21
+Vertex -16,-2.6,21
+Vertex -1,-0.35,16
+Vertex -1,0.7,16
+Vertex -1,0.7,27
+Vertex -1,-0.35,27
+
+Face 3,2,1,0
+Face 2,3,4,5
+Face 9,8,7,6
+Face 8,9,10,11
+
+Face 15,14,13,12
+Face 14,15,16,17
+
+[Texture]
+Load  wooden_fence.png
+Coordinates  0,0,-1
+Coordinates  1,0,0
+Coordinates  2,5,0
+Coordinates  3,5,-1
+Coordinates  4,2,-1
+Coordinates  5,2,0
+Coordinates  6,0,-1
+Coordinates  7,0,0
+Coordinates  8,5,0
+Coordinates  9,5,-1
+Coordinates  10,2,-1
+Coordinates  11,2,0
+Coordinates  12,0,-1
+Coordinates  13,0,0
+Coordinates  14,5,0
+Coordinates  15,5,-1
+Coordinates  16,0,-1
+Coordinates  17,0,0
+
+
+;Garden Gates
+[MeshBuilder]
+Vertex -1,-0.6,5
+Vertex -1,0.6,5
+Vertex -1,0.6,7
+Vertex -1,-0.6,7
+
+Vertex -1,-0.6,14
+Vertex -1,0.6,14
+Vertex -1,0.6,16
+Vertex -1,-0.6,16
+Face2 0,1,2,3
+Face2 4,5,6,7
+
+[Texture]
+Load  garden_gate.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Coordinates  4,0,1
+Coordinates  5,0,0
+Coordinates  6,1,0
+Coordinates  7,1,1
+Transparent 0,0,255

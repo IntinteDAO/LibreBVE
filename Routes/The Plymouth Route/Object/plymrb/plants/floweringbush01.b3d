@@ -1,0 +1,33 @@
+;author=Christopher Lees
+;description=Hibiscus Bush
+;copyright=From the BVE Cornwall Plymouth Route.
+
+[MeshBuilder]
+Vertex 3, 3, 0
+Vertex 3, -0.1, 0
+Vertex -3, -0.1, 0
+Vertex -3, 3, 0
+Face2 0,1,2,3
+
+[Texture]
+Load floweringbush01.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 0, 4, 6
+Vertex 0, -0.1, 6
+Vertex 0, -0.1, -6
+Vertex 0, 4, -6
+Face2 0,1,2,3
+
+[Texture]
+Load floweringbush01.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0,0,255

@@ -1,0 +1,24 @@
+[MeshBuilder]
+Vertex -1.07,1.0,5 
+Vertex -1.07,1.5,2.5
+Vertex -1.07,0.6,2.5 
+Vertex -1.07,0.1,5
+
+Vertex -0.62,0.55,5 
+Vertex -1.52,1.05,2.5
+Vertex -0.62,1.05,2.5 
+Vertex -1.52,0.55,5
+Face2 3,2,1,0
+Face2 7,6,5,4
+
+[Texture]
+Load clag.png
+Coordinates   3, 0, 1
+Coordinates   0, 1, 1
+Coordinates   1, 1, 0
+Coordinates   2, 0, 0
+Coordinates   7, 0, 1
+Coordinates   4, 1, 1
+Coordinates   5, 1, 0
+Coordinates   6, 0, 0
+Transparent 0,0,0

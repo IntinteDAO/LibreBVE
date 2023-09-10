@@ -1,0 +1,93 @@
+;Description=St. Germans Village Hall
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route © 2015
+
+;Front Face
+[MeshBuilder]
+Vertex -5,0,15
+Vertex -5,0,-15
+Vertex -5,4,-15
+Vertex -5,4,15
+Face 3,2,1,0
+
+[texture]
+load stgvh_01.png
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, -1
+coordinates 3, 0, -1
+
+;Rear Face
+[MeshBuilder]
+Vertex 5,0,15
+Vertex 5,0,-15
+Vertex 5,4,-15
+Vertex 5,4,15
+Face 0,1,2,3
+
+[texture]
+load stgvh_01.png
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, -1
+coordinates 3, 0, -1
+
+;End 1
+[MeshBuilder]
+Vertex -5,0,15
+Vertex -5,4,15
+Vertex 0,6,15
+Vertex 0,0,15
+Vertex 5,0,15
+Vertex 5,4,15
+Face 3,2,1,0
+Face 2,3,4,5
+
+[texture]
+load stgvh_02.png
+coordinates 0, 1, 0
+coordinates 1, 1, -0.58
+coordinates 2, 0, -0.9
+coordinates 3, 0, 0
+coordinates 4, 1, 0
+coordinates 5, 1, -0.58
+
+;End 2
+[MeshBuilder]
+Vertex -5,0,-15
+Vertex -5,4,-15
+Vertex 0,6,-15
+Vertex 0,0,-15
+Vertex 5,0,-15
+Vertex 5,4,-15
+Face 0,1,2,3
+Face 5,4,3,2
+
+[texture]
+load stgvh_02.png
+coordinates 0, 1, 0
+coordinates 1, 1, -0.58
+coordinates 2, 0, -0.9
+coordinates 3, 0, 0
+coordinates 4, 1, 0
+coordinates 5, 1, -0.58
+
+;Roof
+[MeshBuilder]
+Vertex -5,4,-15
+Vertex -5,4,15
+Vertex 0,6,15
+Vertex 0,6,-15
+Vertex 5,4,-15
+Vertex 5,4,15
+Face 0,1,2,3
+Face 5,4,3,2
+
+[texture]
+load ..\..\common\tiles5.png
+coordinates 0, 0, 0
+coordinates 1, 3, 0
+coordinates 2, 3, 2
+coordinates 3, 0, 2
+coordinates 4, 0, 0
+coordinates 5, 3, 0

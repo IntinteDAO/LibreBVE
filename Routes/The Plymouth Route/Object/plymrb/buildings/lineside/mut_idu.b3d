@@ -1,0 +1,121 @@
+;author=Chris Lees
+;description=Lineside industrial units
+;copyright=From the BVE Cornwall Plymouth route. © Chris Lees 2010
+
+[MeshBuilder]
+Vertex -10 ,  0 ,  0 
+Vertex -10 ,  6.5 ,  0
+Vertex -10 ,  6.5 ,  25
+Vertex -10 ,  0 ,  25 
+Face  0, 1, 2, 3,
+
+[Texture]
+Load idu_01a.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,2,0
+Coordinates   3,2,1
+
+[MeshBuilder]
+Vertex -10 ,  6.5 ,  0
+Vertex -18 ,  8.5 ,  0
+Vertex -18 ,  8.5 ,  25
+Vertex -10 ,  6.5 ,  25
+Face  0, 1, 2, 3,
+
+[Texture]
+Load idu_02a.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,2,0
+Coordinates   3,2,1
+
+[MeshBuilder]
+Cube  0.2,0.2,12.6
+Translate  -10, 6.5,  12.5
+Color 60,60,60
+
+[Texture]
+Load  ..\..\common\concrete1.png
+Coordinates  3,0,0
+Coordinates  2,0,1
+Coordinates  0,1,0
+Coordinates  1,1,1
+Coordinates  4,2,0
+Coordinates  5,2,1
+Coordinates  7,1,0
+Coordinates  6,1,1
+
+[MeshBuilder]
+Vertex -10 ,  0 ,  0
+Vertex -10 ,  8.5 ,  0
+Vertex -26 ,  8.5 ,  0
+Vertex -26 ,  0 ,  0
+Face2 3,2,1,0
+
+[Texture]
+Load idu_06.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -26 ,  0 ,  0
+Vertex -26 ,  6.5 ,  0
+Vertex -26 ,  6.5 ,  25
+Vertex -26 ,  0 ,  25
+Face  3,2,1,0
+
+[Texture]
+Load idu_01a.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,2,0
+Coordinates   3,2,1
+
+[MeshBuilder]
+Vertex -26 ,  6.5 ,  0
+Vertex -18 ,  8.5 ,  0
+Vertex -18 ,  8.5 ,  25
+Vertex -26 ,  6.5 ,  25
+Face 3,2,1,0
+
+[Texture]
+Load idu_02a.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,2,0
+Coordinates   3,2,1
+
+[MeshBuilder]
+Cube  0.2,0.2,12.6
+Translate  -26, 6.5,  12.5
+Color 60,60,60
+
+[Texture]
+Load  ..\..\common\concrete1.png
+Coordinates  3,0,0
+Coordinates  2,0,1
+Coordinates  0,1,0
+Coordinates  1,1,1
+Coordinates  4,2,0
+Coordinates  5,2,1
+Coordinates  7,1,0
+Coordinates  6,1,1
+
+[MeshBuilder]
+Vertex -10 ,  0 ,  25
+Vertex -10 ,  8.5 ,  25
+Vertex -26 ,  8.5 ,  25
+Vertex -26 ,  0 ,  25
+Face2 0,1,2,3
+
+[Texture]
+Load idu_06.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,1,0
+Coordinates   3,1,1
+Transparent 0,0,255

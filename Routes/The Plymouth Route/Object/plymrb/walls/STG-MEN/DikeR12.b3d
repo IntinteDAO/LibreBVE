@@ -1,0 +1,31 @@
+;Description=Dike End Transition Piece #2
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route. © 2015
+
+[MeshBuilder]
+Vertex  1,-0.65,-5
+Vertex  1,-0.33,26
+Vertex  55,7.369,26
+Vertex  55,9.055,-5
+Vertex  160,7.069,-5
+
+Vertex  160,3.369,26 
+Vertex  160,1.369,30
+Vertex  67,1.369,30
+Vertex  1,-1.33,30
+Face 0,1,2,3
+Face 5,4,3,2
+Face 2,7,6,5
+Face 8,7,2,1
+
+[Texture]
+Load ..\..\common\grass6.png,,
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,3
+Coordinates 3,0,3
+Coordinates 4,0,0
+Coordinates 5,1,0
+Coordinates 6,0.5,0
+Coordinates 7,0.5,3
+Coordinates 8,0.5,0

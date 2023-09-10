@@ -1,0 +1,241 @@
+;author=Chris Lees
+;description=Joining Bridge from Millbay Docks
+;copyright=From the BVE Cornwall Plymouth Route © 2012
+
+[MeshBuilder]
+Vertex 7.71, -0.3, -1
+Vertex 7.71, -0.3, 26
+Vertex 7.71, 1.5, 26
+Vertex 7.71, 1.5, -1
+Vertex 7.29, -0.3, -1
+Vertex 7.29, -0.3, 26
+Vertex 7.29, 1.5, 26
+Vertex 7.29, 1.5, -1
+Face2 3,2,1,0
+Face2 4,5,6,7
+Face 2,3,7,6
+Face 1,2,6,5
+Face 4,7,3,0
+
+[Texture]
+Load ..\common\bridge_steel2.png
+Coordinates 0, 0, 1
+Coordinates 1, 10, 1
+Coordinates 2, 10, 0
+Coordinates 3, 0, 0
+Coordinates 4, 0, 1
+Coordinates 5, 10, 1
+Coordinates 6, 10, 0
+Coordinates 7, 0, 0
+transparent 0,64,63
+
+[MeshBuilder]
+Vertex -0.29, -0.3, -1
+Vertex -0.29, -0.3, 26
+Vertex -0.29, 1.5, 26
+Vertex -0.29, 1.5, -1
+Vertex -0.71, -0.3, -1
+Vertex -0.71, -0.3, 26
+Vertex -0.71, 1.5, 26
+Vertex -0.71, 1.5, -1
+Face2 3,2,1,0
+Face2 4,5,6,7
+Face 2,3,7,6
+Face 1,2,6,5
+Face 4,7,3,0
+
+[Texture]
+Load ..\common\bridge_steel2.png
+Coordinates 0, 0, 1
+Coordinates 1, 10, 1
+Coordinates 2, 10, 0
+Coordinates 3, 0, 0
+Coordinates 4, 0, 1
+Coordinates 5, 10, 1
+Coordinates 6, 10, 0
+Coordinates 7, 0, 0
+transparent 0,64,63
+
+[MeshBuilder]
+Vertex 7.71, -0.3, -1
+Vertex 7.71, -0.3, 26
+Vertex -0.71, -0.3, 26
+Vertex -0.71, -0.3, -1
+Face2 3,2,1,0
+
+[Texture]
+Load ..\walls\grey_steel.png
+Coordinates 0, 0, 1
+Coordinates 1, 10, 1
+Coordinates 2, 10, 0
+Coordinates 3, 0, 0
+
+[MeshBuilder]
+Cube 3.8,4.69,1
+Translate 3.5,-5,24
+
+[Texture]
+Load ..\common\redbrick2.png
+Coordinates 3,0,0
+Coordinates 2,0,4
+Coordinates 0,2,0
+Coordinates 1,2,4
+Coordinates 4,3,0
+Coordinates 5,3,4
+Coordinates 7,2,0
+Coordinates 6,2,4
+
+[MeshBuilder]
+Cube 3.95,1,1.15
+Translate 3.5,-2,24
+
+[Texture]
+Load ..\common\concrete1.png
+Coordinates 3,0,0
+Coordinates 2,0,1
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 4,2,0
+Coordinates 5,2,1
+Coordinates 7,1,0
+Coordinates 6,1,1
+
+[MeshBuilder]
+Vertex  4.28 ,  0 ,  26
+Vertex  4.22 ,  0 ,  26
+Vertex  4.22 ,  0 ,  -1
+Vertex  4.28 ,  0 ,  -1
+Face 1,0,3,2
+Color 180,190,200
+
+[MeshBuilder]
+Vertex  5.72 ,  0 ,  26
+Vertex  5.78 ,  0 ,  26
+Vertex  5.78 ,  0 ,  -1
+Vertex  5.72 ,  0 ,  -1
+Face 0,1,2,3
+Color 180,190,200
+
+[MeshBuilder]
+Vertex  4.26 ,  0 ,  -1
+Vertex  4.26 ,  0 ,  26
+Vertex  4.26 , -0.15 ,  26
+Vertex  4.26 , -0.15 ,  -1
+Face2 0,1,2,3
+Color 85,50,50
+
+[MeshBuilder]
+Vertex  5.74 ,  0 ,  -1
+Vertex  5.74 ,  0 ,  26
+Vertex  5.74 , -0.15 ,  26
+Vertex  5.74 , -0.15 ,  -1
+Face2 0,1,2,3
+Color 85,50,50
+
+[MeshBuilder]
+Vertex  3.7 , -0.15 ,  26
+Vertex  6.3 , -0.15 ,  26
+Vertex  6.3 , -0.15 ,  -1
+Vertex  3.7 , -0.15 ,  -1
+Face 0,1,2,3
+
+[Texture]
+Load ..\tracks\weiche1.png
+Coordinates 0,0.01,0
+Coordinates 1,0.99,0
+Coordinates 2,0.99,15
+Coordinates 3,0.01,15
+
+[MeshBuilder]
+Vertex  2.2 , -0.3 ,  26
+Vertex  3.7 , -0.15 ,  26 
+Vertex  3.7 , -0.15 ,  -1
+Vertex  2.2 , -0.3 ,  -1
+
+Vertex  7.7 , -0.3 ,  26
+Vertex  6.3 , -0.15 ,  26
+Vertex  6.3 , -0.15 ,  -1 
+Vertex  7.7 , -0.3 ,  -1
+Face 0,1,2,3
+Face 7,6,5,4
+
+[Texture]
+Load ..\tracks\Ballast.png
+Coordinates 2,0,0
+Coordinates 3,1,0
+Coordinates 0,1,10
+Coordinates 1,0,10
+Coordinates 4,1,0
+Coordinates 5,0,0
+Coordinates 6,0,10
+Coordinates 7,1,10
+
+
+[MeshBuilder]
+Vertex  0.78 ,  0 ,  26
+Vertex  0.72 ,  0 ,  26
+Vertex  0.72 ,  0 ,  -1
+Vertex  0.78 ,  0 ,  -1
+Face 1,0,3,2
+Color 180,190,200
+
+[MeshBuilder]
+Vertex  2.22 ,  0 ,  26
+Vertex  2.28 ,  0 ,  26
+Vertex  2.28 ,  0 ,  -1
+Vertex  2.22 ,  0 ,  -1
+Face 0,1,2,3
+Color 180,190,200
+
+[MeshBuilder]
+Vertex  0.76 ,  0 ,  -1
+Vertex  0.76 ,  0 ,  26
+Vertex  0.76 , -0.15 ,  26
+Vertex  0.76 , -0.15 ,  -1
+Face2 0,1,2,3
+Color 85,50,50
+
+[MeshBuilder]
+Vertex  2.24 ,  0 ,  -1
+Vertex  2.24 ,  0 ,  26
+Vertex  2.24 , -0.15 ,  26
+Vertex  2.24 , -0.15 ,  -1
+Face2 0,1,2,3
+Color 85,50,50
+
+[MeshBuilder]
+Vertex  0.2 , -0.15 ,  26 
+Vertex  2.8 , -0.15 ,  26 
+Vertex  2.8 , -0.15 ,  -1
+Vertex  0.2 , -0.15 ,  -1
+Face 0,1,2,3
+
+[Texture]
+Load ..\tracks\weiche1.png
+Coordinates 0,0.01,0
+Coordinates 1,0.99,0
+Coordinates 2,0.99,15
+Coordinates 3,0.01,15
+
+[MeshBuilder]
+Vertex -0.7 , -0.3 ,  26
+Vertex  0.2 , -0.15 ,  26 
+Vertex  0.2 , -0.15 ,  -1
+Vertex -0.7 , -0.3 ,  -1
+Vertex  4.3 , -0.3 ,  26
+Vertex  2.8 , -0.15 ,  26 
+Vertex  2.8 , -0.15 ,  -1
+Vertex  4.3 , -0.3 ,  -1
+Face 0,1,2,3
+Face 7,6,5,4
+
+[Texture]
+Load ..\tracks\Ballast.png
+Coordinates 2,0,0
+Coordinates 3,1,0
+Coordinates 0,1,10
+Coordinates 1,0,10
+Coordinates 4,0,0
+Coordinates 5,1,0
+Coordinates 6,1,10
+Coordinates 7,0,10

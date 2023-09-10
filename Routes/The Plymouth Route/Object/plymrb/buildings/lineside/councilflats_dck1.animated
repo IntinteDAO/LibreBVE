@@ -1,0 +1,18 @@
+;;Multiobj for Dockyard Station councilflats
+[Object]
+states = councilflats1.b3d
+Position = -75,7,-10
+RotateYFunction = 1.6
+
+
+[Object]
+states = councilflats1.b3d
+Position = -40,2.85,0
+
+[Object]
+states = councilflats1.b3d
+Position = -75,0,50
+RotateYFunction = 1.6
+
+
+

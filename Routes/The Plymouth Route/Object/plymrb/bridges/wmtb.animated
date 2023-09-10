@@ -1,0 +1,11 @@
+[Object]
+states = westonmill_1.b3d
+Position = 0,0,0
+
+[Object]
+states = westonmill_2.b3d
+Position = 0,0,50
+
+[Object]
+states = westonmill_3.b3d
+Position = 0,0,100

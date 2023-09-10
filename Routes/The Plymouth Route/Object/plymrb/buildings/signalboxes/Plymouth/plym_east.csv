@@ -1,0 +1,195 @@
+;author=???, re-paint by Chris Lees
+;description=Plymouth East Signalbox
+;copyright=Based upon an object from the CroTrainz Object library, Please e-mail me on leezer3@gmail.com
+;if you can give me any more details on author.
+
+CreateMeshBuilder,,,,
+AddVertex,-10 ,  0 , -2.5 ,
+AddVertex,-10 ,  7 , -2.5 ,
+AddVertex, 10 ,  7 , -2.5 ,
+AddVertex, 10 ,  0 , -2.5 ,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+
+LoadTexture,east_s1.png,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+;signalbox side 3,,,,
+CreateMeshBuilder,,,,
+AddVertex,-10 ,  0 ,  2.5 ,
+AddVertex,-10 ,  7 ,  2.5 ,
+AddVertex,-10 ,  7 , -2.5 ,
+AddVertex,-10 ,  0 , -2.5 ,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+
+LoadTexture,east_s3.png,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,-1,0,
+SetTextureCoordinates,3,-1,1,
+SetDecalTransparentColor,0,0,255,
+
+;signalbox side 4,,,,
+CreateMeshBuilder,,,,
+AddVertex, 10 ,  0 , -2.5 ,
+AddVertex, 10 ,  7 , -2.5 ,
+AddVertex, 10 ,  7 ,  2.5 ,
+AddVertex, 10 ,  0 ,  2.5 ,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+
+LoadTexture,east_s2.png,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,90,0,255,
+
+;roof side 1,,,,
+CreateMeshBuilder,,,,
+AddVertex,-10 ,  7 , -2.5 ,
+AddVertex, 10 ,  7 , -2.5 ,
+AddVertex, 8 ,  8.5 ,  0 ,
+AddVertex,-8 ,  8.5 ,  0 ,
+AddFace,3,2,1,0
+GenerateNormals,,,,
+
+LoadTexture,..\..\lineside\house2_r.png,,,
+SetTextureCoordinates,0,0.01,0.99,
+SetTextureCoordinates,1,0.01,0.01,
+SetTextureCoordinates,2,0.99,0.01,
+SetTextureCoordinates,3,0.99,0.99,
+
+
+;roof side 1,,,,
+CreateMeshBuilder,,,,
+AddVertex,-10 ,  7 , -2.5 ,
+AddVertex,-8.01 ,  8.5 ,  0 ,
+AddVertex,-7.99 ,  8.5 ,  0 ,
+AddVertex,-10 ,  7 ,  2.5 ,
+AddFace,3,2,1,0
+GenerateNormals,,,,
+
+LoadTexture,..\..\lineside\house2_r.png,,,
+SetTextureCoordinates,0,0.01,0.99,
+SetTextureCoordinates,1,0.01,0.01,
+SetTextureCoordinates,2,0.99,0.01,
+SetTextureCoordinates,3,0.99,0.99,
+
+;roof side 1,,,,
+CreateMeshBuilder,,,,
+AddVertex,10 ,  7 , -2.5 ,
+AddVertex,8.01 ,  8.5 ,  0 ,
+AddVertex,7.99 ,  8.5 ,  0 ,
+AddVertex,10 ,  7 ,  2.5 ,
+AddFace2,3,2,1,0
+GenerateNormals,,,,
+
+LoadTexture,..\..\lineside\house2_r.png,,,
+SetTextureCoordinates,0,0.01,0.99,
+SetTextureCoordinates,1,0.01,0.01,
+SetTextureCoordinates,2,0.99,0.01,
+SetTextureCoordinates,3,0.99,0.99,
+
+;roof side 2,,,,
+CreateMeshBuilder,,,,
+AddVertex,-10 ,  7 ,  2.5 ,
+AddVertex, 10 ,  7 ,  2.5 ,
+AddVertex, 8 ,  8.5 ,  0 ,
+AddVertex,-8 ,  8.5 ,  0 ,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+
+LoadTexture,..\..\lineside\house2_r.png,,,
+SetTextureCoordinates,0,0.01,0.99,
+SetTextureCoordinates,1,0.01,0.01,
+SetTextureCoordinates,2,0.99,0.01,
+SetTextureCoordinates,3,0.99,0.99,
+
+CreateMeshBuilder,,,,
+Cylinder, 8, 0.1, 0.1,16
+Rotate, 0,0,1,90
+Translate,0,8.45,0
+
+LoadTexture,..\..\..\rooftiles.png,,,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,8
+SetTextureCoordinates,2,0.1,0
+SetTextureCoordinates,3,0.1,8
+SetTextureCoordinates,4,0.2,0
+SetTextureCoordinates,5,0.2,8
+SetTextureCoordinates,6,0.3,0
+SetTextureCoordinates,7,0.3,8
+SetTextureCoordinates,8,0.4,0
+SetTextureCoordinates,9,0.4,8
+SetTextureCoordinates,10,0.5,0
+SetTextureCoordinates,11,0.5,8
+SetTextureCoordinates,12,0.5,0
+SetTextureCoordinates,13,0.5,8
+SetTextureCoordinates,14,0.6,0
+SetTextureCoordinates,15,0.6,8
+
+CreateMeshBuilder,,,,
+Cube,0.5,0.6,0.2
+Translate,-7.6,8.5,0
+
+LoadTexture,..\..\..\common\redbrick1.png
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,2,0,2
+SetTextureCoordinates,0,1,0
+SetTextureCoordinates,1,1,2
+SetTextureCoordinates,4,2,0
+SetTextureCoordinates,5,2,2
+SetTextureCoordinates,7,1,0
+SetTextureCoordinates,6,1,2
+
+CreateMeshBuilder,,,,
+Cylinder, 8, 0.1, 0.1,0.3
+Rotate, 0,0,0
+Translate,-7.85,9.2,0
+
+LoadTexture,chimneypot.png,,,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,0.1,0
+SetTextureCoordinates,3,0.1,1
+SetTextureCoordinates,4,0.2,0
+SetTextureCoordinates,5,0.2,1
+SetTextureCoordinates,6,0.3,0
+SetTextureCoordinates,7,0.3,1
+SetTextureCoordinates,8,0.4,0
+SetTextureCoordinates,9,0.4,1
+SetTextureCoordinates,10,0.5,0
+SetTextureCoordinates,11,0.5,1
+SetTextureCoordinates,12,0.5,0
+SetTextureCoordinates,13,0.5,1
+SetTextureCoordinates,14,0.6,0
+SetTextureCoordinates,15,0.6,1
+
+CreateMeshBuilder,,,,
+Cylinder, 8, 0.1, 0.1,0.3
+Rotate, 0,0,0
+Translate,-7.35,9.2,0
+
+LoadTexture,chimneypot.png,,,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,0.1,0
+SetTextureCoordinates,3,0.1,1
+SetTextureCoordinates,4,0.2,0
+SetTextureCoordinates,5,0.2,1
+SetTextureCoordinates,6,0.3,0
+SetTextureCoordinates,7,0.3,1
+SetTextureCoordinates,8,0.4,0
+SetTextureCoordinates,9,0.4,1
+SetTextureCoordinates,10,0.5,0
+SetTextureCoordinates,11,0.5,1
+SetTextureCoordinates,12,0.5,0
+SetTextureCoordinates,13,0.5,1
+SetTextureCoordinates,14,0.6,0
+SetTextureCoordinates,15,0.6,1
+

@@ -1,0 +1,7 @@
+[Object]
+states = Saltash.b3d
+
+[Object]
+states = nameboards\Saltash.b3d
+Position = 0,-3.3,0
+RotateYFunction = 3.14159

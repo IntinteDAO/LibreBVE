@@ -1,0 +1,23 @@
+;Description=Ground Part for RAB Saltash End
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route © 2014
+
+
+[MeshBuilder]
+Vertex -120,-17.5,20
+Vertex 120,-17.5,0
+Vertex 120,-5,50
+Vertex -120,-5,30
+Vertex -120,-5,100
+Vertex 120,-5,100
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 0, 0
+Coordinates 1, 10, 0
+Coordinates 2, 10, 4
+Coordinates 3, 0, 4
+Coordinates 4, 0, 0
+Coordinates 5, 10, 0

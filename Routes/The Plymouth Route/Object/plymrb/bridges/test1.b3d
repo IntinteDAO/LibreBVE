@@ -1,0 +1,379 @@
+﻿; --- segment 0 ---
+
+[Meshbuilder]
+Vertex -7,-3.51,-2
+Vertex 5,-3.51,0
+Vertex 5.3464192109268751,-3.51,4.1474033173353755
+Vertex -6.4872995678282237,-3.51,6.138156909656356
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\road5.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 7,-3.51,0
+Vertex 5,-3.51,0
+Vertex 5.3464192109268751,-3.51,4.1474033173353755
+Vertex 7.3187056740527225,-3.51,3.8156110519485456
+Face 0,1,2,3
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+
+; --- segment 1 ---
+
+[Meshbuilder]
+Vertex -6.4872995678282237,-3.51,6.138156909656356
+Vertex 5.3464192109268751,-3.51,4.1474033173353755
+Vertex 6.376076342131558,-3.51,8.1798674199038057
+Vertex -4.9634070136452948,-3.51,12.106203781457632
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\road5.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex -10.431872494079926,-3.51,4.9017414404300158
+Vertex -6.4872995678282237,-3.51,6.138156909656356
+Vertex -4.9634070136452948,-3.51,12.106203781457632
+Vertex -8.7432347989042469,-3.51,13.414982568642241
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex 7.3187056740527225,-3.51,3.8156110519485456
+Vertex 5.3464192109268751,-3.51,4.1474033173353755
+Vertex 6.376076342131558,-3.51,8.1798674199038057
+Vertex 8.2659902347610341,-3.51,7.5254780263115011
+Face 0,1,2,3
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+
+; --- segment 2 ---
+
+[Meshbuilder]
+Vertex -4.9634070136452948,-3.51,12.106203781457632
+Vertex 6.376076342131558,-3.51,8.1798674199038057
+Vertex 8.0604359527406828,-3.51,11.985638465105076
+Vertex -2.4705547899437903,-3.51,17.738744928355512
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\road5.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex -8.7432347989042469,-3.51,13.414982568642241
+Vertex -4.9634070136452948,-3.51,12.106203781457632
+Vertex -2.4705547899437903,-3.51,17.738744928355512
+Vertex -5.9808850375052813,-3.51,19.656447082772324
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex 8.2659902347610341,-3.51,7.5254780263115011
+Vertex 6.376076342131558,-3.51,8.1798674199038057
+Vertex 8.0604359527406828,-3.51,11.985638465105076
+Vertex 9.8156010765214248,-3.51,11.026787387896668
+Face 0,1,2,3
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+
+; --- segment 3 ---
+
+[Meshbuilder]
+Vertex -2.4705547899437903,-3.51,17.738744928355512
+Vertex 8.0604359527406828,-3.51,11.985638465105076
+Vertex 10.3528184805763,-3.51,15.459245076743425
+Vertex 0.92217135125292415,-3.51,22.879682713580269
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\road5.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex -5.9808850375052813,-3.51,19.656447082772324
+Vertex -2.4705547899437903,-3.51,17.738744928355512
+Vertex 0.92217135125292415,-3.51,22.879682713580269
+Vertex -2.2213776918548689,-3.51,25.353161925859215
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex 9.8156010765214248,-3.51,11.026787387896668
+Vertex 8.0604359527406828,-3.51,11.985638465105076
+Vertex 10.3528184805763,-3.51,15.459245076743425
+Vertex 11.924593002130195,-3.51,14.22250547060395
+Face 0,1,2,3
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+
+; --- segment 4 ---
+
+[Meshbuilder]
+Vertex 0.92217135125292415,-3.51,22.879682713580269
+Vertex 10.3528184805763,-3.51,15.459245076743425
+Vertex 13.189693897923583,-3.51,18.504421329900929
+Vertex 5.1207469689269018,-3.51,27.386543568253373
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\road5.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex -2.2213776918548689,-3.51,25.353161925859215
+Vertex 0.92217135125292415,-3.51,22.879682713580269
+Vertex 5.1207469689269018,-3.51,27.386543568253373
+Vertex 2.4310979925946761,-3.51,30.347250981037522
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex 11.924593002130195,-3.51,14.22250547060395
+Vertex 10.3528184805763,-3.51,15.459245076743425
+Vertex 13.189693897923583,-3.51,18.504421329900929
+Vertex 14.534518386089697,-3.51,17.024067623508852
+Face 0,1,2,3
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+
+; --- segment 5 ---
+
+[Meshbuilder]
+Vertex 5.1207469689269018,-3.51,27.386543568253373
+Vertex 13.189693897923583,-3.51,18.504421329900929
+Vertex 16.492442353296504,-3.51,21.036774620197413
+Vertex 10.008814682878828,-3.51,31.13442643789217
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\road5.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex 2.4310979925946761,-3.51,30.347250981037522
+Vertex 5.1207469689269018,-3.51,27.386543568253373
+Vertex 10.008814682878828,-3.51,31.13442643789217
+Vertex 7.847605459406271,-3.51,34.500310377123753
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex 14.534518386089697,-3.51,17.024067623508852
+Vertex 13.189693897923583,-3.51,18.504421329900929
+Vertex 16.492442353296504,-3.51,21.036774620197413
+Vertex 17.573046965032788,-3.51,19.353832650581619
+Face 0,1,2,3
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+
+; --- segment 6 ---
+
+[Meshbuilder]
+Vertex 10.008814682878828,-3.51,31.13442643789217
+Vertex 16.492442353296504,-3.51,21.036774620197413
+Vertex 20.169533005591056,-3.51,23.986124481343879
+Vertex 15.450908848274763,-3.51,34.019464232388941
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\road5.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex 7.847605459406271,-3.51,34.500310377123753
+Vertex 10.008814682878828,-3.51,31.13442643789217
+Vertex 15.450908848274763,-3.51,34.019464232388941
+Vertex 13.878034129169333,-3.51,37.697244149403957
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex 17.573046965032788,-3.51,19.353832650581619
+Vertex 16.492442353296504,-3.51,21.036774620197413
+Vertex 20.169533005591056,-3.51,23.986124481343879
+Vertex 20.95597036514377,-3.51,22.147234522836367
+Face 0,1,2,3
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+
+; --- segment 7 ---
+
+[Meshbuilder]
+Vertex 15.450908848274763,-3.51,34.019464232388941
+Vertex 20.169533005591056,-3.51,23.986124481343879
+Vertex 24.119060667425266,-3.51,26.298447534082818
+Vertex 19.296209787789394,-3.51,35.961702350442572
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\road5.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex 13.878034129169333,-3.51,37.697244149403957
+Vertex 15.450908848274763,-3.51,34.019464232388941
+Vertex 19.296209787789394,-3.51,35.961702350442572
+Vertex 18.355259494577432,-3.51,39.849453955895818
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex 20.95597036514377,-3.51,22.147234522836367
+Vertex 20.169533005591056,-3.51,23.986124481343879
+Vertex 24.119060667425266,-3.51,26.298447534082818
+Vertex 24.589535814031244,-3.51,24.354571731356192
+Face 0,1,2,3
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+
+; --- segment 8 ---
+
+[Meshbuilder]
+Vertex 19.296209787789394,-3.51,35.961702350442572
+Vertex 24.119060667425266,-3.51,26.298447534082818
+Vertex 28.231569958307428,-3.51,27.937374665101363
+Vertex 27.382723538294993,-3.51,36.907314504350012
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\road5.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex 18.355259494577432,-3.51,39.849453955895818
+Vertex 19.296209787789394,-3.51,35.961702350442572
+Vertex 27.382723538294993,-3.51,36.907314504350012
+Vertex 27.09977473162418,-3.51,40.897294450766232
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex 24.589535814031244,-3.51,24.354571731356192
+Vertex 24.119060667425266,-3.51,26.298447534082818
+Vertex 28.231569958307428,-3.51,27.937374665101363
+Vertex 28.373044361642833,-3.51,25.942384691893253
+Face 0,1,2,3
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,0
+Coordinates 3,0,0
+
+; --- segment 9 ---
+
+[Meshbuilder]
+Vertex 27.382723538294993,-3.51,36.907314504350012
+Vertex 28.231569958307428,-3.51,27.937374665101363
+Vertex 36.393088700359392,-3.51,30.885198943794123
+Vertex 36.5417712765319,-3.51,35.8300944368153
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\road5.png
+Coordinates 0,0,2
+Coordinates 1,1,2
+Coordinates 2,1,0
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 27.09977473162418,-3.51,40.897294450766232
+Vertex 27.382723538294993,-3.51,36.907314504350012
+Vertex 36.5417712765319,-3.51,35.8300944368153
+Vertex 36.9246654685894,-3.51,39.811726267822365
+Face 3,2,1,0
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,3
+Coordinates 1,1,3
+Coordinates 2,1,0
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex 28.373044361642833,-3.51,25.942384691893253
+Vertex 28.231569958307428,-3.51,27.937374665101363
+Vertex 36.393088700359392,-3.51,30.885198943794123
+Vertex 36.201641604330639,-3.51,28.894383028290594
+Face 0,1,2,3
+[Texture]
+Load ..\tracks\pavement.png
+Coordinates 0,0,3
+Coordinates 1,1,3
+Coordinates 2,1,0
+Coordinates 3,0,0

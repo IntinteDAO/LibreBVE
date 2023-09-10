@@ -1,0 +1,14 @@
+[MeshBuilder]
+Vertex 25 ,  0 ,  0
+Vertex 25 ,  2 ,  0
+Vertex 0 ,  2 ,  0
+Vertex 0 ,  0 ,  0
+Face2  0,1,2,3
+
+[Texture]
+Load   terrace1_3.png
+Coordinates   0,0,1
+Coordinates   1,0,0
+Coordinates   2,10,0
+Coordinates   3,10,1
+Transparent 0,0,255

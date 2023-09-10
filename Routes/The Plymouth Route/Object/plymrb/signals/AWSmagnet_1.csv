@@ -1,0 +1,303 @@
+;-------------------------
+;NWM BVE Route Object File
+;-------------------------
+;
+;Object by TSC team
+;Not for commercial use.
+;This object and its textures may be freely reused. 
+;Please acknowledge the original authors and leave this header in place.
+
+
+;ramp
+CreateMeshBuilder,
+addvertex,-0.1,0.11,0.03,
+addvertex,0.1,0.11,0.03,
+addvertex,0.1,0.01,-0.43
+addvertex,-0.1,0.01,-0.43
+addvertex,0.1,-0.04,-0.49 
+addvertex,-0.1,-0.04,-0.49
+addvertex,-0.1,0.08,0.035, 
+addvertex,0.1,0.08,0.035,
+addvertex,0.1,-0.02,-0.425
+addvertex,-0.1,-0.02,-0.425
+addvertex,0.1,-0.065,-0.48, 
+addvertex,-0.1,-0.065,-0.48
+addface,0,1,2,3,
+addface,2,4,5,3,
+addface,3,9,6,0,
+addface,1,7,8,2,
+addface2,11,9,3,5,
+addface2,10,8,2,4,
+generatenormals,
+loadtexture,aws_ramp.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,4
+SetTextureCoordinates, 3,0,4
+SetTextureCoordinates, 4,1,5
+SetTextureCoordinates, 5,0,5
+SetTextureCoordinates, 6,0.3,0
+SetTextureCoordinates, 7,0.7,0
+SetTextureCoordinates, 8,0.7,4
+SetTextureCoordinates, 9,0.3,4
+SetTextureCoordinates, 10,0.7,5
+SetTextureCoordinates, 11,0.3,5
+
+;ramp support/brackets
+CreateMeshBuilder,
+addvertex,-0.102,0,0.03,
+addvertex,-0.102,0,-1,
+addvertex,-0.102,-0.04,-1.05,
+addvertex,-0.102,-0.04,0.03,
+addvertex,0.102,0,0.03,
+addvertex,0.102,0,-1,
+addvertex,0.102,-0.04,-1.05,
+addvertex,0.102,-0.04,0.03,
+addface2,0,1,2,3,
+addface2,7,6,5,4,
+setcolor,135,130,117
+
+CreateMeshBuilder,
+addvertex,-0.099,0.09,0.03,
+addvertex,-0.099,0.08,0,
+addvertex,-0.099,-0.04,0,
+addvertex,-0.099,-0.04,0.03,
+addvertex,0.099,0.09,0.03,
+addvertex,0.099,0.08,0,
+addvertex,0.099,-0.04,0,
+addvertex,0.099,-0.04,0.03,
+addvertex,-0.155,-0.042,0.03,
+addvertex,0.155,-0.042,0.03,
+addvertex,0.155,-0.042,0,
+addvertex,-0.155,-0.042,0,
+addvertex,-0.155,-0.042,-1.02,
+addvertex,0.155,-0.042,-1.02,
+addvertex,0.155,-0.042,-1.05,
+addvertex,-0.155,-0.042,-1.05
+addface2,0,1,2,3,
+addface2,7,6,5,4,
+addface,8,9,10,11,
+addface,12,13,14,15,
+setcolor,115,110,97
+
+CreateMeshBuilder,
+addvertex,-0.102,-0.04,0.03,
+addvertex,-0.102,-0.04,-1.05
+addvertex,-0.137,-0.04,-1.05
+addvertex,-0.137,-0.04,0.03,
+addvertex,0.102,-0.04,0.03,
+addvertex,0.102,-0.04,-1.05
+addvertex,0.137,-0.04,-1.05
+addvertex,0.137,-0.04,0.03,
+addface2,0,1,2,3,
+addface2,7,6,5,4,
+generatenormals,
+loadtexture,aws_bracket.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetTextureCoordinates, 4,0,0
+SetTextureCoordinates, 5,1,0
+SetTextureCoordinates, 6,1,1
+SetTextureCoordinates, 7,0,1
+
+;rear base
+CreateMeshBuilder,
+cube, 0.16,0.275,0.01
+rotate, 1,0,0,90
+translate, 0,-0.03,0.825
+generatenormals,
+loadtexture,aws_base2.png
+SetTextureCoordinates, 0,1,1
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,1,0
+SetTextureCoordinates, 4,1,1
+SetTextureCoordinates, 5,0,1
+SetTextureCoordinates, 6,0,0
+SetTextureCoordinates, 7,1,0
+
+;mid base
+CreateMeshBuilder,
+cube, 0.16,0.03,0.008
+rotate, 1,0,0,90
+translate, 0,-0.03,0.51
+generatenormals,
+loadtexture,aws_base.png
+SetTextureCoordinates, 0,1,1
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,1,0
+SetTextureCoordinates, 4,1,1
+SetTextureCoordinates, 5,0,1
+SetTextureCoordinates, 6,0,0
+SetTextureCoordinates, 7,1,0
+
+;magnet
+CreateMeshBuilder,
+addvertex,-0.1,0.11,0.54,
+addvertex,-0.1,0.11,0.04,
+addvertex,-0.1,-0.04,0.04
+addvertex,-0.1,-0.04,0.54,
+addvertex,0.1,0.11,0.54,
+addvertex,0.1,0.11,0.04,
+addvertex,0.1,-0.04,0.04
+addvertex,0.1,-0.04,0.54,
+addface,0,1,2,3,
+addface,7,6,5,4,
+addface,1,5,6,2,
+addface,4,0,3,7,
+generatenormals,
+loadtexture,aws_recievers.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetTextureCoordinates, 4,0,0
+SetTextureCoordinates, 5,1,0
+SetTextureCoordinates, 6,1,1
+SetTextureCoordinates, 7,0,1
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+addvertex,-0.13,-0.04,0.535,
+addvertex,-0.1,0.03,0.535,
+addvertex,-0.1,-0.04,0.535,
+addvertex,-0.13,-0.04,0.485,
+addvertex,-0.1,0.03,0.485,
+addvertex,-0.1,-0.04,0.485,
+addvertex,0.13,-0.04,0.535,
+addvertex,0.1,0.03,0.535,
+addvertex,0.1,-0.04,0.535,
+addvertex,0.13,-0.04,0.485,
+addvertex,0.1,0.03,0.485,
+addvertex,0.1,-0.04,0.485,
+addface2,0,1,2,
+addface2,3,4,5,
+addface2,8,7,6,
+addface2,11,10,9,
+setcolor,209,172,19,
+
+CreateMeshBuilder,
+addvertex,-0.1,0.11,0.54,
+addvertex,0.1,0.11,0.54,
+addvertex,0.1,0.11,0.04,
+addvertex,-0.1,0.11,0.04,
+addface,0,1,2,3,
+generatenormals,
+loadtexture,aws_reciever.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+
+;mid
+CreateMeshBuilder,
+addvertex,-0.1,0.11,0.26,
+addvertex,-0.1,0.11,0.04,
+addvertex,-0.1,-0.04,0.04
+addvertex,-0.1,-0.04,0.26,
+addvertex,0.1,0.11,0.26,
+addvertex,0.1,0.11,0.04,
+addvertex,0.1,-0.04,0.04
+addvertex,0.1,-0.04,0.26,
+addface,0,1,2,3,
+addface,7,6,5,4,
+addface,1,5,6,2,
+addface,4,0,3,7,
+generatenormals,
+loadtexture,aws_recievers3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetTextureCoordinates, 4,0,0
+SetTextureCoordinates, 5,1,0
+SetTextureCoordinates, 6,1,1
+SetTextureCoordinates, 7,0,1
+SetDecalTransparentColor,0,0,0,
+translate,0,0,0.51
+
+CreateMeshBuilder,
+addvertex,-0.1,0.11,0.26,
+addvertex,0.1,0.11,0.26,
+addvertex,0.1,0.11,0.04,
+addvertex,-0.1,0.11,0.04,
+addface,0,1,2,3,
+generatenormals,
+loadtexture,aws_reciever3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+translate,0,0,0.51
+
+;back
+CreateMeshBuilder,
+addvertex,-0.125,0.11,0.29,
+addvertex,-0.125,0.11,0.04,
+addvertex,-0.125,-0.04,0.04
+addvertex,-0.125,-0.04,0.34,
+addvertex,-0.125,0.02,0.34,
+addvertex,0.125,0.11,0.04,
+addvertex,0.125,0.11,0.29,
+addvertex,0.125,0.02,0.34,
+addvertex,0.125,-0.04,0.34,
+addvertex,0.125,-0.04,0.04
+addface,0,1,2,3,4,
+addface,5,6,7,8,9,
+addface,1,5,9,2,
+addface,3,8,7,4,
+addface,0,4,7,6,
+generatenormals,
+loadtexture,aws_recievers2.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,1
+SetTextureCoordinates, 4,1,1,
+SetTextureCoordinates, 5,0,0
+SetTextureCoordinates, 6,1,0
+SetTextureCoordinates, 7,1,1
+SetTextureCoordinates, 8,1,1
+SetTextureCoordinates, 9,1,1
+translate,0,0,0.73
+
+CreateMeshBuilder,
+addvertex,-0.125,0.11,0.29,
+addvertex,0.125,0.11,0.29,
+addvertex,0.125,0.11,0.04,
+addvertex,-0.125,0.11,0.04,
+addface,0,1,2,3,
+generatenormals,
+loadtexture,aws_reciever2.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+translate,0,0,0.73
+
+CreateMeshBuilder,
+Cylinder, 6, 0.01, 0.01, .01
+setcolor,50,50,50,
+translate,-0.12,-0.015,0.51
+
+CreateMeshBuilder,
+Cylinder, 6, 0.01, 0.01, .01
+setcolor,50,50,50,
+translate,0.12,-0.015,0.51
+
+CreateMeshBuilder,
+Cylinder, 6, 0.01, 0.01, .01
+setcolor,50,50,50,
+translate,-0.135,-0.015,0.59
+
+CreateMeshBuilder,
+Cylinder, 6, 0.01, 0.01, .01
+setcolor,50,50,50,
+translate,0.138,-0.015,0.59
+
+translateall,0,-0.08,0,
+
+

@@ -1,0 +1,22 @@
+;description=Short Grass
+;author=Chris Lees
+;From the BVE Cornwall Plymouth- St Austell route. © Chris Lees 2015
+
+[MeshBuilder]
+Vertex 0, -0.40, 26
+Vertex 55, -0.40, 26
+Vertex 55, -0.405, -3
+Vertex 0, -0.405, -3
+Vertex 0, -5.405, -22
+Vertex 55, -5.405, -22
+Face 0, 1, 2, 3
+Face 5,4,3,2
+
+[Texture]
+Load ..\..\common\grass6.png
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0
+Coordinates 5, 2, 0

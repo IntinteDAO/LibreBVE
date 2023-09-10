@@ -1,0 +1,42 @@
+CreateMeshBuilder
+Addvertex, -7.05, 1.1, -0.3
+Addvertex, -7.05, 1.1, 25.3
+Addvertex, -1.55, 1.1, -0.3
+Addvertex, -1.55, 1.1, 25.3
+Addvertex, -1.55, 0.996, -0.3
+Addvertex, -1.55, 0.996, 25.3
+Addvertex, -1.8, 1, -0.3
+Addvertex, -1.8, 1, 25.3
+Addvertex, -1.8, -0.2, -0.3
+Addvertex, -1.8, -0.2, 25.3
+Addface, 0,1,3,2
+Addface, 2,3,5,4
+Addface, 4,5,7,6
+Addface, 6,7,9,8
+
+LoadTexture, ..\Surface_3.png
+SetTextureCoordinates, 0,0,0.067
+SetTextureCoordinates, 1,10,0.067
+SetTextureCoordinates, 2,0,0.8
+SetTextureCoordinates, 3,10,0.8
+SetTextureCoordinates, 4,0,0.812
+SetTextureCoordinates, 5,10,0.812
+SetTextureCoordinates, 6,0,0.812
+SetTextureCoordinates, 7,10,0.812
+SetTextureCoordinates, 8,0,1
+SetTextureCoordinates, 9,10,1
+
+
+CreateMeshBuilder
+Addvertex, -6.75, 2.6, -0.3
+Addvertex, -6.75, 2.6, 25.3
+Addvertex, -6.75, 1.05, -0.3
+Addvertex, -6.75, 1.05, 25.3
+Addface2, 0,1,3,2
+LoadTexture, ..\..\common\Fence_18.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,10,0
+SetTextureCoordinates, 2,0,1
+SetTextureCoordinates, 3,10,1
+Setdecaltransparentcolor, 0, 0, 255
+

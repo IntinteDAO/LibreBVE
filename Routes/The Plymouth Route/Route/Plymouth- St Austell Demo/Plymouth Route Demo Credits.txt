@@ -1,0 +1,174 @@
+The version of the route you are running is: V1.7.0.0
+
+This release focuses on rebuilding the 4km of track between Menheniot and Liskeard-
+All of a sudden, I'm back where I managed to get to approximately 5 years ago!
+This time around though, the quality of the route has taken a quantum leap (As well as acquiring nearly 10km of 'missing' length), and it's something that I'm proud to put my name to. Having said that, this would never have been possible without the hard work of the others in the 'Credits' section
+below, as well as those whose objects have now been replaced.
+
+Two eras are supplied- The mix of steam and dieselisation found in the mid 1960s, and the later BR Blue of the 1980s.
+For practical reasons, some track layouts are based upon the 1971 rationalised layouts- This allows most of the same work to apply to all eras, with a change from semaphore to color-light signalling, and the addition/ demolition of certain buildings. 
+
+CHANGES
+-------
+V1.7.0.0:
+* Trackwork rebuilt between Menheniot and Liskeard.
+* GWR 16xx Class Pannier Tank added to the passing train objects.
+* BR Class 50 added to the passing train objects.
+* Minor improvements to the three tunnels on the route [Entrance object, wall profile]
+* Large numbers of assorted objects rebuilt from scratch, with the majority of items in the route now being public domain.
+* A considerable amount of work has been done on Plymouth station, in order to bring it closer to the standards of the rest of the route.
+
+V1.6.0.0:
+* Various bugfixes around Laira Junction area, including height of flyover/ signals, incorrect point object etc.
+* Trackwork rebuilt between St. Germans and Menheniot.
+* Approx 4km of track added as part of this. [8km total 'newly rebuilt']
+* BR Class 35 'Hymek' passing train object added.
+* Larger variety in the road veichles.
+* Assorted minor improvements throughout Plymouth. [Trackwork gaps, add more vegetation etc. etc.]
+* Certain further objects replaced with improved public domain alternatives.
+
+V1.5.0.0:
+* Trackwork rebuilt between Shillingston Tunnel & St. Germans.
+* Approx 1km of track added as part of this. [3.5km total 'newly rebuilt']
+* More additions and improvements to the existing stock.
+
+V1.4.0.0:
+* Trackwork rebuilt between Saltash & Shillingham Tunnel.
+* Approx 1.7km of track added as part of this. [4km total 'newly rebuilt']
+* More liveries for the MK1 coaches.
+* New/ improved 1960s motive power- Brand new GWR 78xx and BR Class 14 models.
+* Various objects replaced with improved versions/ alternatives.
+* Some minor object improvements and fixes.
+* Various signalling and signage oddities fixed.
+
+V1.3.0.0:
+* 1.5km of track added at the start of the route, bringing our starting point to just after Marsh Mills Junction.
+* Various additional liveries for the locomotive stock added.
+* Several new items of goods stock.
+* Completely new MK1 coach models.
+* Various miscellaneous items rebuilt/ replaced.
+
+V1.2.0.0:
+* Trackwork and scenery redone from Keyham to the Royal Albert Bridge.
+* Approximately 1km of track length added as part of this.
+* Correct gradients to the Royal Albert Bridge.
+* Semaphore signalling improvements, including goods loop arms. 
+* Minor improvements to the Royal Albert Bridge model. (A replacement is planned)
+* Improvements to the accuracy of the 1960s era routefile around Plymouth Station- 2 missing signalboxes and more bits and bobs.
+* Numerous fixes to the Plymouth Bay platform for 3D viewing.
+* Improvements to various objects.
+* All BMPs replaced with PNGs, along with some texture improvements as a result of this.
+
+V1.1.7.0:
+* Trackwork & scenery redone between Devonport & Keyham.
+* Completely scratch-built bus models for the CityBus & Western National single deckers.
+* Some small tweaks & visual improvements to the scenery between Plymouth & Devonport, particularly around The Elms road bridge.
+* 1980s era nameboards redone in much better quality.
+* Small revisions to various miscellaneous textures. (Removing odd reflections, innapropriate bits etc)
+* Correct gradients added upto Keyham.
+* New models for the Liskeard & Royal Albert Bridge signal boxes.
+* Adjustments made to the stop positioning at all stations, to ensure optimum realism & signal visibility.
+* AWS magnet positions adjusted, and magnets fitted to track #2 upto Keyham.
+
+V1.1.6.1:
+* Small revisionary update to include BRSigs & BRSigs_Open in the download package.
+* Minor folder naming change.
+
+
+V1.1.6.0:
+* Various minor fixes.
+* Trackwork and scenery redone between Plymouth & Devonport.
+* The bay (Gunnislake/ Liskeard) platform is now available as a starting location for some routefiles.
+* Various small improvements to the buildings around Laira Junction.
+* Code modularised & restructured upto and including Devonport.
+* Reduced the number of duplicated similar internal textures. (Mostly caused by the endless rebuilding works :) )
+
+
+UPDATE NOTES
+------------
+
+This update requires a clean install.
+
+
+FURTHER NOTES
+-------------
+
+This route has been (re)built with 3D camera angles in mind.
+Unfortunately, due to the way openBVE works, some small visual artifacts may appear, but in general terms, using the external camera and panning around
+will work surprisingly well!
+
+
+My thanks are due to:
+* All the object authours, without who this route would not have been  possible- I apologise in advance if I've vandalised your hard work beyond all recognition ;)
+* Uwe Post and Thomas Tschofenig, for creating RouteBuilder, which  first got me into BVE Route coding, and has created many of the tracks etc. here.
+* The members of the Train-Sim.com, Transport Forum & UKTS BVE Forums, for answering all of my  questions etc; Thanks guys!
+
+I hope you enjoy it!
+
+Chris Lees
+
+www.bvecornwall.co.uk
+leezer3@bvecornwall.co.uk
+
+16th September 2016
+
+
+OBJECT/ CONSTRUCTION CREDITS
+----------------------------
+
+PLEASE NOTE:
+This route has now been going for well over 10 years. This object list is as comprehensive as I can make it however, in the time since many objects were added I've either made major changes to the original object, or merged parts of different objects together.
+This list also only includes objects built by, or based upon those by third parties.
+If in doubt, please check the header of the object file in question and drop me an email.
+
+You will also find that in recent releases, this list has been shrinking dramatically!
+As I (re)build, most items are built from scratch and highly customised to fit the surroundings, oddly enough just like the real thing!
+
+
+RouteBuilder- Some older track and pointwork around Plymouth Station.
+Tunnel- Original model by Steve Green, only the hill shape remains.....
+Black saddle tank- Alan Hudnott, with some modifications
+BR Class 47- Base model & Intercity livery by Stephen Thomas
+BR Class 25- Base model built by Alan Hudnott, with various modifications. BR Blue livery from photographs by Steve Jones.
+Vintage Lorry- Richard Scott
+Coaches- Some textures based upon photographs by Steve Jones. End texture by the TSC Team.
+BR Color Light Signalling- Some parts based upon BRSigs & BRSigs_Open libraries & objects by Anthony Bowden & the TSC Team.
+Track texture by Paul 'ee16csv'
+Houses #1- Original model by Nathan Whittington -http://members.aol.com/nwhittington
+BVE File Convertor- Highly useful utility by Smace, has been used for tinkering with many files.
+Animated steam- BVE Argentina
+Some wagon textures- Derived from photos by Paul Bartlett; http://gallery6801.fotopic.net/
+Some cricketer textures derived from photos by alister667- http://www.flickr.com/photos/alister667/
+Some road traffic based upon original public domain objects by Graham Mace 'graymac':
+Commer Van
+Vauxhall Cresta
+Transit Van
+Scania Lorry (Cab shape)
+
+
+A NOTE ON COPYRIGHT
+-------------------
+
+Of late, copyright has become a rather thorny subject within the community, with threats being made over the use of objects which were freely given at the time, and the creation of certain ideas.
+I will not back down in the face of baseless accusations and threats, and indeed, I have produced alternatives to these objects, and two utilities which replicate the functions of those withdrawn.
+
+When OpenBVE was created, Michelle advocated placing everything under the public domain, in order to try and allievate this problem.
+
+I support the aims of this initiative, although I personally prefer clearer OSS licencing. I was also there before this sim was even concieved (Anyone remember Mechanik back in 1997??),
+and I refuse to let others with an agenda spoil things for the end-user.
+Was this the right choice?- I don't know. It probably would have been easier to drop this altogether, and move onto something else.....
+
+All I know, is that when I started this back in 2001, this route wouldn't have been possible without drawing on the help and hard work of others, who gave it freely in the spirit of co-operation.
+I have also invested thousands of pounds into books, camera equipment and trips to the 'real' thing to pursue this hobby and bring you the route you see today.
+
+You are welcome to use anything that I've created for this route for your own purposes, under whichever Open-Source licence you see fit, or for that matter, no credit at all.
+My personal preference is for the BSD 2-Clause licence, which is what I have released the aforementioned programs under, but I'm not here to place restrictions on what you wish to do.
+
+All I ask, is that before you release something, you take a step back and consider the hard work of those who made it possible-
+Copyright, and other using your work is a priveledge, not a weapon, and I will never use it as such.
+
+Those who choose to use foul language and baseless threats in an attempt to withdraw what was freely given, or to stop the work of others must not be given the oxygen of publicity.
+
+http://www.bvecornwall.co.uk/wordpress/public-statement/
+
+FINIS.

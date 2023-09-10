@@ -1,0 +1,6 @@
+[Object]
+states = LairaJunction.b3d
+
+[Object]
+states = nameboards\laira.b3d
+RotateYFunction = 3.14159

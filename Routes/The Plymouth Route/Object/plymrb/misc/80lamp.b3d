@@ -1,0 +1,19 @@
+;author=Chris Lees
+;description=Victorian era cast-iron lampost
+;copyright=From the BVE Cornwall Plymouth route. © Chris Lees 2009
+
+[MeshBuilder]
+Vertex -0.5, 5,0
+Vertex 0.5, 5,0
+Vertex 0.5, 0,0
+Vertex -0.5, 0,0
+Face 0, 1, 2, 3
+Face 3,2,1,0
+
+[Texture]
+Load 80lamp1.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,255

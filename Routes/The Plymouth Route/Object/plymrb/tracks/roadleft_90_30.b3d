@@ -1,0 +1,45 @@
+;Description=Road 90 degrees right 30m
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth route. © 2010
+
+[MeshBuilder]
+Vertex  10 , -0.21 , -2.57
+Vertex  10 , -0.21 ,  2.57
+Vertex  40 , -0.21 ,  2.57
+Vertex  40 , -0.21 , -2.57
+Face  0,1,2,3
+
+[Texture]
+Load  road2.png
+Coordinates   0, 0, 8
+Coordinates   1, 1, 8
+Coordinates   2, 1, 0
+Coordinates   3, 0, 0
+
+[MeshBuilder]
+Vertex  10 , -0.21 , -3.97
+Vertex  10 , -0.21 , -2.57
+Vertex 40 ,  -0.21 , -2.57
+Vertex 40 ,  -0.21 , -3.97
+Face 0,1,2,3
+
+[Texture]
+Load pavement.png
+Coordinates   0, 0, 30
+Coordinates   1, 1, 30
+Coordinates   2, 1, 0
+Coordinates   3, 0, 0
+
+[MeshBuilder]
+Vertex  10 , -0.21 , 2.57
+Vertex  10 , -0.21 , 3.97
+Vertex 40 ,  -0.21 , 3.97
+Vertex 40 ,  -0.21 , 2.57
+Face 0,1,2,3
+
+[Texture]
+Load pavement.png
+Coordinates   0, 0, 30
+Coordinates   1, -1, 30
+Coordinates   2, -1, 0
+Coordinates   3, 0, 0

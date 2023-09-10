@@ -1,0 +1,14 @@
+;Grass Base
+[MeshBuilder]
+Vertex -0.7,-0.28,0
+Vertex -0.7,-0.3,26
+Vertex 40,-0.3,26
+Vertex 40,-0.28,0
+Face 0,1,2,3
+
+[Texture]
+Load ..\common\concrete2.png
+Coordinates 0, 2, 0
+Coordinates 1, 2, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0

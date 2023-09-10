@@ -1,0 +1,164 @@
+;author=Chris Lees
+;description=Platform indicator & signal [Green, 3]
+;copyright= http://www.bvecornwall.co.uk- © Chris Lees, 2010
+
+[MeshBuilder]
+Vertex -0.05, 0.15, 0.01
+Vertex 0.05, 0.15, 0.01
+Vertex 0.05, -0.05, 0.01
+Vertex -0.05, -0.05, 0.01
+Face2 0, 1, 2, 3
+
+[Texture]
+Load post1.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+
+[MeshBuilder]
+Vertex -0.4, 1, 0
+Vertex 0.4, 1, 0
+Vertex 0.4, 0.1, 0
+Vertex -0.4, 0.1, 0
+Face 0, 1, 2, 3
+
+[Texture]
+Load platformindicator_3.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+
+[MeshBuilder]
+Vertex -0.4, 1, 0
+Vertex 0.4, 1, 0
+Vertex 0.4, 0.1, 0
+Vertex -0.4, 0.1, 0
+Face 3,2,1,0
+
+[Texture]
+Load back_box.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex -0.4, 1, -0.3
+Vertex 0.4, 1, -0.3
+Vertex 0.4, 0.1, -0.3
+Vertex -0.4, 0.1, -0.3
+Face 0, 1, 2, 3
+
+[Texture]
+Load platformindicator_3_glow.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+EmissiveColor 255,255,255,
+BlendMode Additive,10,
+
+[MeshBuilder]
+Vertex 0.95, 0.15, 0.01
+Vertex 1.05, 0.15, 0.01
+Vertex 1.05, -0.05, 0.01
+Vertex 0.95, -0.05, 0.01
+Face2 0, 1, 2, 3
+
+[Texture]
+Load post1.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+
+[MeshBuilder]
+Vertex 0.6, 1.6, 0
+Vertex 1.4, 1.6, 0
+Vertex 1.4, 0.1, 0
+Vertex 0.6, 0.1, 0
+Face 0, 1, 2, 3
+
+[Texture]
+Load signal2g.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+
+[MeshBuilder]
+Vertex 0.6, 1.6, 0
+Vertex 1.4, 1.6, 0
+Vertex 1.4, 0.1, 0
+Vertex 0.6, 0.1, 0
+Face 3,2,1,0
+
+[Texture]
+Load back_box.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+transparent 0,0,0
+
+[MeshBuilder]
+Vertex 0.6, 1.8, -0.3
+Vertex 1.4, 1.8, -0.3
+Vertex 1.4, 0.3, -0.3
+Vertex 0.6, 0.3, -0.3
+Face 0, 1, 2, 3
+
+[Texture]
+Load ..\trains\animations\glow_green.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+EmissiveColor 255,255,255,
+BlendMode Additive,10,
+
+[MeshBuilder]
+Vertex -0.4, 1, 0
+Vertex -0.4, 1, -0.3
+Vertex -0.4, 0.1, -0.1
+Vertex -0.4, 0.1, 0
+Face2 0, 1, 2, 3
+
+[Texture]
+Load mesh.png
+Coordinates 0, 0, 0
+Coordinates 1, 8, 0
+Coordinates 2, 2, 8
+Coordinates 3, 0, 8
+Transparent 150,150,150,
+
+[MeshBuilder]
+Vertex 0.4, 1, 0
+Vertex 0.4, 1, -0.3
+Vertex 0.4, 0.1, -0.1
+Vertex 0.4, 0.1, 0
+Face2 0, 1, 2, 3
+
+[Texture]
+Load mesh.png
+Coordinates 0, 0, 0
+Coordinates 1, 8, 0
+Coordinates 2, 2, 8
+Coordinates 3, 0, 8
+Transparent 150,150,150,
+
+[MeshBuilder]
+Vertex -0.4, 1, 0
+Vertex -0.4, 1, -0.3
+Vertex 0.4, 1, -0.3
+Vertex 0.4, 1, 0
+Face2 0, 1, 2, 3
+Color 204,204,204

@@ -1,0 +1,51 @@
+[MeshBuilder]
+Vertex -15.0, 4.9, 0,
+Vertex -15, 4.02, 26,
+Vertex -10, 5.02, 26,
+Vertex -10.0, 5, 0,
+Vertex 3.5, -5.3, -16.5,
+Vertex 3.5, -5.3, 26,
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 0, 5
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 5
+Coordinates 4, 3, 5
+Coordinates 5, 3, 0
+
+[MeshBuilder]
+Cube 0.05,0.7,0.05
+Translate -10,5.4,6
+Color 200,200,200
+
+[MeshBuilder]
+Cube 0.05,0.7,0.05
+Translate -10,5.4,18
+Color 200,200,200
+
+[MeshBuilder]
+Vertex -10, 6, 25
+Vertex -10, 6, 0
+Vertex -10, 4.7, 0
+Vertex -10, 4.7, 25
+Face2 3,2,1,0
+
+[Texture]
+Load fence2.png
+Coordinates 0, 0, 0
+Coordinates 1, 8, 0
+Coordinates 2, 8, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+
+
+
+
+
+
+

@@ -1,0 +1,155 @@
+;description=Grass Sloped DL
+;author=Chris Lees
+;From the BVE Cornwall Plymouth- St Austell route. © Chris Lees 2013
+
+[MeshBuilder]
+Vertex 120, -0.40, 26
+Vertex -120, -0.40, 26
+Vertex -120, -0.401, -1
+Vertex 120, -0.401, -1
+Vertex 120, 10.401, -35
+Vertex -120, 10.401, -35
+Vertex -120, 10.401, -65
+Vertex 120, 10.401, -65
+Vertex 120, 30.401, -125
+Vertex -120, 30.401, -125
+Vertex -120, 30.401, -140
+Vertex 120, 30.401, -140
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,8,9
+Face 11,10,9,8
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 0, 0
+Coordinates 1, 10, 0
+Coordinates 2, 10, 2.5
+Coordinates 3, 0, 2.5
+Coordinates 4, 0, -2
+Coordinates 5, 10, -2
+Coordinates 6, 10, 0
+Coordinates 7, 0, 0
+Coordinates 8, 0, 4
+Coordinates 9, 10, 4
+Coordinates 10, 10, 2
+Coordinates 11, 0, 2
+
+[meshbuilder]
+vertex -0.800, 0, -120
+vertex -0.720, 0, -120
+vertex -0.800, 0, 120
+vertex -0.720, 0, 120
+face 2, 3, 1, 0
+color 180,190,200
+Rotate 0,1,0,90
+Translate 0,10.8,-45
+
+[meshbuilder]
+vertex 0.720, 0, -120
+vertex 0.800, 0, -120
+vertex 0.720, 0, 120
+vertex 0.800, 0, 120
+face 2, 3, 1, 0
+color 180,190,200
+Rotate 0,1,0,90
+Translate 0,10.8,-45
+
+[meshbuilder]
+vertex -0.760, 0, -120
+vertex -0.760, -0.170, -120
+vertex -0.760, 0, 120
+vertex -0.760, -0.170, 120
+face 2, 3, 1, 0
+face 0,1,3,2
+color 85,50,50
+Rotate 0,1,0,90
+Translate 0,10.8,-45
+
+[meshbuilder]
+vertex 0.760, 0, -120
+vertex 0.760, -0.170, -120
+vertex 0.760, 0, 120
+vertex 0.760, -0.170, 120
+face 2, 3, 1, 0
+face 0, 1, 3, 2
+color 85,50,50
+Rotate 0,1,0,90
+Translate 0,10.8,-45
+
+[meshbuilder]
+vertex -1.350, -0.170, -120
+vertex 1.350, -0.170, -120
+vertex -1.350, -0.170, 120
+vertex 1.350, -0.170, 120
+face 2, 3, 1, 0
+Rotate 0,1,0,90
+Translate 0,10.8,-45
+
+[texture]
+load ..\tracks\schwellen1.png
+coordinates 0, 1.02, 100
+coordinates 1, -0.02, 100
+coordinates 2, 1.02, 0
+coordinates 3, -0.02, 0
+
+[meshbuilder]
+vertex -2.800, -0.400, -120
+vertex -1.350, -0.170, -120
+vertex -2.800, -0.400, 120
+vertex -1.350, -0.170, 120
+face 2, 3, 1, 0
+Rotate 0,1,0,90
+Translate 0,10.8,-45
+
+[texture]
+load ..\tracks\schotter1.png
+coordinates 0, 1, 70
+coordinates 1, 0, 70
+coordinates 2, 1, 0
+coordinates 3, 0, 0
+
+
+[meshbuilder]
+vertex 1.350, -0.170, -120
+vertex 2.800, -0.400, -120
+vertex 1.350, -0.170, 120
+vertex 2.800, -0.400, 120
+face 2, 3, 1, 0
+Rotate 0,1,0,90
+Translate 0,10.8,-45
+
+[texture]
+load ..\tracks\schotter1.png
+coordinates 0, 0, 70
+coordinates 1, 1, 70
+coordinates 2, 0, 0
+coordinates 3, 1, 0
+
+[MeshBuilder]
+Vertex 120, 10.401, -41
+Vertex -120, 10.401, -41
+Vertex -120, 11.401, -41
+Vertex 120, 11.401, -41
+
+Vertex 120, 10.401, -55
+Vertex -120, 10.401, -55
+Vertex -120, 11.401, -55
+Vertex 120, 11.401, -55
+
+Face2 0,1,2,3
+Face2 4,5,6,7
+
+[texture]
+load ..\walls\barbedwirefence1.png
+coordinates 0, 0, 1
+coordinates 1, 70, 0
+coordinates 2, 70, 1
+coordinates 3, 0, 0
+
+coordinates 4, 0, 1
+coordinates 5, 70, 0
+coordinates 6, 70, 1
+coordinates 7, 0, 0
+Transparent 0,0,255

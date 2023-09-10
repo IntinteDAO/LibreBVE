@@ -1,0 +1,24 @@
+[Object]
+Position = -110, 0, 0
+States = CityCoach.b3d
+RotateYFunction = 1.57079633
+TranslateXFunction = mod[-6.6 * time, 150]
+
+
+[Object]
+Position = -80, 0, 0
+States = crestav2.b3d
+TranslateXFunction = mod[-6.6 * time, 150]
+
+
+[Object]
+Position = -60, 0, 0
+States = SilentNight.b3d
+RotateYFunction = 1.57079633
+TranslateXFunction = mod[-6.6 * time, 150]
+
+
+[Object]
+Position = -30, 0, 2
+States = lorry.b3d
+TranslateXFunction = mod[-6.6 * time, 150]

@@ -1,0 +1,111 @@
+;author=Chris Lees
+;description=Shed 2
+;copyright=From the Plymouth- St Austell demo route. © Chris Lees 2010
+;see www.bvecornwall.co.uk
+
+[MeshBuilder]
+Vertex  0 ,  2.7 ,  5.4 
+Vertex  3.6 ,  2.7 ,  5.4 
+Vertex  3.6 ,  0.144 ,  5.4 
+Vertex  0 ,  0.144 ,  5.4 
+Face   0,1,2,3
+Face   3, 2, 1, 0
+
+
+
+[Texture]
+Load   shed1_2.png
+Coordinates   0, 0, 0
+Coordinates   1, 1, 0
+Coordinates   2, 1, 1
+Coordinates   3, 0, 1
+Transparent     0, 0, 255
+
+
+[MeshBuilder]
+Vertex  0 ,  2.7 ,  0 
+Vertex  3.6 ,  2.7 ,  0 
+Vertex  3.6 ,  0.144 ,  0 
+Vertex  0 ,  0.144 ,  0 
+Face   0, 1, 2, 3
+Face   3, 2, 1, 0
+
+
+
+[Texture]
+Load   shed1_2.png
+Coordinates   0, 0, 0
+Coordinates   1, 1, 0
+Coordinates   2, 1, 1
+Coordinates   3, 0, 1
+Transparent     0, 0, 255
+
+[MeshBuilder]
+Vertex  3.6 ,  1.584 ,  5.4 
+Vertex  3.6 ,  1.584 ,  0 
+Vertex  3.6 ,  0.144 ,  0 
+Vertex  3.6 ,  0.144 ,  5.4 
+Face   0, 1, 2, 3
+Face   3, 2, 1, 0
+
+
+
+[Texture]
+Load   shed1_1.png
+Coordinates   0, 0, 0
+Coordinates   1, 1, 0
+Coordinates   2, 1, 1
+Coordinates   3, 0, 1
+
+
+[MeshBuilder]
+Vertex  0 ,  1.584 ,  5.4 
+Vertex  0 ,  1.584 ,  0 
+Vertex  0 ,  0.144 ,  0 
+Vertex  0 ,  0.144 ,  5.4 
+Face   0, 1, 2, 3
+Face   3, 2, 1, 0
+
+
+
+[Texture]
+Load   shed1_1.png
+Coordinates   0, 0, 0
+Coordinates   1, 1, 0
+Coordinates   2, 1, 1
+Coordinates   3, 0, 1
+
+[MeshBuilder]
+Vertex  0 ,  1.584 ,  5.4 
+Vertex  0 ,  1.584 ,  0 
+Vertex  1.8 ,  2.52 ,  0 
+Vertex  1.8 ,  2.52 ,  5.4 
+Face   0, 1, 2, 3
+Face   3, 2, 1, 0
+
+
+
+[Texture]
+Load   ..\railway\corrugated.png
+Coordinates   0, 0, 0.05
+Coordinates   1, 5, 0.05
+Coordinates   2, 5, 1
+Coordinates   3, 0, 1
+
+
+[MeshBuilder]
+Vertex  3.6 ,  1.584 ,  5.4 
+Vertex  3.6 ,  1.584 ,  0 
+Vertex  1.8 ,  2.52 ,  0 
+Vertex  1.8 ,  2.52 ,  5.4 
+Face   0, 1, 2, 3
+Face   3, 2, 1, 0
+
+
+
+[Texture]
+Load   ..\railway\corrugated.png
+Coordinates   0, 0, 0.05
+Coordinates   1, 5, 0.05
+Coordinates   2, 5, 1
+Coordinates   3, 0, 1

@@ -1,0 +1,51 @@
+[Object]
+states = gantry_2plat.csv
+Position = 0,0,0
+
+;1
+[Object]
+states = ..\..\lqsigs\homelq_arm.b3d
+Position = 8.2,7.3,0
+RotateYFunction = 3.141592654
+
+[Object]
+states = ..\..\lqsigs\distlq_arm.b3d
+Position = 8.2,6.6,0
+RotateYFunction = 3.141592654
+
+;2
+[Object]
+states = ..\..\lqsigs\homelq_arm.b3d
+Position = 4.25,6.8,0
+RotateYFunction = 3.141592654
+
+[Object]
+states = ..\..\lqsigs\distlq_arm.b3d
+Position = 4.25,6.1,0
+RotateYFunction = 3.141592654
+
+;3
+[Object]
+states = ..\..\lqsigs\homelq_arm.b3d
+Position = 19.25,6.9,0
+RotateYFunction = 3.141592654
+
+[Object]
+states = ..\..\lqsigs\distlq_arm.b3d
+Position = 19.25,6.2,0
+RotateYFunction = 3.141592654
+
+;4
+[Object]
+states = ..\..\lqsigs\homelq_arm.b3d
+Position = 23.25,6.9,0
+RotateYFunction = 3.141592654
+RotateZFunction = if[trackDistance >=80 , 0, (abs[trackdistance] < 80) * (-0.355398163)]
+RotateZDamping = 10, 0.5
+
+[Object]
+states = ..\..\lqsigs\distlq_arm.b3d
+Position = 23.25,6.2,0
+RotateYFunction = 3.141592654
+RotateZFunction = if[trackDistance >=120 , 0, (abs[trackdistance] < 120) * (-0.355398163)]
+RotateZDamping = 10, 0.5

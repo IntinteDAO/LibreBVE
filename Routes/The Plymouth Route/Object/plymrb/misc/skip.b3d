@@ -1,0 +1,103 @@
+;Author=Chris Lees
+;Description=Rubbish Skip
+;Copyright=RB Object library license
+
+;;Sides
+[MeshBuilder]
+Vertex 0,0,0
+Vertex 0,0,6
+Vertex 0,2.5,6
+Vertex 0,2.5,0
+Face 3,2,1,0
+
+[Texture]
+Load skip1.png,,
+Coordinates 0,-1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,-1,0
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -2.5,0,0
+Vertex -2.5,0,6
+Vertex -2.5,2.5,6
+Vertex -2.5,2.5,0
+Face 0,1,2,3
+
+[Texture]
+Load skip1.png,,
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+Transparent 0,0,255
+
+;;Insides
+[MeshBuilder]
+Vertex 0,0,0
+Vertex 0,0,6
+Vertex 0,2.5,6
+Vertex 0,2.5,0
+Face 0,1,2,3
+
+[Texture]
+Load skip3.png,,
+Coordinates 0,-1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,-1,0
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -2.5,0,0
+Vertex -2.5,0,6
+Vertex -2.5,2.5,6
+Vertex -2.5,2.5,0
+Face 3,2,1,0
+
+[Texture]
+Load skip3.png,,
+Coordinates 0,-1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,-1,0
+Transparent 0,0,255
+
+;;Ends
+[MeshBuilder]
+Vertex -2.5,0,1.5
+Vertex 0,0,1.5
+Vertex 0,2,0.15
+Vertex -2.5,2,0.15
+Face2 3,2,1,0
+
+[Texture]
+Load skip2.png,,
+Coordinates 0,-1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,-1,0
+
+[MeshBuilder]
+Vertex -2.5,0,4.5
+Vertex 0,0,4.5
+Vertex 0,2,5.85
+Vertex -2.5,2,5.85
+Face2 0,1,2,3
+
+[Texture]
+Load skip2.png,,
+Coordinates 0,-1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,-1,0
+
+;;Bottom
+[MeshBuilder]
+Vertex -2.5,0,4.5
+Vertex 0,0,4.5
+Vertex 0,0,1.5
+Vertex -2.5,0,1.5
+Face2 0,1,2,3
+Color 108,94,20

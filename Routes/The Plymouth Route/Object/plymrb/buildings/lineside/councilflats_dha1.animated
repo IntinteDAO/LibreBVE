@@ -1,0 +1,30 @@
+;;Multiobj for DeLa Haye Avenue councilflats
+
+[Object]
+states = councilflats1.b3d
+Position = 20,-5,0
+RotateYFunction = 1.6
+
+[Object]
+states = councilflats1.b3d
+Position = 25,-4,30
+RotateYFunction = 1.6
+
+[Object]
+states = dha_gnd.b3d
+Position = 33,-5,0
+RotateYFunction = 0.18
+
+[Object]
+states = ..\..\plants\tree3.b3d
+Position = 20,-5,10
+RotateYFunction = 0.3
+
+[Object]
+states = ..\..\plants\plym.b3d
+Position = 15,-5,-10
+RotateYFunction = 0.3
+
+[Object]
+states = ..\..\plants\plym.b3d
+Position = 18,-5,-5

@@ -1,0 +1,80 @@
+;;Runs ground underneath viaduct
+7375, .rail 6;-21;-11.5
+7400, .rail 6;-21;-14.5
+7550, .rail 6;-21;-11.5
+7575, .rail 6;-21;-7.5
+7600, .rail 6;-21;-5
+7900, .railend 6, .wallend 6, .dikeend 6
+;;MOVE LATER
+
+
+7325, .wall 0;-1;100, .wall 5;1;100
+7350, .wall 0;-1;108, .wall 5;1;108
+
+
+
+
+
+
+7375, .railtype 0;28, .railtype 5;29, .wall 0;0;13, .wallend 5
+7375, .freeobj 0;99;10;-28, .freeobj 0;99;-30;-28
+7380, .freeobj 0;99;30;-28
+;;Base objects for St Levan Road
+7400, .railstart 7;21;-14.709;2001
+7405, .freeobj 6;1639;-16;-0.5;90, .freeobj 6;1639;-41;-0.5;90, .freeobj 6;1639;-66;-0.5;90, .freeobj 6;1639;35;-0.5;90, .freeobj 6;1639;60;-0.5;90
+7414, .freeobj 6;1500;20;-0.5;-71
+7417, .freeobj 6;144;10;-0.5;90
+7425, .railtype 7;21
+7418, .freeobj 7;1642;14;0;90
+7425, .freeobj 6;503
+7429, .freeobj 7;1500;-27.5
+7436, .freeobj 7;1640;-9;-0.2;-90, .freeobj 7;1500;-30;0;90
+7446, .freeobj 7;1627;-19;-0.2;180
+7450, .wall 7;1;46, .railstart 11;-10.5;-14.7;2001, .dike 11;1;19
+7475, .rail 7;24, .rail 11;-12.5, .wall 7;0;46
+7500, .rail 7;28
+7510, .freeobj 6;350;-20;-0.4
+7525, .rail 7;32;-14.609
+7545, .freeobj 11;99;10;-8, .freeobj 11;99;-30;-8
+7550, .rail 7;38;-11.55, .railend 11, .dikeend 11
+7575, .pitch -5.882, .railtype 0;2000, .railtype 5;2000, .rail 7;44;-7.509, .wall 0;-1;109, .wall 5;1;109
+7585, .freeobj 0;1233;-3, .freeobj 5;1223;3;0;180, .limit 96.561
+7600, .rail 7;50;-5, .wall 0;-1;100, .wall 5;1;100
+7625, .rail 7;55
+7650, .rail 7;60
+7675, .rail 7;62
+7700, .wall 7;1;46
+7725, .wallend 0, .wallend 5
+7730, .freeobj 0;723
+7745, .freeobj 0;1641;48;-5.2;-90
+7750, .railstart 9;26;-5.2;21, .railstart 10;45;-5.2;1006, .dike 9;0;18, .wall 9;-1;49, .wall 7;0;47, .freeobj 7;1643
+7770, .freeobj 9;13;-15;-0.5
+7775, .rail 9;28;-4.2, .rail 10;47;-4.2, .rail 7;64;-4.1, .wall 0;-1;100, .wall 5;1;100, .wall 9;0;49
+7780, .freeobj 9;13;-15;-0.5
+7790, .freeobj 9;13;-15;-0.5
+7800, .railstart 8;-13;-2.5, .wall 8;0;50, .railstart 11;-10;-15, .dike 11;-1;0, .freeobj 9;13;-15;-0.5
+7800, .rail 7;66;-2.1, .rail 9;30;-2.2, .rail 10;49;-2.2
+7810, .freeobj 9;13;-15;-0.5
+7820, .freeobj 9;13;-15;-0.5
+7825, .rail 7;68;-0.1, .rail 8;-15;2, .rail 9;31;-0.2, .rail 10;50;-0.2, .dike 5;0;18, .dike 9;1;18
+7835, .freeobj 8;603;0;-1
+7850, .rail 7;68;3, .rail 8;-17.5;5, .rail 9;31;3, .rail 10;50;3, .freeobj 0;601;15;-0.5;0;0;-10
+7870, .freeobj 8;606;1;-1;0;15
+7875, .rail 7;68;6, .rail 8;-23;8, .rail 9;31;6, .rail 10;50;6
+7900, .pitch -1.941, .railend 7;68;9, .rail 8;-25;9, .rail 9;31;9;2001, .railend 10;50;9, .wallend 7, .dikeend 7, .wall 9;-1;105
+7900, .rail 11;-10;-9, .freeobj 8;602;6;-3;0;0;10
+7925, .freeobj 9;606;0;-0.5
+7950, .freeobj 9;602;0;-0.5
+7975, .Beacon 44000;0;1;0, .freeobj 9;606;0;-0.5
+8000, .pitch -14.598, .freeobj 9;602;0;-0.5
+8025, .freeobj 9;606;0;-0.5
+8050, .freeobj 9;602;0;-0.5
+8075, .freeobj 9;606;0;-0.5
+8100, .pitch -14.598, .rail 8;-25;8, .rail 9;31;8;2001, .railstart 10;30;7.5;2001, .freeobj 9;602;0;-0.5
+8110, .freeobj 0;724
+8125, .rail 10;28;7, .dike 10;-1;20, .freeobj 9;606;0;-0.5
+
+
+;;SEAM- REMOVE LATER
+8125, .railend 9, .wallend 9, .dikeend 9, .railend 11, .wallend 11, .dikeend 11
+;;REMOVE LATER

@@ -1,0 +1,603 @@
+with Structure
+
+
+.rail(10) plymrb\tracks\road.b3d                             ;;ak
+
+.rail(12) plymrb\tracks\road2.b3d                            ;;am
+
+
+.rail(15) plymrb\tracks\tunnel.csv                          ;;ap
+.rail(16) plymrb\tracks\tunnel_r500.csv                      ;;aq
+.rail(17) plymrb\tracks\road3.b3d                            ;;ar
+
+
+.rail(20) plymrb\tracks\road_mu1.b3d   ;;Two lane tarmac 27m w. pavement        ;;au
+.rail(21) plymrb\tracks\road_mu2.b3d   ;;Two lane tarmac 25m w. pavement        ;;av
+.rail(22) plymrb\tracks\road_mu3.b3d   ;;Single lane tarmac no pavement         ;;aw
+.rail(23) plymrb\tracks\road_cobb.b3d  ;;Cobbled road
+.rail(24) plymrb\tracks\road_cobb2.b3d  ;;Cobbled road
+.rail(25) plymrb\tracks\road_cobb3.b3d  ;;Cobbled road mk3
+.rail(26) plymrb\tracks\road_cobb4.b3d  ;;Cobbled road for joining main
+.rail(27) plymrb\tracks\straight-26m.b3d
+.rail(28) plymrb\tracks\brown_bn_l.b3d  ;;NO BALLAST TO L / R FOR NARROW BRIDGES
+.rail(29) plymrb\tracks\brown_bn_r.b3d
+
+
+.rail(34) plymrb\tracks\straight_100.csv
+.rail(35) plymrb\tracks\R150_SCL1_2.csv
+.rail(36) plymrb\tracks\L500_SCL1_2.csv
+.rail(37) plymrb\tracks\R300_SCL1_2.csv
+.rail(38) plymrb\tracks\lairayard_stabling.animated
+.rail(39) plymrb\tracks\road_dcw.b3d
+.rail(40) plymrb\tracks\road_coombe.b3d
+.rail(41) plymrb\tracks\road_ctl1.b3d                ;;Country Lane hedges to add???
+.rail(42) plymrb\tracks\road_pt1.b3d                 ;;Variant on plain tarmac [Cinders]
+.rail(43) plymrb\tracks\road_ctl2.b3d
+.rail(44) plymrb\tracks\road_stg1.b3d
+.rail(45) plymrb\tracks\L9500.csv
+.rail(46) plymrb\tracks\R9500.csv
+.rail(47) plymrb\tracks\road_CTA.b3d                 ;;27m
+.rail(48) plymrb\tracks\road_CTA1.b3d                ;;25m
+.rail(49) plymrb\tracks\road_stg2.b3d
+
+
+
+.rail(1003) plymrb\tracks\custom-n3.b3d
+.rail(1004) plymrb\tracks\custom-n4.b3d
+.rail(1005) plymrb\tracks\brown_half.b3d    ;;15m long track segment
+.rail(1006) plymrb\tracks\road_cobb_sp.b3d  ;;20m wide cobble strip
+.rail(1007) plymrb\tracks\brown-150_L1.b3d  ;;        []
+.rail(1008) plymrb\tracks\brown-150_L2.b3d  ;;        []
+.rail(1009) plymrb\tracks\brown-150_L3.b3d  ;;        []
+.rail(1010) plymrb\tracks\brown-150_L4.b3d  ;;     VVVVVVVV
+.rail(1011) plymrb\tracks\brown-150_L5.b3d  ;;Progressively longer for RNAS Bullpoint divergance
+;;TAVISTOCK BRANCH- D/T SCALED
+.rail(1012) plymrb\tracks\brown300_sp1.animated
+.rail(1013) plymrb\tracks\brown300_sp2.animated
+.rail(1014) plymrb\tracks\brown300_sp3.animated
+.rail(1015) plymrb\tracks\brown300_sp4.animated
+.rail(1016) plymrb\tracks\brown300_sp5.animated
+.rail(1017) plymrb\tracks\brown300_sp6.animated
+.rail(1018) plymrb\tracks\brown300_sp7.animated
+.rail(1019) plymrb\tracks\brown_sp1.animated
+;;SCALED NEW RAILS FOR LAIRA YARD- 1.05 length
+.rail(1020) plymrb\tracks\straight_SCL1_05.csv
+.rail(1021) plymrb\tracks\L150_SCL1_05.csv
+;1022- R150
+.rail(1023) plymrb\tracks\L300_SCL1_05.csv
+.rail(1024) plymrb\tracks\R300_SCL1_05.csv
+.rail(1025) plymrb\tracks\L500_SCL1_05.csv
+.rail(1026) plymrb\tracks\R500_SCL1_05.csv
+.rail(1027) plymrb\tracks\L700_SCL1_05.csv
+.rail(1028) plymrb\tracks\R700_SCL1_05.csv
+;1029- L1000
+;1030- R1000
+;1032- L1500
+.rail(1033) plymrb\tracks\R1500_SCL1_05.csv
+
+;;SCALED NEW RAILS FOR LAIRA YARD- 1.2 length minus 2.5m
+.rail(1034) plymrb\tracks\straight_SCL1_1.csv
+.rail(1035) plymrb\tracks\L150_SCL1_1.csv
+.rail(1036) plymrb\tracks\R150_SCL1_1.csv
+.rail(1037) plymrb\tracks\L300_SCL1_1.csv
+.rail(1038) plymrb\tracks\R300_SCL1_1.csv
+.rail(1039) plymrb\tracks\L500_SCL1_1.csv
+.rail(1040) plymrb\tracks\R500_SCL1_1.csv
+.rail(1041) plymrb\tracks\L700_SCL1_1.csv
+.rail(1042) plymrb\tracks\R700_SCL1_1.csv
+.rail(1043) plymrb\tracks\L1000_SCL1_1.csv
+;1000
+;1500
+.rail(1046) plymrb\tracks\R1500_SCL1_1.csv
+
+;;RAILS FOR TAMAR BRIDGE
+.rail(1900) plymrb\tracks\straight_bridgetrack.csv
+.rail(1901) plymrb\tracks\L150_bridgetrack.csv
+.rail(1902) plymrb\tracks\L500_bridgetrack.csv
+
+;;RESTART RAIL NUMBERING FROM 2000
+.rail(2000) plymrb\tracks\straight.csv
+.rail(2001) plymrb\misc\null.b3d
+
+.rail(2003) plymrb\tracks\R150.csv
+.rail(2004) plymrb\tracks\L150.csv
+.rail(2005) plymrb\tracks\R300.csv
+.rail(2006) plymrb\tracks\L300.csv
+.rail(2007) plymrb\tracks\R500.csv
+.rail(2008) plymrb\tracks\L500.csv
+.rail(2009) plymrb\tracks\R700.csv
+.rail(2010) plymrb\tracks\L700.csv
+.rail(2011) plymrb\tracks\R1000.csv
+.rail(2012) plymrb\tracks\L1000.csv
+.rail(2013) plymrb\tracks\R1500.csv
+.rail(2014) plymrb\tracks\L1500.csv
+.rail(2015) plymrb\tracks\L2000.csv
+.rail(2016) plymrb\tracks\R2000.csv
+
+
+
+.ground(0) plymrb\grounds\grass1.b3d           ;;Standard grass
+
+.ground(2) plymrb\grounds\concrete.b3d
+
+.ground(4) plymrb\grounds\parking2.b3d
+.ground(5) plymrb\grounds\grass_sl.b3d   ;;IN USE
+.ground(6) plymrb\grounds\grass_low.b3d
+
+.ground(9) plymrb\grounds\gconc.b3d
+
+
+.ground(12) plymrb\grounds\grass_ply1.b3d ;;IN USE
+
+
+
+
+
+
+
+
+
+
+.ground(25) plymrb\grounds\grass-3m.b3d
+.ground(26) plymrb\grounds\concl.b3d
+.ground(27) plymrb\grounds\dha01.b3d      ;;Use in sequence
+.ground(28) plymrb\grounds\grass-2m.b3d   ;;Second two are also multipurpose
+.ground(29) plymrb\grounds\grass-1m.b3d
+.ground(30) plymrb\grounds\concrete1.b3d
+.ground(31) plymrb\grounds\concrete2.b3d
+
+.ground(99) plymrb\misc\null.b3d
+
+.walll(0) plymrb\walls\bridge_steel3_l.b3d
+.wallr(0) plymrb\walls\bridge_steel3_r.b3d
+
+
+.walll(3) plymrb\walls\embankment2_l.csv
+.wallr(3) plymrb\walls\embankment2_r.csv
+
+
+.walll(5) plymrb\walls\tundl.csv
+.wallr(5) plymrb\walls\tundr.csv
+.walll(6) plymrb\buildings\lineside\60semi_l.csv
+.wallr(6) plymrb\buildings\lineside\60semi_r.csv
+.walll(7) plymrb\walls\ballastedge_L.b3d
+.walll(8) plymrb\walls\dikel7.b3d
+.wallr(8) plymrb\walls\diker7.b3d
+
+.walll(9) plymrb\buildings\lineside\terrace1_l.b3d
+.wallr(9) plymrb\buildings\lineside\terrace1_r.b3d
+
+.walll(11) plymrb\walls\dikel2.b3d
+.wallr(11) plymrb\walls\diker2.b3d
+
+
+.walll(13) plymrb\bridges\steelviaduct.b3d
+.wallr(13) plymrb\misc\null.b3d
+.walll(14) plymrb\walls\bridge_steel2_l.b3d
+.wallr(14) plymrb\walls\bridge_steel2_r.b3d
+
+.walll(21) plymrb\buildings\lineside\terrace_l.b3d  ;;Brick with fencing onto road
+.wallr(21) plymrb\buildings\lineside\terrace_r.b3d
+.walll(22) plymrb\walls\stonecutting1_L.csv
+.wallr(22) plymrb\walls\stonecutting1_R.csv
+
+
+.wallr(33) plymrb\walls\MUT\peh1_r.b3d
+.wallr(34) plymrb\walls\MUT\peh2_r.b3d
+.wallr(35) plymrb\walls\MUT\peh3_r.b3d
+.walll(36) plymrb\walls\plymsta1_l.b3d
+.wallr(36) plymrb\plants\smalltrees_r.csv
+.walll(37) plymrb\buildings\lineside\terrace2_l.b3d ;;Fencing onto rail
+.wallr(37) plymrb\buildings\lineside\terrace2_r.b3d
+.walll(38) plymrb\walls\LJM-PLY\embankment4_l.b3d
+.wallr(38) plymrb\walls\LJM-PLY\embankment4_r.b3d
+.walll(39) plymrb\walls\oldlaria_l.b3d
+.walll(40) plymrb\walls\dikel1.b3d
+.wallr(40) plymrb\walls\diker1.b3d
+.walll(41) plymrb\walls\stuartwall_l.b3d
+.wallr(41) plymrb\walls\stuartwall_r.b3d
+.walll(42) plymrb\buildings\lineside\terrace1_l.b3d     ;;Use as pair- Grass & wall for #1ra
+.wallr(42) plymrb\buildings\lineside\terrace1a_r.b3d    ;;Grass going up for Devonport cutting entry for #1rb
+.walll(43) plymrb\buildings\lineside\terrace1_l.b3d     ;;Bay windows no garden
+.wallr(43) plymrb\buildings\lineside\terrace1b_r.b3d
+.wallr(44) plymrb\walls\diker8.b3d  ;;Short with special end
+.wallr(45) plymrb\walls\Embankment5_r.b3d  ;;Standard with 120m grass attached
+.walll(46) plymrb\buildings\lineside\terrace6_l.b3d   ;;Front bays and wooden fence
+.wallr(46) plymrb\buildings\lineside\terrace1_r.b3d
+.walll(47) plymrb\buildings\lineside\terrace7_l.b3d
+.wallr(47) plymrb\buildings\lineside\terrace1_r.b3d
+.walll(48) plymrb\buildings\lineside\terrace7_l.b3d  ;;Another Terrace w/ no front bays
+.wallr(48) plymrb\buildings\lineside\terrace7_r.b3d  ;;Fronts directly onto pavement
+.walll(49) plymrb\walls\dikel6.b3d
+.wallr(49) plymrb\buildings\lineside\terrace7_r.b3d  ;;Fronts directly onto pavement
+.walll(50) plymrb\grounds\grass2_l.b3d
+.wallr(50) plymrb\walls\diker6.b3d
+.walll(51) plymrb\buildings\lineside\bungalows_l.animated   ;;Fencing to rail
+.walll(52) plymrb\buildings\lineside\bungalows1_l.animated  ;;Door to rail
+.wallr(52) plymrb\buildings\lineside\bungalows1_r.animated
+.walll(53) plymrb\buildings\lineside\bungalows2_l.animated
+.wallr(53) plymrb\buildings\lineside\terrace1_r.b3d
+.walll(54) plymrb\buildings\lineside\bungalows3_l.animated
+.wallr(54) plymrb\buildings\lineside\bungalows3_r.animated
+.walll(55) plymrb\walls\KEY-STB\dockyardwall.b3d
+.wallr(55) plymrb\walls\diker7.b3d
+.walll(56) plymrb\buildings\lineside\terrace1_l.b3d
+.wallr(56) plymrb\buildings\lineside\terrace4_r.b3d
+.walll(57) plymrb\walls\dikel6.b3d
+.wallr(57) plymrb\buildings\lineside\terrace2_r.b3d
+.walll(58) plymrb\buildings\lineside\terrace9_l.b3d  ;;Another Terrace w/ no front bays ==> STONE
+.wallr(58) plymrb\buildings\lineside\terrace9_r.b3d  ;;Fronts directly onto pavement
+;;;;Start Rearranging
+;;Standard dikes from 100
+.walll(99) plymrb\walls\dikel0a.b3d ;;No fencing
+.walll(100) plymrb\walls\dikel0.b3d ;;No fencing
+.wallr(100) plymrb\walls\diker0.b3d
+;101- Dike 2 (Barbed wire fence)
+.walll(102) plymrb\walls\dikel3.b3d ;;Barbed wire fence no ballast
+.wallr(102) plymrb\walls\diker3.b3d
+.walll(103) plymrb\walls\dikel4.b3d ;;As above with 10m grass attached
+;Right-hand version of this when needed
+.walll(104) plymrb\walls\dikel5.b3d ;;Grey drystone wall with ballast
+;Right-hand when needed
+.walll(105) plymrb\walls\dikel6.b3d
+.wallr(105) plymrb\walls\diker6.b3d ;;Grey drystone wall no ballast
+;106- No ballast or fencing
+;107- Different shape for Plymouth station exit
+.walll(108) plymrb\walls\dikel9.b3d ;;With twiddle to end embankment
+.wallr(108) plymrb\walls\diker9.b3d
+.walll(109) plymrb\walls\dikel10.b3d ;;With twiddle to start embankment
+.wallr(109) plymrb\walls\diker10.b3d
+.walll(110) plymrb\walls\dikel11.b3d ;;Larger twiddle to start embankment
+.wallr(110) plymrb\walls\diker11.b3d
+.wallr(111) plymrb\walls\diker12.b3d ;;Longer Barbed Wire Fence no ballast
+.walll(113) plymrb\walls\dikel0.b3d
+.wallr(113) plymrb\walls\diker14.b3d ;;Narrows
+.walll(114) plymrb\walls\dikel15.b3d
+.wallr(114) plymrb\walls\diker15.b3d
+.walll(115) plymrb\walls\dikel16.b3d ;;Grey drystone wall grass dropping to stone
+.walll(116) plymrb\walls\dikel17.b3d ;;Grass dropping to stone
+.wallr(116) plymrb\walls\diker17.b3d ;;Grass dropping to stone
+.walll(117) plymrb\walls\Hedge1_L.b3d
+.wallr(117) plymrb\walls\Hedge1_R.b3d
+.walll(118) plymrb\plants\spinney1_l.csv
+.wallr(118) plymrb\plants\spinney1_r.csv
+.walll(119) plymrb\plants\spinney2_l.csv
+.wallr(119) plymrb\plants\spinney2_r.csv
+.wallr(120) plymrb\walls\STG\DikeR.csv  ;;Custom with white picket fence R
+.walll(121) plymrb\buildings\lineside\villagehouse_l.animated  ;;Village houses- Closely spaced stone cottages one with tiled and one with slates for roof
+.wallr(121) plymrb\buildings\lineside\bungalows3_r.animated
+
+.walll(123) plymrb\walls\dikel6.b3d
+.wallr(123) plymrb\buildings\lineside\villagehouse_r.animated
+.wallr(124) plymrb\walls\diker3a.b3d
+.walll(124) plymrb\walls\diker3b.b3d
+.wallr(125) plymrb\walls\steelfence1_r.b3d
+.wallr(126) plymrb\walls\MEN-LSK\DikeR0a.b3d
+.wallr(127) plymrb\walls\LSK\DikeR0.b3d    ;;Dike with ballast and HS fence attached ==> 80s yard fencing
+.walll(128) plymrb\walls\LSK\DikeL0S.b3d
+
+
+.walll(203) plymrb\walls\embankment_wt_l.b3d    ;;Standard with grey drystone wall on top
+.walll(204) plymrb\walls\PLY-DEV\embankment_tt_l.b3d    ;;Standard with chainlink fence & trees
+.wallr(204) plymrb\walls\PLY-DEV\embankment_tt_r.b3d
+.walll(205) plymrb\walls\embankment_tt1_l.b3d   ;;Standard with chainlink fence & trees #1
+.wallr(206) plymrb\walls\PLY-DEV\embankment_tt2_r.b3d   ;;Standard with wooden fence & trees #1
+.walll(207) plymrb\walls\steel_grass_l.b3d      ;;Iron fence with 50m grass attached.
+
+;;Grounds from 400
+.wallr(400) plymrb\grounds\concrete2_r.b3d
+.walll(401) plymrb\grounds\grass_l.b3d
+.wallr(401) plymrb\grounds\grass_r.b3d
+.wallr(403) plymrb\grounds\grass_r2.b3d
+
+;;Custom walls from 800
+.walll(800) plymrb\walls\embankment_wf3a_l.b3d   ;;Custom chainlink
+.walll(801) plymrb\walls\embankment_wf_l.b3d    ;;Custom chainlink                 ;;Devonport Station Walls
+.walll(802) plymrb\walls\embankment_wf1_l.b3d   ;;Custom chainlink #1                          []
+.walll(803) plymrb\walls\embankment_wf2_l.b3d   ;;Custom chainlink #1                          []
+.wallr(803) plymrb\walls\embankment_wf2_r.b3d   ;;Custom chainlink #1                          []
+.wallr(804) plymrb\walls\embankment_wf2a_r.b3d  ;;Standard stone wall no additions             []
+.wallr(805) plymrb\walls\embankment_nfg1_r.b3d  ;;Horizontal plane outwards of grass           []
+.walll(806) plymrb\walls\embankment_wf3_l.b3d   ;;Custom chainlink                            VVVV
+.walll(807) plymrb\platforms\devfence.csv
+.wallr(808) plymrb\walls\stbudeaux1_r.b3d
+.wallr(809) plymrb\walls\stbudeaux2_r.b3d
+.wallr(810) plymrb\walls\stbudeaux3_r.b3d
+
+.walll(811) plymrb\walls\STB-RAB\DikeL_1.b3d
+.walll(812) plymrb\walls\STB-RAB\DikeL_2.b3d
+.walll(813) plymrb\walls\STB-RAB\DikeL_3.b3d
+.walll(814) plymrb\walls\STB-RAB\Multi_L4.animated
+.walll(815) plymrb\walls\STB-RAB\Multi_L5.animated
+.walll(816) plymrb\walls\STB-RAB\Multi_L6.animated
+.walll(817) plymrb\walls\STB-RAB\Multi_L7.animated
+.walll(818) plymrb\walls\STB-RAB\Multi_L8.animated
+.walll(819) plymrb\walls\STB-RAB\Multi_L9.animated
+.walll(820) plymrb\walls\STB-RAB\Multi_L10.animated
+.walll(821) plymrb\walls\STB-RAB\Multi_L11.animated
+.walll(822) plymrb\walls\STB-RAB\Multi_L12.animated
+.walll(823) plymrb\walls\STB-RAB\Multi_L13.animated
+.walll(824) plymrb\walls\STB-RAB\Multi_L14.animated
+.walll(825) plymrb\walls\STB-RAB\Multi_L15.animated
+.walll(826) plymrb\walls\STB-RAB\Multi_L16.animated
+.walll(827) plymrb\walls\STB-RAB\Multi_L17.animated
+.walll(828) plymrb\walls\STB-RAB\DikeL_18.b3d
+.walll(829) plymrb\walls\STB-RAB\DikeL_19.b3d
+.walll(830) plymrb\walls\STB-RAB\DikeL_20.b3d
+.walll(831) plymrb\walls\STB-RAB\DikeL_21.b3d
+.walll(832) plymrb\walls\STB-RAB\DikeL_22.b3d
+.walll(833) plymrb\walls\STB-RAB\DikeL_23.b3d
+.walll(834) plymrb\walls\STB-RAB\DikeL_24.b3d
+.walll(835) plymrb\walls\STB-RAB\DikeL_25.b3d
+.walll(836) plymrb\walls\STB-RAB\DikeL_26.b3d
+.walll(837) plymrb\walls\STB-RAB\DikeL_27.b3d
+.walll(838) plymrb\walls\STB-RAB\Multi_L28.animated
+.walll(839) plymrb\walls\STB-RAB\RAB_App_L1.b3d
+.wallr(839) plymrb\walls\STB-RAB\RAB_App_R1.b3d
+.walll(840) plymrb\walls\STB-RAB\RAB_App_L2.b3d
+.wallr(840) plymrb\walls\STB-RAB\RAB_App_R2.b3d
+.walll(841) plymrb\grounds\laira1.b3d
+.wallr(841) plymrb\grounds\laira2.b3d
+.walll(842) plymrb\walls\DikeL17a.b3d           ;;Short version of rock retaining wall
+.wallr(842) plymrb\walls\saltash_station_r.b3d  ;;5m high retaining wall
+.walll(843) plymrb\walls\DikeL18.b3d            ;;15m wide grass on left
+.wallr(843) plymrb\walls\saltash_station1_r.b3d ;;5m high retaining ends
+.walll(844) plymrb\walls\DFP\DikeL1.b3d
+.wallr(844) plymrb\walls\DFP\DikeR1.b3d
+.walll(845) plymrb\walls\DFP\DikeL2.b3d
+.wallr(845) plymrb\walls\DFP\DikeR1.b3d
+.walll(846) plymrb\walls\DFP\DikeL3.b3d
+.wallr(846) plymrb\walls\DFP\DikeR1.b3d
+.walll(847) plymrb\walls\DFP\DikeL4.b3d
+.wallr(847) plymrb\walls\DFP\DikeR1.b3d
+.walll(848) plymrb\walls\DFP-STG\DikeL01.b3d
+.wallr(848) plymrb\walls\DFP-STG\DikeR01.b3d
+.walll(849) plymrb\walls\STG\DikeL2.b3d  ;;Whole embankment START
+.wallr(849) plymrb\walls\STG\DikeR2.b3d  ;;Whole embankment END  ==> STG Goods yard where hole is not hidden in 80s
+.walll(850) plymrb\walls\STG-MEN\trerulefoot_roadside_l.b3d  ;;Stone Wall & Grass Pavement
+.wallr(850) plymrb\walls\STG-MEN\trerulefoot_roadside_r.b3d  ;;Stone Wall & Grass Pavement
+.walll(851) plymrb\walls\MEN-LSK\DikeL4.b3d
+.wallr(851) plymrb\walls\MEN-LSK\DikeR4.b3d
+
+;;WEATHER EFFECTS
+.walll(2000) plymrb\misc\Weather\rain.animated
+.wallr(2000) plymrb\misc\null.b3d
+
+.dikel(0) plymrb\plants\deepforest_l.csv
+.diker(0) plymrb\plants\deepforest_r.csv
+
+
+.dikel(3) plymrb\plants\weeds_l.b3d
+.diker(3) plymrb\misc\null.b3d
+.dikel(4) plymrb\grounds\grass_l.b3d
+.diker(4) plymrb\grounds\grass_r.b3d
+.dikel(5) plymrb\walls\dikel6.b3d ;;Grey drystone wall no ballast
+.diker(5) plymrb\walls\diker6.b3d ;;Grey drystone wall no ballast
+.dikel(6) plymrb\walls\LJM-PLY\embankment_nf_l.b3d
+.diker(6) plymrb\walls\LJM-PLY\embankment_nf_r.b3d
+.dikel(7) plymrb\grounds\idu1_l.b3d
+.dikel(8) plymrb\grounds\idu2_l.b3d
+.dikel(9) plymrb\walls\whittlingtonst_l.b3d
+.dikel(10) plymrb\walls\grass1d_l.b3d
+.dikel(11) plymrb\walls\grass2d_l.b3d
+.diker(12) plymrb\walls\diker6.b3d ;;Grey drystone wall no ballast
+.dikel(13) plymrb\walls\dikel7.b3d ;;No wall or ballast
+.diker(13) plymrb\walls\diker7.b3d ;;No wall or ballast
+.diker(14) plymrb\walls\embankment_wf2a_r.b3d
+.diker(15) plymrb\buildings\lineside\terrace3_r.b3d  ;;7m wooden fence for Devonport
+.dikel(16) plymrb\grounds\conc2_l.b3d                ;;Dockyard station concrete walls
+.diker(16) plymrb\grounds\conc_15a_r.b3d             ;  []
+.dikel(17) plymrb\grounds\conc2_l.b3d                ;  []
+.diker(17) plymrb\grounds\conc_15_r.b3d              ; VVVV
+.dikel(18) plymrb\grounds\grass1_l.b3d
+.diker(18) plymrb\grounds\grass1_r.b3d
+.dikel(19) plymrb\walls\steelfence_l.b3d   ;;Steel Spike Fence
+.diker(19) plymrb\walls\steelfence_r.b3d
+.dikel(20) plymrb\walls\concRW_1_L.b3d              ;;Retaining wall with grass
+.dikel(21) plymrb\walls\concRW_2_L.b3d              ;;Retaining wall with concrete
+.dikel(22) plymrb\grounds\westonmill1.b3d           ;;Water Bank Down
+.diker(22) plymrb\grounds\westonmill1a.b3d           ;;Water Bank Down no water
+.dikel(23) plymrb\grounds\westonmill2.b3d           ;;Water Base
+.diker(23) plymrb\grounds\lairawater.b3d           ;;Water Base
+.dikel(24) plymrb\grounds\westonmill3.b3d           ;;Water Bank Up HW
+.dikel(25) plymrb\grounds\westonmill4_l.b3d         ;;Water Bank Start L
+.diker(25) plymrb\grounds\westonmill4_r.b3d         ;;Water Bank Start R
+.dikel(26) plymrb\grounds\westonmill5_l.b3d         ;;Water Bank L
+.diker(26) plymrb\grounds\westonmill5_r.b3d         ;;Water Bank R
+.diker(27) plymrb\grounds\westonmill6_r.b3d
+.dikel(28) plymrb\grounds\conc3_l.b3d               ;;Concrete
+.dikel(29) plymrb\grounds\grass3_l.b3d              ;;Wide Grass
+.dikel(30) plymrb\grounds\grass1_l.b3d              ;;Retaining embankment and grass
+.diker(30) plymrb\walls\diker13.b3d
+.dikel(31) plymrb\grounds\stb2_l.b3d                ;;Rock Wall L no fence
+.diker(31) plymrb\grounds\stb1_l.b3d                ;;Rock Wall L with fence
+.diker(32) plymrb\grounds\stb3_l.b3d                ;;Rock Wall L tarmac & fence
+.dikel(32) plymrb\grounds\rab_1.b3d
+.dikel(33) plymrb\grounds\rab_2.b3d
+.dikel(34) plymrb\grounds\grass1_l.b3d
+.diker(34) plymrb\grounds\grass1a_r.b3d
+.dikel(35) plymrb\grounds\coombe.b3d                ;;300m long water/ mud for Coombe curve 30m below
+.diker(35) plymrb\grounds\coombe1.b3d               ;;Bank up no water
+.dikel(36) plymrb\grounds\coombe2.b3d               ;;Custom grass slope for Coombe curve
+.diker(36) plymrb\grounds\coombe3.b3d               ;;200m long water L for between Coombe & DFP
+.dikel(37) plymrb\walls\DFP\grass_infill.b3d        ;;22m grass left infill piece
+.dikel(38) plymrb\walls\DFP\DikeL5.b3d              ;;Longer & higher grass dike & ground piece
+.diker(38) plymrb\walls\DFP\grass_r.b3d             ;;After DFP river dropdown
+.dikel(39) plymrb\walls\DFP\DikeL6.b3d
+.diker(39) plymrb\walls\diker3.b3d
+.dikel(40) plymrb\walls\DFP\DikeL7.b3d              ;;Plain slope -40 ==> -12
+.diker(40) plymrb\grounds\grass_r.b3d
+.dikel(41) plymrb\walls\DFP\DikeL8.b3d
+.diker(41) plymrb\walls\diker3.b3d
+.dikel(42) plymrb\grounds\forder.b3d                ;;300m long water/ mud 20m below
+.dikel(43) plymrb\grounds\grass_l.b3d
+.diker(43) plymrb\grounds\grass_r1.b3d              ;;Chunk added for hill on curve
+.dikel(44) plymrb\walls\DFP\DikeL9.b3d              ;;Plain slope -40 ==> -12
+.diker(44) plymrb\walls\diker3.b3d
+.dikel(45) plymrb\walls\DFP\DikeL10.b3d             ;;Plain slope -40 ==> -12
+.diker(45) plymrb\walls\diker3.b3d
+.dikel(46) plymrb\grounds\grass_l.b3d
+.diker(46) plymrb\grounds\cropfield_r.b3d
+.dikel(47) plymrb\walls\DFP\DikeL9.b3d
+.diker(47) plymrb\walls\DFP\DikeR9.b3d              ;;Plain slope 40 ==> -12
+.dikel(48) plymrb\grounds\300m_water.b3d
+.diker(49) plymrb\grounds\grass4_r.b3d              ;;Custom slope F & R for hill gaps
+.dikel(50) plymrb\walls\STG\DikeL1.b3d
+.diker(50) plymrb\walls\STG-MEN\DikeL8.b3d
+.dikel(51) plymrb\grounds\grass_l.b3d
+.diker(51) plymrb\walls\STG\grass_r_50.b3d
+.dikel(52) plymrb\walls\STG-MEN\DikeL1.b3d
+.diker(52) plymrb\walls\STG-MEN\DikeL6.b3d
+.dikel(53) plymrb\walls\STG-MEN\DikeL2.b3d
+.diker(53) plymrb\walls\STG-MEN\DikeL7.b3d
+.dikel(54) plymrb\walls\STG-MEN\grass1_l.b3d
+.diker(54) plymrb\walls\STG-MEN\DikeR3.b3d
+.dikel(55) plymrb\walls\STG-MEN\DikeL3.b3d
+.diker(55) plymrb\walls\STG-MEN\DikeL3a.b3d
+.dikel(56) plymrb\walls\STG-MEN\DikeL4.b3d          ;;Custom terrain form pair for after Crift Hill overbridge
+.diker(56) plymrb\walls\STG-MEN\DikeR4.b3d
+
+
+.diker(57) plymrb\walls\STG-MEN\DikeR5.b3d
+.dikel(58) plymrb\walls\STG-MEN\DikeL4a.b3d         ;;End Pieces for Crift Hill
+.diker(58) plymrb\walls\STG-MEN\DikeR4.b3d
+.dikel(59) plymrb\walls\STG-MEN\grass2_l.b3d        ;;End Pieces for Crift Hill
+.diker(59) plymrb\walls\STG-MEN\DikeR4.b3d
+.dikel(60) plymrb\walls\STG-MEN\DikeL9.b3d
+.diker(60) plymrb\walls\STG-MEN\DikeL10.b3d
+.dikel(61) plymrb\walls\STG-MEN\DikeR7.b3d
+.diker(61) plymrb\walls\STG-MEN\DikeR6.b3d
+.dikel(62) plymrb\walls\STG-MEN\DikeR9a.b3d
+.diker(62) plymrb\walls\STG-MEN\DikeR8.b3d
+.dikel(63) plymrb\walls\STG-MEN\DikeR10.b3d
+.diker(63) plymrb\walls\STG-MEN\DikeR9.b3d
+.dikel(64) plymrb\walls\STG-MEN\DikeR12.b3d
+.diker(64) plymrb\walls\STG-MEN\DikeR11.b3d
+.dikel(65) plymrb\walls\STG-MEN\DikeL11.b3d
+.diker(65) plymrb\walls\STG-MEN\DikeR13.b3d
+.dikel(66) plymrb\walls\STG-MEN\DikeL12.b3d
+.diker(66) plymrb\walls\STG-MEN\DikeR3a.b3d
+.dikel(67) plymrb\grounds\grass_l.b3d
+.diker(67) plymrb\grounds\grass_r1a.b3d              ;;Chunk added for hill on curve II
+.dikel(68) plymrb\grounds\grass_l1a.b3d
+.diker(68) plymrb\grounds\grass_r.b3d              ;;Chunk added for hill on curve II
+.diker(69) plymrb\walls\MEN-LSK\DikeR1.b3d         ;;Treviddo viaduct ground join
+.dikel(70) plymrb\walls\DFP\DikeL5.b3d
+.diker(70) plymrb\walls\MEN-LSK\DikeR2.b3d
+.dikel(71) plymrb\walls\DFP\DikeL5.b3d
+.diker(71) plymrb\walls\MEN-LSK\DikeR3.b3d
+.dikel(72) plymrb\walls\MEN-LSK\DikeL3.b3d              ;;Plain slope -40 ==> -12
+.diker(72) plymrb\walls\MEN-LSK\DikeR0.b3d          ;;No fencing
+.diker(73) plymrb\walls\MEN-LSK\Grass_R1.b3d
+.dikel(74) plymrb\walls\MEN-LSK\DikeL0.b3d          ;;Plain slope -40 ==> -12
+.diker(74) plymrb\walls\MEN-LSK\DikeR0.b3d
+.dikel(75) plymrb\walls\MUT\DikeR9.b3d
+.diker(75) plymrb\walls\MUT\RTW_road_R1.b3d
+.dikel(76) plymrb\walls\MUT\stoneRW_1_l.b3d
+.diker(76) plymrb\walls\MUT\stoneRW_2_l.b3d
+
+.CrackL(0) plymrb\tracks\cra_steelL.csv
+.CrackR(0) plymrb\tracks\cra_steelR.csv
+.crackl(1) plymrb\tracks\craball.csv
+.crackr(1) plymrb\tracks\crabalr.csv
+.crackl(2) plymrb\grounds\cragral.csv
+.crackr(2) plymrb\grounds\cragrar.csv
+.crackl(3) plymrb\grounds\craconcl.csv
+.crackr(3) plymrb\grounds\craconcr.csv
+.crackl(4) plymrb\grounds\cragral1.csv
+.crackr(4) plymrb\grounds\cragrar1.csv
+.crackl(5) plymrb\grounds\cragral2.csv
+.crackr(5) plymrb\grounds\cragrar2.csv
+
+
+.forml(2)  plymrb\platforms\Plymouth\PlatformLeft_L350_0.csv
+.formcl(2) plymrb\misc\null.b3d
+.formr(2)  plymrb\platforms\Plymouth\PlatformRight_L350_0.csv
+.formcr(2) plymrb\misc\null.b3d
+.forml(3)  plymrb\platforms\common\PlatformLeft_Straight_0.csv
+.formcl(3) plymrb\misc\null.b3d
+.formr(3)  plymrb\platforms\common\PlatformRight_Straight_0.csv
+.formcr(3) plymrb\misc\null.b3d
+.forml(4)  plymrb\platforms\Plymouth\PlatformLeft_R500_0.csv
+.formcl(4) plymrb\misc\null.b3d
+.formr(4)  plymrb\platforms\Plymouth\PlatformRight_R500_0.csv
+.formcr(4) plymrb\misc\null.b3d
+.forml(5)  plymrb\platforms\common\PlatformLeft_R600.csv
+.formcl(5) plymrb\misc\null.b3d
+.formr(5)  plymrb\platforms\common\PlatformRight_R600.csv
+.formcr(5) plymrb\misc\null.b3d
+.forml(6)  plymrb\platforms\Dockyard\PlatformLeft_Straight_2.csv     ;;DOCKYARD PLATFORMS
+.formcl(6) plymrb\misc\null.b3d
+.formr(6)  plymrb\platforms\Dockyard\PlatformRight_Straight_2.csv
+.formcr(6) plymrb\misc\null.b3d
+.forml(7)  plymrb\platforms\Keyham\PlatformLeft_Straight_4.csv
+.formcl(7) plymrb\misc\null.b3d
+.formr(7)  plymrb\platforms\Keyham\PlatformLeft_Straight_4.csv
+.formcr(7) plymrb\misc\null.b3d
+
+.formr(8)  plymrb\platforms\Plymouth\PlatformRight_L750_0.csv
+.formcr(8) plymrb\misc\null.b3d
+.forml(9)  plymrb\platforms\StGermans\PlatformLeft_L1500.csv
+.formcl(9) plymrb\misc\null.b3d
+.formr(9)  plymrb\platforms\StGermans\PlatformRight_L1500.csv
+.formcr(9) plymrb\misc\null.b3d
+
+
+.forml(11)  plymrb\platforms\Plymouth\PlatformLeft_R1500_0.csv
+.formcl(11) plymrb\misc\null.b3d
+.formr(11)  plymrb\platforms\Plymouth\PlatformRight_R1500_0.csv
+.formcr(11) plymrb\misc\null.b3d
+.forml(12)  plymrb\platforms\Devonport\PlatformLeft_R600_1.csv
+.formcl(12) plymrb\misc\null.b3d
+.forml(13)  plymrb\platforms\Devonport\PlatformLeft_Straight_6.csv
+.formcl(13) plymrb\misc\null.b3d
+.forml(14)  plymrb\platforms\Keyham\PlatformLeft_Straight_7.csv   ;;WIDER FOR KEYHAM
+.formcl(14) plymrb\misc\null.b3d
+.forml(15)  plymrb\platforms\StBudeaux\PlatformLeft_L700_0.csv
+.formcl(15) plymrb\misc\null.b3d
+.formr(15)  plymrb\platforms\StBudeaux\PlatformRight_L700_0.csv
+.formcr(15) plymrb\misc\null.b3d
+.forml(16)  plymrb\platforms\StBudeaux\PlatformLeft_L200_0.csv
+.formcl(16) plymrb\misc\null.b3d
+.formr(16)  plymrb\platforms\StBudeaux\PlatformRight_L200_0.csv
+.formcr(16) plymrb\misc\null.b3d
+.forml(17)  plymrb\platforms\StBudeaux\PlatformLeft_Straight_7.csv  ;;50cm longer to hide gaps
+.formcl(17) plymrb\misc\null.b3d
+.formr(17)  plymrb\platforms\StBudeaux\PlatformRight_Straight_8.csv
+.formcr(17) plymrb\misc\null.b3d
+.forml(18)  plymrb\platforms\Keyham\PlatformLeft_Straight_4a.csv
+.formcl(18) plymrb\misc\null.b3d
+
+;NEW SALTASH PLATFORMS
+.forml(19)  plymrb\platforms\Saltash\PlatformLeft_L300_8.5F.csv ;;8.5m wide with fence
+.formcl(19) plymrb\misc\null.b3d
+.formr(19)  plymrb\platforms\Saltash\PlatformRight_L300_10.csv ;;10m wide
+.formcr(19) plymrb\misc\null.b3d
+
+
+.forml(20) plymrb\platforms\StGermans\PlatformLeft_Straight_WF2.csv
+.formcl(20) plymrb\misc\null.b3d
+.formr(20) plymrb\platforms\StGermans\PlatformRight_Straight_WF.csv
+.formcr(20) plymrb\misc\null.b3d
+.formr(21) plymrb\platforms\StGermans\PlatformRight_L1500_WF.csv
+.formcr(21) plymrb\misc\null.b3d
+.forml(22) plymrb\platforms\StGermans\PlatformLeft_L1500_WNF.csv
+.formcl(22) plymrb\misc\null.b3d
+.formr(22) plymrb\platforms\StGermans\PlatformRight_L1500_WNF.csv
+.formcr(22) plymrb\misc\null.b3d
+.forml(23) plymrb\platforms\StGermans\PlatformLeft_Straight_F1.csv
+.formcl(23) plymrb\misc\null.b3d
+.formr(23) plymrb\platforms\StGermans\PlatformRight_Straight.csv
+.formcr(23) plymrb\misc\null.b3d
+.forml(24) plymrb\platforms\Menheniot\PlatformLeft_R1600.b3d
+.formcl(24) plymrb\misc\null.b3d
+.formr(24) plymrb\platforms\Menheniot\PlatformRight_R1600.csv
+.formcr(24) plymrb\misc\null.b3d
+.forml(25) plymrb\platforms\Menheniot\PlatformLeft_R1600_0.csv
+.formcl(25) plymrb\misc\null.b3d
+.forml(26) plymrb\platforms\Menheniot\PlatformLeft_R1600_1.csv
+.formcl(26) plymrb\misc\null.b3d
+.forml(27) plymrb\platforms\Menheniot\PlatformLeft_R1600_2.csv
+.formcl(27) plymrb\misc\null.b3d
+.forml(28) plymrb\platforms\Liskeard\PlatformLeft_R1000.csv
+.formcl(28) plymrb\misc\null.b3d

@@ -1,0 +1,19 @@
+[Object]
+states = lairadepot_01.b3d
+Position = 0,0,0
+
+[Object]
+states = ..\..\lqsigs\homelq_arm.b3d
+Position = 0,6.39,0
+RotateZFunction = (section != 0) * 0.355398163
+RotateZDamping = 10, 0.5
+
+[Object]
+states = ..\..\lqsigs\distlq_arm.b3d
+Position = 0,5.6,0
+RotateZFunction = (section > 2) * 0.355398163
+RotateZDamping = 10, 0.5
+
+[Object]
+states = ..\..\lqsigs\homelq_arm.b3d
+Position = -1.65,5.6,0

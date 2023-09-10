@@ -1,0 +1,254 @@
+;Description=Semaphore Gantry for two tracks
+;Author=Chris Lees
+;Copyright=Found in the BVE Cornwall Plymouth- St Austell DEMO
+
+;Gantry, side 1
+CreateMeshbuilder,,,
+AddVertex, 09.3 ,  5.5 , -0.2 ,
+AddVertex, 12   ,  5.5 , -0.2 ,
+AddVertex, 12   ,  4.5 , -0.2 ,
+AddVertex, 09.3 ,  4.5 , -0.2 ,
+AddFace2, 0,1,2,3
+
+LoadTexture,gantry_4_1.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshbuilder,,,
+AddVertex, 09.3 ,  5.5 , 0.3 ,
+AddVertex, 12   ,  5.5 , 0.3 ,
+AddVertex, 12   ,  4.5 , 0.3 ,
+AddVertex, 09.3 ,  4.5 , 0.3 ,
+AddFace2, 3,2,1,0
+
+LoadTexture,gantry_4_1.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshbuilder,,,
+AddVertex, -1.3 ,  5.5 , -0.2 ,
+AddVertex, -4   ,  5.5 , -0.2 ,
+AddVertex, -4   ,  4.5 , -0.2 ,
+AddVertex, -1.3 ,  4.5 , -0.2 ,
+AddFace2, 3, 2, 1, 0,
+
+LoadTexture,gantry_4_1.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshbuilder,,,
+AddVertex, 9.3     ,  5.5 , -0.2 ,
+AddVertex, -1.3   ,  5.5 , -0.2 ,
+AddVertex, -1.3   ,  4.5 , -0.2 ,
+AddVertex, 9.3     ,  4.5 , -0.2 ,
+AddFace2, 3, 2, 1, 0,
+
+LoadTexture,gantry_4_2.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,255
+
+;Gantry, side 2
+CreateMeshbuilder,,,
+AddVertex, -1.3 ,  5.5 , 0.3 ,
+AddVertex, -4   ,  5.5 , 0.3 ,
+AddVertex, -4   ,  4.5 , 0.3 ,
+AddVertex, -1.3 ,  4.5 , 0.3 ,
+AddFace2, 0, 1, 2, 3,
+
+LoadTexture,gantry_4_1.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshbuilder,,,
+AddVertex, 9.3     ,  5.5 , 0.3 ,
+AddVertex, -1.3   ,  5.5 ,  0.3 ,
+AddVertex, -1.3   ,  4.5 ,  0.3 ,
+AddVertex, 9.3     ,  4.5 , 0.3 ,
+AddFace2, 0,1,2,3,
+
+LoadTexture,gantry_4_2.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,255
+
+;Leg 1
+CreateMeshbuilder,,,
+AddVertex, -1.95 ,  4.6 , 0.05 ,
+AddVertex, -2.55 ,  4.6 , 0.05 ,
+AddVertex, -2.55 ,  0.0 , 0.05 ,
+AddVertex, -1.95 ,  0.0 , 0.05 ,
+AddFace2, 3, 2, 1, 0,
+
+LoadTexture,gantry_2_2.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshbuilder,,,
+AddVertex, -2.25 ,  4.6 , -0.54 ,
+AddVertex, -2.25 ,  4.6 , 0.8 ,
+AddVertex, -2.25 ,  0.0 , 0.8 ,
+AddVertex, -2.25 ,  0.0 , -0.54 ,
+AddFace2, 3, 2, 1, 0,
+
+LoadTexture,gantry_2_2.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,255
+
+;Leg 2
+CreateMeshbuilder,,,
+AddVertex, 10.5 ,  4.6 , 0.05 ,
+AddVertex, 09.9 ,  4.6 , 0.05 ,
+AddVertex, 09.9 ,  0.0 , 0.05 ,
+AddVertex, 10.5 ,  0.0 , 0.05 ,
+AddFace2, 3, 2, 1, 0,
+
+LoadTexture,gantry_2_2.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshbuilder,,,
+AddVertex, 10.2 ,  4.6 , -0.54 ,
+AddVertex, 10.2 ,  4.6 , 0.8 ,
+AddVertex, 10.2 ,  0.0 , 0.8 ,
+AddVertex, 10.2 ,  0.0 , -0.54 ,
+AddFace2, 3, 2, 1, 0,
+
+LoadTexture,gantry_2_2.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,255
+
+;Top of legs
+CreateMeshBuilder,,,
+Cube,0.13, 0.05, 0.24,
+Translate,-2.225,4.55,0.05,
+SetColor,109,111,104,
+
+CreateMeshBuilder,,,
+Cube,0.13, 0.05, 0.24,
+Translate,10.245,4.55,0.05,
+SetColor,109,111,104,
+
+;Top surface
+CreateMeshBuilder,,,
+AddVertex, 12 ,  5.5 , -0.2 ,
+AddVertex, -4 ,  5.5 , -0.2 ,
+AddVertex, -4 ,  5.5 , 0.3 ,
+AddVertex, 12 ,  5.5 , 0.3 ,
+AddFace2,0,1,2,3
+
+LoadTexture,gantry_2_3.png,
+SetTextureCoordinates,0, 30, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 6,
+SetTextureCoordinates,3, 30, 6,
+SetDecalTransparentColor,0,0,255
+
+;Bottom surface
+CreateMeshBuilder,,,
+AddVertex, 11.8 ,  4.90 , -0.2 ,
+AddVertex, -3.8 , 4.90 , -0.2 ,
+AddVertex, -3.8 , 4.90 , 0.3 ,
+AddVertex, 11.8 ,  4.90 , 0.3 ,
+AddFace2,0,1,2,3
+
+LoadTexture,gantry_2_4.png,
+SetTextureCoordinates,0, 30, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 30, 1,
+SetDecalTransparentColor,0,0,255
+
+;Front handrail
+CreateMeshbuilder,,,
+AddVertex, 11.8 ,  5.9 , -0.2 ,
+AddVertex, -3.8 ,  5.9 , -0.2 ,
+AddVertex, -3.8 ,  5.5 , -0.2 ,
+AddVertex, 11.8 ,  5.5 , -0.2 ,
+AddFace2, 3, 2, 1, 0,
+
+LoadTexture,..\Relay_Plat1.png,
+SetTextureCoordinates,0, 18, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 18, 1,
+SetDecalTransparentColor,156,156,156
+
+;Signal post 1
+CreateMeshbuilder,,,
+AddVertex, 3.8 ,  6.8 , 0 ,
+AddVertex, 4.5 ,  6.8 , 0 ,
+AddVertex, 4.5 ,  5.5 , 0 ,
+AddVertex, 3.8 ,  5.5 , 0 ,
+AddFace2, 0,1,2,3
+
+LoadTexture,gantry_2_5.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,255
+
+;Signal post 1
+CreateMeshbuilder,,,
+AddVertex, 7.8 ,  6.4 , 0 ,
+AddVertex, 8.5 ,  6.4 , 0 ,
+AddVertex, 8.5 ,  5.5 , 0 ,
+AddVertex, 7.8 ,  5.5 , 0 ,
+AddFace2, 0,1,2,3
+
+LoadTexture,gantry_2_5.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,255
+
+
+;Ladder
+CreateMeshBuilder,
+AddVertex,-3.62 ,  5.45 ,  0.1 ,
+AddVertex,-3.34 ,  5.45 ,  0.1 ,
+AddVertex,-3.34 , -0.45 ,  0.6 ,
+AddVertex,-3.62 , -0.45 ,  0.6 ,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\ladder.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 15,
+SetTextureCoordinates,3, 0, 15,
+SetDecalTransparentColor,150,150,150,
+
+
+
+

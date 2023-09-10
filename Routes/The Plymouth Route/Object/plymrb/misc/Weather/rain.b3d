@@ -1,0 +1,67 @@
+;author=Chris Lees
+;description=Rain
+;copyright=From the BVE Cornwall Plymouth route. © Chris Lees 2010
+
+[Meshbuilder]
+Vertex  80,  0, 0
+Vertex -80,  0, 0
+Vertex -80, 30, 0
+Vertex  80, 30, 0
+Face 0,1,2,3
+Color 255,255,255,120,
+
+[Texture]
+Load Rain1.png
+Coordinates 0, 0, 0
+Coordinates 1, 150, 0
+Coordinates 2, 150, 8
+Coordinates 3, 0, 8
+Transparent 0,0,0
+
+[Meshbuilder]
+Vertex  80,  0, 6.25
+Vertex -80,  0, 6.25
+Vertex -80, 30, 6.25
+Vertex  80, 30, 6.25
+Face 0,1,2,3
+Color 255,255,255,120,
+
+[Texture]
+Load Rain2.png
+Coordinates 0, 0, 0
+Coordinates 1, 150, 0
+Coordinates 2, 150, 8
+Coordinates 3, 0, 8
+Transparent 0,0,0
+
+[Meshbuilder]
+Vertex  80,  0, 12.5
+Vertex -80,  0, 12.5
+Vertex -80, 30, 12.5
+Vertex  80, 30, 12.5
+Face 0,1,2,3
+Color 255,255,255,120,
+
+[Texture]
+Load Rain2.png
+Coordinates 0, 0, 0
+Coordinates 1, 150, 0
+Coordinates 2, 150, 8
+Coordinates 3, 0, 8
+Transparent 0,0,0
+
+[Meshbuilder]
+Vertex  80,  0, 18.75
+Vertex -80,  0, 18.75
+Vertex -80, 30, 18.75
+Vertex  80, 30, 18.75
+Face 0,1,2,3
+Color 255,255,255,120,
+
+[Texture]
+Load Rain1.png
+Coordinates 0, 0, 0
+Coordinates 1, 150, 0
+Coordinates 2, 150, 8
+Coordinates 3, 0, 8
+Transparent 0,0,0

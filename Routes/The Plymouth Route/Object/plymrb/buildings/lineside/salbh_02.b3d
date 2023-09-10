@@ -1,0 +1,577 @@
+;Description=Large House [Saltash Station] #2
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route © 2014
+
+;Front & Rear Face
+[MeshBuilder]
+Vertex 0,0,0
+Vertex 0,0,10
+Vertex 0,9,10
+Vertex 0,9,0
+
+Vertex 10,0,0
+Vertex 10,0,10
+Vertex 10,9,10
+Vertex 10,9,0
+Face 0,1,2,3
+Face 7,6,5,4
+
+[Texture]
+Load wingbh_02.png
+Coordinates 3,0.25,-1
+Coordinates 0,0.25,0
+Coordinates 1,1,0
+Coordinates 2,1,-1
+Coordinates 7,0.25,-1
+Coordinates 4,0.25,0
+Coordinates 5,1,0
+Coordinates 6,1,-1
+
+;Side 1
+[MeshBuilder]
+Vertex 0,0,10
+Vertex 0,9,10
+Vertex 5,9,10
+Vertex 5,0,10
+Vertex 10,0,10
+Vertex 10,9,10
+Vertex 5,12,10
+Face 3,2,1,0
+Face 2,3,4,5
+Face 1,2,6
+Face 1,5,6
+
+[Texture]
+Load salbh_01.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,0.5,0
+Coordinates 3,0.5,1
+Coordinates 4,1,1
+Coordinates 5,1,0
+Coordinates 6,0.5,-0.2
+
+;Side 2
+[MeshBuilder]
+Vertex 0,0,0
+Vertex 0,9,0
+Vertex 5,9,0
+Vertex 5,0,0
+Vertex 10,0,0
+Vertex 10,9,0
+Vertex 5,12,0
+Face 0,1,2,3
+Face 5,4,3,2
+Face 6,2,1
+Face 6,5,1
+
+[Texture]
+Load salbh_01.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,0.5,0
+Coordinates 3,0.5,1
+Coordinates 4,1,1
+Coordinates 5,1,0
+Coordinates 6,0.5,-0.2
+
+;Roof
+[MeshBuilder]
+Vertex 0,9,0
+Vertex 0,9,10
+Vertex 5,12,10
+Vertex 5,12,0
+Vertex 10,9,0
+Vertex 10,9,10
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates 0,0,0
+Coordinates 1,3,0
+Coordinates 2,3,2
+Coordinates 3,0,2
+Coordinates 4,0,0
+Coordinates 5,3,0
+
+;Roof Ridge
+[MeshBuilder]
+Cylinder 8,0.2,0.2,9.95
+Rotate 1,0,0,90
+Translate 5,11.9,5
+
+[Texture]
+Load ..\..\common\rooftiles1.png,,,
+Coordinates 0,0,0
+Coordinates 1,0,12
+Coordinates 2,0.1,0
+Coordinates 3,0.1,12
+Coordinates 4,0.2,0
+Coordinates 5,0.2,12
+Coordinates 6,0.3,0
+Coordinates 7,0.3,12
+Coordinates 8,0.4,0
+Coordinates 9,0.4,12
+Coordinates 10,0.5,0
+Coordinates 11,0.5,12
+Coordinates 12,0.5,0
+Coordinates 13,0.5,12
+Coordinates 14,0.6,0
+Coordinates 15,0.6,12
+
+;Balcony 1.1
+[MeshBuilder]
+Vertex 0,3.8,1
+Vertex 0,4.3,1
+Vertex -0.6,4.3,1
+Vertex -0.6,3.8,1
+Vertex -0.6,3.8,2.5
+Vertex -0.6,4.3,2.5
+Vertex 0,4.3,2.5
+Vertex 0,3.8,2.5
+Face2 3,2,1,0
+Face2 2,3,4,5
+Face2 7,6,5,4
+Face2 7,4,3,0
+Color 150,150,150
+
+[Texture]
+Load ..\..\common\whitepaint.png
+Coordinates 0,0.9,1
+Coordinates 1,0.9,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,0.1,0
+Coordinates 7,0.1,1
+
+;Balcony 1.2
+[MeshBuilder]
+Vertex 0,4.3,1
+Vertex 0,4.9,1
+Vertex -0.6,4.9,1
+Vertex -0.6,4.3,1
+Vertex -0.6,4.3,2.5
+Vertex -0.6,4.9,2.5
+Vertex 0,4.9,2.5
+Vertex 0,4.3,2.5
+Face2 3,2,1,0
+Face2 2,3,4,5
+Face2 7,6,5,4
+
+Color 150,150,150
+
+[Texture]
+Load ..\..\common\fence_10.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,5,1
+Coordinates 5,5,0
+Coordinates 6,6,0
+Coordinates 7,6,1
+Transparent 0,0,255
+
+;Balcony 2.1
+[MeshBuilder]
+Vertex 0,3.8,7.5
+Vertex 0,4.3,7.5
+Vertex -0.6,4.3,7.5
+Vertex -0.6,3.8,7.5
+Vertex -0.6,3.8,9
+Vertex -0.6,4.3,9
+Vertex 0,4.3,9
+Vertex 0,3.8,9
+Face2 3,2,1,0
+Face2 2,3,4,5
+Face2 7,6,5,4
+Face2 7,4,3,0
+Color 150,150,150
+
+[Texture]
+Load ..\..\common\whitepaint.png
+Coordinates 0,0.9,1
+Coordinates 1,0.9,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,0.1,0
+Coordinates 7,0.1,1
+
+;Balcony 2.2
+[MeshBuilder]
+Vertex 10,4.3,7.5
+Vertex 10,4.9,7.5
+Vertex 10.6,4.9,7.5
+Vertex 10.6,4.3,7.5
+Vertex 10.6,4.3,9
+Vertex 10.6,4.9,9
+Vertex 10,4.9,9
+Vertex 10,4.3,9
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 4,5,6,7
+Color 150,150,150
+
+[Texture]
+Load ..\..\common\fence_10.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,5,1
+Coordinates 5,5,0
+Coordinates 6,6,0
+Coordinates 7,6,1
+Transparent 0,0,255
+
+;Balcony 1.1
+[MeshBuilder]
+Vertex 10,3.8,1
+Vertex 10,4.3,1
+Vertex 10.6,4.3,1
+Vertex 10.6,3.8,1
+Vertex 10.6,3.8,2.5
+Vertex 10.6,4.3,2.5
+Vertex 10,4.3,2.5
+Vertex 10,3.8,2.5
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 4,5,6,7
+Face2 0,3,4,7
+Color 150,150,150
+
+[Texture]
+Load ..\..\common\whitepaint.png
+Coordinates 0,0.9,1
+Coordinates 1,0.9,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,0.1,0
+Coordinates 7,0.1,1
+
+;Balcony 1.2
+[MeshBuilder]
+Vertex 10,4.3,1
+Vertex 10,4.9,1
+Vertex 10.6,4.9,1
+Vertex 10.6,4.3,1
+Vertex 10.6,4.3,2.5
+Vertex 10.6,4.9,2.5
+Vertex 10,4.9,2.5
+Vertex 10,4.3,2.5
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 4,5,6,7
+
+Color 150,150,150
+
+[Texture]
+Load ..\..\common\fence_10.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,5,1
+Coordinates 5,5,0
+Coordinates 6,6,0
+Coordinates 7,6,1
+Transparent 0,0,255
+
+;Balcony 2.1
+[MeshBuilder]
+Vertex 10,3.8,7.5
+Vertex 10,4.3,7.5
+Vertex 10.6,4.3,7.5
+Vertex 10.6,3.8,7.5
+Vertex 10.6,3.8,9
+Vertex 10.6,4.3,9
+Vertex 10,4.3,9
+Vertex 10,3.8,9
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 4,5,6,7
+Face2 0,3,4,7
+Color 150,150,150
+
+[Texture]
+Load ..\..\common\whitepaint.png
+Coordinates 0,0.9,1
+Coordinates 1,0.9,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,0.1,0
+Coordinates 7,0.1,1
+
+;Balcony 2.2
+[MeshBuilder]
+Vertex 0,4.3,7.5
+Vertex 0,4.9,7.5
+Vertex -0.6,4.9,7.5
+Vertex -0.6,4.3,7.5
+Vertex -0.6,4.3,9
+Vertex -0.6,4.9,9
+Vertex 0,4.9,9
+Vertex 0,4.3,9
+Face2 3,2,1,0
+Face2 2,3,4,5
+Face2 7,6,5,4
+Color 150,150,150
+
+[Texture]
+Load ..\..\common\fence_10.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,5,1
+Coordinates 5,5,0
+Coordinates 6,6,0
+Coordinates 7,6,1
+Transparent 0,0,255
+
+;Roof Dormer 1
+[MeshBuilder]
+Vertex 2.7,9.6,1
+Vertex 2.7,10.6,1
+Vertex 1,10.5,1
+Vertex 1,9.6,1
+Vertex 1,9.6,2.5
+Vertex 1,10.5,2.5
+Vertex 2.7,10.6,2.5
+Vertex 2.7,9.6,2.5
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+[Texture]
+Load salbh_02.png
+Coordinates 0,0.9,1
+Coordinates 1,0.9,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,0.1,0
+Coordinates 7,0.1,1
+
+;Dormer Roof 1
+[MeshBuilder]
+Vertex 2.7,10.6,1
+Vertex 1,10.5,1
+Vertex 1,10.5,2.5
+Vertex 2.7,10.6,2.5
+Face 0,1,2,3
+
+[Texture]
+Load ..\..\common\tarmac.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;Roof Dormer 2
+[MeshBuilder]
+Vertex 2.7,9.6,4.2
+Vertex 2.7,10.6,4.2
+Vertex 1,10.5,4.2
+Vertex 1,9.6,4.2
+Vertex 1,9.6,5.7
+Vertex 1,10.5,5.7
+Vertex 2.7,10.6,5.7
+Vertex 2.7,9.6,5.7
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[Texture]
+Load salbh_02.png
+Coordinates 0,0.9,1
+Coordinates 1,0.9,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,0.1,0
+Coordinates 7,0.1,1
+
+;Dormer Roof 2
+[MeshBuilder]
+Vertex 2.7,10.6,4.2
+Vertex 1,10.5,4.2
+Vertex 1,10.5,5.7
+Vertex 2.7,10.6,5.7
+Face 0,1,2,3
+
+[Texture]
+Load ..\..\common\tarmac.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;Roof Dormer 3
+[MeshBuilder]
+Vertex 2.7,9.6,7.2
+Vertex 2.7,10.6,7.2
+Vertex 1,10.5,7.2
+Vertex 1,9.6,7.2
+Vertex 1,9.6,8.7
+Vertex 1,10.5,8.7
+Vertex 2.7,10.6,8.7
+Vertex 2.7,9.6,8.7
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+
+[Texture]
+Load salbh_02.png
+Coordinates 0,0.9,1
+Coordinates 1,0.9,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,0.1,0
+Coordinates 7,0.1,1
+
+;Dormer Roof 3
+[MeshBuilder]
+Vertex 2.7,10.6,7.2
+Vertex 1,10.5,7.2
+Vertex 1,10.5,8.7
+Vertex 2.7,10.6,8.7
+Face 0,1,2,3
+
+[Texture]
+Load ..\..\common\tarmac.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;Roof Dormer 1
+[MeshBuilder]
+Vertex 7.3,9.6,1
+Vertex 7.3,10.6,1
+Vertex 9,10.5,1
+Vertex 9,9.6,1
+Vertex 9,9.6,2.5
+Vertex 9,10.5,2.5
+Vertex 7.3,10.6,2.5
+Vertex 7.3,9.6,2.5
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+[Texture]
+Load salbh_02.png
+Coordinates 0,0.9,1
+Coordinates 1,0.9,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,0.1,0
+Coordinates 7,0.1,1
+
+;Dormer Roof 1
+[MeshBuilder]
+Vertex 7.3,10.6,1
+Vertex 9,10.5,1
+Vertex 9,10.5,2.5
+Vertex 7.3,10.6,2.5
+Face 3,2,1,0
+
+[Texture]
+Load ..\..\common\tarmac.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;Roof Dormer 2
+[MeshBuilder]
+Vertex 7.3,9.6,4.2
+Vertex 7.3,10.6,4.2
+Vertex 9,10.5,4.2
+Vertex 9,9.6,4.2
+Vertex 9,9.6,5.7
+Vertex 9,10.5,5.7
+Vertex 7.3,10.6,5.7
+Vertex 7.3,9.6,5.7
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+
+[Texture]
+Load salbh_02.png
+Coordinates 0,0.9,1
+Coordinates 1,0.9,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,0.1,0
+Coordinates 7,0.1,1
+
+;Dormer Roof 2
+[MeshBuilder]
+Vertex 7.3,10.6,4.2
+Vertex 9,10.5,4.2
+Vertex 9,10.5,5.7
+Vertex 7.3,10.6,5.7
+Face 3,2,1,0
+
+[Texture]
+Load ..\..\common\tarmac.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;Roof Dormer 3
+[MeshBuilder]
+Vertex 7.3,9.6,7.2
+Vertex 7.3,10.6,7.2
+Vertex 9,10.5,7.2
+Vertex 9,9.6,7.2
+Vertex 9,9.6,8.7
+Vertex 9,10.5,8.7
+Vertex 7.3,10.6,8.7
+Vertex 7.3,9.6,8.7
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+
+[Texture]
+Load salbh_02.png
+Coordinates 0,0.9,1
+Coordinates 1,0.9,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,0.1,0
+Coordinates 7,0.1,1
+
+;Dormer Roof 3
+[MeshBuilder]
+Vertex 7.3,10.6,7.2
+Vertex 9,10.5,7.2
+Vertex 9,10.5,8.7
+Vertex 7.3,10.6,8.7
+Face 3,2,1,0
+
+[Texture]
+Load ..\..\common\tarmac.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1

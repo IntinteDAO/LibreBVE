@@ -1,0 +1,8 @@
+
+[Object]
+Position = 0, 0, 0
+States = ..\..\BRSigs_Open\signal3_R.csv
+
+[Object]
+Position = 0, -0.1, 0
+States = ..\..\BRSigs_Open\ind0.csv

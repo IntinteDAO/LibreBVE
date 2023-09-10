@@ -1,0 +1,73 @@
+;Description=Portakabin
+;Author=Chris Lees
+;Copyright=From the Plymouth- St Austell route demo.
+
+[Meshbuilder]
+Vertex 0,0,0
+Vertex 0,3,0
+Vertex  4,3,0
+Vertex  4,0,0
+Face 0,1,2,3
+
+[Texture]
+Load cabin2.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder]
+Vertex 4,0,10
+Vertex 4,3,10
+Vertex 4,3,0
+Vertex 4,0,0
+Face 3,2,1,0
+
+[Texture]
+Load cabin1.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[Meshbuilder]
+Vertex 0,0,10
+Vertex 0,3,10
+Vertex 4,3,10
+Vertex 4,0,10
+Face 3,2,1,0
+
+[Texture]
+Load cabin2.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder]
+Vertex 0,0,10
+Vertex 0,3,10
+Vertex 0,3,0
+Vertex 0,0,0
+Face 0,1,2,3
+
+[Texture]
+Load cabin1.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[Meshbuilder]
+Vertex 0,3,0
+Vertex 4,3,0
+Vertex 4,3,10
+Vertex 0,3,10
+Face2 3,2,1,0
+
+[Texture]
+Load cabin3.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1

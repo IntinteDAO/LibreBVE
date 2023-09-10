@@ -1,0 +1,337 @@
+;Description=Clennick Overbridge #2
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route. © 2015
+
+;Road Surface
+[MeshBuilder]
+Vertex 12.5,5.5,-6.1
+Vertex 12.5,5.5,-1.1
+Vertex -60,5.5,-1.1
+Vertex -55,5.5,-6.1
+Vertex -62,5.5,-8.1
+Vertex -64,5.5,-3.1
+Vertex -74,5.5,-9.1
+Vertex -69,5.5,-12.1
+Vertex -69,4.59,-151
+Vertex -74,4.59,-151
+
+Vertex 120,5.5,-1.1
+Vertex 120,5.5,-6.1
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,8,9
+Face2 0,1,10,11
+
+[Texture]
+Load ..\common\road13.png
+Coordinates   0,0,6
+Coordinates   1,1,6
+Coordinates   2,1,0
+Coordinates   3,0,0
+Coordinates   4,0,1
+Coordinates   5,1,1
+Coordinates   6,1,0
+Coordinates   7,0,0
+Coordinates   8,0,20
+Coordinates   9,1,20
+Coordinates   10,1,-6
+Coordinates   11,0,-6
+
+;Hedge
+[MeshBuilder]
+Vertex 17.5,5.5,-6.1
+Vertex 120,5.5,-6.1
+Vertex 120,6.5,-6.4
+Vertex 17.5,6.5,-6.4
+Vertex 17.5,6.5,-6.6
+Vertex 120,6.5,-6.6
+Vertex 120,5.2,-6.9
+Vertex 17.5,5.2,-6.9
+
+
+Vertex 17.5,5.5,-1.1
+Vertex 31.8,5.5,-1.1
+Vertex 31.8,6.5,-0.8
+Vertex 17.5,6.5,-0.8
+Vertex 17.5,6.5,-0.6
+Vertex 31.8,6.5,-0.6
+Vertex 31.8,5.2,-0.3
+Vertex 17.5,5.2,-0.3
+
+Vertex 36.5,5.5,-1.1
+Vertex 120,5.5,-1.1
+Vertex 120,6.5,-0.8
+Vertex 36.5,6.5,-0.8
+Vertex 36.5,6.5,-0.6
+Vertex 120,6.5,-0.6
+Vertex 120,5.2,-0.3
+Vertex 36.5,5.2,-0.3
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 0,3,4,7
+
+Face 11,10,9,8
+Face 10,11,12,13
+Face 15,14,13,12
+Face 15,12,11,8
+Face 9,10,13,14
+
+Face 19,18,17,16
+Face 18,19,20,21
+Face 23,22,21,20
+Face 23,20,19,16
+
+
+[Texture]
+Load ..\plants\hedge.png
+Coordinates 0, 0, 1
+Coordinates 1, 14, 1
+Coordinates 2, 14, 0
+Coordinates 3, 0, 0
+Coordinates 4, 0, 0.05
+Coordinates 5, 14, 0.05
+Coordinates 6, 14, 1
+Coordinates 7, 0, 1
+
+Coordinates 8, 0, 1
+Coordinates 9, 4, 1
+Coordinates 10, 4, 0
+Coordinates 11, 0, 0
+Coordinates 12, 0, 0.05
+Coordinates 13, 4, 0.05
+Coordinates 14, 4, 1
+Coordinates 15, 0, 1
+
+Coordinates 16, 0, 1
+Coordinates 17, 8, 1
+Coordinates 18, 8, 0
+Coordinates 19, 0, 0
+Coordinates 20, 0, 0.05
+Coordinates 21, 8, 0.05
+Coordinates 22, 8, 1
+Coordinates 23, 0, 1
+
+;Hedge
+[MeshBuilder]
+Vertex -13.5,5.5,-6.1
+Vertex -55,5.5,-6.1
+Vertex -55,6.5,-6.4
+Vertex -13.5,6.5,-6.4
+Vertex -13.5,6.5,-6.6
+Vertex -55,6.5,-6.6
+Vertex -55,5.5,-6.9
+Vertex -13.5,5.5,-6.9
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 7,4,3,0
+Face 1,2,5,6
+
+[Texture]
+Load ..\plants\hedge.png
+Coordinates 0, 0, 1
+Coordinates 1, 7, 1
+Coordinates 2, 7, 0
+Coordinates 3, 0, 0
+Coordinates 4, 0, 0.05
+Coordinates 5, 7, 0.05
+Coordinates 6, 7, 1
+Coordinates 7, 0, 1
+
+;Field Gate
+[MeshBuilder]
+Vertex -55,5.5,-6.4
+Vertex -62,5.5,-8.4
+Vertex -62,6.5,-8.4
+Vertex -55,6.5,-6.4
+Face2 0,1,2,3
+
+[Texture]
+Load ..\common\gate3.png
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+Transparent 0,0,255
+
+;Hedge 2
+[MeshBuilder]
+Vertex -62,5.5,-8.1
+Vertex -69,5.5,-12.1
+Vertex -68.7,6.5,-12.1
+Vertex -62,6.5,-8.5
+Vertex -62,6.5,-8.7
+Vertex -68.5,6.5,-12.1
+Vertex -68.2,5.5,-12.1
+Vertex -62,5.5,-9
+
+Vertex -69,4.5,-151
+Vertex -68.7,5.5,-151
+Vertex -68.5,5.5,-151
+Vertex -68.2,4.5,-151
+Face 1,2,9,8
+Face 2,5,10,9
+Face 5,6,11,10
+Face 7,4,3,0
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 8,9,10,11
+
+[Texture]
+Load ..\plants\hedge.png
+Coordinates 0, 0, 1
+Coordinates 1, 7, 1
+Coordinates 2, 7, 0
+Coordinates 3, 0, 0
+Coordinates 4, 0, 0.05
+Coordinates 5, 7, 0.05
+Coordinates 6, 7, 1
+Coordinates 7, 0, 1
+
+Coordinates 8, -15, 1
+Coordinates 9, -15, 0
+Coordinates 10, -15, 0.05
+Coordinates 11, -15, 1
+
+;Hedge 3
+[MeshBuilder]
+Vertex -13.5,5.5,-1.1
+Vertex -60,5.5,-1.1
+Vertex -60,6.5,-0.8
+Vertex -13.5,6.5,-0.8
+Vertex -13.5,6.5,-0.6
+Vertex -60,6.5,-0.6
+Vertex -60,5.5,-0.3
+Vertex -13.5,5.5,-0.3
+;P2
+Vertex -74,4.5,-9.1
+Vertex -74.3,5.5,-9.1
+Vertex -74.5,5.5,-9.1
+Vertex -74.8,4.5,-9.1
+
+Vertex -74,4.5,-151
+Vertex -74.3,5.5,-151
+Vertex -74.5,5.5,-151
+Vertex -74.8,4.5,-151
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 0,3,4,7
+Face 8,9,2,1
+Face 9,10,5,2
+Face 10,11,6,5
+Face 12,13,9,8
+Face 13,14,10,9
+Face 14,15,11,10
+
+
+[Texture]
+Load ..\plants\hedge.png
+Coordinates 0, 0, 1
+Coordinates 1, 7, 1
+Coordinates 2, 7, 0
+Coordinates 3, 0, 0
+Coordinates 4, 0, 0.05
+Coordinates 5, 7, 0.05
+Coordinates 6, 7, 1
+Coordinates 7, 0, 1
+Coordinates 8, 5, 1
+Coordinates 9, 5, 0
+Coordinates 10, 5, 0.05
+Coordinates 11, 5, 1
+Coordinates 12, 25, 1
+Coordinates 13, 25, 0
+Coordinates 14, 25, 0.05
+Coordinates 15, 25, 1
+
+;Front
+[MeshBuilder]
+Vertex  17.5 ,  6.05 , -6.1,
+Vertex  17.5 ,  -0.5 , -6.1,
+Vertex  12.5 ,  -0.5 , -6.1,
+Vertex  12.5 ,  6.05 , -6.1,
+Vertex -8.5 ,  6.05 ,  -6.1,
+Vertex -8.5,   -0.5 ,  -6.1,
+Vertex -13.5,   -0.5 ,  -6.1,
+Vertex -13.5 ,  6.05 ,  -6.1,
+
+Vertex  17.5 ,  6.05 , -1.1,
+Vertex  17.5 ,  -0.5 , -1.1,
+Vertex  12.5 ,  -0.5 , -1.1,
+Vertex  12.5 ,  6.05 , -1.1,
+Vertex -8.5 ,  6.05 ,  -1.1,
+Vertex -8.5,   -0.5 ,  -1.1,
+Vertex -13.5,   -0.5 ,  -1.1,
+Vertex -13.5 ,  6.05 ,  -1.1,
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 4,5,6,7
+Face2 8,9,10,11
+Face2 13,12,11,10
+Face2 12,13,14,15
+
+[Texture]
+Load molesworthrd1.png,
+Coordinates 0, 0.19, 0,
+Coordinates 1, 0.19, 1,
+Coordinates 2, 0, 1,
+Coordinates 3, 0, 0,
+Coordinates 4, 1, 0,
+Coordinates 5, 1, 1,
+Coordinates 6, 0.77, 1,
+Coordinates 7, 0.77, 0,
+Coordinates 8, 0.19, 0,
+Coordinates 9, 0.19, 1,
+Coordinates 10, 0, 1,
+Coordinates 11, 0, 0,
+Coordinates 12, 1, 0,
+Coordinates 13, 1, 1,
+Coordinates 14, 0.77, 1,
+Coordinates 15, 0.77, 0,
+Transparent 0,0,255
+
+;Underwalls
+[MeshBuilder]
+Vertex -2.6,-0.5,-6.1
+Vertex -2.6,-0.5,-1.1
+Vertex -2.85,3,-1.1
+Vertex -2.85,3,-6.1
+Vertex -2.35,3.7,-6.1
+Vertex -2.35,3.7,-1.1
+Vertex -1.11,4,-1.1
+Vertex -1.11,4,-6.1
+Vertex 1.10,4.27,-6.1
+Vertex 1.10,4.27,-1.1
+Vertex 3.70,4.27,-1.1
+Vertex 3.70,4.27,-6.1
+Vertex 5.71,4.03,-6.1
+Vertex 5.71,4.03,-1.1
+Vertex 7.15,3.67,-1.1
+Vertex 7.15,3.67,-6.1
+Vertex 7.7,2.97,-6.1
+Vertex 7.7,2.97,-1.1
+Vertex 7.3,-0.5,-1.1
+Vertex 7.3,-0.5,-6.1
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Face 6,7,8,9
+Face 11,10,9,8
+Face 10,11,12,13
+Face 15,14,13,12
+Face 14,15,16,17
+Face 19,18,17,16
+Color 40,40,40
+
+;Shadow
+[MeshBuilder]
+Vertex -2.6,-0.05,-6.1
+Vertex -2.6,-0.05,-1.1
+Vertex 7.3,-0.05,-1.1
+Vertex 7.3,-0.05,-6.1
+Face 0,1,2,3
+Color 0,0,0,170
+

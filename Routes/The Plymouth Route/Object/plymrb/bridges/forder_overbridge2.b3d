@@ -1,0 +1,398 @@
+;Description=Forder Farm Overbridge
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route. © 2104
+
+;Roadway
+[MeshBuilder]
+Vertex -41.5 ,  6.6 ,  2
+Vertex -41.5 ,  6.6 ,  7
+Vertex -24.3 ,  8.95 ,  7
+Vertex -24.3 ,  8.95 ,  2
+Vertex  22.6 ,  8.95 ,  2
+Vertex  22.6 ,  8.95 ,  7
+Vertex -74.5 ,  6.6 ,  2
+Vertex -74.5 ,  6.6 ,  7
+Face 6,7,1,0
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\common\road13.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+Coordinates 4, 0, 7
+Coordinates 5, 1, 7
+
+Coordinates 7, 1, 2
+Coordinates 6, 0, 2
+
+[MeshBuilder]
+Vertex  22.6 ,  8.95 ,  2
+Vertex  22.6 ,  8.95 ,  7
+Vertex  122.6 ,  8.95 ,  7
+Vertex  122.6 ,  8.95 ,  2
+Face 0,1,2,3
+
+
+[Texture]
+Load ..\common\road13.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 20
+Coordinates 3, 0, 20
+;Gate
+[MeshBuilder]
+Vertex -41.5 ,  6.6 ,  7.35
+Vertex -36.3 ,  7.3 ,  7.35
+Vertex -36.3 ,  8.3 ,  7.35
+Vertex -41.5 ,  7.6 ,  7.35
+Face2 0,1,2,3
+
+[Texture]
+Load ..\common\gate3.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, -1
+Coordinates 3, 0, -1
+Transparent 0,0,255
+
+;Hedgerow 1
+[MeshBuilder]
+Vertex -15.8 ,  8.95 ,  7
+Vertex -24.3 ,  8.95 ,  7
+Vertex -24.3 ,  9.95 ,  7.3
+Vertex -15.8 ,  9.95 ,  7.3
+Vertex -15.8 ,  9.95 ,  7.4
+Vertex -24.3 ,  9.95 ,  7.4
+Vertex -24.3 ,  8.65 ,  7.7
+Vertex -15.8 ,  8.65 ,  7.7
+Vertex -36.3 ,  7.3 ,  7
+Vertex -36.3 ,  8.3 ,  7.3
+Vertex -36.3 ,  8.3 ,  7.4
+Vertex -36.3 ,  7.3 ,  7.7
+Face 10,11,6,5
+Face 9,10,5,2
+Face 8,9,2,1
+Face 0,3,4,7
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 11,10,9,8
+
+[Texture]
+Load ..\plants\hedge.png
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, -1
+Coordinates 3, 0, -1
+Coordinates 4, 0, -1.05
+Coordinates 5, 2, -1.05
+Coordinates 6, 2, 0
+Coordinates 7, 0, 0
+Coordinates 8, 0, 0
+Coordinates 9, 0, -1
+Coordinates 10, 0, -1.05
+
+;Hedgerow 1
+[MeshBuilder]
+Vertex -15.8 ,  8.95 ,  7
+Vertex -50.3 ,  8.95 ,  7
+Vertex -50.3 ,  9.95 ,  7.3
+Vertex -15.8 ,  9.95 ,  7.3
+Vertex -15.8 ,  9.95 ,  7.4
+Vertex -50.3 ,  9.95 ,  7.4
+Vertex -50.3 ,  8.65 ,  7.7
+Vertex -15.8 ,  8.65 ,  7.7
+Face 0,3,4,7
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Translate -25.7,-2.4,-0.1
+
+[Texture]
+Load ..\plants\hedge.png
+Coordinates 0, 0, 0
+Coordinates 1, 5, 0
+Coordinates 2, 5, -1
+Coordinates 3, 0, -1
+Coordinates 4, 0, -1.05
+Coordinates 5, 5, -1.05
+Coordinates 6, 5, 0
+Coordinates 7, 0, 0
+
+;Hedgerow 1
+[MeshBuilder]
+Vertex -15.8 ,  8.95 ,  7
+Vertex -50.3 ,  8.95 ,  7
+Vertex -50.3 ,  9.95 ,  7.3
+Vertex -15.8 ,  9.95 ,  7.3
+Vertex -15.8 ,  9.95 ,  7.4
+Vertex -50.3 ,  9.95 ,  7.4
+Vertex -50.3 ,  8.65 ,  7.7
+Vertex -15.8 ,  8.65 ,  7.7
+Face 0,3,4,7
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Translate -25.7,-2.4,-5.5
+
+[Texture]
+Load ..\plants\hedge.png
+Coordinates 0, 0, 0
+Coordinates 1, 5, 0
+Coordinates 2, 5, -1
+Coordinates 3, 0, -1
+Coordinates 4, 0, -1.05
+Coordinates 5, 5, -1.05
+Coordinates 6, 5, 0
+Coordinates 7, 0, 0
+
+;Hedgerow 2
+[MeshBuilder]
+Vertex -15.8 ,  8.65 ,  1
+Vertex -24.3 ,  8.65 ,  1
+Vertex -24.3 ,  9.95 ,  1.6
+Vertex -15.8 ,  9.95 ,  1.6
+Vertex -15.8 ,  9.95 ,  1.7
+Vertex -24.3 ,  9.95 ,  1.7
+Vertex -24.3 ,  8.95 ,  2
+Vertex -15.8 ,  8.95 ,  2
+Vertex -41.5 ,  6.6 ,  1
+Vertex -41.5 ,  7.6 ,  1.6
+Vertex -41.5 ,  7.6 ,  1.7
+Vertex -41.5 ,  6.6 ,  2
+Face 10,11,6,5
+Face 9,10,5,2
+Face 8,9,2,1
+Face 0,3,4,7
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 11,10,9,8
+
+[Texture]
+Load ..\plants\hedge.png
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, -1
+Coordinates 3, 0, -1
+Coordinates 4, 0, -1.05
+Coordinates 5, 2, -1.05
+Coordinates 6, 2, 0
+Coordinates 7, 0, 0
+Coordinates 8, 0, 0
+Coordinates 9, 0, -1
+Coordinates 10, 0, -1.05
+
+;Front Face
+[MeshBuilder]
+Vertex -15.8 ,  9.95 ,  2 
+Vertex -15.8 ,  3.15 ,  2 
+Vertex -10.8 ,  3.15 ,  2 
+Vertex -10.8 ,  9.95 ,  2 
+Vertex  17.6 ,  9.95 ,  2 
+Vertex  17.6 ,  3.15 ,  2 
+Vertex  22.6 ,  3.15 ,  2 
+Vertex  22.6 ,  9.95 ,  2 
+Face2 3,2,1,0
+Face2 2,3,4,5
+Face2 7,6,5,4
+
+[Texture]
+Load dvpt_01.png
+Coordinates 0, -0.15, 0
+Coordinates 1, -0.15, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Coordinates 4, 1, 0
+Coordinates 5, 1, 1
+Coordinates 6, 1.15, 1
+Coordinates 7, 1.15, 0
+Transparent 0, 0, 255
+
+;Front Face
+[MeshBuilder]
+Vertex -15.8 ,  9.95 ,  7 
+Vertex -15.8 ,  3.15 ,  7 
+Vertex -10.8 ,  3.15 ,  7 
+Vertex -10.8 ,  9.95 ,  7 
+Vertex  17.6 ,  9.95 ,  7 
+Vertex  17.6 ,  3.15 ,  7 
+Vertex  22.6 ,  3.15 ,  7 
+Vertex  22.6 ,  9.95 ,  7 
+Face2 3,2,1,0
+Face2 2,3,4,5
+Face2 7,6,5,4
+
+[Texture]
+Load dvpt_01.png
+Coordinates 0, -0.15, 0
+Coordinates 1, -0.15, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Coordinates 4, 1, 0
+Coordinates 5, 1, 1
+Coordinates 6, 1.15, 1
+Coordinates 7, 1.15, 0
+Transparent 0, 0, 255
+
+;Inside Walls
+[MeshBuilder]
+Vertex  5.06 ,  7.6 ,  2 
+Vertex  0.119 ,  7.4 ,  2 
+Vertex -4.901 ,  6.47 ,  2 
+Vertex -8.28 ,  4.52 ,  2 
+Vertex -9.52 ,  3.27 ,  2 
+Vertex -9.52 ,  0.67 ,  2 
+Vertex  5.06 ,  7.6 ,  7
+Vertex  0.119 ,  7.4 , 7
+Vertex -4.901 ,  6.47 ,  7 
+Vertex -8.28 ,  4.52 ,  7
+Vertex -9.52 ,  3.27 , 7
+Vertex -9.52 ,  0.67 ,  7
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+Color 40,40,40
+
+;More Inside Walls
+[MeshBuilder]
+Vertex  5.06 ,  7.6 ,  2 
+Vertex  8.03 ,  7.4 ,  2 
+Vertex  12.16 ,  6.47 ,  2 
+Vertex  15.81 ,  4.52 ,  2 
+Vertex  17.05 ,  3.27 ,  2 
+Vertex  17.05 ,  0.67 ,  2 
+Vertex  5.06 ,  7.6 ,  7
+Vertex  8.03 ,  7.4 ,  7
+Vertex  12.16 ,  6.47 , 7 
+Vertex  15.81 ,  4.52 , 7 
+Vertex  17.05 ,  3.27 , 7 
+Vertex  17.05 ,  0.67 , 7 
+Face 7, 6, 0, 1
+Face 8, 7, 1, 2
+Face 9, 8, 2, 3
+Face 10, 9, 3, 4
+Face 11, 10, 4, 5
+Color 40,40,40
+
+;Shadow
+[MeshBuilder]
+Vertex -9.4 ,  3.4 ,  7
+Vertex -9.4 ,  3.4 ,  2 
+Vertex -3.6 ,  -0.145 ,  2 
+Vertex -3.6 ,  -0.145 ,  7
+Vertex  8.3 ,  -0.145 ,  7 
+Vertex  8.3 ,  -0.145 ,  2 
+Vertex  16,  4.5 ,  2 
+Vertex  16,  4.5 ,  7 
+Face 3,2,1,0
+Face 2,3,4,5
+Face 7,6,5,4
+Color  0,0,0,170
+
+;Twiddle L
+[MeshBuilder]
+Vertex -13.8 ,  6 ,  2
+Vertex -13.8 ,  8.65 ,  2
+Vertex -15.8 ,  8.65 ,  1
+Vertex -15.8 ,  6.9 ,  -2
+Vertex -21.8 ,  7.65 ,  0
+Vertex -21.8 ,  8.65 ,  1
+Vertex -15.8 ,  8.95 ,  2
+Face 3,2,1,0
+Face 2,3,4,5
+Face 1,2,6
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Coordinates 4, 1, 0
+Coordinates 5, 1, 1
+
+;Twiddle R
+[MeshBuilder]
+Vertex -13.8 ,  6 ,  7
+Vertex -13.8 ,  8.65 ,  7
+Vertex -15.8 ,  8.65 ,  7.7
+Vertex -15.8 ,  6.9 ,  11
+Vertex -21.8 ,  7.65 ,  9
+Vertex -21.8 ,  8.65 ,  7.7
+Vertex -15.8 ,  8.95 ,  7
+Face 0,1,2,3
+Face 5,4,3,2
+Face 6,2,1
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Coordinates 4, 1, 0
+Coordinates 5, 1, 1
+
+[MeshBuilder]
+Vertex  -4, 1, 105
+Vertex  -4, 1, 0
+Vertex  -3.9, -0.3, 0
+Vertex  -3.9, -0.3, 105
+Vertex  -4.1, 1, 105
+Vertex  -4.1, 1, 0
+Vertex  -4.2, -0.3, 0
+Vertex  -4.2, -0.3, 105
+Face  3,2,1,0
+Face  4,5,6,7
+Face  0,1,5,4
+Face  1,2,6,5
+Face  4,7,3,0
+Rotate 0,1,0,90
+Translate 23,9,-2
+
+
+[Texture]
+Load  ..\plants\hedge.png
+Coordinates 0, 0, 0
+Coordinates 1, 13, 0
+Coordinates 2, 13, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0
+Coordinates 5, 13, 0
+Coordinates 6, 13, 1
+Coordinates 7, 0, 1
+
+[MeshBuilder]
+Vertex  -4, 1, 105
+Vertex  -4, 1, 0
+Vertex  -3.9, -0.3, 0
+Vertex  -3.9, -0.3, 105
+Vertex  -4.1, 1, 105
+Vertex  -4.1, 1, 0
+Vertex  -4.2, -0.3, 0
+Vertex  -4.2, -0.3, 105
+Face  3,2,1,0
+Face  4,5,6,7
+Face  0,1,5,4
+Face  1,2,6,5
+Face  4,7,3,0
+Rotate 0,1,0,90
+Translate 23,9,3
+
+
+[Texture]
+Load  ..\plants\hedge.png
+Coordinates 0, 0, 0
+Coordinates 1, 13, 0
+Coordinates 2, 13, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0
+Coordinates 5, 13, 0
+Coordinates 6, 13, 1
+Coordinates 7, 0, 1

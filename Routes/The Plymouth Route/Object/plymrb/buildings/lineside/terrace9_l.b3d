@@ -1,0 +1,507 @@
+;Author=Chris Lees
+;Description=Terraced Houses
+
+;Roof Ridge
+[MeshBuilder]
+Cylinder 8,0.1,0.1,24.9
+Rotate 1,0,0,90
+Translate -7,8.15,12.5
+
+[Texture]
+Load ..\..\common\rooftiles1.png,,,
+Coordinates 0,0,0
+Coordinates 1,0,25
+Coordinates 2,0.1,0
+Coordinates 3,0.1,25
+Coordinates 4,0.2,0
+Coordinates 5,0.2,25
+Coordinates 6,0.3,0
+Coordinates 7,0.3,25
+Coordinates 8,0.4,0
+Coordinates 9,0.4,25
+Coordinates 10,0.5,0
+Coordinates 11,0.5,25
+Coordinates 12,0.5,0
+Coordinates 13,0.5,25
+Coordinates 14,0.6,0
+Coordinates 15,0.6,25
+
+[MeshBuilder]
+Vertex -10 , -0.3 ,  0 
+Vertex -10 ,  5.7 ,  0 
+Vertex -10 ,  5.7 ,  25 
+Vertex -10 , -0.3 ,  25 
+Face  3, 2, 1, 0, 
+
+[Texture]
+Load   terrace4_1.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,2,0
+Coordinates    3,2,1
+
+
+;back
+
+[MeshBuilder]
+Vertex -4 , -0.3 ,  0 
+Vertex -4 ,  5.7 ,  0 
+Vertex -4 ,  5.7 ,  25 
+Vertex -4 , -0.3 ,  25 
+Face  0, 1, 2, 3, 
+
+
+
+
+[Texture]
+Load   terrace4_1.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,2,0
+Coordinates    3,2,1
+
+;roof
+
+[MeshBuilder]
+Vertex -4 ,  5.7 ,  0 
+Vertex -7 ,  8.2 ,  0 
+Vertex -7 ,  8.7 ,  0 
+Vertex -7 ,  8.7 ,  25 
+Vertex -7 ,  8.2 ,  25 
+Vertex -4 ,  5.7 ,  25 
+Face  0, 1, 4, 5, 
+
+
+
+
+[Texture]
+Load   stoneterraceroof.png
+Coordinates   0,0,1
+Coordinates   1,0,0.3
+Coordinates   2,0,0
+Coordinates   3,1,0
+Coordinates   4,1,0.3
+Coordinates   5,1,1
+Transparent     0,0,255
+
+;roof
+[MeshBuilder]
+Vertex -10 , 5.7 ,  0 
+Vertex -7 ,  8.2 ,  0 
+Vertex -7 ,  8.7 ,  0 
+Vertex -7 ,  8.7 ,  25 
+Vertex -7 ,  8.2 ,  25 
+Vertex -10 , 5.7 ,  25 
+
+Face  5,4,1,0 
+
+
+
+[Texture]
+Load   stoneterraceroof.png
+Coordinates   0,0,1
+Coordinates   1,0,0.3
+Coordinates   2,0,0
+Coordinates   3,1,0
+Coordinates   4,1,0.3
+Coordinates   5,1,1
+Transparent     0,0,255
+
+
+;Chimney 1
+[MeshBuilder]
+Cube 0.5,1,0.2
+Translate -7.0,7.8,0.201
+Color 100,100,100
+
+[Texture]
+Load ..\..\common\whitepaint.png
+Coordinates 3,0,0
+Coordinates 2,0,2
+Coordinates 0,1,0
+Coordinates 1,1,2
+Coordinates 4,2,0
+Coordinates 5,2,2
+Coordinates 7,1,0
+Coordinates 6,1,2
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,0.3
+Translate -7.25,8.9,0.19
+
+[Texture]
+Load ..\signalboxes\Plymouth\chimneypot.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,0.3
+Translate -6.75,8.9,0.19
+
+[Texture]
+Load ..\signalboxes\Plymouth\chimneypot.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+;Chimney 1
+[MeshBuilder]
+Cube 0.5,1,0.2
+Translate -7.0,7.8,24.81
+Color 100,100,100
+[Texture]
+Load ..\..\common\whitepaint.png
+Coordinates 3,0,0
+Coordinates 2,0,2
+Coordinates 0,1,0
+Coordinates 1,1,2
+Coordinates 4,2,0
+Coordinates 5,2,2
+Coordinates 7,1,0
+Coordinates 6,1,2
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,0.3
+Translate -7.25,8.9,24.81
+
+[Texture]
+Load ..\signalboxes\Plymouth\chimneypot.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,0.3
+Translate -6.75,8.9,24.81
+
+[Texture]
+Load ..\signalboxes\Plymouth\chimneypot.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.2,0
+Coordinates 5,0.2,1
+Coordinates 6,0.3,0
+Coordinates 7,0.3,1
+Coordinates 8,0.4,0
+Coordinates 9,0.4,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,0.5,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+
+;end walls
+[MeshBuilder]
+Vertex -4 ,  -0.3 ,  25 
+Vertex -4 ,  5.7 ,  25 
+Vertex -6.5 ,  7.9 ,  25 
+Vertex -6.5 ,  7.9 ,  25 
+Vertex -7.5 ,  8.5 ,  25 
+Vertex -7.5 ,  7.9 ,  25 
+Vertex -10 ,  5.7 ,  25 
+Vertex -10 ,  -0.3 ,  25 
+
+Vertex -4 ,  -0.3 ,  0 
+Vertex -4 ,  5.7 ,  0 
+Vertex -6.5 ,  7.9 ,  0 
+Vertex -6.5 ,  8.5 ,  0 
+Vertex -7.5 ,  8.5 ,  0 
+Vertex -7.5 ,  7.9 ,  0 
+Vertex -10 ,  5.7 ,  0 
+Vertex -10 ,  -0.3 ,  0 
+Face2  0, 1, 6, 7, 
+Face2  1, 2, 5, 6, 
+Face2  2, 3, 4, 5, 
+Face2  15, 14, 9, 8, 
+Face2  14, 13, 10, 9, 
+Face2  13, 12, 11, 10, 
+
+[Texture]
+Load ..\..\common\greystone3.png
+Coordinates   0,0,5
+Coordinates   1,0,2
+Coordinates   2,0,0.38
+Coordinates   3,0,0
+Coordinates   4,1,0
+Coordinates   5,1,0.38
+Coordinates   6,3.4,2
+Coordinates   7,3.4,5
+Coordinates   8,0,5
+Coordinates   9,0,2
+Coordinates   10,0,0.38
+Coordinates   11,0,0
+Coordinates   12,1,0
+Coordinates   13,1,0.38
+Coordinates   14,3.4,2
+Coordinates   15,3.4,5
+
+;Garden fencing
+[MeshBuilder]
+Vertex -16 , -0.3 ,  0 
+Vertex -16 ,  1.7 ,  0 
+Vertex -16 ,  1.7 ,  25 
+Vertex -16 , -0.3 ,  25 
+Face  3, 2, 1, 0, 
+
+
+
+
+[Texture]
+Load    wooden_fence.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,3,0
+Coordinates    3,3,1
+
+[MeshBuilder]
+Vertex -16 , -0.3 ,  0 
+Vertex -16 ,  1.7 ,  0 
+Vertex -16 ,  1.7 ,  25 
+Vertex -16 , -0.3 ,  25 
+Face  0, 1, 2, 3, 
+
+
+
+
+[Texture]
+Load    wooden_fence1.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,4,0
+Coordinates    3,4,1
+
+[MeshBuilder]
+Vertex -16 , -0.3 ,  0 
+Vertex -16 ,  1.7 ,  0 
+Vertex -10 ,  1.7 ,  0 
+Vertex -10 , -0.3 ,  0 
+Face  0, 1, 2, 3, 
+
+
+
+
+[Texture]
+Load    wooden_fence1.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,2,0
+Coordinates    3,2,1
+
+[MeshBuilder]
+Vertex -16 , -0.3 ,  0 
+Vertex -16 ,  1.7 ,  0 
+Vertex -10 ,  1.7 ,  0 
+Vertex -10 , -0.3 ,  0 
+Face  3, 2, 1, 0, 
+
+
+
+
+[Texture]
+Load    wooden_fence.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,2,0
+Coordinates    3,2,1
+
+;Washing line in middle garden
+[MeshBuilder]
+Vertex -16 , -0.3 ,  12 
+Vertex -16 ,  1.7 ,  12 
+Vertex -10 ,  3.2 ,  12 
+Vertex -10 ,  1.2 ,  12 
+Face2  3, 2, 1, 0, 
+
+
+
+
+[Texture]
+Load    wline.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,1,0
+Coordinates    3,1,1
+Transparent       0,0,255
+
+[MeshBuilder]
+Vertex -16 , -0.3 ,  16.4 
+Vertex -16 ,  1.7 ,  16.4 
+Vertex -10 ,  1.7 ,  16.4 
+Vertex -10 , -0.3 ,  16.4 
+Face  0, 1, 2, 3, 
+
+
+
+
+[Texture]
+Load    wooden_fence1.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,2,0
+Coordinates    3,2,1
+
+[MeshBuilder]
+Vertex -16 , -0.3 ,  16.4 
+Vertex -16 ,  1.7 ,  16.4 
+Vertex -10 ,  1.7 ,  16.4 
+Vertex -10 , -0.3 ,  16.4 
+Face  3, 2, 1, 0, 
+
+
+
+
+[Texture]
+Load    wooden_fence.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,2,0
+Coordinates    3,2,1
+
+[MeshBuilder]
+Vertex -16 , -0.3 ,  25 
+Vertex -16 ,  1.7 ,  25 
+Vertex -10 ,  1.7 ,  25 
+Vertex -10 , -0.3 ,  25 
+Face  0, 1, 2, 3, 
+
+
+
+
+[Texture]
+Load    wooden_fence1.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,2,0
+Coordinates    3,2,1
+
+[MeshBuilder]
+Vertex -16 , -0.3 ,  25 
+Vertex -16 ,  1.7 ,  25 
+Vertex -10 ,  1.7 ,  25 
+Vertex -10 , -0.3 ,  25 
+Face  3, 2, 1, 0, 
+
+
+
+
+[Texture]
+Load    wooden_fence.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,2,0
+Coordinates    3,2,1
+
+[MeshBuilder]
+Vertex -16.5 , -0.3 ,  16.8 
+Vertex -16.5 ,  0.4 ,  16.8 
+Vertex -16 ,  0.4 ,  17 
+Vertex -16 , -0.3 ,  17 
+Face2  3, 2, 1, 0, 
+
+
+
+
+[Texture]
+Load    ..\..\plants\bushes1.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,0.2,0
+Coordinates    3,0.2,1
+Transparent       0,0,0
+
+[MeshBuilder]
+Vertex -16.5 , -0.3 ,  17.2 
+Vertex -16.5 ,  0.4 ,  17.2 
+Vertex -16 ,  0.4 ,  17 
+Vertex -16 , -0.3 ,  17 
+Face2  3, 2, 1, 0, 
+
+
+
+
+[Texture]
+Load    ..\..\plants\bushes1.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,0.2,0
+Coordinates    3,0.2,1
+Transparent       0,0,0
+
+[MeshBuilder]
+Vertex -16.5 , -0.3 ,  4.8 
+Vertex -16.5 ,  0.4 ,  4.8 
+Vertex -16 ,  0.4 ,  5 
+Vertex -16 , -0.3 ,  5 
+Face2  3, 2, 1, 0, 
+
+
+
+
+[Texture]
+Load    ..\..\plants\bushes1.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,0.2,0
+Coordinates    3,0.2,1
+Transparent       0,0,0
+
+[MeshBuilder]
+Vertex -16.5 , -0.3 ,  5.2 
+Vertex -16.5 ,  0.4 ,  5.2 
+Vertex -16 ,  0.4 ,  5 
+Vertex -16 , -0.3 ,  5 
+Face2  3, 2, 1, 0, 
+
+
+
+
+[Texture]
+Load    ..\..\plants\bushes1.png
+Coordinates    0,0,1
+Coordinates    1,0,0
+Coordinates    2,0.2,0
+Coordinates    3,0.2,1
+Transparent       0,0,0

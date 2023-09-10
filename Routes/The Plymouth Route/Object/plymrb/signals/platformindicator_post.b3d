@@ -1,0 +1,89 @@
+;author=Chris Lees
+;description=Post for usage with platform indicator, included in .animated
+;copyright= http://www.bvecornwall.co.uk- © Chris Lees, 2010
+
+[MeshBuilder]
+Vertex -0.8, -0.05, 0.3
+Vertex -0.8, -0.05, -0.3
+Vertex 1.8,  -0.05, -0.3
+Vertex 1.8,  -0.05, 0.3
+Face2 0, 1, 2, 3
+
+[Texture]
+Load semaphore\gantry_2_3.png
+Coordinates 0, 0, 0
+Coordinates 1, 1.5, 0
+Coordinates 2, 1.5, 1.5
+Coordinates 3, 0, 1.5
+
+[MeshBuilder]
+Vertex 1.5, -3, 0.6
+Vertex 1.7,  -3, 0.6
+Vertex 1.7,  -0.05, 0.3
+Vertex 1.5, -0.05, 0.3
+Face2 0, 1, 2, 3
+
+[Texture]
+Load ladder.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 10
+Coordinates 3, 0, 10
+transparent 150,150,150
+
+[MeshBuilder]
+Vertex 0.6, -3, 0
+Vertex 0.8,  -3, 0
+Vertex 0.8,  -0.05, 0
+Vertex 0.6, -0.05, 0
+Face2 0, 1, 2, 3
+
+[Texture]
+Load post1.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex 0.6, -0.15, 0.01
+Vertex 0.8, -0.15, 0.01
+Vertex 1  , -0.05, 0.01
+Vertex 0.4, -0.05, 0.01
+Face2 0, 1, 2, 3
+
+[Texture]
+Load post3.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex 0.6, -0.15, -0.01
+Vertex 0.8, -0.15, -0.01
+Vertex 1  , -0.05, -0.01
+Vertex 0.4, -0.05, -0.01
+Face2 0, 1, 2, 3
+
+[Texture]
+Load post3.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex 1.8,     1.6, 0.3
+Vertex 1.8,     1.6, -0.3
+Vertex 1.8, -0.05, -0.3
+Vertex 1.8, -0.05, 0.3
+Face2 0, 1, 2, 3
+
+[Texture]
+Load mesh.png
+Coordinates 0, 0, 0
+Coordinates 1, 8, 0
+Coordinates 2, 8, 8
+Coordinates 3, 0, 8
+Transparent 150,150,150,

@@ -1,0 +1,31 @@
+;author=Uwe Post, mods by Chris Lees
+;description=parking lot2
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+
+[MeshBuilder]
+Vertex -120, -0.51, 0
+Vertex -120, -0.52, 26
+Vertex 0, -0.52, 26
+Vertex 0, -0.51, 0
+Face 0, 1, 2, 3
+
+[Texture]
+Load ..\common\concrete1.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 7
+Coordinates 3, 0, 7
+
+[MeshBuilder]
+Vertex -120, -0.51, 26
+Vertex -120, -5.52, 40
+Vertex 0, -5.52, 40
+Vertex 0, -0.51, 26
+Face 0, 1, 2, 3
+
+[Texture]
+Load ..\common\concrete1.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 7
+Coordinates 3, 0, 7

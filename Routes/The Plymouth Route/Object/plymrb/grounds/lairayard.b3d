@@ -1,0 +1,30 @@
+;Author=Chris Lees
+;Description=Laira Yard Grass Object
+;Copyright=From the BVE Cornwall Plymouth Route © 2014
+
+[MeshBuilder]
+Vertex 1,-1.45,100
+Vertex 1,-1.45,-105
+Vertex -1,-0.45,-105
+Vertex -1,-0.45,100
+Vertex -50,-0,45,100
+Vertex -50,-0.45,-105
+;Main Pair
+
+Vertex -1,-1.45,-107
+Vertex -50,-1.45,-107
+Face 0,1,2,3
+Face 5,4,3,2
+Face 5,2,6,7,
+Face 6,2,1
+
+[Texture]
+Load ..\common\grass6.png
+Coordinates 0, 0, 0
+Coordinates 1, 5, 0
+Coordinates 2, 5, 0.5
+Coordinates 3, 0, 0.5
+Coordinates 4, 0, 5
+Coordinates 5, 5, 5
+Coordinates 6, 4.5, 0
+Coordinates 7, 4.5, 4.5

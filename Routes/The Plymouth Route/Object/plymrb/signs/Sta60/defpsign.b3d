@@ -1,0 +1,30 @@
+[MeshBuilder]
+Vertex 0.1,2.9,-3
+Vertex 0.1,2.9,3
+Vertex 0.1,0,3
+Vertex 0.1,0,-3
+Face 0,1,2,3
+
+[Texture]
+Load stationsign_defiance.PNG
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+
+[MeshBuilder]
+Vertex 0.098,2.9,3
+Vertex 0.098,2.9,-3
+Vertex 0.098,0,-3
+Vertex 0.098,0,3
+Face 0,1,2,3
+
+[Texture]
+Load stationsign_defiance.PNG
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255

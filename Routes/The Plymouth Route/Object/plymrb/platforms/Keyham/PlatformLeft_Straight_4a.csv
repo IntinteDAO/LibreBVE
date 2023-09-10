@@ -1,0 +1,84 @@
+
+CreateMeshBuilder ;Platform Mesh
+AddVertex,-6.5500,1.1100,0.0000,
+AddVertex,-2.5500,1.1000,0.0000,
+AddVertex,-1.5500,1.1000,0.0000,
+AddVertex,-1.5500,0.9960,0.0000,
+AddVertex,-1.8000,0.9960,0.0000,
+AddVertex,-1.8000,-0.2000,0.0000,
+AddVertex,-6.5500,1.1200,25.3000,
+AddVertex,-2.5500,1.1100,25.3000,
+AddVertex,-1.5500,1.1100,25.3000,
+AddVertex,-1.5500,1.0060,25.3000,
+AddVertex,-1.8000,1.0060,25.3000,
+AddVertex,-1.8000,-0.2000,25.3000,
+AddFace,6,7,1,0,
+AddFace,7,8,2,1,
+AddFace,8,9,3,2,
+AddFace,9,10,4,3,
+AddFace,10,11,5,4,
+GenerateNormals,
+LoadTexture,..\surface_3.png,
+SetTextureCoordinates,0,5.0000,0,
+SetTextureCoordinates,1,5.0000,0.67,
+SetTextureCoordinates,2,5.0000,0.79,
+SetTextureCoordinates,3,5.0000,0.8,
+SetTextureCoordinates,4,5.0000,0.81,
+SetTextureCoordinates,5,5.0000,1,
+SetTextureCoordinates,6,0.0000,0,
+SetTextureCoordinates,7,0.0000,0.67,
+SetTextureCoordinates,8,0.0000,0.79,
+SetTextureCoordinates,9,0.0000,0.8,
+SetTextureCoordinates,10,0.0000,0.81,
+SetTextureCoordinates,11,0.0000,1,
+
+
+CreateMeshBuilder
+
+Addvertex, -11.55, -0.2, -0.3
+Addvertex, -6.25, -0.2, -0.3
+Addvertex, -6.25, 1.11, -0.3
+Addvertex, -11.55, 1.11, -0.3
+Addface,3,2,1,0
+LoadTexture, ..\Surface_3.png
+SetTextureCoordinates, 0,0,1
+SetTextureCoordinates, 1,2,1
+SetTextureCoordinates, 2,2,0.812
+SetTextureCoordinates, 3,0,0.812
+
+CreateMeshBuilder,
+Addvertex, -6.55, 1.11, -0.3
+Addvertex, -6.55, 1.12, 25.3
+Addvertex, -11.6, 1.12, 25.3
+Addvertex, -11.6, 1.11, -0.3
+
+AddFace,3,2,1,0
+LoadTexture, ..\Surface_3.png
+SetTextureCoordinates, 0,0,0.3
+SetTextureCoordinates, 1,10,0.3
+SetTextureCoordinates, 2,10,0
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+Addvertex, -11.55, 3.1, -0.3
+Addvertex, -11.55, 1.05, -0.3
+Addvertex, -11.55, 1.05, 25.3
+Addvertex, -11.55, 3.1, 25.3
+Addvertex, -6.25, 3.1, 25.3
+Addvertex, -6.25, 1.05, 25.3
+Addvertex, -6.25, 1.05, -0.3
+Addvertex, -6.25, 3.1, -0.3
+Addface2, 0,1,2,3
+Addface2,5,4,3,2
+Addface2,6,7,0,1
+LoadTexture, ..\..\common\Fence_10.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,10,1
+SetTextureCoordinates, 3,10,0
+SetTextureCoordinates, 4,7,0
+SetTextureCoordinates, 5,7,1
+SetTextureCoordinates, 7,3,0
+SetTextureCoordinates, 6,3,1
+Setdecaltransparentcolor, 0, 0, 255
+

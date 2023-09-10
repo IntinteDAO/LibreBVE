@@ -1,0 +1,559 @@
+;SEMI SUBURBAN HOUSE © Copyright Nathan Whitington 2003
+;By Nathan Whitington, see copyright notice included with this package
+;for information regarding re-distribution
+
+;Front Door
+CreateMeshBuilder,
+AddVertex, 15,0,0,
+AddVertex, 15,5,0,
+AddVertex, 15,5,1.75,
+AddVertex, 15,0,1.75,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, House_Front2.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+;Front Rooms
+CreateMeshBuilder,
+AddVertex, 14,0,2,
+AddVertex, 14,5,2,
+AddVertex, 14,5,5,
+AddVertex, 14,0,5,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, House_Front.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+
+
+;Side
+CreateMeshBuilder,
+AddVertex, 15,0,1.75,
+AddVertex, 15,5,1.75,
+AddVertex, 14,5,2,
+AddVertex, 14,0,2,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, House_Front.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,0.35,0,
+SetTextureCoordinates, 3,0.35,1,
+
+CreateMeshBuilder,
+AddVertex, 14,0,5,
+AddVertex, 14,5,5,
+AddVertex, 15,5,5.75,
+AddVertex, 15,0,5.75,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, House_Front.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,0.35,0,
+SetTextureCoordinates, 3,0.35,1,
+
+CreateMeshBuilder,
+AddVertex, 14,0,9.5,
+AddVertex, 14,5,9.5,
+AddVertex, 15,5,10,
+AddVertex, 15,0,10,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, House_Front.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,0.35,0,
+SetTextureCoordinates, 3,0.35,1,
+
+CreateMeshBuilder,
+AddVertex, 15,0,4,
+AddVertex, 15,5,4,
+AddVertex, 15,5,7,
+AddVertex, 15,0,7,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, House_Side3.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+
+;House Number 2
+
+;Front Rooms
+CreateMeshBuilder,
+AddVertex, 14,0,6.5,
+AddVertex, 14,5,6.5,
+AddVertex, 14,5,9.5,
+AddVertex, 14,0,9.5,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, House_Front.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+
+
+;Dormer Top
+CreateMeshBuilder,
+AddVertex, 14,5,6.5,
+AddVertex, 14,6.25,8,
+AddVertex, 14,5,9.5,
+AddVertex, 14,5,2,
+AddVertex, 14,6.25,3.5,
+AddVertex, 14,5,5,
+AddFace,2,1,0
+AddFace,5,4,3
+
+GenerateNormals,
+LoadTexture, 60_semi_dt.png,
+SetTextureCoordinates, 0,0,0.93,
+SetTextureCoordinates, 1,0.5,0,
+SetTextureCoordinates, 2,1,0.93,
+SetTextureCoordinates, 3,0,0.93,
+SetTextureCoordinates, 4,0.5,0,
+SetTextureCoordinates, 5,1,0.93,
+
+;Side
+CreateMeshBuilder,
+AddVertex, 15,0,6.25,
+AddVertex, 15,5,6.25,
+AddVertex, 14,5,6.5,
+AddVertex, 14,0,6.5,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, House_Front.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,0.35,0,
+SetTextureCoordinates, 3,0.35,1,
+
+;Front Door
+CreateMeshBuilder,
+AddVertex, 15,0,10,
+AddVertex, 15,5,10,
+AddVertex, 15,5,11.75,
+AddVertex, 15,0,11.75,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, House_Front2.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+;Front Door
+CreateMeshBuilder,
+AddVertex, 20,0,0,
+AddVertex, 20,5,0,
+AddVertex, 20,5,11.75,
+AddVertex, 20,0,11.75,
+AddFace,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, 60semi_3.png
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,2,0,
+SetTextureCoordinates, 3,2,1,
+
+;Roof
+CreateMeshBuilder,
+AddVertex, 15,5,0,
+AddVertex, 18,7,2,
+AddVertex, 18,7,9.75,
+AddVertex, 15,5,11.75,
+AddFace2,  0,1,2,3,
+
+
+GenerateNormals,
+LoadTexture, ..\..\common\tiles3.png
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1.3,0,
+SetTextureCoordinates, 3,2,1,
+
+;Roof
+CreateMeshBuilder,
+AddVertex, 20,5,0,
+AddVertex, 18,7,2,
+AddVertex, 18,7,9.75,
+AddVertex, 20,5,11.75,
+AddFace2,  0,1,2,3,
+
+
+GenerateNormals,
+LoadTexture, ..\..\common\tiles3.png
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1.3,0,
+SetTextureCoordinates, 3,2,1,
+CreateMeshBuilder,
+AddVertex, 18,5, 5.5,
+AddVertex, 19,6.25,8,
+AddVertex, 14,6.25,8,
+AddVertex, 14,5,6.5,
+AddFace,  3,2,1,0
+
+
+GenerateNormals,
+LoadTexture, ..\..\common\tiles3.png
+SetTextureCoordinates, 0,0,0.5,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,0.5,
+
+CreateMeshBuilder,
+AddVertex, 18,5,    11.5,
+AddVertex, 19,6.25, 8,
+AddVertex, 14,6.25, 8,
+AddVertex, 14,5,    9.5,
+AddFace,  0,1,2,3
+
+
+GenerateNormals,
+LoadTexture, ..\..\common\tiles3.png
+SetTextureCoordinates, 0,0,0.5,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,0.5,
+
+CreateMeshBuilder,
+AddVertex, 17,5,1.2,
+AddVertex, 17,6.25,3.5,
+AddVertex, 14,6.25,3.5,
+AddVertex, 14,5,2,
+AddFace,3,2,1,0
+
+
+GenerateNormals,
+LoadTexture, ..\..\common\tiles3.png
+SetTextureCoordinates, 0,0,0.5,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,0.5,
+
+CreateMeshBuilder,
+AddVertex, 17,5,7.2,
+AddVertex, 17,6.25,3.5,
+AddVertex, 14,6.25,3.5,
+AddVertex, 14,5,5,
+AddFace,0,1,2,3
+
+
+GenerateNormals,
+LoadTexture, ..\..\common\tiles3.png
+SetTextureCoordinates, 0,0,0.5,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,0.5,
+
+CreateMeshBuilder,
+AddVertex, 20,   5,11.75,
+AddVertex, 18, 7,9.75,
+AddVertex, 18,   7,9.75,
+AddVertex, 15,   5,11.75,
+AddFace2,  0,1,2,3,
+
+
+GenerateNormals,
+LoadTexture, ..\..\common\tiles3.png
+SetTextureCoordinates, 0,0.05,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,0.5,0,
+SetTextureCoordinates, 3,1,1,
+;House Side
+CreateMeshBuilder,
+AddVertex, 20,0,11.75,
+AddVertex, 20,5,11.75,
+AddVertex, 15,5,11.75,
+AddVertex, 15,0,11.75,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, House_Side3.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,3,0,
+SetTextureCoordinates, 3,3,1,
+
+;Garden Hedge
+CreateMeshBuilder,
+AddVertex, 15,-0.3,6,
+AddVertex, 15,1,6,
+AddVertex, 12,1,6,
+AddVertex, 12,-0.3,6,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, ..\..\common\whitebrick.png
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,5,0,
+SetTextureCoordinates, 3,5,1,
+
+CreateMeshBuilder,
+AddVertex, 12,-0.3,2,
+AddVertex, 12,1,2,
+AddVertex, 12,1,9.75,
+AddVertex, 12,-0.3,9.75,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, ..\..\common\whitebrick.png
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,5,0,
+SetTextureCoordinates, 3,5,1,
+
+CreateMeshBuilder,
+AddVertex, 15.1,-0.3,0,
+AddVertex, 15.1,1,0,
+AddVertex, 12,1,0,
+AddVertex, 12,-0.3,0,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, ..\..\common\whitebrick.png
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,5,0,
+SetTextureCoordinates, 3,5,1,
+
+
+CreateMeshBuilder,
+AddVertex, 15.1,-0.3,11.75,
+AddVertex, 15.1,1,11.75,
+AddVertex, 12,1,11.75,
+AddVertex, 12,-0.3,11.75,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, ..\..\common\whitebrick.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,5,0,
+SetTextureCoordinates, 3,5,1,
+
+CreateMeshBuilder,
+AddVertex, 12,-0.3,0,
+AddVertex, 12,1,0,
+AddVertex, 12,1,0.5,
+AddVertex, 12,-0.3,0.5,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, ..\..\common\whitebrick.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, 12,-0.3,11.25,
+AddVertex, 12,1,11.25,
+AddVertex, 12,1,11.75,
+AddVertex, 12,-0.3,11.75,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, ..\..\common\whitebrick.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, 12,-0.3,0.5,
+AddVertex, 12,1.25,0.5,
+AddVertex, 12,1.25,2,
+AddVertex, 12,-0.3,2,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, Garden_Gate.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+SetDecalTransparentColor,  0,0,255,
+
+CreateMeshBuilder,
+AddVertex, 12,-0.3,9.75,
+AddVertex, 12,1.25,9.75,
+AddVertex, 12,1.25,11.25,
+AddVertex, 12,-0.3,11.25,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, Garden_Gate.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+SetDecalTransparentColor,  0,0,255,
+
+;House Side
+CreateMeshBuilder,
+AddVertex, 20,0,0,
+AddVertex, 20,5,0,
+AddVertex, 15,5,0,
+AddVertex, 15,0,0,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, House_Side3.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,3,0,
+SetTextureCoordinates, 3,3,1,
+
+
+CreateMeshBuilder,
+AddVertex, 20,5,0,
+AddVertex, 18,7,2,
+AddVertex, 18,7,2,
+AddVertex, 15,5,0,
+AddFace2,  0,1,2,3,
+
+
+GenerateNormals,
+LoadTexture, ..\..\common\tiles3.png
+SetTextureCoordinates, 0,0.05,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,0.5,0,
+SetTextureCoordinates, 3,1,1,
+
+;Garden Hedge
+CreateMeshBuilder,
+AddVertex, 25,-0.3,5.5,
+AddVertex, 25,1.5,5.5,
+AddVertex, 20,1.5,5.5
+AddVertex, 20,-0.3,5.5,
+AddFace,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, wooden_fence1.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,2,0,
+SetTextureCoordinates, 3,2,1,
+
+CreateMeshBuilder,
+AddVertex, 25,-0.3,5.5,
+AddVertex, 25,1.5,5.5,
+AddVertex, 20,1.5,5.5
+AddVertex, 20,-0.3,5.5,
+AddFace, 3,2,1,0
+
+GenerateNormals,
+LoadTexture, wooden_fence.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,2,0,
+SetTextureCoordinates, 3,2,1,
+
+;Garden Hedge
+CreateMeshBuilder,
+AddVertex, 25,-0.3,0,
+AddVertex, 25,1.5,0,
+AddVertex, 20,1.5,0
+AddVertex, 20,-0.3,0
+AddFace,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, wooden_fence1.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,2,0,
+SetTextureCoordinates, 3,2,1,
+
+CreateMeshBuilder,
+AddVertex, 25,-0.3,0,
+AddVertex, 25,1.5,0,
+AddVertex, 20,1.5,0
+AddVertex, 20,-0.3,0
+AddFace, 3,2,1,0
+
+GenerateNormals,
+LoadTexture, wooden_fence.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,2,0,
+SetTextureCoordinates, 3,2,1,
+
+;Garden Hedge
+CreateMeshBuilder,
+AddVertex, 25,-0.3,11.75,
+AddVertex, 25,1.5,11.75,
+AddVertex, 20,1.5,11.75
+AddVertex, 20,-0.3,11.75
+AddFace,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, wooden_fence1.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,2,0,
+SetTextureCoordinates, 3,2,1,
+
+CreateMeshBuilder,
+AddVertex, 25,-0.3,11.75
+AddVertex, 25,1.5,11.75
+AddVertex, 20,1.5,11.75
+AddVertex, 20,-0.3,11.75
+AddFace, 3,2,1,0
+
+GenerateNormals,
+LoadTexture, wooden_fence.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,2,0,
+SetTextureCoordinates, 3,2,1,
+
+CreateMeshBuilder,
+AddVertex, 25,-0.3,0
+AddVertex, 25,1.5,0
+AddVertex, 25,1.5,11.75
+AddVertex, 25,-0.3,11.75
+AddFace, 3,2,1,0
+
+GenerateNormals,
+LoadTexture, wooden_fence.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,2,0,
+SetTextureCoordinates, 3,2,1,
+
+CreateMeshBuilder,
+AddVertex, 25,-0.3,0
+AddVertex, 25,1.5,0
+AddVertex, 25,1.5,11.75
+AddVertex, 25,-0.3,11.75
+AddFace, 0,1,2,3
+
+GenerateNormals,
+LoadTexture, wooden_fence1.png,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,2,0,
+SetTextureCoordinates, 3,2,1,

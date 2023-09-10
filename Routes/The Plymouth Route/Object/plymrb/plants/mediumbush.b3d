@@ -1,0 +1,31 @@
+;Medium Sized Bush
+
+[MeshBuilder]
+Vertex 1,1,0
+Vertex 1,0,0
+Vertex -1,0,0
+Vertex -1,1,0
+Face2 0,1,2,3
+
+[Texture]
+Load bush1.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 255
+
+[MeshBuilder]
+Vertex 0,1,1
+Vertex 0,0,1
+Vertex 0,0,-1
+Vertex 0,1,-1
+Face2 0,1,2,3
+
+[Texture]
+Load bush1.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 255

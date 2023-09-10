@@ -1,0 +1,33 @@
+;author=Chris Lees
+;description=Young tree in support thingy
+;copyright=From the BVE Cornwall Plymouth route, © 2011
+
+[MeshBuilder]
+Vertex 0.3, 3, 0
+Vertex 0.3, -0.1, 0
+Vertex -0.3, -0.1, 0
+Vertex -0.3, 3, 0
+Face2 0,1,2,3
+
+[Texture]
+Load tree5.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 0
+
+[MeshBuilder]
+Vertex 0, 3, 0.3
+Vertex 0, -0.1, 0.3
+Vertex 0, -0.1, -0.3
+Vertex 0, 3, -0.3
+Face2 0,1,2,3
+
+[Texture]
+Load tree5.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 0

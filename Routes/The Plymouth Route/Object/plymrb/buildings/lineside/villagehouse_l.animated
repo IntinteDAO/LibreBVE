@@ -1,0 +1,23 @@
+[Object]
+States = cottage3.b3d
+Position = -9,-0.2,-2
+
+[Object]
+States = cottage2.b3d
+Position = -9,-0.2,11.5
+
+[Object]
+States = stonewalls_l.b3d
+Position = -1,0,0
+
+
+[Object]
+States = stonewalls_l.b3d
+RotateYFunction = 1.6
+Position = -30.2,0,7
+
+
+[Object]
+States = stonewalls_l.b3d
+RotateYFunction = 1.6
+Position = -30.2,0,21

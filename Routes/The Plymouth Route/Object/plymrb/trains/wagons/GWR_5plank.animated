@@ -1,0 +1,14 @@
+;Wagon
+[Object]
+States = GWR_5plank.b3d
+Position = 0,0,0
+
+;Wheelset1
+[Object]
+States = wheelset_spk.b3d
+Position = 0,0.425,4.9
+
+;Wheelset2
+[Object]
+States = wheelset_spk.b3d
+Position = 0,0.425,2

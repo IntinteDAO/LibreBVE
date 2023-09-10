@@ -1,0 +1,224 @@
+;Description=Cornwall Farmers store, Liskeard
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route. © 2016
+
+;Main face
+[MeshBuilder]
+Vertex 0,-0.3,0
+Vertex 0,7,0
+Vertex 20,11,0
+Vertex 20,-0.3,0
+Vertex 25,-0.3,0
+Vertex 25,9.5,0
+;;Segment 2
+Vertex 25,-0.3,0
+Vertex 25,2.2,0
+Vertex 35,2.2,0
+Vertex 35,-0.3,0
+Vertex 35,-0.3,17
+Vertex 35,2.2,17
+Face 0,1,2,3
+Face 5,4,3,2
+Face 6,7,8,9
+Face 11,10,9,8
+
+[Texture]
+Load cwlfm_01.png,,
+Coordinates 0,0,1
+Coordinates 1,0,0.335
+Coordinates 2,0.565,0
+Coordinates 3,0.565,1
+Coordinates 4,0.76,1
+Coordinates 5,0.76,0.13
+
+Coordinates 6,0.76,1
+Coordinates 7,0.76,0.78
+Coordinates 8,1,0.78
+Coordinates 9,1,1
+Coordinates 10,0.999,1
+Coordinates 11,0.999,0.78
+
+;Segment 2
+[MeshBuilder]
+Vertex 0,-0.3,17
+Vertex 0,7,17
+Vertex 20,11,17
+Vertex 20,-0.3,17
+Vertex 35,-0.3,17
+Vertex 35,7,17
+
+Vertex 0,-0.3,57
+Vertex 0,7,57
+Vertex 20,11,57
+Vertex 20,-0.3,57
+Vertex 35,-0.3,57
+Vertex 35,7,57
+;Face 0,1,2,3
+Face 5,4,3,2
+Face 9,8,7,6
+Face 8,9,10,11
+
+[Texture]
+Load cwlfm_03.png
+Coordinates 0,0,1
+Coordinates 1,0,0.35
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0.35
+
+Coordinates 6,0,1
+Coordinates 7,0,0.35
+Coordinates 8,1,0
+Coordinates 9,1,1
+Coordinates 10,0,1
+Coordinates 11,0,0.35
+
+;Twiddle
+[MeshBuilder]
+Vertex 0,-0.3,17
+Vertex 0,7,17
+Vertex -10,4,17
+Vertex -10,-0.3,17
+Face 3,2,1,0
+
+[Texture]
+Load cwlfm_04.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0.42
+Coordinates 3,0,1
+
+;Roof
+[MeshBuilder]
+Vertex 0,7,17
+Vertex 0,7,0
+Vertex 20,11,0
+Vertex 20,11,17
+Vertex 25,9.5,17
+Vertex 25,9.5,0
+
+;P2
+Vertex 0,7,57
+Vertex 20,11,57
+Vertex 35,7,57
+Vertex 35,7,17
+
+;;P3
+Vertex -10,4,17
+Vertex -10,4,57
+Face 10,11,6,0
+
+Face 6,7,3,0
+
+Face 7,8,9,3
+
+Face 3,2,1,0
+Face 2,3,4,5
+Color 100,100,100
+
+[Texture]
+Load cwlfm_02.png
+Coordinates 0,0,0
+Coordinates 1,3,0
+Coordinates 2,3,1
+Coordinates 3,0,1
+Coordinates 4,0,0.6
+Coordinates 5,3,0.6
+Coordinates 6,7,0
+Coordinates 7,7,1
+Coordinates 8,7,0
+Coordinates 9,0,0
+Coordinates 10,0,0.6
+Coordinates 11,7,0.6
+
+
+;Flat Roof
+[MeshBuilder]
+Vertex 25,2.2,0
+Vertex 35,2.2,0
+Vertex 35,2.2,17
+Vertex 25,2.2,17
+Face 3,2,1,0
+
+[Texture]
+Load ..\..\common\tarmac.png,,
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+
+;Side
+[MeshBuilder]
+Vertex 25,2.2,0
+Vertex 25,9.5,0
+Vertex 25,9.5,17
+Vertex 25,2.2,17
+Vertex 0,-0.3,17
+Vertex 0,7,17
+Vertex 0,7,0
+Vertex 0,-0.3,0
+Vertex -10,-0.3,57
+Vertex -10,4,57
+Vertex -10,4,17
+Vertex -10,-0.3,17
+
+;P3
+Vertex 35,-0.3,17
+Vertex 35,7,17
+Vertex 35,7,57
+Vertex 35,-0.3,57
+Face 0,1,2,3
+Face 4,5,6,7
+Face 8,9,10,11
+Face 12,13,14,15
+[Texture]
+Load cwlfm_02.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,3,0
+Coordinates 3,3,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,3,0
+Coordinates 7,3,1
+Coordinates 8,0,0.5
+Coordinates 9,0,0
+Coordinates 10,9,0
+Coordinates 11,9,0.5
+Coordinates 12,0,1
+Coordinates 13,0,0
+Coordinates 14,7,0
+Coordinates 15,7,1
+
+;Fence
+[MeshBuilder]
+Vertex -10,-0.3,17
+Vertex -10,2,17
+Vertex -10,2,1
+Vertex -10,-0.3,1
+Face2 0,1,2,3
+
+[Texture]
+Load ..\..\common\fence_14.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -10,1.5,1
+Vertex -10,-0.3,1
+Vertex 0,-0.3,1
+Vertex 0,1.5,1
+Face2 0,1,2,3
+
+[Texture]
+Load ..\..\common\gate5.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,2,1
+Coordinates 3,2,0
+Transparent 0,0,255

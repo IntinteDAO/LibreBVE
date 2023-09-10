@@ -1,0 +1,103 @@
+
+;Driving Wheel 10
+[MeshBuilder]
+Vertex -0.85,0.85,0.85
+Vertex -0.85,0.85,-0.85 
+Vertex -0.85,-0.85,-0.85 
+Vertex -0.85,-0.85,0.85
+Face2 0,1,2,3
+Rotate 1,0,0,80
+
+[Texture]
+Load wheel3.png
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+Transparent 0,0,255
+
+;Driving Wheel 11
+[MeshBuilder]
+Cylinder 16,-0.85,-0.9,0.15
+Rotate 0,0,1,90
+Translate -0.775,0,0 
+Color 57,49,49
+
+;Driving Wheel 12
+[MeshBuilder]
+Cylinder 16,-0.7,-0.7,-0.15
+Rotate 0,0,1,90
+Translate -0.775,0,0 
+Color 57,49,49
+
+;Driving Wheel 13
+[MeshBuilder]
+Vertex -0.7,0.95,0.95 
+Vertex -0.7,0.95,-0.95
+Vertex -0.7,-0.95,-0.95
+Vertex -0.7,-0.95,0.95 
+Face2 0,1,2,3
+
+
+[Texture]
+Load wheel2.png
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+Transparent 0,0,255
+
+;Driving Wheel 14
+[MeshBuilder]
+Cylinder 12,-0.2,-0.2,1.7
+Rotate 0,0,1,90
+Translate 0,0,0 
+Color 57,49,49
+
+;Driving Wheel 15
+[MeshBuilder]
+Vertex 0.85,0.85,0.85
+Vertex 0.85,0.85,-0.85 
+Vertex 0.85,-0.85,-0.85 
+Vertex 0.85,-0.85,0.85
+Face2 3,2,1,0
+
+
+[Texture]
+Load wheel3.png
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+Transparent 0,0,255
+
+;Driving Wheel 16
+[MeshBuilder]
+Cylinder 16,-0.9,-0.85,0.15
+Rotate 0,0,1,90
+Translate 0.775,0,0 
+Color 57,49,49
+
+;Driving Wheel 17
+[MeshBuilder]
+Cylinder 16,-0.7,-0.7,-0.15
+Rotate 0,0,1,90
+Translate 0.775,0,0 
+Color 57,49,49
+
+;Driving Wheel 18
+[MeshBuilder]
+Vertex 0.7,0.95,0.95 
+Vertex 0.7,0.95,-0.95
+Vertex 0.7,-0.95,-0.95
+Vertex 0.7,-0.95,0.95 
+Face2 3,2,1,0
+
+
+[Texture]
+Load wheel2.png
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+Transparent 0,0,255

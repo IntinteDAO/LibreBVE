@@ -1,0 +1,79 @@
+;Author=Chris Lees
+;Description=Modern Style Mesh Bench
+
+;Seat
+[MeshBuilder]
+[MeshBuilder]
+Vertex -0.27,  0.88, 1
+Vertex -0.27,  0.88, -1
+Vertex -0.25,  0.88, -1
+Vertex -0.25,  0.88, 1
+Vertex -0.08,  0.42, 1
+Vertex -0.08,  0.42, -1
+Vertex 0.05,  0.37, -1
+Vertex 0.05,  0.37, 1
+Vertex 0.37,  0.42, 1
+Vertex 0.37,  0.42, -1
+Vertex 0.37,  0.40, -1
+Vertex 0.37,  0.40, 1
+Face2 0,1,2,3
+Face2 5,4,3,2
+Face2 4,5,6,7
+Face2 9,8,7,6
+Face2 8,9,10,11
+
+[Texture]
+Load BenchBack.png,
+Coordinates 0,0,0,
+Coordinates 1,1,0,
+Coordinates 2,1,0.05,
+Coordinates 3,0,0.05,
+Coordinates 4,0,0.6,
+Coordinates 5,1,0.6,
+Coordinates 6,1,0.7,
+Coordinates 7,0,0.7,
+Coordinates 8,0,0.95,
+Coordinates 9,1,0.95,
+Coordinates 10,1,1,
+Coordinates 11,0,1,
+
+;Frames Left & Right
+[MeshBuilder]
+Vertex  0.40,  0.9, -1,
+Vertex -0.28,  0.9, -1,
+Vertex -0.28,  0, -1,
+Vertex  0.40,  0, -1,
+Vertex  0.40,  0.9, 1,
+Vertex -0.28,  0.9, 1,
+Vertex -0.28,  0, 1,
+Vertex  0.40,  0, 1,
+Face2 0,1,2,3
+Face2 4,5,6,7
+
+[Texture]
+Load BenchSide.png,
+Coordinates 0,0,0,
+Coordinates 1,1,0,
+Coordinates 2,1,1,
+Coordinates 3,0,1,
+Coordinates 4,0,0,
+Coordinates 5,1,0,
+Coordinates 6,1,1,
+Coordinates 7,0,1,
+Transparent 0,0,255
+
+;Underframe
+[MeshBuilder]
+Vertex 0,0.37,1.03
+Vertex 0,0,1.03
+Vertex 0,0,-1.03
+Vertex 0,0.37,-1.03
+Face2 0,1,2,3
+
+[Texture]
+Load BenchFrame.png,
+Coordinates 3,0,0,
+Coordinates 0,1,0,
+Coordinates 1,1,1,
+Coordinates 2,0,1,
+Transparent 0,0,255

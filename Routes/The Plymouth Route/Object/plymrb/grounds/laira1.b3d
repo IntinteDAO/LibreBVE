@@ -1,0 +1,32 @@
+;Description=Ground Object for Laira Approach (DCW)
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route. © 2014
+
+[MeshBuilder]
+Vertex  6.81 , -0.19 , -0.1122
+Vertex  6.81 , -0.18 ,  27.6078
+Vertex  8.81 , -0.18 ,  27.6078
+Vertex  8.81 , -0.19 , -0.1122
+Vertex  12.81 , 2.19 , -0.1122
+Vertex  12.81 , 2.18 ,  27.6078
+Vertex  32.81 , 2.18 ,  27.6078
+Vertex  32.81 , 2.19 , -0.1122
+Vertex  82.81 , 16.19 , -0.1122
+Vertex  82.81 , 16.18 ,  27.6078
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+Face 9,8,7,6
+
+[Texture]
+Load  ..\common\grass6.png
+Coordinates  0, 0, 0
+Coordinates  1, 0, 3
+Coordinates  2, 0.3, 3
+Coordinates  3, 0.3, 0
+Coordinates  4, 0.7, 0
+Coordinates  5, 0.7, 3
+Coordinates  6, 2.5, 3
+Coordinates  7, 2.5, 0
+Coordinates  8, 6, 0
+Coordinates  9, 6, 3

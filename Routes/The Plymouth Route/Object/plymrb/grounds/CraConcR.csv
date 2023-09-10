@@ -1,0 +1,14 @@
+CreateMeshBuilder,
+AddVertex,30.8, -0.41, 0,
+AddVertex,30.8, -0.42, 27.3,
+AddVertex,0, -0.42, 27.3,
+AddVertex,0, -0.41, 0,
+AddFace,3,2,1,0,
+
+GenerateNormals,
+
+LoadTexture,..\common\concrete1.png,
+SetTextureCoordinates,0, 5, 3,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 3,

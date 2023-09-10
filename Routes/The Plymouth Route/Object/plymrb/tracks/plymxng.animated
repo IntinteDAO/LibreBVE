@@ -1,0 +1,7 @@
+[Object]
+states = plymxng1.b3d
+Position = 0,0,0
+
+[Object]
+states = plymxng2.b3d
+Position = -4,0,25

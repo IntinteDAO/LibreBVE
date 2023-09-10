@@ -1,0 +1,77 @@
+;White Segment 2
+[MeshBuilder]
+Vertex -0.31, 0.035,-0.08
+Vertex -0.31, 0.135,-0.08
+Vertex -0.98, 0.135,-0.08
+Vertex -0.98, 0.035,-0.08
+Vertex -0.98, 0.035,-0.1
+Vertex -0.98, 0.135,-0.1
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load white.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Coordinates  3,0,1
+Coordinates  4,0,0
+Coordinates  5,1,0
+
+
+;Red Segment 2
+[MeshBuilder]
+Vertex -0.98, 0.135,-0.1
+Vertex -0.98, 0.035,-0.1
+Vertex -0.31, 0.035,-0.1
+Vertex -0.31, 0.135,-0.1
+Vertex -0.31, 0.135,-0.08
+Vertex -0.98, 0.135,-0.08
+Vertex -0.31, 0.035,-0.08
+Vertex -0.98, 0.035,-0.08
+Face 3,2,1,0
+Face 5,4,3,0
+Face 1,2,6,7
+Face 2,3,4,6
+
+[Texture]
+Load red.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Coordinates  3,0,1
+Coordinates  4,0,0
+Coordinates  5,0,0
+
+[MeshBuilder]
+Vertex -0.33, -0.10,-0.09
+Vertex -0.33, 0.135,-0.09
+Vertex -0.01, 0.135,-0.09
+Vertex -0.01, -0.10,-0.09
+Face2 0,1,2,3
+
+[Texture]
+Load spectacle.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Transparent 0,0,255
+
+;Shunt S
+[MeshBuilder]
+Vertex -0.9, -0.12,-0.11
+Vertex -0.9, 0.28,-0.11
+Vertex -0.7, 0.28,-0.11
+Vertex -0.7, -0.12,-0.11
+Face2 0,1,2,3
+
+[Texture]
+Load Shunt.png
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,1,0
+Coordinates  3,1,1
+Transparent 0,0,0
+
+TranslateAll 0.3

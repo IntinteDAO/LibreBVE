@@ -1,0 +1,9 @@
+[Object]
+states = Scania_Tractor.b3d
+Position = 0,0,0
+RotateYFunction = 1.57079633
+
+[Object]
+states = RM_parked.b3d
+Position = 0,0,0
+RotateYFunction = 1.57079633

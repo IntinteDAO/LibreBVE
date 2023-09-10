@@ -1,0 +1,1010 @@
+﻿;;Original Model by Alan Hudnott
+;;BVE Cornwall Locomotive Works © 2014
+
+[MeshBuilder]
+vertex -1.12,1.2,9
+vertex -1.12,1.2,11.75
+vertex -1.12,0.45,9
+vertex -1.12,0.45,11.75
+vertex 1.12,0.45,9
+vertex 1.12,0.45,11.75
+vertex 1.12,1.2,9
+vertex 1.12,1.2,11.75
+face2 0,1,3,2
+face2 2,3,1,0
+face2 2,3,5,4
+face2 4,5,7,6
+face2 6,7,5,4
+[Texture]
+Load 45fueltank.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,0,0.205
+coordinates 3,1,0.205
+coordinates 4,0,0.79
+coordinates 5,1,0.79
+coordinates 6,0,1
+coordinates 7,1,1
+transparent 0,0,255
+
+
+
+[meshbuilder]
+vertex -1.292,2.55,2.25	,0.6,1,0
+vertex -1.25,2.75,2.25	,0.6,1,0
+vertex -1.25,2.75,2.37	,0.6,1,0
+vertex -1.292,2.55,2.37	,0.3,1,0
+vertex -0.99,2.84,2.25	,0.3,1,0
+vertex -0.99,2.86,2.37	,0.3,1,0
+vertex -0.66,2.905,2.25	,0.3,1,0
+vertex -0.66,2.941,2.37	,0.3,1,0
+vertex -0.33,2.9,2.25	,0.3,1,0
+vertex -0.33,2.97,2.37	,0.3,1,0
+vertex 0,2.96,2.25		,0.3,1,0
+vertex 0,2.98,2.37		,-0.3,1,0
+vertex 0.33,2.95,2.25	,-0.3,1,0
+vertex 0.33,2.97,2.37	,-0.3,1,0
+vertex 0.66,2.885,2.25	,-0.3,1,0
+vertex 0.66,2.941,2.37	,-0.3,1,0
+vertex 0.99,2.8,2.25	,-0.3,1,0
+vertex 0.99,2.86,2.37	,-0.3,1,0
+vertex 1.25,2.55,2.25	,-0.3,1,0
+vertex 1.25,2.75,2.37	,-0.6,1,0
+vertex 1.292,2.55,2.37	,-0.6,1,0
+vertex 1.292,2.55,2.37	,-0.6,1,0
+face 3,2,1,0
+face 2,5,4,1
+face 5,7,6,4
+face 7,9,8,6
+face 9,11,10,8
+face 11,13,12,10
+face 13,15,14,12
+face 15,17,16,14
+face 17,19,18,16
+face 19,21,20,18
+color 153,120,40
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[meshbuilder]
+vertex -1.292,2.55,2.25	,0.6,1,0
+vertex -1.25,2.75,2.25	,0.6,1,0
+vertex -1.25,2.75,2.37	,0.6,1,0
+vertex -1.292,2.55,2.37	,0.3,1,0
+vertex -0.99,2.84,2.25	,0.3,1,0
+vertex -0.99,2.86,2.37	,0.3,1,0
+vertex -0.66,2.905,2.25	,0.3,1,0
+vertex -0.66,2.941,2.37	,0.3,1,0
+vertex -0.33,2.9,2.25	,0.3,1,0
+vertex -0.33,2.97,2.37	,0.3,1,0
+vertex 0,2.96,2.25		,0.3,1,0
+vertex 0,2.98,2.37		,-0.3,1,0
+vertex 0.33,2.95,2.25	,-0.3,1,0
+vertex 0.33,2.97,2.37	,-0.3,1,0
+vertex 0.66,2.885,2.25	,-0.3,1,0
+vertex 0.66,2.941,2.37	,-0.3,1,0
+vertex 0.99,2.8,2.25	,-0.3,1,0
+vertex 0.99,2.86,2.37	,-0.3,1,0
+vertex 1.25,2.55,2.25	,-0.3,1,0
+vertex 1.25,2.75,2.37	,-0.6,1,0
+vertex 1.292,2.55,2.37	,-0.6,1,0
+vertex 1.292,2.55,2.37	,-0.6,1,0
+face 3,2,1,0
+face 2,5,4,1
+face 5,7,6,4
+face 7,9,8,6
+face 9,11,10,8
+face 11,13,12,10
+face 13,15,14,12
+face 15,17,16,14
+face 17,19,18,16
+face 19,21,20,18
+color 153,120,40
+translate 0,0,-20.8
+Rotate 0,90,0,180
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;yellow nose top
+[MeshBuilder]
+Vertex -1.28,1.21,  2.25,0.6,1,0		
+Vertex -1.25,1.65,  2.25,0.6,1,0
+Vertex -1.26,1.5,    2.25,0.6,1,0		
+Vertex -1.28,1.15,  2.28,0.6,1,0	
+Vertex -1.23,1.65,  2.28,0.3,1,0
+Vertex -1.24,1.21,  2.21,0.3,1,0	
+Vertex 0,1.65,       2.25,0.3,1,0
+Vertex 0,1.21,       2.15,-0.3,1,0	;b
+Vertex 1.23,1.65,   2.28,-0.3,1,0	;t	
+Vertex 1.24,1.21,   2.21,-0.3,1,0	;b	
+Vertex 1.25,1.65,   2.26,-0.6,1,0	;t	
+Vertex 1.28,1.15,   2.25,-0.6,1,0	;b
+Vertex 1.25,1.65,   2.25,-0.6,1,0		
+Vertex 1.28,1.21,   2.25,-0.6,1,0	
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+face 9,8,10,11
+face 11,10,12,13
+[Texture]
+Load 45nose1.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0.98,0
+Coordinates 3,0.98,1
+Coordinates 4,0.95,0
+Coordinates 5,0.95,1
+Coordinates 6,0.5,0
+Coordinates 7,0.5,1
+Coordinates 8,0.05,0
+Coordinates 9,0.05,1
+Coordinates 10,0.03,0
+Coordinates 11,0.03,1
+Coordinates 12,0,0
+Coordinates 13,0,1
+translate 0,1.34,0
+Transparent 0, 0, 255
+
+;yellow nose top
+[MeshBuilder]
+Vertex -1.28,1.21,  2.25,0.6,1,0		
+Vertex -1.25,1.65,  2.25,0.6,1,0
+Vertex -1.26,1.5,    2.25,0.6,1,0		
+Vertex -1.28,1.15,  2.28,0.6,1,0	
+Vertex -1.23,1.65,  2.28,0.3,1,0
+Vertex -1.24,1.21,  2.21,0.3,1,0	
+Vertex 0,1.65,       2.25,0.3,1,0
+Vertex 0,1.21,       2.15,-0.3,1,0	;b
+Vertex 1.23,1.65,   2.28,-0.3,1,0	;t	
+Vertex 1.24,1.21,   2.21,-0.3,1,0	;b	
+Vertex 1.25,1.65,   2.26,-0.6,1,0	;t	
+Vertex 1.28,1.15,   2.25,-0.6,1,0	;b
+Vertex 1.25,1.65,   2.25,-0.6,1,0		
+Vertex 1.28,1.21,   2.25,-0.6,1,0	
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+face 9,8,10,11
+face 11,10,12,13
+[Texture]
+Load 45nose1.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0.98,0
+Coordinates 3,0.98,1
+Coordinates 4,0.95,0
+Coordinates 5,0.95,1
+Coordinates 6,0.5,0
+Coordinates 7,0.5,1
+Coordinates 8,0.05,0
+Coordinates 9,0.05,1
+Coordinates 10,0.03,0
+Coordinates 11,0.03,1
+Coordinates 12,0,0
+Coordinates 13,0,1
+
+Transparent 0, 0, 255
+translate 0,1.342,-20.8
+Rotate 0,90,0,180
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;front 
+[MeshBuilder]
+Vertex -1.297,1.21,2.37,0.6,1,0		
+Vertex -1.297,2.55,2.37,0.6,1,0
+Vertex -1.285,2.55,2.25,0.6,1,0		
+Vertex -1.285,1.21,2.25,0.6,1,0	
+Vertex -1.24,2.55,2.21,0.3,1,0
+Vertex -1.24,1.21,2.21,0.3,1,0	
+Vertex 0,2.55,2.15,0.3,1,0
+Vertex 0,1.21,2.15,-0.3,1,0
+Vertex 1.24,2.55,2.21,-0.3,1,0	
+Vertex 1.24,1.21,2.21,-0.3,1,0	
+Vertex 1.285,2.55,2.25,-0.6,1,0	
+Vertex 1.285,1.21,2.25,-0.6,1,0
+Vertex 1.297,2.55,2.37,-0.6,1,0		
+Vertex 1.297,1.21,2.37,-0.6,1,0	
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+face 9,8,10,11
+face 11,10,12,13
+[Texture]
+Load 45nose.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0.98,0
+Coordinates 3,0.98,1
+Coordinates 4,0.95,0
+Coordinates 5,0.95,1
+Coordinates 6,0.5,0
+Coordinates 7,0.5,1
+Coordinates 8,0.05,0
+Coordinates 9,0.05,1
+Coordinates 10,0.03,0
+Coordinates 11,0.03,1
+Coordinates 12,0,0
+Coordinates 13,0,1
+Transparent 0, 0, 255
+
+;front 
+[MeshBuilder]
+Vertex -1.297,1.21,2.37,0.6,1,0		
+Vertex -1.297,2.55,2.37,0.6,1,0
+Vertex -1.285,2.55,2.25,0.6,1,0		
+Vertex -1.285,1.21,2.25,0.6,1,0	
+Vertex -1.24,2.55,2.21,0.3,1,0
+Vertex -1.24,1.21,2.21,0.3,1,0	
+Vertex 0,2.55,2.15,0.3,1,0
+Vertex 0,1.21,2.15,-0.3,1,0
+Vertex 1.24,2.55,2.21,-0.3,1,0	
+Vertex 1.24,1.21,2.21,-0.3,1,0	
+Vertex 1.285,2.55,2.25,-0.6,1,0	
+Vertex 1.285,1.21,2.25,-0.6,1,0
+Vertex 1.297,2.55,2.37,-0.6,1,0		
+Vertex 1.297,1.21,2.37,-0.6,1,0	
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+face 9,8,10,11
+face 11,10,12,13
+[Texture]
+Load 45nose.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0.98,0
+Coordinates 3,0.98,1
+Coordinates 4,0.95,0
+Coordinates 5,0.95,1
+Coordinates 6,0.5,0
+Coordinates 7,0.5,1
+Coordinates 8,0.05,0
+Coordinates 9,0.05,1
+Coordinates 10,0.03,0
+Coordinates 11,0.03,1
+Coordinates 12,0,0
+Coordinates 13,0,1
+Transparent 0, 0, 255
+translate 0,0,-20.8
+Rotate 0,90,0,180
+
+
+;cab roof
+[MeshBuilder]
+Vertex -1.297,3.13,0.20	,0.6,1,0		
+Vertex -1.290,3.37,0.20	,0.6,1,0
+Vertex -1.15,3.46,0.22 	,0.6,1,0	
+Vertex -1.2,3.2,0.22	,0.3,1,0	
+Vertex -0.66,3.61,0.2	,0.3,1,0	
+Vertex -0.66,3.37,0.22	,0.3,1,0
+Vertex -0.33,3.67,0.22	,0.3,1,0	
+Vertex -0.33,3.45,0.22	,0.3,1,0
+Vertex 0,3.69,0.20		,0.3,1,0
+
+Vertex 0,3.5,0.20		,0.3,1,0
+Vertex 0.33,3.67,0.22	,-0.3,1,0	
+Vertex 0.33,3.45,0.22	,-0.3,1,0
+Vertex 0.66,3.61,0.2	,-0.3,1,0	
+Vertex 0.66,3.37,0.22	,-0.3,1,0	
+Vertex 1.15,3.43,0.22 	,-0.3,1,0	
+Vertex 1.2,3.2,0.22		,-0.6,1,0
+Vertex 1.297,3.37,0.20	,-0.6,1,0		
+Vertex 1.290,3.13,0.20	,-0.6,1,0
+
+
+vertex -1.297,3.37,0.3	,0.6,3,2
+Vertex -1.2,3.48,0.3 	,0.6,3,2
+Vertex -0.66,3.7,0.3	,0.3,1,0	
+Vertex -0.33,3.800,0.3	,0.3,1,0
+Vertex 0,3.825,0.3 		,0.3,1,0	
+Vertex 0.33,3.800,0.3	,-0.3,1,0
+Vertex 0.66,3.7, 0.3 	,-0.3,1,0	
+Vertex 1.2,3.48,0.3 	,-0.6,1,2
+Vertex 1.297,3.37,0.3 	,-0.6,1,2
+ 
+Vertex -1.297,3.4,0.45 	,-0.8,1,0	
+Vertex -1.2,3.52,0.45 	,-0.8,1,0
+Vertex -0.66,3.765,0.45 	,0.8,1,0	
+Vertex -0.33,3.84,0.45 	,0.8,1,0
+Vertex 0,3.86,0.45 		,0.8,1,0
+Vertex 0.33,3.84,0.45	,-0.5,1,0	
+Vertex 0.66,3.765,0.45 	,-0.5,1,0
+Vertex 1.2,3.50,0.45 	,-0.5,1,0	
+Vertex 1.297,3.385,0.45	,-0.5,1,0
+
+
+Vertex -1.297,3.4,0.6 	,-0.6,1,0
+Vertex -1.2,3.49,0.6	,-0.6,1,0
+Vertex -0.66,3.785,0.6 	,0.3,1,0
+Vertex -0.33,3.870,0.6 	,0.3,1,0
+Vertex 0,3.905,0.6 		,0.3,1,0
+Vertex 0.33,3.870,0.6 	,-0.3,1,0	
+Vertex 0.66,3.785,0.6 	,-0.3,1,0
+Vertex 1.2,3.49,0.6 	,-0.6,1,0
+Vertex 1.3,3.38,0.6 	,-0.6,1,0
+
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+face 9,8,10,11
+face 11,10,12,13
+face 13,12,14,15
+face 15,14,16,17
+face 1,18,19,2
+face 2,19,20,4
+face 4,20,21,6
+face 6,21,22,8
+face 8,22,23,10
+face 10,23,24,12
+face 12,24,25,14
+face 14,25,26,16
+face  18,27,28,19
+face  19,28,29,20
+face  20,29,30,21
+face  21,30,31,22
+face  22,31,32,23
+face  23,32,33,24
+face  24,33,34,25
+face  25,34,35,26
+face  27,36,37,28
+face  28,37,38,29
+face  29,38,39,30
+face  30,39,40,31
+face  31,40,41,32
+face  32,41,42,33
+face  33,42,43,34
+face  34,43,44,35
+[Texture]
+color 60,103,109
+translate 0,-0.06,3.06
+
+;cab roof b end
+[MeshBuilder]
+Vertex -1.297,3.13,0.20	,0.6,1,0		
+Vertex -1.290,3.37,0.20	,0.6,1,0
+Vertex -1.15,3.46,0.22 	,0.6,1,0	
+Vertex -1.2,3.2,0.22	,0.3,1,0	
+Vertex -0.66,3.61,0.2	,0.3,1,0	
+Vertex -0.66,3.37,0.22	,0.3,1,0
+Vertex -0.33,3.67,0.22	,0.3,1,0	
+Vertex -0.33,3.45,0.22	,0.3,1,0
+Vertex 0,3.69,0.20		,0.3,1,0
+
+Vertex 0,3.5,0.20		,0.3,1,0
+Vertex 0.33,3.67,0.22	,-0.3,1,0	
+Vertex 0.33,3.45,0.22	,-0.3,1,0
+Vertex 0.66,3.61,0.2	,-0.3,1,0	
+Vertex 0.66,3.37,0.22	,-0.3,1,0	
+Vertex 1.15,3.43,0.22 	,-0.3,1,0	
+Vertex 1.2,3.2,0.22		,-0.6,1,0
+Vertex 1.297,3.37,0.20	,-0.6,1,0		
+Vertex 1.290,3.13,0.20	,-0.6,1,0
+
+
+vertex -1.297,3.37,0.3	,0.6,3,2
+Vertex -1.2,3.48,0.3 	,0.6,3,2
+Vertex -0.66,3.7,0.3	,0.3,1,0	
+Vertex -0.33,3.800,0.3	,0.3,1,0
+Vertex 0,3.825,0.3 		,0.3,1,0	
+Vertex 0.33,3.800,0.3	,-0.3,1,0
+Vertex 0.66,3.7, 0.3 	,-0.3,1,0	
+Vertex 1.2,3.48,0.3 	,-0.6,1,2
+Vertex 1.297,3.37,0.3 	,-0.6,1,2
+ 
+Vertex -1.297,3.4,0.45 	,-0.8,1,0	
+Vertex -1.2,3.52,0.45 	,-0.8,1,0
+Vertex -0.66,3.765,0.45 	,0.8,1,0	
+Vertex -0.33,3.84,0.45 	,0.8,1,0
+Vertex 0,3.86,0.45 		,0.8,1,0
+Vertex 0.33,3.84,0.45	,-0.5,1,0	
+Vertex 0.66,3.765,0.45 	,-0.5,1,0
+Vertex 1.2,3.50,0.45 	,-0.5,1,0	
+Vertex 1.297,3.385,0.45	,-0.5,1,0
+
+
+Vertex -1.297,3.4,0.6 	,-0.6,1,0
+Vertex -1.2,3.49,0.6	,-0.6,1,0
+Vertex -0.66,3.785,0.6 	,0.3,1,0
+Vertex -0.33,3.870,0.6 	,0.3,1,0
+Vertex 0,3.905,0.6 		,0.3,1,0
+Vertex 0.33,3.870,0.6 	,-0.3,1,0	
+Vertex 0.66,3.785,0.6 	,-0.3,1,0
+Vertex 1.2,3.49,0.6 	,-0.6,1,0
+Vertex 1.3,3.38,0.6 	,-0.6,1,0
+
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+face 9,8,10,11
+face 11,10,12,13
+face 13,12,14,15
+face 15,14,16,17
+face 1,18,19,2
+face 2,19,20,4
+face 4,20,21,6
+face 6,21,22,8
+face 8,22,23,10
+face 10,23,24,12
+face 12,24,25,14
+face 14,25,26,16
+face  18,27,28,19
+face  19,28,29,20
+face  20,29,30,21
+face  21,30,31,22
+face  22,31,32,23
+face  23,32,33,24
+face  24,33,34,25
+face  25,34,35,26
+face  27,36,37,28
+face  28,37,38,29
+face  29,38,39,30
+face  30,39,40,31
+face  31,40,41,32
+face  32,41,42,33
+face  33,42,43,34
+face  34,43,44,35
+[Texture]
+color 60,103,109
+translate 0,-0.06,-17.8
+Rotate 0,90,0,180
+
+;cab windows
+[MeshBuilder]
+Vertex -1.295,0.95,0.15
+Vertex -1.295,2.02,0.52
+Vertex -0.6475,2,0.42
+Vertex -0.6475,1,0.1
+Vertex 0,2,0.4
+Vertex 0,1,0
+Vertex 0.6475,2,0.4
+Vertex 0.6475,1,0.1
+Vertex 1.295,2,0.52
+Vertex 1.295,0.95,0.15
+face2 0,1,2,3
+face2 3,2,4,5
+face2 5,4,6,7
+face2 7,6,8,9
+[Texture]
+Load 45cabwindows.png
+Coordinates 0,0,0,
+Coordinates 1,1,0,
+Coordinates 2,1,0.25,
+Coordinates 3,0,0.25,
+Coordinates 4,1,0.5,
+Coordinates 5,0,0.5,
+Coordinates 6,1,0.75,
+Coordinates 7,0,0.75,
+Coordinates 8,1,1
+Coordinates 9,0,1
+transparent 0,0,255
+translate 0,1.6,2.86
+
+;cab windows b end
+[MeshBuilder]
+Vertex -1.295,0.95,0.15,0.6,1,0
+Vertex -1.295,2.02,0.52,0.6,1,0
+Vertex -0.6475,2,0.42,0.3,1,0
+Vertex -0.6475,1,0.1,0.3,1,0
+Vertex 0,2,0.4,0.3,1,0
+Vertex 0,1,0,-0.3,1,0
+Vertex 0.6475,2,0.4,-0.3,1,0
+Vertex 0.6475,1,0.1,-0.3,1,0
+Vertex 1.295,2,0.52,-0.6,1,0
+Vertex 1.295,0.95,0.15,-0.6,1,0
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+[Texture]
+Load 45cabwindows.png
+Coordinates 0,0,0,
+Coordinates 1,1,0,
+Coordinates 2,1,0.25,
+Coordinates 3,0,0.25,
+Coordinates 4,1,0.5,
+Coordinates 5,0,0.5,
+Coordinates 6,1,0.75,
+Coordinates 7,0,0.75,
+Coordinates 8,1,1
+Coordinates 9,0,1
+transparent 0,0,255
+translate 0,1.6,-18
+Rotate 0,90,0,180
+
+;front of cab front
+[MeshBuilder]
+Vertex -1.295,1.21,1.98	;;,0.6,1,0	
+Vertex -1.295,1.21,2.58	;,0.6,1,0
+Vertex -1.295,2.55,2.58	;,0.6,1,0
+Vertex -1.295,2.55,1.98	;,0.6,1,0
+Vertex -1.1,2.82,2.66	,0.3,1,0	
+Vertex -1.1,2.82,1.98	,0.3,1,0	
+Vertex -0.65,2.94,2.6	,0.3,1,0	
+Vertex -0.65,2.95,1.98	,0.3,1,0		
+Vertex 0,2.97,2.68		,0.3,1,0	
+Vertex 0,2.97,1.98		,-0.3,1,0
+Vertex 0.65,2.94,2.68	,-0.3,1,0	
+Vertex 0.65,2.95,1.98	,-0.3,1,0		
+Vertex 1.1,2.82,2.66	,-0.3,1,0
+Vertex 1.1,2.82,1.98	,-0.3,1,0	
+Vertex 1.295,2.55,2.58	;,-0.6,1,0
+Vertex 1.295,2.55,1.98	;,-0.6,1,0		
+Vertex 1.295,1.21,2.58	;,-0.6,1,0	
+Vertex 1.295,1.21,1.98 	;,-0.6,1,0	
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+face 9,8,10,11
+face 11,10,12,13
+face 13,12,14,15
+face 15,14,16,17
+[Texture]
+Load 45cabfront.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,0.35
+Coordinates 3,0,0.35
+Coordinates 4,1,0.38
+Coordinates 5,0,0.38
+Coordinates 6,1,0.45
+Coordinates 7,0,0.45
+Coordinates 8,1,0.5
+Coordinates 9,0,0.5
+Coordinates 10,1,0.55
+Coordinates 11,0,0.55
+Coordinates 12,1,0.62
+Coordinates 13,0,0.62
+Coordinates 14,1,0.65
+Coordinates 15,0,0.65
+Coordinates 16,1,1
+Coordinates 17,0,1
+transparent 0,0,255
+translate 0,0,0.39
+
+
+;front of cab b end
+[MeshBuilder]
+Vertex -1.295,1.21,1.98	;;,0.6,1,0	
+Vertex -1.295,1.21,2.58	;,0.6,1,0
+Vertex -1.295,2.55,2.58	;,0.6,1,0
+Vertex -1.295,2.55,1.98	;,0.6,1,0
+Vertex -1.1,2.82,2.66	,0.3,1,0	
+Vertex -1.1,2.82,1.98	,0.3,1,0	
+Vertex -0.65,2.94,2.6	,0.3,1,0	
+Vertex -0.65,2.95,1.98	,0.3,1,0		
+Vertex 0,2.97,2.68		,0.3,1,0	
+Vertex 0,2.97,1.98		,-0.3,1,0
+Vertex 0.65,2.94,2.68	,-0.3,1,0	
+Vertex 0.65,2.95,1.98	,-0.3,1,0		
+Vertex 1.1,2.82,2.66	,-0.3,1,0
+Vertex 1.1,2.82,1.98	,-0.3,1,0	
+Vertex 1.295,2.55,2.58	;,-0.6,1,0
+Vertex 1.295,2.55,1.98	;,-0.6,1,0		
+Vertex 1.295,1.21,2.58	;,-0.6,1,0	
+Vertex 1.295,1.21,1.98 	;,-0.6,1,0	
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+face 9,8,10,11
+face 11,10,12,13
+face 13,12,14,15
+face 15,14,16,17
+[Texture]
+Load 45cabfront.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,0.35
+Coordinates 3,0,0.35
+Coordinates 4,1,0.38
+Coordinates 5,0,0.38
+Coordinates 6,1,0.45
+Coordinates 7,0,0.45
+Coordinates 8,1,0.5
+Coordinates 9,0,0.5
+Coordinates 10,1,0.55
+Coordinates 11,0,0.55
+Coordinates 12,1,0.62
+Coordinates 13,0,0.62
+Coordinates 14,1,0.65
+Coordinates 15,0,0.65
+Coordinates 16,1,1
+Coordinates 17,0,1
+transparent 0,0,255
+translate 0,0,15.84
+
+
+; main roof
+[MeshBuilder]
+Vertex -1.295,1.21,2.97		
+Vertex -1.295,1.21,17.82	;;BOTTOM TWO
+Vertex -1.295,3.34,17.82
+Vertex -1.295,3.34,2.97
+Vertex -0.98,3.58,17.82	
+Vertex -0.98,3.56,2.97
+Vertex -0.65,3.73,17.82	
+Vertex -0.65,3.73,2.97
+Vertex 0,3.84,17.82		
+Vertex 0,3.84,2.97	
+Vertex 0.65,3.73,17.82	
+Vertex 0.65,3.73,2.97
+Vertex 1,3.58,17.82	
+Vertex 1,3.54,2.97	
+Vertex 1.295,3.34,17.82	
+Vertex 1.295,3.34,3.46		
+Vertex 1.295,1.21,17.82	;;BOTTOM TWO
+Vertex 1.295,1.21,2.97     
+	
+face2 0,1,2,3
+face2 3,2,4,5
+face2 5,4,6,7
+face2 7,6,8,9
+face2 9,8,10,11
+face2 11,10,12,13
+face2 13,12,14,15
+face2 15,14,16,17
+[Texture]
+Load 45_side1.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,0.33
+Coordinates 3,0,0.33
+Coordinates 4,1,0.38
+Coordinates 5,0,0.38
+Coordinates 6,1,0.45
+Coordinates 7,0,0.45
+Coordinates 8,1,0.5
+Coordinates 9,0,0.5
+Coordinates 10,1,0.55
+Coordinates 11,0,0.55
+Coordinates 12,1,0.62
+Coordinates 13,0,0.62
+Coordinates 14,1,0.67
+Coordinates 15,0,0.67
+Coordinates 16,1,1
+Coordinates 17,0,1
+transparent 0,0,0
+
+
+
+;wheels
+;left idler bogie A
+[MeshBuilder]  
+cylinder 120,0.46,0.47,0.095
+rotate  0,0,90,90
+translate 0.715,0.6,2.75
+Color 24,24,24
+[MeshBuilder] 
+cylinder 120,0.46,0.53,0.025
+rotate  0,0,90,90
+translate 0.655,0.6,2.75
+Color 72,72,72
+
+;right idler bogie A
+[MeshBuilder] 
+cylinder 120,0.46,0.47,0.095
+rotate 0,0,90,90
+translate -0.715,0.6,2.75
+Color 24,24,24
+[MeshBuilder] 
+cylinder 120,0.53,0.53,0.025
+rotate  0,0,90,90
+translate -0.655,0.6,2.75
+Color 72,72,72
+
+;left 1st bogie A
+[MeshBuilder]  
+cylinder 120,0.46,0.47,0.095
+rotate  0,0,90,90
+translate 0.715,0.64,4
+Color 24,24,24
+[MeshBuilder] 
+cylinder 120,0.46,0.53,0.025
+rotate  0,0,90,90
+translate 0.655,0.64,4
+Color 72,72,72
+
+;right 1st bogie A
+[MeshBuilder] 
+cylinder 120,0.5,0.5,0.095
+rotate 0,0,90,90
+translate -0.715,0.64,4
+Color 24,24,24
+[MeshBuilder] 
+cylinder 120,0.57,0.57,0.025
+rotate  0,0,90,90
+translate -0.655,0.64,4
+Color 72,72,72
+
+
+;left 2nd bogie A
+[MeshBuilder]  
+cylinder 120,0.46,0.47,0.095
+rotate  0,0,90,90
+translate 0.715,0.64,5.85
+Color 24,24,24
+[MeshBuilder] 
+cylinder 120,0.46,0.53,0.025
+rotate  0,0,90,90
+translate 0.655,0.64,5.85
+Color 72,72,72
+
+;right 2nd bogie A
+[MeshBuilder] 
+cylinder 120,0.5,0.5,0.095
+rotate 0,0,90,90
+translate -0.715,0.64,5.85
+Color 24,24,24
+[MeshBuilder] 
+cylinder 120,0.57,0.57,0.025
+rotate  0,0,90,90
+translate -0.655,0.64,5.85
+Color 72,72,72
+
+;left 3rd bogie A
+[MeshBuilder]  
+cylinder 120,0.46,0.47,0.095
+rotate  0,0,90,90
+translate 0.715,0.64,7.9
+Color 24,24,24
+[MeshBuilder] 
+cylinder 120,0.46,0.53,0.025
+rotate  0,0,90,90
+translate 0.655,0.64,7.9
+Color 72,72,72
+
+;right 3rd bogie A
+[MeshBuilder] 
+cylinder 120,0.5,0.5,0.095
+rotate 0,0,90,90
+translate -0.715,0.64,7.9
+Color 24,24,24
+[MeshBuilder] 
+cylinder 120,0.57,0.57,0.025
+rotate  0,0,90,90
+translate -0.655,0.64,7.9
+Color 72,72,72
+
+;left 3rd bogie B
+[MeshBuilder]  
+cylinder 120,0.46,0.47,0.095
+rotate  0,0,90,90
+translate 0.715,0.64,12.94
+Color 24,24,24
+[MeshBuilder] 
+cylinder 120,0.46,0.53,0.025
+rotate  0,0,90,90
+translate 0.655,0.64,12.94
+Color 72,72,72
+
+;right 3rd bogie B
+[MeshBuilder] 
+cylinder 120,0.5,0.5,0.095
+rotate 0,0,90,90
+translate -0.715,0.64,12.94
+Color 24,24,24
+[MeshBuilder] 
+cylinder 120,0.57,0.57,0.025
+rotate  0,0,90,90
+translate -0.655,0.64,12.94
+Color 72,72,72
+
+;left 2nd bogie B
+[MeshBuilder]  
+cylinder 120,0.46,0.47,0.095
+rotate  0,0,90,90
+translate 0.715,0.64,14.94
+Color 24,24,24
+[MeshBuilder] 
+cylinder 120,0.46,0.53,0.025
+rotate  0,0,90,90
+translate 0.655,0.64,14.94
+Color 72,72,72
+
+;right 2nd bogie B
+[MeshBuilder] 
+cylinder 120,0.5,0.5,0.095
+rotate 0,0,90,90
+translate -0.715,0.64,14.94
+Color 24,24,24
+[MeshBuilder] 
+cylinder 120,0.57,0.57,0.025
+rotate  0,0,90,90
+translate -0.655,0.64,14.94
+Color 72,72,72
+
+;left 1st bogie B
+[MeshBuilder]  
+cylinder 120,0.46,0.47,0.095
+rotate  0,0,90,90
+translate 0.715,0.64,16.85
+Color 24,24,24
+[MeshBuilder] 
+cylinder 120,0.46,0.53,0.025
+rotate  0,0,90,90
+translate 0.655,0.64,16.85
+Color 72,72,72
+
+;right 1st bogie B
+[MeshBuilder] 
+cylinder 120,0.5,0.5,0.095
+rotate 0,0,90,90
+translate -0.715,0.64,16.85
+Color 24,24,24
+[MeshBuilder] 
+cylinder 120,0.57,0.57,0.025
+rotate  0,0,90,90
+translate -0.655,0.64,16.85
+Color 72,72,72
+
+;left idler bogie B
+[MeshBuilder]  
+cylinder 120,0.46,0.47,0.095
+rotate  0,0,90,90
+translate 0.715,0.6,18.01
+Color 24,24,24
+[MeshBuilder] 
+cylinder 120,0.46,0.53,0.025
+rotate  0,0,90,90
+translate 0.655,0.6,18.01
+Color 72,72,72
+
+;right idler bogie B
+[MeshBuilder] 
+cylinder 120,0.46,0.47,0.095
+rotate 0,0,90,90
+translate -0.715,0.6,18.01
+Color 24,24,24
+[MeshBuilder] 
+cylinder 120,0.53,0.53,0.025
+rotate  0,0,90,90
+translate -0.655,0.6,18.01
+Color 72,72,72
+
+[Meshbuilder]
+Vertex -1.27,1,-0.1 
+Vertex 1.35,1,-0.1
+Vertex 1.35,0,-0.1
+Vertex -1.27,0,-0.1
+face2 0,1,2,3
+[Texture]
+Load 45bufferbeam.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+translate 0,0.2,2.3
+
+;b end
+[Meshbuilder]
+Vertex -1.27,1,-0.1 
+Vertex 1.35,1,-0.1
+Vertex 1.35,0,-0.1
+Vertex -1.27,0,-0.1
+face2 0,1,2,3
+[Texture]
+Load 45bufferbeam.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+translate 0,0.2,18.65
+
+
+
+[meshbuilder]
+cylinder 12,0.07,0.07,0.30
+rotate 0,0,0,90,
+translate -0.95,1,2.1,
+color 43,44,45
+
+[meshbuilder]
+cylinder 18,0.3,0.3,0.01
+rotate 0,0,0,90,
+translate -0.95,1,1.95
+color 43,44,45
+
+[meshbuilder]
+cylinder 12,0.07,0.07,0.30
+rotate 0,0,0,90,
+translate 0.95,1,2.1,
+color 43,44,45
+
+[meshbuilder]
+cylinder 18,0.3,0.3,0.01
+rotate 0,0,0,90,
+translate 0.95,1,1.95
+color 43,44,45
+
+[meshbuilder]
+cylinder 12,0.07,0.07,0.30
+rotate 0,0,0,90,
+translate -0.95,1,18.65,
+color 43,44,45
+
+[meshbuilder]
+cylinder 18,0.3,0.3,0.01
+rotate 0,0,0,90,
+translate -0.95,1,18.8
+color 43,44,45
+
+[meshbuilder]
+cylinder 12,0.07,0.07,0.30
+rotate 0,0,0,90,
+translate 0.95,1,18.65,
+color 43,44,45
+
+[meshbuilder]
+cylinder 18,0.3,0.3,0.01
+rotate 0,0,0,90,
+translate 0.95,1,18.8
+color 43,44,45
+
+
+
+[MeshBuilder]
+vertex -1.12,-0.25,0.5
+vertex -1.12,-0.25,7.3
+vertex -1.12,0.6,0.5
+vertex -1.12,0.6,7.3
+vertex 1.12,0.6,0.5
+vertex 1.12,0.6,7.3
+vertex 1.12,-0.25,0.5
+vertex 1.12,-0.25,7.3
+face2 0,1,3,2
+face2 2,3,1,0
+face2 2,3,5,4
+face2 4,5,7,6
+face2 6,7,5,4
+[Texture]
+Load 45bogieB.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,0,0.205
+coordinates 3,1,0.205
+coordinates 4,0,0.79
+coordinates 5,1,0.79
+coordinates 6,0,1
+coordinates 7,1,1
+transparent 0,0,255
+translate 0,0.6,1.71
+
+
+[MeshBuilder]
+vertex -1.12,-0.25,0.5
+vertex -1.12,-0.25,7.3
+vertex -1.12,0.6,0.5
+vertex -1.12,0.6,7.3
+vertex 1.12,0.6,0.5
+vertex 1.12,0.6,7.3
+vertex 1.12,-0.25,0.5
+vertex 1.12,-0.25,7.3
+face2 0,1,3,2
+face2 2,3,1,0
+face2 2,3,5,4
+face2 4,5,7,6
+face2 6,7,5,4
+[Texture]
+Load 45bogieA.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,0,0.205
+coordinates 3,1,0.205
+coordinates 4,0,0.79
+coordinates 5,1,0.79
+coordinates 6,0,1
+coordinates 7,1,1
+translate 0,0.6,11.26
+transparent 0,0,255

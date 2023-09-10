@@ -1,0 +1,42 @@
+[Object]
+States = ..\Cl08\Class08.b3d
+Position = 0,0,0
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\seacow.b3d
+Position = 0,0,10
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\seacow.b3d
+Position = 0,0,21
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\seacow.b3d
+Position = 0,0,32
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\seacow.b3d
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+Position = 0,0,43
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\seacow.b3d
+Position = 0,0,54
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\seacow.b3d
+Position = 0,0,65
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance
+[Object]
+States = ..\wagons\GWR_Toad.b3d
+Position = 0,0,82
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = -trackdistance

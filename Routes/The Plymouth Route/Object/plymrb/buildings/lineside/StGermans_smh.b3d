@@ -1,0 +1,242 @@
+;description=St Germans Stationmaster's House
+;author=Chris Lees
+;copyright=From the BVE Cornwall Plymouth Route. © 2015
+
+;Extension P1
+[MeshBuilder]
+Vertex  1.2 ,  3.925 ,  3.1 
+Vertex  1.2 ,  0 ,  3.1 
+Vertex  7.2 ,  0 ,  3.1 
+Vertex  7.2 ,  3.925 ,  3.1 
+Vertex  7.2 ,  3.925 ,  -3.1 
+Vertex  7.2 ,  0 ,  -3.1
+Vertex  1.2 ,  0 ,  -3.1
+Vertex  1.2 ,  3.925 ,  -3.1 
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,6,7
+
+[Texture]
+Load   smh_01.png
+Coordinates   0,1,0
+Coordinates   1,1,1
+Coordinates   2,0,1
+Coordinates   3,0,0
+Coordinates   4,0.9,0
+Coordinates   5,0.9,1
+Coordinates   6,-0.2,1
+Coordinates   7,-0.2,0
+
+;Extension Roof
+[MeshBuilder]
+Vertex  7.2 ,  3.925 ,  3.1 
+Vertex  1.2 ,  3.925 ,  3.1 
+Vertex  1.2 ,  6.5 ,  0
+Vertex  5.2 ,  6.5 ,  0
+Vertex  7.2 ,  3.925 ,  -3.1 
+Vertex  1.2 ,  3.925 ,  -3.1 
+Vertex  7.2 ,  3.925 ,  -3.1 
+Face 3,2,1,0
+Face 2,3,4,5
+Face 6,3,0
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates  0,1,2
+Coordinates  1,0,2
+Coordinates  2,0,0
+Coordinates  3,1,0
+Coordinates  4,1,2
+Coordinates  5,0,2
+Coordinates  6,0,2
+
+;Main Roof
+[MeshBuilder]
+Vertex  -15.2 ,  3.925 ,  3.1 
+Vertex  1.2 ,  3.925 ,  3.1 
+Vertex  1.2 ,  6.925 ,  -0.5
+Vertex  -15.2 ,  6.925 ,  -0.5
+Vertex  -15.2 ,  3.925 ,  -4.1
+Vertex  1.2 ,  3.925 ,  -4.1
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load ..\..\common\slates.png
+Coordinates  0,4,2
+Coordinates  1,0,2
+Coordinates  2,0,0
+Coordinates  3,4,0
+Coordinates  4,4,2
+Coordinates  5,0,2
+
+;Side 1
+[MeshBuilder]
+Vertex  -15.2 ,  0 ,  -4.1
+Vertex  -15.2 ,  3.925 ,  -4.1
+Vertex  -10.2 ,  3.925 ,  -4.1
+Vertex  -10.2 ,  0 ,  -4.1
+Vertex  1.2 ,  0 ,  -4.1
+Vertex  1.2 ,  3.925 ,  -4.1
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load   smh_01.png
+Coordinates   0,1,1
+Coordinates   1,1,0
+Coordinates   2,0,0
+Coordinates   3,0,1
+Coordinates   4,0.2,1
+Coordinates   5,0.2,0
+
+;House End 1
+[MeshBuilder]
+Vertex  1.2 ,  0 ,  -4.1
+Vertex  1.2 ,  3.925 ,  -4.1 
+Vertex  1.2 ,  6.925 ,  -0.5 
+Vertex  1.2 ,  0 ,  -0.5
+Vertex  1.2 ,  0 ,  3.1
+Vertex  1.2 ,  3.925 ,  3.1
+Face 0,1,2,3
+Face 5,4,3,2
+
+[Texture]
+Load   dbgl_03a.png
+Coordinates   0,0,1
+Coordinates   1,0,0.45
+Coordinates   2,0.5,0
+Coordinates   3,0.5,1
+Coordinates   4,1,1
+Coordinates   5,1,0.45
+
+;House End 2
+[MeshBuilder]
+Vertex  -15.2 ,  0 ,  -4.1
+Vertex  -15.2 ,  3.925 ,  -4.1 
+Vertex  -15.2 ,  6.925 ,  -0.5 
+Vertex  -15.2 ,  0 ,  -0.5
+Vertex  -15.2 ,  0 ,  3.1
+Vertex  -15.2 ,  3.925 ,  3.1
+Face 3,2,1,0
+Face 2,3,4,5
+
+[Texture]
+Load   smh_02.png
+Coordinates   0,0,1
+Coordinates   1,0,0.45
+Coordinates   2,0.5,0
+Coordinates   3,0.5,1
+Coordinates   4,1,1
+Coordinates   5,1,0.45
+
+;Side 2
+[MeshBuilder]
+Vertex  -15.2 ,  0 ,  3.1
+Vertex  -15.2 ,  3.925 ,  3.1
+Vertex  1.2 ,  3.925 ,  3.1
+Vertex  1.2 ,  0 ,  3.1
+Face 3,2,1,0
+
+[Texture]
+Load   smh_03.png
+Coordinates   0,1,1
+Coordinates   1,1,0
+Coordinates   2,0,0
+Coordinates   3,0,1
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,16.35
+Rotate 0,0,1,90
+
+Translate -7,6.85,-0.5
+[Texture]
+Load ..\..\common\rooftiles1.png,,,
+Coordinates 0,0,0
+Coordinates 1,0,18
+Coordinates 2,0.1,0
+Coordinates 3,0.1,18
+Coordinates 4,0.2,0
+Coordinates 5,0.2,18
+Coordinates 6,0.3,0
+Coordinates 7,0.3,18
+Coordinates 8,0.4,0
+Coordinates 9,0.4,18
+Coordinates 10,0.5,0
+Coordinates 11,0.5,18
+Coordinates 12,0.5,0
+Coordinates 13,0.5,18
+Coordinates 14,0.6,0
+Coordinates 15,0.6,18
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,4
+Rotate 0,0,1,90
+
+Translate 3.2,6.45,0
+[Texture]
+Load ..\..\common\rooftiles1.png,,,
+Coordinates 0,0,0
+Coordinates 1,0,6
+Coordinates 2,0.1,0
+Coordinates 3,0.1,6
+Coordinates 4,0.2,0
+Coordinates 5,0.2,6
+Coordinates 6,0.3,0
+Coordinates 7,0.3,6
+Coordinates 8,0.4,0
+Coordinates 9,0.4,6
+Coordinates 10,0.5,0
+Coordinates 11,0.5,6
+Coordinates 12,0.5,0
+Coordinates 13,0.5,6
+Coordinates 14,0.6,0
+Coordinates 15,0.6,6
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,4.5
+Rotate 0,0,1,55
+Rotate 0,1,0,57
+Translate 6.1,5.2,-1.45
+[Texture]
+Load ..\..\common\rooftiles1.png,,,
+Coordinates 0,0,0
+Coordinates 1,0,6
+Coordinates 2,0.1,0
+Coordinates 3,0.1,6
+Coordinates 4,0.2,0
+Coordinates 5,0.2,6
+Coordinates 6,0.3,0
+Coordinates 7,0.3,6
+Coordinates 8,0.4,0
+Coordinates 9,0.4,6
+Coordinates 10,0.5,0
+Coordinates 11,0.5,6
+Coordinates 12,0.5,0
+Coordinates 13,0.5,6
+Coordinates 14,0.6,0
+Coordinates 15,0.6,6
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1,4.5
+Rotate 0,0,1,55
+Rotate 0,1,0,-57
+Translate 6.1,5.2,1.45
+[Texture]
+Load ..\..\common\rooftiles1.png,,,
+Coordinates 0,0,0
+Coordinates 1,0,6
+Coordinates 2,0.1,0
+Coordinates 3,0.1,6
+Coordinates 4,0.2,0
+Coordinates 5,0.2,6
+Coordinates 6,0.3,0
+Coordinates 7,0.3,6
+Coordinates 8,0.4,0
+Coordinates 9,0.4,6
+Coordinates 10,0.5,0
+Coordinates 11,0.5,6
+Coordinates 12,0.5,0
+Coordinates 13,0.5,6
+Coordinates 14,0.6,0
+Coordinates 15,0.6,6

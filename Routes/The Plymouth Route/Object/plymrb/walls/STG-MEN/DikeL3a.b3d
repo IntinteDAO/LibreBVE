@@ -1,0 +1,34 @@
+;Author=Chris Lees
+;Description=Terrain Piece R after Barn Hill Overbridge
+;Copyright=From the BVE Cornwall Plymouth Route. © 2015
+
+[MeshBuilder]
+Vertex  0 , -0.4 , 0
+Vertex  0 , -0.4 , 25
+Vertex  -38 , -0.4 , 45
+Vertex  -4 , -0.4 , 0
+Vertex  -120 , 20 , 9
+Vertex  -150 , 9.2 , 125
+
+Vertex  -38 , -1.4 , 105
+Vertex  0 , -1.4 , 35
+Vertex  -150 , 8.2 , 135
+
+
+
+Face 3,2,1,0
+Face 2,3,4,5
+Face 1,2,6,7
+Face 2,5,8,6
+
+[Texture]
+Load ..\..\common\grass6.png
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 2
+Coordinates 3, 0, 2
+Coordinates 4, 0, 7
+Coordinates 5, 2, 7
+Coordinates 6, 1, 2
+Coordinates 7, 1, 0
+Coordinates 8, 1, 7

@@ -1,0 +1,79 @@
+;-------------------------
+;NWM BVE Route Object File
+;-------------------------
+;
+;Object by TSC team.
+;Not for commercial use.
+;This object and its textures may be freely reused. 
+;Please acknowledge the original authors and leave this header in place.
+
+CreateMeshBuilder,
+AddVertex,-2.44, 0.82, 0,
+AddVertex,-1.94, 0.82, 0,
+AddVertex,-1.94, 0.32, 0,
+AddVertex,-2.44, 0.32, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,20MPH.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+SetEmissiveColor,60,60,60
+
+CreateMeshBuilder,
+AddVertex,-2.44, 0.82, 0.02,
+AddVertex,-1.94, 0.82, 0.02,
+AddVertex,-1.94, 0.32, 0.02,
+AddVertex,-2.44, 0.32, 0.02,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,roundsignback.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder,
+AddVertex,-2.35, 1.09, 0,
+AddVertex,-2.02, 1.09, 0,
+AddVertex,-2.02, 0.69, 0,
+AddVertex,-2.35, 0.69, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,ARROWR.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+SetEmissiveColor,60,60,60
+
+CreateMeshBuilder,
+AddVertex,-2.35, 1.09, 0.02,
+AddVertex,-2.02, 1.09, 0.02,
+AddVertex,-2.02, 0.69, 0.02,
+AddVertex,-2.35, 0.69, 0.02,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,BARROW.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-2.225, 0.95, 0.04,
+AddVertex,-2.155, 0.95, 0.04,
+AddVertex,-2.155, -0.3, 0.04,
+AddVertex,-2.225, -0.3, 0.04,
+AddFace2,0,1,2,3,
+GenerateNormals,
+LoadTexture,..\signals\post.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,

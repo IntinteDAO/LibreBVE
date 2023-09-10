@@ -1,0 +1,227 @@
+;Description=Semaphore gantry for Laira Junction
+;Author=Chris Lees
+;Copyright=From the BVE Cornwall Plymouth Route. ©2013
+
+;Ladder
+[MeshBuilder]
+Vertex -3.92 ,  4.95 ,  0.1 
+Vertex -3.64 ,  4.95 ,  0.1 
+Vertex -3.64 , -0.45 ,  0.6 
+Vertex -3.92 , -0.45 ,  0.6 
+Face2 0,1,2,3
+
+
+[Texture]
+Load ..\ladder.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 15
+Coordinates 3, 0, 15
+Transparent 150,150,150
+
+;Post
+[MeshBuilder]
+Vertex -3.92 ,  4.695 , -0.3 
+Vertex -3.67 ,  4.695 , -0.3 
+Vertex -3.67 ,  1 , -0.3 
+Vertex -3.92 ,  1 , -0.3 
+Face2 0,1,2,3
+Color 255, 255, 255
+
+
+[Texture]
+Load ..\post1.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;More post
+[MeshBuilder]
+Vertex -3.92 ,  1 , -0.3 
+Vertex -3.67 ,  1 , -0.3 
+Vertex -3.67 , -0.5 , -0.3 
+Vertex -3.92 , -0.5 , -0.3 
+Face2 0,1,2,3
+Color 255, 255, 255
+
+
+[Texture]
+Load ..\..\LQSigs\post4.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,0
+
+;Fencing at top
+[MeshBuilder]
+Vertex -7.05 ,  5.35 , -0.65 
+Vertex  -0.55 ,  5.35 , -0.65 
+Vertex  -0.55 ,  4.95 , -0.65 
+Vertex -7.05 ,  4.95 , -0.65 
+Face2 0,1,2,3
+
+
+[Texture]
+Load ..\Relay_Plat1.png
+Coordinates 0, 0, 0
+Coordinates 1, 6, 0
+Coordinates 2, 6, 1
+Coordinates 3, 0, 1
+Transparent 156,156,156
+
+;Support
+[MeshBuilder]
+Vertex -4.45 ,  4.95 , -0.31 
+Vertex  0.55 ,  4.95 , -0.31 
+Vertex  0.55 ,  3.45 , -0.31 
+Vertex -4.45 ,  3.45 , -0.31 
+Face2 0,1,2,3
+
+
+[Texture]
+Load gantry_3_1.png
+Coordinates 0, 0, 0
+Coordinates 1, 1.05, 0
+Coordinates 2, 1.05, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+;Support 2
+[MeshBuilder]
+Vertex -7.55 ,  4.95 , -0.31 
+Vertex -3.45 ,  4.95 , -0.31 
+Vertex -3.45 ,  3.45 , -0.31 
+Vertex -7.55 ,  3.45 , -0.31 
+Face2 0,1,2,3
+
+
+[Texture]
+Load gantry_3_1.png
+Coordinates 0, 0, 0
+Coordinates 1, -0.95, 0
+Coordinates 2, -0.95, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+;Side 1
+[MeshBuilder]
+Vertex -7.05 ,  4.95 , -0.7 
+Vertex  -0.55 ,  4.95 , -0.7 
+Vertex  -0.55 ,  4.45 , -0.7 
+Vertex -7.05 ,  4.45 , -0.7 
+Face2 0,1,2,3
+
+
+[Texture]
+Load gantry_3_2.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+;Side 2
+[MeshBuilder]
+Vertex -7.05 ,  4.95 ,  0.1 
+Vertex  -0.55 ,  4.95 ,  0.1 
+Vertex  -0.55 ,  4.45 ,  0.1 
+Vertex -7.05 ,  4.45 ,  0.1 
+Face2 0,1,2,3
+
+
+[Texture]
+Load gantry_3_2.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+;Top
+[MeshBuilder]
+Vertex  -0.55 ,  4.95 ,  0.1 
+Vertex  -0.55 ,  4.95 , -0.7 
+Vertex -7.05 ,  4.95 , -0.7 
+Vertex -7.05 ,  4.95 ,  0.1 
+Face2 0,1,2,3
+
+[Texture]
+Load gantry_2_3.png
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 8
+Coordinates 3, 0, 8
+Transparent 0,0,255
+
+;Bottom
+[MeshBuilder]
+Vertex  -0.55 ,  4.45 ,  0.1 
+Vertex  -0.55 ,  4.45 , -0.7 
+Vertex -7.05 ,  4.45 , -0.7 
+Vertex -7.05 ,  4.45 ,  0.1 
+Face2 0,1,2,3
+
+[Texture]
+Load gantry_3_3.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 6
+Coordinates 3, 0, 6
+Transparent 0,0,255
+
+;Signal post 1
+[MeshBuilder]
+Vertex -4.8 ,  5.7 , -0.35 
+Vertex -5.5 ,  5.7 , -0.35 
+Vertex -5.5 ,  4.95 , -0.35 
+Vertex -4.8 ,  4.95 , -0.35 
+Face2  3, 2, 1, 0
+
+[Texture]
+Load gantry_2_5.png
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+Transparent 0,0,255
+
+;Signal post 1
+[MeshBuilder]
+Vertex -2.8 ,  6.2 , -0.35 
+Vertex -3.5 ,  6.2 , -0.35 
+Vertex -3.5 ,  4.95 , -0.35 
+Vertex -2.8 ,  4.95 , -0.35 
+Face2  3, 2, 1, 0
+
+[Texture]
+Load gantry_2_5.png
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+Transparent 0,0,255
+
+
+
+;Signal post 3
+[MeshBuilder]
+Vertex -1.0 ,  6.7 , -0.35 
+Vertex -1.7 ,  6.7 , -0.35 
+Vertex -1.7 ,  4.95 , -0.35 
+Vertex -1.0 ,  4.95 , -0.35 
+Face2  3, 2, 1, 0
+
+[Texture]
+Load gantry_2_5.png
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+Transparent 0,0,255
+
+
+
+
+
